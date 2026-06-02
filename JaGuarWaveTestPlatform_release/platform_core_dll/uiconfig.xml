@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CTF>
+	<ui>
+		<!-- 左侧按钮配置 -->
+		<project_button>
+			<image_height>48</image_height>
+			<image_weight>48</image_weight>
+			<label_height>20</label_height>
+			<height>72</height>
+			<font_id>1</font_id>
+			<label_textcolor>#FFFFFFFF</label_textcolor>
+		</project_button>
+		<group_button>
+			<height>30</height>
+			<textcolor>#FF000000"</textcolor>
+			<font_id>1</font_id>
+			<normal_image>file='button_nor.bmp' corner='5,5,5,5'</normal_image>
+			<focused_image>file='button_over.bmp' corner='5,5,5,5'</focused_image>
+			<disable_image>file='disable_btn.png' corner='5,5,5,5'</disable_image>
+			<hot_image>file='button_down.bmp' corner='5,5,5,5'</hot_image>
+			<pushed_image>file='button_down.bmp' corner='5,5,5,5'</pushed_image>
+		</group_button>
+		<button_image_group>
+			<image>
+				<normal_image>file='download.png' corner='5,5,5,5'</normal_image>
+				<focused_image>file='download_focused.png' corner='5,5,5,5'</focused_image>
+				<disable_image>file='disable_btn.png' corner='5,5,5,5'</disable_image>
+				<hot_image>file='download_hot_pushed.png' corner='5,5,5,5'</hot_image>
+				<pushed_image>file='download_hot_pushed.png' corner='5,5,5,5'</pushed_image>
+			</image>
+			<image>
+				<normal_image>file='icon5.png' corner='5,5,5,5'</normal_image>
+				<focused_image>file='icon5_focused.png' corner='5,5,5,5'</focused_image>
+				<disable_image>file='disable_btn.png' corner='5,5,5,5'</disable_image>
+				<hot_image>file='icon5_host_pushed.png' corner='5,5,5,5'</hot_image>
+				<pushed_image>file='icon5_host_pushed.png' corner='5,5,5,5'</pushed_image>
+			</image>
+			<image>
+				<normal_image>file='icon6.png' corner='5,5,5,5'</normal_image>
+				<focused_image>file='icon6_focused.png' corner='5,5,5,5'</focused_image>
+				<disable_image>file='disable_btn.png' corner='5,5,5,5'</disable_image>
+				<hot_image>file='icon6_hot_pushed.png' corner='5,5,5,5'</hot_image>
+				<pushed_image>file='icon6_hot_pushed.png' corner='5,5,5,5'</pushed_image>
+			</image>
+			<image>
+				<normal_image>file='icon7.png' corner='5,5,5,5'</normal_image>
+				<focused_image>file='icon7_focused.png' corner='5,5,5,5'</focused_image>
+				<disable_image>file='disable_btn.png' corner='5,5,5,5'</disable_image>
+				<hot_image>file='icon7_hot_pushed.png' corner='5,5,5,5'</hot_image>
+				<pushed_image>file='icon7_hot_pushed.png' corner='5,5,5,5'</pushed_image>
+			</image>
+			<image>
+				<normal_image>file='icon8.png' corner='5,5,5,5'</normal_image>
+				<focused_image>file='icon8_focused.png' corner='5,5,5,5'</focused_image>
+				<disable_image>file='disable_btn.png' corner='5,5,5,5'</disable_image>
+				<hot_image>file='icon8_hot_pushed.png' corner='5,5,5,5'</hot_image>
+				<pushed_image>file='icon8_hot_pushed.png' corner='5,5,5,5'</pushed_image>
+			</image>
+			<image>
+				<normal_image>file='rfcal.png' corner='5,5,5,5'</normal_image>
+				<focused_image>file='rfcal_focused.png' corner='5,5,5,5'</focused_image>
+				<disable_image>file='disable_btn.png' corner='5,5,5,5'</disable_image>
+				<hot_image>file='rfcal_hot_pushed.png' corner='5,5,5,5'</hot_image>
+				<pushed_image>file='rfcal_hot_pushed.png' corner='5,5,5,5'</pushed_image>
+			</image>
+			<image>
+				<normal_image>file='rftest.png' corner='5,5,5,5'</normal_image>
+				<focused_image>file='rftest_focused.png' corner='5,5,5,5'</focused_image>
+				<disable_image>file='disable_btn.png' corner='5,5,5,5'</disable_image>
+				<hot_image>file='rftest_hot_pushed.png' corner='5,5,5,5'</hot_image>
+				<pushed_image>file='rftest_hot_pushed.png' corner='5,5,5,5'</pushed_image>
+			</image>
+			<image>
+				<normal_image>file='system_upgrade.png' corner='5,5,5,5'</normal_image>
+				<focused_image>file='system_upgrade_focused.png' corner='5,5,5,5'</focused_image>
+				<disable_image>file='disable_btn.png' corner='5,5,5,5'</disable_image>
+				<hot_image>file='system_upgrade_hot_pushed.png' corner='5,5,5,5'</hot_image>
+				<pushed_image>file='system_upgrade_hot_pushed.png' corner='5,5,5,5'</pushed_image>
+			</image>
+			<image>
+				<normal_image>file='update.png' corner='5,5,5,5'</normal_image>
+				<focused_image>file='update_focused.png' corner='5,5,5,5'</focused_image>
+				<disable_image>file='disable_btn.png' corner='5,5,5,5'</disable_image>
+				<hot_image>file='update_hot_pushed.png' corner='5,5,5,5'</hot_image>
+				<pushed_image>file='update_hot_pushed.png' corner='5,5,5,5'</pushed_image>
+			</image>
+			<image>
+				<normal_image>file='wifical.png' corner='5,5,5,5'</normal_image>
+				<focused_image>file='wifical_focused.png' corner='5,5,5,5'</focused_image>
+				<disable_image>file='disable_btn.png' corner='5,5,5,5'</disable_image>
+				<hot_image>file='wifical_hot_pushed.png' corner='5,5,5,5'</hot_image>
+				<pushed_image>file='wifical_hot_pushed.png' corner='5,5,5,5'</pushed_image>
+			</image>
+			<image>
+				<normal_image>file='wifitest.png' corner='5,5,5,5'</normal_image>
+				<focused_image>file='wifitest_focused.png' corner='5,5,5,5'</focused_image>
+				<disable_image>file='disable_btn.png' corner='5,5,5,5'</disable_image>
+				<hot_image>file='wifitest_hot_pushed.png' corner='5,5,5,5'</hot_image>
+				<pushed_image>file='wifitest_hot_pushed.png' corner='5,5,5,5'</pushed_image>
+			</image>
+		</button_image_group>
+		<viewloader>
+			<plugin name="CTFUiLibViewResolver.dll">
+				<clsid id="1" value="CCTFUiLibViewResoverDialog"/>
+				<clsid id="2" value="CCTFUiLibPluginViewResolver"/>
+			</plugin>
+			<!--name clsid="CCTFUiLibViewResoverDialog" plugin_name="CTFUiLibViewResolver.dll" />
+			<name clsid="CCTFUiLibPluginViewResolver" plugin_name="CTFUiLibViewResolver.dll" /-->
+		</viewloader>
+	</ui>
+	<!-- 插件配置信息 -->
+	<plugin>
+		<group name="6502"><!-- userviewloader 为0的时候不使用viewloader -->
+			<pln stationid="50" clsid="CGNetDownLoadViewDlg" viewloader_id="2" module_folder="GNetDownLoadPlugin" name="GNetDownLoadPlugin.dll" station_name="G网下载" image_id="0" />
+			<pln stationid="50" clsid="CGNetRFCalTestViewDlg" viewloader_id="2" module_folder="6502_J_GNetRFPln" name="GNetRFCalTestPlugin.dll" station_name="柬埔寨校准" image_id="2" />
+			<pln stationid="50" clsid="CGNetRFCalTestViewDlg" viewloader_id="2" module_folder="6502_N_GNetRFPln" name="GNetRFCalTestPlugin.dll" station_name="尼加拉瓜校准" image_id="2" />
+		</group>
+		<group name="6557"><!-- userviewloader 为0的时候不使用viewloader -->
+			<pln stationid="50" clsid="CGNetDownLoadViewDlg" viewloader_id="2" module_folder="GNetDownLoadPlugin" name="GNetDownLoadPlugin.dll" station_name="G网下载" image_id="0" />
+			<pln stationid="50" clsid="CGNetRFCalTestViewDlg" viewloader_id="2" module_folder="6557_GNetRFPln" name="GNetRFCalTestPlugin.dll" station_name="柬埔寨校准" image_id="2" />
+		</group>
+	</plugin>
+</CTF>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!--Window sizebox="4,4,6,6" caption="0,0,0,30" mininfo="450,300" roundcorner="3,3,3,3"-->
+<Window>
+	<HorizontalLayout enabled="true" height="30" bordersize="0,0,0,2" bordercolor="#00ff92">
+		<Control enabled="true" width="10"/>
+		<Label text="Base:" width="120" textcolor="#0000ff"/>
+		<Edit  name="" text="" padding="0,2,0,2" tooltip="" width="400" enabled="true"  textcolor="#FF000000" align="left" disabledtextcolor="#FFA7A6AA" />
+		<Control enabled="true" width="10"/>
+	</HorizontalLayout>
+</Window>

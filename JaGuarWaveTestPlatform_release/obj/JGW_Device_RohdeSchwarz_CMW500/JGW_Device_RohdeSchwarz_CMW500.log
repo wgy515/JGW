@@ -1,0 +1,32 @@
+﻿生成启动时间为 2025/8/27 11:25:20。
+     1>项目“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_plugin\module\JGW_Device_RohdeSchwarz_CMW500\JGW_Device_RohdeSchwarz_CMW500.vcxproj”在节点 6 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_Device_RohdeSchwarz_CMW500\JGW_Device_RohdeSchwarz_CMW500.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_Device_RohdeSchwarz_CMW500.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\lib\library" /LIBPATH:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\lib\core" /LIBPATH:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\platform_core_lib\common" wsock32.lib WS2_32.lib visa32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Delayimp.lib /DELAYLOAD:sicl32.dll /DELAYLOAD:visa32.dll /MANIFEST /ManifestFile:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_Device_RohdeSchwarz_CMW500\JGW_Device_RohdeSchwarz_CMW500.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_Device_RohdeSchwarz_CMW500.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\plugin\JGW_Device_RohdeSchwarz_CMW500.lib" /MACHINE:X86 /DLL "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_Device_RohdeSchwarz_CMW500\CFactoty_RFVFS.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_Device_RohdeSchwarz_CMW500\CMW500_RFVFS.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_Device_RohdeSchwarz_CMW500\dllmain.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_Device_RohdeSchwarz_CMW500\JGW_CMW500EquipmentControll.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_Device_RohdeSchwarz_CMW500\stdafx.obj"
+            正在创建库 D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\plugin\JGW_Device_RohdeSchwarz_CMW500.lib 和对象 D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\plugin\JGW_Device_RohdeSchwarz_CMW500.exp
+         正在生成代码
+         已完成代码的生成
+         JGW_Device_RohdeSchwarz_CMW500.vcxproj -> D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_Device_RohdeSchwarz_CMW500.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_Device_RohdeSchwarz_CMW500.dll;#2" /manifest "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_Device_RohdeSchwarz_CMW500\JGW_Device_RohdeSchwarz_CMW500.dll.intermediate.manifest"
+       PostBuildEvent:
+         copy /y  D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_Device_RohdeSchwarz_CMW500.dll 	D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec\JGW_Device_RohdeSchwarz_CMW500.dll
+         :VCEnd
+         已复制         1 个文件。
+       FinalizeBuildStatus:
+         正在删除文件“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_Device_RohdeSchwarz_CMW500\JGW_Device_RohdeSchwarz_CMW500.unsuccessfulbuild”。
+         正在对“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_Device_RohdeSchwarz_CMW500\JGW_Device_RohdeSchwarz_CMW500.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_plugin\module\JGW_Device_RohdeSchwarz_CMW500\JGW_Device_RohdeSchwarz_CMW500.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.70

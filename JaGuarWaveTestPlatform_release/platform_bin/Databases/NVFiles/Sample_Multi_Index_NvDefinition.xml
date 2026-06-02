@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<NvDefinition>
+	
+	<!-- This is sample definition for multi-indiced NV item --> 
+	<!-- maxIndex specifies the maximum index that QMSL will read duing NV back up.  It is 0 based index. --> 
+	<!-- maxIndex is 0 if this attribute is not specified -->
+	<!--  If this defintiion is used to read NV items from mobile, QMSL
+	will attempt to read NV 100 times at different index location-->
+	
+	<!-- Please refer to Sample_Multi_Index_NVSource.xml for a sample source with multi index NV item support-->
+	<NvItem id="57" name="NV_DIAL_I" maxIndex="99" permission="readwrite">
+		<Member type="uint8" sizeOf="128" name=""/>
+	</NvItem>
+</NvDefinition>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="1024,768" caption="0,0,0,30" sizebox="4,4,4,4" roundcorner="4,4,4,4">
+	<Font name="宋体" size="16" bold="false" default="true" />
+	<Font name="宋体" size="12" bold="false"/>
+	<Font name="宋体" size="48" bold="true" italic="false" />
+	<Font name="宋体" size="18" bold="true" italic="false" />
+	<Font name="宋体" size="24" bold="false"/>
+	<Font name="宋体" size="36" bold="false"/>
+	<Font name="宋体" size="14" bold="false"/>
+	<Font name="宋体" size="128" bold="false"/>
+	<Font name="宋体" size="16" bold="false"/>
+	<Font name="宋体" size="15" bold="false"/>
+	<Font name="宋体" size="13" bold="false"/>
+	<Font name="宋体" size="11" bold="false"/>
+	<Font name="宋体" size="10" bold="false"/>
+	<Default name="VScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+	<Default name="HScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,0,16,16' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,0,34,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,0,52,16' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,0,70,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,18,16,34' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,18,34,34' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,18,52,34' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,18,70,34' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,36,16,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,36,34,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,36,52,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,36,70,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,54,16,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,54,34,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,54,52,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,54,70,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,72,16,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,72,34,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,72,52,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,72,70,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+	<Default name="CheckBox" value="textcolor=&quot;#FFbac0c5&quot; hottextcolor=&quot;#FF386382&quot; selectedtextcolor=&quot;#FF386382&quot; disabledtextcolor=&quot;#FFbac0c5&quot; textpadding=&quot;20,2,0,0&quot; align=&quot;left&quot; selectedimage=&quot;file=&apos;checked.png&apos; dest=&apos;0,2,16,18&apos;&quot; normalimage=&quot;file=&apos;unchecked.png&apos; dest=&apos;0,2,16,18&apos;&quot;" />
+    <HorizontalLayout name="bg" bkimage="file='bg_1.png'">
+		<VerticalLayout>
+			<HorizontalLayout height="30" bkcolor="#ffffffff" bkcolor2="#0000ff">
+				<VerticalLayout padding="5,3,5,2" >
+					<HorizontalLayout >
+					<Label enabled="true" width="30" height="25" bkimage="max.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" valign="center" align="center" />
+					<Label enabled="true" padding="0,2,0,2" width="350" text=" JaGuarWave Factory Test Application" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" valign="center" align="left" font="0" />
+					<Label name="toolTitleLab" enabled="true" padding="0,2,0,2" text=" " textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" valign="center" align="left" font="0" />
+					</HorizontalLayout>
+				</VerticalLayout>
+				<VerticalLayout width="110">
+					<Button name="minbtn" float="true" pos="0,0,28,19" width="28" height="19" maxheight="19" maxwidth="28"  normalimage="file='btn_mini.png' source='0,0,28,19'" hotimage="file='btn_mini.png' source='28,0,56,19'" pushedimage="file='btn_mini.png' source='56,0,84,19'" />
+					<Button name="maxbtn" float="true" pos="28,0,56,19" width="28" height="19" maxheight="19" maxwidth="28"  normalimage="file='btn_max.png' source='0,0,28,19'" hotimage="file='btn_max.png' source='28,0,56,19'" pushedimage="file='btn_max.png' source='56,0,84,19'"  />
+					<Button name="restorebtn" visible="false" float="true" pos="28,0,56,19" width="28" height="19" maxheight="19" maxwidth="28"  normalimage="file='btn_restore.png' source='0,0,28,19'" hotimage="file='btn_restore.png' source='28,0,56,19'" pushedimage="btn_restore.png' source='56,0,84,19'" />
+					<Button name="closebtn" float="true" pos="56,0,95,19" width="39" height="19" maxheight="19" maxwidth="39"  normalimage="file='btn_close.png' source='0,0,39,19'" hotimage="file='btn_close.png' source='39,0,78,19'" pushedimage="file='btn_close.png' source='78,0,117,19'"  />
+				</VerticalLayout>
+			</HorizontalLayout>
+			
+			<HorizontalLayout height="50">
+				<VerticalLayout >
+					<HorizontalLayout height="1"/>
+					<HorizontalLayout bkcolor="#ffffffff" bkcolor2="#696969" height="22">
+						<Control enabled="true" width="10"/>
+						<Button name="systemMenuBtn" text="System" enabled="true" width="45" height="20" textcolor="#00000000" disabledtextcolor="#00000000" align="center" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" font="1" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png"/>
+						<Button name="viewMenuBtn" text="View" enabled="true" width="45" height="20" textcolor="#00000000" disabledtextcolor="#00000000" align="center" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" font="1" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png"/>
+						<Button name="SettingMenuBtn" text="Setting" enabled="true" width="50" height="20" textcolor="#00000000" disabledtextcolor="#00000000" align="center" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" font="1" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png"/>
+						<Button name="toolBtn" text="Tool" tooltip="修改线损以及仪器配置的时候，建议重启平台" enabled="true" width="45" height="20" textcolor="#00000000" disabledtextcolor="#00000000" align="center" normalimage="toolbar_normal.png" font="1" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png"/>
+						<Control enabled="true"/>
+					</HorizontalLayout>
+					<HorizontalLayout />
+				</VerticalLayout>
+				<VerticalLayout width="480">
+					<HorizontalLayout height="2"/>
+					<HorizontalLayout>
+						<Control enabled="true" />
+						<Label text="测试工站" width="80" height="30" textcolor="#0000ff"/>
+						<Edit name="operationIDEdt" height="26" text="" tooltip="0~65536" width="200" enabled="true" readonly="true" textcolor="#FF000000" maxchar="5" align="left" disabledtextcolor="#FFA7A6AA" valign="center"/>
+						<Control enabled="true" width="10"/>
+						<Label text="班别" width="80" height="30" textcolor="#0000ff"/>
+						<Edit name="shiftIDEdt" height="26" text="" tooltip="0~65536" width="100" enabled="true" readonly="true" textcolor="#FF000000" maxchar="5" align="left" disabledtextcolor="#FFA7A6AA" />
+						<Control enabled="true" width="10"/>
+					</HorizontalLayout>
+					<HorizontalLayout height="2"/>
+					<HorizontalLayout>
+						<Control enabled="true" />
+						<Label text="工单号" width="80" height="30" textcolor="#0000ff"/>
+						<Edit name="wrokOrederNumberEdt" height="26" text="" tooltip="0~65536" width="200" enabled="true" readonly="true" textcolor="#FF000000" maxchar="5" align="left" disabledtextcolor="#FFA7A6AA" valign="center"/>
+						<Control enabled="true" width="10"/>
+						<Label text="用户名" width="80" textcolor="#0000ff"/>
+						<Edit name="uersEdt" text="" height="26"  tooltip="0~65536" width="100" enabled="true" readonly="true" textcolor="#FF000000" maxchar="5" align="left" disabledtextcolor="#FFA7A6AA" />
+						<Control enabled="true" width="10"/>
+					</HorizontalLayout>
+					<HorizontalLayout height="2"/>
+				</VerticalLayout>
+				<VerticalLayout bkimage="file='company.png'" width="240">
+					<Control enabled="true"/>
+				</VerticalLayout>
+			</HorizontalLayout>
+			<!--bkcolor="#ffc4dffc" bkcolor2="#ffffff"-->
+			<HorizontalLayout  padding="0,0,0,0"  name="MainTestHorizontalLayout">
+				<VerticalLayout name="leftFrameVerticalLayout" width="100" bordersize="0" vscrollbar="true" sepweight="4" sepimm="true" bordercolor="#c9ecff">
+					<HorizontalLayout enabled="true" height="30" bkimage="file='btn_edit_disable.png' corner='50,0,50,0'">
+						<Label name="projectNameLabel" text=" Projects" enabled="true"  textcolor="#FF386382"  disabledtextcolor="#FFA7A6AA" valign="center" align="center" textpadding="0,0,0,0"/>
+						<Button name="menuProjectbtn" menu="true" mouseenter="true" width="27" height="22" padding="0,4,0,0" normalimage="file='skin_menu.png' source='0,0,26,22'" hotimage="file='skin_menu.png' source='27,0,53,22'" pushedimage="file='skin_menu.png' source='54,0,80,22'"/>
+					</HorizontalLayout>
+					<VerticalLayoutProjectBtn enabled="true" vscrollbar="true" name="projectVerLayout">
+					</VerticalLayoutProjectBtn>
+				</VerticalLayout>
+				<VerticalLayout bordersize="0" bordercolor="#c9ecff" sepweight="4" sepimm="true">
+					<HorizontalLayout enabled="true" height="30">
+						<Label name="pluginVersionLabel" text="Plugin Version: " enabled="true" bkimage="file='btn_edit_disable.png' corner='50,0,50,0'" textcolor="#ffff00" disabledtextcolor="#FFA7A6AA" align="left" textpadding="10,0,0,0"/>
+					</HorizontalLayout>
+					<HorizontalLayout bordersize="0" bordercolor="#c9ecff" height="100" name="testInfoVerticalLayout">
+						<!--HorizontalLayout enabled="true" height="30">
+							<Label text="Test Info" enabled="true"  textcolor="#FF386382" bkimage="file='btn_edit_disable.png'" disabledtextcolor="#FFA7A6AA" align="center" textpadding="0,5,0,0"/>
+						</HorizontalLayout-->
+						<HorizontalLayout enabled="true" width="10">
+						</HorizontalLayout>
+						<HorizontalLayout enabled="true" width="150" bordersize="1" bordercolor="#00B4B4B4" borderround="70,60">	
+							<VerticalLayout>
+								<Control enabled="true" />
+								<Button name="testTimeBtn" text="00:00" enabled="true" height="80" textpadding="2,0,2,0" textcolor="#0000007D" disabledtextcolor="#FFA7A6AA" font="2" align="center" />
+								<Control enabled="true" />
+							</VerticalLayout>
+						</HorizontalLayout>	
+						<HorizontalLayout enabled="true" width="0">
+						</HorizontalLayout>
+						<HorizontalLayout enabled="true" height="80" width="160" inset="0,20,0,0">
+							<Control enabled="true" />
+							<Button name="startBtn" text="Start" enabled="true" width="140" height="60" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;btn_edit_normal.png&apos;corner=&apos;5,5,5,5&apos;; " hotimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " pushedimage=" file=&apos;btn_edit_down.png&apos;corner=&apos;5,5,5,5&apos;;" focusedimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " disabledimage=" file=&apos;disable_btn.png&apos;corner=&apos;5,5,5,5&apos;; " />
+							<Control enabled="true" />
+						</HorizontalLayout>
+						<HorizontalLayout enabled="true" width="0">
+						</HorizontalLayout>
+						<HorizontalLayout enabled="true" width="280" bordersize="1">
+							<VerticalLayout>
+								<!--Button name="testStatusBtn" text="IDLE" enabled="true" height="100" textcolor="#0000007D" disabledtextcolor="#FFA7A6AA" font="7" align="center" bkcolor="0xffffffff" /-->
+								<Button name="testStatusBtn" text="PASS" enabled="true" height="100" textcolor="#0000007D" disabledtextcolor="#FFA7A6AA" font="7" align="center" bkcolor="0xff040404" />
+							</VerticalLayout>
+						</HorizontalLayout>
+						<HorizontalLayout enabled="true">
+						</HorizontalLayout>							
+						<HorizontalLayout enabled="true" width="120" inset="10,10,10,10">
+							<VerticalLayout >
+								<Control enabled="true" />
+								<Button name="configBtn" padding="10,0,0,0" width="80" text="Config" enabled="true" height="30" font="1" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;button_nor.bmp&apos;corner=&apos;15,15,15,15&apos;; " hotimage=" file=&apos;button_over.bmp&apos;corner=&apos;5,5,5,5&apos;; " pushedimage=" file=&apos;button_down.bmp&apos;corner=&apos;5,5,5,5&apos;;" focusedimage=" file=&apos;button_over.bmp&apos;corner=&apos;5,5,5,5&apos;; " disabledimage=" file=&apos;disable_btn.png&apos;corner=&apos;5,5,5,5&apos;; " />
+								<!--Control enabled="true" /-->
+								<HorizontalLayout>
+									<CheckBox padding="0,0,0,0" textpadding="20,5,0,0" name="SaveTestLog" font="1" text="Save Test Log" tooltip="重复测试，测试失败或者成功都会继续运行测试"  enabled="true" textcolor="#0000ff" disabledtextcolor="#FFA7A6AA" align="left" visible="true"/> 
+									<!-- <CheckBox padding="20,0,0,0" textpadding="16,5,0,0" name="ReTest" font="11" text="重复测试" tooltip="重复测试，测试失败或者成功都会继续运行测试"  enabled="true" textcolor="#0000ff" disabledtextcolor="#FFA7A6AA" align="left" visible="true"/> -->
+								</HorizontalLayout>
+							</VerticalLayout>		
+						</HorizontalLayout>						
+						<HorizontalLayout bordersize="1" enabled="true" width="150"  bordercolor="#00B4B4B4" borderround="70,60">
+							<VerticalLayout padding="5,0,5,0">
+								<HorizontalLayout  enabled="true" height="20">
+									<Text text="Statistics" font="1" enabled="true" width="82" height="19" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="wrap" />
+									<Option name="clearTestRecOption" text="Clear" font="1" enabled="true" width="50" height="19" bkimage="main_unselected.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hotimage="main_hotsel.png" group="navi" selectedimage="main_selected.png" />
+								</HorizontalLayout>
+								<HorizontalLayout  enabled="true" height="20">
+									<Text text="Pass:" font="1" enabled="true" width="82" height="20" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="wrap" />
+									<Text name="passText" text="0" font="1" enabled="true" width="60" height="18" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="left" />
+								</HorizontalLayout>
+								<HorizontalLayout  enabled="true" height="20">
+									<Text text="Fail:" font="1" enabled="true" width="82" height="20" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="wrap" />
+									<Text name="failText" text="0" font="1" enabled="true" width="60" height="18" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="left" />
+								</HorizontalLayout>
+								<HorizontalLayout  enabled="true" height="20">
+									<Text text="Counts:" font="1" enabled="true" width="82" height="20" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="wrap" />
+									<Text name="countText" text="0" font="1" enabled="true" width="60" height="18" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="left" />
+								</HorizontalLayout>
+								<HorizontalLayout  enabled="true" height="20">
+									<Text text="Pass Rate:" font="1" enabled="true" width="82" height="20" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="wrap" />
+									<Text name="passRateText" text="0%" font="1" enabled="true" width="60" height="18" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="left" />
+								</HorizontalLayout>
+							</VerticalLayout>					
+						</HorizontalLayout>	
+					</HorizontalLayout>
+					<HorizontalLayout enabled="true" bordersize="1" bordercolor="#c9ecff" name="subWndHorizontalLayout">	
+					</HorizontalLayout>
+					<HorizontalLayout enabled="true" height="200" inset="0,10,0,0" bkcolor="#FFEFF8FF" bordercolor="#FFEFF8FF" bordersize="10" sepimm="true" sepheight="20" visible="true" name="logHorizontalLayout">
+						<VerticalLayout>
+							<HorizontalLayout height="20">
+								<Label text=" Test Log Windows" enabled="true" textcolor="#FF386382" disabledtextcolor="#FFA7A6AA" align="left" textpadding="0,0,0,0"/>
+								<Control enabled="true"/>
+								<Button name="maximizeLogLayoutBtn" width="28" height="20" maxheight="20" maxwidth="28"  normalimage="maximize.png" tooltip="Maximize Log Windows" hotimage="maximize_h.png" pushedimage="maximize_p.png"/>
+							</HorizontalLayout>
+							<HorizontalLayout>
+								<RichEdit name="logTabedt" font="6" text="Log Info" tipvalue=""  enabled="true"  bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"  maxchar="9000"  align="left" vscrollbar="true" hscrollbar="false" multiline="true" autohscroll="false" autovscroll="true" readonly="true"/>
+							</HorizontalLayout>
+							<HorizontalLayout height="20">
+								<Option name="errorTab" text="Error" width="120" group="true" align="center" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+								<Option name="debugTab" text="Debug" width="120" group="true" align="center" selected="true" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+								<Option name="htmlTab" text="Html" width="120" group="true" align="center" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+							</HorizontalLayout>
+						</VerticalLayout>
+					</HorizontalLayout>
+				</VerticalLayout>
+			</HorizontalLayout>
+			<HorizontalLayout height="25" name="statusBarLayout">
+			<!-- textcolor="#FF386382" 保存端口名称-->
+				<Label name="tipLabel" text="Tip" font="1" width="400" enabled="true" textcolor="#ffff00" disabledtextcolor="#FFA7A6AA" align="left" textpadding="20,0,0,0" bordersize="1" bordercolor="#808080" />
+				<Label name="testinfolab" font="4" text="" bkcolor="0xffffffff" textcolor="0x000080" enabled="true" disabledtextcolor="#FFA7A6AA" align="left" textpadding="10,0,0,0" bordersize="1" bordercolor="#808080" />
+				<Label name="timeLabel" text="" width="200" enabled="true" textcolor="#ffff00" disabledtextcolor="#FFA7A6AA" align="left" textpadding="20,0,0,0" bordersize="1" bordercolor="#808080" />
+				<HorizontalLayout width="20" padding="2,5,2,4">
+					<Label name="autoUpdateStatusLabel" text="" width="16" height="16" enabled="true" textcolor="#ffff00" disabledtextcolor="#FFA7A6AA" align="left" tooltip="自动升级服务指示灯"  bkimage="successGreenDot.png"/>
+				</HorizontalLayout>
+				<Control width="20"/>
+			</HorizontalLayout>
+		</VerticalLayout>	
+	</HorizontalLayout>
+</Window>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="790,208">
+    <Font name="宋体" size="16" bold="false" italic="false" />
+    <Font name="宋体" size="32" bold="false" italic="false" />
+    <Font name="宋体" size="64" bold="false" italic="false" />
+    <HorizontalLayout enabled="true" width="790" height="141" bkcolor="#FFE4E4E4">
+        <HorizontalLayout enabled="true" height="32" bkcolor="#FFBADCFD" inset="2,2,2,0">
+            <Label name="tipLabel" text="输入SN" enabled="true" width="164" height="30" textpadding="10,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Control enabled="true" />
+            <Button name="closebtn" tooltip="点击这里直接退出平台" enabled="true" width="42" maxheight="18" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;frame_btn_close_normal.bmp&apos; mask=&apos;#FFFF00FF&apos;" hotimage="file=&apos;frame_btn_close_hot.bmp&apos; mask=&apos;#FFFF00FF&apos;" pushedimage="file=&apos;frame_btn_close_down.bmp&apos; mask=&apos;#FFFF00FF&apos;" />
+        </HorizontalLayout>
+        <Edit name="inputEdit" text="" tipvalue="请扫描号段输入...." float="true" pos="12,39,0,0" enabled="true" width="724" height="78" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" />
+        <Text name="inputTip" float="true" pos="13,131,0,0" enabled="true" width="728" height="56" textpadding="2,0,2,0" font="1" align="wrap" />
+    </HorizontalLayout>
+</Window>

@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Suite>
+    <common>
+		<TSE_TEST_PROJECT_NAME>TSE_AP_UPGRADE</TSE_TEST_PROJECT_NAME>
+		<TSE_SSH_SOURCE_IP>192.168.225.5</TSE_SSH_SOURCE_IP>
+		<TSE_SSH_HOST>192.168.225.1</TSE_SSH_HOST>
+		<TSE_SFTP_LOCAL_FILE_PATH>F:\download\UC600AA-R3\</TSE_SFTP_LOCAL_FILE_PATH>
+		<TSE_APS_UPGRADE_VERSION>NC700_20210618110117</TSE_APS_UPGRADE_VERSION>
+		<TSE_NC700_OTA_FILE_NAME>update_ota.zip</TSE_NC700_OTA_FILE_NAME>
+	</common>
+	<config>
+        <ModuleName paramVal="TSE_ConfigUIPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_BaseConfig" description="" />
+        <TestName paramVal="Config" description="测试名称描述" />
+        <ConfigCount paramVal="4" description="配置数" />
+        <LabelName1 paramVal="USB NetCard IP：" description="配置标签名称" />
+        <EditValueEnvironment1 paramVal="TSE_SSH_SOURCE_IP" description="编辑参数的环境变量，默认值" />
+        <LabelName2 paramVal="Upgrade Version：" description="配置标签名称" />
+        <EditValueEnvironment2 paramVal="TSE_APS_UPGRADE_VERSION" description="编辑参数的环境变量，默认值" />
+		<LabelName3 paramVal="Upgrade Path" description="配置标签名称" />
+        <EditValueEnvironment3 paramVal="TSE_SFTP_LOCAL_FILE_PATH" description="编辑参数的环境变量，默认值" />
+		<LabelName4 paramVal="OTA File Name" description="配置标签名称" />
+        <EditValueEnvironment4 paramVal="TSE_NC700_OTA_FILE_NAME" description="编辑参数的环境变量，默认值" />
+    </config>
+	<SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_BuildEnvironmentValue" description="TSE测试实例名称" />
+        <TestName paramVal="生成OTA文件下载路径" description="根据规则构造环境变量值" />
+        <BuildEnvironmentName paramVal="TSE_NC700_OTA_FILE_PATH" description="按照规则生成的字符串保存的环境变量名" />
+        <SrcEnvironmentValue paramVal="$$_TSE_SFTP_LOCAL_FILE_PATH_$$\$$_TSE_NC700_OTA_FILE_NAME_$$" description="需要构造的字符串,$$_xxxx_$$ xxxx表示环境变量" />
+        <SrcFormat paramVal="" description="格式化规则 a,b  a：( 0 : 左边 -1 右边) b:(&gt;0 : 取第几位字符串 &lt; 0 取所有)  以;间隔多个环境变量" />
+    </SuiteProject>
+	<SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_PingTest" description="TSE测试实例名称" />
+        <TestName paramVal="检查网络连接" description="Ping测试" />
+        <SourceAddrEnvironment paramVal="TSE_SSH_SOURCE_IP" description="Socke 路由IP地址" />
+        <HostEnvironment paramVal="TSE_SSH_HOST" description="主机IP地址" />
+        <PingTestTimeSec paramVal="2" description="ping测试，默认在1S中测试一次" />
+        <TimeOutSec paramVal="120" description="超时时间秒" />
+		<RetryCount paramVal="1" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+        <RealName paramVal="CTSE_CheckSocketPortOpen" description="" />
+        <TestName paramVal="检查WEB网络连接" description="" />
+        <SourceAddrEnvironment paramVal="TSE_SSH_SOURCE_IP" description="" />
+        <HostAddrEnvironment paramVal="TSE_SSH_HOST" description="" />
+        <SocketPort paramVal="80" description="" />
+        <TimeOutSec paramVal="30" description="" />
+		<RetryCount paramVal="1" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_PrintInfo" description="连接高通设备" />
+        <TestName paramVal="打印OTA文件路径" description="测试名称描述" />
+        <EnvPrintCommand paramVal="X20升级文件路径: $$_TSE_NC700_OTA_FILE_PATH_$$  " description="" />
+    </SuiteProject>
+	<SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+        <RealName paramVal="CTSE_HttpPostUploadFile" description="" />
+        <TestName paramVal="上传OTA文件" description="" />
+		<SourceAddrEnvironment paramVal="TSE_SSH_SOURCE_IP" description=""/>
+		<Url paramVal="http://192.168.225.1/cgi-bin/jw_upload?upload=3" description=""/>
+		<UploadFilePathEnvrionment paramVal="TSE_NC700_OTA_FILE_PATH" description=""/>
+		<SaveReceiveEnvironment paramVal="TSE_IMEI_SRC_JSON" description="" />
+		<FindStringCount paramVal="1" description="" />
+        <FindStringValue1 paramVal="&quot;responseCode&quot;:200,&quot;resultCode&quot;:1,&quot;errorCode&quot;:0" description="" />
+        <FindStringErrorMsg1 paramVal="upload x20 fail" description="" />
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+        <RealName paramVal="CTSE_TestBase" description="" />
+		<TestName paramVal="获取TOKEN" description="" />
+		<RetryCount paramVal="10" description="错误重测次数" />
+		<SuiteProject>
+			<RealName paramVal="CTSE_Sleep" description="连接高通设备" />
+			<TestName paramVal="等待" description="测试名称描述" />
+			<SleepMS paramVal="1000" description="Sleep 时间 毫秒" />
+		</SuiteProject>
+		<SuiteProject>
+			<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+			<RealName paramVal="CTSE_HttpPost" description="" />
+			<TestName paramVal="HTTP获取TOKEN" description="" />
+			<SourceAddrEnvironment paramVal="TSE_SSH_SOURCE_IP" description=""/>
+			<Url paramVal="http://192.168.225.1/cgi-bin/qcmap_auth" description=""/>
+			<PostData paramVal="type=login&amp;pwd=admin&amp;timeout=600&amp;user=admin" description=""/>
+			<Header paramVal="Content-Type:application/x-www-form-urlencoded" description=""/>
+			<PostDataEnvrionment paramVal="" description=""/>
+			<SaveReceiveEnvironment paramVal="TSE_TOKEN_SRC_JSON" description="" />
+			<FindStringCount paramVal="1" description="" />
+			<FindStringValue1 paramVal="token" description="" />
+			<FindStringErrorMsg1 paramVal="get token fail" description="" />
+		</SuiteProject> 
+		<SuiteProject>
+			<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+			<RealName paramVal="CTSE_JsonParse" description="" />
+			<TestName paramVal="解析TOKEN结果" description="Ping测试" />
+			<JsonEnvironment paramVal="TSE_TOKEN_SRC_JSON" description="" />
+			<JsonTreeList paramVal="token" description="" />
+			<SaveJsonValueEnvironment paramVal="TSE_OUTPUT_TOKEN" description="" />
+		</SuiteProject> 
+		<SuiteProject>
+            <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+            <RealName paramVal="CTSE_BuildString" description="连接高通设备" />
+            <TestName paramVal="读取TOKEN" description="测试名称描述" />
+            <EraseStringSplit paramVal="\\r,\\n, " description="" />
+            <SrcStringCommand paramVal="$$_TSE_OUTPUT_TOKEN_$$" description="" />
+            <RegexRule paramVal="[0-9a-fA-F]{16,}" description="regex rule" />
+            <SaveEnvironment paramVal="TSE_TOKEN" description="" />
+        </SuiteProject>
+		<SuiteProject>
+			<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+			<RealName paramVal="CTSE_PrintInfo" description="连接高通设备" />
+			<TestName paramVal="打印 TOKEN" description="测试名称描述" />
+			<EnvPrintCommand paramVal="$$_TSE_TOKEN_$$ " description="" />
+		</SuiteProject>
+    </SuiteProject>
+	<!-- {\"event\":\"SetSystemUpdate\",\"token\":\"f06001a082db5b54\"} -->
+	<SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_BuildEnvironmentValue" description="TSE测试实例名称" />
+        <TestName paramVal="生成OTA升级相关信息" description="根据规则构造环境变量值" />
+        <BuildEnvironmentName paramVal="TSE_OTA_UPGRADE_INFO" description="按照规则生成的字符串保存的环境变量名" />
+        <SrcEnvironmentValue paramVal="{&quot;event&quot;:&quot;SetSystemUpdate&quot;,&quot;token&quot;:&quot;$$_TSE_TOKEN_$$&quot;}" description="需要构造的字符串,$$_xxxx_$$ xxxx表示环境变量" />
+        <SrcFormat paramVal="" description="格式化规则 a,b  a：( 0 : 左边 -1 右边) b:(&gt;0 : 取第几位字符串 &lt; 0 取所有)  以;间隔多个环境变量" />
+    </SuiteProject>
+	<SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+        <RealName paramVal="CTSE_HttpPost" description="" />
+        <TestName paramVal="OTA升级" description="" />
+		<SourceAddrEnvironment paramVal="TSE_SSH_SOURCE_IP" description=""/>
+		<Url paramVal="http://192.168.225.1/cgi-bin/jw_web_fcgi" description=""/>
+		<PostData paramVal="" description=""/>
+		<Header paramVal="Content-Type:application/json" description=""/>
+		<PostDataEnvrionment paramVal="TSE_OTA_UPGRADE_INFO" description=""/>
+		<SaveReceiveEnvironment paramVal="" description="" />
+		<FindStringCount paramVal="1" description="" />
+        <FindStringValue1 paramVal="&quot;responseCode&quot;:200,&quot;resultCode&quot;:1" description="" />
+        <FindStringErrorMsg1 paramVal="x20 upgrade fail" description="" />
+		<RetryCount paramVal="1" description="error retry count" />
+	</SuiteProject>
+	<SuiteProject ReversedResult="1">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_PingTest" description="TSE测试实例名称" />
+        <TestName paramVal="检查OTA是否正在升级" description="Ping测试" />
+        <SourceAddrEnvironment paramVal="TSE_SSH_SOURCE_IP" description="Socke 路由IP地址" />
+        <HostEnvironment paramVal="TSE_SSH_HOST" description="主机IP地址" />
+        <PingTestTimeSec paramVal="2" description="ping测试，默认在1S中测试一次" />
+        <TimeOutSec paramVal="2" description="超时时间秒" />
+		<RetryCount paramVal="60" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject>
+        <RealName paramVal="CTSE_Sleep" description="连接高通设备" />
+        <TestName paramVal="等待OTA升级成功" description="测试名称描述" />
+		<SleepMS paramVal="30000" description="Sleep 时间 毫秒" />
+    </SuiteProject>
+	<SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_PingTest" description="TSE测试实例名称" />
+        <TestName paramVal="检查OTA是否启动成功" description="Ping测试" />
+        <SourceAddrEnvironment paramVal="TSE_SSH_SOURCE_IP" description="Socke 路由IP地址" />
+        <HostEnvironment paramVal="TSE_SSH_HOST" description="主机IP地址" />
+        <PingTestTimeSec paramVal="2" description="ping测试，默认在1S中测试一次" />
+        <TimeOutSec paramVal="40" description="超时时间秒" />
+		<RetryCount paramVal="3" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+        <RealName paramVal="CTSE_CheckSocketPortOpen" description="" />
+        <TestName paramVal="检查WEB网络连接" description="" />
+        <SourceAddrEnvironment paramVal="TSE_SSH_SOURCE_IP" description="" />
+        <HostAddrEnvironment paramVal="TSE_SSH_HOST" description="" />
+        <SocketPort paramVal="80" description="" />
+        <TimeOutSec paramVal="30" description="" />
+		<RetryCount paramVal="1" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+        <RealName paramVal="CTSE_TestBase" description="" />
+		<TestName paramVal="获取TOKEN" description="" />
+		<RetryCount paramVal="10" description="错误重测次数" />
+		<SuiteProject>
+			<RealName paramVal="CTSE_Sleep" description="连接高通设备" />
+			<TestName paramVal="等待" description="测试名称描述" />
+			<SleepMS paramVal="1000" description="Sleep 时间 毫秒" />
+		</SuiteProject>
+		<SuiteProject>
+			<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+			<RealName paramVal="CTSE_HttpPost" description="" />
+			<TestName paramVal="HTTP获取TOKEN" description="" />
+			<SourceAddrEnvironment paramVal="TSE_SSH_SOURCE_IP" description=""/>
+			<Url paramVal="http://192.168.225.1/cgi-bin/qcmap_auth" description=""/>
+			<PostData paramVal="type=login&amp;pwd=admin&amp;timeout=600&amp;user=admin" description=""/>
+			<Header paramVal="Content-Type:application/x-www-form-urlencoded" description=""/>
+			<PostDataEnvrionment paramVal="" description=""/>
+			<SaveReceiveEnvironment paramVal="TSE_TOKEN_SRC_JSON" description="" />
+			<FindStringCount paramVal="1" description="" />
+			<FindStringValue1 paramVal="token" description="" />
+			<FindStringErrorMsg1 paramVal="get token fail" description="" />
+		</SuiteProject> 
+		<SuiteProject>
+			<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+			<RealName paramVal="CTSE_JsonParse" description="" />
+			<TestName paramVal="解析TOKEN结果" description="Ping测试" />
+			<JsonEnvironment paramVal="TSE_TOKEN_SRC_JSON" description="" />
+			<JsonTreeList paramVal="token" description="" />
+			<SaveJsonValueEnvironment paramVal="TSE_OUTPUT_TOKEN" description="" />
+		</SuiteProject> 
+		<SuiteProject>
+            <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+            <RealName paramVal="CTSE_BuildString" description="连接高通设备" />
+            <TestName paramVal="读取TOKEN" description="测试名称描述" />
+            <EraseStringSplit paramVal="\\r,\\n, " description="" />
+            <SrcStringCommand paramVal="$$_TSE_OUTPUT_TOKEN_$$" description="" />
+            <RegexRule paramVal="[0-9a-fA-F]{16,}" description="regex rule" />
+            <SaveEnvironment paramVal="TSE_TOKEN" description="" />
+        </SuiteProject>
+		<SuiteProject>
+			<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+			<RealName paramVal="CTSE_PrintInfo" description="连接高通设备" />
+			<TestName paramVal="打印 TOKEN" description="测试名称描述" />
+			<EnvPrintCommand paramVal="$$_TSE_TOKEN_$$ " description="" />
+		</SuiteProject>
+    </SuiteProject>
+	<SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_BuildEnvironmentValue" description="TSE测试实例名称" />
+        <TestName paramVal="生成OTA FIREWARE JSON" description="根据规则构造环境变量值" />
+        <BuildEnvironmentName paramVal="TSE_OTA_FIREWARE_INFO" description="按照规则生成的字符串保存的环境变量名" />
+        <SrcEnvironmentValue paramVal="{&quot;event&quot;:&quot;GetDevStatusInfo&quot;,&quot;token&quot;:&quot;$$_TSE_TOKEN_$$&quot;}" description="需要构造的字符串,$$_xxxx_$$ xxxx表示环境变量" />
+        <SrcFormat paramVal="" description="格式化规则 a,b  a：( 0 : 左边 -1 右边) b:(&gt;0 : 取第几位字符串 &lt; 0 取所有)  以;间隔多个环境变量" />
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+		<RealName paramVal="CTSE_PrintInfo" description="连接高通设备" />
+		<TestName paramVal="打印 OTA FIREWARE" description="测试名称描述" />
+		<EnvPrintCommand paramVal="$$_TSE_OTA_FIREWARE_INFO_$$ " description="" />
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+        <RealName paramVal="CTSE_TestBase" description="" />
+		<TestName paramVal="获取OTA版本" description="" />
+		<SuiteProject>
+			<RealName paramVal="CTSE_Sleep" description="连接高通设备" />
+			<TestName paramVal="等待lighttpd" description="测试名称描述" />
+			<SleepMS paramVal="1000" description="Sleep 时间 毫秒" />
+		</SuiteProject>
+		<SuiteProject>
+			<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+			<RealName paramVal="CTSE_HttpPost" description="" />
+			<TestName paramVal="HTTP获取FIREWARE版本" description="" />
+			<SourceAddrEnvironment paramVal="TSE_SSH_SOURCE_IP" description=""/>
+			<Url paramVal="http://192.168.225.1/cgi-bin/jw_web_fcgi" description=""/>
+			<PostData paramVal="" description=""/>
+			<Header paramVal="Content-Type:application/json" description=""/>
+			<PostDataEnvrionment paramVal="TSE_OTA_FIREWARE_INFO" description=""/>
+			<SaveReceiveEnvironment paramVal="TSE_IPQ_SRC_JSON" description="" />
+			<FindStringCount paramVal="1" description="" />
+			<FindStringValue1 paramVal="&quot;responseCode&quot;:200,&quot;resultCode&quot;:1" description="" />
+			<FindStringErrorMsg1 paramVal="get ipq version fail" description="" />
+		</SuiteProject>
+		<SuiteProject>
+			<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+			<RealName paramVal="CTSE_JsonParse" description="" />
+			<TestName paramVal="解析IPQ版本结果" description="Ping测试" />
+			<JsonEnvironment paramVal="TSE_IPQ_SRC_JSON" description="" />
+			<JsonTreeList paramVal="result" description="" />
+			<SaveJsonValueEnvironment paramVal="TSE_OUTPUT_IPQ_JSON" description="" />
+		</SuiteProject> 
+		<SuiteProject>
+			<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+			<RealName paramVal="CTSE_JsonParse" description="" />
+			<TestName paramVal="解析IPQ版本信息" description="Ping测试" />
+			<JsonEnvironment paramVal="TSE_OUTPUT_IPQ_JSON" description="" />
+			<JsonTreeList paramVal="firmwareVersion" description="" />
+			<SaveJsonValueEnvironment paramVal="TSE_IPQ_VERSION_JSON" description="" />
+		</SuiteProject>
+		<SuiteProject>
+            <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+            <RealName paramVal="CTSE_BuildString" description="连接高通设备" />
+            <TestName paramVal="读取 version" description="测试名称描述" />
+            <EraseStringSplit paramVal="\\n,\\r,\\n, " description="" />
+            <SrcStringCommand paramVal="$$_TSE_IPQ_VERSION_JSON_$$" description="" />
+            <RegexRule paramVal="" description="regex rule" />
+            <SaveEnvironment paramVal="TSE_OTA_VERSION" description="" />
+        </SuiteProject>
+		<SuiteProject>
+			<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+			<RealName paramVal="CTSE_BuildEnvironmentValue" description="TSE测试实例名称" />
+			<TestName paramVal="生成OTA VERSION" description="根据规则构造环境变量值" />
+			<BuildEnvironmentName paramVal="TSE_OTA_VERSION_INFO" description="按照规则生成的字符串保存的环境变量名" />
+			<SrcEnvironmentValue paramVal="NC700_$$_TSE_OTA_VERSION_$$" description="需要构造的字符串,$$_xxxx_$$ xxxx表示环境变量" />
+			<SrcFormat paramVal="" description="格式化规则 a,b  a：( 0 : 左边 -1 右边) b:(&gt;0 : 取第几位字符串 &lt; 0 取所有)  以;间隔多个环境变量" />
+		</SuiteProject>
+		<SuiteProject>
+			<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+			<RealName paramVal="CTSE_PrintInfo" description="连接高通设备" />
+			<TestName paramVal="打印IPQ版本" description="测试名称描述" />
+			<EnvPrintCommand paramVal="版本: $$_TSE_OTA_VERSION_INFO_$$  " description="" />
+		</SuiteProject>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+		<RealName paramVal="CTSE_ComparisonEnvironment" description="比较环境变量" />
+		<TestName paramVal="检查IPQ版本是否升级成功" description="测试名称描述" />
+		<SrcEnvironment paramVal="TSE_APS_UPGRADE_VERSION" description="原环境变量名称" />
+		<DestEnvironment paramVal="TSE_OTA_VERSION_INFO" description="目标环境变量名称" />
+		<Format paramVal="升级版本:%s,当前IPQ版本:%s，升级的版本与当前IPQ的版本不一致" description="格式化提示" />
+	</SuiteProject>
+	<!-- <SuiteProject>
+        <RealName paramVal="CTSE_Sleep" description="连接高通设备" />
+        <TestName paramVal="wait upgrade" description="测试名称描述" />
+		<SleepMS paramVal="1000" description="Sleep 时间 毫秒" />
+    </SuiteProject>-->
+</Suite>

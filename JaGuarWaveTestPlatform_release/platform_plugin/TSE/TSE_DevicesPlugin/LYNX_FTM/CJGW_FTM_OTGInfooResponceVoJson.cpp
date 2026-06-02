@@ -1,0 +1,33 @@
+#include "StdAfx.h"
+#include "CJGW_FTM_OTGInfooResponceVoJson.h"
+
+namespace JGW
+{
+    CCJGW_FTM_OTGInfooResponceVoJson::CCJGW_FTM_OTGInfooResponceVoJson(void) : otgMounted(false)
+    {
+    }
+
+
+    CCJGW_FTM_OTGInfooResponceVoJson::~CCJGW_FTM_OTGInfooResponceVoJson(void)
+    {
+    }
+
+    bool CCJGW_FTM_OTGInfooResponceVoJson::FromJosn(CCJGW_FTM_Json& ftmJson)
+    {
+        if (!CCJGW_FTM_SocketResponceVo::FromJosn(ftmJson)) return false;
+        if (mResultCode == TSE_FTM_DEVICE_FAIL)
+        {
+            LogE_F("主机设备业务处理有问题(%s)...\n",mResponseErrorMsg.c_str());
+            return false;
+        }
+        CCJGW_FTM_Json keyJson;
+        if (!keyJson.FromJsonToString(mstrResult)) return false;
+
+        keyJson.GetJsonValueToKey<bool>("otgMounted",otgMounted);
+        keyJson.GetJsonValueToKey<long>("otgTotalBytes",otgTotalBytes);
+        keyJson.GetJsonValueToKey<long>("otgFreeBytes",otgFreeBytes);
+
+        return true;
+    }
+}
+

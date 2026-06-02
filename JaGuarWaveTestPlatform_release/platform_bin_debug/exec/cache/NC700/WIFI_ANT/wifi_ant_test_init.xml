@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Suite>
+    <common>
+		<TSE_SSH_SOURCE_IP>192.168.225.5</TSE_SSH_SOURCE_IP>
+        <TSE_SSH_HOST>192.168.225.1</TSE_SSH_HOST>
+		<TSE_QUALCOMM_HELP_TOOL>QualcommHelp\JaGuarWaveQualcommHelpTool.exe</TSE_QUALCOMM_HELP_TOOL>
+		<TSE_RF_TEST_XTT_PATH>cache\NC700\WIFI_ANT\NC700_TEST_LAN.cxtt</TSE_RF_TEST_XTT_PATH>
+	</common>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="重置CMD" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="EXIT_CMD" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="300" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+		<RetryCount paramVal="3" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="清除标记位" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="del WLAN_LAN_OK" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="1" description="发送次数"/>
+		<TimeOut1 paramVal="1" description="命令超时时间"/>
+		<RetryCount paramVal="3" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_PingTest" description="TSE测试实例名称" />
+        <TestName paramVal="检查设备网络连接" description="Ping测试" />
+        <SourceAddrEnvironment paramVal="TSE_SSH_SOURCE_IP" description="Socke 路由IP地址" />
+        <HostEnvironment paramVal="TSE_SSH_HOST" description="主机IP地址" />
+        <PingTestTimeSec paramVal="2" description="ping测试，默认在1S中测试一次" />
+        <TimeOutSec paramVal="120" description="超时时间秒" />
+        <RetryCount paramVal="1" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+        <RealName paramVal="CTSE_CheckSocketPortOpen" description="" />
+        <TestName paramVal="检查WEB网络连接" description="" />
+        <SourceAddrEnvironment paramVal="TSE_SSH_SOURCE_IP" description="" />
+        <HostAddrEnvironment paramVal="TSE_SSH_HOST" description="" />
+        <SocketPort paramVal="80" description="" />
+        <TimeOutSec paramVal="30" description="" />
+		<RetryCount paramVal="1" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="断开ADB TCP连接" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb disconnect $$_TSE_SSH_HOST_$$" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="1" description="发送次数"/>
+		<TimeOut1 paramVal="1" description="命令超时时间"/>
+		<RetryCount paramVal="3" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="ADB TCP连接" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb connect $$_TSE_SSH_HOST_$$" description="指令"/>
+		<Recv1 paramVal="connected to" description="接收字符串"/>
+		<SendCounts1 paramVal="2" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+		<RetryCount paramVal="3" description="错误重测次数" />
+    </SuiteProject>
+	<!-- <SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="检查WIFI模块是否已启动" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell ifconfig wlan0" description="指令"/>
+		<Recv1 paramVal="inet addr" description="接收字符串"/>
+		<SendCounts1 paramVal="1" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+		<RetryCount paramVal="20" description="错误重测次数" />
+    </SuiteProject> -->
+<!-- 	<SuiteProject>
+		<RealName paramVal="CTSE_Sleep" description="连接高通设备" />
+		<TestName paramVal="等待" description="测试名称描述" />
+		<SleepMS paramVal="8000" description="Sleep 时间 毫秒" />
+		<RetryCount paramVal="1" description="错误重测次数" />
+	</SuiteProject> -->
+	<SuiteProject ReversedResult="0">
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ConsoleAppOperation" description="连接高通设备" />
+        <TestName paramVal="初始化QCMAP" description="测试名称描述" />
+		<CommandCount paramVal="9" description="命令数量" />
+        <ConsoleAppPath paramVal="cmd.exe" description="程序路径" />
+		<ProcessPipeEnvironment paramVal="TSE_QCMAP_CONSOLE" description="程序路径"/>	
+		<Command1 paramVal="adb root" description="指令"/>
+		<FindOk1 paramVal="" description="接收字符串"/>
+		<ErrorReTestCount1 paramVal="300" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+		<ErrorTestIntervalMSec1 paramVal="1000" description=""/>
+		
+		<Command2 paramVal="adb remount" description="指令"/>
+		<FindOk2 paramVal="" description="接收字符串"/>
+		<ErrorReTestCount2 paramVal="3" description="发送次数"/>
+		<TimeOut2 paramVal="10" description="命令超时时间"/>
+		<ErrorTestIntervalMSec2 paramVal="1000" description=""/>
+		
+		<Command3 paramVal="adb shell QCMAP_CLI /usr/bin" description="指令"/>
+		<FindOk3 paramVal="QCMAP_Server" description="接收字符串"/>
+		<ErrorReTestCount3 paramVal="3" description="发送次数"/>
+		<WaitCommandEnd3 paramVal="0" description="wait command end"/>
+		<TimeOut3 paramVal="10" description="命令超时时间"/>
+		<ErrorTestIntervalMSec3 paramVal="1000" description=""/>
+		
+		<Command4 paramVal="1" description="指令"/>
+		<FindOk4 paramVal="Enable/Disable mobileap" description="接收字符串"/>
+		<ErrorReTestCount4 paramVal="3" description="发送次数"/>
+		<WaitCommandEnd4 paramVal="0" description="wait command end"/>
+		<TimeOut4 paramVal="10" description="命令超时时间"/>
+		<ErrorTestIntervalMSec4 paramVal="1000" description=""/>
+		
+		<Command5 paramVal="2" description="指令"/>
+		<FindOk5 paramVal="MobileAP State" description="接收字符串"/>
+		<ErrorReTestCount5 paramVal="3" description="发送次数"/>
+		<WaitCommandEnd5 paramVal="0" description="wait command end"/>
+		<TimeOut5 paramVal="10" description="命令超时时间"/>
+		<ErrorTestIntervalMSec5 paramVal="1000" description=""/>
+		
+		<Command6 paramVal="1" description="指令"/>
+		<FindOk6 paramVal="MobileAP Enable succeeds" description="接收字符串"/>
+		<ErrorReTestCount6 paramVal="3" description="发送次数"/>
+		<WaitCommandEnd6 paramVal="0" description="wait command end"/>
+		<TimeOut6 paramVal="10" description="命令超时时间"/>
+		<ErrorTestIntervalMSec6 paramVal="1000" description=""/>
+		
+		<Command7 paramVal="4" description="指令"/>
+		<FindOk7 paramVal="Enable/Disable WLAN" description="接收字符串"/>
+		<ErrorReTestCount7 paramVal="3" description="发送次数"/>
+		<WaitCommandEnd7 paramVal="0" description="wait command end"/>
+		<TimeOut7 paramVal="10" description="命令超时时间"/>
+		<ErrorTestIntervalMSec7 paramVal="1000" description=""/>
+		
+		<Command8 paramVal="1" description="指令"/>
+		<FindOk8 paramVal="WLAN State" description="接收字符串"/>
+		<ErrorReTestCount8 paramVal="3" description="发送次数"/>
+		<WaitCommandEnd8 paramVal="0" description="wait command end"/>
+		<TimeOut8 paramVal="10" description="命令超时时间"/>
+		<ErrorTestIntervalMSec8 paramVal="1000" description=""/>
+		
+		<Command9 paramVal="1" description="指令"/>
+		<FindOk9 paramVal="Option" description="接收字符串"/>
+		<ErrorReTestCount9 paramVal="3" description="发送次数"/>
+		<WaitCommandEnd9 paramVal="0" description="wait command end"/>
+		<TimeOut9 paramVal="10" description="命令超时时间"/>
+		<ErrorTestIntervalMSec9 paramVal="1000" description=""/>
+
+		<RetryCount paramVal="1" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject ReversedResult="0">
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="启动WIFI模块" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell ifconfig wlan0 up" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="1" description="发送次数"/>
+		<TimeOut1 paramVal="10" description="命令超时时间"/>
+		<RetryCount paramVal="3" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject ReversedResult="0">
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="设置WIFI参数" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell &quot;echo 5 > /sys/module/wlan/parameters/con_mode&quot;" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="1" description="发送次数"/>
+		<TimeOut1 paramVal="5" description="命令超时时间"/>
+		<RetryCount paramVal="3" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject ReversedResult="0">
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ConsoleAppOperation" description="连接高通设备" />
+        <TestName paramVal="重置WIFI FTM" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <ConsoleAppPath paramVal="cmd.exe" description="程序路径" />
+		<ProcessPipeEnvironment paramVal="TSE_QCMAP_WIFI_FTM_CONSOLE" description="程序路径"/>	
+		<Command1 paramVal="EXIT_CMD" description="指令"/>
+		<FindOk1 paramVal="" description="接收字符串"/>
+		<ErrorReTestCount1 paramVal="1" description="发送次数"/>
+		<TimeOut1 paramVal="10" description="命令超时时间"/>
+		<ErrorTestIntervalMSec1 paramVal="1000" description=""/>
+		<RetryCount paramVal="1" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject ReversedResult="0">
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ConsoleAppOperation" description="连接高通设备" />
+        <TestName paramVal="设置WIFI FTM模式" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <ConsoleAppPath paramVal="cmd.exe" description="程序路径" />
+		<ProcessPipeEnvironment paramVal="TSE_QCMAP_WIFI_FTM_CONSOLE" description="程序路径"/>	
+		<Command1 paramVal="adb shell &quot;ftmdaemon -n -dd&quot;" description="指令"/>
+		<FindOk1 paramVal="Diag_LSM_Init succesful" description="接收字符串"/>
+		<ErrorReTestCount1 paramVal="1" description="发送次数"/>
+		<WaitCommandEnd1 paramVal="0" description="wait command end"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+		<ErrorTestIntervalMSec1 paramVal="1000" description=""/>
+		<RetryCount paramVal="3" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject ReversedResult="0">
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ConsoleAppOperation" description="连接高通设备" />
+        <TestName paramVal="重置WIFI LAN" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <ConsoleAppPath paramVal="cmd.exe" description="程序路径" />
+		<ProcessPipeEnvironment paramVal="TSE_WIFI_LAN_CONSOLE" description="程序路径"/>	
+		<Command1 paramVal="EXIT_CMD" description="指令"/>
+		<FindOk1 paramVal="" description="接收字符串"/>
+		<ErrorReTestCount1 paramVal="1" description="发送次数"/>
+		<TimeOut1 paramVal="10" description="命令超时时间"/>
+		<ErrorTestIntervalMSec1 paramVal="1000" description=""/>
+		<RetryCount paramVal="1" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject ReversedResult="0">
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ConsoleAppOperation" description="连接高通设备" />
+        <TestName paramVal="设置WIFI LAN模式" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <ConsoleAppPath paramVal="cmd.exe" description="程序路径" />
+		<ProcessPipeEnvironment paramVal="TSE_WIFI_LAN_CONSOLE" description="程序路径"/>	
+		<Command1 paramVal="adb shell diag_socket_log -a $$_TSE_SSH_SOURCE_IP_$$ -p 5000 -r 100" description="指令"/>
+		<FindOk1 paramVal="logging switched" description="接收字符串"/>
+		<ErrorReTestCount1 paramVal="1" description="发送次数"/>
+		<WaitCommandEnd1 paramVal="0" description="wait command end"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+		<ErrorTestIntervalMSec1 paramVal="1000" description=""/>
+		<RetryCount paramVal="20" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject ReversedResult="0">
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="设置初始化成功标记位" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="echo > WLAN_LAN_OK" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="1" description="发送次数"/>
+		<TimeOut1 paramVal="10" description="命令超时时间"/>
+		<RetryCount paramVal="3" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject ReversedResult="0">
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ConsoleAppOperation" description="连接高通设备" />
+        <TestName paramVal="设置WIFI LAN模式" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <ConsoleAppPath paramVal="cmd.exe" description="程序路径" />
+		<ProcessPipeEnvironment paramVal="TSE_WIFI_LAN_CONSOLE" description="程序路径"/>	
+		<Command1 paramVal="1" description="指令"/>
+		<FindOk1 paramVal="" description="接收字符串"/>
+		<ErrorReTestCount1 paramVal="1" description="发送次数"/>
+		<TimeOut1 paramVal="36000" description="命令超时时间"/>
+		<ErrorTestIntervalMSec1 paramVal="1000" description=""/>
+		<RetryCount paramVal="1" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="清除标记位" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="del WLAN_LAN_OK" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="1" description="发送次数"/>
+		<TimeOut1 paramVal="1" description="命令超时时间"/>
+		<RetryCount paramVal="3" description="错误重测次数" />
+    </SuiteProject>
+</Suite>

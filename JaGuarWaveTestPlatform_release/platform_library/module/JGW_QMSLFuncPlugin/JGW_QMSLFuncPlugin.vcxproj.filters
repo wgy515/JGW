@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="wifi">
+      <UniqueIdentifier>{dd52718f-4941-4431-9ee0-02d046da62be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vfs">
+      <UniqueIdentifier>{7f3ff0a5-bc18-4234-abb2-e48dc5d93fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usb_handover">
+      <UniqueIdentifier>{a7957928-a22d-45b3-b0f0-a988a7011c79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_QMSLFuncPlugin\JGW_QMSLFuncPlugin_Define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_QMSLFuncPlugin\CJGWWiFiQMSL.h">
+      <Filter>wifi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_QMSLFuncPlugin\jgw_wr_nv_api.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_QMSLFuncPlugin\jgw_device_api_define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_QMSLFuncPlugin\jgw_device_api.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_QMSLFuncPlugin\WiFiTestDefine.h">
+      <Filter>wifi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_QMSLFuncPlugin\SubSysVFS.h">
+      <Filter>vfs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_QMSLFuncPlugin\SubSysVFSBase.h">
+      <Filter>vfs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_QMSLFuncPlugin\SubSysVFSCDMA.h">
+      <Filter>vfs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_QMSLFuncPlugin\SubSysVFSDefine.h">
+      <Filter>vfs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_QMSLFuncPlugin\SubSysVFSGSM.h">
+      <Filter>vfs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_QMSLFuncPlugin\SubSysVFSLTE.h">
+      <Filter>vfs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_QMSLFuncPlugin\SubSysVFSLTEV1.h">
+      <Filter>vfs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_QMSLFuncPlugin\SubSysVFSTDSCDMA.h">
+      <Filter>vfs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_QMSLFuncPlugin\SubSysVFSWCDMA.h">
+      <Filter>vfs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_QMSLFuncPlugin\CalFreq.h">
+      <Filter>vfs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_QMSLFuncPlugin\CJGW_UsbModeHandoverThread.h">
+      <Filter>usb_handover</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_QMSLFuncPlugin\CJGW_UsbModeHandover.h">
+      <Filter>usb_handover</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_QMSLFuncPlugin\CJGW_WCNTestIPQ8070Dut.h">
+      <Filter>wifi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_QMSLFuncPlugin\DutTxDetailSettings2.h">
+      <Filter>wifi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_QMSLFuncPlugin\CCJGW_WCNTestDefine.h">
+      <Filter>wifi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_QMSLFuncPlugin\JGW_QMSLFunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGWWiFiQMSL.cpp">
+      <Filter>wifi</Filter>
+    </ClCompile>
+    <ClCompile Include="jgw_wr_nv_api.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jgw_device_api.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vfs\CalFreq.cpp">
+      <Filter>vfs</Filter>
+    </ClCompile>
+    <ClCompile Include="vfs\SubSysVFS.cpp">
+      <Filter>vfs</Filter>
+    </ClCompile>
+    <ClCompile Include="vfs\SubSysVFSBase.cpp">
+      <Filter>vfs</Filter>
+    </ClCompile>
+    <ClCompile Include="vfs\SubSysVFSCDMA.cpp">
+      <Filter>vfs</Filter>
+    </ClCompile>
+    <ClCompile Include="vfs\SubSysVFSGSM.cpp">
+      <Filter>vfs</Filter>
+    </ClCompile>
+    <ClCompile Include="vfs\SubSysVFSLTE.cpp">
+      <Filter>vfs</Filter>
+    </ClCompile>
+    <ClCompile Include="vfs\SubSysVFSLTEV1.cpp">
+      <Filter>vfs</Filter>
+    </ClCompile>
+    <ClCompile Include="vfs\SubSysVFSTDSCDMA.cpp">
+      <Filter>vfs</Filter>
+    </ClCompile>
+    <ClCompile Include="vfs\SubSysVFSWCDMA.cpp">
+      <Filter>vfs</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_UsbModeHandover.cpp">
+      <Filter>usb_handover</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_UsbModeHandoverThread.cpp">
+      <Filter>usb_handover</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_WCNTestIPQ8070Dut.cpp">
+      <Filter>wifi</Filter>
+    </ClCompile>
+    <ClCompile Include="JGW_QMSLFunc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

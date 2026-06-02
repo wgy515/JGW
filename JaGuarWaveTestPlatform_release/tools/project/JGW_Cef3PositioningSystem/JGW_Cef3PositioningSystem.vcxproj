@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F8D44A14-0CC8-449B-A1D4-25884E7EB1D2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>JGW_Cef3PositioningSystem</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\debug\exec_debug\cef3\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\release\exec_release\cef3\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;_HAS_EXCEPTIONS=0;CEF_USE_ATL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)platform_ui\include;$(SolutionDir)platform_core\include;$(SolutionDir)platform_app\include;$(SolutionDir)platform_library\include;$(SolutionDir)platform_core\include\cef-83.0.4103.106;$(SolutionDir)platform_core\include\rabbitmq-c-0.11.0</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\library;$(SolutionDir)lib\core;$(SolutionDir)platform_core_lib\cef-83.0.4103.106;$(SolutionDir)lib\ui;$(SolutionDir)platform_core_lib\poco</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcef_d.lib;libcef_dll_wrapper_d.lib;wsock32.lib;ws2_32.lib;$(SolutionDir)platform_core_lib\rabbitmq-c-0.11.0\librabbitmq.4_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>libcef.dll;JGW_Cef3Plugin_d.dll</DelayLoadDLLs>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>compatibility.manifest</AdditionalManifestFiles>
+    </Manifest>
+    <PostBuildEvent>
+      <Command>copy /y  $(SolutionDir)bin\debug\exec_debug\cef3\$(TargetName)$(TargetExt) 	$(SolutionDir)bin\debug\exec\cef3\$(TargetName)$(TargetExt)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;_HAS_EXCEPTIONS=0;CEF_USE_ATL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)platform_ui\include;$(SolutionDir)platform_core\include;$(SolutionDir)platform_app\include;$(SolutionDir)platform_library\include;$(SolutionDir)platform_core\include\cef-83.0.4103.106;$(SolutionDir)platform_core\include\rabbitmq-c-0.11.0</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\library;$(SolutionDir)lib\core;$(SolutionDir)platform_core_lib\cef-83.0.4103.106;$(SolutionDir)lib\ui;$(SolutionDir)platform_core_lib\poco</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcef.lib;libcef_dll_wrapper.lib;wsock32.lib;ws2_32.lib;$(SolutionDir)platform_core_lib\rabbitmq-c-0.11.0\librabbitmq.4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>libcef.dll;JGW_Cef3Plugin.dll</DelayLoadDLLs>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>compatibility.manifest</AdditionalManifestFiles>
+    </Manifest>
+    <PostBuildEvent>
+      <Command>copy /y  $(SolutionDir)bin\release\exec_release\cef3\$(TargetName)$(TargetExt) 	$(SolutionDir)bin\release\exec\cef3\$(TargetName)$(TargetExt)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="JGW_Cef3PositioningSystem.ico" />
+    <None Include="ReadMe.txt" />
+    <None Include="resource.zip" />
+    <None Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CJGW_Cef3BrowserEventHelp.h" />
+    <ClInclude Include="CJGW_Cef3PositioningSystemUDPScokect.h" />
+    <ClInclude Include="CJGW_PositioningSystemMemberVariable.h" />
+    <ClInclude Include="CJGW_PositioningSystemProtocol.h" />
+    <ClInclude Include="CJGW_PSRabbitMQ.h" />
+    <ClInclude Include="JGW_Cef3PositioningSystem.h" />
+    <ClInclude Include="latlon_ellipsoidal_vincenty.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RMQ\RabbitMQCHelp.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="VincentyGeodesics.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="WMM_2025\wmm.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\platform_library\library\JGW_FoundationFunc\JGW_ApplicationDecrypt.cpp" />
+    <ClCompile Include="CJGW_Cef3BrowserEventHelp.cpp" />
+    <ClCompile Include="CJGW_Cef3PositioningSystemUDPScokect.cpp" />
+    <ClCompile Include="CJGW_PositioningSystemMemberVariable.cpp" />
+    <ClCompile Include="CJGW_PositioningSystemProtocol.cpp" />
+    <ClCompile Include="CJGW_PSRabbitMQ.cpp" />
+    <ClCompile Include="JGW_Cef3PositioningSystem.cpp" />
+    <ClCompile Include="latlon_ellipsoidal_vincenty.cpp" />
+    <ClCompile Include="RMQ\RabbitMQCHelp.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="VincentyGeodesics.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="WMM_2025\wmm.cpp" />
+    <ClCompile Include="WMM_2025\WMM_COF.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="JGW_Cef3PositioningSystem.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

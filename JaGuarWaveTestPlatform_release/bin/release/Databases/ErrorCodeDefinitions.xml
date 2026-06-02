@@ -1,0 +1,2448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * $Header$
+ * $DateTime$
+ *
+ * DESCRIPTION: Error Code Definition
+ ******************************************************************************
+ *
+ * Copyright (c) 2015 Qualcomm Technologies, Inc.
+ * All rights reserved.
+ * Qualcomm Technologies, Inc. Confidential and Proprietary.
+ *
+ ******************************************************************************
+ */
+-->
+<ErrorCodeDefinitions>
+   <Version>0</Version>
+   <Technology id="" value="0">
+      <Function id="COMMON" controltext="SYSTEM" value="0">
+         <Result id="NO_ERROR" name="" value="00" severity="1">
+            <AltHelp loc="1033">All tests completed successfully without errors.</AltHelp>
+            <AltHelp loc="2052">所有测试成功完成，没有错误。</AltHelp>
+         </Result>
+         <Result id="UNDEFINED_ERROR" name="" value="01" severity="2">
+            <AltHelp loc="1033">A failure was encountered however is not defined within the error code list.</AltHelp>
+            <AltHelp loc="2052">遇到失败，但是没有定义的错误代码列表内。</AltHelp>​
+         </Result>
+      </Function>
+      <Function id="EXCEPTION" controltext="SYSTEM" value="Z">
+         <Result id="GENERAL_EXCEPTION" name="g_exc_general_exception" value="00" severity="3">
+            <AltHelp loc="1033">A general software exception occurred.</AltHelp>
+            <AltHelp loc="2052">一般的软件发生异常。</AltHelp>
+         </Result>
+         <Result id="GPIB_ERROR" name="g_exc_general_gpibError" value="01" severity="3">
+            <AltHelp loc="1033">A GPIB error occurred</AltHelp>
+            <AltHelp loc="2052">一个GPIB发生错误</AltHelp>
+         </Result>
+      </Function>
+   </Technology>
+
+   <Technology id="CDMA" value="1">
+      <Function id="INITIALIZE_BASESTATION" controltext="CALL" value="1">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">Initialize the basestation / call processor</AltHelp>
+            <AltHelp loc="2052">基站/呼叫处理器初始化</AltHelp>
+         </Result>
+      </Function>
+      <Function id="START_CALL" controltext="CALL" value="2">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">Request phone and basestation to establish a call</AltHelp>
+            <AltHelp loc="2052">请求手机和基站建立呼叫</AltHelp>
+         </Result>
+      </Function>
+      <Function id="END_CALL" controltext="CALL" value="3">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">Request for end call.</AltHelp>
+            <AltHelp loc="2052">请求结束通话。</AltHelp>
+         </Result>
+      </Function>
+      <Function id="HANDOVER" controltext="CALL" value="4">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">Initiate call handover</AltHelp>
+            <AltHelp loc="2052">发起呼叫移交</AltHelp>
+         </Result>
+      </Function>
+      <Function id="MODULATION_ANALYSIS" controltext="TX" value="5">
+         <Result id="RHO_AVG" name="" value="00" severity="3">
+            <AltHelp loc="1033">Average Waveform Quality recorded during the test lies beyond the maximum and minimum limits.</AltHelp>
+            <AltHelp loc="2052">记录，在测试过程中的平均波形质量之外的最大和最小限值。</AltHelp>
+         </Result>
+         <Result id="RHO_MAX" name="" value="01" severity="3">
+            <AltHelp loc="1033">Maximum Waveform Quality recorded during the test exceeds the maximum limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的最大波形质量超过最高限额。</AltHelp>
+         </Result>
+         <Result id="RHO_MIN" name="" value="02" severity="3">
+            <AltHelp loc="1033">Minimum Waveform Quality recorded during the test is lower than the minimum limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的最小波形质量低于最小极限。</AltHelp>
+         </Result>
+         <Result id="FREQUENCY_ERROR_MAX" name="" value="03" severity="3">
+            <AltHelp loc="1033">Maximum TX Frequency Error (Hz) recorded during the test exceeds the maximum limit.</AltHelp>
+            <AltHelp loc="2052">最大TX频率误差（赫兹），在测试过程中记录的超过最高限额。</AltHelp>
+         </Result>
+         <Result id="FREQUENCY_ERROR_MIN" name="" value="04" severity="3">
+            <AltHelp loc="1033">Minimum TX Frequency Error (Hz) recorded during the test is lower than the minimum limit.</AltHelp>
+            <AltHelp loc="2052">最小TX频率误差（赫兹），在测试过程中记录的是低于最小极限。​</AltHelp>
+         </Result>
+         <Result id="TIME_ERROR_AVG" name="" value="05" severity="3">
+            <AltHelp loc="1033">Average TX Timing Error (us) recorded during the test lies beyond the maximum and minimum limit.</AltHelp>
+            <AltHelp loc="2052">平均TX定时误差（我们）记录，可在测试过程中的最大值和最小值​的限制之外。</AltHelp>
+         </Result>
+         <Result id="TIME_ERROR_MAX" name="" value="06" severity="3">
+            <AltHelp loc="1033">Maximum TX Timing Error (us) recorded during the test exceeds the maximum limit.</AltHelp>
+            <AltHelp loc="2052">最大TX时序错误（我们）在测试过程中记录的超过最高限额。</AltHelp>
+         </Result>
+         <Result id="TIME_ERROR_MIN" name="" value="07" severity="3">
+            <AltHelp loc="1033">Minimum TX Timing Error (us)  recorded during the test is lower than the minimum limit.</AltHelp>
+            <AltHelp loc="2052">最小TX定时误差（我们）在测试过程中记录的是低于最小极限。</AltHelp>
+         </Result>
+         <Result id="CARRIER_FEED_AVG" name="" value="08" severity="3">
+            <AltHelp loc="1033">Average Carrier Feed (dBc) recorded during the waveform quality test lies beyond the maximum and minimum limits.</AltHelp>
+            <AltHelp loc="2052">平均载波波形质量测试过程中记录的进给量（dBc的）之外的最大​和最小限值。</AltHelp>
+         </Result>
+         <Result id="CARRIER_FEED_MAX" name="" value="09" severity="3">
+            <AltHelp loc="1033">Maximum Carrier Feed (dBc) recorded during the waveform quality test exceeds limits.</AltHelp>
+            <AltHelp loc="2052">最大载波馈（DBC）记录的波形质量测试期间超过限制。</AltHelp>
+         </Result>
+         <Result id="CARRIER_FEED_MIN" name="" value="0A" severity="3">
+            <AltHelp loc="1033">Minimum Carrier Feed (dBc) recorded during the waveform quality test exceeds limits.</AltHelp>
+            <AltHelp loc="2052">的最小载波馈（DBC）记录的波形质量测试期间超过限制。</AltHelp>
+         </Result>
+         <Result id="PHASE_ERROR_AVG" name="" value="0B" severity="3">
+            <AltHelp loc="1033">Average TX Phase Error (deg) recorded during the test lies beyond the maximum and minimum limit.</AltHelp>
+            <AltHelp loc="2052">平均TX相位误差（度）记录，可在测试过程中的最大值和最小值的​限制之外。</AltHelp>
+         </Result>
+         <Result id="PHASE_ERROR_MAX" name="" value="0C" severity="3">
+            <AltHelp loc="1033">Maximum TX Phase Error (deg) recorded during the test exceeds the maximum limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录最大TX相位误差（度），超过最高限额。</AltHelp>
+         </Result>
+         <Result id="PHASE_ERROR_MIN" name="" value="0D" severity="3">
+            <AltHelp loc="1033">Minimum TX Phase Error (deg) recorded during the test is lower than the minimum limit.</AltHelp>
+            <AltHelp loc="2052">最小TX相位误差（度）记录在测试过程中的低于最小极限。</AltHelp>
+         </Result>
+         <Result id="MAGNITUDE_ERROR_AVG" name="" value="0E" severity="3">
+            <AltHelp loc="1033">Average TX Magnitude error (%) recorded during the test lies beyond the maximum and minimum limit.</AltHelp>
+            <AltHelp loc="2052">平均TX震级的误差（％）记录，可在测试过程中的最大值和最小值​的限制之外。</AltHelp>
+         </Result>
+         <Result id="MAGNITUDE_ERROR_MAX" name="" value="0F" severity="3">
+            <AltHelp loc="1033">Maximum TX Magnitude error (%) recorded during the test exceeds the maximum limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录最大TX震级的误差（％）超过最高限额。</AltHelp>
+         </Result>
+         <Result id="MAGNITUDE_ERROR_MIN" name="" value="0G" severity="3">
+            <AltHelp loc="1033">Minimum Tx Magnitude error (%) recorded during the test is lower than the minimum limit.</AltHelp>
+            <AltHelp loc="2052">低于最小发送震级的误差（％）记录在测试过程中的最小极限。</AltHelp>
+         </Result>
+         <Result id="EVM_AVG" name="" value="0H" severity="3">
+            <AltHelp loc="1033">Average TX Error Vector Magnitude (%) recorded during the test lies beyond the minimum and maximum limit.</AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="EVM_MAX" name="" value="0J" severity="3">
+            <AltHelp loc="1033">Maximum TX Error Vector Magnitude (%) recorded during the test exceeds the maximum limit.</AltHelp>
+            <AltHelp loc="2052">平均TX记录，可在测试过程中的误差向量幅度（％）之外的最小和​最大限制。</AltHelp>
+         </Result>
+         <Result id="EVM_MIN" name="" value="0K" severity="3">
+            <AltHelp loc="1033">Minimum TX Error Vector Magnitude (%) recorded during the test is lower than the minimum limit.</AltHelp>
+            <AltHelp loc="2052">最短发送记录，可在测试过程中的误差向量幅度（％）低于最低限制​。</AltHelp>
+         </Result>
+      <Result id="FREQUENCY_ERROR_AVG" name="" value="0L" severity="3">
+           <AltHelp loc="1033">Average TX Frequency Error (Hz) recorded during the test lies beyond the maximum and minimum limit.</AltHelp>
+         </Result>		 
+      </Function>
+      <Function id="ROCL" controltext="TX" value="6">
+         <Result id="LOWER_POWER_SWING" name="" value="00" severity="3">
+            <AltHelp loc="1033">ROCL Lower Power Swing recorded during test fails limit.</AltHelp>
+            <AltHelp loc="2052">ROCL振荡在测试过程中记录下失败的限制。</AltHelp>
+         </Result>
+         <Result id="UPPER_POWER_SWING" name="" value="01" severity="3">
+            <AltHelp loc="1033">ROCL Upper Power Swing recorded during test fails limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的ROCL上电源摆幅限制失败。</AltHelp>
+         </Result>
+      </Function>
+      <Function id="POWER" controltext="TX" value="7">
+         <Result id="MAXIMUM" name="" value="00" severity="3">
+            <AltHelp loc="1033">Maximum TX Power recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的最大发射功率超过限制。</AltHelp>​
+         </Result>
+         <Result id="MINIMUM" name="" value="01" severity="3">
+            <AltHelp loc="1033">Minimum TX Power recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的最小发射功率超过限制。</AltHelp>​
+         </Result>
+         <Result id="OUTPUT_MAXIMUM" name="" value="02" severity="3">
+            <AltHelp loc="1033">Maximum Output Power (dBm) recorded during the test lies beyond the maximum and the minimum limits.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的最大输出功率（dBm）位于超出了最大值和最​小值限制。</AltHelp>
+         </Result>
+         <Result id="OUTPUT_MINIMUM" name="" value="03" severity="3">
+            <AltHelp loc="1033">Minimum Output Power (dBm) recorded during the test lies beyond the maximum and the minimum limits.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的最小输出功率（dBm）位于超出了最大值和最​小值限制。</AltHelp>
+         </Result>
+		 <Result id="OUTPUT_AVG" name="" value="04" severity="3">
+            <AltHelp loc="1033">Output Power (dBm) recorded during the test lies beyond the maximum and the minimum limits.</AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+      </Function>
+      <Function id="ACPR" controltext="TX" value="8">
+         <Result id="LOWER" name="" value="00" severity="3">
+            <AltHelp loc="1033">Adjacent Channel Power Ratio (dB) fails on the lower side of TX channel</AltHelp>
+            <AltHelp loc="2052">邻道功率比（dB）失败TX通道的下侧</AltHelp>
+         </Result>
+         <Result id="UPPER" name="" value="01" severity="3">
+            <AltHelp loc="1033">Adjacent Channel Power Ratio (dB) fails on the upper side of TX channel</AltHelp>
+            <AltHelp loc="2052">TX通道的上侧的邻道功率比（dB）失败</AltHelp>
+         </Result>
+         <Result id="LOWER_ALT" name="" value="02" severity="3">
+            <AltHelp loc="1033">Adjacent Alternate Channel Power Ratio (dB) fails on the lower side of TX channel</AltHelp>
+            <AltHelp loc="2052">TX通道的下侧邻备用信道功率比（dB）失败</AltHelp>
+         </Result>
+         <Result id="UPPER_ALT" name="" value="03" severity="3">
+            <AltHelp loc="1033">Adjacent Alternate Channel Power Ratio (dB) fails on the upper side of TX channel</AltHelp>
+            <AltHelp loc="2052">TX通道的上侧邻备用信道功率比（dB）失败</AltHelp>
+         </Result>
+      <Result id="AVG" name="" value="04" severity="3">
+             <AltHelp loc="1033">Alternate Channel Power Ratio (dB) fails in TX channel</AltHelp>
+             <AltHelp loc="2052"></AltHelp>
+		 </Result>
+      </Function>
+      <Function id="SENSITIVITY_SEARCH" controltext="RX" value="9">
+         <Result id="ERR" name="" value="00" severity="3">
+            <AltHelp loc="1033">RX Search Sensitivity recorded during test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">RX搜索灵敏度测试过程中记录超过限制。</AltHelp>
+         </Result>
+      </Function>
+      <Function id="PREDICTED_SENSITIVITY" controltext="RX" value="A">
+         <Result id="ERR" name="" value="00" severity="3">
+            <AltHelp loc="1033">RX Predicted Sensitivity recorded during test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">RX预测，在测试过程中记录的灵敏度超过了极限。</AltHelp>
+         </Result>
+      </Function>
+      <Function id="RF_CAL_VERIFY" controltext="TXRX" value="B">
+         <Result id="AGC_VALUE_ERROR" name="" value="00" severity="3">
+            <AltHelp loc="1033">TX/RX AGC (dB) recorded during the test lies beyond the maximum and minimum limits.</AltHelp>
+            <AltHelp loc="2052">TX/ RX AGC（分贝），在测试过程中记录之外的最大和最小限值。</AltHelp>
+         </Result>
+         <Result id="TX_GAIN_CTL_ERROR" name="" value="01" severity="3">
+            <AltHelp loc="1033">TX Gain control Error (dB) recorded during the test lies beyond the maximum and minimum limits.</AltHelp>
+            <AltHelp loc="2052">TX增益控制在测试过程中记录的错误（分贝）在于超越了最高和最​低限额。</AltHelp>
+         </Result>
+         <Result id="RX_DISCONTINUITY" name="" value="02" severity="3">
+            <AltHelp loc="1033">RX Discontinuity (dB) in cal verification exceeds the maximum limit.</AltHelp>
+            <AltHelp loc="2052">RX间断度（dB）在CAL验证超过最高限额。</AltHelp>
+         </Result>
+         <Result id="TX_DISCONTINUITY" name="" value="03" severity="3">
+            <AltHelp loc="1033">TX Discontinuity (dB) in cal verification exceeds the maximum limit.</AltHelp>
+            <AltHelp loc="2052">TX间断度（dB）在CAL验证超过最高限额。</AltHelp>
+         </Result>
+      </Function>
+   <Function id="POWER" controltext="RX" value="C">
+         <Result id="AVG" name="" value="00" severity="3">
+            <AltHelp loc="1033">RX Power Level (dB) recorded during test is out of the acceptable range.</AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+      </Function>
+      <Function id="SENSITIVITY" controltext="RX" value="D">
+          <Result id="SER" name="" value="00" severity="3">
+              <AltHelp loc="1033">SER value recorded during RX Sensitivity test exceeds limit.</AltHelp>
+              <AltHelp loc="2052"></AltHelp>
+          </Result>
+          <Result id="FER" name="" value="01" severity="3">
+              <AltHelp loc="1033">FER value recorded during RX Sensitivity test exceeds limit.</AltHelp>
+              <AltHelp loc="2052"></AltHelp>
+          </Result>
+      </Function>
+      <Function id="ESTIMATED_SENSITIVITY" controltext="RX" value="E">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">RX Estimated Sensitivity exceeds the maximum limits.</AltHelp>
+         </Result>
+      </Function> 
+   </Technology>
+
+   <Technology id="WCDMA" value="2">
+      <Function id="INITIALIZE_BASESTATION" controltext="CALL" value="1">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">Initialize the basestation / call processor</AltHelp>
+            <AltHelp loc="2052">初始化基站/呼叫处理器</AltHelp>
+         </Result>
+      </Function>
+      <Function id="START_CALL" controltext="CALL" value="2">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">Request phone and basestation to establish a call</AltHelp>
+            <AltHelp loc="2052">要求手机与基站建立呼叫</AltHelp>
+         </Result>
+      </Function>
+      <Function id="END_CALL" controltext="CALL" value="3">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">Request end call.</AltHelp>
+            <AltHelp loc="2052">请求结束通话。</AltHelp>
+         </Result>
+      </Function>
+
+      <Function id="HANDOVER" controltext="CALL" value="4">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">Initiate call handover</AltHelp>
+            <AltHelp loc="2052">发起呼叫切换</AltHelp>
+         </Result>
+      </Function>
+      <Function id="POWER" controltext="TX" value="5">
+         <Result id="AVERAGE" name="" value="00" severity="3">
+            <AltHelp loc="1033">Average TX Power (dBm) recorded during the test lies beyond the maximum and minimum limits.</AltHelp>
+            <AltHelp loc="2052">平均TX功率（dBm）在测试过程中记录位于超出最大和最小极限​。</AltHelp>
+         </Result>
+         <Result id="MINIMUM" name="" value="01" severity="3">
+            <AltHelp loc="1033">Minimum TX Power (dBm) recorded during the test is lower than the minimum limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的最小TX功率（dBm）小于最小极限。</AltHelp>
+         </Result>
+         <Result id="MAXIMUM" name="" value="02" severity="3">
+            <AltHelp loc="1033">Maximum TX Power (dBm) recorded during the test exceeds the maximum limit.</AltHelp>
+            <AltHelp loc="2052">最大TX功率（dBm）在测试过程中记录超过最大限制。</AltHelp>
+         </Result>
+      </Function>
+      <Function id="MODULATION_ANALYSIS" controltext="TX" value="6">
+         <Result id="EVM_RMS" name="" value="00" severity="3">
+            <AltHelp loc="1033">Average TX Error Vector Magnitude (%) recorded during the test exceeds the maximum limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的平均TX误差矢量幅度（％）超过了最大限制。​</AltHelp>
+         </Result>
+         <Result id="MAX_EVM_RMS" name="" value="01" severity="3">
+            <AltHelp loc="1033">Maximum TX Error Vector Magnitude (%) recorded during the test exceeds the maximum limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的最大TX误差矢量幅度（％）超过了最大限制。​</AltHelp>
+         </Result>
+         <Result id="MIN_EVM_RMS" name="" value="02" severity="3">
+            <AltHelp loc="1033">Minimum TX Error Vector Magnitude (%) recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的最小TX误差矢量幅度（％）超过限额。</AltHelp>
+         </Result>
+         <Result id="PEAK_VECTOR_ERROR" name="" value="03" severity="3">
+            <AltHelp loc="1033">Average TX Peak Vector Error (%) recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">平均TX峰值向量误差（％）在试验过程中记录的超过极限。</AltHelp>
+         </Result>
+         <Result id="MAX_PEAK_VECTOR_ERROR" name="" value="04" severity="3">
+            <AltHelp loc="1033">Maximum TX Peak Vector Error (%) recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">德克萨斯州的最大峰值向量误差（％）在试验过程中记录的超过极限​。</AltHelp>
+         </Result>
+         <Result id="MIN_PEAK_VECTOR_ERROR" name="" value="05" severity="3">
+            <AltHelp loc="1033">Minimum TX Peak Vector Error (%) recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">最小TX峰值向量误差（％）在试验过程中记录的超过极限。</AltHelp>
+         </Result>
+         <Result id="PHASE_ERROR" name="" value="06" severity="3">
+            <AltHelp loc="1033">Average TX Phase Error (deg (rms))limit failure.</AltHelp>
+            <AltHelp loc="2052">平均TX相位误差（度（RMS））限制故障。</AltHelp>
+         </Result>
+         <Result id="MAX_PHASE_ERROR" name="" value="07" severity="3">
+            <AltHelp loc="1033">Maximum TX Phase Error (deg (rms)) limit failure.</AltHelp>
+            <AltHelp loc="2052">德克萨斯州的最大相位误差（度（RMS））限制故障。</AltHelp>
+         </Result>
+         <Result id="MIN_PHASE_ERROR" name="" value="08" severity="3">
+            <AltHelp loc="1033">Minimum TX Phase Error (deg (rms)) limit failure.</AltHelp>
+            <AltHelp loc="2052">最小TX相位误差（度（RMS））限制故障。</AltHelp>
+         </Result>
+         <Result id="MAG_ERROR" name="" value="09" severity="3">
+            <AltHelp loc="1033">Average TX Magnitude error (% (rms)) limit failure.</AltHelp>
+            <AltHelp loc="2052">平均TX幅度误差（％（RMS））限制故障。</AltHelp>
+         </Result>
+         <Result id="MAX_MAG_ERROR" name="" value="0A" severity="3">
+            <AltHelp loc="1033">Maximum TX Magnitude error (% (rms)) limit failure.</AltHelp>
+            <AltHelp loc="2052">德克萨斯州最大震级误差（％（RMS））限制故障。</AltHelp>
+         </Result>
+         <Result id="MIN_MAG_ERROR" name="" value="0B" severity="3">
+            <AltHelp loc="1033">Minimum Tx Magnitude error (% (rms)) limit failure.</AltHelp>
+            <AltHelp loc="2052">最小发射幅度误差（％（RMS））限制故障。</AltHelp>
+         </Result>
+         <Result id="ORIGIN_OFFSET" name="" value="0C" severity="3">
+            <AltHelp loc="1033">Average TX Origin Offset (dB) recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">平均TX原点偏移（分贝），在测试过程中记录的超过极限。</AltHelp>
+         </Result>
+         <Result id="MAX_ORIGIN_OFFSET" name="" value="0D" severity="3">
+            <AltHelp loc="1033">Maximum TX Origin offset (dB) recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">德克萨斯州的最大产地偏移量（分贝）在测试过程中记录的超过极限​。</AltHelp>
+         </Result>
+         <Result id="MIN_ORIGIN_OFFSET" name="" value="0E" severity="3">
+            <AltHelp loc="1033">Minimum TX Origin offset (dB) recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">最小TX原点偏移（分贝）在测试过程中记录的超过极限。</AltHelp>
+         </Result>
+         <Result id="IQ_IMBALANCE" name="" value="0F" severity="3">
+            <AltHelp loc="1033">Average TX IQ Imbalance (%(I/Q)) recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的平均TX IQ失衡（％（I / Q））超过限度。</AltHelp>
+         </Result>
+         <Result id="MAX_IQ_IMBALANCE" name="" value="0G" severity="3">
+            <AltHelp loc="1033">Maximum TX IQ Imbalance (%(I/Q)) recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">最大TX IQ失衡（％（I / Q））在试验过程中记录超过上限。</AltHelp>
+         </Result>
+         <Result id="MIN_IQ_IMBALANCE" name="" value="0H" severity="3">
+            <AltHelp loc="1033">Minimum TX IQ Imbalance (%(I/Q)) recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的最小TX IQ失衡（％（I / Q））超过限度。</AltHelp>
+         </Result>
+         <Result id="PWR_RATIO" name="" value="0J" severity="3">
+            <AltHelp loc="1033">Average TX Power Ratio (dB) recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的平均发射功率比（dB）超过限额。</AltHelp>
+         </Result>
+         <Result id="MAX_PWR_RATIO" name="" value="0K" severity="3">
+            <AltHelp loc="1033">Maximum TX Power Ratio (dB) recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的最大发射功率比（dB）超过限额。</AltHelp>
+         </Result>
+         <Result id="MIN_PWR_RATIO" name="" value="0L" severity="3">
+            <AltHelp loc="1033">Minimum TX Power Ratio (dB) recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的最小发射功率比（dB）超过限额。</AltHelp>
+         </Result>
+      </Function>
+      <Function id="TIMING_ERROR" controltext="TX" value="7">
+         <Result id="AVG" name="" value="00" severity="3">
+            <AltHelp loc="1033">Average TX Timing Error (chips) recorded during the test lies beyond the maximum and minimum limits.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的平均TX定时误差（芯片）位于超出最大和最小​极限。</AltHelp>
+         </Result>
+         <Result id="MIN" name="" value="01" severity="3">
+            <AltHelp loc="1033">Minimum TX Timing Error (chips) recorded during the test is lower than the minimum limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的最小TX定时误差（芯片）小于最小极限。</AltHelp>
+         </Result>
+         <Result id="MAX" name="" value="02" severity="3">
+            <AltHelp loc="1033">Maximum TX Timing Error (chips) recorded during the test exceeds the maximum limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的最大发送定时误差（筹）超过了最大限制。</AltHelp>
+         </Result>
+      </Function>
+      <Function id="ACLR" controltext="TX" value="8">
+         <Result id="AVG" name="" value="00" severity="3">
+            <AltHelp loc="1033">Average Adjacent channel leakage ratio (dB) recorded during the test exceeds the maximum limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的平均相邻信道泄漏比（dB）超过了最大限制。​</AltHelp>
+         </Result>
+         <Result id="MIN" name="" value="01" severity="3">
+            <AltHelp loc="1033">Minimum Adjacent channel leakage ratio (dB) recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的最小相邻信道泄漏比（dB）超过限额。</AltHelp>
+         </Result>
+         <Result id="MAX" name="" value="02" severity="3">
+            <AltHelp loc="1033">Maximum Adjacent channel leakage ratio (dB) recorded during the test exceeds the maximum limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的最大相邻信道泄漏比（dB）超过了最大限制。​</AltHelp>
+         </Result>
+      </Function>
+      <Function id="OCCUPIED_BW" controltext="TX" value="9">
+         <Result id="MAX" name="" value="00" severity="3">
+            <AltHelp loc="1033">Maximum TX Occupied Bandwidth (MHz) recorded during the test exceeds the maximum limit.</AltHelp>
+            <AltHelp loc="2052">德克萨斯州最大占用带宽（MHz）在测试过程中记录超过最大限制​。</AltHelp>
+         </Result>
+         <Result id="UPPER_FREQ" name="" value="01" severity="3">
+            <AltHelp loc="1033">Error to indicate the Tx occupied BW (MHz) in the Upper Half of the spectrum.</AltHelp>
+            <AltHelp loc="2052">错误指示发射频谱的上半部分占用带宽（MHz）。</AltHelp>
+         </Result>
+         <Result id="LOWER_FREQ" name="" value="02" severity="3">
+            <AltHelp loc="1033">Error to indicate the Tx occupied BW (MHz) in the Lower Half of the spectrum.</AltHelp>
+            <AltHelp loc="2052">错误指示发射光谱中的下半部占用带宽（MHz）。</AltHelp>
+         </Result>
+         <Result id="CENTER_FREQ" name="" value="03" severity="3">
+            <AltHelp loc="1033">Error to check whether the Center Frequency of the Tx (MHz) spectrum is shifted.</AltHelp>
+            <AltHelp loc="2052">错误检查德克萨斯州（兆赫）频谱的中心频率是否发生了转移。</AltHelp>
+         </Result>
+      <Result id="AVG" name="" value="04" severity="3">
+            <AltHelp loc="1033">Average TX Occupied Bandwidth (MHz) recorded during the test lies beyond the minmum and maximum limits.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="SPECTRUM_EMISSION_MASK" controltext="TX" value="A">
+         <Result id="MARGIN" name="" value="00" severity="3">
+            <AltHelp loc="1033">Margin (dB) in the Spectrum Emission Mask recorded during the test is lower than the minimum limit.</AltHelp>
+            <AltHelp loc="2052">余量（dB）在试验期间记录的频谱辐射模板低于最低下限。</AltHelp>
+         </Result>
+      </Function>
+      <Function id="PCDE" controltext="TX" value="B">
+         <Result id="AVG" name="" value="00" severity="3">
+            <AltHelp loc="1033">Average TX Peak code domain error (dB) recorded during the test exceeds the maximum limit.</AltHelp>
+            <AltHelp loc="2052">平均TX峰值码域误差（分贝），在测试过程中记录超过最大限制。​</AltHelp>
+         </Result>
+         <Result id="MIN" name="" value="01" severity="3">
+            <AltHelp loc="1033">Minimum TX Peak code domain error (dB) recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">最小TX峰值码域误差（分贝）在测试过程中记录的超过极限。</AltHelp>
+         </Result>
+         <Result id="MAX" name="" value="02" severity="3">
+            <AltHelp loc="1033">Maximum TX Peak code domain error (dB) recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">德克萨斯州的最大峰值码域误差（分贝），在测试过程中记录的超过​极限。</AltHelp>
+         </Result>
+      </Function>
+      <Function id="FREQUENCY_ERROR" controltext="TX" value="C">
+         <Result id="AVG" name="" value="00" severity="3">
+            <AltHelp loc="1033">Average TX Frequency Error (ppm) recorded during the test lies beyond the maximum and minimum limits.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的平均TX频率误差（PPM）位于超出最大和最​小极限。</AltHelp>
+         </Result>
+         <Result id="MIN" name="" value="01" severity="3">
+            <AltHelp loc="1033">Minimum TX Frequency Error (ppm) recorded during the test is lower than the minimum limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的最小TX频率误差（PPM）小于最小极限。</AltHelp>
+         </Result>
+         <Result id="MAX" name="" value="02" severity="3">
+            <AltHelp loc="1033">Maximum TX Frequency Error (ppm) recorded during the test exceeds the maximum limit.</AltHelp>
+            <AltHelp loc="2052">在测试过程中记录的最大发送频率误差（PPM）超过了最大限制。​</AltHelp>
+         </Result>
+      </Function>
+      <Function id="UPLINK_ILPC" controltext="TX" value="D">
+         <Result id="1SLOT_DELTA_POWER" name="" value="00" severity="3">
+            <AltHelp loc="1033">Inner loop power control delta power measured over 1 slot exceeds limit.</AltHelp>
+            <AltHelp loc="2052">测量内环功率控制增量功率超过1插槽超出限制。</AltHelp>
+         </Result>
+         <Result id="5SLOT_DELTA_POWER" name="" value="01" severity="3">
+            <AltHelp loc="1033">Inner loop power control delta power measured over 5 slot exceeds limit.</AltHelp>
+            <AltHelp loc="2052">测量内环功率控制增量功率超过500插槽超出限制。</AltHelp>
+         </Result>
+         <Result id="7SLOT_DELTA_POWER" name="" value="02" severity="3">
+            <AltHelp loc="1033">Inner loop power control delta power measured over 7 slot exceeds limit.</AltHelp>
+            <AltHelp loc="2052">测量内环功率控制增量功率超过700插槽超出限制。</AltHelp>
+         </Result>
+         <Result id="10SLOT_DELTA_POWER" name="" value="03" severity="3">
+            <AltHelp loc="1033">Inner loop power control delta power measured over 10 slot exceeds limit.</AltHelp>
+            <AltHelp loc="2052">测量内环功率控制增量功率超过10插槽超出限制。</AltHelp>
+         </Result>
+         <Result id="PHASE_DISCONTINUITY" name="" value="04" severity="3">
+            <AltHelp loc="1033">Phase discontinuity recorded during Inner loop power control test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">内环功率控制测试过程中记录的相位不连续超过上限。</AltHelp>
+         </Result>
+      </Function>
+      <Function id="SENSITIVITY_SEARCH" controltext="RX" value="E">
+         <Result id="LOOPBACK" name="" value="00" severity="3">
+            <AltHelp loc="1033">RX Sensitivity with Loopback BER mode enabled exceeds limit.</AltHelp>
+            <AltHelp loc="2052">接收灵敏度启用环回模式下的误码率超过上限。</AltHelp>
+         </Result>
+         <Result id="SINGLEEND" name="" value="01" severity="3">
+            <AltHelp loc="1033">RX Sensitivity with Single ended BER mode enabled exceeds limit.</AltHelp>
+            <AltHelp loc="2052">接收灵敏度启用单端模式下的误码率超过上限。</AltHelp>
+         </Result>
+         <Result id="LBSE" name="" value="02" severity="3">
+            <AltHelp loc="1033">RX Sensitivity with Loopback and Single ended BER mode enabled exceeds limit.</AltHelp>
+            <AltHelp loc="2052">接收灵敏度与环回和单端BER模式下启用超出限制。</AltHelp>
+         </Result>
+      </Function>
+      <Function id="RF_CAL_VERIFY" controltext="TXRX" value="F">
+         <Result id="RX_ERROR" name="" value="00" severity="3">
+            <AltHelp loc="1033">RX Error in Primary chain cal verification recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">接收错误在测试过程中记录的主链的校准验证超出限制。</AltHelp>
+         </Result>
+         <Result id="RX_ERROR_DIV" name="" value="01" severity="3">
+            <AltHelp loc="1033">RX Error in Diversity chain cal verification recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">接收错误在测试过程中记录的多样性链校准验证超出限制。</AltHelp>
+         </Result>
+		 <Result id="RX_ERROR_C2" name="" value="04" severity="3">
+            <AltHelp loc="1033">RX Error in C2 chain cal verification recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">接收错误在测试过程中记录的多样性链校准验证超出限制。</AltHelp>
+         </Result>
+		 <Result id="RX_ERROR_C3" name="" value="05" severity="3">
+            <AltHelp loc="1033">RX Error in C3 chain cal verification recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">接收错误在测试过程中记录的多样性链校准验证超出限制。</AltHelp>
+         </Result>
+         <Result id="RX_AGC_IMBALANCE" name="" value="02" severity="3">
+            <AltHelp loc="1033">Difference between Primary and Diversity cal verification recorded during the test exceeds limit.</AltHelp>
+            <AltHelp loc="2052">初级和多样性校准验证之间的差异在试验期间记录超过极限。</AltHelp>
+         </Result>
+         <Result id="TX_ERROR" name="" value="03" severity="3">
+            <AltHelp loc="1033">TX error in Cal Verification recorded during the test.</AltHelp>
+            <AltHelp loc="2052">在测试过程中在加州验证TX错误记录。</AltHelp>
+         </Result>
+      </Function>
+   <Function id="POWER" controltext="RX" value="G">
+         <Result id="AVG" name="" value="00" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+      </Function>
+      <Function id="ESTIMATED_SENSITIVITY" controltext="RX" value="H">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">RX Estimated Sensitivity exceeds the maximum limits.</AltHelp>
+         </Result>
+      </Function> 
+   </Technology>
+
+   <Technology id="GSM" value="3">
+      <Function id="INITIALIZE_BASESTATION" controltext="CALL" value="1">
+         <Result id="MODE_GSM" name="" value="00" severity="3">
+            <AltHelp loc="1033">Initialize the basestation / call processor for GSM mode</AltHelp>
+            <AltHelp loc="2052">初始化为GSM模式下的基站/呼叫处理器</AltHelp>
+         </Result>
+         <Result id="MODE_GPRS" name="" value="01" severity="3">
+            <AltHelp loc="1033">Initialize the basestation / call processor for GPRS mode</AltHelp>
+            <AltHelp loc="2052">用于初始化GPRS模式下的基站/呼叫处理器</AltHelp>
+         </Result>
+         <Result id="MODE_EDGE" name="" value="02" severity="3">
+            <AltHelp loc="1033">Initialize the basestation / call processor for EDGE mode</AltHelp>
+            <AltHelp loc="2052">初始化用于EDGE模式下，基站/呼叫处理器</AltHelp>
+         </Result>
+      </Function>
+      <Function id="START_CALL" controltext="CALL" value="2">
+         <Result id="MODE_GSM" name="" value="00" severity="3">
+            <AltHelp loc="1033">Request phone and basestation to establish a GSM call</AltHelp>
+            <AltHelp loc="2052">要求手机与基站建立一个GSM通话</AltHelp>
+         </Result>
+         <Result id="MODE_GPRS" name="" value="01" severity="3">
+            <AltHelp loc="1033">Request phone and basestation to establish a GPRS call</AltHelp>
+            <AltHelp loc="2052">要求手机与基站建立GPRS通话</AltHelp>
+         </Result>
+         <Result id="MODE_EDGE" name="" value="02" severity="3">
+            <AltHelp loc="1033">Request phone and basestation to establish an EDGE call</AltHelp>
+            <AltHelp loc="2052">要求手机与基站建立一个EDGE通话</AltHelp>
+         </Result>
+      </Function>
+      <Function id="HANDOVER" controltext="CALL" value="3">
+         <Result id="MODE_GSM" name="" value="00" severity="3">
+            <AltHelp loc="1033">Initiate GSM call handover</AltHelp>
+            <AltHelp loc="2052">发起的GSM呼叫切换</AltHelp>
+         </Result>
+         <Result id="MODE_GPRS" name="" value="01" severity="3">
+            <AltHelp loc="1033">Initiate GPRS call handover</AltHelp>
+            <AltHelp loc="2052">发起GPRS呼叫切换</AltHelp>
+         </Result>
+         <Result id="MODE_EDGE" name="" value="02" severity="3">
+            <AltHelp loc="1033">Initiate EDGE call handover</AltHelp>
+            <AltHelp loc="2052">EDGE发起呼叫切换</AltHelp>
+         </Result>
+      </Function>
+      <Function id="GSM_PHASE_AND_FREQ_ERR" controltext="TX" value="4">
+         <Result id="MAX_FREQ_ERROR_PPM" name="" value="00" severity="3">
+            <AltHelp loc="1033">GSM Maximum frequency error (PPM) limit failure</AltHelp>
+            <AltHelp loc="2052">GSM的最大频率误差（PPM）的限制故障</AltHelp>​
+         </Result>
+         <Result id="AVG_RMS_PHASE_ERROR" name="" value="01" severity="3">
+            <AltHelp loc="1033">GSM Average RMS phase error limit failure</AltHelp>
+            <AltHelp loc="2052">GSM的平均RMS相位误差限故障</AltHelp>
+         </Result>
+         <Result id="MAX_RMS_PHASE_ERROR" name="" value="02" severity="3">
+            <AltHelp loc="1033">GSM Maximum RMS phase error limit failure</AltHelp>
+            <AltHelp loc="2052">GSM的最大RMS相位误差限值失败</AltHelp>
+         </Result>
+         <Result id="MAX_PEAK_PHASE_ERROR" name="" value="03" severity="3">
+            <AltHelp loc="1033">GSM Maximum peak phase error limit failure</AltHelp>
+            <AltHelp loc="2052">GSM的最大峰值相位误差限值失败</AltHelp>
+         </Result>
+         <Result id="MAX_FREQ_ERROR_HZ" name="" value="04" severity="3">
+            <AltHelp loc="1033">GSM Maximum frequency error (HZ) limit failure</AltHelp>
+            <AltHelp loc="2052">GSM的最大频率误差（HZ）限制故障</AltHelp>
+         </Result>
+      </Function>
+      <Function id="GSM_BURST_TIMING" controltext="TX" value="5">
+         <Result id="AVG_TX_POWER" name="" value="00" severity="3">
+            <AltHelp loc="1033">GSM Average transmit power limit failure</AltHelp>
+            <AltHelp loc="2052">GSM平均发射功率限值失败</AltHelp>
+         </Result>
+         <Result id="TEMPLATE_JUDGEMENT" name="" value="01" severity="3">
+            <AltHelp loc="1033">GSM Power template limit failure</AltHelp>
+            <AltHelp loc="2052">GSM电源模板限制故障</AltHelp>
+         </Result>
+         <Result id="AVG_TIME_ALIGN" name="" value="02" severity="3">
+            <AltHelp loc="1033">GSM Average time alignment</AltHelp>
+            <AltHelp loc="2052">GSM的平均时间校准</AltHelp>
+         </Result>
+         <Result id="MIN_TIME_ALIGN" name="" value="03" severity="3">
+            <AltHelp loc="1033">GSM Minimum time alignment</AltHelp>
+            <AltHelp loc="2052">GSM的最小时间校准</AltHelp>
+         </Result>
+         <Result id="MAX_TIME_ALIGN" name="" value="04" severity="3">
+            <AltHelp loc="1033">GSM Maximum time alignment</AltHelp>
+            <AltHelp loc="2052">GSM的最大时间调整</AltHelp>
+         </Result>
+         <Result id="CURRENT_DRAW" name="" value="05" severity="3">
+            <AltHelp loc="1033">GSM Current draw limit</AltHelp>
+            <AltHelp loc="2052">GSM的电流消耗限制</AltHelp>
+         </Result>
+         <Result id="MIN_TX_POWER" name="" value="06" severity="3">
+            <AltHelp loc="1033">GSM Measurement did not meet minimum transmit power</AltHelp>
+            <AltHelp loc="2052">GSM测量没有达到最小发射功率</AltHelp>
+         </Result>
+         <Result id="MAX_TX_POWER" name="" value="07" severity="3">
+            <AltHelp loc="1033">GSM Measurement did not meet maximum transmit power</AltHelp>
+            <AltHelp loc="2052">GSM测量没有达到最大发射功率</AltHelp>
+         </Result>
+      </Function>
+      <Function id="EDGE_MODULATION_ANALYSIS" controltext="TX" value="6">
+         <Result id="MAX_FREQ_ERROR_PPM" name="" value="00" severity="3">
+            <AltHelp loc="1033">EDGE Maximum frequency error (PPM) limit failure</AltHelp>
+            <AltHelp loc="2052">EDGE的最大频率误差（PPM）的限制故障</AltHelp>
+         </Result>
+         <Result id="AVG_MAG_ERROR" name="" value="01" severity="3">
+            <AltHelp loc="1033">EDGE Average magnitude error limit failure</AltHelp>
+            <AltHelp loc="2052">EDGE的平均幅度误差极限失败</AltHelp>
+         </Result>
+         <Result id="MAX_MAG_ERROR" name="" value="02" severity="3">
+            <AltHelp loc="1033">EDGE Maximum magnitude error limit failure</AltHelp>
+            <AltHelp loc="2052">EDGE的最大幅值误差限制故障</AltHelp>
+         </Result>
+         <Result id="AVG_EVM" name="" value="03" severity="3">
+            <AltHelp loc="1033">EDGE Average error vector magnitude limit failure</AltHelp>
+            <AltHelp loc="2052">EDGE的平均误差矢量幅度限制故障</AltHelp>
+         </Result>
+         <Result id="MAX_EVM" name="" value="04" severity="3">
+            <AltHelp loc="1033">EDGE Maximum error vector magnitude limit failure</AltHelp>
+            <AltHelp loc="2052">EDGE的最大误差向量幅度限制故障</AltHelp>
+         </Result>
+         <Result id="PEAK_EVM" name="" value="05" severity="3">
+            <AltHelp loc="1033">EDGE Peak error vector magnitude limit failure</AltHelp>
+            <AltHelp loc="2052">EDGE的峰值误差向量幅度限制故障</AltHelp>
+         </Result>
+         <Result id="AVG_ORIGIN_OFFSET" name="" value="06" severity="3">
+            <AltHelp loc="1033">EDGE Average origin offset limit failure</AltHelp>
+            <AltHelp loc="2052">EDGE的平均原点偏移限制故障</AltHelp>
+         </Result>
+         <Result id="MIN_ORIGIN_OFFSET" name="" value="07" severity="3">
+            <AltHelp loc="1033">EDGE Minimum origin offset limit failure</AltHelp>
+            <AltHelp loc="2052">边最小原点偏移限制故障</AltHelp>
+         </Result>
+         <Result id="EVM_95TH" name="" value="08" severity="3">
+            <AltHelp loc="1033">EDGE 95th percentile error vector magnitude limit failure</AltHelp>
+            <AltHelp loc="2052">EDGE的第95百分位误差向量幅度限制故障</AltHelp>
+         </Result>
+         <Result id="MAX_FREQ_ERROR_HZ" name="" value="09" severity="3">
+            <AltHelp loc="1033">EDGE Maximum frequency error (HZ) limit failure</AltHelp>
+            <AltHelp loc="2052">EDGE的最大频率误差（HZ）限制故障</AltHelp>
+         </Result>
+      <Result id="MAX_PEAK_EVM" name="" value="0A" severity="3">
+           <AltHelp loc="1033">EDGE Maximum Peak error vector magnitude limit failure</AltHelp>
+           <AltHelp loc="2052"></AltHelp>
+         </Result>
+      </Function>
+      <Function id="GSM_ORFS_SWITCHING" controltext="TX" value="7">
+         <Result id="MARGIN" name="" value="00" severity="3">
+            <AltHelp loc="1033">GSM Output RF Spectrum (Switching) margin limit failure</AltHelp>
+            <AltHelp loc="2052">GSM的输出射频频谱（交换）保证金限额失败</AltHelp>
+         </Result>
+         <Result id="OFFSET" name="" value="01" severity="3">
+            <AltHelp loc="1033">GSM Output RF Spectrum (Switching) offset limit failure</AltHelp>
+            <AltHelp loc="2052">GSM的输出射频频谱（开关）偏移限制故障</AltHelp>​
+         </Result>
+      </Function>
+      <Function id="GSM_ORFS_MODULATION" controltext="TX" value="8">
+         <Result id="AVG_TX_POWER" name="" value="00" severity="3">
+            <AltHelp loc="1033">GSM Output RF Spectrum (Modulation) average transmit power limit failure</AltHelp>
+            <AltHelp loc="2052">GSM的输出射频频谱（调制）平均发射功率限制故障</AltHelp>
+         </Result>
+         <Result id="MARGIN" name="" value="01" severity="3">
+            <AltHelp loc="1033">GSM Output RF Spectrum (Modulation) margin limit failure</AltHelp>
+            <AltHelp loc="2052">GSM的输出射频频谱（调制）保证金限额失败</AltHelp>
+         </Result>
+         <Result id="OFFSET" name="" value="02" severity="3">
+            <AltHelp loc="1033">GSM Output RF Spectrum (Modulation) offset limit failure</AltHelp>
+            <AltHelp loc="2052">GSM的输出射频频谱（调制）偏移限制故障</AltHelp>​
+         </Result>
+      </Function>
+      <Function id="EDGE_ORFS_SWITCHING" controltext="TX" value="9">
+         <Result id="MARGIN" name="" value="00" severity="3">
+            <AltHelp loc="1033">EDGE Output RF Spectrum (Switching) margin limit failure</AltHelp>
+            <AltHelp loc="2052">EDGE的输出射频频谱（交换）保证金限额失败</AltHelp>
+         </Result>
+         <Result id="OFFSET" name="" value="01" severity="3">
+            <AltHelp loc="1033">EDGE Output RF Spectrum (Switching) offset limit failure</AltHelp>
+            <AltHelp loc="2052">EDGE的输出射频频谱（开关）偏移限制故障</AltHelp>
+         </Result>
+      </Function>
+      <Function id="EDGE_ORFS_MODULATION" controltext="TX" value="A">
+         <Result id="AVG_TX_POWER" name="" value="00" severity="3">
+            <AltHelp loc="1033">EDGE Output RF Spectrum (Modulation) average transmit power limit failure</AltHelp>
+            <AltHelp loc="2052">EDGE的输出射频频谱（调制）平均发射功率限制故障</AltHelp>
+         </Result>
+         <Result id="MARGIN" name="" value="01" severity="3">
+            <AltHelp loc="1033">EDGE Output RF Spectrum (Modulation) margin limit failure</AltHelp>
+            <AltHelp loc="2052">EDGE的输出RF频谱（调制）孖展限额衰竭</AltHelp>
+         </Result>
+         <Result id="OFFSET" name="" value="02" severity="3">
+            <AltHelp loc="1033">EDGE Output RF Spectrum (Modulation) offset limit failure</AltHelp>
+            <AltHelp loc="2052">EDGE的输出RF频谱（调制）偏移量极限衰竭</AltHelp>
+         </Result>
+      </Function>
+      <Function id="GSM_REFERENCE_SENSITIVITY" controltext="RX" value="B">
+         <Result id="LOOPBACK" name="" value="00" severity="3">
+            <AltHelp loc="1033">GSM Loopback BER reference sensitivity exceeded limits</AltHelp>
+            <AltHelp loc="2052">GSM的环回BER参考灵敏度超出限制</AltHelp>
+         </Result>
+         <Result id="SINGLEEND" name="" value="01" severity="3">
+            <AltHelp loc="1033">GSM Single-Ended BER reference sensitivity exceeded limits</AltHelp>
+            <AltHelp loc="2052">GSM单端BER参考灵敏度超出限制</AltHelp>
+         </Result>
+      </Function>
+      <Function id="GSM_SENSITIVITY_SEARCH" controltext="RX" value="C">
+         <Result id="LOOPBACK" name="" value="00" severity="3">
+            <AltHelp loc="1033">GSM Loopback BER sensitivity search exceeded limits</AltHelp>
+            <AltHelp loc="2052">GSM的环回误码率敏感度搜索超出限制</AltHelp>
+         </Result>
+         <Result id="SINGLEEND" name="" value="01" severity="3">
+            <AltHelp loc="1033">GSM Single-Ended BER sensitivity search exceeded limits</AltHelp>
+            <AltHelp loc="2052">GSM单端的误码率敏感度搜索超出限制</AltHelp>
+         </Result>
+      </Function>
+      <Function id="EDGE_REFERENCE_SENSITIVITY" controltext="RX" value="D">
+         <Result id="LOOPBACK" name="" value="00" severity="3">
+            <AltHelp loc="1033">EDGE Loopback BER reference sensitivity exceeded limits</AltHelp>
+            <AltHelp loc="2052">EDGE的环回BER参考灵敏度超出限制</AltHelp>
+         </Result>
+         <Result id="SINGLEEND" name="" value="01" severity="3">
+            <AltHelp loc="1033">EDGE Single-Ended BER reference sensitivity exceeded limits</AltHelp>
+            <AltHelp loc="2052">EDGE的单端BER参考灵敏度超出限制</AltHelp>
+         </Result>
+      </Function>
+      <Function id="EDGE_SENSITIVITY_SEARCH" controltext="RX" value="E">
+         <Result id="LOOPBACK" name="" value="00" severity="3">
+            <AltHelp loc="1033">EDGE Loopback BER sensitivity search exceeded limits</AltHelp>
+            <AltHelp loc="2052">EDGE的环回误码率敏感度搜索超出限制</AltHelp>
+         </Result>
+         <Result id="SINGLEEND" name="" value="01" severity="3">
+            <AltHelp loc="1033">EDGE Single-Ended BER sensitivity search exceeded limits</AltHelp>
+            <AltHelp loc="2052">EDGE的单端的误码率敏感度搜索超出限制</AltHelp>​
+         </Result>
+      </Function>
+      <Function id="GSM_RF_CAL_VERIFY" controltext="TXRX" value="F">
+         <Result id="RX_ERROR" name="" value="00" severity="3">
+            <AltHelp loc="1033">GSM Calibration verification failed, RX error limit failure</AltHelp>
+            <AltHelp loc="2052">GSM的校准验证失败，RX误差限故障</AltHelp>
+         </Result>
+         <Result id="TX_ERROR" name="" value="01" severity="3">
+            <AltHelp loc="1033">GSM Calibration verification failed, TX error limit failure</AltHelp>
+            <AltHelp loc="2052">GSM的校准验证失败，德克萨斯州误差限故障</AltHelp>
+         </Result>
+         <Result id="TEMPLATE_JUDGEMENT" name="" value="02" severity="3">
+            <AltHelp loc="1033">GSM Calibration verification failed, Power template limit failure</AltHelp>
+            <AltHelp loc="2052">GSM的校准验证失败，电源模板限制故障</AltHelp>
+         </Result>
+      </Function>
+      <Function id="EDGE_PHASE_AND_FREQ_ERR" controltext="TX" value="G">
+            <Result id="MAX_FREQ_ERROR_PPM" name="" value="00" severity="3">
+              <AltHelp loc="1033">GSM Maximum frequency error (PPM) limit failure</AltHelp>
+            </Result>
+            <Result id="AVG_RMS_PHASE_ERROR" name="" value="01" severity="3">
+              <AltHelp loc="1033">GSM Average RMS phase error limit failure</AltHelp>
+            </Result>
+            <Result id="MAX_RMS_PHASE_ERROR" name="" value="02" severity="3">
+              <AltHelp loc="1033">GSM Maximum RMS phase error limit failure</AltHelp>
+            </Result>
+            <Result id="MAX_PEAK_PHASE_ERROR" name="" value="03" severity="3">
+              <AltHelp loc="1033">GSM Maximum peak phase error limit failure</AltHelp>
+            </Result>
+            <Result id="MAX_FREQ_ERROR_HZ" name="" value="04" severity="3">
+              <AltHelp loc="1033">GSM Maximum frequency error (HZ) limit failure</AltHelp>
+            </Result>
+      </Function>
+      <Function id="EDGE_BURST_TIMING" controltext="TX" value="H">
+            <Result id="AVG_TX_POWER" name="" value="00" severity="3">
+              <AltHelp loc="1033">GSM Average transmit power limit failure</AltHelp>
+            </Result>
+            <Result id="TEMPLATE_JUDGEMENT" name="" value="01" severity="3">
+              <AltHelp loc="1033">GSM Power template limit failure</AltHelp>
+            </Result>
+            <Result id="AVG_TIME_ALIGN" name="" value="02" severity="3">
+              <AltHelp loc="1033">GSM Average time alignment</AltHelp>
+            </Result>
+            <Result id="MIN_TIME_ALIGN" name="" value="03" severity="3">
+              <AltHelp loc="1033">GSM Minimum time alignment</AltHelp>
+            </Result>
+            <Result id="MAX_TIME_ALIGN" name="" value="04" severity="3">
+              <AltHelp loc="1033">GSM Maximum time alignment</AltHelp>
+            </Result>
+            <Result id="CURRENT_DRAW" name="" value="05" severity="3">
+              <AltHelp loc="1033">GSM Current draw limit</AltHelp>
+            </Result>
+            <Result id="MIN_TX_POWER" name="" value="06" severity="3">
+              <AltHelp loc="1033">GSM Measurement did not meet minimum transmit power</AltHelp>
+            </Result>
+            <Result id="MAX_TX_POWER" name="" value="07" severity="3">
+              <AltHelp loc="1033">GSM Measurement did not meet maximum transmit power</AltHelp>
+            </Result>
+      </Function>
+      <Function id="POWER" controltext="RX" value="J">
+            <Result id="AVG" name="" value="00" severity="3">
+                <AltHelp loc="1033">RX Power Level (dB) recorded during test exceeds limit.</AltHelp>
+            </Result>
+      </Function>
+      <Function id="ESTIMATED_SENSITIVITY" controltext="RX" value="K">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">RX Estimated Sensitivity exceeds the maximum limits.</AltHelp>
+         </Result>
+      </Function> 
+      <Function id="EXCEPTION" controltext="CALL" value="Z">
+         <Result id="CALL_NOT_UP" name="g_exc_gsm_callNotUp" value="00" severity="3">
+            <AltHelp loc="1033">Call not active</AltHelp>
+            <AltHelp loc="2052">认购不活跃</AltHelp>
+         </Result>
+         <Result id="ORIGINATE_CALL_FAILURE" name="g_exc_gsm_originateCallFailure" value="01" severity="3">
+            <AltHelp loc="1033">Failed mobile or network originated call</AltHelp>
+            <AltHelp loc="2052">无法移动或网络发起的呼叫</AltHelp>
+         </Result>
+      </Function>
+   </Technology>
+
+   <Technology id="TDSCDMA" value="4">
+      <Function id="INITIALIZE_BASESTATION" controltext="CALL" value="1">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">Initialize the basestation.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="START_CALL" controltext="CALL" value="2">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">Request phone and basestation to establish a TDSCDMA call</AltHelp>
+         </Result>
+      </Function>
+      <Function id="END_CALL" controltext="CALL" value="3">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">Request to End Call.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="HANDOVER" controltext="CALL" value="4">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">Initiate Handover.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="MODULATION_ANALYSIS" controltext="TX" value="5">
+         <Result id="RHO_AVG" name="" value="00" severity="3">
+            <AltHelp loc="1033">Average Waveform Quality recorded during the test lies beyond the specified minimum and maximum limits.</AltHelp>
+         </Result>
+         <Result id="RHO_MAX" name="" value="01" severity="3">
+            <AltHelp loc="1033">Maximum Waveform Quality recorded during the test exceeds the maximum limits.</AltHelp>
+         </Result>
+         <Result id="RHO_MIN" name="" value="02" severity="3">
+            <AltHelp loc="1033">Minimum Waveform Quality recorded during the test is lower than the minimum limits.</AltHelp>
+         </Result>
+         <Result id="PHASE_ERROR_AVG" name="" value="03" severity="3">
+            <AltHelp loc="1033">Average TX Phase Error (deg) recorded during the test lies beyond the specified minimum and maximum limits.</AltHelp>
+         </Result>
+         <Result id="PHASE_ERROR_MAX" name="" value="04" severity="3">
+            <AltHelp loc="1033">Maximum TX Phase Error (deg) recorded during the test exceeds maximum limit.</AltHelp>
+         </Result>
+         <Result id="PHASE_ERROR_MIN" name="" value="05" severity="3">
+            <AltHelp loc="1033">Minimum TX Phase Error (deg) recorded during the test is lower than minimum limit.</AltHelp>
+         </Result>
+         <Result id="MAGNITUDE_ERROR_AVG" name="" value="06" severity="3">
+            <AltHelp loc="1033">Average TX Magnitude error (%) recorded during the test lies beyond the specified minimum and maximum limits.</AltHelp>
+         </Result>
+         <Result id="MAGNITUDE_ERROR_MAX" name="" value="07" severity="3">
+            <AltHelp loc="1033">Maximum TX Magnitude error (%) recorded during the test exceeds the maximum limit.</AltHelp>
+         </Result>
+         <Result id="MAGNITUDE_ERROR_MIN" name="" value="08" severity="3">
+            <AltHelp loc="1033">Minimum TX Magnitude error (%) recorded during the test is lower than the minimum limit.</AltHelp>
+         </Result>
+         <Result id="EVM_AVG" name="" value="09" severity="3">
+            <AltHelp loc="1033">Average TX Error Vector Magnitude (%) recorded during the test lies beyond the specified minimum and maximum limits.</AltHelp>
+         </Result>
+         <Result id="EVM_MAX" name="" value="0A" severity="3">
+            <AltHelp loc="1033">Maximum TX Error Vector Magnitude (%) recorded during the test exceeds the maximum limit.</AltHelp>
+         </Result>
+         <Result id="EVM_MIN" name="" value="0B" severity="3">
+            <AltHelp loc="1033">Minimum TX Error Vector Magnitude (%) recorded during the test is lower than the minimum limit.</AltHelp>
+         </Result>
+         <Result id="ORIGIN_OFFSET_AVG" name="" value="0C" severity="3">
+            <AltHelp loc="1033">Average IQ origin offset (dB) recorded during the test lies beyond the specified minimum and maximum limits</AltHelp>
+         </Result>
+         <Result id="ORIGIN_OFFSET_MAX" name="" value="0D" severity="3">
+            <AltHelp loc="1033">Maximum IQ origin offset (dB) recorded during the test exceeds the maximum limit.</AltHelp>
+         </Result>
+         <Result id="ORIGIN_OFFSET_MIN" name="" value="0E" severity="3">
+            <AltHelp loc="1033">Minimum IQ origin offset (dB) recorded during the test is lower than the minimum limit.</AltHelp>
+         </Result>
+         <Result id="IQ_IMBALANCE_AVG" name="" value="0F" severity="3">
+            <AltHelp loc="1033">Average TX IQ Imbalance (dBc) recorded during the test lies beyond the specified minimum and maximum limits.</AltHelp>
+         </Result>
+         <Result id="IQ_IMBALANCE_MAX" name="" value="0G" severity="3">
+            <AltHelp loc="1033">Maximum TX IQ Imbalance (dBc) recorded during the test exceeds the maximum limit.</AltHelp>
+         </Result>
+         <Result id="IQ_IMBALANCE_MIN" name="" value="0H" severity="3">
+            <AltHelp loc="1033">Minimum TX IQ Imbalance (dBc) recorded during the test is lower than the minimum limit.</AltHelp>
+         </Result>
+         <Result id="PEAK_VECTOR_ERROR_AVG" name="" value="0J" severity="3">
+            <AltHelp loc="1033">Average TX Peak Vector Error (%) recorded during the test lies beyond the specified minimum and maximum limits.</AltHelp>
+         </Result>
+         <Result id="PEAK_VECTOR_ERROR_MAX" name="" value="0K" severity="3">
+            <AltHelp loc="1033">Maximum TX Peak Vector Error (%) recorded during the test exceeds the maximum limit.</AltHelp>
+         </Result>
+         <Result id="PEAK_VECTOR_ERROR_MIN" name="" value="0L" severity="3">
+            <AltHelp loc="1033">Minimum TX Peak Vector Error (%) recorded during the test is lower than the minimum limit.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="POWER" controltext="TX" value="6">
+         <Result id="AVERAGE" name="" value="00" severity="3">
+            <AltHelp loc="1033">Average TX Power (dBm) recorded during the test lies beyond specified limits.</AltHelp>
+         </Result>
+         <Result id="MINIMUM" name="" value="01" severity="3">
+            <AltHelp loc="1033">Minimum TX Power (dBm) recorded during the test is lower than the minimum limit.</AltHelp>
+         </Result>
+         <Result id="MAXIMUM" name="" value="02" severity="3">
+            <AltHelp loc="1033">Maximum TX Power (dBm) recorded during the test exceeds the maximum limit.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="ACLR" controltext="TX" value="7">
+         <Result id="ADJ_LOWER" name="" value="00" severity="3">
+            <AltHelp loc="1033">Lower Adjacent channel leakage ratio (dBc) recorded during the test exceeds the maximum limit.</AltHelp>
+         </Result>
+         <Result id="ADJ_UPPER" name="" value="01" severity="3">
+            <AltHelp loc="1033">Upper Adjacent channel leakage ratio (dBc) recorded during the test exceeds the maximum limit.</AltHelp>
+         </Result>
+         <Result id="ALT_LOWER" name="" value="02" severity="3">
+            <AltHelp loc="1033">Lower Alternate channel leakage ratio (dBc) recorded during the test exceeds the maximum limit.</AltHelp>
+         </Result>
+         <Result id="ALT_UPPER" name="" value="03" severity="3">
+            <AltHelp loc="1033">Upper Adjacent channel leakage ratio (dBc) recorded during the test exceeds the maximum limit.</AltHelp>
+         </Result>
+      <Result id="AVG" name="" value="04" severity="3">
+            <AltHelp loc="1033">Adjacent channel leakage ratio (dBc) recorded during the test fails the limit.</AltHelp>
+         </Result>
+       </Function>
+      <Function id="OCCUPIED_BW" controltext="TX" value="8">
+         <Result id="MAX" name="" value="00" severity="3">
+            <AltHelp loc="1033">Maximum TX Occupied Bandwidth (MHz) recorded during the test exceeds the maximum limit.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="SPECTRUM_EMISSION_MASK" controltext="TX" value="9">
+         <Result id="800K" name="" value="00" severity="3">
+            <AltHelp loc="1033">Spectral emissions (dB) recorded during the test are greater than the limits specified at 0.8 MHz</AltHelp>
+         </Result>
+         <Result id="1800K" name="" value="01" severity="3">
+            <AltHelp loc="1033">Spectral emissions (dB) recorded during the test are greater than the limits specified at 1.8 MHz</AltHelp>
+         </Result>
+         <Result id="2400K" name="" value="02" severity="3">
+            <AltHelp loc="1033">Spectral emissions (dB) recorded during the test are greater than the limits specified at 2.4 MHz</AltHelp>
+         </Result>
+         <Result id="4000K" name="" value="03" severity="3">
+            <AltHelp loc="1033">Spectral emissions (dB) recorded during the test are greater than the limits specified at 4.0 MHz</AltHelp>
+         </Result>
+      <Result id="AVG" name="" value="03" severity="3">
+            <AltHelp loc="1033">Spectral emissions (dB) recorded during the test are greater than the limits specified.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="PeakCDP" controltext="TX" value="A">
+         <Result id="AVG" name="" value="00" severity="3">
+            <AltHelp loc="1033">Average TX Peak code domain power (dBm) recorded during the test lies beyond specified limits.</AltHelp>
+         </Result>
+         <Result id="MIN" name="" value="01" severity="3">
+            <AltHelp loc="1033">Minimum TX Peak code domain power (dBm) recorded during the test is lower than the minimum limit.</AltHelp>
+         </Result>
+         <Result id="MAX" name="" value="02" severity="3">
+            <AltHelp loc="1033">Maximum TX Peak code domain power (dBm) recorded during the test exceeds the maximum limit.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="FREQUENCY_ERROR" controltext="TX" value="B">
+         <Result id="AVG" name="" value="00" severity="3">
+            <AltHelp loc="1033">Average TX Frequency Error (ppm) recorded during the test lies beyond specified limits.</AltHelp>
+         </Result>
+         <Result id="MIN" name="" value="01" severity="3">
+            <AltHelp loc="1033">Minimum TX Frequency Error (ppm) recorded during the test is lower than the minimum limit.</AltHelp>
+         </Result>
+         <Result id="MAX" name="" value="02" severity="3">
+            <AltHelp loc="1033">Maximum TX Frequency Error (ppm) recorded during the test exceeds the maximum limit.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="SENSITIVITY" controltext="RX" value="C">
+         <Result id="SEARCH" name="" value="00" severity="3">
+            <AltHelp loc="1033">RX Sensitivity calculated during test is lower than the limit.</AltHelp>
+         </Result>
+      </Function>
+   <Function id="POWER" controltext="RX" value="D">
+         <Result id="AVG" name="" value="00" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+      </Function>
+      <Function id="CLPC" controltext="TX" value="E">
+         <Result id="B" name="" value="00" severity="3">
+            <AltHelp loc="1033">Closed loop power in test sequence B fails the limit</AltHelp>
+         </Result>
+      </Function>	   
+      <Function id="CLPC" controltext="TX" value="F">
+         <Result id="C" name="" value="00" severity="3">
+            <AltHelp loc="1033">Closed loop power in test sequence C fails the limit</AltHelp>
+         </Result>
+      </Function>	
+     <Function id="ESTIMATED_SENSITIVITY" controltext="RX" value="G">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">RX Estimated Sensitivity exceeds the maximum limits.</AltHelp>
+         </Result>
+      </Function>     
+	<Function id="POWER_VS_TIME" controltext="TX" value="H">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">Power vs. Time results exceed the maximum limits.</AltHelp>
+         </Result>
+      </Function>   	  
+   </Technology>
+
+   <Technology id="LTE" value="5">
+      <Function id="INITIALIZE_BASESTATION" controltext="CALL" value="1">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">Initialize the basestation.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="START_CALL" controltext="CALL" value="2">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">Request phone and basestation to establish a call</AltHelp>
+         </Result>
+      </Function>
+      <Function id="END_CALL" controltext="CALL" value="3">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">Request to End Call.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="HANDOVER" controltext="CALL" value="4">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">Initiate Handover.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="POWER" controltext="TX" value="5">
+         <Result id="AVG" name="" value="00" severity="3">
+            <AltHelp loc="1033">Average TX Power (dBm) recorded during the test lies beyond the maximum and minimum limit.</AltHelp>
+         </Result>
+         <Result id="MIN" name="" value="01" severity="3">
+            <AltHelp loc="1033">Minimum TX Power (dBm) recorded during the test exceeds the maximum limit.</AltHelp>
+         </Result>
+         <Result id="MAX" name="" value="02" severity="3">
+            <AltHelp loc="1033">Maximum TX Power (dBm) recorded during the test is lower than the minimum limit.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="FREQUENCY_ERROR" controltext="TX" value="6">
+         <Result id="AVG" name="" value="00" severity="3">
+            <AltHelp loc="1033">Average TX Frequency Error (ppm) recorded during the test lies beyond the maximum and minimum limit.</AltHelp>
+         </Result>
+         <Result id="EXTREME" name="" value="01" severity="3">
+            <AltHelp loc="1033">Extreme TX Frequency Error (ppm) recorded during the test lies beyond the maximum and minimum limit.</AltHelp>
+         </Result>
+         <Result id="AVG_Hz" name="" value="02" severity="3">
+            <AltHelp loc="1033">Average TX Frequency Error (Hz) recorded during the test lies beyond the maximum and minimum limit.</AltHelp>
+         </Result>
+         <Result id="EXTREME_Hz" name="" value="03" severity="3">
+            <AltHelp loc="1033">Extreme TX Frequency Error (Hz) recorded during the test lies beyond the maximum and minimum limit.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="EVM" controltext="TX" value="7">
+         <Result id="AVG" name="" value="00" severity="3">
+            <AltHelp loc="1033">Average TX Error Vector Magnitude (%) recorded during the test lies beyond the maximum and minimum limit.</AltHelp>
+         </Result>
+         <Result id="MAX" name="" value="01" severity="3">
+            <AltHelp loc="1033">Maximum TX Error Vector Magnitude (%) recorded during the test exceeds the maximum limit.</AltHelp>
+         </Result>
+         <Result id="DMRS_AVG" name="" value="02" severity="3">
+            <AltHelp loc="1033">Average TX Demodulated Reference Signal Error Vector Magnitude (%) recorded during the test lies beyond the maximum and minimum limit.</AltHelp>
+         </Result>
+         <Result id="DMRS_MAX" name="" value="03" severity="3">
+            <AltHelp loc="1033">Maximum TX Demodulated Reference Signal Error Vector Magnitude (%) recorded during the test exceeds the maximum limit.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="ORIG_OFFSET" controltext="TX" value="8">
+         <Result id="AVG" name="" value="00" severity="3">
+            <AltHelp loc="1033">Average IQ origin offset (dBc) recorded during the test lies beyond the maximum and minimum limit.</AltHelp>
+         </Result>
+         <Result id="MAX" name="" value="01" severity="3">
+            <AltHelp loc="1033">Maximum IQ origin offset (dBc) recorded during test exceeds the maximum limit.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="SPEC_FLATNESS" controltext="TX" value="9">
+         <Result id="R1" name="" value="00" severity="3">
+            <AltHelp loc="1033">Peak to Peak variation Spectral Flatness (dB) recorded during the test for R1 exceeds the maximum limit.</AltHelp>
+         </Result>
+         <Result id="R2" name="" value="01" severity="3">
+            <AltHelp loc="1033">Peak to Peak variation Spectral Flatness (dB) recorded during the test for R2 exceeds the maximum limit.</AltHelp>
+         </Result>
+         <Result id="R12" name="" value="02" severity="3">
+            <AltHelp loc="1033">Peak to Peak variation Spectral Flatness (dB) recorded during the test for R12 exceeds the maximum limit.</AltHelp>
+         </Result>
+         <Result id="R21" name="" value="03" severity="3">
+            <AltHelp loc="1033">Peak to Peak variation Spectral Flatness (dB) recorded during the test for R21 exceeds the maximum limit.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="IN_BAND_EMISSIONS" controltext="TX" value="A">
+         <Result id="GEN_MARGIN" name="" value="00" severity="3">
+            <AltHelp loc="1033">Inband Emissions (dB) in any Non Allocated RB's is lower than the minimum limit.</AltHelp>
+         </Result>
+         <Result id="GEN_PWR" name="" value="01" severity="3">
+            <AltHelp loc="1033">Inband Emissions General power (dB) in any Non Allocated RB's exceeds the maximum limits.</AltHelp>
+         </Result>
+         <Result id="WRST_MARGIN" name="" value="02" severity="3">
+            <AltHelp loc="1033">Inband Emissions Worst Margin (dB) is lower than the minimum limit.</AltHelp>
+         </Result>
+         <Result id="IQ_IMAGE_MAX" name="" value="03" severity="3">
+            <AltHelp loc="1033">Inband Emissions Maximum IQ Image (dB) in any Non Allocated RB's exceeds the maximum limit.</AltHelp>
+         </Result>
+         <Result id="IQ_IMAGE_MARGIN" name="" value="04" severity="3">
+            <AltHelp loc="1033">Inband Emissions IQ Image in any Non Allocated RB's is lower than the minimum limit.</AltHelp>
+         </Result>
+         <Result id="CARRIER_LEAK_MAX" name="" value="05" severity="3">
+            <AltHelp loc="1033">Inband Emissions Maximum Carrier Leakage (dBc) in any Non Allocated RB's exceeds the maximum limit.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="ACLR" controltext="TX" value="B">
+         <Result id="UTRA" name="" value="00" severity="3">
+            <AltHelp loc="1033">Adjacent Channel Leakage Power Ratio in UTRA (dB) recorded during the test is lower than the minimum limit.</AltHelp>
+         </Result>
+         <Result id="EUTRA" name="" value="01" severity="3">
+            <AltHelp loc="1033">Adjacent Channel Leakage Power Ratio in E-UTRA recorded during the test is lower than the minimum limit.</AltHelp>
+         </Result>
+         <Result id="UTRA_EXT" name="" value="02" severity="3">
+            <AltHelp loc="1033">Extreme Adjacent Channel Leakage Power Ratio in UTRA (dB) recorded during the test is lower than the minimum limit.</AltHelp>
+         </Result>
+         <Result id="EUTRA_EXT" name="" value="03" severity="3">
+            <AltHelp loc="1033">Extreme Adjacent Channel Leakage Power Ratio in E-UTRA recorded during the test is lower than the minimum limit.</AltHelp>
+         </Result>
+      <Result id="AVG" name="" value="04" severity="3">
+            <AltHelp loc="1033">Adjacent Channel Leakage Power Ratio recorded during the test is lower than the minimum limit.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="SEM_PWR_Template" controltext="TX" value="C">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">Spectrum Emission Mask Power Template is lower than the specified limit.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="OCCUPIED_BW" controltext="TX" value="D">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">TX Occupied Bandwidth (MHz) recorded during the test exceeds the maximum limit.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="THROUGHPUT" controltext="TX" value="E">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">Throughput recorded during the test is lower than the minimum limit.</AltHelp>
+         </Result>
+         <Result id="PCT" name="" value="01" severity="3">
+            <AltHelp loc="1033">Throughput_PCT (%) recorded during the test is lower than the minimum limit.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="SENSITIVITY" controltext="RX" value="F">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">RX Sensitivity exceeds the maximum limits.</AltHelp>
+         </Result>
+         <Result id="SCC1" name="" value="01" severity="3">
+            <AltHelp loc="1033">RX Sensitivity for Secondary Channel 1 exceeds limits.</AltHelp>
+         </Result>
+		 <Result id="SCC2" name="" value="01" severity="3">
+            <AltHelp loc="1033">RX Sensitivity for Secondary Channel 2 exceeds limits.</AltHelp>
+         </Result>
+      </Function>
+      <Function id="POWER" controltext="RX" value="G">
+         <Result id="AVG" name="" value="00" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="SCC1" name="" value="01" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+         </Result>
+		 <Result id="SCC2" name="" value="02" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+         </Result>
+      </Function>  
+      <Function id="ESTIMATED_SENSITIVITY" controltext="RX" value="H">
+         <Result id="" name="" value="00" severity="3">
+            <AltHelp loc="1033">RX Sensitivity exceeds the maximum limits.</AltHelp>
+         </Result>
+      </Function>      
+	  <Function id="EXCEPTION" controltext="CALL" value="Z">
+         <Result id="CALL_NOT_UP" name="g_exc_lte_callFailure" value="00" severity="3">
+            <AltHelp loc="1033">Call not active</AltHelp>
+         </Result>
+      </Function>
+   </Technology>
+
+   <Technology id="RFCAL" value="6">
+      <Function id="COMMON" controltext="" value="0">
+         <Result id="RX_FCOMP_DVGA_OFFSET" name="RxFCompDVGAOffset" value="00" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="RF_FCOMP_LNA_OFFSET" name="RxFCompLNAOffset" value="01" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="INTRA_CA_RX_FCOMP_LNA_OFFSET" name="IntraCA_RxFCompLNAOffset" value="02" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="LNA_RANGE" name="LNARange" value="03" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="RX_PATH" name="RxPath" value="04" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="RF_MODE" name="RFMode" value="05" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="BLOCK_INDEX" name="BlockIndex" value="06" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="BLOCK_MASK" name="BlockMask" value="07" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="RX_SEL_ANTENNA" name="Rx_Sel_Antenna" value="08" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="RX_LEVEL" name="RxLevel" value="09" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="RX_PM" name="RxPM" value="0A" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="DELTA_POWER" name="DeltaPower" value="0B" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_DAC" name="TxDAC" value="0C" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_FCOMP_POWER" name="TxLinFCompPower" value="0D" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_ILPC_FCOMP_POWER" name="TxLinILPCFCompPower" value="0E" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIM_FCOMP_POWER_NV_IN" name="TxLimFCompPowerNvIn" value="0F" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_SWP_HAS_HDET" name="TxLinSwpHasHDET" value="0G" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_SWP_HAS_HDET_LPM" name="TxLinSwpHasHDETLPM" value="0H" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_SWP_HDET" name="TxLinSwpHDET" value="0J" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_SWP_HDET_LPM" name="TxLinSwpHDETLPM" value="0K" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_SWP_MAX_POWER" name="TxLinSwpMaxPower" value="0L" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_SWP_MIN_POWER" name="TxLinSwpMinPower" value="0M" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_SWP_POWER" name="TxLinSwpPower" value="0N" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_FIRST_SWP_POWER" name="TxLinFirstSwpPower" value="0P" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_POWER" name="TxPower" value="0Q" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PA_RANGE" name="PARange" value="0R" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_AGC" name="TxAGC" value="0S" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="IM2_FREQ_OFFSET" name="IM2FreqOffset" value="0T" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="IM2_LEVEL" name="IM2Level" value="0U" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="I_DAC" name="iDAC" value="0V" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="Q_DAC" name="qDAC" value="0W" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="GM" name="Gm" value="0X" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="INDEX" name="Index" value="0Y" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="MEAS_INDEX" name="MeasIndex" value="0Z" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_AUX_NAME" name="NVAuxName" value="10" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_ENUM" name="NVEnum" value="11" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+      </Function>
+      <Function id="WIDEBAND" controltext="V3" value="1">
+         <Result id="PA_STATE" name="PA State" value="00" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_TABLE_INDEX" name="NVTableIndex" value="01" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="POWER" name="Power" value="02" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="BIAS" name="Bias" value="03" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="QUIESCENT_CURRENT" name="Quiescent Current" value="04" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="APT_POWER" name="AptPower" value="05" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="APT_BIAS" name="AptBias" value="06" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="APT_QUIESCENT_CURRENT" name="Apt Quiescent Current" value="07" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="EPT_POWER" name="EptPower" value="08" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="EPT_BIAS" name="EptBias" value="09" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="DELTA_POWER" name="DeltaPower" value="0A" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_SWEEP_HDET" name="TxLinSwpHDET" value="0B" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_SWEEP_HDET_LPM" name="TxLinSwpHDETLPM" value="0C" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="APT_DELTA_POWER" name="APTDeltaPower" value="0D" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="APT_TX_LIN_SWEEP_HDET" name="APTTxLinSwpHDET" value="0E" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="APT_TX_LIN_SWEEP_HDET_LPM" name="APTTxLinSwpHDETLPM" value="0F" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="EPT_DELTA_POWER" name="EPTDeltaPower" value="0G" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="EPT_TX_LIN_SWEEP_HDET" name="EPTTxLinSwpHDET" value="0H" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="EPT_TX_LIN_SWEEP_HDET_LPM" name="EPTTxLinSwpHDETLPM" value="0J" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_TX_LIN_MASTER" name="NV_TX_LIN_MASTER" value="0K" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_MASTER_PDM" name="TX_LIN_MASTER_PDM" value="0L" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_EXP_HDET_VS_AGC" name="NV_EXP_HDET_VS_AGC" value="0M" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="HDET_STEP_DELTA" name="HDET STEP DELTA" value="0N" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_HDET_OFFSET" name="NV_HDET_OFFSET" value="0P" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_HDET_SPAN" name="NV_HDET_SPAN" value="0Q" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_EXP_LPM_HDET_VS_AGC" name="NV_EXP_LPM_HDET_VS_AGC" value="0R" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="LPM_HDET_STEP_DELTA" name="LPM HDET STEP DELTA" value="0S" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_LPM_HDET_OFFSET" name="NV_LPM_HDET_OFFSET" value="0T" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_LPM_HDET_SPAN" name="NV_LPM_HDET_SPAN" value="0U" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_ILPC_FCOMP_POWER" name="TxLinILPCFCompPower" value="0V" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_VGA_GAIN_OFFSET_VS_FREQ" name="NV_VGA_GAIN_OFFSET_VS_FREQ" value="0W" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_LNA_OFFSET_VS_FREQ" name="NV_LNA_OFFSET_VS_FREQ" value="0X" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_VGA_GAIN_OFFSET" name="NV_VGA_GAIN_OFFSET" value="0Y" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_LNA_OFFSET" name="NV_LNA_OFFSET" value="0Z" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIM_FCOMP_POWER_NV_IN" name="TxLimFCompPowerNvIn" value="10" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIM_FCOMP_HDET_NV_IN" name="TxLimFCompHDETNvIn" value="11" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_TX_LIM_VS_FREQ" name="NV_TX_LIM_VS_FREQ" value="12" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIM_FCOMP_POWER_NV_OUT" name="TxLimFCompPowerNvOut" value="13" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIM_FCOMP_HDET_NV_OUT" name="TxLimFCompHDETNvOut" value="14" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_TX_COMP" name="NV_TX_COMP" value="15" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="CHANNEL" name="Channel" value="16" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="RGI_THRESHOLD" name="RGI_Threshold" value="17" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_CAL_V3_FCOMP" name="TX_Cal_V3_FComp" value="18" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="WAVEFORM_INDEX" name="Waveform_Index" value="19" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="CHANNEL_INDEX" name="Channel_Index" value="1A" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="UPPERBOUND_CHAN" name="Upper_Bound_Chan" value="1B" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TABLE_OFFSET" name="Table_Offset" value="1C" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TABLE_INDEX" name="Table_Index" value="1D" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="RGI" name="RGI" value="1E" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_POWER" name="Tx_Power" value="1F" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PA_BIAS" name="PA_Bias" value="1G" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="RGI_THRESHOLD_FOR_SWEEP_1" name="RGI_Threshold for 1st Sweep" value="1H" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="RGI_THRESHOLD_FOR_SWEEP_2" name="RGI_Threshold for 2nd Sweep" value="1J" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_CAL_V3_FCOMP_1" name="TX_Cal_V3_FComp_1" value="1K" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_CAL_V3_FCOMP_2" name="TX_Cal_V3_FComp_2" value="1L" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="DPD_TABLE_OFFSET" name="DPD_Table_Offset" value="1M" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="AM_0" name="AM[0]" value="1N" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="AM_1" name="AM[1]" value="1P" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="AM_2" name="AM[2]" value="1Q" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="AM_3" name="AM[3]" value="1R" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PM_0" name="PM[0]" value="1S" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PM_1" name="PM[1]" value="1T" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PM_2" name="PM[2]" value="1U" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PM_SHIFT_0" name="PM_Shift[0]" value="1V" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PM_SHIFT_1" name="PM_Shift[1]" value="1W" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PM_SHIFT_2" name="PM_Shift[2]" value="1X" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="STATUS" name="Status" value="1Y" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="HDET" name="HDET" value="1Z" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="LPM_HDET" name="LPM_HDET" value="20" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="DPD_STATUS" name="DPD Status" value="21" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="DPD_INDEX" name="DPD Index" value="22" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_TX_TEMP_COMP__ENABLE_TEMP_COMP_ADJ" name="Tx Lin Tx Tempcomp Adjust: Enable Temp Comp Adjustment" value="23" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_TX_TEMP_COMP__THERMAL_ADC_ALFA" name="Tx Lin Tx Tempcomp Adjust: Thermal ADC alpha" value="24" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_TX_TEMP_COMP__THERMAL_ADC_BEFORE_CAL" name="Tx Lin Tx Tempcomp Adjust: Therm ADC before Cal" value="25" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_TX_TEMP_COMP__THERMAL_ADC_AFTER_CAL" name="Tx Lin Tx Tempcomp Adjust: Therm ADC after Cal" value="26" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_TX_TEMP_COMP__ADJ_THERMAL_ADC" name="Tx Lin Tx Tempcomp Adjust: Adjusted Therm ADC" value="27" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_TX_TEMP_COMP__PA_0" name="Tx Lin Tx Tempcomp Adjust: PA State 0" value="28" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_TX_TEMP_COMP__PA_1" name="Tx Lin Tx Tempcomp Adjust: PA State 1" value="29" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_TX_TEMP_COMP__PA_2" name="Tx Lin Tx Tempcomp Adjust: PA State 2" value="2A" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_TX_TEMP_COMP__PA_3" name="Tx Lin Tx Tempcomp Adjust: PA State 3" value="2B" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+      </Function>
+      <Function id="WIDEBAND" controltext="V4" value="2">
+         <Result id="A" name="a" value="00" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="AMAM" name="AMAM" value="01" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="AMPM" name="AMPM" value="02" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="APT_POWER" name="AptPower" value="03" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="APT_VCC" name="AptVcc" value="04" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="B" name="b" value="05" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="D" name="d" value="06" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="DELAY_VAL" name="Delay Val" value="07" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="DETROUGH" name="Detrough" value="08" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="E" name="e" value="09" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="FB_AGC" name="FB AGC" value="0A" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="ILPC_FCOMP_ERROR" name="ILPC FComp Error" value="0B" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="LIM_FCOMP_ERROR" name="Lim FComp Error" value="0C" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="LIN_FCOMP_ERROR" name="Lin FComp Error" value="0D" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="LTE_10MHZ" name="LTE 10Mhz" value="0E" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="LTE_20MHZ" name="LTE 20Mhz" value="0F" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="LTE_5MHZ" name="LTE 5Mhz" value="0G" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="MULTI_LIN_V3_NV_CHANNEL_LIST" name="Multi Lin V3 NV Channel List" value="0H" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_POWER" name="NV Power" value="0J" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_TX_FCOMP" name="NV Tx Fcomp" value="0K" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_HDET_VS_AGC" name="NV_HDET_VS_AGC" value="0L" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_HDET_VS_AGC_DELTA" name="NV_HDET_VS_AGC DELTA" value="0M" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_LIM_VS_FREQ" name="NV_LIM_VS_FREQ" value="0N" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_LNA_OFFSET" name="NV_LNA_OFFSET" value="0P" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_LNA_OFFSET_VS_FREQ" name="NV_LNA_OFFSET_VS_FREQ" value="0Q" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_VGA_GAIN_OFFSET" name="NV_VGA_GAIN_OFFSET" value="0R" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_VGA_GAIN_OFFSET_VS_FREQ" name="NV_VGA_GAIN_OFFSET_VS_FREQ" value="0S" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PIN_CAL_PEAK_COMPRESSION" name="PinCal Peak Compression" value="0U" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PIN_CAL_PIN_COMPENSATION" name="PinCal Pin Compensation" value="0V" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="POWER_DELTA" name="Power Delta" value="0W" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="THERM_ADC" name="Therm ADC" value="0X" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="THERM_READ" name="Therm Read" value="0Y" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIM_FCOMP_HDET_NV_IN" name="TxLimFCompHDETNvIn" value="0Z" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="VCC" name="Vcc" value="10" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="APT_TX_LIN_SWEEP_ERROR" name="APT Tx Lin Sweep Error" value="11" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="APT_DELTA_PWR" name="AptDeltaPwr" value="12" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="APT_HDET" name="AptHDET" value="13" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="APT_ICQ" name="AptIcq" value="14" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="COMPRESSION" name="Compression" value="15" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="DELTA_EXPECTED_POWER" name="Delta Expected Power" value="16" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="DELTA_MEASURE_POWER" name="Delta Measure Power" value="17" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="LPM_APT_HDET" name="LPM AptHDET" value="18" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="POUT" name="Pout" value="19" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="POWER" name="Power" value="1A" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="REFERENCE_POWER" name="Reference Power" value="1B" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="RGI_DELTA_SWEEP_ERROR" name="RGI Delta Sweep Error" value="1C" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="RGI_DELTA_SWP_DELTA_POWER" name="RGI Delta Swp Delta Power" value="1D" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_LIN_SWEEP_ERROR" name="Tx Lin Sweep Error" value="1E" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TX_XPT_SWEEP_3_LIN_ERROR" name="Tx XPT Sweep 3 Lin Error" value="1F" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="XPT_FCOMP_ERROR" name="XPT FComp Error" value="1G" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="XPT_FCOMP_POWER" name="XPT FComp Power" value="1H" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="XPT_SWP1_POWER" name="XPT Swp1 Power" value="1J" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="XPT_SWP1_RGI_DELTA_SWP_POWER" name="XPT Swp1 RGI Delta Swp Power" value="1K" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="XPT_SWP2_MAX_MLINE_POWER" name="XPT Swp2 Max MLine Power" value="1L" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="XPT_SWP3_POWER" name="XPT Swp3 Power" value="1M" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>	  
+         <Result id="RF_MODE" name="RF Mode" value="1N" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="LPM_HDET" name="LPM HDET" value="1P" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="DELTA_POWER" name="DeltaPwr" value="1Q" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="ALIGNMENT_SWEEP_ERROR" name="Alignment Sweep Error" value="1R" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="ERROR" name="Error" value="1S" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+      </Function>
+      <Function id="GSM_RX_CAL" controltext="" value="3">
+         <Result id="RX_GAIN_NV" name="RX GAIN NV" value="00" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>	  
+         <Result id="NV_RX_GAIN_RANGE_FREQ_COMP" name="NV_RX_GAIN_RANGE_FREQ_COMP" value="01" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>	  
+         <Result id="RSSI" name="RSSI" value="02" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>	  
+         <Result id="RX_GAIN_RANGE" name="RxGainRange" value="03" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>	  
+         <Result id="PATH" name="Path" value="04" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>	  
+         <Result id="CALIBRATION_METHOD" name="Calibration Method" value="05" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>	  
+         <Result id="RX_GAIN_OFFSET" name="RxGainOffset" value="06" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>	  
+         <Result id="GSM_RX_FREQ_COMP_PARAMS" name="GSM_Rx_FreqComp_Params" value="07" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>	  
+         <Result id="GSM_RX_CAL" name="GSM_Rx_Cal" value="08" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>	  	  </Function>
+        <Function id="INTERNAL_DEVICE_CAL" controltext="" value="4">
+         <Result id="INETRNAL_DEVICE_CAL_ERROR_CODE" name="Int_Dev_Cal_Error_Code" value="00" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>	  
+         <Result id="INTERNAL_DEVICE_CAL_API_STATUS" name="Int_Dev_Cal_API_Status" value="01" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+      </Function>
+      <Function id="XO_CAL" controltext="" value="5">
+         <Result id="STATE" name="State" value="00" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TEMP_SPAN_ACHIEVED_XO" name="TempSpanAchievedXO" value="01" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="CAL_COEFF_C0" name="CalCoeffC0" value="02" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="CAL_COEFF_C1" name="CalCoeffC1" value="03" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="CAL_COEFF_C2" name="CalCoeffC2" value="04" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="CAL_COEFF_C3" name="CalCoeffC3" value="05" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="FT_QUAL_IND" name="FTQualInd" value="06" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="INIT_XO_TRIM" name="InitXOTrim" value="07" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="POST_DC_XO_TRIM" name="PostDCXOTrim" value="08" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="POST_FIN_XO_TRIM" name="PostFinXOTrim" value="09" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="POST_FINAL_CAL_XO_TRIM" name="PostFinalCalXOTrim" value="0A" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PA_TEMP_INIT" name="PATempInit" value="0B" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PA_TEMP_FINAL" name="PATempFinal" value="0C" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="XO_TEMP_INIT" name="XOTempInit" value="0D" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="XO_TEMP_FINAL" name="XOTempFinal" value="0E" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PMIC_TEMP_INIT" name="PMICTempInit" value="0F" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PMIC_TEMP_FINAL" name="PMICTempFinal" value="0G" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PMIC_TEMP_CHANGE" name="PMICTempChange" value="0H" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="SRAM_COUNT" name="SRAMCount" value="0J" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="FREQ_EST_COUNT" name="FreqEstCount" value="0K" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="CAL_COEFT_0P" name="CalCoeft0p" value="0L" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="MEASURED_TX_POWER" name="Measured Tx Power" value="0M" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="INIT_XO_FREQ_ERR" name="InitXOFreqErr" value="0N" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="POST_DC_XO_FREQ_ERR" name="PostDCXOFreqErr" value="0P" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="POST_FIN_XO_FREQ_ERR" name="PostFinXOFreqErr" value="0Q" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="POST_FINAL_CAL_XO_FREQ_ERR" name="PostFinalCalXOFreqErr" value="0R" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="FAILURE_DETAIL" name="FailureDetail" value="0S" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+	  </Function>	
+	  <Function id="XO_CAL" controltext="V3" value="6">
+         <Result id="STATE" name="State" value="00" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="EXTENDED_STATUS" name="Extended Status" value="01" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TEMP_SPAN_ACHIEVED_XO" name="TempSpanAchievedXO" value="02" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="CAL_COEFF_C0" name="CalCoeffC0" value="03" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="CAL_COEFF_C1" name="CalCoeffC1" value="04" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="CAL_COEFF_C2" name="CalCoeffC2" value="05" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="CAL_COEFF_C3" name="CalCoeffC3" value="06" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="FT_QUAL_IND" name="FTQualInd" value="07" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="INIT_XO_TRIM" name="InitXOTrim" value="08" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="POST_DC_XO_TRIM" name="PostDCXOTrim" value="09" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="POST_FIN_XO_TRIM" name="PostFinXOTrim" value="0A" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="POST_FINAL_CAL_XO_TRIM" name="PostFinalCalXOTrim" value="0B" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PA_TEMP_INIT" name="PATempInit" value="0C" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PA_TEMP_FINAL" name="PATempFinal" value="0D" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="XO_TEMP_INIT" name="XOTempInit" value="0E" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="XO_TEMP_FINAL" name="XOTempFinal" value="0F" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PMIC_TEMP_INIT" name="PMICTempInit" value="0G" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PMIC_TEMP_FINAL" name="PMICTempFinal" value="0H" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PMIC_TEMP_CHANGE" name="PMICTempChange" value="0J" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="SRAM_COUNT" name="SRAMCount" value="0K" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="FREQ_EST_COUNT" name="FreqEstCount" value="0L" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="CAL_COEFT_0P" name="CalCoeft0p" value="0M" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+	  </Function>
+	  <Function id="GSM_LINEAR_TX_CAL" controltext="" value="7">
+         <Result id="GSM_PMEAS" name="GSM PMEAS" value="00" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="EDGE_PMEAS" name="EDGE PMEAS" value="01" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="GSM_MAX_PMEAS" name="GSM MAX PMEAS" value="02" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="EDGE_MAX_PMEAS" name="EDGE MAX PMEAS" value="03" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="GSM_MIN_PMEAS" name="GSM MIN PMEAS" value="04" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="EDGE_MIN_PMEAS" name="EDGE MIN PMEAS" value="05" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TRIGGER_LEVEL" name="Trigger Level" value="06" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_RGI" name="NV_RGI" value="07" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_G_PMEAS" name="NV_G_PMEAS" value="08" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_E_PMEAS" name="NV_E_PMEAS" value="09" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="FILE_NAME" name="FileName" value="0A" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_AMAM" name="NV_AMAM" value="0B" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_AMPM" name="NV_AMPM" value="0C" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PWR" name="Pwr" value="0D" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="DAC_AMPM" name="DAC_AMPM" value="0E" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="AMPM_MEASURED_FREQ_ERROR" name="AMPM Measured Freq Error (Hz)" value="0F" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PREDISTORTION_CALIBRATION_RGI" name="Predistortion Calibration RGI" value="0G" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="AMAM_DYNAMIC_RANGE_MAX_POWER" name="AMAM Dynamic Range - Max Power" value="0H" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="MEASURED_CORRELATION_DELAY" name="Measured Correlation Delay (samples)" value="0J" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="MIN_POWER_IN_EDGE_SECTION" name="Min Power in EDGE Section" value="0K" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="POWER" name="Power" value="0L" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PHASE" name="Phase" value="0M" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="RAW_POWER" name="RawPower" value="0N" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="RAW_PHASE" name="RawPhase" value="0P" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="DUT_SLOPE" name="DUT Slope" value="0Q" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="DUT_Y_INTERCEPT" name="DUT Y-intercept" value="0R" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="DUT_R_SQUARED" name="DUT R-squared" value="0S" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="SLOPE_CORRECTION_FACTOR" name="Slope Correction Factor" value="0T" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="DUT_POWER" name="DUT Power" value="0U" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="STATUS" name="Status" value="0V" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="AMAM_MAX_PWR" name="AMAM Max Pwr" value="0W" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PMEAS_GMSK" name="PMEAS_GMSK" value="0X" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PMEAS_8PSK" name="PMEAS_8PSK" value="0Y" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="DPD_MEASURED_FREQ_ERROR" name="DPD Measured Freq Error (Hz)" value="0Z" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="CORRELATION_DELAY" name="Correlation Delay" value="10" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="DPD_EDGE_MIN_PWR" name="DPD EDGE Min Pwr" value="11" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="GSM_TX_TEMPCOMP_ADJUST_THERM_ADC_BEFORE_CAL" name="Gsm Tx Tempcomp Adjust:  Therm ADC before Cal" value="12" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="GSM_TX_TEMPCOMP_ADJUST_THERM_ADC_AFTER_CAL" name="Gsm Tx Tempcomp Adjust:  Therm ADC after Cal" value="13" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="GSM_TX_TEMPCOMP_ADJUST_ADJUSTED_THERM_ADC" name="Gsm Tx Tempcomp Adjust:  Adjusted Therm ADC" value="14" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="GSM_TX_TEMPCOMP_ADJUST_ACTUAL_ADJUSTED_THERM_ADC_WITH_HIGH_LOW_THERM_ADC_LIMIT_CONSIDERED" name="Gsm Tx Tempcomp Adjust:  Actual AdjustedThermADC with High/Low ThermADCLimit Considered" value="15" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="GSM_TX_TEMPCOMP_ADJUST_GMSK" name="Gsm Tx Tempcomp Adjust:  GMSK" value="16" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="GSM_TX_TEMPCOMP_ADJUST_EDGE" name="Gsm Tx Tempcomp Adjust:  EDGE" value="17" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+	  </Function>
+	  <Function id="GSM_V4_CAL" controltext="V4" value="8">
+         <Result id="RSSI" name="RSSI" value="00" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="GSM_PCL_ERROR" name="GSM PCL Error" value="01" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="EDGE_PCL_ERROR" name="EDGE PCL Error" value="02" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="GSM_PMEAS" name="GSM PMEAS" value="03" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="EDGE_PMEAS" name="EDGE PMEAS" value="04" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="TARGET_POWER" name="Target Power" value="05" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="POWER" name="Power" value="06" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="AMAM_MAX_PWR" name="AMAM Max Pwr" value="07" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_AMAM" name="NV_AMAM" value="08" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="NV_AMPM" name="NV_AMPM" value="09" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PCL_ERROR_GMSK" name="PCL Error GMSK" value="0A" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="PCL_ERROR_8PSK" name="PCL Error 8PSK" value="0B" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+         <Result id="RX_GAIN_NV" name="RX GAIN NV" value="0C" severity="3">
+            <AltHelp loc="1033"></AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+	  </Function>	  
+   </Technology>
+   <Technology id="SYSTEM_COMMON_TESTS" value="7">
+	  <Function id="FTM_DO_SELF_CAL" controltext="" value="0">
+         <Result id="" name="status" value="00" severity="3">
+            <AltHelp loc="1033">INTERNAL DEVICE CALIBRATION FAILURE.</AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+	  </Function>
+   </Technology>
+   <Technology id="RFCAL_WIDEBAND" value="8">
+	  <Function id="EXCEPTION" controltext="" value="0">
+         <Result id="RFCAL_GENERAL_NO_PHONE_CONNECTED" name="rfcal_exc_general_noPhoneConnected" value="00" severity="4">
+            <AltHelp loc="1033">GENERAL NO PHONE CONNECTED</AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+		 <Result id="RFCAL_MEASUREMENT_TRIGGER_TIME_OUT" name="rfcal_exc_measurement_triggerTimeOut" value="01" severity="4">
+            <AltHelp loc="1033">MEASUREMENT TRIGGER TIME OUT</AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+		 <Result id="RFCAL_MEASUREMENT_OVERDRIVEN" name="rfcal_exc_measurement_overdriven" value="02" severity="4">
+            <AltHelp loc="1033">MEASUREMENT_OVERDRIVEN</AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+		 <Result id="RFCAL_MEASUREMENT_UNDERDRIVEN" name="rfcal_exc_measurement_underdriven" value="03" severity="4">
+            <AltHelp loc="1033">MEASUREMENT_UNDERDRIVEN</AltHelp>
+            <AltHelp loc="2052"></AltHelp>
+         </Result>
+		 <Result id="RFCAL_MEASUREMENT_INCOMPLETE" name="rfcal_exc_measurement_incomplete" value="04" severity="4">
+            <AltHelp loc="1033">MEASUREMENT_INCOMPLETE</AltHelp>
+         <AltHelp loc="2052"></AltHelp>
+         </Result>
+		 <Result id="RFCAL_MEASUREMENT_TIME_OUT" name="rfcal_exc_measurement_timeout" value="05" severity="4">
+            <AltHelp loc="1033">MEASUREMENT_TIME_OUT</AltHelp>
+         <AltHelp loc="2052"></AltHelp>
+         </Result>
+		 <Result id="RFCAL_MEASUREMENT_ACQUISITION_ERROR" name="rfcal_exc_measurement_acquisition_error" value="06" severity="4">
+            <AltHelp loc="1033">MEASUREMENT_ACQUISITION_ERROR</AltHelp>
+         <AltHelp loc="2052"></AltHelp>
+         </Result>
+		 <Result id="RFCAL_MEASUREMENT_SYNC_ERROR" name="rfcal_exc_measurement_sync_error" value="07" severity="4">
+            <AltHelp loc="1033">MEASUREMENT_SYNC_ERROR</AltHelp>
+         <AltHelp loc="2052"></AltHelp>
+         </Result>
+		 <Result id="RFCAL_GENERAL_EXCEPTION" name="rfcal_exc_general_exception" value="FF" severity="5">
+            <AltHelp loc="1033">GENERAL_EXCEPTION</AltHelp>
+         <AltHelp loc="2052"></AltHelp>
+         </Result>
+	  </Function>
+   </Technology>
+</ErrorCodeDefinitions>

@@ -1,0 +1,17 @@
+[Test_Station]
+TestName=Test
+OrderID=DHW212046
+OperationID=-1
+WorkUnitID=TEST-BT-G2-03
+UserName=1
+FixtureNO=Fix0001
+CableNO=RF Cable 0001
+InstrumentNO=CMW500 RF1
+[LOTINFO]
+TestStartTime=6-15-2021 17:27:57
+TestSN=
+TestResult=FAIL
+TestTotTime=0
+TestMsg=
+Version=2.0.38.0
+Platform=Qualcomm

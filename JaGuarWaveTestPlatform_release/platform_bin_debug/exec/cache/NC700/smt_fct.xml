@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Suite>
+    <common>
+        <ApplicationCMD>cmd.exe</ApplicationCMD>
+        <TSE_GPIB_TYPE>0</TSE_GPIB_TYPE>
+        <TSE_GPIB_INTERFACE>0</TSE_GPIB_INTERFACE>
+        <TSE_GPIB_PRIMARY_ADDR>5</TSE_GPIB_PRIMARY_ADDR>
+        <TSE_GPIB_SEC_ADDR>0</TSE_GPIB_SEC_ADDR>
+        <!-- 自动获取IP地址-->
+        <TSE_SSH_SOURCE_IP>192.168.225.5</TSE_SSH_SOURCE_IP>
+        <TSE_SSH_HOST>192.168.225.1</TSE_SSH_HOST>
+        <TSE_VOLTAGE_RANGE>3.0~4.4</TSE_VOLTAGE_RANGE>
+        <TSE_CURRENT_RANGE>0.300~1.200</TSE_CURRENT_RANGE>
+		<TSE_FTM_CONNECT_MODE>ADB_TCPIP</TSE_FTM_CONNECT_MODE>
+		<TSE_FTM_CLIENT_PORT>5555</TSE_FTM_CLIENT_PORT>
+		<TSE_X55_VERSION>P2.01</TSE_X55_VERSION>
+        <TSE_SOFT_VERSION>V1.3.0</TSE_SOFT_VERSION>
+    </common>
+    <config>
+        <ModuleName paramVal="TSE_ConfigUIPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_BaseConfig" description="" />
+        <TestName paramVal="Config" description="测试名称描述" />
+        <ConfigCount paramVal="7" description="配置数" />
+        <LabelName1 paramVal="USB网卡IP地址：" description="配置标签名称" />
+        <EditValueEnvironment1 paramVal="TSE_SSH_SOURCE_IP" description="编辑参数的环境变量，默认值" />
+		<LabelName2 paramVal="软件版本：" description="配置标签名称" />
+        <EditValueEnvironment2 paramVal="TSE_SOFT_VERSION" description="编辑参数的环境变量，默认值" />
+        <LabelName3 paramVal="硬件版本" description="配置标签名称" />
+        <EditValueEnvironment3 paramVal="TSE_X55_VERSION" description="编辑参数的环境变量，默认值" />
+        <LabelName4 paramVal="GPIB类型：" description="配置标签名称" />
+        <EditValueEnvironment4 paramVal="TSE_GPIB_TYPE" description="编辑参数的环境变量，默认值" />
+        <LabelName5 paramVal="GPIB接口：" description="配置标签名称" />
+        <EditValueEnvironment5 paramVal="TSE_GPIB_INTERFACE" description="编辑参数的环境变量，默认值" />
+        <LabelName6 paramVal="GPIB地址" description="配置标签名称" />
+        <EditValueEnvironment6 paramVal="TSE_GPIB_PRIMARY_ADDR" description="编辑参数的环境变量，默认值" />
+		<LabelName7 paramVal="电流范围" description="配置标签名称" />
+        <EditValueEnvironment7 paramVal="TSE_CURRENT_RANGE" description="编辑参数的环境变量，默认值" />
+    </config>
+	<SuiteProject>
+        <RealName paramVal="CTSE_MessageBox" description="提示消息框" />
+        <TestName paramVal="百兆网口测试" description="测试名称描述" />
+        <caption paramVal="百兆网口测试" description="对话框标题" />
+        <msg paramVal="插入百兆网口，并检查网口灯是否亮黄色" description="对话框提示消息" />
+        <flag paramVal="1" description="0 : MB_OK,1 : MB_OKCANCEL" />
+    </SuiteProject>
+    <SuiteProject>
+        <RealName paramVal="CTSE_MessageBox" description="提示消息框" />
+        <TestName paramVal="千兆网口测试" description="测试名称描述" />
+        <caption paramVal="千兆网口测试" description="对话框标题" />
+        <msg paramVal="请拔出百兆网口，插入千兆网口，并检查网口灯是否亮绿色" description="对话框提示消息" />
+        <flag paramVal="1" description="0 : MB_OK,1 : MB_OKCANCEL" />
+    </SuiteProject>
+    <SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_PingTest" description="TSE测试实例名称" />
+        <TestName paramVal="检查设备网络连接" description="Ping测试" />
+        <SourceAddrEnvironment paramVal="TSE_SSH_SOURCE_IP" description="Socke 路由IP地址" />
+        <HostEnvironment paramVal="TSE_SSH_HOST" description="主机IP地址" />
+        <PingTestTimeSec paramVal="2" description="ping测试，默认在1S中测试一次" />
+        <TimeOutSec paramVal="120" description="超时时间秒" />
+        <RetryCount paramVal="1" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="断开ADB连接" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb disconnect" description="指令"/>
+		<Recv1 paramVal="disconnected everything" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="连接设备" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb connect 192.168.225.1" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="关闭lighttpd进程" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell killall -9 lighttpd" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="关闭wps进程" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell killall -9 wps" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="关闭recovery进程" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell killall -9 recovery" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="提前打开GPS" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell ubus call sat at '{\&quot;cmd\&quot;:\&quot;AT+CGPS=1,1\&quot;}'" description="指令"/>
+		<Recv1 paramVal="result" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="提前设置GPS" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell ubus call sat at '{\&quot;cmd\&quot;:\&quot;AT+CURCPORTS=SET,SMD8\&quot;}'" description="指令"/>
+		<Recv1 paramVal="result" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+        <RealName paramVal="CTSE_TestBase" description="" />
+        <TestName paramVal="检查版本" description="" />
+        <SuiteProject>
+            <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+            <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+            <TestName paramVal="ABD获取版本" description="测试名称描述" />
+            <CommandCount paramVal="1" description="命令数量" />
+            <Application paramVal="cmd.exe" description="程序路径" />
+            <CommandLine paramVal="" description="程序路径" />
+            <Command1 paramVal="adb shell ubus call sat get_all" description="指令" />
+            <Recv1 paramVal="model" description="接收字符串" />
+            <SendCounts1 paramVal="3" description="发送次数" />
+            <TimeOut1 paramVal="30" description="命令超时时间" />
+            <Environment1 paramVal="TSE_VERSION_SRC_JSON" description="保存环境变量" />
+        </SuiteProject>
+        <SuiteProject>
+            <ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+            <RealName paramVal="CTSE_JsonParse" description="" />
+            <TestName paramVal="解析软件版本信息" description="Ping测试" />
+            <JsonEnvironment paramVal="TSE_VERSION_SRC_JSON" description="" />
+            <JsonTreeList paramVal="revision" description="" />
+            <SaveJsonValueEnvironment paramVal="TSE_OUTPUT_SOFT_JSON" description="" />
+        </SuiteProject>
+        <SuiteProject>
+            <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+            <RealName paramVal="CTSE_BuildString" description="连接高通设备" />
+            <TestName paramVal="解析软件版本结果" description="测试名称描述" />
+            <EraseStringSplit paramVal="\\r,\\n,SIM8200M44A-LGA_, " description="" />
+            <SrcStringCommand paramVal="$$_TSE_OUTPUT_SOFT_JSON_$$" description="" />
+            <RegexRule paramVal="^V[0-9]{1,2}.[0-9]{1,2}.[0-9]{1,2}" description="regex rule" />
+            <SaveEnvironment paramVal="TSE_SOFT_ADB" description="" />
+        </SuiteProject>
+        <SuiteProject>
+            <ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+            <RealName paramVal="CTSE_JsonParse" description="" />
+            <TestName paramVal="解析硬件版本信息" description="Ping测试" />
+            <JsonEnvironment paramVal="TSE_VERSION_SRC_JSON" description="" />
+            <JsonTreeList paramVal="HWID" description="" />
+            <SaveJsonValueEnvironment paramVal="TSE_OUTPUT_X55_JSON" description="" />
+        </SuiteProject>
+        <SuiteProject>
+            <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+            <RealName paramVal="CTSE_BuildString" description="连接高通设备" />
+            <TestName paramVal="解析硬件版本结果" description="测试名称描述" />
+            <EraseStringSplit paramVal='\\r,\\n,&quot;,SDX55_SIM8200G_,_20210312, ' description="" />
+            <SrcStringCommand paramVal="$$_TSE_OUTPUT_X55_JSON_$$" description="" />
+            <RegexRule paramVal="^P[0-9]{1,2}.[0-9]{1,2}" description="regex rule" />
+            <SaveEnvironment paramVal="TSE_X55_ADB" description="" />
+        </SuiteProject>
+    </SuiteProject>
+	<SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ComparisonEnvironment" description="比较环境变量" />
+        <TestName paramVal="比对软件版本" description="测试名称描述" />
+        <SrcEnvironment paramVal="TSE_SOFT_VERSION" description="原环境变量名称" />
+        <DestEnvironment paramVal="TSE_SOFT_ADB" description="目标环境变量名称" />
+        <Format paramVal="配置软件版本:%s,当前设备软件版本:%s，配置软件版本与当前设备软件版本不一致" description="格式化提示" />
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+		<RealName paramVal="CTSE_ComparisonEnvironment" description="比较环境变量" />
+		<TestName paramVal="比对硬件版本" description="测试名称描述" />
+		<SrcEnvironment paramVal="TSE_X55_VERSION" description="原环境变量名称" />
+		<DestEnvironment paramVal="TSE_X55_ADB" description="目标环境变量名称" />
+		<Format paramVal="配置硬件版本:%s,当前设备硬件版本:%s，配置硬件版本与当前设备硬件版本不一致" description="格式化提示" />
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="关闭绿灯" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell gpio -c 71 && gpio -c 85 && gpio -c 88 && gpio -c 81 && gpio -c 80 && gpio -c 96 && gpio -c 61" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="打开绿灯" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell gpio -s 71 && gpio -s 85 && gpio -s 88 && gpio -s 81 && gpio -s 80 && gpio -s 96 && gpio -s 61" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+        <RealName paramVal="CTSE_MessageBox" description="提示消息框" />
+        <TestName paramVal="检查绿灯" description="测试名称描述" />
+        <caption paramVal="Test Tip" description="对话框标题" />
+        <msg paramVal="请检查LED灯是否亮绿色" description="对话框提示消息" />
+        <flag paramVal="1" description="0 : MB_OK,1 : MB_OKCANCEL" />
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="关闭绿灯" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell gpio -c 71 && gpio -c 85 && gpio -c 88 && gpio -c 81 && gpio -c 80 && gpio -c 96 && gpio -c 61" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="打开红灯" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell gpio -s 97 && gpio -s 4" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+        <RealName paramVal="CTSE_MessageBox" description="提示消息框" />
+        <TestName paramVal="检查红灯" description="测试名称描述" />
+        <caption paramVal="Test Tip" description="对话框标题" />
+        <msg paramVal="请检查LED灯是否亮红色" description="对话框提示消息" />
+        <flag paramVal="1" description="0 : MB_OK,1 : MB_OKCANCEL" />
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="关闭红灯" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell gpio -c 97 && gpio -c 4" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="检查GPS" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell ubus call sat at '{\&quot;cmd\&quot;:\&quot;AT+CGPSINFO\&quot;}'" description="指令"/>
+		<Recv1 paramVal="result" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="检查WPS键" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell gpio -g 92" description="指令"/>
+		<Recv1 paramVal="gpio92 level is 0." description="接收字符串"/>
+		<SendCounts1 paramVal="200" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="检查复位键" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell gpio -g 101" description="指令"/>
+		<Recv1 paramVal="gpio101 level is 0." description="接收字符串"/>
+		<SendCounts1 paramVal="200" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="检查SIM卡状态" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell ubus call sat get_all" description="指令"/>
+		<Recv1 paramVal="sim_state&quot;: 1," description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+        <ModuleName paramVal="TSE_InstrumentPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_OpenInstrumentGPIB" description="断开设备" />
+        <TestName paramVal="打开程控电源" description="测试名称描述" />
+        <NIGPIBTypeEnvionment paramVal="TSE_GPIB_TYPE" description="" />
+        <GpibInterfaceEnvionment paramVal="TSE_GPIB_INTERFACE" description="" />
+        <PrimaryAddressEnvionment paramVal="TSE_GPIB_PRIMARY_ADDR" description="" />
+        <SecAddressEnvionment paramVal="TSE_GPIB_SEC_ADDR" description="" />
+    </SuiteProject>
+	<SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ReadInstrumentVoltageCurrent" description="连接高通设备" />
+        <TestName paramVal="检测整机机电流" description="测试名称描述" />
+        <CheckVoltage paramVal="1" description="" />
+        <CheckCurrent paramVal="1" description="" />
+        <CheckIntervalTimeMs paramVal="500" description="" />
+        <CheckTimeSec paramVal="5" description="" />
+        <VoltageTestRangeEnvironment paramVal="TSE_VOLTAGE_RANGE" description="" />
+        <CurrentTestRangeEnvironment paramVal="TSE_CURRENT_RANGE" description="" />
+        <RetryCount paramVal="1" description="错误重测次数" />
+    </SuiteProject>
+</Suite>

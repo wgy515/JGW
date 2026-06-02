@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <StationConfigSession>
+	<TesterName>QSEQ_Sample1</TesterName>
+	<DomainName>Sample</DomainName>
+  </StationConfigSession>
+  <DeviceConfigSession>
+    <!--valid tag: %DATE_TIME%-->
+    <SequenceLogFileNameTemplate>%DATE_TIME%_QSEQ_Log_ConsoleApp.txt</SequenceLogFileNameTemplate>
+    <XMLLogStyleSheet>..\databases\HTML_QDART_Combined.xsl</XMLLogStyleSheet>
+    <!--valid tag: %SN% %DATE_TIME% %DEVICE_GROUP_ID%-->
+    <XMLLogFileNameTemplate>%SN%_%DATE_TIME%_QSEQ_Output_DeviceGroup_%DEVICE_GROUP_ID%</XMLLogFileNameTemplate>
+    <Libraries>
+      <DLL>QSEQ_Utility_Qualcomm.dll</DLL>
+      <DLL>QSEQ_PathLossManager.dll</DLL>
+      <DLL>QSEQ_Algorithm_Qualcomm_NSVFS.dll</DLL>
+      <DLL>QSEQ_Device_Qualcomm_Mobile.dll</DLL>
+      <DLL>QSEQ_Device_StarPoint_SP9010.dll</DLL>
+    </Libraries>
+    <DeviceGroups>
+      <DeviceGroup ID="1">
+        <Resources>
+          <Resource name ="QSEQ_RESOURCE_PATHLOSSMANAGER" config="..\Databases\calDB_NET.xml"></Resource>
+        </Resources>
+        <!--valid tag: %DATE_TIME% %DEVICE_GROUP_ID%-->
+        <DeviceLogFileNameTemplate>%DATE_TIME%_QSEQ_Log_DeviceGroup_1.txt</DeviceLogFileNameTemplate>
+        <Device ID="1" NOTINUSE="false" UUT="True">
+          <Type>QSEQ_DEVICE_QUALCOMM_MOBILE</Type>
+          <ConfigString>CONNECT=QPST:-1:TIMEOUT_SEC:60</ConfigString>
+          <!-- ConfigString Format: "CONNECT=diag_transport_mode:comm_port" -->
+          <!-- where diag_transport_mode = "QPST", "QPHONEMS", or "USER_DEFINED" -->
+          <!-- where comm_port = the COMM port (numeric value) ("-1" for AUTO select or actual COMM port id number -->
+        </Device>
+        <Device ID="1" NOTINUSE="false" UUT="False"> 
+           <Type>QSEQ_DEVICE_STARPOINT_SP9010</Type>
+          <ConfigString>VISA=TCPIP0::192.168.1.1::INSTR|RF_PORT_ID=RF1</ConfigString> -->
+        </Device>
+      </DeviceGroup>
+    </DeviceGroups>
+  </DeviceConfigSession>
+</root>

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8D75AB62-7C15-4AB3-B013-F703420B361E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CSTSE_FoundationLib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)lib\plugin\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\</IntDir>
+    <TargetName>$(ProjectName)_d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)lib\plugin\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;CSTSE_FOUNDATION_LIB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)platform_library\include;$(SolutionDir)platform_plugin\include;$(SolutionDir)platform_core\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(SolutionDir)platform_core_lib\boost\lib</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;CSTSE_FOUNDATION_LIB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)platform_library\include;$(SolutionDir)platform_plugin\include;$(SolutionDir)platform_core\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(SolutionDir)platform_core_lib\boost\lib</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\CSTSE_FoundationLib\CSTSE_ActionDefine.h" />
+    <ClInclude Include="..\..\include\CSTSE_FoundationLib\CSTSE_BaseJson.h" />
+    <ClInclude Include="..\..\include\CSTSE_FoundationLib\CSTSE_ClientBase.h" />
+    <ClInclude Include="..\..\include\CSTSE_FoundationLib\CSTSE_Crypto.h" />
+    <ClInclude Include="..\..\include\CSTSE_FoundationLib\CSTSE_ResponseBaseJson.h" />
+    <ClInclude Include="..\..\include\CSTSE_FoundationLib\CSTSE_ServerBase.h" />
+    <ClInclude Include="CSTSE_CryptoDefault.h" />
+    <ClInclude Include="CSTSE_CryptoEmpty.h" />
+    <ClInclude Include="CSTSE_EnverionmentJson.h" />
+    <ClInclude Include="CSTSE_GetTSEInfoJson.h" />
+    <ClInclude Include="CSTSE_LogListenerEmpty.h" />
+    <ClInclude Include="CSTSE_RspEnverionmentJson.h" />
+    <ClInclude Include="CSTSE_RsponseTSEInfoJson.h" />
+    <ClInclude Include="CSTSE_RspTSETestJson.h" />
+    <ClInclude Include="CSTSE_TestIndexChangeJson.h" />
+    <ClInclude Include="CSTSE_TestLogJson.h" />
+    <ClInclude Include="CSTSE_TestStatusChangeJson.h" />
+    <ClInclude Include="CSTSE_TestStatusListenerEmpty.h" />
+    <ClInclude Include="CSTSE_TSETestJson.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="CSTSE_InitCommandParamJson.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CSTSE_BaseJson.cpp" />
+    <ClCompile Include="CSTSE_ClientBase.cpp" />
+    <ClCompile Include="CSTSE_CryptoDefault.cpp" />
+    <ClCompile Include="CSTSE_CryptoEmpty.cpp" />
+    <ClCompile Include="CSTSE_EnverionmentJson.cpp" />
+    <ClCompile Include="CSTSE_GetTSEInfoJson.cpp" />
+    <ClCompile Include="CSTSE_LogListenerEmpty.cpp" />
+    <ClCompile Include="CSTSE_ResponseBaseJson.cpp" />
+    <ClCompile Include="CSTSE_RspEnverionmentJson.cpp" />
+    <ClCompile Include="CSTSE_RsponseTSEInfoJson.cpp" />
+    <ClCompile Include="CSTSE_RspTSETestJson.cpp" />
+    <ClCompile Include="CSTSE_ServerBase.cpp" />
+    <ClCompile Include="CSTSE_TestIndexChangeJson.cpp" />
+    <ClCompile Include="CSTSE_TestLogJson.cpp" />
+    <ClCompile Include="CSTSE_TestStatusChangeJson.cpp" />
+    <ClCompile Include="CSTSE_TestStatusListenerEmpty.cpp" />
+    <ClCompile Include="CSTSE_TSETestJson.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="CSTSE_InitCommandParamJson.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

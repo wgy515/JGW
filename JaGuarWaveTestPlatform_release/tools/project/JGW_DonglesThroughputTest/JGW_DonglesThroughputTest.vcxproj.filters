@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{fcac8b1e-7008-4e6e-83bb-92c88a766f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{17a34b9c-1fd4-47f5-be1f-eac8826df17b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{4d85f6d6-c672-4b43-801a-8344a3736e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Turntable">
+      <UniqueIdentifier>{0da10a57-8128-49b1-81fa-fcf6a1a2a66b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="JGW_DonglesThroughputTest.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\platform_skin\DonglesThroughputTest.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_DonglesThroughputDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UIWkeWindowlessBrowser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JGW_DonglesThroughputTest_Define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Src\SysHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Src\WaitFor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Src\GeneralHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_TcpServerThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_TcpClientThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_ThroughputTestConfig.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_TcpStatsImplThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\AdapterCommon.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_IfTableTrafficMonitor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_TruntableConfigDlg.h">
+      <Filter>Turntable</Filter>
+    </ClInclude>
+    <ClInclude Include="SCLLibHelper.h">
+      <Filter>Turntable</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_UIDelegateThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_DonglesThroughputDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UIWkeWindowlessBrowser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Src\WaitFor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Src\SysHelper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_TcpServerThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_TcpClientThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_ThroughputTestConfig.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_TcpStatsImplThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\AdapterCommon.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_IfTableTrafficMonitor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_TruntableConfigDlg.cpp">
+      <Filter>Turntable</Filter>
+    </ClCompile>
+    <ClCompile Include="SCLLibHelper.cpp">
+      <Filter>Turntable</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_UIDelegateThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\platform_library\library\JGW_FoundationFunc\JGW_ApplicationDecrypt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="JGW_DonglesThroughputTest.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

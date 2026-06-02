@@ -1,0 +1,51 @@
+2021-06-16 11:00:35 [16812] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-16 11:00:35 [16812] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-16 11:00:35 [16812] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-16 11:00:35 [16812] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-16 11:00:35 [16812] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-16 11:00:36 [16812] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-16 11:00:36 [16812] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-16 11:00:36 [16812] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-16 11:00:37 [16812] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-16 11:00:37 [16812] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-16 11:00:37 [16812] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-16 11:00:37 [16812] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-16 11:00:37 [16812] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-16 11:00:37 [16812] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-16 11:00:37 [16812] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-16 11:00:37 [16812] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-16 11:01:54 [16812] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-16 11:01:54 [16812] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-16 11:01:54 [16812] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-16 11:01:54 [16812] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-16 11:01:55 [16812] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-16 11:01:55 [16812] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-16 11:01:55 [16812] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 030F0ED8
+2021-06-16 11:01:55 [16812] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-16 11:02:28 [  364] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-16 11:02:28 [  364] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-16 11:02:28 [  364] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-16 11:02:28 [  364] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-16 11:02:28 [  364] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-16 11:02:46 [  364] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-16 11:02:46 [  364] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-16 11:02:46 [  364] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-16 11:02:46 [  364] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-16 11:02:46 [  364] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-16 11:02:46 [  364] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-16 11:02:46 [  364] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-16 11:02:46 [  364] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-16 11:02:46 [  364] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-16 11:02:46 [  364] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-16 11:02:46 [  364] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-16 11:02:54 [11812] ERROR : 读取变量值为:1234567891234,不等于14位
+2021-06-16 11:02:54 [11812] ERROR : 读取变量值为:1234567891234,不等于14位
+2021-06-16 11:02:54 [11812] ERROR : 读取变量值为:1234567891234,不等于14位
+2021-06-16 11:05:26 [  364] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-16 11:05:26 [  364] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-16 11:05:26 [  364] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-16 11:05:26 [  364] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-16 11:05:26 [  364] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-16 11:05:26 [  364] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-16 11:05:26 [  364] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 02EB12A8
+2021-06-16 11:05:26 [  364] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll

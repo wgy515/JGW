@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Qualcomm">
+      <UniqueIdentifier>{326e121a-90db-4e1d-90c1-572f7ac521fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sb3">
+      <UniqueIdentifier>{c31b44df-a8a3-46ca-944c-ab913cbdcf28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sb3\contents_xml">
+      <UniqueIdentifier>{972d4d4e-2ddb-4fb1-b69a-6403c1465c43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_SaharaOpenPort.h">
+      <Filter>Qualcomm</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_SaharaArmPrgDownload.h">
+      <Filter>Qualcomm</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_DisconnectSaharaPort.h">
+      <Filter>Qualcomm</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_ConnectDiagPhone.h">
+      <Filter>Qualcomm</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_DisconnectDiagPhone.h">
+      <Filter>Qualcomm</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_StreamingDownloadUserPartitions.h">
+      <Filter>Qualcomm</Filter>
+    </ClInclude>
+    <ClInclude Include="sb3\CJGW_SSDownloadFramePacket.h">
+      <Filter>sb3</Filter>
+    </ClInclude>
+    <ClInclude Include="sb3\CJGW_SSDownloadConfig.h">
+      <Filter>sb3</Filter>
+    </ClInclude>
+    <ClInclude Include="sb3\contents_xml\CRCCCITT.h">
+      <Filter>sb3\contents_xml</Filter>
+    </ClInclude>
+    <ClInclude Include="sb3\contents_xml\Conversion.h">
+      <Filter>sb3\contents_xml</Filter>
+    </ClInclude>
+    <ClInclude Include="sb3\contents_xml\ParseContentsXMLConfig.h">
+      <Filter>sb3\contents_xml</Filter>
+    </ClInclude>
+    <ClInclude Include="sb3\contents_xml\ParsePartitionXMLConfig.h">
+      <Filter>sb3\contents_xml</Filter>
+    </ClInclude>
+    <ClInclude Include="sb3\TSE_StreamingFileDownload.h">
+      <Filter>sb3</Filter>
+    </ClInclude>
+    <ClInclude Include="sb3\TSE_SaharaFileDownload.h">
+      <Filter>sb3</Filter>
+    </ClInclude>
+    <ClInclude Include="sb3\TSE_SaharaSwitchMode.h">
+      <Filter>sb3</Filter>
+    </ClInclude>
+    <ClInclude Include="sb3\TSE_OpenSaharaDownloadPort.h">
+      <Filter>sb3</Filter>
+    </ClInclude>
+    <ClInclude Include="sb3\sw_sb3_download_define.h">
+      <Filter>sb3</Filter>
+    </ClInclude>
+    <ClInclude Include="sb3\TSE_CloseDownloadPort.h">
+      <Filter>sb3</Filter>
+    </ClInclude>
+    <ClInclude Include="sb3\CJGW_QcommDownloadSerialPort.h">
+      <Filter>sb3</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_QMSLLog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_SaharaOpenPort.cpp">
+      <Filter>Qualcomm</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_SaharaArmPrgDownload.cpp">
+      <Filter>Qualcomm</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_DisconnectSaharaPort.cpp">
+      <Filter>Qualcomm</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_ConnectDiagPhone.cpp">
+      <Filter>Qualcomm</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_DisconnectDiagPhone.cpp">
+      <Filter>Qualcomm</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_StreamingDownloadUserPartitions.cpp">
+      <Filter>Qualcomm</Filter>
+    </ClCompile>
+    <ClCompile Include="sb3\CJGW_SSDownloadConfig.cpp">
+      <Filter>sb3</Filter>
+    </ClCompile>
+    <ClCompile Include="sb3\CJGW_SSDownloadFramePacket.cpp">
+      <Filter>sb3</Filter>
+    </ClCompile>
+    <ClCompile Include="sb3\contents_xml\Conversion.cpp">
+      <Filter>sb3\contents_xml</Filter>
+    </ClCompile>
+    <ClCompile Include="sb3\contents_xml\CRCCCITT.cpp">
+      <Filter>sb3\contents_xml</Filter>
+    </ClCompile>
+    <ClCompile Include="sb3\contents_xml\ParseContentsXMLConfig.cpp">
+      <Filter>sb3\contents_xml</Filter>
+    </ClCompile>
+    <ClCompile Include="sb3\contents_xml\ParsePartitionXMLConfig.cpp">
+      <Filter>sb3\contents_xml</Filter>
+    </ClCompile>
+    <ClCompile Include="sb3\TSE_StreamingFileDownload.cpp">
+      <Filter>sb3</Filter>
+    </ClCompile>
+    <ClCompile Include="sb3\TSE_SaharaSwitchMode.cpp">
+      <Filter>sb3</Filter>
+    </ClCompile>
+    <ClCompile Include="sb3\TSE_OpenSaharaDownloadPort.cpp">
+      <Filter>sb3</Filter>
+    </ClCompile>
+    <ClCompile Include="sb3\TSE_SaharaFileDownload.cpp">
+      <Filter>sb3</Filter>
+    </ClCompile>
+    <ClCompile Include="sb3\TSE_CloseDownloadPort.cpp">
+      <Filter>sb3</Filter>
+    </ClCompile>
+    <ClCompile Include="sb3\CJGW_QcommDownloadSerialPort.cpp">
+      <Filter>sb3</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_QMSLLog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

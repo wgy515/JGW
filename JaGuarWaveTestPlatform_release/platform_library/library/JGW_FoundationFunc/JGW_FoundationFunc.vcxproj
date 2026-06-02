@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{00E57E55-43F2-403B-8B0C-DD26B8E790F1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>JGW_FoundationFunc</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)lib\library\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\</IntDir>
+    <TargetName>$(ProjectName)_d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)lib\library\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;JGW_FOUNDATIONFUNC_LIB_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)platform_library\include;$(SolutionDir)platform_core\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>comdlg32.lib;psapi.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;JGW_FOUNDATIONFUNC_LIB_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)platform_library\include;$(SolutionDir)platform_core\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>psapi.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\CCJGW_LocalThreadStrogeMap.h" />
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\CJGW_DllDirectoryStateSaver.h" />
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\CJGW_HiPerfTimer.h" />
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\CJGW_CriticalSectionLock.h" />
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\CJGW_NumberRule.h" />
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\JGW_Encrypt.h" />
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\JGW_Exception.h" />
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\JGW_FilePath.h" />
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\JGW_FoundationFuncLib_Define.h" />
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\JGW_ModuleEnCrypt.h" />
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\jgw_process_manage.h" />
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\JGW_PrsDownloadProtocol.h" />
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\jgw_single_application_instance.h" />
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\jgw_smartpointer_handle_func.h" />
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\JGW_StringFuncTemplate.hpp" />
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\CUtf8String.hpp" />
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\JGW_StringFunc.h" />
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\JGW_ThreadFunc.h" />
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\JGW_UsbRegedit.h" />
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\JGW_WindowFunc.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CJGW_HiPerfTimer.cpp" />
+    <ClCompile Include="CJGW_NumberRule.cpp" />
+    <ClCompile Include="JGW_ApplicationDecrypt.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="JGW_Encrypt.cpp" />
+    <ClCompile Include="JGW_ModuleEnCrypt.cpp" />
+    <ClCompile Include="jgw_process_manage.cpp" />
+    <ClCompile Include="JGW_PrsDownloadProtocol.cpp" />
+    <ClCompile Include="jgw_single_application_instance.cpp" />
+    <ClCompile Include="JGW_FilePath.cpp" />
+    <ClCompile Include="jgw_smartpointer_handle_func.cpp" />
+    <ClCompile Include="JGW_StringFunc.cpp" />
+    <ClCompile Include="JGW_ThreadFunc.cpp" />
+    <ClCompile Include="JGW_UsbRegedit.cpp" />
+    <ClCompile Include="JGW_WindowFunc.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

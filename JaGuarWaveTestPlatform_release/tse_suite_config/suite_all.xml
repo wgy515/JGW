@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Suite>
+    <SuiteProject name="CTSE_BaseConfig">
+        <ModuleName paramVal="TSE_ConfigUIPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_BaseConfig" description="TSE测试实例名称" />
+        <TestName paramVal="" description="TSE基础配置界面自定义" />
+        <ConfigCount paramVal="" description="配置文本框组(包含标签和文本输入框)的数量,索引默认1开始" />
+        <LabelName1 paramVal="" description="标签名称，后面1表示文本框组的索引" />
+        <EditValueEnvironment1 paramVal="" description="输入框保存的环境变量名称，后面1表示文本框组的索引" />
+        <LabelName2 paramVal="" description="标签名称，后面2表示文本框组的索引" />
+        <EditValueEnvironment2 paramVal="" description="输入框保存的环境变量名称，后面2表示文本框组的索引" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_GlobalResources">
+        <ModuleName paramVal="TSE_ConfigUIPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_GlobalResources" description="TSE测试实例名称" />
+        <TestName paramVal="" description="全局资源实例配置,主要用于资源回调使用(内部使用)" />
+        <TSE_GLOBAL_ENVIRONMENT paramVal="" description="全局环境变量实例名称" />
+        <TSE_LOG_SERVICES paramVal="" description="全局log服务实例" />
+        <TSE_TESTSTATUS_SERVICES paramVal="" description="全局测试状态上报服务" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_LANIPConfig">
+        <ModuleName paramVal="TSE_ConfigUIPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_LANIPConfig" description="TSE测试实例名称" />
+        <TestName paramVal="" description="Lynx DHCP配置命令生成" />
+        <LANIPAddress paramVal="" description="LYNX LAN口IP地址配置" />
+        <BroadcastAddress paramVal="" description="LAN口的网关配置" />
+        <EnvironmentName paramVal="" description="LYNX基于LAN口IP和网关，手动配置DHCP命令" />
+        <mnOperID paramVal="" description="自动或者手动配置 1 : 手动配置DHCP,0 : 自动配置DHCP" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_ThroughputConfig">
+        <ModuleName paramVal="TSE_ConfigUIPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ThroughputConfig" description="TSE测试实例名称" />
+        <TestName paramVal="" description="吞吐率参数配置" />
+        <TestTimeEnvironment paramVal="" description="吞吐率测试时间配置(单位:秒)" />
+        <HostIPEnvironment paramVal="" description="JGW_WlanServiceApplication运行主机的地址保存的环境变量" />
+        <IperfIPEnvironment paramVal="" description="iperf IP地址" />
+        <TestRangeEnvironment paramVal="" description="iperf大于等于测试范围(Mbits/sec)" />
+        <IperfCommandEnvironment paramVal="" description="iperf测试命令" />
+        <IperfCommandTimeOutEnvironment paramVal="" description="iperf测试命令运行后的超时时间" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_GetExcelDataToPrimaryKey">
+        <ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_GetExcelDataToPrimaryKey" description="TSE测试实例名称" />
+        <TestName paramVal="" description="根据主键获取EXCEL其他表头对应的数据" />
+        <EnvironmentExcelSource paramVal="" description="excel数据解析后保存的环境变量" />
+        <ExcelHeader paramVal="" description="主键获取的其他表头名称，多个表头以,作为分隔" />
+        <EnvironmentValues paramVal="" description="主键获取EXCEL其他表头对应的数据保存在对应的环境变量中,多个数据以,作为分隔,ExcelHeader和EnvironmentValues必须一一对应" />
+        <PrimaryKey paramVal="" description="主键表头名称" />
+        <PrimaryValueEnvironment paramVal="" description="主键值保存的环境变量名称" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_GetSQLite3DBToPrimaryKey">
+        <ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_GetSQLite3DBToPrimaryKey" description="TSE测试实例名称" />
+        <TestName paramVal="" description="获取SQLITE DB 主键对应相关信息" />
+        <SQLiteDBPath paramVal="" description="SQLiteDB路径，相对于当前程序目录" />
+        <SQLiteDBTableName paramVal="" description="SQLiteDB数据库表名" />
+        <SQLiteTableHeader paramVal="" description="SQLiteDB数据库表字段名称，以,作为分隔符" />
+        <EnvironmentValues paramVal="" description="查找字段对应数据保存环境变量组，与SQLiteTableHeader一一对应,以,作为分隔符" />
+        <PrimaryKey paramVal="" description="SQLiteDB数据库表字段名称,主KEY表字段" />
+        <PrimaryValueEnvironment paramVal="" description="主KEY对应的环境变量值" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_GlobalResources">
+        <ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_GlobalResources" description="TSE测试实例名称" />
+        <TestName paramVal="" description="全局资源实例配置,主要用于资源回调使用(内部使用)" />
+        <TSE_GLOBAL_ENVIRONMENT paramVal="" description="全局环境变量实例名称" />
+        <TSE_LOG_SERVICES paramVal="" description="全局log服务实例" />
+        <TSE_TESTSTATUS_SERVICES paramVal="" description="全局测试状态上报服务" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_LoadExcelDatabase">
+        <ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_LoadExcelDatabase" description="TSE测试实例名称" />
+        <TestName paramVal="" description="加载EXCEL文件到内存中" />
+        <EnvironmentExcelFilePath paramVal="" description="excel文件路径基于当前程序目录，保存在环境变量中" />
+        <EnvironmentExcelContent paramVal="" description="解析EXCEL后将数据保存在对应环境变量中" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_MESCheckSNStatus">
+        <ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_MESCheckSNStatus" description="TSE测试实例名称" />
+        <TestName paramVal="" description="MES检查SN当前状态" />
+        <SNEnvironment paramVal="" description="SN保存环境变量名称" />
+        <OperateID paramVal="" description="MES的站点ID，如果不配置或者为空则取插件的站点ID" />
+        <EnvironmentLen paramVal="" description="SN环境变量值限定的长度，为0或者为空则不限定长度" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_MESGetIMEIInfo">
+        <ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_MESGetIMEIInfo" description="TSE测试实例名称" />
+        <TestName paramVal="" description="获取包装IMEI/SN的相关MES信息以及检查当前号段状态" />
+        <OperateID paramVal="" description="MES的站点ID，如果不配置或者为空则取插件的站点ID" />
+        <SNEnvironment paramVal="" description="组装SN保存环境变量名称，为空则不绑定SN" />
+        <SNEnvironmentLen paramVal="" description="组装SN环境变量值限定的长度，为0或者为空则不限定长度" />
+        <IMEIEnvironment paramVal="" description="包装IMEI/SN保存的环境变量名称" />
+        <ParamNames paramVal="" description="包装IMEI/SN获取的相关MES信息参数组，参数名称: IMEI_M  ,IMEI_S  ,SN ,MAC ,BT,SpecialSN,OTPpwd, imeimo, RoutingStep,RoutingStep_Pre,RoutingStep_Next,Color, MEID,pESN,SONO:包装订单,MONOSMT:SMT工单,MONOPack：包装工单，MONOAssy： 组装工单，SIMInfo：SIMLock码，json格式] ,MSL,OTKSL" />
+        <EnvironmentValues paramVal="" description="将获取到参数信息保存到指定的环境变量组中，默认与ParamNames一一对应关系" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_MESNextIMEIStation">
+        <ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_MESNextIMEIStation" description="TSE测试实例名称" />
+        <TestName paramVal="" description="包装IMEI/SN MES过站" />
+        <OperateID paramVal="" description="MES的站点ID，如果不配置或者为空则取插件的站点ID" />
+        <PCBASNEnvironment paramVal="" description="组装SN保存环境变量名称，为空则不绑定SN" />
+        <PCBASNEnvironmentLen paramVal="" description="组装SN环境变量值限定的长度，为0或者为空则不限定长度" />
+        <IMEISNEnvironment paramVal="" description="包装IMEI/SN保存的环境变量名称" />
+        <SoftWareVarTinnoEnv paramVal="" description="内部软件版本（若非需要保存IMEI与SN对应关系的写号节点，此项为空）" />
+        <SoftWareVarCustomerEnv paramVal="" description="客户软件版本（若非需要保存IMEI与SN对应关系的写号节点，此项为空）" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_MESNextSNStation">
+        <ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_MESNextSNStation" description="TSE测试实例名称" />
+        <TestName paramVal="" description="组装SN MES过站" />
+        <OperateID paramVal="" description="MES的站点ID，如果不配置或者为空则取插件的站点ID" />
+        <SNEnvironment paramVal="" description="组装SN保存环境变量名称" />
+        <EnvironmentLen paramVal="" description="组装SN环境变量值限定的长度，为0或者为空则不限定长度" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_MESSaveTestRecords">
+        <ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_MESSaveTestRecords" description="TSE测试实例名称" />
+        <TestName paramVal="" description="组装SN MES过站" />
+        <OperateID paramVal="" description="MES的站点ID，如果不配置或者为空则取插件的站点ID" />
+        <IMEISNEnvironment paramVal="" description="IMEI/SN保存的环境变量名称" />
+        <StartTestTime paramVal="" description="开始测试时间标记位，1：重新记录开始测试时间，0：使用上次调用CTSE_MESSaveTestRecords的测试件" />
+        <EndTestTime paramVal="" description="结束测试时间标记位，1：结束测试标记位，表示当前测试完成，上传测试记录相关信息 0：则表示当前为起始测试标记位" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_UpdateExcelDatabase">
+        <ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_UpdateExcelDatabase" description="TSE测试实例名称" />
+        <TestName paramVal="" description="加载EXCEL文件到内存中" />
+        <EnvironmentExcelSource paramVal="" description="excel数据解析后保存的环境变量" />
+        <ExcelHeader paramVal="" description="表头名称，在哪一列写入相关数据" />
+        <EnvironmentValue paramVal="" description="写入数据对应的环境变量，写入位置是主KEY对应的行,必须与TSE_GetExcelDataToPrimaryKey搭配使用" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_UpdateSQLite3DB">
+        <ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_UpdateSQLite3DB" description="TSE测试实例名称" />
+        <TestName paramVal="" description="更新SQLite3DB数据信息" />
+        <SQLiteDBPath paramVal="" description="SQLiteDB路径，相对于当前程序目录" />
+        <SQLiteUpdateSQL paramVal="" description="SQLiteDB数据库更新SQL语句，$xxxx$格式表示当前字段引用了环境字段，$xxxx$会解析成xxxx对应的环境变量值" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_APSReadAPInfo">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_APSReadAPInfo" description="TSE测试实例名称" />
+        <TestName paramVal="" description="读取小AP信息(SSID,PASSWORD)(AP)" />
+        <SoftAPResultEnvironment paramVal="" description="读取小AP信息保存的环境变量" />
+        <SSIDEnvironment paramVal="" description="读取SSID保存指定环境变量名称" />
+        <PasswordEnvironment paramVal="" description="读取PASSWORD保存指定环境变量名称" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_BuildAPBinSFTP">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_BuildAPBinSFTP" description="TSE测试实例名称" />
+        <TestName paramVal="" description="生成SN/MAC/SSID/PASSWORD BIN文件(AP)" />
+        <SNEnvironment paramVal="" description="SN对应的环境变量值" />
+        <MACEnvironment paramVal="" description="MAC对应的环境变量值" />
+        <SSIDEnvironment paramVal="" description="SSID对应的环境变量值" />
+        <PasswordEnvironment paramVal="" description="password对应的环境变量值" />
+        <APBinFilePathEnvironment paramVal="" description="小AP 号段BIN配置文件保存路径环境变量" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_BuildAPInfoTxt">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_BuildAPInfoTxt" description="TSE测试实例名称" />
+        <TestName paramVal="" description="构建小AP 号段配置文件(windows格式)" />
+        <SNEnvironment paramVal="" description="SN对应的环境变量值" />
+        <MACEnvironment paramVal="" description="MAC对应的环境变量值" />
+        <SSIDEnvironment paramVal="" description="SSID对应的环境变量值" />
+        <PasswordEnvironment paramVal="" description="password对应的环境变量值" />
+        <APTxtFilePathEnvironment paramVal="" description="小AP 号段配置文件保存路径环境变量" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_BuildApInfoBinaryTxt">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_BuildApInfoBinaryTxt" description="TSE测试实例名称" />
+        <TestName paramVal="" description="构建小AP 号段配置文件(unix格式)" />
+        <SNEnvironment paramVal="" description="SN对应的环境变量值" />
+        <MACEnvironment paramVal="" description="MAC对应的环境变量值" />
+        <SSIDEnvironment paramVal="" description="SSID对应的环境变量值" />
+        <PasswordEnvironment paramVal="" description="password对应的环境变量值" />
+        <APTxtFilePathEnvironment paramVal="" description="小AP 号段配置文件保存路径环境变量" />
+        <ModeEnvironment paramVal="" description="MODE对应的环境变量值(mode=1 用户模式 mode=0 工程模式)" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_BuildEnvironmentValue">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_BuildEnvironmentValue" description="TSE测试实例名称" />
+        <TestName paramVal="" description="根据规则构造环境变量值" />
+        <BuildEnvironmentName paramVal="" description="按照规则生成的字符串保存的环境变量名" />
+        <SrcEnvironmentValue paramVal="" description="需要构造的字符串,$$_xxxx_$$ xxxx表示环境变量" />
+        <SrcFormat paramVal="" description="格式化规则 a,b  a：( 0 : 左边 -1 右边) b:(&gt;0 : 取第几位字符串 &lt; 0 取所有)  以;间隔多个环境变量" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_BuildTestLog">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_BuildTestLog" description="TSE测试实例名称" />
+        <TestName paramVal="" description="构造log文件" />
+        <LogFilePath paramVal="" description="log文件路径 %SN% %DATE% %PROJECT% %TIMESTAMP%" />
+        <LogEnvironment paramVal="" description="文件保存路径环境变量" />
+        <SNEnvironment paramVal="" description="SN环境变量名称" />
+        <Log paramVal="" description="log $$_xxxx_$$ xxxx表示环境变量" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_CheckConnectWiFi">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_CheckConnectWiFi" description="TSE测试实例名称" />
+        <TestName paramVal="" description="检查WIFI连接" />
+        <SSIDEnvironment paramVal="" description="WIFI SSID环境变量" />
+        <PASSWORDEnvironment paramVal="" description="WIFI PASSWORD环境变量" />
+        <HostIPEnvironment paramVal="" description="WIFI连接服务主机IP地址环境变量" />
+        <SocketPortEnvironment paramVal="" description="WIFI连接服务SOCKET端口环境变量，默认3001端口" />
+        <WlanGatewayEnvironment paramVal="" description="WIFI网关环境变量" />
+        <InterfaceDescription paramVal="" description="WIFI网口接口描述，默认配置为Peraso" />
+        <WlanIPAddressEnvironment paramVal="" description="WIFI连接后IP地址环境变量" />
+        <ConnectFailResetPeraso paramVal="" description="连接失败后重启peraso设备" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_CheckThroughputTestResult">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_CheckThroughputTestResult" description="TSE测试实例名称" />
+        <TestName paramVal="" description="检查吞吐率测试结果" />
+        <TestTimeEnvironment paramVal="" description="测试时间环境变量" />
+        <TestRangeEnvironment paramVal="" description="测试范围环境变量" />
+        <LogEnvironment paramVal="" description="吞吐率测试log文件路径环境变量" />
+        <locationString paramVal="" description="结果查询定位字符串位置" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_CheckUsbInterfaceStatus">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_CheckUsbInterfaceStatus" description="TSE测试实例名称" />
+        <TestName paramVal="" description="根据PID VID检查当前USB接口状态 2.0/3.0/3.1" />
+        <UsbVid paramVal="" description="USB设备VID" />
+        <UsbPid paramVal="" description="USB设备PID" />
+        <UsbServiceName paramVal="" description="USB设备服务名称" />
+        <BCDUSB paramVal="" description="usb协议版本 0x0200,0x0300" />
+        <TimeOut paramVal="" description="检测超时时间" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_CloseSerialComPort">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_CloseSerialComPort" description="TSE测试实例名称" />
+        <TestName paramVal="" description="关闭串行USB设备" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_ComparisonEnvironment">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ComparisonEnvironment" description="TSE测试实例名称" />
+        <TestName paramVal="" description="比较环境变量值" />
+        <SrcEnvironment paramVal="" description="原环境变量" />
+        <DestEnvironment paramVal="" description="目的环境变量" />
+        <Format paramVal="" description="格式化提示" />
+        <IgnoreString paramVal="" description="忽略指定字符串" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_Connect1hotlinkPeraso">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_Connect1hotlinkPeraso" description="TSE测试实例名称" />
+        <TestName paramVal="" description="连接1hotlinkPERASO设备" />
+        <PortEnvironment paramVal="" description="端口环境变量,为空默认自动搜索端口" />
+        <UsbServiceName paramVal="" description="USB设备服务名" />
+        <UsbVid paramVal="" description="USB设备Vid" />
+        <UsbPid paramVal="" description="USB设备Pid" />
+        <GoldenSerialNumberEnvironment paramVal="" description="金机SN环境变量" />
+        <TimeOut paramVal="" description="查找或者连接超时时间" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_ConnectPeraso">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ConnectPeraso" description="TSE测试实例名称" />
+        <TestName paramVal="" description="连接PERASO设备" />
+        <PortEnvironment paramVal="" description="端口环境变量,为空默认自动搜索端口" />
+        <UsbServiceName paramVal="" description="USB设备服务名" />
+        <UsbVid paramVal="" description="USB设备Vid" />
+        <UsbPid paramVal="" description="USB设备Pid" />
+        <TimeOut paramVal="" description="查找或者连接超时时间" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_ConnectQcomDiag">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ConnectQcomDiag" description="TSE测试实例名称" />
+        <TestName paramVal="" description="连接高通DIAG(Qualcomm)" />
+        <port paramVal="" description="-1:自动搜索端口 否则必须大于0" />
+        <QMSLLibraryMode paramVal="" description="0:QPHONEMS, 1:QPST 2:UserDefinedTransport. User should also set QMSLUserDefinedTransportDLLPath and QMSLLibraryModes" />
+        <TimeOut paramVal="" description="超时时间设置 以S为单位" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_ConnectSFTP">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ConnectSFTP" description="TSE测试实例名称" />
+        <TestName paramVal="" description="连接SFTP(AP)" />
+        <SSHPort paramVal="" description="SFTP端口" />
+        <SourceAddrEnvironment paramVal="" description="源IP地址对应的环境变量" />
+        <HostEnvironment paramVal="" description="SFTP主机地址对应的环境变量" />
+        <UserNameEnvironment paramVal="" description="登录用户名对应的环境变量 加密" />
+        <PasswordEnvironment paramVal="" description="登录密码对应的环境变量 加密" />
+        <SFTPPathEnvironment paramVal="" description="SFTP路径对应的环境变量" />
+        <SFTPMode paramVal="" description="SFTP权限 写入模式下：420，读取模式下：0" />
+        <SFTPFlags paramVal="" description="SFTP标识 写入模式下：26，读取模式下：1" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_ConnectSSH">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ConnectSSH" description="TSE测试实例名称" />
+        <TestName paramVal="" description="连接SSH(AP)" />
+        <SSHPort paramVal="" description="SSH端口" />
+        <SourceAddrEnvironment paramVal="" description="源IP地址对应的环境变量" />
+        <HostEnvironment paramVal="" description="SFTP主机地址对应的环境变量" />
+        <UserNameEnvironment paramVal="" description="登录用户名对应的环境变量 加密" />
+        <PasswordEnvironment paramVal="" description="登录密码对应的环境变量 加密" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_ConnectWiFi">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ConnectWiFi" description="TSE测试实例名称" />
+        <TestName paramVal="" description="WIFI连接" />
+        <SSIDEnvironment paramVal="" description="WIFI SSID环境变量" />
+        <PASSWORDEnvironment paramVal="" description="WIFI PASSWORD环境变量" />
+        <HostIPEnvironment paramVal="" description="WIFI连接服务主机IP地址环境变量" />
+        <SocketPortEnvironment paramVal="" description="WIFI连接服务SOCKET端口环境变量" />
+        <TimeOut paramVal="" description="WIFI连接超时时间设置" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_DisConnectPeraso">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_DisConnectPeraso" description="TSE测试实例名称" />
+        <TestName paramVal="" description="断开PERASO设备连接" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_DisConnectQocmDiag">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_DisConnectQocmDiag" description="TSE测试实例名称" />
+        <TestName paramVal="" description="断开高通DIAG连接(Qualcomm)" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_DisConnectSFTP">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_DisConnectSFTP" description="TSE测试实例名称" />
+        <TestName paramVal="" description="断开SFTP连接(AP)" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_DisConnectSSH">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_DisConnectSSH" description="TSE测试实例名称" />
+        <TestName paramVal="" description="断开SSH连接(AP)" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_DisConnectWiFi">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_DisConnectWiFi" description="TSE测试实例名称" />
+        <TestName paramVal="" description="断开WIFI连接" />
+        <HostIPEnvironment paramVal="" description="WIFI连接服务主机IP地址环境变量" />
+        <SocketPortEnvironment paramVal="" description="WIFI连接服务SOCKET端口环境变量" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_DownloadPDBToPeraso">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_DownloadPDBToPeraso" description="TSE测试实例名称" />
+        <TestName paramVal="" description="下载PDB文件(Peraso)" />
+        <InitPDBInfo paramVal="" description="初始化PDB信息每个测试序列必须初始化一次" />
+        <DownloadConfig paramVal="" description="是否下载PDB Config文件" />
+        <DownloadOTP paramVal="" description="是否下载PDB OTP文件" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_ExecSSH">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ExecSSH" description="TSE测试实例名称" />
+        <TestName paramVal="" description="SSH执行命令(AP)" />
+        <Tip paramVal="" description="测试提示" />
+        <Command paramVal="" description="命令" />
+        <TestWaitResult paramVal="" description="发送测试信息等待结果生产时间MS" />
+        <ReadResultEnvironment paramVal="" description="保存命令返回值到环境变量中" />
+        <KillExecString paramVal="" description="exec执行过程中出现10次指定字符串自动KILL exec命令" />
+        <CheckResultTimeOut paramVal="" description="检查测试结果超时时间" />
+        <CompareStringCount paramVal="" description="比较多少项字符串" />
+        <CompareStringName1 paramVal="" description="key值 1是索引" />
+        <CompareStringValue1 paramVal="" description="与KEY值对应VALUE进行比对" />
+        <CompareStringErrorMsg1 paramVal="" description="比对失败后显示的错误字符串" />
+        <CompareIntCount paramVal="" description="比对多少项INT类型" />
+        <CompareIntName1 paramVal="" description="key值 1是索引" />
+        <CompareIntValue1 paramVal="" description="与KEY值对应VALUE进行比对,A~C,当前值在大于等于A小于等于C即可" />
+        <CompareIntErrorMsg1 paramVal="" description="比对失败后显示的错误字符串" />
+        <FindStringCount paramVal="" description="查找字符串,需要匹配多少项" />
+        <FindStringName1 paramVal="" description="key值 1是索引" />
+        <FindStringValue1 paramVal="" description="查找当前值是否在key值对应字符串中" />
+        <FindStringErrorMsg1 paramVal="" description="比对失败后显示的错误字符串" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTMCheckTestResult">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTMCheckTestResult" description="TSE测试实例名称" />
+        <TestName paramVal="" description="比较FASTMMI测试结果文件(INI文件格式)" />
+        <TestCase paramVal="" description="FASTMMI测试项目名称TEST LIST，如LCD" />
+        <CompareStringCount paramVal="" description="比较多少项字符串" />
+        <CompareStringName1 paramVal="" description="key值 1是索引" />
+        <CompareStringValue1 paramVal="" description="与KEY值对应VALUE进行比对" />
+        <CompareStringErrorMsg1 paramVal="" description="比对失败后显示的错误字符串" />
+        <CompareIntCount paramVal="" description="比对多少项INT类型" />
+        <CompareIntName1 paramVal="" description="key值 1是索引" />
+        <CompareIntValue1 paramVal="" description="与KEY值对应VALUE进行比对,A~C,当前值在大于等于A小于等于C即可" />
+        <CompareIntErrorMsg1 paramVal="" description="比对失败后显示的错误字符串" />
+        <FindStringCount paramVal="" description="查找字符串,需要匹配多少项" />
+        <FindStringName1 paramVal="" description="key值 1是索引" />
+        <FindStringValue1 paramVal="" description="查找当前值是否在key值对应字符串中" />
+        <FindStringErrorMsg1 paramVal="" description="比对失败后显示的错误字符串" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTMClearAllTestInfo">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTMClearAllTestInfo" description="TSE测试实例名称" />
+        <TestName paramVal="" description="清空FASTMMI所有测试信息" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTMClearTestResultFile">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTMClearTestResultFile" description="TSE测试实例名称" />
+        <TestName paramVal="" description="清空FASTMMI测试结果信息" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTMExecuteSingleTest">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTMExecuteSingleTest" description="TSE测试实例名称" />
+        <TestName paramVal="" description="FASTMMI执行单个测试项目" />
+        <Tip paramVal="" description="为空则不进行测试提示" />
+        <TestCase paramVal="" description="FASTMMI测试项目名称TEST LIST，如LCD" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTMExecuteSingleTestResult">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTMExecuteSingleTestResult" description="TSE测试实例名称" />
+        <TestName paramVal="" description="FASTMMI执行单个测试并比较测试结果文件(INI文件格式)" />
+        <TestCase paramVal="" description="FASTMMI测试项目名称TEST LIST，如LCD" />
+        <Tip paramVal="" description="为空则不进行测试提示" />
+        <TestWaitResult paramVal="" description="等待测试结果延时时间MS" />
+        <CheckResultTimeOut paramVal="" description="检查测试结果超时时间" />
+        <CompareStringCount paramVal="" description="比较多少项字符串" />
+        <CompareStringName1 paramVal="" description="key值 1是索引" />
+        <CompareStringValue1 paramVal="" description="与KEY值对应VALUE进行比对" />
+        <CompareStringErrorMsg1 paramVal="" description="比对失败后显示的错误字符串" />
+        <CompareIntCount paramVal="" description="比对多少项INT类型" />
+        <CompareIntName1 paramVal="" description="key值 1是索引" />
+        <CompareIntValue1 paramVal="" description="与KEY值对应VALUE进行比对,A~C,当前值在大于等于A小于等于C即可" />
+        <CompareIntErrorMsg1 paramVal="" description="比对失败后显示的错误字符串" />
+        <FindStringCount paramVal="" description="查找字符串,需要匹配多少项" />
+        <FindStringName1 paramVal="" description="key值 1是索引" />
+        <FindStringValue1 paramVal="" description="查找当前值是否在key值对应字符串中" />
+        <FindStringErrorMsg1 paramVal="" description="比对失败后显示的错误字符串" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTMVersionTest">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTMVersionTest" description="TSE测试实例名称" />
+        <TestName paramVal="" description="检查Android设备软件版本型号" />
+        <Model paramVal="" description="型号" />
+        <Version paramVal="" description="版本" />
+        <ModelCommand paramVal="" description="型号检测命令" />
+        <ModelPos paramVal="" description="匹配型号字符串位置" />
+        <VersionCommand paramVal="" description="软件版本检测命令" />
+        <VersionPos paramVal="" description="匹配软件版本字符串位置" />
+        <TimeOut paramVal="" description="命令发送超时时间" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTM_CheckBreathingLed">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTM_CheckBreathingLed" description="TSE测试实例名称" />
+        <TestName paramVal="" description="检查LYNX呼吸灯闪烁(LYNX FTM)" />
+        <Group paramVal="" description="呼吸灯ID 1组 :1 2组：2 3组：4 4组：8 闪烁：-1 关闭：0" />
+        <tip paramVal="" description="检测呼吸灯结果判断对话框" />
+        <TimeOutSec paramVal="" description="通信超时时间设置 以S为单位，默认10S" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTM_CheckKey">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTM_CheckKey" description="TSE测试实例名称" />
+        <TestName paramVal="" description="按键测试(LYNX FTM)" />
+        <keyType paramVal="" description="按键类型(PowerKey,ResetKey)" />
+        <event paramVal="" description="事件类型(up,down)" />
+        <TimeOutSec paramVal="" description="发送命令超时时间,以S为单位" />
+        <KeyTimeOutSec paramVal="" description="按键超时时间设置,以S为单位" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTM_CheckLEDRGB">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTM_CheckLEDRGB" description="TSE测试实例名称" />
+        <TestName paramVal="" description="检测LED闪烁是否正常(LYNX FTM)" />
+        <tip paramVal="" description="默认依次闪烁红、蓝、绿灯，请检查LED闪烁顺序是否一致" />
+        <TimeOutSec paramVal="" description="通信超时时间设置 以S为单位，默认10S" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTM_CheckMemoryCard">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTM_CheckMemoryCard" description="TSE测试实例名称" />
+        <TestName paramVal="" description="内存信息检测(LYNX FTM)" />
+        <InternalSharedStorage paramVal="" description="内部存储大小(单位GB)为0 不测试" />
+        <TFlashStorage paramVal="" description="T卡存储大小(单位GB) 为0 不测试" />
+        <TimeOutSec paramVal="" description="通信超时时间设置 以S为单位，默认10S" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTM_CheckSIMDetect">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTM_CheckSIMDetect" description="TSE测试实例名称" />
+        <TestName paramVal="" description="检查SIM卡(LYNX FTM)" />
+        <TimeOutSec paramVal="" description="通信超时时间设置 以S为单位，默认10S" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTM_CheckVersion">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTM_CheckVersion" description="TSE测试实例名称" />
+        <TestName paramVal="" description="检测版本信息(LYNX FTM)" />
+        <ClientVersion paramVal="" description="客户版本号" />
+        <BuildNumber paramVal="" description="内部版本号,编译版本号" />
+        <ModemVersion paramVal="" description="Modem版本号" />
+        <GSMRFCalFlag paramVal="" description="GSM校准标记位" />
+        <WCDMARFCalFlag paramVal="" description="WCDMA校准标记位" />
+        <LTERFCalFlag paramVal="" description="LTE校准标记位" />
+        <GSMVFSFlag paramVal="" description="GSM综测标记位" />
+        <WCDMAVFSFlag paramVal="" description="WCDMA综测标记位" />
+        <LTEVFSFlag paramVal="" description="LTE综测标记位" />
+        <TimeOutSec paramVal="" description="通信超时时间设置 以S为单位，默认10S" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTM_ConnectSocket">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTM_ConnectSocket" description="TSE测试实例名称" />
+        <TestName paramVal="" description="连接设备(LYNX FTM)" />
+        <ClientIP paramVal="" description="adb tcpip IP地址" />
+        <ClientPort paramVal="" description="adb tcpip 端口远程调试ADB" />
+        <TimeOutSec paramVal="" description="通信超时时间设置 以S为单位，默认10S" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTM_DisConnectSocket">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTM_DisConnectSocket" description="TSE测试实例名称" />
+        <TestName paramVal="" description="端口设备连接(LYNX FTM)" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTM_GetEth0IPAddress">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTM_GetEth0IPAddress" description="TSE测试实例名称" />
+        <TestName paramVal="" description="获取网口IP地址(LYNX FTM)" />
+        <Command paramVal="" description="获取网口IP地址命令" />
+        <Pos paramVal="" description="通过指定字符串，定位IP地址的位置" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTM_HandoverWiFiMode">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTM_HandoverWiFiMode" description="TSE测试实例名称" />
+        <TestName paramVal="" description="切换WIFI模式(LYNX FTM)" />
+        <WiFIMode paramVal="" description="1:AP MODE 2 :STA MODE" />
+        <IsAD paramVal="" description="0 : 11bgn 1: 11AD 默认0" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTM_LcdBackLightTest">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTM_LcdBackLightTest" description="TSE测试实例名称" />
+        <TestName paramVal="" description="LCD 背光测试(LYNX FTM)" />
+        <tip paramVal="" description="对话框提示消息，判断LCD背光是否OK" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTM_LcdColorTest">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTM_LcdColorTest" description="TSE测试实例名称" />
+        <TestName paramVal="" description="LCD屏颜色测试(LYNX FTM)" />
+        <color paramVal="" description="设置屏颜色：0xF800 : 红屏，0x07E0：绿屏，0x001F：蓝屏，0xFFFF：白屏，0x0000：黑屏，0xEF5D：灰屏" />
+        <tip paramVal="" description="对话框提示消息，判断LCD屏颜色是否OK" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTM_MTPTest">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTM_MTPTest" description="TSE测试实例名称" />
+        <TestName paramVal="" description="MTP识别测试(LYNX FTM)" />
+        <Manufacturer paramVal="" description="MTP制造商信息，JAGUAR" />
+        <Description paramVal="" description="MTP设备描述信息,Lynx" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTM_OTGTest">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTM_OTGTest" description="TSE测试实例名称" />
+        <TestName paramVal="" description="OTG测试(LYNX FTM)" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTM_QC3Test">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTM_QC3Test" description="TSE测试实例名称" />
+        <TestName paramVal="" description="充电测试(LYNX FTM)" />
+        <mode paramVal="" description="USB_HVDCP_3 : QC3.0 USB_HVDCP : QC2.0 USB_DCP : Normal USB : PC USB  other" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTM_WiFiScanAP">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTM_WiFiScanAP" description="TSE测试实例名称" />
+        <TestName paramVal="" description="扫描WIFI测试(LYNX FTM)" />
+        <APCounts paramVal="" description="扫描到的AP数量" />
+        <MinRssi paramVal="" description="扫描到的WIFI信号中最小的RSSI必须大于等于指定的RSSI" />
+        <IsAD paramVal="" description="0 : 11bgn 1: 11AD 默认0" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_FTPUpdateFile">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_FTPUpdateFile" description="TSE测试实例名称" />
+        <TestName paramVal="" description="上传FTP CPK文件" />
+        <FTPListName paramVal="" description="jgw_mes_config.data FTP List 的名称" />
+        <FTPUploadDirEnvironment paramVal="" description="FTP上传目录环境变量" />
+        <UploadFileEnvironment paramVal="" description="上传文件路径的环境变量" />
+        <SNEnvironment paramVal="" description="SN环境变量名称" />
+        <OperateID paramVal="" description="MES的站点ID，如果不配置或者为空则取插件的站点ID" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_GetFileSFTP">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_GetFileSFTP" description="TSE测试实例名称" />
+        <TestName paramVal="" description="SFTP下载(AP)" />
+        <SaveLocalFilePathEnvironment paramVal="" description="保存到本地文件路径环境变量" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_GlobalResources">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_GlobalResources" description="TSE测试实例名称" />
+        <TestName paramVal="" description="全局资源实例配置,主要用于资源回调使用(内部使用)" />
+        <TSE_GLOBAL_ENVIRONMENT paramVal="" description="全局环境变量实例名称" />
+        <TSE_LOG_SERVICES paramVal="" description="全局log服务实例" />
+        <TSE_TESTSTATUS_SERVICES paramVal="" description="全局测试状态上报服务" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_InitPDBFileToPeraso">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_InitPDBFileToPeraso" description="TSE测试实例名称" />
+        <TestName paramVal="" description="初始化PDB文件(Peraso)" />
+        <Folder paramVal="" description="PDB文件目录" />
+        <FolderEnvironment paramVal="" description="PDB文件目录对应的环境变量为空则取Folder配置" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_InputWindows">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_InputWindows" description="TSE测试实例名称" />
+        <TestName paramVal="" description="输入对话框" />
+        <tip paramVal="" description="标题" />
+        <input_length paramVal="" description="输入长度限制" />
+        <maxchar paramVal="" description="输入最大字符串" />
+        <minchar paramVal="" description="最少输入字符串" />
+        <input_tip paramVal="" description="输入提示" />
+        <input_prefix paramVal="" description="输入前缀字符串校验" />
+        <numbertype paramVal="" description="号段类型E_SN:0,E_IMEI:1,E_IMEI2:2,E_MEID:3,E_WIFI_MAC:4,E_ETH0_MAC:5,E_BT_MAC:6,E_2_4_SSID:7,E_2_4_PASSWORD:8,E_5_SSID:9,E_5_PASSWORD:10,E_AD_SSID:11,E_AD_PASSWORD:12,E_CLIENT_SN:13" />
+        <Environment paramVal="" description="输入保存环境变量" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_IperfSSHTest">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_IperfSSHTest" description="TSE测试实例名称" />
+        <TestName paramVal="" description="iperf SSH(AP)" />
+        <IperfCommand paramVal="" description="iperf 测试命令" />
+        <IperfLogEnvironment paramVal="" description="iperf测试log保存的环境变量" />
+        <IperfTestRangeEnvironment paramVal="" description="iperf 测试速率范围环境变量" />
+        <IperfTestTimeEnvironment paramVal="" description="iperf 测试时间环境变量" />
+        <IperfCommandTimeOutEnvironment paramVal="" description="iperf测试超时时间环境变量" />
+        <SNEnvironment paramVal="" description="SN环境变量" />
+        <SaveTestLogging paramVal="" description="是否保存测试log" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_IperfTest">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_IperfTest" description="TSE测试实例名称" />
+        <TestName paramVal="" description="iperf测试" />
+        <IperfCommand paramVal="" description="iperf 测试命令" />
+        <IperfLogEnvironment paramVal="" description="iperf测试log保存的环境变量" />
+        <IperfTestRangeEnvironment paramVal="" description="iperf 测试速率范围环境变量" />
+        <IperfTestTimeEnvironment paramVal="" description="iperf 测试时间环境变量" />
+        <IperfCommandTimeOutEnvironment paramVal="" description="iperf测试超时时间环境变量" />
+        <SNEnvironment paramVal="" description="SN环境变量" />
+        <SaveTestLogging paramVal="" description="是否保存测试log" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_MessageBox">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_MessageBox" description="TSE测试实例名称" />
+        <TestName paramVal="" description="对话框消息" />
+        <caption paramVal="" description="对话框标题" />
+        <msg paramVal="" description="对话框提示消息" />
+        <flag paramVal="" description="对话框类型 0 : MB_OK,1 : MB_OKCANCEL" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_OpenSerialComPort">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_OpenSerialComPort" description="TSE测试实例名称" />
+        <TestName paramVal="" description="连接串行USB设备" />
+        <PortEnvironment paramVal="" description="端口环境变量" />
+        <BaudRate paramVal="" description="COM波特率" />
+        <UsbServiceName paramVal="" description="USB设备服务名" />
+        <UsbVid paramVal="" description="USB设备Vid" />
+        <UsbPid paramVal="" description="USB设备Pid" />
+        <TimeOut paramVal="" description="查找或者连接超时时间，默认50S" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_ParseConfigInfo">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ParseConfigInfo" description="TSE测试实例名称" />
+        <TestName paramVal="" description="解析配置文件,格式(key=value)" />
+        <ParseConfigInfoEnvironment paramVal="" description="配置文件路径对应的环境变量值或者待解析的配置文件字符串" />
+        <IsFile paramVal="" description="是否是文件格式,1:文件 0: 则解析ParseConfigInfoEnvironment对应的字符串" />
+        <KeyValCount paramVal="" description="解析Key-Val的数量" />
+        <Key1Environment paramVal="" description="索引1对应的配置文件key值" />
+        <Val1Environment paramVal="" description="全局变量对应的配置value" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_PearsoRSSITest">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_PearsoRSSITest" description="TSE测试实例名称" />
+        <TestName paramVal="" description="测试RSSI(Peraso)" />
+        <RSSICommand paramVal="" description="测试RSSI命令" />
+        <Sector paramVal="" description="测试前提条件写入到Log中" />
+        <TestCount paramVal="" description="测试次数" />
+        <SerialNumberEnvironment paramVal="" description="SN号段环境变量，保存测试LOG路径" />
+        <TestStandard paramVal="" description="测试标准以~作为分隔符(表示最低和最高值)" />
+        <InitLogFile paramVal="" description="是否是初次初始化log，初次初始化log则会删除以前的log数据" />
+        <SaveLog paramVal="" description="保存测试log,默认保存测试数据" />
+        <SaveLogPathEnvironment paramVal="" description="当前LOG保存的路径写入到指定环境变量中" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_PerasoSSHRSSITest">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_PerasoSSHRSSITest" description="TSE测试实例名称" />
+        <TestName paramVal="" description="测试RSSI(Peraso)" />
+        <RSSICommand paramVal="" description="测试RSSI命令" />
+        <Sector paramVal="" description="测试前提条件写入到Log中" />
+        <TestCount paramVal="" description="测试次数" />
+        <SerialNumberEnvironment paramVal="" description="SN号段环境变量，保存测试LOG路径" />
+        <TestStandard paramVal="" description="测试标准以~作为分隔符(表示最低和最高值)" />
+        <InitLogFile paramVal="" description="是否是初次初始化log，初次初始化log则会删除以前的log数据" />
+        <SaveLog paramVal="" description="保存测试log,默认保存测试数据" />
+        <SaveLogPathEnvironment paramVal="" description="当前LOG保存的路径写入到指定环境变量中" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_PingTest">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_PingTest" description="TSE测试实例名称" />
+        <TestName paramVal="" description="Ping测试" />
+        <SourceAddrEnvironment paramVal="" description="Socke 路由IP地址" />
+        <HostEnvironment paramVal="" description="主机IP地址" />
+        <PingTestTimeSec paramVal="" description="ping测试，默认在1S中测试一次" />
+        <TimeOutSec paramVal="" description="超时时间秒" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_PostHttpReqRsp">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_PostHttpReqRsp" description="TSE测试实例名称" />
+        <TestName paramVal="" description="发送HTTP Post请求(AP)" />
+        <SourceAddrEnvironment paramVal="" description="发送url路由出口" />
+        <Url paramVal="" description="http url" />
+        <Param paramVal="" description="url请求参数" />
+        <ContentType paramVal="" description="http请求消息类型" />
+        <FindResult paramVal="" description="比对请求发送后返回的结果" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_PumaCommand">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_PumaCommand" description="TSE测试实例名称" />
+        <TestName paramVal="" description="发送Peraso命令并比对返回结果(Peraso)" />
+        <Command paramVal="" description="Peraso命令" />
+        <ReadResultEnvironment paramVal="" description="保存命令返回值到环境变量中" />
+        <Result paramVal="" description="读取结果用于比对" />
+        <TimeOut paramVal="" description="命令发送超时时间秒为单位" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_PutFileSFTP">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_PutFileSFTP" description="TSE测试实例名称" />
+        <TestName paramVal="" description="SFTP上传文件(AP)" />
+        <LocalFilePathEnvironment paramVal="" description="上传本地文件路径环境变量" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_QualcommFlashImageDownload">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_QualcommFlashImageDownload" description="TSE测试实例名称" />
+        <TestName paramVal="" description="镜像下载(Qualcomm)" />
+        <Command paramVal="" description="下载命令" />
+        <CommandOk paramVal="" description="下载完成后返回字符串判断,默认：All Finished Successfull" />
+        <TimeOut paramVal="" description="下载超时时间" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_QualcommFlashImageDownloadV2">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_QualcommFlashImageDownloadV2" description="TSE测试实例名称" />
+        <TestName paramVal="" description="镜像下载(Qualcomm)" />
+        <Command paramVal="" description="下载命令" />
+        <TimeOut paramVal="" description="下载超时时间" />
+        <CompareStringCount paramVal="" description="比较多少项字符串" />
+        <CompareStringName1 paramVal="" description="key值 1是索引" />
+        <CompareStringValue1 paramVal="" description="与KEY值对应VALUE进行比对" />
+        <CompareStringErrorMsg1 paramVal="" description="比对失败后显示的错误字符串" />
+        <CompareIntCount paramVal="" description="比对多少项INT类型" />
+        <CompareIntName1 paramVal="" description="key值 1是索引" />
+        <CompareIntValue1 paramVal="" description="与KEY值对应VALUE进行比对,A~C,当前值在大于等于A小于等于C即可" />
+        <CompareIntErrorMsg1 paramVal="" description="比对失败后显示的错误字符串" />
+        <FindStringCount paramVal="" description="查找字符串,需要匹配多少项" />
+        <FindStringName1 paramVal="" description="key值 1是索引" />
+        <FindStringValue1 paramVal="" description="查找当前值是否在key值对应字符串中" />
+        <FindStringErrorMsg1 paramVal="" description="比对失败后显示的错误字符串" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_QualcommQCN">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_QualcommQCN" description="TSE测试实例名称" />
+        <TestName paramVal="" description="备份或上传QCN(Qualcomm)" />
+        <ReportLog paramVal="" description="是否上报QCN Log信息" />
+        <BackupQCN paramVal="" description="是否备份QCN" />
+        <SPC paramVal="" description="SPC值 默认000000" />
+        <SNEnvironment paramVal="" description="SN环境变量" />
+        <Environment paramVal="" description="备份或者还原QCN路径,注释掉此项,则保存在默认路径" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_RFCalVFSTest">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_RFCalVFSTest" description="TSE测试实例名称" />
+        <TestName paramVal="" description="校准综测(Qualcomm)" />
+        <qcservername paramVal="" description="校准或者综测DLL名称" />
+        <xttName paramVal="" description="xtt路径" />
+        <ErrorReTest paramVal="" description="单项测试出现失败后重测次数" />
+        <OperateID paramVal="" description="MES的站点ID，如果不配置或者为空则取插件的站点ID" />
+        <ErrorStop paramVal="" description="出现错误是否停止" />
+        <QMSLLibraryMode paramVal="" description="0:QPHONEMS, 1:QPST 2:UserDefinedTransport. User should also set QMSLUserDefinedTransportDLLPath and QMSLLibraryModes" />
+        <RecordCPKData paramVal="" description="是否保存CPK数据" />
+        <SaveTestLogging paramVal="" description="保存测试记录" />
+        <CPKFilePathEnvironment paramVal="" description="CPK数据路径保存的环境变量，默认:TSE_CPK_FILE_PATH" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_RandomGlobalVariable">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_RandomGlobalVariable" description="TSE测试实例名称" />
+        <TestName paramVal="" description="随机全局变量" />
+        <GlobalVariableGroupCount paramVal="" description="随机全局变量组数量，每隔全局变量组大小必须一致" />
+        <RandomGlobalVariable1 paramVal="" description="取随机的全局变量并保存在指定全局变量中,1是索引" />
+        <GlobalVariableGroup1 paramVal="" description="随机全局变量组参数 以,做分隔 1是索引" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_ReadAPBinNumber">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ReadAPBinNumber" description="TSE测试实例名称" />
+        <TestName paramVal="" description="不使用,解析BIN文件号段信息(AP)" />
+        <SNEnvironment paramVal="" description="SN环境变量" />
+        <MACEnvironment paramVal="" description="MAC环境变量" />
+        <SSIDEnvironment paramVal="" description="SSID环境变量" />
+        <PasswordEnvironment paramVal="" description="Password环境变量" />
+        <APBinFilePathEnvironment paramVal="" description="bin文件路径环境变量" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_ReadAPNumber">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ReadAPNumber" description="TSE测试实例名称" />
+        <TestName paramVal="" description="读取组装包装SN(AP)" />
+        <APNumberResultEnvironment paramVal="" description="包含SN相关信息字符串环境变量" />
+        <PCBASNEnvironment paramVal="" description="PCBASN对应环境变量" />
+        <SerialNumberEnvironment paramVal="" description="包装SN环境变量" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_ReadEth0Mac">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ReadEth0Mac" description="TSE测试实例名称" />
+        <TestName paramVal="" description="解析Lynx设备以太网MAC地址" />
+        <ETH0EnvironmentInfo paramVal="" description="环境变量名称,读取的EHT0信息" />
+        <Environment paramVal="" description="解析到的以太网MAC地址保存环境变量名" />
+        <EnvironmentLen paramVal="" description="MAC长度限制默认按照12位,小于等于0不判断长度" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_ReadLynxAPInfo">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ReadLynxAPInfo" description="TSE测试实例名称" />
+        <TestName paramVal="" description="读取LYNX SSID PASSWORD(lynx)" />
+        <SoftAPPath paramVal="" description="softap文件路径" />
+        <SSIDEnvironment paramVal="" description="SSID环境变量" />
+        <PasswordEnvironment paramVal="" description="PASSWORD环境变量" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_ReadNumberToPeraso">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ReadNumberToPeraso" description="TSE测试实例名称" />
+        <TestName paramVal="" description="读取Peraso号段(Peraso)" />
+        <NumberType paramVal="" description="号段类型E_SN_PERASO:0,E_MAC_PERASO:1,E_FW_VERSION_PERASO:2" />
+        <NumberPrefix paramVal="" description="读取号段前缀校验" />
+        <Environment paramVal="" description="读取号段保存到某个环境变量" />
+        <EnvironmentLen paramVal="" description="判断读取号段的长度校验，为0不进行长度校验" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_ReadPumasSNSSH">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ReadPumasSNSSH" description="TSE测试实例名称" />
+        <TestName paramVal="" description="读PUMAS SN(AP)" />
+        <ReadResultSSHEnvironment paramVal="" description="包含PUMAS SN结果信息字符串环境变量" />
+        <PumasSNEnvironment paramVal="" description="PumasSN对应的环境变量" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_ReadQcomNV">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ReadQcomNV" description="TSE测试实例名称" />
+        <TestName paramVal="" description="读取NV(Qualcomm)" />
+        <NV_ID paramVal="" description="NV 项索引" />
+        <Sub_ID paramVal="" description="NV数组索引" />
+        <NV_Value paramVal="" description="校验NV值,如BYTE:0" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_ReadQualcommNumber">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ReadQualcommNumber" description="TSE测试实例名称" />
+        <TestName paramVal="" description="读取号段(Qualcomm)" />
+        <NumberType paramVal="" description="号段类型E_SN:0,E_IMEI:1,E_IMEI2:2,E_MEID:3,E_WIFI_MAC:4,E_ETH0_MAC:5,E_BT_MAC:6,E_2_4_SSID:7,E_2_4_PASSWORD:8,E_5_SSID:9,E_5_PASSWORD:10,E_AD_SSID:11,E_AD_PASSWORD:12,ELSE:13" />
+        <NumberPrefix paramVal="" description="号段前缀校验" />
+        <Environment paramVal="" description="读取号段保存指定环境变量中" />
+        <EnvironmentLen paramVal="" description="长度限制 默认：0 不限制长度" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_ReadWriteSSH">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ReadWriteSSH" description="TSE测试实例名称" />
+        <TestName paramVal="" description="SSH读写命令(AP)" />
+        <Tip paramVal="" description="测试提示" />
+        <Command paramVal="" description="命令" />
+        <TestWaitResult paramVal="" description="发送测试信息等待结果生产时间MS" />
+        <ReadResultEnvironment paramVal="" description="保存命令返回值到环境变量中" />
+        <WriteOnly paramVal="" description="只写不读标记位" />
+        <CheckResultTimeOut paramVal="" description="检查测试结果超时时间" />
+        <CompareStringCount paramVal="" description="比较多少项字符串" />
+        <CompareStringName1 paramVal="" description="key值 1是索引" />
+        <CompareStringValue1 paramVal="" description="与KEY值对应VALUE进行比对" />
+        <CompareStringErrorMsg1 paramVal="" description="比对失败后显示的错误字符串" />
+        <CompareIntCount paramVal="" description="比对多少项INT类型" />
+        <CompareIntName1 paramVal="" description="key值 1是索引" />
+        <CompareIntValue1 paramVal="" description="与KEY值对应VALUE进行比对,A~C,当前值在大于等于A小于等于C即可" />
+        <CompareIntErrorMsg1 paramVal="" description="比对失败后显示的错误字符串" />
+        <FindStringCount paramVal="" description="查找字符串,需要匹配多少项" />
+        <FindStringName1 paramVal="" description="key值 1是索引" />
+        <FindStringValue1 paramVal="" description="查找当前值是否在key值对应字符串中" />
+        <FindStringErrorMsg1 paramVal="" description="比对失败后显示的错误字符串" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_ReadWriteSerialComPort">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ReadWriteSerialComPort" description="TSE测试实例名称" />
+        <TestName paramVal="" description="读写串行USB设备" />
+        <Write paramVal="" description="写相关信息" />
+        <WriteTimeOutSec paramVal="" description="写入超时时间,单位秒" />
+        <TestWaitResultMS paramVal="" description="发送测试信息等待结果生产时间，单位毫秒" />
+        <ReadResultEnvironment paramVal="" description="保存命令返回值到环境变量中" />
+        <CheckResultTimeOutSec paramVal="" description="检查测试结果超时时间,包括读取时间,单位秒" />
+        <CompareStringCount paramVal="" description="比较多少项字符串" />
+        <CompareStringName1 paramVal="" description="key值 1是索引" />
+        <CompareStringValue1 paramVal="" description="与KEY值对应VALUE进行比对" />
+        <CompareStringErrorMsg1 paramVal="" description="比对失败后显示的错误字符串" />
+        <CompareIntCount paramVal="" description="比对多少项INT类型" />
+        <CompareIntName1 paramVal="" description="key值 1是索引" />
+        <CompareIntValue1 paramVal="" description="与KEY值对应VALUE进行比对,A~C,当前值在大于等于A小于等于C即可" />
+        <CompareIntErrorMsg1 paramVal="" description="比对失败后显示的错误字符串" />
+        <FindStringCount paramVal="" description="查找字符串,需要匹配多少项" />
+        <FindStringName1 paramVal="" description="key值 1是索引" />
+        <FindStringValue1 paramVal="" description="查找当前值是否在key值对应字符串中" />
+        <FindStringErrorMsg1 paramVal="" description="比对失败后显示的错误字符串" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_ReaderQcomSN">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ReaderQcomSN" description="TSE测试实例名称" />
+        <TestName paramVal="" description="读取SN(Qualcomm)" />
+        <sn_length paramVal="" description="SN长度 默认：14" />
+        <Environment paramVal="" description="读取SN后保存环境变量名称" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_RemoteConnectPeraso">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_RemoteConnectPeraso" description="TSE测试实例名称" />
+        <TestName paramVal="" description="远程连接peraso设备(AP)" />
+        <HostIPEnvironment paramVal="" description="WIFI服务主机IP地址环境变量" />
+        <SocketPortEnvironment paramVal="" description="WIFI连接服务SOCKET端口环境变量" />
+        <TimeOut paramVal="" description="WIFI连接服务超时时间设置" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_RemoteDisConnectPeraso">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_RemoteDisConnectPeraso" description="TSE测试实例名称" />
+        <TestName paramVal="" description="断开远程连接peraso设备(AP)" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_RemoteWriteReadPeraso">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_RemoteWriteReadPeraso" description="TSE测试实例名称" />
+        <TestName paramVal="" description="远程读写peraso设备(AP)" />
+        <Tip paramVal="" description="测试提示" />
+        <Command paramVal="" description="命令" />
+        <TestWaitResult paramVal="" description="发送测试信息等待结果生产时间MS" />
+        <ReadResultEnvironment paramVal="" description="保存命令返回值到环境变量中" />
+        <CheckResultTimeOut paramVal="" description="检查测试结果超时时间" />
+        <CompareStringCount paramVal="" description="比较多少项字符串" />
+        <CompareStringName1 paramVal="" description="key值 1是索引" />
+        <CompareStringValue1 paramVal="" description="与KEY值对应VALUE进行比对" />
+        <CompareStringErrorMsg1 paramVal="" description="比对失败后显示的错误字符串" />
+        <CompareIntCount paramVal="" description="比对多少项INT类型" />
+        <CompareIntName1 paramVal="" description="key值 1是索引" />
+        <CompareIntValue1 paramVal="" description="与KEY值对应VALUE进行比对,A~C,当前值在大于等于A小于等于C即可" />
+        <CompareIntErrorMsg1 paramVal="" description="比对失败后显示的错误字符串" />
+        <FindStringCount paramVal="" description="查找字符串,需要匹配多少项" />
+        <FindStringName1 paramVal="" description="key值 1是索引" />
+        <FindStringValue1 paramVal="" description="查找当前值是否在key值对应字符串中" />
+        <FindStringErrorMsg1 paramVal="" description="比对失败后显示的错误字符串" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_ResetPeraso">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ResetPeraso" description="TSE测试实例名称" />
+        <TestName paramVal="" description="重启Peraso(Peraso)" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_SaveProductScreenLogPeraso">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SaveProductScreenLogPeraso" description="TSE测试实例名称" />
+        <TestName paramVal="" description="保存ProductScreen测试Log(Peraso)" />
+        <Folder paramVal="" description="log目录" />
+        <SerialNumberPos paramVal="" description="SN字符串定位" />
+        <SNEnvironment paramVal="" description="将解析到的字符串保存在指定环境变量中" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_SaveTestLog">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SaveTestLog" description="TSE测试实例名称" />
+        <TestName paramVal="" description="将log保存到当前程序目录下TestLog目录下" />
+        <SNEnvironment paramVal="" description="SN保存的环境变量名" />
+        <LogEnvironment paramVal="" description="要保存的log路径环境变量名" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_SendPipeCommand">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="TSE测试实例名称" />
+        <TestName paramVal="" description="发送管道命令" />
+        <CommandCount paramVal="" description="命令数量" />
+        <CommandPath paramVal="" description="命令发送路径,默认不配置" />
+        <Command1 paramVal="" description="命令，1是索引" />
+        <Recv1 paramVal="" description="接收的命令返回信息比对 1是索引" />
+        <SendCounts1 paramVal="" description="发送失败或者读取比对失败发送次数 1是索引" />
+        <TimeOut1 paramVal="" description="超时时间设置 1是索引" />
+        <Environment1 paramVal="" description="接收的命令返回信息保存环境变量 1是索引" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_Sleep">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_Sleep" description="TSE测试实例名称" />
+        <TestName paramVal="" description="休眠" />
+        <SleepMS paramVal="" description="休眠时间毫秒" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_SyncQcomNV">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SyncQcomNV" description="TSE测试实例名称" />
+        <TestName paramVal="" description="同步NV(Qualcomm)" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_TestBase">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RetryCount paramVal="" description="失败后重测次数" />
+        <TestName paramVal="" description="测试名称" />
+        <IntervalTimeMS paramVal="" description="测试失败间隔测试时间,某些测试可能需要等待测试完成时间(需要测试项内部调用)" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_WriteEth0MacConfig">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_WriteEth0MacConfig" description="TSE测试实例名称" />
+        <TestName paramVal="" description="写以太网MAC到配置中" />
+        <SrcConfigPath paramVal="" description="原配置文件路径(模板)" />
+        <DestConfigPath paramVal="" description="写入到指定配置文件中" />
+        <Environment paramVal="" description="MAC环境变量名" />
+        <EnvironmentLen paramVal="" description="MAC限定长度，一般为12" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_WriteNumberToPeraso">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_WriteNumberToPeraso" description="TSE测试实例名称" />
+        <TestName paramVal="" description="写Peraso号段(Peraso)" />
+        <InitPDBInfo paramVal="" description="初始化PDB信息每个测试序列必须初始化一次" />
+        <WriteOptBin paramVal="" description="是否写PDB OTP BIN" />
+        <NumberType paramVal="" description="号段类型E_SN_PERASO:0,E_MAC_PERASO:1" />
+        <Environment paramVal="" description="写入号段的环境变量" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_WriteQcomNV">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_WriteQcomNV" description="TSE测试实例名称" />
+        <TestName paramVal="" description="写NV(Qualcomm)" />
+        <NV_ID paramVal="" description="NV 项索引" />
+        <Sub_ID paramVal="" description="NV数组索引" />
+        <NV_Value paramVal="" description="写NV值,如BYTE:1" />
+        <spc paramVal="" description="SPC值 默认000000" />
+        <DMSSSecurityPlan paramVal="" description="是否要进行安全认证" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_WriteQualcommNumber">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_WriteQualcommNumber" description="TSE测试实例名称" />
+        <TestName paramVal="" description="写号段(Qualcomm)" />
+        <NumberType paramVal="" description="号段类型E_SN:0,E_IMEI:1,E_IMEI2:2,E_MEID:3,E_WIFI_MAC:4,E_ETH0_MAC:5,E_BT_MAC:6,E_2_4_SSID:7,E_2_4_PASSWORD:8,E_5_SSID:9,E_5_PASSWORD:10,E_AD_SSID:11,E_AD_PASSWORD:12,E_CLIENT_SN:13" />
+        <Environment paramVal="" description="长度限制 默认：0 不限制长度" />
+        <EnvironmentLen paramVal="" description="要写入环境变量对应的值" />
+    </SuiteProject>
+    <SuiteProject name="CTSE_WriterQcomSN">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_WriterQcomSN" description="TSE测试实例名称" />
+        <TestName paramVal="" description="写SN(Qualcomm)" />
+        <sn_length paramVal="" description="长度限制 默认：0 不限制长度" />
+        <sn_prefix paramVal="" description="SN前缀校验" />
+        <Environment paramVal="" description="要写入环境变量对应的值" />
+    </SuiteProject>
+	
+	
+	<SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ConnectSFTPV2" description="连接高通设备" />
+        <TestName paramVal="SFTP connect" description="测试名称描述" />
+        <SFTPPort paramVal="22" description="" />
+        <SourceAddrEnvironment paramVal="TSE_SSH_SOURCE_IP" description="源IP地址" />
+        <HostEnvironment paramVal="TSE_SSH_HOST" description="" />
+        <UserNameEnvironment paramVal="TSE_SSH_USER_NAME" description="" />
+        <PasswordEnvironment paramVal="TSE_SSH_PASSWORD" description="" />
+		<SaveSFTPInstanceEnvironment paramVal="TSE_SFTP_INSTANCE" description=""/>
+    </SuiteProject>
+	<SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_GetFileSFTPV2" description="连接高通设备" />
+        <TestName paramVal="下载device_info.bin文件" description="测试名称描述" />
+		<SFTPInstanceEnvironment paramVal="TSE_SFTP_INSTANCE" description=""/>
+		<SaveLocalFilePathCommand paramVal="$$_TSE_R_DEVICEINFO_FILE_PATH_$$" description=""/>
+		<RemoteFilePathCommand paramVal="$$_TSE_SFTP_PATH_$$" description=""/>
+    </SuiteProject>
+	<!-- <SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_PutFileSFTPV2" description="连接高通设备" />
+        <TestName paramVal="上传" description="测试名称描述" />
+		<SFTPInstanceEnvironment paramVal="TSE_SFTP_INSTANCE" description=""/>
+		<LocalFilePathCommand paramVal="$$_TSE_R_DEVICEINFO_FILE_PATH_$$" description=""/>
+		<RemoteFilePathCommand paramVal="$$_TSE_SFTP_PATH_$$" description=""/>
+    </SuiteProject> -->
+	<SuiteProject IsFinalize="1">
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_DisConnectSFTPV2" description="连接高通设备" />
+        <TestName paramVal="断开SFTP连接" description="测试名称描述" />
+		<SFTPInstanceEnvironment paramVal="TSE_SFTP_INSTANCE" description=""/>
+    </SuiteProject>
+</Suite>

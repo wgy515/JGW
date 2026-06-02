@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+   $Revision: #2 $
+   $DateTime: 2015/08/07 16:51:48 $
+-->
+
+<FormatDescriptor>
+  <OutputGroupSet name="APT - Full Sweep">
+    <CondensedSummaryDescriptor name="Entire APT Sweep">
+      <IndexedParam id="RUN_ID" index="1" />
+      <IndexedParam id="Technology" index="2" />
+      <IndexedParam id="Band" index="3" />
+      <IndexedParam id="PARange" index="4" />
+      <IndexedParam id="TxAGC" index="5" />
+      <IndexedParam id="meas_pwr" index="6" />
+      <IndexedParam id="PA Bias" index="7" />
+      <IndexedParam id="Optimal" index="8" />
+      <Result resID="Margin" testID="APT_Characterization" name="ACLR Margin">
+        <Discriminator id="RUN_ID">
+          <Discriminator id="Technology">
+            <Discriminator id="Band">
+              <Discriminator id="PARange">
+                <Discriminator id="TxAGC">
+                  <Discriminator id="PA Bias">
+                    <Discriminator id="meas_pwr">
+                      <Discriminator id="Optimal"/>
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="APT - Optimal Summary">
+    <CondensedSummaryDescriptor name="APT - Optimal Summary">
+      <IndexedParam id="RUN_ID" index="1" />
+      <IndexedParam id="Technology" index="2" />
+      <IndexedParam id="Band" index="3" />
+      <IndexedParam id="PARange" index="4" />
+      <IndexedParam id="TxAGC" index="5" />
+      <IndexedParam id="meas_pwr" index="6" />
+      <IndexedParam id="PA Bias" index="7" />
+      <Result resID="Margin" testID="APT_Characterization" name="ACLR Margin">
+        <Discriminator id="RUN_ID">
+          <Discriminator id="Technology">
+            <Discriminator id="Band">
+              <Discriminator id="PARange">
+                <Discriminator id="TxAGC">
+                  <Discriminator id="PA Bias">
+                    <Discriminator id="meas_pwr">
+                      <Discriminator id="Optimal" value="=1" visible="false"/>
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="APTCharOptimalChart" width="3">
+    <OutputGroupDescriptor_Sc name="APTChar(OptimalChart)" xName="APT Tx Power (dBm)" yName="PA Bias">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="PARange">
+            <Discriminator id="Optimal" value="=1" visible="false"/>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties legendPosition="4">
+        <YAxis index="1" maxScaleRes="0"/>
+      </OGDisplayProperties>
+
+      <Series testID="APT_Characterization" groupAll="true">
+        <Discriminator id="RUN_ID"/>
+        <DisplayProperties markerOn="false" weight="1" smooth="false" cycleColors="true"/>
+        <IndVar id="meas_pwr"/>
+        <DepVar id="PA Bias"/>
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+
+  <OutputGroupSet name="APTCharFullSweep(vsTXAGC)" width="3">
+    <OutputGroupDescriptor_Lin name="APTCharFullSweep">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="PARange"/>
+        </Discriminator>
+      </Discriminator>
+
+
+      <OGDisplayProperties legendPosition="4" secYname="ACLR Margin (dB)">
+        <YAxis index="1" maxScaleRes="0"/>
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="RUN_ID"/>
+        <Result resID="PA Bias" testID="APT_Characterization" name="PA Bias">
+          <Discriminator id="TxAGC">
+            <Discriminator id="PA Bias"/>
+          </Discriminator>
+        </Result>
+        <Result resID="Margin" testID="APT_Characterization" name="ACLR_Margin(dB)" axisIndex="2">
+          <Discriminator id="TxAGC">
+            <Discriminator id="PA Bias"/>
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+
+  <OutputGroupSet name="APTCharFullSweep(vsPWR)" width="3">
+    <OutputGroupDescriptor_Sc name="APTChar(FullSweep)" xName="Measured Tx Power (dBm)" yName="PA Bias" secYName="ACLR Margin(dB)">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="PARange"/>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties legendPosition="4">
+        <YAxis index="1" maxScaleRes="0"/>
+        <YAxis index="2" maxScaleRes="0"/>
+      </OGDisplayProperties>
+
+      <Series testID="APT_Characterization" groupAll="true">
+        <Discriminator id="RUN_ID"/>
+        <DisplayProperties markerOn="false" weight="1" smooth="false" cycleColors="true"/>
+        <IndVar id="meas_pwr"/>
+        <DepVar id="PA Bias"/>
+      </Series>
+      <Series testID="APT_Characterization" groupAll="true">
+        <Discriminator id="RUN_ID"/>
+        <DisplayProperties markerOn="false" weight="3" smooth="false" cycleColors="true" axisIndex="2"/>
+        <IndVar id="meas_pwr"/>
+        <DepVar id="Margin"/>
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+
+  <OutputGroupSet name="APTCharOptimalTableACLR1" width="3">
+    <OutputGroupDescriptor_Sc name="APTChar(ACLR1)" xName="APT Tx Power (dBm)" yName="ACLR1 (dBc)" secYName="PA Bias">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="PARange">
+            <Discriminator id="Optimal" value="=1" visible="false"/>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties legendPosition="4">
+        <YAxis index="1" maxScaleRes="0"/>
+      </OGDisplayProperties>
+
+      <Series testID="APT_Characterization" name="ACLR1_L" groupAll="true">
+        <Discriminator id="RUN_ID"/>
+        <DisplayProperties markerOn="false" weight="1" smooth="false" cycleColors="true"/>
+        <IndVar id="meas_pwr"/>
+        <DepVar id="ACLR_N1"/>
+      </Series>
+      <Series testID="APT_Characterization" name="ACLR1_H" groupAll="true">
+        <Discriminator id="RUN_ID"/>
+        <DisplayProperties markerOn="true" weight="1" smooth="false" cycleColors="true"/>
+        <IndVar id="meas_pwr"/>
+        <DepVar id="ACLR_P1"/>
+      </Series>
+      <Series testID="APT_Characterization" name="PA Bias" groupAll="true">
+        <Discriminator id="RUN_ID"/>
+        <DisplayProperties markerOn="false" weight="3" smooth="true" cycleColors="true" axisIndex="2"/>
+        <IndVar id="meas_pwr"/>
+        <DepVar id="PA Bias"/>
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+
+  <OutputGroupSet name="APTCharOptimalTable(ACLR2)" width="3">
+    <OutputGroupDescriptor_Sc name="APTChar(ACLR2)" xName="APT Tx Power (dBm)" yName="ACLR2 (dBc)" secYName="PA Bias">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="PARange">
+            <Discriminator id="Optimal" value="=1" visible="false"/>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties legendPosition="4">
+        <YAxis index="1" maxScaleRes="0"/>
+      </OGDisplayProperties>
+
+      <Series testID="APT_Characterization" name="ACLR2_L" groupAll="true">
+        <Discriminator id="RUN_ID"/>
+        <DisplayProperties markerOn="true" weight="1" smooth="false" cycleColors="true"/>
+        <IndVar id="meas_pwr"/>
+        <DepVar id="ACLR_N2"/>
+      </Series>
+      <Series testID="APT_Characterization" name="ACLR2_H" groupAll="true">
+        <Discriminator id="RUN_ID"/>
+        <DisplayProperties markerOn="true" weight="1" smooth="false" cycleColors="true"/>
+        <IndVar id="meas_pwr"/>
+        <DepVar id="ACLR_P2"/>
+      </Series>
+      <Series testID="APT_Characterization" name="PA Bias" groupAll="true">
+        <Discriminator id="RUN_ID"/>
+        <DisplayProperties markerOn="false" weight="3" smooth="false" cycleColors="true" axisIndex="2"/>
+        <IndVar id="meas_pwr"/>
+        <DepVar id="PA Bias"/>
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+
+</FormatDescriptor>

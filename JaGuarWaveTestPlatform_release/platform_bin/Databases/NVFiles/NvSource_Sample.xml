@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NvSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\Schema\NvSource.xsd"> >
+	<NvItem id="148" name="NV_RF_CONFIG_I" mapping="direct" encoding="dec">12</NvItem>
+	<NvItem id="140" name="NV_CDMA_ERR_SLP_VS_HDET_I" mapping="direct" encoding="hex">a ,a ,a ,a ,0 ,0 ,0 ,0</NvItem>
+	<NvItem id="453" name="NV_FTM_MODE" mappin="direct" ecoding="dec">1</NvItem>
+	<NvItem id="516" name="NV_WCDMA_RX_LIN_VS_TEMP_I" mapping="byteStream" encoding="hex"> ff  0 0 0 0 0 0 ff  </NvItem>
+</NvSource>

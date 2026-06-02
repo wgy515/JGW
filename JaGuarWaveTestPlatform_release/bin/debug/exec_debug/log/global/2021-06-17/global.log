@@ -1,0 +1,565 @@
+2021-06-17 09:20:15 [15056] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-17 09:20:15 [15056] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-17 09:20:15 [15056] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-17 09:20:15 [15056] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-17 09:20:15 [15056] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-17 09:20:18 [15056] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 09:20:18 [15056] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 09:20:18 [15056] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 09:20:19 [15056] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 09:20:19 [15056] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 09:20:19 [15056] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 09:20:19 [15056] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-17 09:20:19 [15056] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-17 09:20:19 [15056] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-17 09:20:19 [15056] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-17 09:20:19 [15056] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-17 09:21:23 [15164] ERROR : 
+2021-06-17 09:22:33 [15164] ERROR : db shell sed -n "/SMT_SN/p" /firmware/factory.conf
+2021-06-17 09:23:03 [15164] ERROR : db shell sed -n "/SMT_SN/p" /firmware/factory.conf
+2021-06-17 09:23:33 [15164] ERROR : db shell sed -n "/SMT_SN/p" /firmware/factory.conf
+2021-06-17 09:24:04 [15056] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-17 09:24:04 [15056] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 09:24:04 [15056] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 09:24:04 [15056] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 09:24:04 [15056] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 09:24:04 [15056] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 09:24:04 [15056] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0357F6A8
+2021-06-17 09:24:04 [15056] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 10:15:45 [18608] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-17 10:15:45 [18608] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-17 10:15:45 [18608] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-17 10:15:45 [18608] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-17 10:15:46 [18608] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-17 10:15:48 [18608] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 10:15:48 [18608] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 10:15:48 [18608] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 10:15:48 [18608] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 10:15:48 [18608] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 10:15:48 [18608] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 10:15:48 [18608] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-17 10:15:48 [18608] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-17 10:15:48 [18608] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-17 10:15:48 [18608] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-17 10:15:49 [18608] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-17 10:17:48 [18608] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-17 10:17:48 [18608] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 10:17:48 [18608] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 10:17:48 [18608] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 10:17:48 [18608] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 10:17:48 [18608] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 10:17:48 [18608] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 02F3F8A0
+2021-06-17 10:17:48 [18608] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 10:18:09 [11832] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-17 10:18:09 [11832] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-17 10:18:09 [11832] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-17 10:18:09 [11832] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-17 10:18:09 [11832] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-17 10:33:23 [11832] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-17 10:33:23 [11832] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 10:33:23 [11832] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 10:33:23 [11832] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 10:33:23 [11832] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 10:33:23 [11832] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 10:33:23 [11832] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 10:33:23 [11832] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-17 10:54:09 [15164] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-17 10:54:09 [15164] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-17 10:54:09 [15164] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-17 10:54:09 [15164] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-17 10:54:09 [15164] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-17 10:55:05 [15164] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-17 10:55:05 [15164] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 10:55:05 [15164] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 10:55:05 [15164] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 10:55:05 [15164] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 10:55:05 [15164] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 10:55:05 [15164] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 10:55:05 [15164] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-17 10:55:11 [16256] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-17 10:55:11 [16256] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-17 10:55:11 [16256] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-17 10:55:11 [16256] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-17 10:55:12 [16256] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-17 10:56:38 [16256] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-17 10:56:38 [16256] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 10:56:38 [16256] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 10:56:38 [16256] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 10:56:38 [16256] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 10:56:38 [16256] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 10:56:38 [16256] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 10:56:38 [16256] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-17 10:56:47 [21112] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-17 10:56:47 [21112] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-17 10:56:47 [21112] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-17 10:56:47 [21112] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-17 10:56:47 [21112] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-17 10:57:11 [21112] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-17 10:57:11 [21112] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 10:57:11 [21112] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 10:57:11 [21112] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 10:57:11 [21112] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 10:57:11 [21112] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 10:57:11 [21112] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 10:57:11 [21112] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-17 10:57:16 [18624] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-17 10:57:16 [18624] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-17 10:57:17 [18624] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-17 10:57:17 [18624] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-17 10:57:17 [18624] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-17 10:57:23 [18624] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-17 10:57:23 [18624] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 10:57:23 [18624] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 10:57:23 [18624] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 10:57:23 [18624] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 10:57:23 [18624] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 10:57:23 [18624] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 10:57:23 [18624] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-17 15:48:07 [25916] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-17 15:48:07 [25916] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-17 15:48:07 [25916] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-17 15:48:07 [25916] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-17 15:48:07 [25916] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-17 15:48:11 [25916] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 15:48:11 [25916] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 15:48:11 [25916] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 15:48:12 [25916] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 15:48:12 [25916] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 15:48:12 [25916] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 15:48:12 [25916] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-17 15:48:12 [25916] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-17 15:48:12 [25916] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-17 15:48:12 [25916] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-17 15:48:12 [25916] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-17 15:48:44 [25452] ERROR : PING: timeout. General failure.
+2021-06-17 15:48:46 [25452] ERROR : PING: timeout. General failure.
+2021-06-17 15:48:48 [25452] ERROR : PING: timeout. General failure.
+2021-06-17 15:48:49 [25452] ERROR : The router can't forward!
+2021-06-17 15:48:51 [25452] ERROR : PING: timeout. General failure.
+2021-06-17 15:48:53 [25452] ERROR : The router can't forward!
+2021-06-17 15:48:55 [25452] ERROR : PING: timeout. General failure.
+2021-06-17 15:48:57 [25452] ERROR : The router can't forward!
+2021-06-17 15:48:59 [25452] ERROR : PING: timeout. General failure.
+2021-06-17 15:49:01 [25452] ERROR : The router can't forward!
+2021-06-17 15:49:03 [25452] ERROR : The router can't forward!
+2021-06-17 15:49:05 [25452] ERROR : PING: timeout. General failure.
+2021-06-17 15:49:07 [25452] ERROR : The router can't forward!
+2021-06-17 15:49:09 [25452] ERROR : PING: timeout. General failure.
+2021-06-17 15:49:11 [25452] ERROR : PING: timeout. General failure.
+2021-06-17 15:49:13 [25452] ERROR : PING: timeout. General failure.
+2021-06-17 15:49:15 [25452] ERROR : The router can't forward!
+2021-06-17 15:49:17 [25452] ERROR : PING: timeout. General failure.
+2021-06-17 15:49:19 [25452] ERROR : The router can't forward!
+2021-06-17 15:49:21 [25452] ERROR : PING: timeout. General failure.
+2021-06-17 15:49:23 [25452] ERROR : The router can't forward!
+2021-06-17 15:49:25 [25452] ERROR : PING: timeout. General failure.
+2021-06-17 15:49:27 [25452] ERROR : The router can't forward!
+2021-06-17 15:49:29 [25452] ERROR : PING: timeout. General failure.
+2021-06-17 15:49:31 [25452] ERROR : The router can't forward!
+2021-06-17 15:49:33 [25452] ERROR : PING: timeout. General failure.
+2021-06-17 15:49:35 [25452] ERROR : The router can't forward!
+2021-06-17 15:49:37 [25452] ERROR : PING: timeout. General failure.
+2021-06-17 15:50:11 [25452] ERROR : adb shell diag_socket_log -a 192.168.225.5 -p 5000 -r 100
+diag:main: kernel supported: NUM_PERIPHERALS = 7, DIAG_CON_ALL: 255
+diag_socket_log: Diag_LSM_Init succeeded.
+diag: In diag_register_socket_cb, registered socket callback function
+diag_socket_log: Translating address: 192.168.225.5
+diag_socket_log: Trying to connect to address: 192.168.225.5, port: 5000
+diag_socket_log: Successful connect to address: 192.168.225.5, port number: 5000
+diag_socket_log: Translating address: 192.168.225.5
+diag_socket_log: Trying to connect to address: 192.168.225.5, port: 5000
+2021-06-17 15:54:10 [25916] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 15:54:10 [25916] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 15:54:10 [25916] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 15:54:11 [25916] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 15:54:11 [25916] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 15:54:11 [25916] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 02BEBC30
+2021-06-17 15:54:11 [25916] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 15:54:11 [25916] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-17 15:54:11 [25916] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-17 15:54:11 [25916] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-17 15:54:11 [25916] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-17 15:54:23 [14680] ERROR : PING: timeout. General failure.
+2021-06-17 15:54:25 [14680] ERROR : PING: timeout. General failure.
+2021-06-17 15:54:27 [14680] ERROR : PING: timeout. General failure.
+2021-06-17 15:54:29 [14680] ERROR : PING: timeout. General failure.
+2021-06-17 15:54:31 [14680] ERROR : PING: timeout. General failure.
+2021-06-17 15:54:33 [14680] ERROR : PING: timeout. General failure.
+2021-06-17 15:54:35 [14680] ERROR : PING: timeout. General failure.
+2021-06-17 15:54:37 [14680] ERROR : The router can't forward!
+2021-06-17 15:54:39 [14680] ERROR : PING: timeout. General failure.
+2021-06-17 15:54:41 [14680] ERROR : The router can't forward!
+2021-06-17 15:54:43 [14680] ERROR : PING: timeout. General failure.
+2021-06-17 15:54:45 [14680] ERROR : The router can't forward!
+2021-06-17 15:54:47 [14680] ERROR : PING: timeout. General failure.
+2021-06-17 15:54:49 [14680] ERROR : The router can't forward!
+2021-06-17 15:54:51 [14680] ERROR : PING: timeout. General failure.
+2021-06-17 15:54:53 [14680] ERROR : The router can't forward!
+2021-06-17 15:56:23 [14680] ERROR : Not Find Xtt File(D:\tmp\NC700\exec\cache\NC700\WIFI_FT\NC700_TEST_LAN.cxtt) Fail !!!
+2021-06-17 15:56:23 [14680] ERROR : Load Xtt Msg Fail!!!
+2021-06-17 15:56:27 [14680] ERROR : Not Find Xtt File(D:\tmp\NC700\exec\cache\NC700\WIFI_FT\NC700_TEST_LAN.cxtt) Fail !!!
+2021-06-17 15:56:27 [14680] ERROR : Load Xtt Msg Fail!!!
+2021-06-17 15:56:31 [14680] ERROR : Not Find Xtt File(D:\tmp\NC700\exec\cache\NC700\WIFI_FT\NC700_TEST_LAN.cxtt) Fail !!!
+2021-06-17 15:56:31 [14680] ERROR : Load Xtt Msg Fail!!!
+2021-06-17 15:57:10 [25916] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 15:57:10 [25916] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 15:57:10 [25916] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 15:57:11 [25916] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 15:57:11 [25916] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 15:57:11 [25916] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 02BEBB88
+2021-06-17 15:57:11 [25916] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 15:57:11 [25916] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-17 15:57:11 [25916] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-17 15:57:11 [25916] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-17 15:57:11 [25916] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-17 15:57:30 [24572] ERROR : PING: timeout. General failure.
+2021-06-17 15:57:32 [24572] ERROR : PING: timeout. General failure.
+2021-06-17 15:57:34 [24572] ERROR : PING: timeout. General failure.
+2021-06-17 15:57:36 [24572] ERROR : PING: timeout. General failure.
+2021-06-17 15:57:38 [24572] ERROR : PING: timeout. General failure.
+2021-06-17 15:57:40 [24572] ERROR : PING: timeout. General failure.
+2021-06-17 15:57:42 [24572] ERROR : PING: timeout. General failure.
+2021-06-17 15:57:44 [24572] ERROR : PING: timeout. General failure.
+2021-06-17 15:57:46 [24572] ERROR : PING: timeout. General failure.
+2021-06-17 15:57:48 [24572] ERROR : The router can't forward!
+2021-06-17 15:57:50 [24572] ERROR : PING: timeout. General failure.
+2021-06-17 15:57:52 [24572] ERROR : The router can't forward!
+2021-06-17 15:57:54 [24572] ERROR : PING: timeout. General failure.
+2021-06-17 15:57:56 [24572] ERROR : The router can't forward!
+2021-06-17 15:57:58 [24572] ERROR : PING: timeout. General failure.
+2021-06-17 15:58:29 [24572] ERROR : adb shell diag_socket_log -a 192.168.225.5 -p 5000 -r 100
+diag:main: kernel supported: NUM_PERIPHERALS = 7, DIAG_CON_ALL: 255
+diag_socket_log: Diag_LSM_Init succeeded.
+diag: In diag_register_socket_cb, registered socket callback function
+diag_socket_log: Translating address: 192.168.225.5
+diag_socket_log: Trying to connect to address: 192.168.225.5, port: 5000
+diag_socket_log: Successful connect to address: 192.168.225.5, port number: 5000
+diag_socket_log: Translating address: 192.168.225.5
+diag_socket_log: Trying to connect to address: 192.168.225.5, port: 5000
+2021-06-17 16:25:19 [25916] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 16:25:19 [25916] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 16:25:19 [25916] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 16:25:19 [25916] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 16:25:19 [25916] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 16:25:19 [25916] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 02BEBA38
+2021-06-17 16:25:19 [25916] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 16:25:19 [25916] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-17 16:25:19 [25916] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-17 16:25:19 [25916] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-17 16:25:20 [25916] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-17 16:28:29 [25916] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-17 16:28:29 [25916] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 16:28:29 [25916] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 16:28:29 [25916] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 16:28:29 [25916] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 16:28:29 [25916] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 16:28:29 [25916] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 02BEBC30
+2021-06-17 16:28:29 [25916] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 16:30:46 [25348] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-17 16:30:46 [25348] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-17 16:30:46 [25348] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-17 16:30:46 [25348] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-17 16:30:46 [25348] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-17 16:31:25 [25348] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 16:31:25 [25348] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 16:31:25 [25348] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 16:31:25 [25348] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 16:31:25 [25348] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 16:31:25 [25348] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 16:31:25 [25348] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-17 16:31:25 [25348] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-17 16:31:25 [25348] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-17 16:31:25 [25348] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-17 16:31:26 [25348] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-17 16:32:07 [25348] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-17 16:32:07 [25348] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 16:32:07 [25348] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 16:32:07 [25348] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 16:32:07 [25348] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 16:32:07 [25348] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 16:32:07 [25348] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 036CC170
+2021-06-17 16:32:07 [25348] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 16:34:26 [ 8992] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-17 16:34:26 [ 8992] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-17 16:34:26 [ 8992] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-17 16:34:26 [ 8992] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-17 16:34:26 [ 8992] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-17 16:34:28 [ 8992] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 16:34:28 [ 8992] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 16:34:28 [ 8992] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 16:34:28 [ 8992] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 16:34:28 [ 8992] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 16:34:28 [ 8992] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 16:34:28 [ 8992] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-17 16:34:28 [ 8992] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-17 16:34:28 [ 8992] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-17 16:34:28 [ 8992] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-17 16:34:28 [ 8992] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-17 16:36:35 [ 8992] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-17 16:36:35 [ 8992] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 16:36:35 [ 8992] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 16:36:35 [ 8992] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 16:36:35 [ 8992] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 16:36:35 [ 8992] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 16:36:35 [ 8992] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0357C560
+2021-06-17 16:36:35 [ 8992] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 16:36:42 [26004] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-17 16:36:42 [26004] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-17 16:36:42 [26004] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-17 16:36:42 [26004] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-17 16:36:42 [26004] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-17 16:36:43 [26004] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 16:36:43 [26004] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 16:36:43 [26004] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 16:36:43 [26004] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 16:36:43 [26004] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 16:36:43 [26004] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 16:36:43 [26004] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-17 16:36:43 [26004] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-17 16:36:43 [26004] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-17 16:36:43 [26004] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-17 16:36:43 [26004] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-17 16:37:45 [26004] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-17 16:37:45 [26004] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 16:37:45 [26004] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 16:37:45 [26004] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 16:37:45 [26004] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 16:37:45 [26004] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 16:37:45 [26004] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0309B8B0
+2021-06-17 16:37:45 [26004] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 16:37:50 [26588] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-17 16:37:50 [26588] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-17 16:37:50 [26588] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-17 16:37:50 [26588] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-17 16:37:50 [26588] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-17 16:38:01 [26588] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 16:38:01 [26588] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 16:38:01 [26588] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 16:38:01 [26588] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 16:38:01 [26588] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 16:38:01 [26588] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 16:38:01 [26588] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-17 16:38:01 [26588] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-17 16:38:01 [26588] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-17 16:38:01 [26588] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-17 16:38:02 [26588] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-17 17:20:08 [26588] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 17:20:08 [26588] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 17:20:08 [26588] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 17:20:08 [26588] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 17:20:08 [26588] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 17:20:08 [26588] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 037AC688
+2021-06-17 17:20:08 [26588] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 17:20:08 [26588] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-17 17:20:08 [26588] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-17 17:20:08 [26588] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-17 17:20:08 [26588] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-17 17:21:12 [14096] ERROR : Start QSPR Adapt Test Fail!!!
+2021-06-17 17:21:12 [14096] ERROR : Failed to connect to TSE MS server or failed to register !!!
+
+2021-06-17 17:21:12 [14096] ERROR : error: process closed!!!
+2021-06-17 17:21:23 [14096] ERROR : Start QSPR Adapt Test Fail!!!
+2021-06-17 17:21:23 [14096] ERROR : Failed to connect to TSE MS server or failed to register !!!
+
+2021-06-17 17:21:23 [14096] ERROR : error: process closed!!!
+2021-06-17 17:21:33 [14096] ERROR : Start QSPR Adapt Test Fail!!!
+2021-06-17 17:21:33 [14096] ERROR : Failed to connect to TSE MS server or failed to register !!!
+
+2021-06-17 17:21:33 [14096] ERROR : error: process closed!!!
+2021-06-17 17:21:36 [26588] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-17 17:21:36 [26588] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 17:21:36 [26588] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 17:21:36 [26588] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 17:21:36 [26588] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 17:21:36 [26588] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 17:21:36 [26588] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 037AB968
+2021-06-17 17:21:36 [26588] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 17:21:49 [  280] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-17 17:21:49 [  280] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-17 17:21:49 [  280] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-17 17:21:49 [  280] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-17 17:21:49 [  280] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-17 17:21:50 [  280] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 17:21:50 [  280] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 17:21:50 [  280] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 17:21:50 [  280] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 17:21:50 [  280] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 17:21:50 [  280] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 17:21:50 [  280] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-17 17:21:50 [  280] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-17 17:21:50 [  280] INFO  : LoadSubPluginSubWndImpl : CRFCalVerTestPlugin.dll
+2021-06-17 17:21:50 [  280] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll)
+2021-06-17 17:21:51 [  280] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll,clsid: JGW::CCRFCalVerTestView
+2021-06-17 17:21:53 [  280] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 17:21:53 [  280] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 17:21:53 [  280] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll
+2021-06-17 17:21:53 [  280] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 17:21:53 [  280] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 17:21:53 [  280] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0341C1F0
+2021-06-17 17:21:53 [  280] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll
+2021-06-17 17:21:53 [  280] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-17 17:21:53 [  280] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-17 17:21:53 [  280] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-17 17:21:53 [  280] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-17 17:22:11 [ 3068] ERROR : Start QSPR Adapt Test Fail!!!
+2021-06-17 17:22:11 [ 3068] ERROR : Failed to connect to TSE MS server or failed to register !!!
+
+2021-06-17 17:22:11 [ 3068] ERROR : error: process closed!!!
+2021-06-17 17:22:21 [ 3068] ERROR : Start QSPR Adapt Test Fail!!!
+2021-06-17 17:22:21 [ 3068] ERROR : Failed to connect to TSE MS server or failed to register !!!
+
+2021-06-17 17:22:21 [ 3068] ERROR : error: process closed!!!
+2021-06-17 17:22:31 [ 3068] ERROR : Start QSPR Adapt Test Fail!!!
+2021-06-17 17:22:31 [ 3068] ERROR : Failed to connect to TSE MS server or failed to register !!!
+
+2021-06-17 17:22:31 [ 3068] ERROR : error: process closed!!!
+2021-06-17 17:23:23 [ 3068] ERROR : Start QSPR Adapt Test Fail!!!
+2021-06-17 17:23:23 [ 3068] ERROR : Failed to connect to TSE MS server or failed to register !!!
+
+2021-06-17 17:23:23 [ 3068] ERROR : error: process closed!!!
+2021-06-17 17:23:33 [ 3068] ERROR : Start QSPR Adapt Test Fail!!!
+2021-06-17 17:23:33 [ 3068] ERROR : Failed to connect to TSE MS server or failed to register !!!
+
+2021-06-17 17:23:33 [ 3068] ERROR : error: process closed!!!
+2021-06-17 17:23:44 [ 3068] ERROR : Start QSPR Adapt Test Fail!!!
+2021-06-17 17:23:44 [ 3068] ERROR : Failed to connect to TSE MS server or failed to register !!!
+
+2021-06-17 17:23:44 [ 3068] ERROR : error: process closed!!!
+2021-06-17 17:24:07 [  280] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-17 17:24:07 [  280] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 17:24:07 [  280] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 17:24:07 [  280] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 17:24:07 [  280] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 17:24:07 [  280] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 17:24:07 [  280] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0341BC08
+2021-06-17 17:24:07 [  280] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 17:25:30 [19600] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-17 17:25:30 [19600] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-17 17:25:30 [19600] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-17 17:25:30 [19600] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-17 17:25:30 [19600] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-17 17:25:31 [19600] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 17:25:31 [19600] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 17:25:31 [19600] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 17:25:31 [19600] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 17:25:31 [19600] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 17:25:31 [19600] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 17:25:31 [19600] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-17 17:25:31 [19600] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-17 17:25:31 [19600] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-17 17:25:31 [19600] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-17 17:25:31 [19600] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-17 17:30:03 [24740] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-17 17:30:03 [24740] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-17 17:30:04 [24740] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-17 17:30:04 [24740] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-17 17:30:04 [24740] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-17 17:31:08 [24740] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-17 17:31:08 [24740] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 17:31:08 [24740] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 17:31:08 [24740] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 17:31:08 [24740] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 17:31:08 [24740] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 17:31:08 [24740] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 17:31:08 [24740] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-17 17:37:54 [ 3952] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-17 17:37:54 [ 3952] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-17 17:37:54 [ 3952] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-17 17:37:54 [ 3952] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-17 17:37:54 [ 3952] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-17 17:38:23 [ 3952] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 17:38:23 [ 3952] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 17:38:23 [ 3952] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 17:38:23 [ 3952] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 17:38:23 [ 3952] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 17:38:23 [ 3952] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 17:38:23 [ 3952] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-17 17:38:23 [ 3952] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-17 17:38:23 [ 3952] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-17 17:38:23 [ 3952] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-17 17:38:23 [ 3952] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-17 17:38:26 [25956] ERROR : PING: timeout. General failure.
+2021-06-17 17:38:28 [25956] ERROR : PING: timeout. General failure.
+2021-06-17 17:38:30 [25956] ERROR : PING: timeout. General failure.
+2021-06-17 17:38:32 [25956] ERROR : PING: timeout. General failure.
+2021-06-17 17:38:34 [25956] ERROR : PING: timeout. General failure.
+2021-06-17 17:38:36 [25956] ERROR : PING: timeout. General failure.
+2021-06-17 17:38:38 [25956] ERROR : PING: timeout. General failure.
+2021-06-17 17:38:40 [25956] ERROR : PING: timeout. General failure.
+2021-06-17 17:38:42 [25956] ERROR : PING: timeout. General failure.
+2021-06-17 17:38:44 [25956] ERROR : The router can't forward!
+2021-06-17 17:38:46 [25956] ERROR : PING: timeout. General failure.
+2021-06-17 17:38:47 [25956] ERROR : The router can't forward!
+2021-06-17 17:38:49 [25956] ERROR : PING: timeout. General failure.
+2021-06-17 17:38:51 [25956] ERROR : The router can't forward!
+2021-06-17 17:38:53 [25956] ERROR : PING: timeout. General failure.
+2021-06-17 17:38:55 [25956] ERROR : The router can't forward!
+2021-06-17 17:39:59 [ 3952] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-17 17:39:59 [ 3952] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 17:39:59 [ 3952] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 17:39:59 [ 3952] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 17:39:59 [ 3952] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 17:39:59 [ 3952] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 17:39:59 [ 3952] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0318C340
+2021-06-17 17:39:59 [ 3952] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 17:48:28 [ 4536] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-17 17:48:28 [ 4536] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-17 17:48:29 [ 4536] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-17 17:48:29 [ 4536] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-17 17:48:29 [ 4536] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-17 17:48:30 [ 4536] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 17:48:30 [ 4536] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 17:48:30 [ 4536] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 17:48:30 [ 4536] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 17:48:30 [ 4536] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 17:48:30 [ 4536] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 17:48:30 [ 4536] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-17 17:48:30 [ 4536] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-17 17:48:30 [ 4536] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-17 17:48:30 [ 4536] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-17 17:48:30 [ 4536] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-17 17:48:51 [ 4536] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 17:48:51 [ 4536] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 17:48:51 [ 4536] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 17:48:51 [ 4536] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 17:48:51 [ 4536] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 17:48:51 [ 4536] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0348C0A0
+2021-06-17 17:48:51 [ 4536] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 17:48:51 [ 4536] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-17 17:48:51 [ 4536] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-17 17:48:51 [ 4536] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-17 17:48:51 [ 4536] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-17 18:05:33 [ 4536] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-17 18:05:33 [ 4536] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 18:05:33 [ 4536] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 18:05:33 [ 4536] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 18:05:34 [ 4536] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 18:05:34 [ 4536] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 18:05:34 [ 4536] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0348C5E0
+2021-06-17 18:05:34 [ 4536] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 18:05:41 [10564] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-17 18:05:41 [10564] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-17 18:05:41 [10564] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-17 18:05:41 [10564] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-17 18:05:41 [10564] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-17 18:05:43 [10564] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 18:05:43 [10564] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 18:05:43 [10564] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 18:05:43 [10564] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 18:05:43 [10564] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 18:05:43 [10564] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-17 18:05:43 [10564] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-17 18:05:43 [10564] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-17 18:05:43 [10564] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-17 18:05:43 [10564] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-17 18:05:43 [10564] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-17 18:09:09 [23328] ERROR : Not Recv Global Variable  Result Fail !!!
+2021-06-17 18:09:09 [23328] ERROR : Send Global Variable Msg Fail!!!
+2021-06-17 18:10:00 [10564] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-17 18:10:00 [10564] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-17 18:10:00 [10564] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-17 18:10:00 [10564] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-17 18:10:00 [10564] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-17 18:10:00 [10564] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-17 18:10:00 [10564] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 038ABAB8
+2021-06-17 18:10:00 [10564] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll

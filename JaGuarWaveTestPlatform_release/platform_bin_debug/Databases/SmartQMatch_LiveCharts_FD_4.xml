@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<FormatDescriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1">
+  <OutputGroupSet name="SmartQMatch" IsChecked="True" IsForPPTChecked="True" sort="true" width="2">
+    <Discriminator id="Band">
+      <Discriminator id="RUN_ID" />
+    </Discriminator>
+    <OutputGroupDescriptor_Lin name="Delay FW" IsChecked="True" IsForPPTChecked="True">
+      <CommonBinResults>
+        <Discriminator id="TN">
+          <Discriminator id="RUN_ID" />
+        </Discriminator>
+        <Result resID="Delay_FW" testID="XPT_Characterization">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="Pin" IsChecked="True" IsForPPTChecked="True">
+      <CommonBinResults>
+        <Discriminator id="TN">
+          <Discriminator id="RUN_ID" />
+        </Discriminator>
+        <Result resID="Pin_SPinPoutAlign" testID="XPT_Characterization">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="ACLR" IsChecked="True" IsForPPTChecked="True">
+      <OGDisplayProperties>
+        <YAxis index="1" min="-50" max="-32" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="TN">
+          <Discriminator id="RUN_ID" />
+        </Discriminator>
+        <Result resID="Aclr_SPinPoutAlign" testID="XPT_Characterization">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="Pout" IsChecked="True" IsForPPTChecked="True">
+      <CommonBinResults>
+        <Discriminator id="TN">
+          <Discriminator id="RUN_ID" />
+        </Discriminator>
+        <Result resID="Pout_SPinPoutAlign" testID="XPT_Characterization">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <GroupCharts>false</GroupCharts>
+  <PPTGroupsList />
+  <GlobalParameterList>
+    <GlobalParameter>
+      <TestName>Trial Number</TestName>
+      <ParameterName>TN</ParameterName>
+    </GlobalParameter>
+  </GlobalParameterList>
+  <GlobalExcelDisplayProperties />
+</FormatDescriptor>

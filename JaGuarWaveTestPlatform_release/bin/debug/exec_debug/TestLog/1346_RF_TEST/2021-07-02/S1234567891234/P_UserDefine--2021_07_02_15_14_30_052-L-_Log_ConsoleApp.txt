@@ -1,0 +1,1509 @@
+14:30:095	Start Log
+14:30:095	07/02/21, 15:14:30
+14:30:095	Log file: C:\Qualcomm\Log\C0500-2021_07_02-NC700_1_3_4_5_RF\UserDefine--2021_07_02_15_14_30_052-%TECHNOLOGIES%-_Log_ConsoleApp.txt
+14:30:378	Clearing Sequence data...
+14:30:379	Construction Sequence...
+14:30:380	Loaded XML Sequence
+14:30:380	=== Algorithm Segment Add: SequenceControl ===
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'ACTIVATE_SEQUENCE_MODE', Value = '0'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'BASE_COMMON_TECH_TYPE', Value = 'LTE'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'BASE_EQUIP_STARTUP_RESET_INHIBIT', Value = '1'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'BASE_MOBILE_MSGS_F3', Value = '0'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'BASE_MOBILE_MSGS_L1', Value = '0'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'BASE_COMMON_TRIGGER_TYPE', Value = 'Tx'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'FTM_COMMAND_TIMING_PROFILE', Value = '1'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MODE', Value = 'OFF'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'BASE_COMMON_RX_TRIGGER_THRESHOLD', Value = '-65.0'
+14:30:380	=== Algorithm Segment End ===
+
+14:30:380	=== Algorithm Segment Add: Set Initial Radio Configuration ===
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_INIT_MODE', Value = 'SET_VALUE'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_NUM_DL_CARRIERS', Value = '1'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_NUM_UL_CARRIERS', Value = '1'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_TX_POWER_AFTER_RADIO_TUNE', Value = '1'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER_REF_HEADROOM', Value = '13'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UE_MAX_TX_POWER_LIMIT', Value = '30'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_NS_VALUE', Value = '1'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_TX_CHAIN', Value = '0'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER_MAX', Value = '23'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER_REF_LEVEL', Value = '0.0'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_RX_MEASUREMENT_OFFSET_MS', Value = '0'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_RX_LEVEL_LOWER_DELTA', Value = '2.0'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_RX_LEVEL_UPPER_DELTA', Value = '2.0'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_SEM_DELTA_LIMIT', Value = '0.0'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_ANT_PORT_STATE', Value = '0'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_UPPERLIMIT', Value = '-97'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_INIT_MODE', Value = 'SET_VALUE'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_CARRIER', Value = 'PCC'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_BAND', Value = '21'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_OPT_CHANNEL', Value = 'HIGH'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_CH_BANDWIDTH', Value = '10'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MODULATION_TYPE', Value = 'QPSK'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_START', Value = '0'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_NUMBER_OF', Value = '50'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_TUNE_NUM_RX_CHAIN', Value = '2'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER', Value = '0.0'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_DL_POWER', Value = '-120.0'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UPLINK_ACTIVE', Value = 'TRUE'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS04_TABLE_VERSION', Value = '1'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS05_TABLE_VERSION', Value = '2'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS06_TABLE_VERSION', Value = '1'
+14:30:380	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS12_TABLE_VERSION', Value = '2'
+14:30:380	=== Algorithm Segment End ===
+
+14:30:380	=== Algorithm Segment Add: SelfTest Values ===
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_INIT_MODE', Value = 'SET_VALUE'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'TX_SELF_TEST_MODE', Value = 'OFF'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'TX_SELF_TEST_MEASUREMENTS', Value = 'POWER,EVM,ACLR,SPECTRAL_FLATNESS,SEM,OBW,VSWR'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'RX_SELF_TEST_MODE', Value = 'OFF'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_LOOP_COUNT', Value = '7'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_NUMBER_OF_AVERAGE', Value = '1'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_Tx_POWER_LIMIT', Value = '-55.0'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_Tx_POWER_EVM_LIMIT', Value = '0.0'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_Tx_POWER_ACLR_LIMIT', Value = '0.0'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_Tx_POWER_VSWR_LIMIT', Value = '-30.0'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_Tx_POWER_SPECFLAT_LIMIT', Value = '0.0'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_Tx_POWER_SEM_LIMIT', Value = '20.0'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_Tx_POWER_OBW_LIMIT', Value = '20.0'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SELF_TEST_DELTA_SPECFLAT_LIMIT', Value = '3.0'
+14:30:382	=== Algorithm Segment End ===
+
+14:30:382	=== Algorithm Segment Add: ========== Mobile: Setup for Freq Offset Calc ========== ===
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_INIT_MODE', Value = 'FREQ_OFFSET_SETUP'
+14:30:382	=== Algorithm Segment End ===
+
+14:30:382	=== Algorithm Segment Add: ========== Equip: Compute Mobile Freq Offset ========== ===
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_INIT_MODE', Value = 'FREQ_OFFSET_COMPUTE'
+14:30:382	=== Algorithm Segment End ===
+
+14:30:382	=== Algorithm Segment Add: ========== Mobile: Set Freq Offset ========== ===
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_INIT_MODE', Value = 'FREQ_OFFSET_SET_MOBILE'
+14:30:382	=== Algorithm Segment End ===
+
+14:30:382	=== Algorithm Segment Add: ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'ACTIVATE_SEQUENCE_MODE', Value = '1'
+14:30:382	=== Algorithm Segment End ===
+
+14:30:382	=== Algorithm Segment Add: === Establish LTE FTM RF Call (Start call from PCC) === ===
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_ACTIVE_CELL', Value = 'PCC'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER_REF_LEVEL', Value = '-25.0'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER', Value = '-25.0'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_RF_ANALYZER_TRIGGER_THRESHOLD', Value = '-20.0'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_FORCE_LEGACY_FREQ_ADJUST', Value = '0'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_QUERY_UNIFIED_TX_INFO', Value = '0'
+14:30:382	=== Algorithm Segment End ===
+
+14:30:382	=== Algorithm Segment Add: === Trigger === ===
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '10'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER_REF_LEVEL', Value = '24.0'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER', Value = '24.0'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_UPPER_DELTA', Value = '3.0'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_LOWER_DELTA', Value = '3.0'
+14:30:382	=== Algorithm Segment End ===
+
+14:30:382	=== Algorithm Segment Add: Setting power levels before beginning handover ===
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '10'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER', Value = '0.0'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER_REF_LEVEL', Value = '0.0'
+14:30:382	=== Algorithm Segment End ===
+
+14:30:382	=== Algorithm Segment Add: Handover Section ===
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_INIT_MODE', Value = 'SET_VALUE'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_CARRIER', Value = 'PCC'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_BAND', Value = '21'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_TX_POWER_AFTER_RADIO_TUNE', Value = '1'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_CH_BANDWIDTH', Value = '10'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_OPT_CHANNEL', Value = 'HIGH'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_TUNE_NUM_RX_CHAIN', Value = '2'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UPLINK_ACTIVE', Value = 'TRUE'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_START', Value = '0'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_NUMBER_OF', Value = '50'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MODULATION_TYPE', Value = 'QPSK'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS04_TABLE_VERSION', Value = '1'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS05_TABLE_VERSION', Value = '2'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS06_TABLE_VERSION', Value = '1'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS12_TABLE_VERSION', Value = '2'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '50'
+14:30:382	=== Algorithm Segment End ===
+
+14:30:382	=== Algorithm Segment Add: Configure ===
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '10'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER', Value = '24'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER_REF_LEVEL', Value = '24'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MODULATION_TYPE', Value = 'QPSK'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_START', Value = '0'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_NUMBER_OF', Value = '50'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_NS_VALUE', Value = '1'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_DL_POWER', Value = '-120'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_UPPER_DELTA', Value = '3'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_LOWER_DELTA', Value = '3'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_UPPERLIMIT', Value = '-97'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_CTON_LOWERLIMIT', Value = '20'
+14:30:382	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_TX_EVM_UPPER_LIMIT', Value = '17.5'
+14:30:382	=== Algorithm Segment End ===
+
+14:30:382	=== Algorithm Segment Add: Measure ===
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '25'
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER', Value = ''
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_TX_FREQERROR', Value = ''
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_TX_EVM', Value = ''
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_SEM', Value = ''
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_OBW', Value = ''
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_ACLR', Value = ''
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_TX_SPECFLATNESS', Value = ''
+14:30:383	=== Algorithm Segment End ===
+
+14:30:383	=== Algorithm Segment Add: Configure ===
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '10'
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER', Value = '-36.8'
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER_REF_LEVEL', Value = '-36.8'
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_UPPERLIMIT', Value = '-97'
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_CTON_LOWERLIMIT', Value = '20'
+14:30:383	=== Algorithm Segment End ===
+
+14:30:383	=== Algorithm Segment Add: Measure ===
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '20'
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER', Value = ''
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_TX_EVM', Value = ''
+14:30:383	=== Algorithm Segment End ===
+
+14:30:383	=== Algorithm Segment Add: Handover Section ===
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_INIT_MODE', Value = 'SET_VALUE'
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_CARRIER', Value = 'PCC'
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_BAND', Value = '21'
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_TX_POWER_AFTER_RADIO_TUNE', Value = '1'
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_CH_BANDWIDTH', Value = '10'
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_OPT_CHANNEL', Value = 'MID'
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_TUNE_NUM_RX_CHAIN', Value = '2'
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UPLINK_ACTIVE', Value = 'TRUE'
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_START', Value = '0'
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_NUMBER_OF', Value = '50'
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MODULATION_TYPE', Value = 'QPSK'
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS04_TABLE_VERSION', Value = '1'
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS05_TABLE_VERSION', Value = '2'
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS06_TABLE_VERSION', Value = '1'
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS12_TABLE_VERSION', Value = '2'
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '50'
+14:30:383	=== Algorithm Segment End ===
+
+14:30:383	=== Algorithm Segment Add: Configure ===
+14:30:383	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '10'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER', Value = '24'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER_REF_LEVEL', Value = '24'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MODULATION_TYPE', Value = 'QPSK'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_START', Value = '0'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_NUMBER_OF', Value = '50'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_NS_VALUE', Value = '1'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_DL_POWER', Value = '-75'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_RX_LEVEL_LOWER_DELTA', Value = '3'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_RX_LEVEL_UPPER_DELTA', Value = '3'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_UPPERLIMIT', Value = '-97'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_CTON_LOWERLIMIT', Value = '20'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_TX_EVM_UPPER_LIMIT', Value = '17.5'
+14:30:385	=== Algorithm Segment End ===
+
+14:30:385	=== Algorithm Segment Add: Measure ===
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '20'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_RX_LEVEL', Value = ''
+14:30:385	=== Algorithm Segment End ===
+
+14:30:385	=== Algorithm Segment Add: Configure ===
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '10'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_DL_POWER', Value = '-71'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_UPPERLIMIT', Value = '-97'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_CTON_LOWERLIMIT', Value = '20'
+14:30:385	=== Algorithm Segment End ===
+
+14:30:385	=== Algorithm Segment Add: Measure ===
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '60'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN', Value = ''
+14:30:385	=== Algorithm Segment End ===
+
+14:30:385	=== Algorithm Segment Add: Handover Section ===
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_INIT_MODE', Value = 'SET_VALUE'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_CARRIER', Value = 'PCC'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_BAND', Value = '21'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_TX_POWER_AFTER_RADIO_TUNE', Value = '1'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_CH_BANDWIDTH', Value = '10'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_OPT_CHANNEL', Value = 'LOW'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_TUNE_NUM_RX_CHAIN', Value = '2'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UPLINK_ACTIVE', Value = 'TRUE'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_START', Value = '0'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_NUMBER_OF', Value = '50'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MODULATION_TYPE', Value = 'QPSK'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS04_TABLE_VERSION', Value = '1'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS05_TABLE_VERSION', Value = '2'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS06_TABLE_VERSION', Value = '1'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS12_TABLE_VERSION', Value = '2'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '50'
+14:30:385	=== Algorithm Segment End ===
+
+14:30:385	=== Algorithm Segment Add: Configure ===
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '10'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER', Value = '24'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER_REF_LEVEL', Value = '24'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MODULATION_TYPE', Value = 'QPSK'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_START', Value = '0'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_NUMBER_OF', Value = '1'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_NS_VALUE', Value = '1'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_UPPER_DELTA', Value = '3'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_LOWER_DELTA', Value = '3'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_UPPERLIMIT', Value = '-97'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_CTON_LOWERLIMIT', Value = '20'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_TX_EVM_UPPER_LIMIT', Value = '17.5'
+14:30:385	=== Algorithm Segment End ===
+
+14:30:385	=== Algorithm Segment Add: Measure ===
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '20'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER', Value = ''
+14:30:385	=== Algorithm Segment End ===
+
+14:30:385	=== Algorithm Segment Add: Setting power levels after running test ===
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '10'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER', Value = '0.0'
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER_REF_LEVEL', Value = '0.0'
+14:30:385	=== Algorithm Segment End ===
+
+14:30:385	=== Algorithm Segment Add: === Mobile-CallRelease, EQUIP-RfGenOff === ===
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_ACTION_CALL_RELEASE', Value = ''
+14:30:385	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_ACTION_RF_GEN_OFF', Value = ''
+14:30:385	=== Algorithm Segment End ===
+
+14:30:385	Sequence create time (ms): 0
+14:30:385	Running Sequence...
+14:30:385	== Sequence Executing Algorithm Step: INITIALIZE ==
+14:30:385	===Algorithm Step: (0) SequenceControl ===
+14:30:696	===Algorithm Step: (1) Set Initial Radio Configuration ===
+14:30:697	===Algorithm Step: (2) SelfTest Values ===
+14:30:697	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+14:30:697	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+14:30:697	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+14:30:697	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+14:30:699	===Algorithm Step: (7) === Establish LTE FTM RF Call (Start call from PCC) === ===
+14:30:699	===Algorithm Step: (8) === Trigger === ===
+14:30:699	===Algorithm Step: (9) Setting power levels before beginning handover ===
+14:30:699	===Algorithm Step: (10) Handover Section ===
+14:30:699	===Algorithm Step: (11) Configure ===
+14:30:700	===Algorithm Step: (12) Measure ===
+14:30:700	===Algorithm Step: (13) Configure ===
+14:30:700	===Algorithm Step: (14) Measure ===
+14:30:700	===Algorithm Step: (15) Handover Section ===
+14:30:700	===Algorithm Step: (16) Configure ===
+14:30:700	===Algorithm Step: (17) Measure ===
+14:30:700	===Algorithm Step: (18) Configure ===
+14:30:700	===Algorithm Step: (19) Measure ===
+14:30:700	===Algorithm Step: (20) Handover Section ===
+14:30:700	===Algorithm Step: (21) Configure ===
+14:30:700	===Algorithm Step: (22) Measure ===
+14:30:700	===Algorithm Step: (23) Setting power levels after running test ===
+14:30:700	===Algorithm Step: (24) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+14:30:700	=== End Sequence Algorithm Step: INITIALIZE, Duration(ms): 313 ===
+
+
+14:30:700	== Sequence Executing Algorithm Step: PRESEQUENCE ==
+14:30:700	===Algorithm Step: (0) SequenceControl ===
+14:31:700	Mobile: DiagTransportMode=QUTS
+14:31:700	Mobile: CommPort=-1
+14:32:071	Mobile: QLIB_IsPhoneConnected(): OK
+14:32:254	Sequence Control RFVFS Recommended Radio Allocation Execution Time = 0.515 ms
+14:32:688	===Algorithm Step: (1) Set Initial Radio Configuration ===
+14:32:688	===Algorithm Step: (2) SelfTest Values ===
+14:32:688	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+14:32:688	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+14:32:688	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+14:32:717	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+14:32:725	Sequence Control RFVFS Recommended Radio Allocation Execution Time = 0.512 ms
+14:32:726	===Algorithm Step: (7) === Establish LTE FTM RF Call (Start call from PCC) === ===
+14:32:726	===Algorithm Step: (8) === Trigger === ===
+14:32:726	===Algorithm Step: (9) Setting power levels before beginning handover ===
+14:32:726	===Algorithm Step: (10) Handover Section ===
+14:32:726	===Algorithm Step: (11) Configure ===
+14:32:726	===Algorithm Step: (12) Measure ===
+14:32:726	===Algorithm Step: (13) Configure ===
+14:32:726	===Algorithm Step: (14) Measure ===
+14:32:726	===Algorithm Step: (15) Handover Section ===
+14:32:726	===Algorithm Step: (16) Configure ===
+14:32:726	===Algorithm Step: (17) Measure ===
+14:32:726	===Algorithm Step: (18) Configure ===
+14:32:726	===Algorithm Step: (19) Measure ===
+14:32:726	===Algorithm Step: (20) Handover Section ===
+14:32:726	===Algorithm Step: (21) Configure ===
+14:32:726	===Algorithm Step: (22) Measure ===
+14:32:726	===Algorithm Step: (23) Setting power levels after running test ===
+14:32:726	===Algorithm Step: (24) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+14:32:726	=== End Sequence Algorithm Step: PRESEQUENCE, Duration(ms): 2031 ===
+
+
+14:32:726	== Sequence Executing Algorithm Step: CONFIGURE ==
+14:32:726	===Algorithm Step: (0) SequenceControl ===
+14:32:726	QLIB_GetLibraryVersion(), Status=[n/a] [ QMSL Library Version: QLIB V6.1.440,QUTS ]
+14:32:726	QLIB_DIAG_SetPhoneLoggingState(), Status=1
+14:32:726	QLIB_FTM_SEQ_SetSequencerMode(): Status: 1
+14:32:729	QLIB_DIAG_VERNO_F(): Status: 1
+14:32:729	DeviceInfo: Mobile: Compile Date Time: May 26 2021 12:25:37
+14:32:729	DeviceInfo: Mobile: Release Date Time: May 04 2021 17:00:00
+14:32:729	DeviceInfo: Mobile: Version Directory: sdx55.cp
+14:32:729	DeviceInfo: Mobile: Station Class Mark (SCM): 42
+14:32:729	DeviceInfo: Mobile: CAI rev: 9
+14:32:729	DeviceInfo: Mobile: Mobile Model: 255
+14:32:729	DeviceInfo: Mobile: Firmware Rev: 100
+14:32:729	DeviceInfo: Mobile: Slot Cycle Index: 48
+14:32:729	DeviceInfo: Mobile: Vocoder major-minor version: 0.207
+14:32:729	QLIB_DIAG_EXT_BUILD_ID_F(): Status: 1
+14:32:729	DeviceInfo: Mobile: MSM_HW_Version: 0xCF2
+14:32:729	DeviceInfo: Mobile: MobModel: 0x14E
+14:32:729	DeviceInfo: Mobile: MobSwRev: MPSS.HI.2.0.3-00217-SDX55_CPEALL_PACK-1
+14:32:729	DeviceInfo: Mobile: ModelStr: 
+14:32:730	QLIB_DIAG_READ_ESN_F(): Status: 1
+14:32:730	DeviceInfo: Mobile: ESN: 0x0
+14:32:735	DeviceInfo: Equipment: Rohde&Schwarz,CMW,1201.0002k06/116992,3.8.12
+14:32:787	DeviceInfo: Equipment: KM800_C2K: "V3.8.11"
+14:32:789	DeviceInfo: Equipment: KM200_EDGE: "V3.8.11"
+14:32:792	DeviceInfo: Equipment: KM400_WCDMA: "V3.8.11"
+14:32:795	DeviceInfo: Equipment:  "V3.8.13" KM500_LTE_FDD is present. KM550_LTE_TDD is present. KM504_LTE_FDD is present. KM554_LTE_TDD is present.
+14:32:797	DeviceInfo: Equipment: CMW_GPRF_Gen: "V3.8.11"
+14:32:800	DeviceInfo: Equipment: CMW1xx_BASE: "V3.8.12"
+14:32:807	===Algorithm Step: (1) Set Initial Radio Configuration ===
+14:32:807	===Algorithm Step: (2) SelfTest Values ===
+14:32:807	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+14:32:807	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+14:32:807	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+14:32:807	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+14:32:807	QLIB_GetLibraryVersion(), Status=[n/a] [ QMSL Library Version: QLIB V6.1.440,QUTS ]
+14:32:807	QLIB_DIAG_SetPhoneLoggingState(), Status=1
+14:32:807	QLIB_FTM_SEQ_SetSequencerMode(): Status: 1
+14:32:808	QLIB_DIAG_VERNO_F(): Status: 1
+14:32:808	DeviceInfo: Mobile: Compile Date Time: May 26 2021 12:25:37
+14:32:808	DeviceInfo: Mobile: Release Date Time: May 04 2021 17:00:00
+14:32:808	DeviceInfo: Mobile: Version Directory: sdx55.cp
+14:32:808	DeviceInfo: Mobile: Station Class Mark (SCM): 42
+14:32:808	DeviceInfo: Mobile: CAI rev: 9
+14:32:808	DeviceInfo: Mobile: Mobile Model: 255
+14:32:808	DeviceInfo: Mobile: Firmware Rev: 100
+14:32:808	DeviceInfo: Mobile: Slot Cycle Index: 48
+14:32:808	DeviceInfo: Mobile: Vocoder major-minor version: 0.207
+14:32:809	QLIB_DIAG_EXT_BUILD_ID_F(): Status: 1
+14:32:809	DeviceInfo: Mobile: MSM_HW_Version: 0xCF2
+14:32:809	DeviceInfo: Mobile: MobModel: 0x14E
+14:32:809	DeviceInfo: Mobile: MobSwRev: MPSS.HI.2.0.3-00217-SDX55_CPEALL_PACK-1
+14:32:809	DeviceInfo: Mobile: ModelStr: 
+14:32:810	QLIB_DIAG_READ_ESN_F(): Status: 1
+14:32:810	DeviceInfo: Mobile: ESN: 0x0
+14:32:817	QLIB_FTM_SEQ_ActivateBatchMode (): Status: 1
+14:32:817	QLIB_FTM_SEQ_SetPayloadType (): Status: 1
+14:32:817	QLIB_FTM_SEQ_SetResponseType (): Status: 1
+14:32:817	QLIB_FTM_SEQ_Resize_Command_Buffer (2000): Status: 1
+14:32:818	QLIB_FTM_SEQ_CLEAR_QUEUE (): Status: 1
+14:32:819	===Algorithm Step: (7) === Establish LTE FTM RF Call (Start call from PCC) === ===
+14:32:823	RRA Execution Time: 0.751
+14:32:824	[0] QLIB_FTM_SEQ_ADD_TIMING_MARKER(): Status: 1
+14:32:987	===Algorithm Step: (8) === Trigger === ===
+14:32:987	[1] QLIB_FTM_SEQ_ADD_WAIT(10000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:33:018	===Algorithm Step: (9) Setting power levels before beginning handover ===
+14:33:018	[2] QLIB_FTM_SEQ_ADD_WAIT(10000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:33:046	===Algorithm Step: (10) Handover Section ===
+14:33:046	[3] QLIB_FTM_SEQ_ADD_WAIT(50000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:33:074	===Algorithm Step: (11) Configure ===
+14:33:074	[4] QLIB_FTM_SEQ_ADD_WAIT(10000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:33:102	===Algorithm Step: (12) Measure ===
+14:33:102	[5] QLIB_FTM_SEQ_ADD_WAIT(25000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:33:130	===Algorithm Step: (13) Configure ===
+14:33:130	[6] QLIB_FTM_SEQ_ADD_WAIT(10000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:33:158	===Algorithm Step: (14) Measure ===
+14:33:158	[7] QLIB_FTM_SEQ_ADD_WAIT(20000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:33:186	===Algorithm Step: (15) Handover Section ===
+14:33:189	Measure RFVFS Recommended Radio Allocation Execution Time = 0.690 ms
+14:33:193	[8] QLIB_FTM_SEQ_ADD_WAIT(50000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:33:221	===Algorithm Step: (16) Configure ===
+14:33:221	[9] QLIB_FTM_SEQ_ADD_WAIT(10000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:33:249	===Algorithm Step: (17) Measure ===
+14:33:249	[10] QLIB_FTM_SEQ_ADD_WAIT(0), Status=1
+14:33:249	[11] QLIB_FTM_SEQ_ADD_WAIT(20000 micro seconds): Status: 1 [Pad FINAL]
+14:33:277	===Algorithm Step: (18) Configure ===
+14:33:278	[12] QLIB_FTM_SEQ_ADD_WAIT(10000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:33:306	===Algorithm Step: (19) Measure ===
+14:33:306	[13] QLIB_FTM_SEQ_ADD_WAIT(0), Status=1
+14:33:306	[14] QLIB_FTM_SEQ_ADD_WAIT(60000 micro seconds): Status: 1 [Pad FINAL]
+14:33:334	===Algorithm Step: (20) Handover Section ===
+14:33:339	Measure RFVFS Recommended Radio Allocation Execution Time = 0.655 ms
+14:33:339	[15] QLIB_FTM_SEQ_ADD_WAIT(50000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:33:368	===Algorithm Step: (21) Configure ===
+14:33:368	[16] QLIB_FTM_SEQ_ADD_WAIT(10000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:33:399	===Algorithm Step: (22) Measure ===
+14:33:399	[17] QLIB_FTM_SEQ_ADD_WAIT(20000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:33:431	===Algorithm Step: (23) Setting power levels after running test ===
+14:33:434	[18] QLIB_FTM_SEQ_ADD_WAIT(10000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:33:464	===Algorithm Step: (24) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+14:33:464	[19] QLIB_FTM_SEQ_ADD_WAIT(5000 micro seconds): Status: 1
+14:33:465	Segment Duration Total     = 375 ms
+14:33:465	MELM Measurement Time Total= 65 ms
+14:33:465	Segment Subframe Total= 375 
+14:33:465	Segment Number Total= 16 
+14:33:566	=== End Sequence Algorithm Step: CONFIGURE, Duration(ms): 844 ===
+
+
+14:33:566	== Sequence Executing Algorithm Step: EXECUTE ==
+14:33:566	===Algorithm Step: (0) SequenceControl ===
+14:33:566	===Algorithm Step: (1) Set Initial Radio Configuration ===
+14:33:566	===Algorithm Step: (2) SelfTest Values ===
+14:33:566	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+14:33:566	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+14:33:566	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+14:33:566	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+14:33:566	FTM_SequencerTimeout AUTO-SET: Start[5000] + Measure(sum)[375] + Stop[1000] = 6375 ms
+14:33:566	QLIB_ConfigureTimeOut ( FTM_Sequencer= 6375 ms ): Status: 1
+14:34:462	===Algorithm Step: (7) === Establish LTE FTM RF Call (Start call from PCC) === ===
+14:34:462	===Algorithm Step: (8) === Trigger === ===
+14:34:462	===Algorithm Step: (9) Setting power levels before beginning handover ===
+14:34:462	===Algorithm Step: (10) Handover Section ===
+14:34:462	===Algorithm Step: (11) Configure ===
+14:34:462	===Algorithm Step: (12) Measure ===
+14:34:462	===Algorithm Step: (13) Configure ===
+14:34:462	===Algorithm Step: (14) Measure ===
+14:34:462	===Algorithm Step: (15) Handover Section ===
+14:34:462	===Algorithm Step: (16) Configure ===
+14:34:462	===Algorithm Step: (17) Measure ===
+14:34:462	===Algorithm Step: (18) Configure ===
+14:34:462	===Algorithm Step: (19) Measure ===
+14:34:462	===Algorithm Step: (20) Handover Section ===
+14:34:462	===Algorithm Step: (21) Configure ===
+14:34:462	===Algorithm Step: (22) Measure ===
+14:34:462	===Algorithm Step: (23) Setting power levels after running test ===
+14:34:462	===Algorithm Step: (24) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+14:34:462	=== End Sequence Algorithm Step: EXECUTE, Duration(ms): 890 ===
+
+
+14:34:462	== Sequence Executing Algorithm Step: COLLECT ==
+14:34:462	===Algorithm Step: (0) SequenceControl ===
+14:34:462	===Algorithm Step: (1) Set Initial Radio Configuration ===
+14:34:463	===Algorithm Step: (2) SelfTest Values ===
+14:34:463	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+14:34:463	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+14:34:463	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+14:34:463	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+14:34:463	QLIB_FTM_SEQ_EXECUTE_QUEUE(): Status=255,FTM_EC=0,Comp=1 [SegTime= 375 ms, TotalTime=-368176953]
+14:34:464	QLIB_FTM_SEQ_DeactivateBatchMode(): Status = 1
+14:34:464	===Algorithm Step: (7) === Establish LTE FTM RF Call (Start call from PCC) === ===
+14:34:464	Rx Measurement Freq Error Hz: 7050.000
+14:34:467	CMW FETCH:STATUS queries=1 [16 msec]
+14:34:469	===Algorithm Step: (8) === Trigger === ===
+14:34:469	===Algorithm Step: (9) Setting power levels before beginning handover ===
+14:34:469	===Algorithm Step: (10) Handover Section ===
+14:34:469	===Algorithm Step: (11) Configure ===
+14:34:469	===Algorithm Step: (12) Measure ===
+14:34:500	===Algorithm Step: (13) Configure ===
+14:34:500	===Algorithm Step: (14) Measure ===
+14:34:510	===Algorithm Step: (15) Handover Section ===
+14:34:510	Rx Measurement Freq Error Hz:  7050.000
+14:34:510	===Algorithm Step: (16) Configure ===
+14:34:510	===Algorithm Step: (17) Measure ===
+14:34:510	===Algorithm Step: (18) Configure ===
+14:34:510	===Algorithm Step: (19) Measure ===
+14:34:510	===Algorithm Step: (20) Handover Section ===
+14:34:510	Rx Measurement Freq Error Hz:  7050.000
+14:34:510	===Algorithm Step: (21) Configure ===
+14:34:510	===Algorithm Step: (22) Measure ===
+14:34:517	===Algorithm Step: (23) Setting power levels after running test ===
+14:34:517	===Algorithm Step: (24) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+14:34:528	=== End Sequence Algorithm Step: COLLECT, Duration(ms): 63 ===
+
+
+14:34:528	== Sequence Executing Algorithm Step: PROCESS ==
+14:34:528	===Algorithm Step: (0) SequenceControl ===
+14:34:528	===Algorithm Step: (1) Set Initial Radio Configuration ===
+14:34:528	===Algorithm Step: (2) SelfTest Values ===
+14:34:528	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+14:34:528	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+14:34:528	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+14:34:528	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+14:34:528	===Algorithm Step: (7) === Establish LTE FTM RF Call (Start call from PCC) === ===
+14:34:528	===Algorithm Step: (8) === Trigger === ===
+14:34:528	===Algorithm Step: (9) Setting power levels before beginning handover ===
+14:34:528	===Algorithm Step: (10) Handover Section ===
+14:34:528	===Algorithm Step: (11) Configure ===
+14:34:528	===Algorithm Step: (12) Measure ===
+14:34:528	===Algorithm Step: (13) Configure ===
+14:34:528	===Algorithm Step: (14) Measure ===
+14:34:528	===Algorithm Step: (15) Handover Section ===
+14:34:529	===Algorithm Step: (16) Configure ===
+14:34:529	===Algorithm Step: (17) Measure ===
+14:34:529	===Algorithm Step: (18) Configure ===
+14:34:529	===Algorithm Step: (19) Measure ===
+14:34:529	===Algorithm Step: (20) Handover Section ===
+14:34:529	===Algorithm Step: (21) Configure ===
+14:34:529	===Algorithm Step: (22) Measure ===
+14:34:529	===Algorithm Step: (23) Setting power levels after running test ===
+14:34:529	===Algorithm Step: (24) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+14:34:529	=== End Sequence Algorithm Step: PROCESS, Duration(ms): 0 ===
+
+
+14:34:529	== Sequence Executing Algorithm Step: REPORT ==
+14:34:529	===Algorithm Step: (0) SequenceControl ===
+14:34:529	===Algorithm Step: (1) Set Initial Radio Configuration ===
+14:34:529	===Algorithm Step: (2) SelfTest Values ===
+14:34:529	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+14:34:529	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+14:34:529	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+14:34:529	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+14:34:529	RFVFS CommonSequenceControl MOB: === Cached Data ====================================
+14:34:529	RFVFS CommonSequenceControl MOB: m_Cache.Conf.usFTM_EC_ClearQueue  = 0
+14:34:529	RFVFS CommonSequenceControl MOB: m_Cache.Exe.usFTM_EC_Execute      = 0
+14:34:529	RFVFS CommonSequenceControl MOB: m_Cache.Exe.ucSequenceCompleted   = 1
+14:34:529	RFVFS CommonSequenceControl MOB: ==============
+14:34:529	===Algorithm Step: (7) === Establish LTE FTM RF Call (Start call from PCC) === ===
+14:34:529	RFVFS LTE Start MOB: Report: === Cached Data ====================================
+14:34:529	RFVFS LTE Start MOB: Report: m_Cache.TimingMarker.usFTM_EC                                    = 0
+14:34:529	RFVFS LTE Start MOB: ==============
+14:34:529	RFVFS LTE Execution Time Segment ID = 7, Time Delta= -18.496 ms
+14:34:529	RFVFS LTE Command Execution Time = 0.051 ms
+14:34:529	RFVFS LTE Command Execution Time = 20.104 ms
+14:34:529	RFVFS LTE Command Execution Time = 0.341 ms
+14:34:529	===Algorithm Step: (8) === Trigger === ===
+14:34:529	RFVFS LTE Measure MOB: === Cached Data ===
+14:34:529	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:34:529	RFVFS LTE Execution Time Segment ID = 8, Time Delta= 9.985 ms
+14:34:530	RFVFS LTE Command Execution Time = 0.015 ms
+14:34:530	===Algorithm Step: (9) Setting power levels before beginning handover ===
+14:34:530	RFVFS LTE Measure MOB: === Cached Data ===
+14:34:530	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:34:530	RFVFS LTE Execution Time Segment ID = 9, Time Delta= 9.982 ms
+14:34:530	RFVFS LTE Command Execution Time = 0.018 ms
+14:34:530	===Algorithm Step: (10) Handover Section ===
+14:34:530	RFVFS LTE Measure MOB: === Cached Data ===
+14:34:530	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:34:530	===Algorithm Step: (11) Configure ===
+14:34:530	RFVFS LTE Measure MOB: === Cached Data ===
+14:34:530	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:34:530	RFVFS LTE Execution Time Segment ID = 11, Time Delta= 9.980 ms
+14:34:530	RFVFS LTE Command Execution Time = 0.020 ms
+14:34:530	===Algorithm Step: (12) Measure ===
+14:34:530	RFVFS LTE Measure MOB: === Cached Data ===
+14:34:530	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:34:530	RFVFS LTE Measure EQP: TestName,Ref = LTE_MaxPower, 3GPP 36.521 6.2.3
+14:34:530	RFVFS LTE Measure EQP: MPR          = 1.00
+14:34:530	RFVFS LTE Measure EQP: UL_Power(avg)= OK,22.45 [19.00, 25.00, PASS]
+14:34:530	RFVFS LTE Measure EQP: UL_Power(min)= OK,22.45 [19.00, ---, PASS]
+14:34:530	RFVFS LTE Measure EQP: UL_Power(max)= OK,22.46 [---, 25.00, PASS]
+14:34:531	RFVFS LTE Measure EQP: EVM          = OK,2.70,2.85 [---, 17.50, PASS]
+14:34:531	RFVFS LTE Measure EQP: EVM(DMRS)    = OK,1.90,2.07 [---, 17.50, PASS]
+14:34:531	RFVFS LTE Measure EQP: Initial FreqErr (ppm) = OK,4.855372 
+14:34:531	RFVFS LTE Measure EQP: FreqErr (ppm) average = OK,-0.0121 [-0.1000, 0.1000, PASS]
+14:34:531	RFVFS LTE Measure EQP: FreqErr (ppm) worst   = OK,-0.0125 [-0.1000, 0.1000, PASS]
+14:34:531	RFVFS LTE Measure EQP: Spectrum Flatness R1  = OK,2.58 [4.0000, PASS]
+14:34:531	RFVFS LTE Measure EQP: Spectrum Flatness R2  = OK,2.05 [8.0000, PASS]
+14:34:531	RFVFS LTE Measure EQP: Spectrum Flatness R12  = OK,0.11 [5.0000, PASS]
+14:34:531	RFVFS LTE Measure EQP: Spectrum Flatness R21  = OK,4.51 [7.0000, PASS]
+14:34:532	RFVFS LTE Measure EQP: OBW (MHz)    = OK,8.88 [---, 10.00, PASS]
+14:34:532	RFVFS LTE Measure EQP: SEM (dB)     = OK,-32.11,-20.52,-24.89,-36.59,-39.54,-24.01,-16.44,-28.40
+14:34:534	RFVFS LTE Measure EQP: ACLR (dB)    = OK,46.51,42.53,40.41,39.62,44.12,42.55
+14:34:536	===Algorithm Step: (13) Configure ===
+14:34:536	RFVFS LTE Measure MOB: === Cached Data ===
+14:34:536	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:34:536	RFVFS LTE Execution Time Segment ID = 13, Time Delta= 9.984 ms
+14:34:536	RFVFS LTE Command Execution Time = 0.016 ms
+14:34:536	===Algorithm Step: (14) Measure ===
+14:34:536	RFVFS LTE Measure MOB: === Cached Data ===
+14:34:536	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:34:536	RFVFS LTE Measure EQP: MPR          = 0.00
+14:34:536	RFVFS LTE Measure EQP: UL_Power(avg)= OK,-35.37 [-39.80, -33.80, PASS]
+14:34:536	RFVFS LTE Measure EQP: UL_Power(min)= OK,-35.37 [-39.80, ---, PASS]
+14:34:536	RFVFS LTE Measure EQP: UL_Power(max)= OK,-35.31 [---, -33.80, PASS]
+14:34:536	RFVFS LTE Measure EQP: EVM          = OK,2.96,3.08 [---, 17.50, PASS]
+14:34:536	RFVFS LTE Measure EQP: EVM(DMRS)    = OK,2.24,2.52 [---, 17.50, PASS]
+14:34:537	===Algorithm Step: (15) Handover Section ===
+14:34:537	RFVFS LTE Measure MOB: === Cached Data ===
+14:34:537	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:34:538	RFVFS LTE Execution Time Segment ID = 15, Time Delta= 9.322 ms
+14:34:538	RFVFS LTE Command Execution Time = 20.507 ms
+14:34:538	RFVFS LTE Command Execution Time = 19.834 ms
+14:34:538	RFVFS LTE Command Execution Time = 0.337 ms
+14:34:538	===Algorithm Step: (16) Configure ===
+14:34:538	RFVFS LTE Measure MOB: === Cached Data ===
+14:34:538	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:34:538	RFVFS LTE Execution Time Segment ID = 16, Time Delta= 9.981 ms
+14:34:538	RFVFS LTE Command Execution Time = 0.019 ms
+14:34:538	===Algorithm Step: (17) Measure ===
+14:34:538	RFVFS LTE Measure MOB: === Cached Data ===
+14:34:538	RFVFS LTE Measure MOB: m_Cache.Timing_End.usFTM_EC_AddWait       = 0
+14:34:538	RFVFS LTE Measure MOB: Rx0-Rx_Level = -75.60 [-78.00, -72.00 PASS]
+14:34:538	RFVFS LTE Measure MOB: Rx1-Rx_Level = -76.10 [-78.00, -72.00 PASS]
+14:34:539	RFVFS LTE Execution Time Segment ID = 17, Time Delta= 5.510 ms
+14:34:539	RFVFS LTE Command Execution Time = 14.490 ms
+14:34:539	===Algorithm Step: (18) Configure ===
+14:34:539	RFVFS LTE Measure MOB: === Cached Data ===
+14:34:539	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:34:539	===Algorithm Step: (19) Measure ===
+14:34:539	RFVFS LTE Measure MOB: === Cached Data ===
+14:34:539	RFVFS LTE Measure MOB: m_Cache.Timing_End.usFTM_EC_AddWait       = 0
+14:34:539	======Rx Chain 0======
+14:34:539	RFVFS LTE Measure MOB: Rx Estimated Sensitivity = -98.47 [---, -97.00 PASS]
+14:34:539	RFVFS LTE Measure MOB: Rx CtoN    = 26.47[20.00 PASS, ---]
+14:34:539	RFVFS LTE Measure MOB: Rx AGC    = -71.80
+14:34:540	======Rx Chain 1======
+14:34:540	RFVFS LTE Measure MOB: Rx Estimated Sensitivity = -100.27 [---, -97.00 PASS]
+14:34:540	RFVFS LTE Measure MOB: Rx CtoN    = 28.27[20.00 PASS, ---]
+14:34:540	RFVFS LTE Measure MOB: Rx AGC    = -72.00
+14:34:540	RFVFS LTE Execution Time Segment ID = 19, Time Delta= 11.681 ms
+14:34:541	RFVFS LTE Command Execution Time = 3.284 ms
+14:34:541	RFVFS LTE Command Execution Time = 45.035 ms
+14:34:541	===Algorithm Step: (20) Handover Section ===
+14:34:541	RFVFS LTE Measure MOB: === Cached Data ===
+14:34:541	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:34:541	RFVFS LTE Execution Time Segment ID = 20, Time Delta= 9.087 ms
+14:34:541	RFVFS LTE Command Execution Time = 20.526 ms
+14:34:541	RFVFS LTE Command Execution Time = 20.048 ms
+14:34:541	RFVFS LTE Command Execution Time = 0.339 ms
+14:34:541	===Algorithm Step: (21) Configure ===
+14:34:541	RFVFS LTE Measure MOB: === Cached Data ===
+14:34:541	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:34:541	RFVFS LTE Execution Time Segment ID = 21, Time Delta= 6.731 ms
+14:34:541	RFVFS LTE Command Execution Time = 3.269 ms
+14:34:542	===Algorithm Step: (22) Measure ===
+14:34:542	RFVFS LTE Measure MOB: === Cached Data ===
+14:34:542	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:34:542	RFVFS LTE Measure EQP: TestName,Ref = LTE_MaxPower, 3GPP 36.521 6.2.3
+14:34:542	RFVFS LTE Measure EQP: MPR          = 0.00
+14:34:542	RFVFS LTE Measure EQP: UL_Power(avg)= OK,20.83 [20.00, 26.00, PASS]
+14:34:542	RFVFS LTE Measure EQP: UL_Power(min)= OK,20.83 [20.00, ---, PASS]
+14:34:542	RFVFS LTE Measure EQP: UL_Power(max)= OK,20.84 [---, 26.00, PASS]
+14:34:542	===Algorithm Step: (23) Setting power levels after running test ===
+14:34:542	RFVFS LTE Measure MOB: === Cached Data ===
+14:34:542	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:34:542	RFVFS LTE Execution Time Segment ID = 23, Time Delta= 9.976 ms
+14:34:542	RFVFS LTE Command Execution Time = 0.024 ms
+14:34:542	===Algorithm Step: (24) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+14:34:542	RFVFS LTE Execution Time Segment ID = 24, Time Delta= -2.302 ms
+14:34:543	RFVFS LTE Command Execution Time = 12.302 ms
+14:34:543	=== End Sequence Algorithm Step: REPORT, Duration(ms): 15 ===
+
+
+14:34:543	== Sequence Executing Algorithm Step: POSTSEQUENCE ==
+14:34:543	===Algorithm Step: (0) SequenceControl ===
+14:34:543	===Algorithm Step: (1) Set Initial Radio Configuration ===
+14:34:543	===Algorithm Step: (2) SelfTest Values ===
+14:34:543	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+14:34:543	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+14:34:543	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+14:34:543	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+14:34:543	===Algorithm Step: (7) === Establish LTE FTM RF Call (Start call from PCC) === ===
+14:34:543	===Algorithm Step: (8) === Trigger === ===
+14:34:543	===Algorithm Step: (9) Setting power levels before beginning handover ===
+14:34:543	===Algorithm Step: (10) Handover Section ===
+14:34:543	===Algorithm Step: (11) Configure ===
+14:34:543	===Algorithm Step: (12) Measure ===
+14:34:543	===Algorithm Step: (13) Configure ===
+14:34:543	===Algorithm Step: (14) Measure ===
+14:34:543	===Algorithm Step: (15) Handover Section ===
+14:34:543	===Algorithm Step: (16) Configure ===
+14:34:543	===Algorithm Step: (17) Measure ===
+14:34:543	===Algorithm Step: (18) Configure ===
+14:34:543	===Algorithm Step: (19) Measure ===
+14:34:543	===Algorithm Step: (20) Handover Section ===
+14:34:543	===Algorithm Step: (21) Configure ===
+14:34:543	===Algorithm Step: (22) Measure ===
+14:34:543	===Algorithm Step: (23) Setting power levels after running test ===
+14:34:543	===Algorithm Step: (24) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+14:34:543	=== End Sequence Algorithm Step: POSTSEQUENCE, Duration(ms): 0 ===
+
+
+14:34:543	== Sequence Executing Algorithm Step: SHUTDOWN ==
+14:34:543	===Algorithm Step: (0) SequenceControl ===
+14:34:551	===Algorithm Step: (1) Set Initial Radio Configuration ===
+14:34:551	===Algorithm Step: (2) SelfTest Values ===
+14:34:551	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+14:34:551	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+14:34:551	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+14:34:551	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+14:34:551	===Algorithm Step: (7) === Establish LTE FTM RF Call (Start call from PCC) === ===
+14:34:551	===Algorithm Step: (8) === Trigger === ===
+14:34:551	===Algorithm Step: (9) Setting power levels before beginning handover ===
+14:34:551	===Algorithm Step: (10) Handover Section ===
+14:34:551	===Algorithm Step: (11) Configure ===
+14:34:551	===Algorithm Step: (12) Measure ===
+14:34:551	===Algorithm Step: (13) Configure ===
+14:34:551	===Algorithm Step: (14) Measure ===
+14:34:551	===Algorithm Step: (15) Handover Section ===
+14:34:551	===Algorithm Step: (16) Configure ===
+14:34:551	===Algorithm Step: (17) Measure ===
+14:34:551	===Algorithm Step: (18) Configure ===
+14:34:551	===Algorithm Step: (19) Measure ===
+14:34:551	===Algorithm Step: (20) Handover Section ===
+14:34:552	===Algorithm Step: (21) Configure ===
+14:34:552	===Algorithm Step: (22) Measure ===
+14:34:552	===Algorithm Step: (23) Setting power levels after running test ===
+14:34:552	===Algorithm Step: (24) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+14:34:552	=== End Sequence Algorithm Step: SHUTDOWN, Duration(ms): 16 ===
+
+
+14:34:552	 Sequence create duration(ms): 0
+14:34:552	Sequence runtime duration(ms): 4172
+14:34:552	      INITIALIZE duration(ms): 313
+14:34:552	     PRESEQUENCE duration(ms): 2031
+14:34:552	       CONFIGURE duration(ms): 844
+14:34:552	         EXECUTE duration(ms): 890
+14:34:552	         COLLECT duration(ms): 63
+14:34:552	         PROCESS duration(ms): 0
+14:34:552	          REPORT duration(ms): 15
+14:34:552	    POSTSEQUENCE duration(ms): 0
+14:34:552	        SHUTDOWN duration(ms): 16
+14:34:552	
+14:34:552	Last Error code: 0, Last Error Text: No Error
+
+14:34:552	SubErrorName : SYSTEM__COMMON__NO_ERROR
+14:34:552	SubErrorCode : 0000
+
+14:34:552	Clearing Sequence data...
+14:34:553	Construction Sequence...
+14:34:554	Loaded XML Sequence
+14:34:554	=== Algorithm Segment Add: SequenceControl ===
+14:34:554	QSEQ_DataItemList::AddNameValuePair(): Name = 'ACTIVATE_SEQUENCE_MODE', Value = '0'
+14:34:554	QSEQ_DataItemList::AddNameValuePair(): Name = 'BASE_COMMON_TECH_TYPE', Value = 'LTE'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'BASE_EQUIP_STARTUP_RESET_INHIBIT', Value = '1'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'BASE_MOBILE_MSGS_F3', Value = '0'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'BASE_MOBILE_MSGS_L1', Value = '0'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'BASE_COMMON_TRIGGER_TYPE', Value = 'Tx'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'FTM_COMMAND_TIMING_PROFILE', Value = '1'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MODE', Value = 'OFF'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'BASE_COMMON_RX_TRIGGER_THRESHOLD', Value = '-65.0'
+14:34:555	=== Algorithm Segment End ===
+
+14:34:555	=== Algorithm Segment Add: Set Initial Radio Configuration ===
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_INIT_MODE', Value = 'SET_VALUE'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_NUM_DL_CARRIERS', Value = '1'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_NUM_UL_CARRIERS', Value = '1'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_TX_POWER_AFTER_RADIO_TUNE', Value = '1'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER_REF_HEADROOM', Value = '13'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UE_MAX_TX_POWER_LIMIT', Value = '30'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_NS_VALUE', Value = '1'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_TX_CHAIN', Value = '0'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER_MAX', Value = '23'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER_REF_LEVEL', Value = '0.0'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_RX_MEASUREMENT_OFFSET_MS', Value = '0'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_RX_LEVEL_LOWER_DELTA', Value = '2.0'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_RX_LEVEL_UPPER_DELTA', Value = '2.0'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_SEM_DELTA_LIMIT', Value = '0.0'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_ANT_PORT_STATE', Value = '0'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_UPPERLIMIT', Value = '-92'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_INIT_MODE', Value = 'SET_VALUE'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_CARRIER', Value = 'PCC'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_BAND', Value = '42'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_OPT_CHANNEL', Value = 'HIGH'
+14:34:555	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_CH_BANDWIDTH', Value = '10'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MODULATION_TYPE', Value = 'QPSK'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_START', Value = '0'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_NUMBER_OF', Value = '50'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_TUNE_NUM_RX_CHAIN', Value = '2'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER', Value = '0.0'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_DL_POWER', Value = '-120.0'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UPLINK_ACTIVE', Value = 'TRUE'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS04_TABLE_VERSION', Value = '1'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS05_TABLE_VERSION', Value = '2'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS06_TABLE_VERSION', Value = '1'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS12_TABLE_VERSION', Value = '2'
+14:34:556	=== Algorithm Segment End ===
+
+14:34:556	=== Algorithm Segment Add: SelfTest Values ===
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_INIT_MODE', Value = 'SET_VALUE'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'TX_SELF_TEST_MODE', Value = 'OFF'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'TX_SELF_TEST_MEASUREMENTS', Value = 'POWER,EVM,ACLR,SPECTRAL_FLATNESS,SEM,OBW,VSWR'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'RX_SELF_TEST_MODE', Value = 'OFF'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_LOOP_COUNT', Value = '7'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_NUMBER_OF_AVERAGE', Value = '1'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_Tx_POWER_LIMIT', Value = '-55.0'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_Tx_POWER_EVM_LIMIT', Value = '0.0'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_Tx_POWER_ACLR_LIMIT', Value = '0.0'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_Tx_POWER_VSWR_LIMIT', Value = '-30.0'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_Tx_POWER_SPECFLAT_LIMIT', Value = '0.0'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_Tx_POWER_SEM_LIMIT', Value = '20.0'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_Tx_POWER_OBW_LIMIT', Value = '20.0'
+14:34:556	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SELF_TEST_DELTA_SPECFLAT_LIMIT', Value = '3.0'
+14:34:556	=== Algorithm Segment End ===
+
+14:34:556	=== Algorithm Segment Add: ========== Mobile: Setup for Freq Offset Calc ========== ===
+14:34:557	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_INIT_MODE', Value = 'FREQ_OFFSET_SETUP'
+14:34:557	=== Algorithm Segment End ===
+
+14:34:557	=== Algorithm Segment Add: ========== Equip: Compute Mobile Freq Offset ========== ===
+14:34:557	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_INIT_MODE', Value = 'FREQ_OFFSET_COMPUTE'
+14:34:557	=== Algorithm Segment End ===
+
+14:34:557	=== Algorithm Segment Add: ========== Mobile: Set Freq Offset ========== ===
+14:34:557	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_INIT_MODE', Value = 'FREQ_OFFSET_SET_MOBILE'
+14:34:557	=== Algorithm Segment End ===
+
+14:34:557	=== Algorithm Segment Add: ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+14:34:557	QSEQ_DataItemList::AddNameValuePair(): Name = 'ACTIVATE_SEQUENCE_MODE', Value = '1'
+14:34:557	=== Algorithm Segment End ===
+
+14:34:557	=== Algorithm Segment Add: === Establish LTE FTM RF Call (Start call from PCC) === ===
+14:34:558	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_ACTIVE_CELL', Value = 'PCC'
+14:34:558	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER_REF_LEVEL', Value = '-25.0'
+14:34:558	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER', Value = '-25.0'
+14:34:558	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_RF_ANALYZER_TRIGGER_THRESHOLD', Value = '-20.0'
+14:34:558	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_FORCE_LEGACY_FREQ_ADJUST', Value = '0'
+14:34:558	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_QUERY_UNIFIED_TX_INFO', Value = '0'
+14:34:558	=== Algorithm Segment End ===
+
+14:34:558	=== Algorithm Segment Add: === Trigger === ===
+14:34:558	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '10'
+14:34:558	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER_REF_LEVEL', Value = '24.0'
+14:34:558	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER', Value = '24.0'
+14:34:558	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_UPPER_DELTA', Value = '3.0'
+14:34:558	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_LOWER_DELTA', Value = '3.0'
+14:34:558	=== Algorithm Segment End ===
+
+14:34:558	=== Algorithm Segment Add: Setting power levels before beginning handover ===
+14:34:559	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '10'
+14:34:559	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER', Value = '0.0'
+14:34:559	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER_REF_LEVEL', Value = '0.0'
+14:34:559	=== Algorithm Segment End ===
+
+14:34:559	=== Algorithm Segment Add: Handover Section ===
+14:34:559	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_INIT_MODE', Value = 'SET_VALUE'
+14:34:559	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_CARRIER', Value = 'PCC'
+14:34:559	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_BAND', Value = '42'
+14:34:559	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_TX_POWER_AFTER_RADIO_TUNE', Value = '1'
+14:34:559	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_CH_BANDWIDTH', Value = '10'
+14:34:559	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_OPT_CHANNEL', Value = 'HIGH'
+14:34:559	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_TUNE_NUM_RX_CHAIN', Value = '2'
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UPLINK_ACTIVE', Value = 'TRUE'
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_START', Value = '0'
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_NUMBER_OF', Value = '50'
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MODULATION_TYPE', Value = 'QPSK'
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS04_TABLE_VERSION', Value = '1'
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS05_TABLE_VERSION', Value = '2'
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS06_TABLE_VERSION', Value = '1'
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS12_TABLE_VERSION', Value = '2'
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '50'
+14:34:560	=== Algorithm Segment End ===
+
+14:34:560	=== Algorithm Segment Add: Configure ===
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '10'
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER', Value = '24'
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER_REF_LEVEL', Value = '24'
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MODULATION_TYPE', Value = 'QPSK'
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_START', Value = '0'
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_NUMBER_OF', Value = '50'
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_NS_VALUE', Value = '1'
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_DL_POWER', Value = '-120'
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_UPPER_DELTA', Value = '3'
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_LOWER_DELTA', Value = '3'
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_UPPERLIMIT', Value = '-92'
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_CTON_LOWERLIMIT', Value = '20'
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_TX_EVM_UPPER_LIMIT', Value = '17.5'
+14:34:560	=== Algorithm Segment End ===
+
+14:34:560	=== Algorithm Segment Add: Measure ===
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '25'
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER', Value = ''
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_TX_FREQERROR', Value = ''
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_TX_EVM', Value = ''
+14:34:560	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_SEM', Value = ''
+14:34:561	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_OBW', Value = ''
+14:34:561	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_ACLR', Value = ''
+14:34:561	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_TX_SPECFLATNESS', Value = ''
+14:34:561	=== Algorithm Segment End ===
+
+14:34:561	=== Algorithm Segment Add: Configure ===
+14:34:561	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '10'
+14:34:561	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER', Value = '-36.8'
+14:34:561	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER_REF_LEVEL', Value = '-36.8'
+14:34:561	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_UPPERLIMIT', Value = '-92'
+14:34:561	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_CTON_LOWERLIMIT', Value = '20'
+14:34:561	=== Algorithm Segment End ===
+
+14:34:561	=== Algorithm Segment Add: Measure ===
+14:34:561	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '20'
+14:34:561	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER', Value = ''
+14:34:561	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_TX_EVM', Value = ''
+14:34:561	=== Algorithm Segment End ===
+
+14:34:561	=== Algorithm Segment Add: Handover Section ===
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_INIT_MODE', Value = 'SET_VALUE'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_CARRIER', Value = 'PCC'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_BAND', Value = '42'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_TX_POWER_AFTER_RADIO_TUNE', Value = '1'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_CH_BANDWIDTH', Value = '10'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_OPT_CHANNEL', Value = 'MID'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_TUNE_NUM_RX_CHAIN', Value = '2'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UPLINK_ACTIVE', Value = 'TRUE'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_START', Value = '0'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_NUMBER_OF', Value = '50'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MODULATION_TYPE', Value = 'QPSK'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS04_TABLE_VERSION', Value = '1'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS05_TABLE_VERSION', Value = '2'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS06_TABLE_VERSION', Value = '1'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS12_TABLE_VERSION', Value = '2'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '50'
+14:34:562	=== Algorithm Segment End ===
+
+14:34:562	=== Algorithm Segment Add: Configure ===
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '10'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER', Value = '24'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER_REF_LEVEL', Value = '24'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MODULATION_TYPE', Value = 'QPSK'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_START', Value = '0'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_NUMBER_OF', Value = '50'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_NS_VALUE', Value = '1'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_DL_POWER', Value = '-75'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_RX_LEVEL_LOWER_DELTA', Value = '3'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_RX_LEVEL_UPPER_DELTA', Value = '3'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_UPPERLIMIT', Value = '-92'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_CTON_LOWERLIMIT', Value = '20'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_TX_EVM_UPPER_LIMIT', Value = '17.5'
+14:34:562	=== Algorithm Segment End ===
+
+14:34:562	=== Algorithm Segment Add: Measure ===
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '20'
+14:34:562	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_RX_LEVEL', Value = ''
+14:34:562	=== Algorithm Segment End ===
+
+14:34:562	=== Algorithm Segment Add: Configure ===
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '10'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_DL_POWER', Value = '-71'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_UPPERLIMIT', Value = '-92'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_CTON_LOWERLIMIT', Value = '20'
+14:34:563	=== Algorithm Segment End ===
+
+14:34:563	=== Algorithm Segment Add: Measure ===
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '60'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN', Value = ''
+14:34:563	=== Algorithm Segment End ===
+
+14:34:563	=== Algorithm Segment Add: Handover Section ===
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_INIT_MODE', Value = 'SET_VALUE'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_CARRIER', Value = 'PCC'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_BAND', Value = '42'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_TX_POWER_AFTER_RADIO_TUNE', Value = '1'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_CH_BANDWIDTH', Value = '10'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_OPT_CHANNEL', Value = 'LOW'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_TUNE_NUM_RX_CHAIN', Value = '2'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UPLINK_ACTIVE', Value = 'TRUE'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_START', Value = '0'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_NUMBER_OF', Value = '50'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MODULATION_TYPE', Value = 'QPSK'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS04_TABLE_VERSION', Value = '1'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS05_TABLE_VERSION', Value = '2'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS06_TABLE_VERSION', Value = '1'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_MPR_NS12_TABLE_VERSION', Value = '2'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '50'
+14:34:563	=== Algorithm Segment End ===
+
+14:34:563	=== Algorithm Segment Add: Configure ===
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '10'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER', Value = '24'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER_REF_LEVEL', Value = '24'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MODULATION_TYPE', Value = 'QPSK'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_START', Value = '0'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_PUSCH_RB_NUMBER_OF', Value = '1'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_NS_VALUE', Value = '1'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_UPPER_DELTA', Value = '3'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER_LOWER_DELTA', Value = '3'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_UPPERLIMIT', Value = '-92'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_EST_SEN_CTON_LOWERLIMIT', Value = '20'
+14:34:563	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_TX_EVM_UPPER_LIMIT', Value = '17.5'
+14:34:563	=== Algorithm Segment End ===
+
+14:34:563	=== Algorithm Segment Add: Measure ===
+14:34:564	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '20'
+14:34:564	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_MEAS_UL_POWER', Value = ''
+14:34:564	=== Algorithm Segment End ===
+
+14:34:564	=== Algorithm Segment Add: Setting power levels after running test ===
+14:34:564	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_SEGMENT_DURATION_MS', Value = '10'
+14:34:564	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER', Value = '0.0'
+14:34:564	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_UL_POWER_REF_LEVEL', Value = '0.0'
+14:34:564	=== Algorithm Segment End ===
+
+14:34:564	=== Algorithm Segment Add: === Mobile-CallRelease, EQUIP-RfGenOff === ===
+14:34:564	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_ACTION_CALL_RELEASE', Value = ''
+14:34:564	QSEQ_DataItemList::AddNameValuePair(): Name = 'LTE_ACTION_RF_GEN_OFF', Value = ''
+14:34:564	=== Algorithm Segment End ===
+
+14:34:564	Sequence create time (ms): 16
+14:34:564	Running Sequence...
+14:34:564	== Sequence Executing Algorithm Step: INITIALIZE ==
+14:34:564	===Algorithm Step: (0) SequenceControl ===
+14:34:564	Mobile: DiagTransportMode=QUTS
+14:34:564	Mobile: CommPort=-1
+14:34:601	Mobile: QLIB_IsPhoneConnected(): OK
+14:34:678	===Algorithm Step: (1) Set Initial Radio Configuration ===
+14:34:678	===Algorithm Step: (2) SelfTest Values ===
+14:34:678	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+14:34:678	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+14:34:678	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+14:34:678	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+14:34:680	===Algorithm Step: (7) === Establish LTE FTM RF Call (Start call from PCC) === ===
+14:34:680	===Algorithm Step: (8) === Trigger === ===
+14:34:680	===Algorithm Step: (9) Setting power levels before beginning handover ===
+14:34:680	===Algorithm Step: (10) Handover Section ===
+14:34:680	===Algorithm Step: (11) Configure ===
+14:34:680	===Algorithm Step: (12) Measure ===
+14:34:680	===Algorithm Step: (13) Configure ===
+14:34:680	===Algorithm Step: (14) Measure ===
+14:34:680	===Algorithm Step: (15) Handover Section ===
+14:34:680	===Algorithm Step: (16) Configure ===
+14:34:680	===Algorithm Step: (17) Measure ===
+14:34:680	===Algorithm Step: (18) Configure ===
+14:34:680	===Algorithm Step: (19) Measure ===
+14:34:680	===Algorithm Step: (20) Handover Section ===
+14:34:680	===Algorithm Step: (21) Configure ===
+14:34:680	===Algorithm Step: (22) Measure ===
+14:34:680	===Algorithm Step: (23) Setting power levels after running test ===
+14:34:680	===Algorithm Step: (24) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+14:34:680	=== End Sequence Algorithm Step: INITIALIZE, Duration(ms): 109 ===
+
+
+14:34:680	== Sequence Executing Algorithm Step: PRESEQUENCE ==
+14:34:680	===Algorithm Step: (0) SequenceControl ===
+14:34:683	Sequence Control RFVFS Recommended Radio Allocation Execution Time = 0.509 ms
+14:34:683	===Algorithm Step: (1) Set Initial Radio Configuration ===
+14:34:683	===Algorithm Step: (2) SelfTest Values ===
+14:34:683	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+14:34:683	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+14:34:683	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+14:34:711	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+14:34:713	Sequence Control RFVFS Recommended Radio Allocation Execution Time = 0.516 ms
+14:34:714	===Algorithm Step: (7) === Establish LTE FTM RF Call (Start call from PCC) === ===
+14:34:714	===Algorithm Step: (8) === Trigger === ===
+14:34:714	===Algorithm Step: (9) Setting power levels before beginning handover ===
+14:34:714	===Algorithm Step: (10) Handover Section ===
+14:34:714	===Algorithm Step: (11) Configure ===
+14:34:714	===Algorithm Step: (12) Measure ===
+14:34:714	===Algorithm Step: (13) Configure ===
+14:34:714	===Algorithm Step: (14) Measure ===
+14:34:714	===Algorithm Step: (15) Handover Section ===
+14:34:714	===Algorithm Step: (16) Configure ===
+14:34:714	===Algorithm Step: (17) Measure ===
+14:34:714	===Algorithm Step: (18) Configure ===
+14:34:714	===Algorithm Step: (19) Measure ===
+14:34:714	===Algorithm Step: (20) Handover Section ===
+14:34:714	===Algorithm Step: (21) Configure ===
+14:34:714	===Algorithm Step: (22) Measure ===
+14:34:714	===Algorithm Step: (23) Setting power levels after running test ===
+14:34:714	===Algorithm Step: (24) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+14:34:714	=== End Sequence Algorithm Step: PRESEQUENCE, Duration(ms): 31 ===
+
+
+14:34:714	== Sequence Executing Algorithm Step: CONFIGURE ==
+14:34:714	===Algorithm Step: (0) SequenceControl ===
+14:34:714	QLIB_GetLibraryVersion(), Status=[n/a] [ QMSL Library Version: QLIB V6.1.440,QUTS ]
+14:34:714	QLIB_DIAG_SetPhoneLoggingState(), Status=1
+14:34:714	QLIB_FTM_SEQ_SetSequencerMode(): Status: 1
+14:34:715	QLIB_DIAG_VERNO_F(): Status: 1
+14:34:715	DeviceInfo: Mobile: Compile Date Time: May 26 2021 12:25:37
+14:34:715	DeviceInfo: Mobile: Release Date Time: May 04 2021 17:00:00
+14:34:715	DeviceInfo: Mobile: Version Directory: sdx55.cp
+14:34:715	DeviceInfo: Mobile: Station Class Mark (SCM): 42
+14:34:715	DeviceInfo: Mobile: CAI rev: 9
+14:34:715	DeviceInfo: Mobile: Mobile Model: 255
+14:34:715	DeviceInfo: Mobile: Firmware Rev: 100
+14:34:715	DeviceInfo: Mobile: Slot Cycle Index: 48
+14:34:715	DeviceInfo: Mobile: Vocoder major-minor version: 0.207
+14:34:716	QLIB_DIAG_EXT_BUILD_ID_F(): Status: 1
+14:34:716	DeviceInfo: Mobile: MSM_HW_Version: 0xCF2
+14:34:716	DeviceInfo: Mobile: MobModel: 0x14E
+14:34:716	DeviceInfo: Mobile: MobSwRev: MPSS.HI.2.0.3-00217-SDX55_CPEALL_PACK-1
+14:34:716	DeviceInfo: Mobile: ModelStr: 
+14:34:717	QLIB_DIAG_READ_ESN_F(): Status: 1
+14:34:717	DeviceInfo: Mobile: ESN: 0x0
+14:34:721	DeviceInfo: Equipment: Rohde&Schwarz,CMW,1201.0002k06/116992,3.8.12
+14:34:763	DeviceInfo: Equipment: KM800_C2K: "V3.8.11"
+14:34:766	DeviceInfo: Equipment: KM200_EDGE: "V3.8.11"
+14:34:769	DeviceInfo: Equipment: KM400_WCDMA: "V3.8.11"
+14:34:772	DeviceInfo: Equipment:  "V3.8.13" KM500_LTE_FDD is present. KM550_LTE_TDD is present. KM504_LTE_FDD is present. KM554_LTE_TDD is present.
+14:34:775	DeviceInfo: Equipment: CMW_GPRF_Gen: "V3.8.11"
+14:34:778	DeviceInfo: Equipment: CMW1xx_BASE: "V3.8.12"
+14:34:786	===Algorithm Step: (1) Set Initial Radio Configuration ===
+14:34:786	===Algorithm Step: (2) SelfTest Values ===
+14:34:786	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+14:34:786	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+14:34:786	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+14:34:786	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+14:34:786	QLIB_GetLibraryVersion(), Status=[n/a] [ QMSL Library Version: QLIB V6.1.440,QUTS ]
+14:34:786	QLIB_DIAG_SetPhoneLoggingState(), Status=1
+14:34:786	QLIB_FTM_SEQ_SetSequencerMode(): Status: 1
+14:34:787	QLIB_DIAG_VERNO_F(): Status: 1
+14:34:787	DeviceInfo: Mobile: Compile Date Time: May 26 2021 12:25:37
+14:34:787	DeviceInfo: Mobile: Release Date Time: May 04 2021 17:00:00
+14:34:787	DeviceInfo: Mobile: Version Directory: sdx55.cp
+14:34:787	DeviceInfo: Mobile: Station Class Mark (SCM): 42
+14:34:787	DeviceInfo: Mobile: CAI rev: 9
+14:34:787	DeviceInfo: Mobile: Mobile Model: 255
+14:34:787	DeviceInfo: Mobile: Firmware Rev: 100
+14:34:787	DeviceInfo: Mobile: Slot Cycle Index: 48
+14:34:787	DeviceInfo: Mobile: Vocoder major-minor version: 0.207
+14:34:787	QLIB_DIAG_EXT_BUILD_ID_F(): Status: 1
+14:34:787	DeviceInfo: Mobile: MSM_HW_Version: 0xCF2
+14:34:787	DeviceInfo: Mobile: MobModel: 0x14E
+14:34:787	DeviceInfo: Mobile: MobSwRev: MPSS.HI.2.0.3-00217-SDX55_CPEALL_PACK-1
+14:34:787	DeviceInfo: Mobile: ModelStr: 
+14:34:788	QLIB_DIAG_READ_ESN_F(): Status: 1
+14:34:788	DeviceInfo: Mobile: ESN: 0x0
+14:34:790	QLIB_FTM_SEQ_ActivateBatchMode (): Status: 1
+14:34:790	QLIB_FTM_SEQ_SetPayloadType (): Status: 1
+14:34:790	QLIB_FTM_SEQ_SetResponseType (): Status: 1
+14:34:790	QLIB_FTM_SEQ_Resize_Command_Buffer (2000): Status: 1
+14:34:791	QLIB_FTM_SEQ_CLEAR_QUEUE (): Status: 1
+14:34:793	===Algorithm Step: (7) === Establish LTE FTM RF Call (Start call from PCC) === ===
+14:34:796	RRA Execution Time: 0.747
+14:34:796	[0] QLIB_FTM_SEQ_ADD_TIMING_MARKER(): Status: 1
+14:35:081	===Algorithm Step: (8) === Trigger === ===
+14:35:081	[1] QLIB_FTM_SEQ_ADD_WAIT(10000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:35:112	===Algorithm Step: (9) Setting power levels before beginning handover ===
+14:35:112	[2] QLIB_FTM_SEQ_ADD_WAIT(10000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:35:140	===Algorithm Step: (10) Handover Section ===
+14:35:140	[3] QLIB_FTM_SEQ_ADD_WAIT(50000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:35:168	===Algorithm Step: (11) Configure ===
+14:35:169	[4] QLIB_FTM_SEQ_ADD_WAIT(10000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:35:197	===Algorithm Step: (12) Measure ===
+14:35:197	[5] QLIB_FTM_SEQ_ADD_WAIT(25000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:35:225	===Algorithm Step: (13) Configure ===
+14:35:226	[6] QLIB_FTM_SEQ_ADD_WAIT(10000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:35:254	===Algorithm Step: (14) Measure ===
+14:35:254	[7] QLIB_FTM_SEQ_ADD_WAIT(20000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:35:283	===Algorithm Step: (15) Handover Section ===
+14:35:286	Measure RFVFS Recommended Radio Allocation Execution Time = 0.837 ms
+14:35:290	[8] QLIB_FTM_SEQ_ADD_WAIT(50000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:35:318	===Algorithm Step: (16) Configure ===
+14:35:318	[9] QLIB_FTM_SEQ_ADD_WAIT(10000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:35:346	===Algorithm Step: (17) Measure ===
+14:35:346	[10] QLIB_FTM_SEQ_ADD_WAIT(3000), Status=1
+14:35:346	[11] QLIB_FTM_SEQ_ADD_WAIT(0), Status=1
+14:35:346	[12] QLIB_FTM_SEQ_ADD_WAIT(17000 micro seconds): Status: 1 [Pad FINAL]
+14:35:375	===Algorithm Step: (18) Configure ===
+14:35:375	[13] QLIB_FTM_SEQ_ADD_WAIT(10000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:35:402	===Algorithm Step: (19) Measure ===
+14:35:402	[14] QLIB_FTM_SEQ_ADD_WAIT(0), Status=1
+14:35:402	[15] QLIB_FTM_SEQ_ADD_WAIT(60000 micro seconds): Status: 1 [Pad FINAL]
+14:35:431	===Algorithm Step: (20) Handover Section ===
+14:35:435	Measure RFVFS Recommended Radio Allocation Execution Time = 0.639 ms
+14:35:435	[16] QLIB_FTM_SEQ_ADD_WAIT(50000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:35:463	===Algorithm Step: (21) Configure ===
+14:35:463	[17] QLIB_FTM_SEQ_ADD_WAIT(10000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:35:495	===Algorithm Step: (22) Measure ===
+14:35:499	[18] QLIB_FTM_SEQ_ADD_WAIT(20000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:35:531	===Algorithm Step: (23) Setting power levels after running test ===
+14:35:532	[19] QLIB_FTM_SEQ_ADD_WAIT(10000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+14:35:563	===Algorithm Step: (24) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+14:35:563	[20] QLIB_FTM_SEQ_ADD_WAIT(5000 micro seconds): Status: 1
+14:35:563	Segment Duration Total     = 375 ms
+14:35:563	MELM Measurement Time Total= 65 ms
+14:35:563	Segment Subframe Total= 375 
+14:35:563	Segment Number Total= 16 
+14:35:626	=== End Sequence Algorithm Step: CONFIGURE, Duration(ms): 922 ===
+
+
+14:35:626	== Sequence Executing Algorithm Step: EXECUTE ==
+14:35:626	===Algorithm Step: (0) SequenceControl ===
+14:35:626	===Algorithm Step: (1) Set Initial Radio Configuration ===
+14:35:626	===Algorithm Step: (2) SelfTest Values ===
+14:35:626	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+14:35:626	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+14:35:626	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+14:35:626	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+14:35:626	FTM_SequencerTimeout AUTO-SET: Start[5000] + Measure(sum)[375] + Stop[1000] = 6375 ms
+14:35:626	QLIB_ConfigureTimeOut ( FTM_Sequencer= 6375 ms ): Status: 1
+14:36:511	===Algorithm Step: (7) === Establish LTE FTM RF Call (Start call from PCC) === ===
+14:36:512	===Algorithm Step: (8) === Trigger === ===
+14:36:512	===Algorithm Step: (9) Setting power levels before beginning handover ===
+14:36:512	===Algorithm Step: (10) Handover Section ===
+14:36:512	===Algorithm Step: (11) Configure ===
+14:36:512	===Algorithm Step: (12) Measure ===
+14:36:512	===Algorithm Step: (13) Configure ===
+14:36:512	===Algorithm Step: (14) Measure ===
+14:36:512	===Algorithm Step: (15) Handover Section ===
+14:36:512	===Algorithm Step: (16) Configure ===
+14:36:512	===Algorithm Step: (17) Measure ===
+14:36:512	===Algorithm Step: (18) Configure ===
+14:36:512	===Algorithm Step: (19) Measure ===
+14:36:512	===Algorithm Step: (20) Handover Section ===
+14:36:512	===Algorithm Step: (21) Configure ===
+14:36:512	===Algorithm Step: (22) Measure ===
+14:36:512	===Algorithm Step: (23) Setting power levels after running test ===
+14:36:512	===Algorithm Step: (24) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+14:36:512	=== End Sequence Algorithm Step: EXECUTE, Duration(ms): 875 ===
+
+
+14:36:512	== Sequence Executing Algorithm Step: COLLECT ==
+14:36:512	===Algorithm Step: (0) SequenceControl ===
+14:36:512	===Algorithm Step: (1) Set Initial Radio Configuration ===
+14:36:512	===Algorithm Step: (2) SelfTest Values ===
+14:36:512	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+14:36:512	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+14:36:512	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+14:36:512	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+14:36:512	QLIB_FTM_SEQ_EXECUTE_QUEUE(): Status=255,FTM_EC=0,Comp=1 [SegTime= 375 ms, TotalTime=-368179000]
+14:36:515	QLIB_FTM_SEQ_DeactivateBatchMode(): Status = 1
+14:36:515	===Algorithm Step: (7) === Establish LTE FTM RF Call (Start call from PCC) === ===
+14:36:515	Rx Measurement Freq Error Hz: 17026.000
+14:36:517	CMW FETCH:STATUS queries=1 [0 msec]
+14:36:520	===Algorithm Step: (8) === Trigger === ===
+14:36:520	===Algorithm Step: (9) Setting power levels before beginning handover ===
+14:36:520	===Algorithm Step: (10) Handover Section ===
+14:36:520	===Algorithm Step: (11) Configure ===
+14:36:520	===Algorithm Step: (12) Measure ===
+14:36:552	===Algorithm Step: (13) Configure ===
+14:36:552	===Algorithm Step: (14) Measure ===
+14:36:558	===Algorithm Step: (15) Handover Section ===
+14:36:558	Rx Measurement Freq Error Hz:  16586.000
+14:36:558	===Algorithm Step: (16) Configure ===
+14:36:558	===Algorithm Step: (17) Measure ===
+14:36:558	===Algorithm Step: (18) Configure ===
+14:36:558	===Algorithm Step: (19) Measure ===
+14:36:559	===Algorithm Step: (20) Handover Section ===
+14:36:559	Rx Measurement Freq Error Hz:  16147.000
+14:36:559	===Algorithm Step: (21) Configure ===
+14:36:559	===Algorithm Step: (22) Measure ===
+14:36:565	===Algorithm Step: (23) Setting power levels after running test ===
+14:36:565	===Algorithm Step: (24) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+14:36:575	=== End Sequence Algorithm Step: COLLECT, Duration(ms): 63 ===
+
+
+14:36:575	== Sequence Executing Algorithm Step: PROCESS ==
+14:36:575	===Algorithm Step: (0) SequenceControl ===
+14:36:575	===Algorithm Step: (1) Set Initial Radio Configuration ===
+14:36:575	===Algorithm Step: (2) SelfTest Values ===
+14:36:575	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+14:36:575	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+14:36:575	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+14:36:575	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+14:36:575	===Algorithm Step: (7) === Establish LTE FTM RF Call (Start call from PCC) === ===
+14:36:575	===Algorithm Step: (8) === Trigger === ===
+14:36:575	===Algorithm Step: (9) Setting power levels before beginning handover ===
+14:36:575	===Algorithm Step: (10) Handover Section ===
+14:36:575	===Algorithm Step: (11) Configure ===
+14:36:575	===Algorithm Step: (12) Measure ===
+14:36:575	===Algorithm Step: (13) Configure ===
+14:36:575	===Algorithm Step: (14) Measure ===
+14:36:575	===Algorithm Step: (15) Handover Section ===
+14:36:575	===Algorithm Step: (16) Configure ===
+14:36:575	===Algorithm Step: (17) Measure ===
+14:36:575	===Algorithm Step: (18) Configure ===
+14:36:575	===Algorithm Step: (19) Measure ===
+14:36:575	===Algorithm Step: (20) Handover Section ===
+14:36:575	===Algorithm Step: (21) Configure ===
+14:36:575	===Algorithm Step: (22) Measure ===
+14:36:575	===Algorithm Step: (23) Setting power levels after running test ===
+14:36:575	===Algorithm Step: (24) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+14:36:575	=== End Sequence Algorithm Step: PROCESS, Duration(ms): 0 ===
+
+
+14:36:575	== Sequence Executing Algorithm Step: REPORT ==
+14:36:575	===Algorithm Step: (0) SequenceControl ===
+14:36:575	===Algorithm Step: (1) Set Initial Radio Configuration ===
+14:36:575	===Algorithm Step: (2) SelfTest Values ===
+14:36:575	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+14:36:575	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+14:36:575	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+14:36:575	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+14:36:575	RFVFS CommonSequenceControl MOB: === Cached Data ====================================
+14:36:575	RFVFS CommonSequenceControl MOB: m_Cache.Conf.usFTM_EC_ClearQueue  = 0
+14:36:575	RFVFS CommonSequenceControl MOB: m_Cache.Exe.usFTM_EC_Execute      = 0
+14:36:575	RFVFS CommonSequenceControl MOB: m_Cache.Exe.ucSequenceCompleted   = 1
+14:36:575	RFVFS CommonSequenceControl MOB: ==============
+14:36:575	===Algorithm Step: (7) === Establish LTE FTM RF Call (Start call from PCC) === ===
+14:36:575	RFVFS LTE Start MOB: Report: === Cached Data ====================================
+14:36:575	RFVFS LTE Start MOB: Report: m_Cache.TimingMarker.usFTM_EC                                    = 0
+14:36:575	RFVFS LTE Start MOB: ==============
+14:36:575	RFVFS LTE Execution Time Segment ID = 7, Time Delta= -19.065 ms
+14:36:576	RFVFS LTE Command Execution Time = 0.053 ms
+14:36:576	RFVFS LTE Command Execution Time = 20.672 ms
+14:36:576	RFVFS LTE Command Execution Time = 0.340 ms
+14:36:576	===Algorithm Step: (8) === Trigger === ===
+14:36:576	RFVFS LTE Measure MOB: === Cached Data ===
+14:36:576	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:36:576	RFVFS LTE Execution Time Segment ID = 8, Time Delta= 9.985 ms
+14:36:576	RFVFS LTE Command Execution Time = 0.015 ms
+14:36:576	===Algorithm Step: (9) Setting power levels before beginning handover ===
+14:36:576	RFVFS LTE Measure MOB: === Cached Data ===
+14:36:576	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:36:576	RFVFS LTE Execution Time Segment ID = 9, Time Delta= 9.982 ms
+14:36:576	RFVFS LTE Command Execution Time = 0.018 ms
+14:36:576	===Algorithm Step: (10) Handover Section ===
+14:36:576	RFVFS LTE Measure MOB: === Cached Data ===
+14:36:576	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:36:576	===Algorithm Step: (11) Configure ===
+14:36:576	RFVFS LTE Measure MOB: === Cached Data ===
+14:36:576	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:36:576	RFVFS LTE Execution Time Segment ID = 11, Time Delta= 9.982 ms
+14:36:577	RFVFS LTE Command Execution Time = 0.018 ms
+14:36:577	===Algorithm Step: (12) Measure ===
+14:36:577	RFVFS LTE Measure MOB: === Cached Data ===
+14:36:577	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:36:577	RFVFS LTE Measure EQP: TestName,Ref = LTE_MaxPower, 3GPP 36.521 6.2.3
+14:36:577	RFVFS LTE Measure EQP: MPR          = 1.00
+14:36:577	RFVFS LTE Measure EQP: UL_Power(avg)= OK,22.35 [19.00, 25.00, PASS]
+14:36:577	RFVFS LTE Measure EQP: UL_Power(min)= OK,22.35 [19.00, ---, PASS]
+14:36:577	RFVFS LTE Measure EQP: UL_Power(max)= OK,22.36 [---, 25.00, PASS]
+14:36:578	RFVFS LTE Measure EQP: EVM          = OK,2.28,2.40 [---, 17.50, PASS]
+14:36:578	RFVFS LTE Measure EQP: EVM(DMRS)    = OK,1.47,1.70 [---, 17.50, PASS]
+14:36:578	RFVFS LTE Measure EQP: Initial FreqErr (ppm) = OK,4.742144 
+14:36:578	RFVFS LTE Measure EQP: FreqErr (ppm) average = OK,0.0004 [-0.1000, 0.1000, PASS]
+14:36:578	RFVFS LTE Measure EQP: FreqErr (ppm) worst   = OK,0.0007 [-0.1000, 0.1000, PASS]
+14:36:578	RFVFS LTE Measure EQP: Spectrum Flatness R1  = OK,0.59 [4.0000, PASS]
+14:36:578	RFVFS LTE Measure EQP: Spectrum Flatness R2  = OK,0.27 [8.0000, PASS]
+14:36:578	RFVFS LTE Measure EQP: Spectrum Flatness R12  = OK,0.58 [5.0000, PASS]
+14:36:578	RFVFS LTE Measure EQP: Spectrum Flatness R21  = OK,0.28 [7.0000, PASS]
+14:36:579	RFVFS LTE Measure EQP: OBW (MHz)    = OK,8.93 [---, 10.00, PASS]
+14:36:579	RFVFS LTE Measure EQP: SEM (dB)     = OK,-36.24,-24.72,-32.54,-41.03,-41.02,-29.89,-24.79,-34.45
+14:36:580	RFVFS LTE Measure EQP: ACLR (dB)    = OK,54.76,52.88,47.63,45.54,50.91,53.84
+14:36:582	===Algorithm Step: (13) Configure ===
+14:36:582	RFVFS LTE Measure MOB: === Cached Data ===
+14:36:582	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:36:582	RFVFS LTE Execution Time Segment ID = 13, Time Delta= 9.982 ms
+14:36:582	RFVFS LTE Command Execution Time = 0.018 ms
+14:36:582	===Algorithm Step: (14) Measure ===
+14:36:582	RFVFS LTE Measure MOB: === Cached Data ===
+14:36:582	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:36:582	RFVFS LTE Measure EQP: MPR          = 0.00
+14:36:582	RFVFS LTE Measure EQP: UL_Power(avg)= OK,-37.28 [-39.80, -33.80, PASS]
+14:36:582	RFVFS LTE Measure EQP: UL_Power(min)= OK,-37.28 [-39.80, ---, PASS]
+14:36:582	RFVFS LTE Measure EQP: UL_Power(max)= OK,-37.27 [---, -33.80, PASS]
+14:36:583	RFVFS LTE Measure EQP: EVM          = OK,2.68,2.79 [---, 17.50, PASS]
+14:36:583	RFVFS LTE Measure EQP: EVM(DMRS)    = OK,1.84,2.17 [---, 17.50, PASS]
+14:36:584	===Algorithm Step: (15) Handover Section ===
+14:36:584	RFVFS LTE Measure MOB: === Cached Data ===
+14:36:584	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:36:584	RFVFS LTE Execution Time Segment ID = 15, Time Delta= 8.134 ms
+14:36:584	RFVFS LTE Command Execution Time = 21.500 ms
+14:36:584	RFVFS LTE Command Execution Time = 20.027 ms
+14:36:584	RFVFS LTE Command Execution Time = 0.339 ms
+14:36:584	===Algorithm Step: (16) Configure ===
+14:36:584	RFVFS LTE Measure MOB: === Cached Data ===
+14:36:584	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:36:584	RFVFS LTE Execution Time Segment ID = 16, Time Delta= 9.981 ms
+14:36:584	RFVFS LTE Command Execution Time = 0.019 ms
+14:36:584	===Algorithm Step: (17) Measure ===
+14:36:584	RFVFS LTE Measure MOB: === Cached Data ===
+14:36:584	RFVFS LTE Measure MOB: m_Cache.Timing_End.usFTM_EC_AddWait       = 0
+14:36:584	RFVFS LTE Measure MOB: Rx0-Rx_Level = -75.20 [-78.00, -72.00 PASS]
+14:36:584	RFVFS LTE Measure MOB: Rx1-Rx_Level = -74.30 [-78.00, -72.00 PASS]
+14:36:585	RFVFS LTE Execution Time Segment ID = 17, Time Delta= 2.459 ms
+14:36:585	RFVFS LTE Command Execution Time = 3.046 ms
+14:36:585	RFVFS LTE Command Execution Time = 14.495 ms
+14:36:585	===Algorithm Step: (18) Configure ===
+14:36:585	RFVFS LTE Measure MOB: === Cached Data ===
+14:36:585	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:36:585	===Algorithm Step: (19) Measure ===
+14:36:585	RFVFS LTE Measure MOB: === Cached Data ===
+14:36:585	RFVFS LTE Measure MOB: m_Cache.Timing_End.usFTM_EC_AddWait       = 0
+14:36:585	======Rx Chain 0======
+14:36:585	RFVFS LTE Measure MOB: Rx Estimated Sensitivity = -100.11 [---, -92.00 PASS]
+14:36:585	RFVFS LTE Measure MOB: Rx CtoN    = 28.11[20.00 PASS, ---]
+14:36:585	RFVFS LTE Measure MOB: Rx AGC    = -70.60
+14:36:586	======Rx Chain 1======
+14:36:586	RFVFS LTE Measure MOB: Rx Estimated Sensitivity = -101.00 [---, -92.00 PASS]
+14:36:586	RFVFS LTE Measure MOB: Rx CtoN    = 29.00[20.00 PASS, ---]
+14:36:586	RFVFS LTE Measure MOB: Rx AGC    = -70.30
+14:36:587	RFVFS LTE Execution Time Segment ID = 19, Time Delta= 15.683 ms
+14:36:587	RFVFS LTE Command Execution Time = 44.317 ms
+14:36:587	===Algorithm Step: (20) Handover Section ===
+14:36:587	RFVFS LTE Measure MOB: === Cached Data ===
+14:36:587	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:36:587	RFVFS LTE Execution Time Segment ID = 20, Time Delta= 8.603 ms
+14:36:587	RFVFS LTE Command Execution Time = 20.399 ms
+14:36:588	RFVFS LTE Command Execution Time = 20.659 ms
+14:36:588	RFVFS LTE Command Execution Time = 0.339 ms
+14:36:588	===Algorithm Step: (21) Configure ===
+14:36:588	RFVFS LTE Measure MOB: === Cached Data ===
+14:36:588	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:36:588	RFVFS LTE Execution Time Segment ID = 21, Time Delta= 6.733 ms
+14:36:588	RFVFS LTE Command Execution Time = 3.267 ms
+14:36:588	===Algorithm Step: (22) Measure ===
+14:36:588	RFVFS LTE Measure MOB: === Cached Data ===
+14:36:588	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:36:588	RFVFS LTE Measure EQP: TestName,Ref = LTE_MaxPower, 3GPP 36.521 6.2.3
+14:36:588	RFVFS LTE Measure EQP: MPR          = 0.00
+14:36:588	RFVFS LTE Measure EQP: UL_Power(avg)= OK,22.21 [20.00, 26.00, PASS]
+14:36:588	RFVFS LTE Measure EQP: UL_Power(min)= OK,22.21 [20.00, ---, PASS]
+14:36:588	RFVFS LTE Measure EQP: UL_Power(max)= OK,22.26 [---, 26.00, PASS]
+14:36:589	===Algorithm Step: (23) Setting power levels after running test ===
+14:36:589	RFVFS LTE Measure MOB: === Cached Data ===
+14:36:589	RFVFS LTE Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+14:36:589	RFVFS LTE Execution Time Segment ID = 23, Time Delta= 9.982 ms
+14:36:589	RFVFS LTE Command Execution Time = 0.018 ms
+14:36:589	===Algorithm Step: (24) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+14:36:589	RFVFS LTE Execution Time Segment ID = 24, Time Delta= -2.518 ms
+14:36:589	RFVFS LTE Command Execution Time = 12.518 ms
+14:36:589	=== End Sequence Algorithm Step: REPORT, Duration(ms): 15 ===
+
+
+14:36:590	== Sequence Executing Algorithm Step: POSTSEQUENCE ==
+14:36:590	===Algorithm Step: (0) SequenceControl ===
+14:36:590	===Algorithm Step: (1) Set Initial Radio Configuration ===
+14:36:590	===Algorithm Step: (2) SelfTest Values ===
+14:36:590	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+14:36:590	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+14:36:590	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+14:36:590	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+14:36:590	===Algorithm Step: (7) === Establish LTE FTM RF Call (Start call from PCC) === ===
+14:36:590	===Algorithm Step: (8) === Trigger === ===
+14:36:590	===Algorithm Step: (9) Setting power levels before beginning handover ===
+14:36:590	===Algorithm Step: (10) Handover Section ===
+14:36:590	===Algorithm Step: (11) Configure ===
+14:36:590	===Algorithm Step: (12) Measure ===
+14:36:590	===Algorithm Step: (13) Configure ===
+14:36:590	===Algorithm Step: (14) Measure ===
+14:36:590	===Algorithm Step: (15) Handover Section ===
+14:36:590	===Algorithm Step: (16) Configure ===
+14:36:590	===Algorithm Step: (17) Measure ===
+14:36:590	===Algorithm Step: (18) Configure ===
+14:36:590	===Algorithm Step: (19) Measure ===
+14:36:590	===Algorithm Step: (20) Handover Section ===
+14:36:590	===Algorithm Step: (21) Configure ===
+14:36:590	===Algorithm Step: (22) Measure ===
+14:36:590	===Algorithm Step: (23) Setting power levels after running test ===
+14:36:590	===Algorithm Step: (24) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+14:36:590	=== End Sequence Algorithm Step: POSTSEQUENCE, Duration(ms): 0 ===
+
+
+14:36:590	== Sequence Executing Algorithm Step: SHUTDOWN ==
+14:36:590	===Algorithm Step: (0) SequenceControl ===
+14:36:608	===Algorithm Step: (1) Set Initial Radio Configuration ===
+14:36:608	===Algorithm Step: (2) SelfTest Values ===
+14:36:608	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+14:36:608	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+14:36:608	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+14:36:608	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+14:36:608	===Algorithm Step: (7) === Establish LTE FTM RF Call (Start call from PCC) === ===
+14:36:608	===Algorithm Step: (8) === Trigger === ===
+14:36:608	===Algorithm Step: (9) Setting power levels before beginning handover ===
+14:36:608	===Algorithm Step: (10) Handover Section ===
+14:36:608	===Algorithm Step: (11) Configure ===
+14:36:608	===Algorithm Step: (12) Measure ===
+14:36:608	===Algorithm Step: (13) Configure ===
+14:36:608	===Algorithm Step: (14) Measure ===
+14:36:608	===Algorithm Step: (15) Handover Section ===
+14:36:608	===Algorithm Step: (16) Configure ===
+14:36:608	===Algorithm Step: (17) Measure ===
+14:36:608	===Algorithm Step: (18) Configure ===
+14:36:608	===Algorithm Step: (19) Measure ===
+14:36:608	===Algorithm Step: (20) Handover Section ===
+14:36:608	===Algorithm Step: (21) Configure ===
+14:36:608	===Algorithm Step: (22) Measure ===
+14:36:608	===Algorithm Step: (23) Setting power levels after running test ===
+14:36:608	===Algorithm Step: (24) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+14:36:608	=== End Sequence Algorithm Step: SHUTDOWN, Duration(ms): 32 ===
+
+
+14:36:608	 Sequence create duration(ms): 16
+14:36:608	Sequence runtime duration(ms): 2047
+14:36:608	      INITIALIZE duration(ms): 109
+14:36:608	     PRESEQUENCE duration(ms): 31
+14:36:608	       CONFIGURE duration(ms): 922
+14:36:608	         EXECUTE duration(ms): 875
+14:36:608	         COLLECT duration(ms): 63
+14:36:608	         PROCESS duration(ms): 0
+14:36:608	          REPORT duration(ms): 15
+14:36:608	    POSTSEQUENCE duration(ms): 0
+14:36:608	        SHUTDOWN duration(ms): 32
+14:36:608	
+14:36:608	Last Error code: 0, Last Error Text: No Error
+
+14:36:608	SubErrorName : SYSTEM__COMMON__NO_ERROR
+14:36:608	SubErrorCode : 0000
+
+14:36:699	Log DeviceGroup1 result to C:\Qualcomm\Log\C0500-2021_07_02-NC700_1_3_4_5_RF\UserDefine--2021_07_02_15_14_30_052-L-.xml
+14:36:780	[HTML]: C:\Qualcomm\Log\C0500-2021_07_02-NC700_1_3_4_5_RF\UserDefine--2021_07_02_15_14_30_052-L-.html
+14:36:780	Stop Log

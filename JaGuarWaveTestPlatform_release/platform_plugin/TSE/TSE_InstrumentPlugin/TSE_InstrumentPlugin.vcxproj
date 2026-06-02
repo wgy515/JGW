@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F3986E68-BABC-44F2-BD65-614ACC5BE2CE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TSE_InstrumentPlugin</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\debug\exec_debug\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\release\exec_release\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;TSE_INSTRUMENTPLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)platform_core\include;$(SolutionDir)platform_plugin\include;$(SolutionDir)platform_library\include;$(SolutionDir)platform_app\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\lib\library;$(SolutionDir)\lib\core;$(SolutionDir)\platform_core_lib\common;$(SolutionDir)platform_core_lib\poco;$(SolutionDir)lib\plugin</AdditionalLibraryDirectories>
+      <DelayLoadDLLs>sicl32.dll;visa32.dll</DelayLoadDLLs>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y  $(SolutionDir)bin\debug\exec_debug\$(TargetName)$(TargetExt) 	$(SolutionDir)bin\debug\exec\$(TargetName)$(TargetExt)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;TSE_INSTRUMENTPLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)platform_core\include;$(SolutionDir)platform_plugin\include;$(SolutionDir)platform_library\include;$(SolutionDir)platform_app\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)\lib\library;$(SolutionDir)\lib\core;$(SolutionDir)\platform_core_lib\common;$(SolutionDir)platform_core_lib\poco;$(SolutionDir)lib\plugin</AdditionalLibraryDirectories>
+      <DelayLoadDLLs>sicl32.dll;visa32.dll</DelayLoadDLLs>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y  $(SolutionDir)bin\release\exec_release\$(TargetName)$(TargetExt) 	$(SolutionDir)bin\release\exec\$(TargetName)$(TargetExt)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CJGW_InstrumentCommandGroupConfig.h" />
+    <ClInclude Include="CJGW_TSEIntrument.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="truntable\SCLLibHelper.h" />
+    <ClInclude Include="truntable\TSE_CloseTruntable.h" />
+    <ClInclude Include="truntable\TSE_OpenTruntable.h" />
+    <ClInclude Include="truntable\TSE_SettingTruntable.h" />
+    <ClInclude Include="TSE_CheckQueryInstrumentCommand.h" />
+    <ClInclude Include="TSE_CloseInstrument.h" />
+    <ClInclude Include="TSE_FetchResultInstrumentCommand.h" />
+    <ClInclude Include="TSE_GetRFConfigLoss.h" />
+    <ClInclude Include="TSE_LoadWlanLossConfig.h" />
+    <ClInclude Include="TSE_MultiWriteInstrumentCommand.h" />
+    <ClInclude Include="TSE_OpenInstrumentGPIB.h" />
+    <ClInclude Include="TSE_OpenInstrumentVISA.h" />
+    <ClInclude Include="TSE_ParseP760RssiTestResult.h" />
+    <ClInclude Include="TSE_ReadInstrumentVoltageCurrent.h" />
+    <ClInclude Include="TSE_WriteInstrumentCommand.h" />
+    <ClInclude Include="TSE_WriteInstrumentRawCommand.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CJGW_InstrumentCommandGroupConfig.cpp" />
+    <ClCompile Include="CJGW_TSEIntrument.cpp" />
+    <ClCompile Include="dllmain.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="truntable\SCLLibHelper.cpp" />
+    <ClCompile Include="truntable\TSE_CloseTruntable.cpp" />
+    <ClCompile Include="truntable\TSE_OpenTruntable.cpp" />
+    <ClCompile Include="truntable\TSE_SettingTruntable.cpp" />
+    <ClCompile Include="TSE_CheckQueryInstrumentCommand.cpp" />
+    <ClCompile Include="TSE_CloseInstrument.cpp" />
+    <ClCompile Include="TSE_FetchResultInstrumentCommand.cpp" />
+    <ClCompile Include="TSE_GetRFConfigLoss.cpp" />
+    <ClCompile Include="TSE_InstrumentPlugin.cpp" />
+    <ClCompile Include="TSE_LoadWlanLossConfig.cpp" />
+    <ClCompile Include="TSE_MultiWriteInstrumentCommand.cpp" />
+    <ClCompile Include="TSE_OpenInstrumentGPIB.cpp" />
+    <ClCompile Include="TSE_OpenInstrumentVISA.cpp" />
+    <ClCompile Include="TSE_ParseP760RssiTestResult.cpp" />
+    <ClCompile Include="TSE_ReadInstrumentVoltageCurrent.cpp" />
+    <ClCompile Include="TSE_WriteInstrumentCommand.cpp" />
+    <ClCompile Include="TSE_WriteInstrumentRawCommand.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

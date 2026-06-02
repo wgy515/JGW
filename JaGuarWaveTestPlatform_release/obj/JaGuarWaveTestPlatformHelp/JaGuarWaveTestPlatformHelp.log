@@ -1,0 +1,45 @@
+﻿生成启动时间为 2025/8/27 11:20:37。
+     1>项目“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_app\module\JaGuarWaveTestPlatformHelp\JaGuarWaveTestPlatformHelp.vcxproj”在节点 5 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWaveTestPlatformHelp\JaGuarWaveTestPlatformHelp.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWaveTestPlatformHelp\JaGuarWaveTestPlatformHelp.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\platform_library\include\\" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\platform_plugin\include\\" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_app\module\JaGuarWaveTestPlatformHelp\\" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\platform_update\include\\" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_ui\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D JAGUARWAVETESTPLATFORMHELP_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWaveTestPlatformHelp\JaGuarWaveTestPlatformHelp.pch" /Fo"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWaveTestPlatformHelp\\" /Fd"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWaveTestPlatformHelp\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\platform_library\include\\" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\platform_plugin\include\\" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_app\module\JaGuarWaveTestPlatformHelp\\" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\platform_update\include\\" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_ui\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D JAGUARWAVETESTPLATFORMHELP_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWaveTestPlatformHelp\JaGuarWaveTestPlatformHelp.pch" /Fo"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWaveTestPlatformHelp\\" /Fd"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWaveTestPlatformHelp\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\platform_library\library\JGW_FoundationFunc\JGW_ApplicationDecrypt.cpp CJGW_FTM_Json.cpp CJGW_HelpRspBaseJson.cpp CJGW_StartHelpServiceDlg.cpp CJGW_UpdateClientThread.cpp JaGuarWaveTestPlatformHelp.cpp
+         JGW_ApplicationDecrypt.cpp
+         CJGW_FTM_Json.cpp
+         CJGW_HelpRspBaseJson.cpp
+         CJGW_StartHelpServiceDlg.cpp
+         CJGW_UpdateClientThread.cpp
+         JaGuarWaveTestPlatformHelp.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\platform_library\include\\" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\platform_plugin\include\\" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_app\module\JaGuarWaveTestPlatformHelp\\" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\platform_update\include\\" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_ui\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D JAGUARWAVETESTPLATFORMHELP_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWaveTestPlatformHelp\\" /Fd"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWaveTestPlatformHelp\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JaGuarWaveTestPlatformHelp.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\lib\core" /LIBPATH:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\lib\library" /LIBPATH:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core_lib\poco" /LIBPATH:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core_lib\boost\lib" /LIBPATH:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\lib\ui" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWaveTestPlatformHelp\JaGuarWaveTestPlatformHelp.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JaGuarWaveTestPlatformHelp.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\app\JaGuarWaveTestPlatformHelp.lib" /MACHINE:X86 /DLL "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWaveTestPlatformHelp\JGW_ApplicationDecrypt.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWaveTestPlatformHelp\CJGW_FTM_Json.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWaveTestPlatformHelp\CJGW_HelpRspBaseJson.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWaveTestPlatformHelp\CJGW_StartHelpServiceDlg.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWaveTestPlatformHelp\CJGW_UpdateClientThread.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWaveTestPlatformHelp\dllmain.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWaveTestPlatformHelp\JaGuarWaveTestPlatformHelp.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWaveTestPlatformHelp\stdafx.obj"
+            正在创建库 D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\app\JaGuarWaveTestPlatformHelp.lib 和对象 D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\app\JaGuarWaveTestPlatformHelp.exp
+         正在生成代码
+         已完成代码的生成
+         JaGuarWaveTestPlatformHelp.vcxproj -> D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JaGuarWaveTestPlatformHelp.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JaGuarWaveTestPlatformHelp.dll;#2" /manifest "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWaveTestPlatformHelp\JaGuarWaveTestPlatformHelp.dll.intermediate.manifest"
+       PostBuildEvent:
+         copy /y  D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JaGuarWaveTestPlatformHelp.dll 	D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec\JaGuarWaveTestPlatformHelp.dll
+         :VCEnd
+         已复制         1 个文件。
+       FinalizeBuildStatus:
+         正在删除文件“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWaveTestPlatformHelp\JaGuarWaveTestPlatformHelp.unsuccessfulbuild”。
+         正在对“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWaveTestPlatformHelp\JaGuarWaveTestPlatformHelp.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_app\module\JaGuarWaveTestPlatformHelp\JaGuarWaveTestPlatformHelp.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:17.81

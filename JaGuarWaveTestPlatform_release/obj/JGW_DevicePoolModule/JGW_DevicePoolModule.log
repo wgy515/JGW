@@ -1,0 +1,41 @@
+﻿生成启动时间为 2023/6/30 14:37:12。
+     1>项目“F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_plugin\module\JGW_DevicePoolModule\JGW_DevicePoolModule.vcxproj”在节点 7 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePoolModule\JGW_DevicePoolModule.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\platform_library\include\\" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\platform_plugin\include\\" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_plugin\module\JGW_DevicePoolModule\\" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D JGW_DEVICEPOOLMODULE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePoolModule\JGW_DevicePoolModule.pch" /Fo"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePoolModule\\" /Fd"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePoolModule\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\platform_library\include\\" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\platform_plugin\include\\" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_plugin\module\JGW_DevicePoolModule\\" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D JGW_DEVICEPOOLMODULE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePoolModule\JGW_DevicePoolModule.pch" /Fo"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePoolModule\\" /Fd"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePoolModule\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\JGW_DevicePool\usb_config\CJGW_FilteUsbConfig.cpp ..\JGW_DevicePool\usb_config\CJGW_UsbConfig.cpp CJGW_DevicePoolThread.cpp CJGW_USBEnumerator.cpp usb_config\CJGW_UsbFilterPortConfig.cpp
+         CJGW_FilteUsbConfig.cpp
+         CJGW_UsbConfig.cpp
+         CJGW_DevicePoolThread.cpp
+         CJGW_USBEnumerator.cpp
+         CJGW_UsbFilterPortConfig.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\platform_library\include\\" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\platform_plugin\include\\" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_plugin\module\JGW_DevicePoolModule\\" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D JGW_DEVICEPOOLMODULE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePoolModule\\" /Fd"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePoolModule\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_DevicePoolModule.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\lib\core" /LIBPATH:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\lib\library" /LIBPATH:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core_lib\poco" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePoolModule\JGW_DevicePoolModule.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_DevicePoolModule.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_DevicePoolModule.lib" /MACHINE:X86 /DLL "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePoolModule\CJGW_FilteUsbConfig.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePoolModule\CJGW_UsbConfig.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePoolModule\CJGW_DevicePoolThread.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePoolModule\CJGW_USBEnumerator.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePoolModule\dllmain.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePoolModule\stdafx.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePoolModule\CJGW_UsbFilterPortConfig.obj"
+            正在创建库 F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_DevicePoolModule.lib 和对象 F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_DevicePoolModule.exp
+         正在生成代码
+         已完成代码的生成
+         JGW_DevicePoolModule.vcxproj -> F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_DevicePoolModule.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_DevicePoolModule.dll;#2" /manifest "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePoolModule\JGW_DevicePoolModule.dll.intermediate.manifest"
+       PostBuildEvent:
+         copy /y  F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_DevicePoolModule.dll 	F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec\JGW_DevicePoolModule.dll
+         :VCEnd
+         已复制         1 个文件。
+       FinalizeBuildStatus:
+         正在删除文件“F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePoolModule\JGW_DevicePoolModule.unsuccessfulbuild”。
+         正在对“F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePoolModule\JGW_DevicePoolModule.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_plugin\module\JGW_DevicePoolModule\JGW_DevicePoolModule.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:21.99

@@ -1,0 +1,19 @@
+[Test_Station]
+TestName=ATE
+OrderID=DHW131492
+OperationID=004
+WorkUnitID=TN802221
+UserName=1
+FixtureNO=Fix0001
+CableNO=RF Cable 0001
+InstrumentNO=CMW500 RF1
+//=======================
+[LotInfo]
+TestSN=LH861528000008
+TestStartTime=2018-05-29 16:47:00
+TestTotTime=114.364(s)
+TestResult= PASS
+TestMsg=
+Version=V1.0.8__V9.1816.00.01
+Platform=MTK
+

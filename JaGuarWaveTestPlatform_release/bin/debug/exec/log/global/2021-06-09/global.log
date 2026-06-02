@@ -1,0 +1,120 @@
+2021-06-09 10:28:51 [12484] INFO  : LoadSubWndPlugin loadLibrary(path:E:\工具包\工厂测试工具包\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-09 10:28:51 [12484] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:E:\工具包\工厂测试工具包\NC700\exec\JGW_DevicePool.dll)
+2021-06-09 10:28:51 [12484] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-09 10:28:51 [12484] INFO  : LoadSubWndPlugin loadLibrary(path:E:\工具包\工厂测试工具包\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-09 10:28:51 [12484] INFO  : CreateSubWndImpl : E:\工具包\工厂测试工具包\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-09 10:28:52 [12484] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-09 10:28:52 [12484] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-09 10:28:52 [12484] INFO  : CloseSubPluginView : E:\工具包\工厂测试工具包\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-09 10:28:52 [12484] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-09 10:28:52 [12484] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-09 10:28:52 [12484] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary E:\工具包\工厂测试工具包\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-09 10:28:52 [12484] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-09 10:28:52 [12484] INFO  : CreateSubWndImpl : E:\工具包\工厂测试工具包\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-09 10:28:52 [12484] INFO  : LoadSubPluginSubWndImpl : CBoostDownloadQualCommPlugin.dll
+2021-06-09 10:28:52 [12484] INFO  : LoadSubWndPlugin loadLibrary(path:E:\工具包\工厂测试工具包\NC700\exec\plugin\CBoostDownloadQualCommPlugin.dll)
+2021-06-09 10:28:52 [12484] INFO  : CreateSubWndImpl : E:\工具包\工厂测试工具包\NC700\exec\plugin\CBoostDownloadQualCommPlugin.dll,clsid: JGW::CCBoostDownloadView
+2021-06-09 10:28:56 [12484] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-09 10:28:56 [12484] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-09 10:28:56 [12484] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-09 10:28:56 [12484] INFO  : CloseSubPluginView : E:\工具包\工厂测试工具包\NC700\exec\plugin\CBoostDownloadQualCommPlugin.dll
+2021-06-09 10:28:56 [12484] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-09 10:28:56 [12484] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-09 10:28:56 [12484] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 037AE3C8
+2021-06-09 10:28:56 [12484] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary E:\工具包\工厂测试工具包\NC700\exec\plugin\CBoostDownloadQualCommPlugin.dll
+2021-06-09 10:29:21 [14044] INFO  : LoadSubWndPlugin loadLibrary(path:E:\工具包\工厂测试工具包\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-09 10:29:22 [14044] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:E:\工具包\工厂测试工具包\NC700\exec\JGW_DevicePool.dll)
+2021-06-09 10:29:22 [14044] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-09 10:29:22 [14044] INFO  : LoadSubWndPlugin loadLibrary(path:E:\工具包\工厂测试工具包\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-09 10:29:22 [14044] INFO  : CreateSubWndImpl : E:\工具包\工厂测试工具包\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-09 10:29:22 [14044] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-09 10:29:22 [14044] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-09 10:29:22 [14044] INFO  : CloseSubPluginView : E:\工具包\工厂测试工具包\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-09 10:29:23 [14044] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-09 10:29:23 [14044] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-09 10:29:23 [14044] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary E:\工具包\工厂测试工具包\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-09 10:29:23 [14044] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-09 10:29:23 [14044] INFO  : CreateSubWndImpl : E:\工具包\工厂测试工具包\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-09 10:29:23 [14044] INFO  : LoadSubPluginSubWndImpl : CBoostDownloadQualCommPlugin.dll
+2021-06-09 10:29:23 [14044] INFO  : LoadSubWndPlugin loadLibrary(path:E:\工具包\工厂测试工具包\NC700\exec\plugin\CBoostDownloadQualCommPlugin.dll)
+2021-06-09 10:29:23 [14044] INFO  : CreateSubWndImpl : E:\工具包\工厂测试工具包\NC700\exec\plugin\CBoostDownloadQualCommPlugin.dll,clsid: JGW::CCBoostDownloadView
+2021-06-09 10:29:26 [14044] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-09 10:29:26 [14044] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-09 10:29:26 [14044] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-09 10:29:26 [14044] INFO  : CloseSubPluginView : E:\工具包\工厂测试工具包\NC700\exec\plugin\CBoostDownloadQualCommPlugin.dll
+2021-06-09 10:29:26 [14044] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-09 10:29:26 [14044] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-09 10:29:26 [14044] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0330E938
+2021-06-09 10:29:26 [14044] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary E:\工具包\工厂测试工具包\NC700\exec\plugin\CBoostDownloadQualCommPlugin.dll
+2021-06-09 10:29:59 [13660] INFO  : LoadSubWndPlugin loadLibrary(path:E:\工具包\工厂测试工具包\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-09 10:29:59 [13660] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:E:\工具包\工厂测试工具包\NC700\exec\JGW_DevicePool.dll)
+2021-06-09 10:29:59 [13660] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-09 10:29:59 [13660] INFO  : LoadSubWndPlugin loadLibrary(path:E:\工具包\工厂测试工具包\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-09 10:29:59 [13660] INFO  : CreateSubWndImpl : E:\工具包\工厂测试工具包\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-09 10:30:00 [13660] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-09 10:30:00 [13660] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-09 10:30:00 [13660] INFO  : CloseSubPluginView : E:\工具包\工厂测试工具包\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-09 10:30:00 [13660] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-09 10:30:00 [13660] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-09 10:30:00 [13660] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary E:\工具包\工厂测试工具包\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-09 10:30:00 [13660] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-09 10:30:00 [13660] INFO  : CreateSubWndImpl : E:\工具包\工厂测试工具包\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-09 10:30:00 [13660] INFO  : LoadSubPluginSubWndImpl : CBoostDownloadQualCommPlugin.dll
+2021-06-09 10:30:00 [13660] INFO  : LoadSubWndPlugin loadLibrary(path:E:\工具包\工厂测试工具包\NC700\exec\plugin\CBoostDownloadQualCommPlugin.dll)
+2021-06-09 10:30:00 [13660] INFO  : CreateSubWndImpl : E:\工具包\工厂测试工具包\NC700\exec\plugin\CBoostDownloadQualCommPlugin.dll,clsid: JGW::CCBoostDownloadView
+2021-06-09 10:30:04 [13660] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-09 10:30:04 [13660] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-09 10:30:04 [13660] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-09 10:30:04 [13660] INFO  : CloseSubPluginView : E:\工具包\工厂测试工具包\NC700\exec\plugin\CBoostDownloadQualCommPlugin.dll
+2021-06-09 10:30:04 [13660] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-09 10:30:04 [13660] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-09 10:30:04 [13660] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0353E470
+2021-06-09 10:30:04 [13660] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary E:\工具包\工厂测试工具包\NC700\exec\plugin\CBoostDownloadQualCommPlugin.dll
+2021-06-09 10:30:26 [17600] INFO  : LoadSubWndPlugin loadLibrary(path:E:\工具包\工厂测试工具包\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-09 10:30:26 [17600] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:E:\工具包\工厂测试工具包\NC700\exec\JGW_DevicePool.dll)
+2021-06-09 10:30:26 [17600] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-09 10:30:26 [17600] INFO  : LoadSubWndPlugin loadLibrary(path:E:\工具包\工厂测试工具包\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-09 10:30:26 [17600] INFO  : CreateSubWndImpl : E:\工具包\工厂测试工具包\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-09 10:30:32 [17600] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-09 10:30:32 [17600] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-09 10:30:32 [17600] INFO  : CloseSubPluginView : E:\工具包\工厂测试工具包\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-09 10:30:32 [17600] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-09 10:30:32 [17600] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-09 10:30:32 [17600] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary E:\工具包\工厂测试工具包\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-09 10:30:32 [17600] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-09 10:30:32 [17600] INFO  : CreateSubWndImpl : E:\工具包\工厂测试工具包\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-09 10:30:32 [17600] INFO  : LoadSubPluginSubWndImpl : CBoostDownloadQualCommPlugin.dll
+2021-06-09 10:30:32 [17600] INFO  : LoadSubWndPlugin loadLibrary(path:E:\工具包\工厂测试工具包\NC700\exec\plugin\CBoostDownloadQualCommPlugin.dll)
+2021-06-09 10:30:32 [17600] INFO  : CreateSubWndImpl : E:\工具包\工厂测试工具包\NC700\exec\plugin\CBoostDownloadQualCommPlugin.dll,clsid: JGW::CCBoostDownloadView
+2021-06-09 10:30:35 [17600] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-09 10:30:35 [17600] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-09 10:30:35 [17600] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-09 10:30:35 [17600] INFO  : CloseSubPluginView : E:\工具包\工厂测试工具包\NC700\exec\plugin\CBoostDownloadQualCommPlugin.dll
+2021-06-09 10:30:35 [17600] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-09 10:30:35 [17600] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-09 10:30:35 [17600] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0375E9B0
+2021-06-09 10:30:35 [17600] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary E:\工具包\工厂测试工具包\NC700\exec\plugin\CBoostDownloadQualCommPlugin.dll
+2021-06-09 10:46:56 [12360] INFO  : LoadSubWndPlugin loadLibrary(path:E:\工具包\工厂测试工具包\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-09 10:46:56 [12360] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:E:\工具包\工厂测试工具包\NC700\exec\JGW_DevicePool.dll)
+2021-06-09 10:46:56 [12360] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-09 10:46:56 [12360] INFO  : LoadSubWndPlugin loadLibrary(path:E:\工具包\工厂测试工具包\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-09 10:46:56 [12360] INFO  : CreateSubWndImpl : E:\工具包\工厂测试工具包\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-09 10:46:57 [12360] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-09 10:46:57 [12360] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-09 10:46:57 [12360] INFO  : CloseSubPluginView : E:\工具包\工厂测试工具包\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-09 10:46:58 [12360] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-09 10:46:58 [12360] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-09 10:46:58 [12360] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary E:\工具包\工厂测试工具包\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-09 10:46:58 [12360] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-09 10:46:58 [12360] INFO  : CreateSubWndImpl : E:\工具包\工厂测试工具包\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-09 10:46:58 [12360] INFO  : LoadSubPluginSubWndImpl : CBoostDownloadQualCommPlugin.dll
+2021-06-09 10:46:58 [12360] INFO  : LoadSubWndPlugin loadLibrary(path:E:\工具包\工厂测试工具包\NC700\exec\plugin\CBoostDownloadQualCommPlugin.dll)
+2021-06-09 10:46:58 [12360] INFO  : CreateSubWndImpl : E:\工具包\工厂测试工具包\NC700\exec\plugin\CBoostDownloadQualCommPlugin.dll,clsid: JGW::CCBoostDownloadView
+2021-06-09 10:52:43 [12360] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-09 10:52:43 [12360] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-09 10:52:43 [12360] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-09 10:52:43 [12360] INFO  : CloseSubPluginView : E:\工具包\工厂测试工具包\NC700\exec\plugin\CBoostDownloadQualCommPlugin.dll
+2021-06-09 10:52:43 [12360] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-09 10:52:43 [12360] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-09 10:52:43 [12360] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0325F238
+2021-06-09 10:52:43 [12360] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary E:\工具包\工厂测试工具包\NC700\exec\plugin\CBoostDownloadQualCommPlugin.dll

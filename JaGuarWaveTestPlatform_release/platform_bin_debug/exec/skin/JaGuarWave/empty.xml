@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+    <HorizontalLayout enabled="true" name="emptysubLayout" width="1076" height="786" bkcolor="#FFEFF8FF">
+        
+    </HorizontalLayout>
+</Window>

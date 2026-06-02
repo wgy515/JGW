@@ -1,0 +1,19 @@
+<!-- This is a sample filter file-->
+<!-- Comment -->
+<NvFilter xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <!-- NVs ID 1680, 1681, 1700 are in the filter list-->
+    <NV>1680,1681,1700</NV>
+    
+
+    <!-- NV Range NV 1000, 1001,...., 1999,2000 are in the filter list-->
+    <!--<NV_RANGE>1000,2000</NV_RANGE>-->
+
+    <!-- Any NVs with LNA or TX_COMP as substring are in the filter-->
+    <NV_NAME_SUBSTRING_LIST>LNA_1,LNA_2</NV_NAME_SUBSTRING_LIST>
+
+ 
+    <!-- include other filter files-->
+    <!--<xi:include href="other_filter.xml"></xi:include>-->
+
+</NvFilter>

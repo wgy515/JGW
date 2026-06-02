@@ -1,0 +1,21 @@
+﻿生成启动时间为 2025/8/27 10:08:12。
+     1>项目“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_plugin\TSE\TSE_SequenceTestLib\TSE_SequenceTestLib.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\TSE_SequenceTestLib\TSE_SequenceTestLib.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_plugin\include" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_library\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D TSE_SequenceTestLib_EXPORTS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\TSE_SequenceTestLib\TSE_SequenceTestLib.pch" /Fo"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\TSE_SequenceTestLib\\" /Fd"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\TSE_SequenceTestLib\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_plugin\include" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_library\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D TSE_SequenceTestLib_EXPORTS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\TSE_SequenceTestLib\TSE_SequenceTestLib.pch" /Fo"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\TSE_SequenceTestLib\\" /Fd"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\TSE_SequenceTestLib\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TSE_TestSequenceExec.cpp
+         TSE_TestSequenceExec.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\plugin\TSE_SequenceTestLib.lib" /NOLOGO /LTCG "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\TSE_SequenceTestLib\stdafx.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\TSE_SequenceTestLib\TSE_TestSequenceExec.obj"
+         TSE_SequenceTestLib.vcxproj -> D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\plugin\TSE_SequenceTestLib.lib
+       FinalizeBuildStatus:
+         正在删除文件“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\TSE_SequenceTestLib\TSE_SequenceTestLib.unsuccessfulbuild”。
+         正在对“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\TSE_SequenceTestLib\TSE_SequenceTestLib.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_plugin\TSE\TSE_SequenceTestLib\TSE_SequenceTestLib.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.01

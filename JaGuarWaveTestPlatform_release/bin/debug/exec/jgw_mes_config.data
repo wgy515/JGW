@@ -1,0 +1,55 @@
+[MESMode]
+; MES在线或者离线模式 默认在线模式 1 : 在线 0:离线
+Online=0
+
+[Update]
+; 自动更新服务，默认开启状态 1:开启 0：关闭
+auto=0
+
+[FTPList]
+List=CPK,JW
+
+[JW]
+Host=192.168.133.145
+UserName=sa
+UserPassword=NNfTGxifFxMjtJcg6vizww==
+
+[CPK]
+Host=192.168.8.10
+UserName=ftpuser
+UserPassword=IIFjubJG4ZrN6LAlaUoYOQ==
+
+[MESService]
+MESServiceIP=127.0.0.1
+MESServiceSocketPort=3000
+
+[MESClient]
+;MES Service IP
+MESServiceIP=127.0.0.1
+;MES Socket 端口
+MESServiceSocketPort=3000
+;MES连接超时时间 S
+MESConnectTimeOut=30000
+;MES发送超时 S
+MESSendTimeOut=5000
+;MES接收超时 S
+MESRecvTimeOut=5000
+;用户名
+;UserName=101
+UserName=1
+;用户密码
+UserPassword=NNfTGxifFxMjtJcg6vizww==
+;UserPassword=7G3wFLB/Qt7h06qtCUjSsA==
+;保存账号
+SaveAccount=1
+SaveAccountTimeStamp=1621502212
+SaveAccountTime=-1
+
+;订单号
+TaskNumber=DHW212046
+;工单号
+WorkOrderNumber=4520081022-10
+;班次信息
+ShiftID=310001
+;默认工序ID
+DefaultOperationID=-1

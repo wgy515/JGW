@@ -1,0 +1,42 @@
+<LimitDefinition>
+  <LimitGroup index="1" name="Func" color="0xC00000"/>
+  <LimitGroup index="2" name="Std" color="0xFF0000"/>
+  <LimitGroup index="3" name="Int" color="0xFF9900"/>
+  <LimitGroup index="4" name="Harsh" color="0xFFFF00"/>
+  <OutputGroupLimitDescriptor>
+    <Result resID="Min Limit Delay" testID="XPT_Characterization">
+      <Filter id="totalMPR" value="0"></Filter>
+      <Limits>
+        <Low index="1" value="0"/>
+      </Limits>
+    </Result>
+    <Result resID="Max Limit Delay" testID="XPT_Characterization">
+      <Filter id="totalMPR" value="0"></Filter>
+      <Limits>
+        <High index="1" value="2000"/>
+      </Limits>
+    </Result>
+    <Result resID="Aclr_SPinPoutAlign" testID="XPT_Characterization">
+      <Limits>
+        <High index="1" value="-38"/>
+      </Limits>
+    </Result>
+    <Result resID="Selected Delay" testID="XPT_Characterization">
+      <Limits>
+        <Low index="1" value="-5"/>
+        <High index="1" value="5"/>
+      </Limits>
+    </Result>
+    <Result resID="Pin_SPinPoutAlign" testID="XPT_Characterization">
+      <Limits>
+        <Low index="1" value="-5"/>
+        <High index="1" value="5"/>
+      </Limits>
+    </Result>
+    <Result resID="Pout_SPinPoutAlign" testID="XPT_Characterization">
+      <Limits>
+        <Low index="1" value="23"/>
+      </Limits>
+    </Result>
+  </OutputGroupLimitDescriptor>
+</LimitDefinition>

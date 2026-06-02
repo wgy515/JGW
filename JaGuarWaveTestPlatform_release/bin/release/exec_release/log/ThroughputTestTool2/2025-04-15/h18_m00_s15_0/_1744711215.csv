@@ -1,0 +1,6 @@
+time,connect,rssi,mcs,tx sector,rx sector,throughput rate(Mbits/sec),time delay(ms),Latitude,Longitude,speed(km/h),Distance(M),Remote Latitude,Remote Longitude,
+18:00:24,Connected,-60,6,48,42,,,,,,,,
+18:00:30,Connected,-60,6,48,42,,,,,,,,
+18:00:35,Connected,-60,6,48,42,,,,,,,,
+18:00:48,Connected,-60,6,48,42,,,,,,,,
+18:00:50,Connected,-60,6,48,42,,,,,,,,

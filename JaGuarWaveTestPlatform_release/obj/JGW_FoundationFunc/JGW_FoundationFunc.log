@@ -1,0 +1,49 @@
+﻿生成启动时间为 2025/8/27 11:19:34。
+     1>项目“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_library\library\JGW_FoundationFunc\JGW_FoundationFunc.vcxproj”在节点 4 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\JGW_FoundationFunc.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\JGW_FoundationFunc.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_library\include" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D JGW_FOUNDATIONFUNC_LIB_EXPORT /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\JGW_FoundationFunc.pch" /Fo"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\\" /Fd"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_library\include" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D JGW_FOUNDATIONFUNC_LIB_EXPORT /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\JGW_FoundationFunc.pch" /Fo"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\\" /Fd"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CJGW_HiPerfTimer.cpp CJGW_NumberRule.cpp JGW_ApplicationDecrypt.cpp JGW_Encrypt.cpp JGW_ModuleEnCrypt.cpp jgw_process_manage.cpp JGW_PrsDownloadProtocol.cpp jgw_single_application_instance.cpp JGW_FilePath.cpp jgw_smartpointer_handle_func.cpp JGW_StringFunc.cpp JGW_ThreadFunc.cpp JGW_UsbRegedit.cpp JGW_WindowFunc.cpp
+         CJGW_HiPerfTimer.cpp
+         CJGW_NumberRule.cpp
+         JGW_ApplicationDecrypt.cpp
+         JGW_Encrypt.cpp
+         JGW_ModuleEnCrypt.cpp
+         jgw_process_manage.cpp
+         JGW_PrsDownloadProtocol.cpp
+         jgw_single_application_instance.cpp
+         JGW_FilePath.cpp
+         jgw_smartpointer_handle_func.cpp
+         JGW_StringFunc.cpp
+         JGW_ThreadFunc.cpp
+         JGW_UsbRegedit.cpp
+         JGW_WindowFunc.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\library\JGW_FoundationFunc.lib" psapi.lib /NOLOGO /LTCG "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\CJGW_HiPerfTimer.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\CJGW_NumberRule.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\JGW_ApplicationDecrypt.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\JGW_Encrypt.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\JGW_ModuleEnCrypt.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\jgw_process_manage.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\JGW_PrsDownloadProtocol.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\jgw_single_application_instance.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\JGW_FilePath.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\jgw_smartpointer_handle_func.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\JGW_StringFunc.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\JGW_ThreadFunc.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\JGW_UsbRegedit.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\JGW_WindowFunc.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\stdafx.obj"
+         JGW_FoundationFunc.vcxproj -> D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\library\JGW_FoundationFunc.lib
+       FinalizeBuildStatus:
+         正在删除文件“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\JGW_FoundationFunc.unsuccessfulbuild”。
+         正在对“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_FoundationFunc\JGW_FoundationFunc.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_library\library\JGW_FoundationFunc\JGW_FoundationFunc.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.48

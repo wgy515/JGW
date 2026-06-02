@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FormatDescriptor>
+	<OutputGroupSet name="Tx Cal Ver" width="2">
+		<Discriminator id="Band" isString="true"/>
+		<OutputGroupDescriptor_Lin name="Tx Error">
+			<OGDisplayProperties maxYScaleRes="0">
+				<YAxis index="1" maxScaleRes="0"/>
+			</OGDisplayProperties>
+			<CommonBinResults>
+				<Discriminator id="Channel"/>
+				<Result resID="Tx Error" testID="RFCalVerification">
+					<Discriminator id="Tx Level"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+	</OutputGroupSet>
+	<OutputGroupSet name="Rx Cal Ver" width="2">
+		<Discriminator id="Band" isString="true"/>
+		<OutputGroupDescriptor_Lin name="Rx Error">
+			<OGDisplayProperties maxYScaleRes="0">
+				<YAxis index="1" maxScaleRes="0"/>
+			</OGDisplayProperties>
+			<CommonBinResults>
+				<Discriminator id="Channel"/>
+				<Result resID="Rx Error" testID="RFCalVerification">
+					<Discriminator id="Rx Power"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+	</OutputGroupSet>
+</FormatDescriptor>

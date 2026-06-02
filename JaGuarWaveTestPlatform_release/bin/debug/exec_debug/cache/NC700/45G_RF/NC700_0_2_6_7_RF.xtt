@@ -1,0 +1,3766 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='C:\Program Files (x86)\Qualcomm\QDART\QSPRStyleSheets\QTMTestTree ver4.xsl'?>
+<?xml-stylesheet type='text/xsl' href='C:\Program Files (x86)\Qualcomm\QDART\QSPRStyleSheets\qtmtesterrorcode.xsl'?>
+<SerializeComponents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <theTestTreeInfo>
+    <TestTreeVersion>13</TestTreeVersion>
+    <SourceApplication>QSPR</SourceApplication>
+    <QGlobalVariables>
+      <QGlobalVariable>
+        <Name>COMBINED_SUITE_LOG</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>COMPORT_AT_START</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>CURRENT_DYNAMIC_RETRY_COUNT</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>CURRENT_UNIT_INDEX</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>CurrentTestDetails</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>CurrentTestParentRetryInfo</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>CurrentTestRetryInfo</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>DUT_INDEX</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>EnableMemoryUsageLogging</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>ERRORCODE</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>ERRORSTRING</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>GONOGO_RESULT</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>GONOGO_RUNNING</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>LOGGING_ENABLED</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>LOOPDETAILS</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>LOOPDETAILS_100_loop</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>LOOPDETAILS_100loop</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>LOOPDETAILS_100-Loop</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>LOOPDETAILS_adfsa</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>LOOPDETAILS_asdf</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>LOOPDETAILS_loop</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>LOOPDETAILS_loop100</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>LOOPDETAILS_sequenceXMLFileName</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>LOOPDETAILS_t</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>LOOPDETAILS_z</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MCI_EQUIPMENT_BYPASS_QTI_SCPI</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MCI_EQUIPMENT_DEVICE_RF_PORT_CONFIG</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MCI_EQUIPMENT_DEVICE_RF_PORT_CONFIG_DUT1</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MCI_QTI_SCPI_EQUIPMENT_DEVICE_RF_PORT_CONFIG</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MCI_RX_CAL_CONFIG_NAME</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MCI_RX_CAL_CONFIG_NAME_DUT1</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MCI_RX_CAL_PATH_NUMBERS</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MCI_RX_CAL_PATH_NUMBERS_DUT1</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MCI_TX_CAL_CONFIG_NAME</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MCI_TX_CAL_CONFIG_NAME_DUT1</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MCI_TX_CAL_PATH_NUMBERS</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MCI_TX_CAL_PATH_NUMBERS_DUT1</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MM_DISABLE_RF_PORT_SELECTION_IN_NON_MM_NODE</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MULTIPLEX_MANAGER_CONFIG_FILE</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>QSPR_ABORT</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>QSPR_SEARCH</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>QSPR_STOP</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>QSPR_STOP_ON_ERROR</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>QTM_ABORT</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>QTM_STOP</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>RERUN_CURRENT_ITERATION</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>RERUN_TOTAL_COUNT</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>RootName</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>SELF_TEST_ONLY_MODE</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>SetupTest Message</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>SN</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>SUBERRORCODE</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>SUBERRORCONTEXT</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>SUBERRORSTRING</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>TECHNOLOGIES</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>TESTCASE_NAME</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>TesterConfigFile</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>TESTPLAN_NAME</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>TreeFileName</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>TreeStringID</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>TreeType</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>XTT_TIMEOUT</Name>
+      </QGlobalVariable>
+    </QGlobalVariables>
+  </theTestTreeInfo>
+  <theRootTest NodeType="Root">
+    <Index>f466a17d-7ee4-44a6-8fe8-2cfe29ab2d61</Index>
+    <OriginalIndex>f466a17d-7ee4-44a6-8fe8-2cfe29ab2d61</OriginalIndex>
+    <FolderProperties NodeType="FolderProperty">
+      <TestName>Test Name</TestName>
+      <IsLinkActive xsi:nil="true" />
+      <NodeRID>-1</NodeRID>
+      <NumberOfTests>1</NumberOfTests>
+      <Parameters />
+      <LinkChecksum />
+      <ConfigChecksum />
+    </FolderProperties>
+    <FolderTest NodeType="Folder">
+      <Index>b450940f-2db4-42f8-b27d-50ecc48079b3</Index>
+      <OriginalIndex>fe1b5915-79c9-478b-8341-2ec49859db1d</OriginalIndex>
+      <FolderProperties NodeType="FolderProperty">
+        <Expanded>true</Expanded>
+        <TestName>Init</TestName>
+        <RealName>Folder</RealName>
+        <CheckStateTest>Unchecked</CheckStateTest>
+        <IsLinkActive xsi:nil="true" />
+        <LoggingEnabled>false</LoggingEnabled>
+        <NodeRID>-1</NodeRID>
+        <NumberOfTests>2</NumberOfTests>
+        <Parameters />
+        <LinkChecksum />
+        <ConfigChecksum />
+      </FolderProperties>
+      <HiveTest NodeType="Test">
+        <Index>7356655f-435a-4284-914c-f02b2fd3dfbf</Index>
+        <OriginalIndex>0a09c466-9d54-4aa2-8a5b-0cf1bdd3b6af</OriginalIndex>
+        <HiveProperties NodeType="TestProperty">
+          <TestName>Power Supply On</TestName>
+          <RealName>RFCal_PSOnOff</RealName>
+          <Description>Turn On, Off, or toggle the Power Supply. Note that some parameters in this node are used globally, and some may be overriden by SUITEGlobalConfiguration test node. Check the individual params descriptions.</Description>
+          <CheckStateTest>Unchecked</CheckStateTest>
+          <IsLinkActive xsi:nil="true" />
+          <LoggingEnabled>false</LoggingEnabled>
+          <NodeRID>-1</NodeRID>
+          <NumberOfTests>1</NumberOfTests>
+          <Parameters>
+            <ParameterCls>
+              <Name>Phone Poweroff Method</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <Unit>Power supply OFF method: 0 = Power OFF, 1 = Set 0 Volts</Unit>
+              <UpperLimit>0</UpperLimit>
+              <LowerLimit>0</LowerLimit>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>Output state</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value>2</Value>
+              <Unit>Output state : 0-OFF, 1-ON, 2-Toggle ON</Unit>
+              <UpperLimit>0</UpperLimit>
+              <LowerLimit>0</LowerLimit>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>Power up delay</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value>5000</Value>
+              <Unit>Power up delay (msec)</Unit>
+              <UpperLimit>0</UpperLimit>
+              <LowerLimit>0</LowerLimit>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>WARNING: SUITEGlobalConfiguration test node can override this param.If SUITEGlobalConfiguration has not run, this param will be used globally</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>Toggle delay</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value>500</Value>
+              <Unit>millisec</Unit>
+              <UpperLimit>0</UpperLimit>
+              <LowerLimit>0</LowerLimit>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>WARNING: SUITEGlobalConfiguration test node can override this param.If SUITEGlobalConfiguration has not run, this param will be used globally</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>Store PS Toggle On TimeStamp</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <UpperLimit>0</UpperLimit>
+              <LowerLimit>0</LowerLimit>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Default : 0 - Do not store, 1 - Store.
+If stored a following test could use it to determine timing information for a reboot</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>Watch for Messages ?</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <UpperLimit>0</UpperLimit>
+              <LowerLimit>0</LowerLimit>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <DisplayHint>4098</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>Text Marker</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Any Text to Log - Supports entries in printf( format, args ) style, where its entries correspond to the "format" part of printf. Supported printf place-holders are: %d,%f,%s; for int, double, and string. There can be many place-holders. Example entry: Marker :: c:\qcn_backup\%s. In this example "%s" will be replaced with the corresponding or equivalent key value in "Args" parameter and it will result in the corresponding marker in the log.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>Marker Args</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <ParentName>Text Marker</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Supports entries in printf( format, args ) style, where its entries correspond to the "args" part of printf. A delimited list of keywords. Must have the same number of elements as the number of place-holders in "Command" param. Example entry: TESTTREEID. In this example "TESTTREEID" key will replace the "%s" found in "Command" param with the actual TESTTREEID of the tree used.</Description>
+              <DisplayHint>1024</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>Use Config Lookup For Marker Args</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <Unit>NONE</Unit>
+              <UpperLimit>0</UpperLimit>
+              <LowerLimit>0</LowerLimit>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <ParentName>Text Marker</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <DisplayHint>1282</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>Enable DLF Logging</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <UpperLimit>0</UpperLimit>
+              <LowerLimit>0</LowerLimit>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <DisplayHint>4098</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>File Name Marker</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value>TEST</Value>
+              <Unit>NONE</Unit>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <ParentName>Enable DLF Logging</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>File Name will be DLFLog_&lt;filenamemarker&gt;_TimeStamp.dlf. File will be stored in C:\Qualcomm\Qdart\Temp</Description>
+              <DisplayHint>1024</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>List of Log Packets for DLF Logging</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value>0x5082,0x5260</Value>
+              <Unit>NONE</Unit>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <ParentName>Enable DLF Logging</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <DisplayHint>1024</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+          </Parameters>
+          <DLLName>SubSysRFCal_NET.dll</DLLName>
+          <HIVENodeProperties>0</HIVENodeProperties>
+        </HiveProperties>
+      </HiveTest>
+    </FolderTest>
+    <FolderTest NodeType="Folder">
+      <Index>035d399c-2259-445e-a5fc-867559c91f0a</Index>
+      <OriginalIndex>035d399c-2259-445e-a5fc-867559c91f0a</OriginalIndex>
+      <FolderProperties NodeType="FolderProperty">
+        <Expanded>true</Expanded>
+        <TestName>QSEQ Test</TestName>
+        <StopOnError>CompleteStopNoRetry</StopOnError>
+        <RealName>Folder</RealName>
+        <CheckStateTest>Indeterminate</CheckStateTest>
+        <IsLinkActive xsi:nil="true" />
+        <NodeRID>-1</NodeRID>
+        <NumberOfTests>27</NumberOfTests>
+        <Parameters />
+        <LinkChecksum />
+        <ConfigChecksum />
+      </FolderProperties>
+      <DotNetTest NodeType="Test">
+        <Index>574c8849-9b6d-4d8f-a61f-c3eea4f9e8d9</Index>
+        <OriginalIndex>574c8849-9b6d-4d8f-a61f-c3eea4f9e8d9</OriginalIndex>
+        <DotNetProperties NodeType="TestProperty">
+          <TestName>LoadTestRecord</TestName>
+          <RealName>QSEQ_DOTNETTest.QSEQ_DOTNETTests.LoadTestRecord</RealName>
+          <IsLinkActive xsi:nil="true" />
+          <NodeRID>-1</NodeRID>
+          <NumberOfTests>1</NumberOfTests>
+          <Parameters>
+            <ParameterCls>
+              <Name>testPlan</Name>
+              <RealName>testPlan</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Qualcomm Developed Test Plans. For a custom test plan, please choose the USER_DEFINED option and enter the test plan string into the parameter userDefinedTestPlan.</Description>
+              <Constraints>RFVFS_ALLTECH_MP=0;RFVFS_ALLTECH_NPI=1;RFVFS4G_NSVFS23G_NPI=2;RFVFS4G_PWR_ONLY=3;USER_DEFINED=4</Constraints>
+              <DisplayHint>8</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>userDefinedTestPlan</Name>
+              <RealName>userDefinedTestPlan</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>RFVFS_ALLTECH_MP</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <ParentName>testPlan</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>User defined custom Test Plan to be run, if no match is found, then it will throw an error.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>testRecordFileName</Name>
+              <RealName>testRecordFileName</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>testRecord\TestRecord.xtr</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>XML that contains the Test Record information to run verification.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>inputConfigFileName</Name>
+              <RealName>inputConfigFileName</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>inputConfiguration\SDX55_HWID549_SDR865_GLOBAL_H250_MTP.xrfver</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Optional Per product file that describes the functionality of the RF Card. Not used if parameter is left empty.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>timeProfileFileName</Name>
+              <RealName>timeProfileFileName</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>timeProfile\TimeProfileConfiguration.xtpc</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Optional file that describes the test time in segments for a given set of attributes. Not used if parameter is left empty.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>writeSequenceFilesToDisk</Name>
+              <RealName>writeSequenceFilesToDisk</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>False</Value>
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>If the sequence xml files are to be written to disk.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>saveModifiedTestRecord</Name>
+              <RealName>saveModifiedTestRecord</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>False</Value>
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>The XTR data object that is modified by the input configuration file is saved to disk.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>outputSequenceFilePath</Name>
+              <RealName>outputSequenceFilePath</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>C:\Program Files (x86)\Qualcomm\QDART\XTT\SubSysVFS\TestRecordSequences</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Location of the output sequence XML files or modified XTR. This parameter is ignored if parameter to write files is false.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>overrideSelfTestMode</Name>
+              <RealName>overrideSelfTestMode</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>3</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Allows user to override the SelfTest mode in all tests defined in the Test Record.</Description>
+              <Constraints>NoOverride=0;SelfTestOnly=1;SelfTestPlusTestEquipment=2;TestEquipmentOnly=3</Constraints>
+              <DisplayHint>8</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>overrideUEPowerClass</Name>
+              <RealName>overrideUEPowerClass</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Allows user to override the UE Power Class for all tests defined in the Test Record.</Description>
+              <Constraints>NoOverride=0;POWERCLASS1=1;POWERCLASS2=2;POWERCLASS3=3;POWERCLASS5=5;POWERCLASS6=6</Constraints>
+              <DisplayHint>8</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>RxTriggerUsage</Name>
+              <RealName>RxTriggerUsage</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>0.Supplementary = Rx trigger is only a suplementary way for DL only bands or path ;  1.Mandatory = Rx trigger test plan will be generated anyway.</Description>
+              <Constraints>Supplementary=0;Mandatory=1</Constraints>
+              <DisplayHint>8</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>enableAllPathsTest</Name>
+              <RealName>enableAllPathsTest</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>False</Value>
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Creates multiple sequences, one for each path to be tested.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>ConnectTimeout</Name>
+              <RealName>ConnectTimeout</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>60</Value>
+              <DataType>UInt32</DataType>
+              <Type>Input</Type>
+              <ParentName>enableAllPathsTest</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Phone Connect Time out.Unit:ms</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>AllPathTech</Name>
+              <RealName>AllPathTech</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>3</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <ParentName>enableAllPathsTest</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Technology being queried in all path</Description>
+              <Constraints>CDMA=0;WCDMA=1;EDGE=2;LTE=3;TDSCDMA=4;NRFR1=5;ALL_TECH=6</Constraints>
+              <DisplayHint>8</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>TxRxCalAction</Name>
+              <RealName>TxRxCalAction</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>1</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <ParentName>enableAllPathsTest</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Tx Rx Calibration Action Type:0 = Characterization; 1 = Calibration; 2 = offset calibration; 4 = All calibration types</Description>
+              <Constraints>Characterization=0;Calibration=1;Offset_Calibration=2;All_Type=3</Constraints>
+              <DisplayHint>8</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>RfmPathType</Name>
+              <RealName>RfmPathType</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>2</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <ParentName>enableAllPathsTest</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>RFM path Type: 0 = Rx; 1 =  Tx ; 2 = All path types</Description>
+              <Constraints>Rx=0;Tx=1;All_Path_Type=2</Constraints>
+              <DisplayHint>8</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>OutputRawData</Name>
+              <RealName>OutputRawData</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>False</Value>
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <ParentName>enableAllPathsTest</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Debug use. Output the raw data from the query</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>SavePathConfigToDisk</Name>
+              <RealName>SavePathConfigToDisk</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>False</Value>
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <ParentName>enableAllPathsTest</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Debug use. Save the path configuration to disk</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>DetectTech</Name>
+              <RealName>DetectTech</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>1</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <ParentName>enableAllPathsTest</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Phone detection tech. </Description>
+              <Constraints>CDMA=0;WCDMA=1;EDGE=2;LTE=3;TDSCDMA=4;NRFR1=5;NRFR2=6</Constraints>
+              <DisplayHint>8</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>DetectBand</Name>
+              <RealName>DetectBand</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>1</Value>
+              <DataType>UInt16</DataType>
+              <Type>Input</Type>
+              <ParentName>enableAllPathsTest</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Phone detection band.Input the actual band number, like 34(TDS B34) or 1800(GSM DCS) </Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>InputUserDefinedPathConfig</Name>
+              <RealName>InputUserDefinedPathConfig</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <ParentName>enableAllPathsTest</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Input user-defined RF path information</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+          </Parameters>
+          <MinDllVersion>2.0.145.0</MinDllVersion>
+          <DllName>QSEQ_DOTNETTest.dll</DllName>
+        </DotNetProperties>
+      </DotNetTest>
+      <FolderTest NodeType="Folder">
+        <Index>82629543-5677-4869-af19-975de73aec06</Index>
+        <OriginalIndex>0ecacb7b-da16-4c70-997a-2df1540e2a56</OriginalIndex>
+        <FolderProperties NodeType="FolderProperty">
+          <Expanded>true</Expanded>
+          <TestName>Execute Tests</TestName>
+          <CheckStateTest>Indeterminate</CheckStateTest>
+          <IsLinkActive xsi:nil="true" />
+          <NodeRID>-1</NodeRID>
+          <NumberOfTests>25</NumberOfTests>
+          <Parameters />
+          <LinkChecksum />
+          <ConfigChecksum />
+        </FolderProperties>
+        <FolderTest NodeType="Folder">
+          <Index>1a851006-7438-48c3-9fdd-6e555d0b5e48</Index>
+          <OriginalIndex>89b79aaa-dc47-40e2-9f18-b6f7e4538ff9</OriginalIndex>
+          <FolderProperties NodeType="FolderProperty">
+            <Expanded>true</Expanded>
+            <TestName>LTE Test</TestName>
+            <StopOnError>CompleteStopNoRetry</StopOnError>
+            <IsLinkActive xsi:nil="true" />
+            <NodeRID>-1</NodeRID>
+            <NumberOfTests>4</NumberOfTests>
+            <Parameters />
+            <LinkChecksum />
+            <ConfigChecksum />
+          </FolderProperties>
+          <DotNetTest NodeType="Test">
+            <Index>ddb2ef8a-ac66-48eb-aae6-5edb38af1e72</Index>
+            <OriginalIndex>6d9865f4-a0b3-45bc-8282-cf9851c279a7</OriginalIndex>
+            <DotNetProperties NodeType="TestProperty">
+              <TestName>Start LTE QSEQ Session</TestName>
+              <RealName>QSEQ_DOTNETTest.QSEQ_DOTNETTests.StartQSEQSession</RealName>
+              <IsLinkActive xsi:nil="true" />
+              <NodeRID>-1</NodeRID>
+              <NumberOfTests>1</NumberOfTests>
+              <Parameters>
+                <ParameterCls>
+                  <Name>deviceConfigFileName</Name>
+                  <RealName>deviceConfigFileName</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>C:\JGWStart\Databases\QSEQ_DeviceConfig_CMW100_Sample.xml</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Location to the device config xml used to specify parameters for the test equipment as well as the DUT. Other general QSEQ test parameters are also found within this file. Relative paths are based off the DLL location.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>logBaseFolder</Name>
+                  <RealName>logBaseFolder</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>C:\Qualcomm\QDART\Logs\QSEQ\LTE</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Location of the output logs files, including QMSL, EQUIP and HTML reports. Allows template naming, such as %SN% to insert serial number. Relative paths are based off the DLL location.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>loadingLogFileName</Name>
+                  <RealName>loadingLogFileName</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>%DATE_TIME%_loadingLog.txt</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Template name for the loading log file. This is the file that gives information on any errors that can occur when Start QSEQ Session node is run.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>logBaseFolderName_out</Name>
+                  <RealName>logBaseFolderName_out</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>String</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>loadingLogFileName_out</Name>
+                  <RealName>loadingLogFileName_out</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>String</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+              </Parameters>
+              <MinDllVersion>2.0.65534.9999</MinDllVersion>
+              <DllName>QSEQ_DOTNETTest.dll</DllName>
+            </DotNetProperties>
+          </DotNetTest>
+          <DotNetTest NodeType="Test">
+            <Index>a87ab234-ac2f-4a33-84ea-bbb7c3e2348b</Index>
+            <OriginalIndex>bb17aa24-ffa9-4955-b6ee-cde6f7067e2e</OriginalIndex>
+            <DotNetProperties NodeType="TestProperty">
+              <TestName>LTE - RunAllSequences</TestName>
+              <RealName>QSEQ_DOTNETTest.QSEQ_DOTNETTests.RunAllSequencesByTech</RealName>
+              <IsLinkActive xsi:nil="true" />
+              <NodeRID>-1</NodeRID>
+              <NumberOfTests>1</NumberOfTests>
+              <Parameters>
+                <ParameterCls>
+                  <Name>technology</Name>
+                  <RealName>technology</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>3</Value>
+                  <DataType>Int</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Constraints>CDMA=0;WCDMA=1;EDGE=2;LTE=3;TDSCDMA=4;NRFR1=5;NRFR2=6</Constraints>
+                  <DisplayHint>8</DisplayHint>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>bandList</Name>
+                  <RealName>bandList</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>1,3,19</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Run band by a give band list,such as 1,2,5;-1 means default all bands</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>sequenceRunError</Name>
+                  <RealName>sequenceRunError</RealName>
+                  <NoOfElements>2</NoOfElements>
+                  <Value>-99999,-99999</Value>
+                  <UpperLimit>,</UpperLimit>
+                  <LowerLimit>,</LowerLimit>
+                  <DataType>Byte</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T,T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F,F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString>-1,-1</ArrayParameterRIDsAsString>
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>sequenceTestFailed</Name>
+                  <RealName>sequenceTestFailed</RealName>
+                  <NoOfElements>2</NoOfElements>
+                  <Value>-99999,-99999</Value>
+                  <UpperLimit>,</UpperLimit>
+                  <LowerLimit>,</LowerLimit>
+                  <DataType>Byte</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T,T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F,F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString>-1,-1</ArrayParameterRIDsAsString>
+                </ParameterCls>
+              </Parameters>
+              <MinDllVersion>2.0.65534.9999</MinDllVersion>
+              <DllName>QSEQ_DOTNETTest.dll</DllName>
+            </DotNetProperties>
+          </DotNetTest>
+          <DotNetTest NodeType="Test">
+            <Index>3e6e233b-d55a-4746-8d59-0beb0b7bdb74</Index>
+            <OriginalIndex>8270af5c-573c-452b-a332-c7da8054e352</OriginalIndex>
+            <DotNetProperties NodeType="TestProperty">
+              <TestName>Stop QSEQ Session</TestName>
+              <RealName>QSEQ_DOTNETTest.QSEQ_DOTNETTests.StopQSEQSession</RealName>
+              <IsLinkActive xsi:nil="true" />
+              <NodeRID>-1</NodeRID>
+              <NumberOfTests>1</NumberOfTests>
+              <FolderMustRun>true</FolderMustRun>
+              <Parameters>
+                <ParameterCls>
+                  <Name>saveToStorageFolder</Name>
+                  <RealName>saveToStorageFolder</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>False</Value>
+                  <DataType>Boolean</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>useTestTreeFileName</Name>
+                  <RealName>useTestTreeFileName</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>False</Value>
+                  <DataType>Boolean</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>When 'saveToStorageFolder' is 'True': 
+Set this parameter to 'True' to use the XTT file name to create the storage path for the XML result file. 
+Set this parameter to 'False' to ignore the XTT filename and save the XML result file directly to the path specified in the Device Config XML within the XMLLogStorageFolderPath tag. 
+
+When 'saveToStorageFolder is 'False', this parameter is ignored.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>disconnectPhoneServer</Name>
+                  <RealName>disconnectPhoneServer</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>False</Value>
+                  <DataType>Boolean</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>When 'disconnectPhoneServer' is 'True': 
+Set this parameter to 'True' to kill the instance of Phone Server started by the QSEQ Session. 
+Set this parameter to 'False' to ignore the instance of Phone Server at let it run even after the current QSEQ Session ends.
+</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>xmlFilePath</Name>
+                  <RealName>xmlFilePath</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>String</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Complete path to QSEQ generated xml log.
+</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+              </Parameters>
+            </DotNetProperties>
+          </DotNetTest>
+        </FolderTest>
+        <FolderTest NodeType="Folder">
+          <Index>e7ab6661-44eb-437a-b490-2c77c7d88124</Index>
+          <OriginalIndex>1867bdf3-8327-42a3-ac6f-4b24fae41880</OriginalIndex>
+          <FolderProperties NodeType="FolderProperty">
+            <Expanded>true</Expanded>
+            <TestName>WCDMA Test</TestName>
+            <CheckStateTest>Unchecked</CheckStateTest>
+            <IsLinkActive xsi:nil="true" />
+            <NodeRID>-1</NodeRID>
+            <NumberOfTests>4</NumberOfTests>
+            <Parameters />
+            <LinkChecksum />
+            <ConfigChecksum />
+          </FolderProperties>
+          <DotNetTest NodeType="Test">
+            <Index>d4d84177-23bc-40e9-a32a-b2f044d8d86f</Index>
+            <OriginalIndex>1e88a94a-d886-4b8c-819b-14a31cf07cd7</OriginalIndex>
+            <DotNetProperties NodeType="TestProperty">
+              <TestName>Start WCDMA QSEQ Session</TestName>
+              <RealName>QSEQ_DOTNETTest.QSEQ_DOTNETTests.StartQSEQSession</RealName>
+              <CheckStateTest>Unchecked</CheckStateTest>
+              <IsLinkActive xsi:nil="true" />
+              <NodeRID>-1</NodeRID>
+              <NumberOfTests>1</NumberOfTests>
+              <Parameters>
+                <ParameterCls>
+                  <Name>deviceConfigFileName</Name>
+                  <RealName>deviceConfigFileName</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>..\Databases\QSEQ_DeviceConfig_CMW100_Sample.xml</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Location to the device config xml used to specify parameters for the test equipment as well as the DUT. Other general QSEQ test parameters are also found within this file. Relative paths are based off the DLL location.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>logBaseFolder</Name>
+                  <RealName>logBaseFolder</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>C:\Qualcomm\QDART\Logs\QSEQ\WCDMA</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Location of the output logs files, including QMSL, EQUIP and HTML reports. Allows template naming, such as %SN% to insert serial number. Relative paths are based off the DLL location.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>loadingLogFileName</Name>
+                  <RealName>loadingLogFileName</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>%DATE_TIME%_loadingLog.txt</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Template name for the loading log file. This is the file that gives information on any errors that can occur when Start QSEQ Session node is run.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>logBaseFolderName_out</Name>
+                  <RealName>logBaseFolderName_out</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>String</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>loadingLogFileName_out</Name>
+                  <RealName>loadingLogFileName_out</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>String</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+              </Parameters>
+              <MinDllVersion>2.0.65534.9999</MinDllVersion>
+              <DllName>QSEQ_DOTNETTest.dll</DllName>
+            </DotNetProperties>
+          </DotNetTest>
+          <DotNetTest NodeType="Test">
+            <Index>7204a7ab-2abf-4f4d-b695-d5fa9e710989</Index>
+            <OriginalIndex>93748870-77f0-4747-82b2-5caa1ec5932c</OriginalIndex>
+            <DotNetProperties NodeType="TestProperty">
+              <TestName>WCDMA - RunAllSequences</TestName>
+              <RealName>QSEQ_DOTNETTest.QSEQ_DOTNETTests.RunAllSequencesByTech</RealName>
+              <CheckStateTest>Unchecked</CheckStateTest>
+              <IsLinkActive xsi:nil="true" />
+              <NodeRID>-1</NodeRID>
+              <NumberOfTests>1</NumberOfTests>
+              <Parameters>
+                <ParameterCls>
+                  <Name>technology</Name>
+                  <RealName>technology</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>1</Value>
+                  <DataType>Int</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Constraints>CDMA=0;WCDMA=1;EDGE=2;LTE=3;TDSCDMA=4;NRFR1=5;NRFR2=6</Constraints>
+                  <DisplayHint>8</DisplayHint>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>bandList</Name>
+                  <RealName>bandList</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-1</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Run band by a give band list,such as 1,2,5;-1 means default all bands</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>sequenceRunError</Name>
+                  <RealName>sequenceRunError</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <UpperLimit>,</UpperLimit>
+                  <LowerLimit>,</LowerLimit>
+                  <DataType>Byte</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>sequenceTestFailed</Name>
+                  <RealName>sequenceTestFailed</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>Byte</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+              </Parameters>
+              <MinDllVersion>2.0.65534.9999</MinDllVersion>
+              <DllName>QSEQ_DOTNETTest.dll</DllName>
+            </DotNetProperties>
+          </DotNetTest>
+          <DotNetTest NodeType="Test">
+            <Index>dfc7118d-9b00-436d-9884-843a940c94a4</Index>
+            <OriginalIndex>7a43ea88-d87d-4c36-804a-fbed30179ff5</OriginalIndex>
+            <DotNetProperties NodeType="TestProperty">
+              <TestName>Stop QSEQ Session</TestName>
+              <RealName>QSEQ_DOTNETTest.QSEQ_DOTNETTests.StopQSEQSession</RealName>
+              <CheckStateTest>Unchecked</CheckStateTest>
+              <IsLinkActive xsi:nil="true" />
+              <NodeRID>-1</NodeRID>
+              <NumberOfTests>1</NumberOfTests>
+              <Parameters>
+                <ParameterCls>
+                  <Name>saveToStorageFolder</Name>
+                  <RealName>saveToStorageFolder</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>False</Value>
+                  <DataType>Boolean</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>useTestTreeFileName</Name>
+                  <RealName>useTestTreeFileName</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>False</Value>
+                  <DataType>Boolean</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>When 'saveToStorageFolder' is 'True': 
+Set this parameter to 'True' to use the XTT file name to create the storage path for the XML result file. 
+Set this parameter to 'False' to ignore the XTT filename and save the XML result file directly to the path specified in the Device Config XML within the XMLLogStorageFolderPath tag. 
+
+When 'saveToStorageFolder is 'False', this parameter is ignored.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>disconnectPhoneServer</Name>
+                  <RealName>disconnectPhoneServer</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>True</Value>
+                  <DataType>Boolean</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>When 'disconnectPhoneServer' is 'True': 
+Set this parameter to 'True' to kill the instance of Phone Server started by the QSEQ Session. 
+Set this parameter to 'False' to ignore the instance of Phone Server at let it run even after the current QSEQ Session ends.
+</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>xmlFilePath</Name>
+                  <RealName>xmlFilePath</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>String</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Complete path to QSEQ generated xml log.
+</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+              </Parameters>
+            </DotNetProperties>
+          </DotNetTest>
+        </FolderTest>
+        <FolderTest NodeType="Folder">
+          <Index>b171d20e-b8f6-448e-8311-90cd6bee9e99</Index>
+          <OriginalIndex>92b7ccde-9963-41c9-8491-73ffac0115a7</OriginalIndex>
+          <FolderProperties NodeType="FolderProperty">
+            <Expanded>true</Expanded>
+            <TestName>CDMA Test</TestName>
+            <CheckStateTest>Unchecked</CheckStateTest>
+            <IsLinkActive xsi:nil="true" />
+            <NodeRID>-1</NodeRID>
+            <NumberOfTests>4</NumberOfTests>
+            <Parameters />
+            <LinkChecksum />
+            <ConfigChecksum />
+          </FolderProperties>
+          <DotNetTest NodeType="Test">
+            <Index>ca777911-4bcd-4cfd-9b34-0e071bb39485</Index>
+            <OriginalIndex>7680b42d-8c8d-450f-b42c-b773426f4826</OriginalIndex>
+            <DotNetProperties NodeType="TestProperty">
+              <TestName>Start CDMA QSEQ Session</TestName>
+              <RealName>QSEQ_DOTNETTest.QSEQ_DOTNETTests.StartQSEQSession</RealName>
+              <CheckStateTest>Unchecked</CheckStateTest>
+              <IsLinkActive xsi:nil="true" />
+              <NodeRID>-1</NodeRID>
+              <NumberOfTests>1</NumberOfTests>
+              <Parameters>
+                <ParameterCls>
+                  <Name>deviceConfigFileName</Name>
+                  <RealName>deviceConfigFileName</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>..\Databases\QSEQ_DeviceConfig.xml</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Location to the device config xml used to specify parameters for the test equipment as well as the DUT. Other general QSEQ test parameters are also found within this file. Relative paths are based off the DLL location.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>logBaseFolder</Name>
+                  <RealName>logBaseFolder</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>C:\Qualcomm\QDART\Logs\QSEQ\CDMA</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Location of the output logs files, including QMSL, EQUIP and HTML reports. Allows template naming, such as %SN% to insert serial number. Relative paths are based off the DLL location.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>loadingLogFileName</Name>
+                  <RealName>loadingLogFileName</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>%DATE_TIME%_loadingLog.txt</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Template name for the loading log file. This is the file that gives information on any errors that can occur when Start QSEQ Session node is run.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>logBaseFolderName_out</Name>
+                  <RealName>logBaseFolderName_out</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>String</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>loadingLogFileName_out</Name>
+                  <RealName>loadingLogFileName_out</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>String</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+              </Parameters>
+              <MinDllVersion>2.0.65534.9999</MinDllVersion>
+              <DllName>QSEQ_DOTNETTest.dll</DllName>
+            </DotNetProperties>
+          </DotNetTest>
+          <DotNetTest NodeType="Test">
+            <Index>66e44563-fada-4778-add9-6a54b8ba9a5b</Index>
+            <OriginalIndex>ad38a1b3-991f-4b11-8620-a00e377a599a</OriginalIndex>
+            <DotNetProperties NodeType="TestProperty">
+              <TestName>CDMA - RunAllSequences</TestName>
+              <RealName>QSEQ_DOTNETTest.QSEQ_DOTNETTests.RunAllSequencesByTech</RealName>
+              <CheckStateTest>Unchecked</CheckStateTest>
+              <IsLinkActive xsi:nil="true" />
+              <NodeRID>-1</NodeRID>
+              <NumberOfTests>1</NumberOfTests>
+              <Parameters>
+                <ParameterCls>
+                  <Name>technology</Name>
+                  <RealName>technology</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>0</Value>
+                  <DataType>Int</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Constraints>CDMA=0;WCDMA=1;EDGE=2;LTE=3;TDSCDMA=4;NRFR1=5;NRFR2=6</Constraints>
+                  <DisplayHint>8</DisplayHint>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>bandList</Name>
+                  <RealName>bandList</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-1</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Run band by a give band list,such as 1,2,5;-1 means default all bands</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>sequenceRunError</Name>
+                  <RealName>sequenceRunError</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <UpperLimit>,</UpperLimit>
+                  <LowerLimit>,</LowerLimit>
+                  <DataType>Byte</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>sequenceTestFailed</Name>
+                  <RealName>sequenceTestFailed</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>Byte</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+              </Parameters>
+              <MinDllVersion>2.0.65534.9999</MinDllVersion>
+              <DllName>QSEQ_DOTNETTest.dll</DllName>
+            </DotNetProperties>
+          </DotNetTest>
+          <DotNetTest NodeType="Test">
+            <Index>7f36332a-f24f-49f9-9999-ebc308dbff83</Index>
+            <OriginalIndex>1128e84c-652c-4c75-9c45-17bb61162942</OriginalIndex>
+            <DotNetProperties NodeType="TestProperty">
+              <TestName>Stop QSEQ Session</TestName>
+              <RealName>QSEQ_DOTNETTest.QSEQ_DOTNETTests.StopQSEQSession</RealName>
+              <CheckStateTest>Unchecked</CheckStateTest>
+              <IsLinkActive xsi:nil="true" />
+              <NodeRID>-1</NodeRID>
+              <NumberOfTests>1</NumberOfTests>
+              <Parameters>
+                <ParameterCls>
+                  <Name>saveToStorageFolder</Name>
+                  <RealName>saveToStorageFolder</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>False</Value>
+                  <DataType>Boolean</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>useTestTreeFileName</Name>
+                  <RealName>useTestTreeFileName</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>False</Value>
+                  <DataType>Boolean</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>When 'saveToStorageFolder' is 'True': 
+Set this parameter to 'True' to use the XTT file name to create the storage path for the XML result file. 
+Set this parameter to 'False' to ignore the XTT filename and save the XML result file directly to the path specified in the Device Config XML within the XMLLogStorageFolderPath tag. 
+
+When 'saveToStorageFolder is 'False', this parameter is ignored.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>disconnectPhoneServer</Name>
+                  <RealName>disconnectPhoneServer</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>True</Value>
+                  <DataType>Boolean</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>When 'disconnectPhoneServer' is 'True': 
+Set this parameter to 'True' to kill the instance of Phone Server started by the QSEQ Session. 
+Set this parameter to 'False' to ignore the instance of Phone Server at let it run even after the current QSEQ Session ends.
+</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>xmlFilePath</Name>
+                  <RealName>xmlFilePath</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>String</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Complete path to QSEQ generated xml log.
+</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+              </Parameters>
+            </DotNetProperties>
+          </DotNetTest>
+        </FolderTest>
+        <FolderTest NodeType="Folder">
+          <Index>9b0dfa05-230c-4253-b88d-52a057a9e662</Index>
+          <OriginalIndex>25f1988c-e1d3-4e14-b3c5-4fe3354573c8</OriginalIndex>
+          <FolderProperties NodeType="FolderProperty">
+            <Expanded>true</Expanded>
+            <TestName>TDSCDMA Test</TestName>
+            <CheckStateTest>Unchecked</CheckStateTest>
+            <IsLinkActive xsi:nil="true" />
+            <NodeRID>-1</NodeRID>
+            <NumberOfTests>4</NumberOfTests>
+            <Parameters />
+            <LinkChecksum />
+            <ConfigChecksum />
+          </FolderProperties>
+          <DotNetTest NodeType="Test">
+            <Index>871cf083-2579-4b2c-a228-81fd84f293b5</Index>
+            <OriginalIndex>10604176-53bd-44dc-afcb-a04f238b0ede</OriginalIndex>
+            <DotNetProperties NodeType="TestProperty">
+              <TestName>Start TDSCDMA QSEQ Session</TestName>
+              <RealName>QSEQ_DOTNETTest.QSEQ_DOTNETTests.StartQSEQSession</RealName>
+              <CheckStateTest>Unchecked</CheckStateTest>
+              <IsLinkActive xsi:nil="true" />
+              <NodeRID>-1</NodeRID>
+              <NumberOfTests>1</NumberOfTests>
+              <Parameters>
+                <ParameterCls>
+                  <Name>deviceConfigFileName</Name>
+                  <RealName>deviceConfigFileName</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>..\Databases\QSEQ_DeviceConfig.xml</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Location to the device config xml used to specify parameters for the test equipment as well as the DUT. Other general QSEQ test parameters are also found within this file. Relative paths are based off the DLL location.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>logBaseFolder</Name>
+                  <RealName>logBaseFolder</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>C:\Qualcomm\QDART\Logs\QSEQ\TDSCDMA</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Location of the output logs files, including QMSL, EQUIP and HTML reports. Allows template naming, such as %SN% to insert serial number. Relative paths are based off the DLL location.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>loadingLogFileName</Name>
+                  <RealName>loadingLogFileName</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>%DATE_TIME%_loadingLog.txt</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Template name for the loading log file. This is the file that gives information on any errors that can occur when Start QSEQ Session node is run.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>logBaseFolderName_out</Name>
+                  <RealName>logBaseFolderName_out</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>String</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>loadingLogFileName_out</Name>
+                  <RealName>loadingLogFileName_out</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>String</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+              </Parameters>
+              <MinDllVersion>2.0.65534.9999</MinDllVersion>
+              <DllName>QSEQ_DOTNETTest.dll</DllName>
+            </DotNetProperties>
+          </DotNetTest>
+          <DotNetTest NodeType="Test">
+            <Index>694bcf91-5a95-4ad1-b830-6670d4a9f7ba</Index>
+            <OriginalIndex>a1ebcd20-1cf6-4185-aed2-e23b4584b01d</OriginalIndex>
+            <DotNetProperties NodeType="TestProperty">
+              <TestName>TDSCDMA - RunAllSequences</TestName>
+              <RealName>QSEQ_DOTNETTest.QSEQ_DOTNETTests.RunAllSequencesByTech</RealName>
+              <CheckStateTest>Unchecked</CheckStateTest>
+              <IsLinkActive xsi:nil="true" />
+              <NodeRID>-1</NodeRID>
+              <NumberOfTests>1</NumberOfTests>
+              <Parameters>
+                <ParameterCls>
+                  <Name>technology</Name>
+                  <RealName>technology</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>4</Value>
+                  <DataType>Int</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Constraints>CDMA=0;WCDMA=1;EDGE=2;LTE=3;TDSCDMA=4;NRFR1=5;NRFR2=6</Constraints>
+                  <DisplayHint>8</DisplayHint>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>bandList</Name>
+                  <RealName>bandList</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-1</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Run band by a give band list,such as 1,2,5;-1 means default all bands</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>sequenceRunError</Name>
+                  <RealName>sequenceRunError</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <UpperLimit>,</UpperLimit>
+                  <LowerLimit>,</LowerLimit>
+                  <DataType>Byte</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>sequenceTestFailed</Name>
+                  <RealName>sequenceTestFailed</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>Byte</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+              </Parameters>
+              <MinDllVersion>2.0.65534.9999</MinDllVersion>
+              <DllName>QSEQ_DOTNETTest.dll</DllName>
+            </DotNetProperties>
+          </DotNetTest>
+          <DotNetTest NodeType="Test">
+            <Index>b41f244d-07b2-4981-ba5e-859a07e2fc04</Index>
+            <OriginalIndex>9cf624a2-df7c-4dfb-8147-0581930f5f0e</OriginalIndex>
+            <DotNetProperties NodeType="TestProperty">
+              <TestName>Stop QSEQ Session</TestName>
+              <RealName>QSEQ_DOTNETTest.QSEQ_DOTNETTests.StopQSEQSession</RealName>
+              <CheckStateTest>Unchecked</CheckStateTest>
+              <IsLinkActive xsi:nil="true" />
+              <NodeRID>-1</NodeRID>
+              <NumberOfTests>1</NumberOfTests>
+              <Parameters>
+                <ParameterCls>
+                  <Name>saveToStorageFolder</Name>
+                  <RealName>saveToStorageFolder</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>False</Value>
+                  <DataType>Boolean</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>useTestTreeFileName</Name>
+                  <RealName>useTestTreeFileName</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>False</Value>
+                  <DataType>Boolean</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>When 'saveToStorageFolder' is 'True': 
+Set this parameter to 'True' to use the XTT file name to create the storage path for the XML result file. 
+Set this parameter to 'False' to ignore the XTT filename and save the XML result file directly to the path specified in the Device Config XML within the XMLLogStorageFolderPath tag. 
+
+When 'saveToStorageFolder is 'False', this parameter is ignored.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>disconnectPhoneServer</Name>
+                  <RealName>disconnectPhoneServer</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>True</Value>
+                  <DataType>Boolean</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>When 'disconnectPhoneServer' is 'True': 
+Set this parameter to 'True' to kill the instance of Phone Server started by the QSEQ Session. 
+Set this parameter to 'False' to ignore the instance of Phone Server at let it run even after the current QSEQ Session ends.
+</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>xmlFilePath</Name>
+                  <RealName>xmlFilePath</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>String</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Complete path to QSEQ generated xml log.
+</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+              </Parameters>
+            </DotNetProperties>
+          </DotNetTest>
+        </FolderTest>
+        <FolderTest NodeType="Folder">
+          <Index>2459ee6d-5c89-4acb-9d4d-27fc006bedb6</Index>
+          <OriginalIndex>3793d1e6-4dee-4e2c-8f27-0ce6a0979f0e</OriginalIndex>
+          <FolderProperties NodeType="FolderProperty">
+            <Expanded>true</Expanded>
+            <TestName>EDGE Test</TestName>
+            <CheckStateTest>Unchecked</CheckStateTest>
+            <IsLinkActive xsi:nil="true" />
+            <NodeRID>-1</NodeRID>
+            <NumberOfTests>4</NumberOfTests>
+            <Parameters />
+            <LinkChecksum />
+            <ConfigChecksum />
+          </FolderProperties>
+          <DotNetTest NodeType="Test">
+            <Index>78849bd0-c3b2-4de8-8f8c-e822afa077c9</Index>
+            <OriginalIndex>f1566f2e-4d67-4407-a848-f369076ba9d3</OriginalIndex>
+            <DotNetProperties NodeType="TestProperty">
+              <TestName>Start EDGE QSEQ Session</TestName>
+              <RealName>QSEQ_DOTNETTest.QSEQ_DOTNETTests.StartQSEQSession</RealName>
+              <CheckStateTest>Unchecked</CheckStateTest>
+              <IsLinkActive xsi:nil="true" />
+              <NodeRID>-1</NodeRID>
+              <NumberOfTests>1</NumberOfTests>
+              <Parameters>
+                <ParameterCls>
+                  <Name>deviceConfigFileName</Name>
+                  <RealName>deviceConfigFileName</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>..\Databases\QSEQ_DeviceConfig.xml</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Location to the device config xml used to specify parameters for the test equipment as well as the DUT. Other general QSEQ test parameters are also found within this file. Relative paths are based off the DLL location.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>logBaseFolder</Name>
+                  <RealName>logBaseFolder</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>C:\Qualcomm\QDART\Logs\QSEQ\EDGE</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Location of the output logs files, including QMSL, EQUIP and HTML reports. Allows template naming, such as %SN% to insert serial number. Relative paths are based off the DLL location.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>loadingLogFileName</Name>
+                  <RealName>loadingLogFileName</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>%DATE_TIME%_loadingLog.txt</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Template name for the loading log file. This is the file that gives information on any errors that can occur when Start QSEQ Session node is run.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>logBaseFolderName_out</Name>
+                  <RealName>logBaseFolderName_out</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>String</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>loadingLogFileName_out</Name>
+                  <RealName>loadingLogFileName_out</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>String</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+              </Parameters>
+              <MinDllVersion>2.0.65534.9999</MinDllVersion>
+              <DllName>QSEQ_DOTNETTest.dll</DllName>
+            </DotNetProperties>
+          </DotNetTest>
+          <DotNetTest NodeType="Test">
+            <Index>fe69425f-aeac-4af8-ae2c-6ab766d0709e</Index>
+            <OriginalIndex>2e0e5041-b373-40c9-b8fc-4b12d995e3b5</OriginalIndex>
+            <DotNetProperties NodeType="TestProperty">
+              <TestName>EDGE - RunAllSequences</TestName>
+              <RealName>QSEQ_DOTNETTest.QSEQ_DOTNETTests.RunAllSequencesByTech</RealName>
+              <CheckStateTest>Unchecked</CheckStateTest>
+              <IsLinkActive xsi:nil="true" />
+              <NodeRID>-1</NodeRID>
+              <NumberOfTests>1</NumberOfTests>
+              <Parameters>
+                <ParameterCls>
+                  <Name>technology</Name>
+                  <RealName>technology</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>2</Value>
+                  <DataType>Int</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Constraints>CDMA=0;WCDMA=1;EDGE=2;LTE=3;TDSCDMA=4;NRFR1=5;NRFR2=6</Constraints>
+                  <DisplayHint>8</DisplayHint>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>bandList</Name>
+                  <RealName>bandList</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-1</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Run band by a give band list,such as 1,2,5;-1 means default all bands</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>sequenceRunError</Name>
+                  <RealName>sequenceRunError</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <UpperLimit>,</UpperLimit>
+                  <LowerLimit>,</LowerLimit>
+                  <DataType>Byte</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>sequenceTestFailed</Name>
+                  <RealName>sequenceTestFailed</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>Byte</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+              </Parameters>
+              <MinDllVersion>2.0.65534.9999</MinDllVersion>
+              <DllName>QSEQ_DOTNETTest.dll</DllName>
+            </DotNetProperties>
+          </DotNetTest>
+          <DotNetTest NodeType="Test">
+            <Index>4e1df1e4-65a0-4093-8c12-60adfba26569</Index>
+            <OriginalIndex>90bde138-07c4-4e1e-be37-b76ebdfe4433</OriginalIndex>
+            <DotNetProperties NodeType="TestProperty">
+              <TestName>Stop QSEQ Session</TestName>
+              <RealName>QSEQ_DOTNETTest.QSEQ_DOTNETTests.StopQSEQSession</RealName>
+              <CheckStateTest>Unchecked</CheckStateTest>
+              <IsLinkActive xsi:nil="true" />
+              <NodeRID>-1</NodeRID>
+              <NumberOfTests>1</NumberOfTests>
+              <Parameters>
+                <ParameterCls>
+                  <Name>saveToStorageFolder</Name>
+                  <RealName>saveToStorageFolder</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>False</Value>
+                  <DataType>Boolean</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>useTestTreeFileName</Name>
+                  <RealName>useTestTreeFileName</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>False</Value>
+                  <DataType>Boolean</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>When 'saveToStorageFolder' is 'True': 
+Set this parameter to 'True' to use the XTT file name to create the storage path for the XML result file. 
+Set this parameter to 'False' to ignore the XTT filename and save the XML result file directly to the path specified in the Device Config XML within the XMLLogStorageFolderPath tag. 
+
+When 'saveToStorageFolder is 'False', this parameter is ignored.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>disconnectPhoneServer</Name>
+                  <RealName>disconnectPhoneServer</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>True</Value>
+                  <DataType>Boolean</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>When 'disconnectPhoneServer' is 'True': 
+Set this parameter to 'True' to kill the instance of Phone Server started by the QSEQ Session. 
+Set this parameter to 'False' to ignore the instance of Phone Server at let it run even after the current QSEQ Session ends.
+</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>xmlFilePath</Name>
+                  <RealName>xmlFilePath</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>String</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Complete path to QSEQ generated xml log.
+</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+              </Parameters>
+            </DotNetProperties>
+          </DotNetTest>
+        </FolderTest>
+        <FolderTest NodeType="Folder">
+          <Index>944ee190-f2a1-4aa7-a5b0-14d3bf442bda</Index>
+          <OriginalIndex>d3c31c2e-95bf-4ed5-809b-38c5f2e43dce</OriginalIndex>
+          <FolderProperties NodeType="FolderProperty">
+            <Expanded>true</Expanded>
+            <TestName>NR5G FR1 Test</TestName>
+            <StopOnError>CompleteStopNoRetry</StopOnError>
+            <IsLinkActive xsi:nil="true" />
+            <NodeRID>-1</NodeRID>
+            <NumberOfTests>4</NumberOfTests>
+            <Parameters />
+            <LinkChecksum />
+            <ConfigChecksum />
+          </FolderProperties>
+          <DotNetTest NodeType="Test">
+            <Index>9c24447b-8779-48e2-b518-822c6ac94da0</Index>
+            <OriginalIndex>60a52f14-8726-4d82-aa14-d7e761f743be</OriginalIndex>
+            <DotNetProperties NodeType="TestProperty">
+              <TestName>StartQSEQSession</TestName>
+              <RealName>QSEQ_DOTNETTest.QSEQ_DOTNETTests.StartQSEQSession</RealName>
+              <IsLinkActive xsi:nil="true" />
+              <NodeRID>-1</NodeRID>
+              <NumberOfTests>1</NumberOfTests>
+              <Parameters>
+                <ParameterCls>
+                  <Name>deviceConfigFileName</Name>
+                  <RealName>deviceConfigFileName</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>C:\JGWStart\Databases\QSEQ_DeviceConfig_FR1_CMW_Sample.xml</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Location to the device config xml used to specify parameters for the test equipment as well as the DUT. Other general QSEQ test parameters are also found within this file. Relative paths are based off the DLL location.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>logBaseFolder</Name>
+                  <RealName>logBaseFolder</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>C:\Qualcomm\QDART\Logs\QSEQ\NRFR1</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Location of the output logs files, including QMSL, EQUIP and HTML reports. Allows template naming, such as %SN% to insert serial number. Relative paths are based off the DLL location.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>loadingLogFileName</Name>
+                  <RealName>loadingLogFileName</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>%DATE_TIME%_loadingLog.txt</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Template name for the loading log file. This is the file that gives information on any errors that can occur when Start QSEQ Session node is run.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>logBaseFolderName_out</Name>
+                  <RealName>logBaseFolderName_out</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>String</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>loadingLogFileName_out</Name>
+                  <RealName>loadingLogFileName_out</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>String</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+              </Parameters>
+              <MinDllVersion>2.0.65534.9999</MinDllVersion>
+              <DllName>QSEQ_DOTNETTest.dll</DllName>
+            </DotNetProperties>
+          </DotNetTest>
+          <DotNetTest NodeType="Test">
+            <Index>5f20ca3e-3ac7-45b2-9273-35280651ea19</Index>
+            <OriginalIndex>1a8e35e4-257c-442c-8065-1604c8e6a24f</OriginalIndex>
+            <DotNetProperties NodeType="TestProperty">
+              <TestName>SUB6 - RunAllSequences</TestName>
+              <RealName>QSEQ_DOTNETTest.QSEQ_DOTNETTests.RunAllSequencesByTech</RealName>
+              <IsLinkActive xsi:nil="true" />
+              <NodeRID>-1</NodeRID>
+              <NumberOfTests>1</NumberOfTests>
+              <Parameters>
+                <ParameterCls>
+                  <Name>technology</Name>
+                  <RealName>technology</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>5</Value>
+                  <DataType>Int</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Constraints>CDMA=0;WCDMA=1;EDGE=2;LTE=3;TDSCDMA=4;NRFR1=5;NRFR2=6</Constraints>
+                  <DisplayHint>8</DisplayHint>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>bandList</Name>
+                  <RealName>bandList</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>79</Value>
+                  <DataType>String</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Run band by a give band list,such as 1,2,5;-1 means default all bands</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>sequenceRunError</Name>
+                  <RealName>sequenceRunError</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <UpperLimit>,</UpperLimit>
+                  <LowerLimit>,</LowerLimit>
+                  <DataType>Byte</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>sequenceTestFailed</Name>
+                  <RealName>sequenceTestFailed</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>Byte</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+              </Parameters>
+              <MinDllVersion>2.0.65534.9999</MinDllVersion>
+              <DllName>QSEQ_DOTNETTest.dll</DllName>
+            </DotNetProperties>
+          </DotNetTest>
+          <DotNetTest NodeType="Test">
+            <Index>dcde03c0-cbf3-41dc-be54-7da7f1f910ef</Index>
+            <OriginalIndex>8e030397-239e-44ff-99cc-43bf8f753e31</OriginalIndex>
+            <DotNetProperties NodeType="TestProperty">
+              <TestName>Stop QSEQ Session</TestName>
+              <RealName>QSEQ_DOTNETTest.QSEQ_DOTNETTests.StopQSEQSession</RealName>
+              <IsLinkActive xsi:nil="true" />
+              <NodeRID>-1</NodeRID>
+              <NumberOfTests>1</NumberOfTests>
+              <FolderMustRun>true</FolderMustRun>
+              <Parameters>
+                <ParameterCls>
+                  <Name>saveToStorageFolder</Name>
+                  <RealName>saveToStorageFolder</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>False</Value>
+                  <DataType>Boolean</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>useTestTreeFileName</Name>
+                  <RealName>useTestTreeFileName</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>False</Value>
+                  <DataType>Boolean</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>When 'saveToStorageFolder' is 'True': 
+Set this parameter to 'True' to use the XTT file name to create the storage path for the XML result file. 
+Set this parameter to 'False' to ignore the XTT filename and save the XML result file directly to the path specified in the Device Config XML within the XMLLogStorageFolderPath tag. 
+
+When 'saveToStorageFolder is 'False', this parameter is ignored.</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>disconnectPhoneServer</Name>
+                  <RealName>disconnectPhoneServer</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>True</Value>
+                  <DataType>Boolean</DataType>
+                  <Type>Input</Type>
+                  <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>When 'disconnectPhoneServer' is 'True': 
+Set this parameter to 'True' to kill the instance of Phone Server started by the QSEQ Session. 
+Set this parameter to 'False' to ignore the instance of Phone Server at let it run even after the current QSEQ Session ends.
+</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+                <ParameterCls>
+                  <Name>xmlFilePath</Name>
+                  <RealName>xmlFilePath</RealName>
+                  <NoOfElements>1</NoOfElements>
+                  <Value>-99999</Value>
+                  <DataType>String</DataType>
+                  <Type>Output</Type>
+                  <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                  <EnableChartingAsString>F</EnableChartingAsString>
+                  <UseRunTimeLimits>false</UseRunTimeLimits>
+                  <Description>Complete path to QSEQ generated xml log.
+</Description>
+                  <ArrayParameterRIDsAsString />
+                </ParameterCls>
+              </Parameters>
+            </DotNetProperties>
+          </DotNetTest>
+        </FolderTest>
+      </FolderTest>
+    </FolderTest>
+    <FolderTest NodeType="Folder">
+      <Index>c915a89e-5f16-45a7-8e95-6922c9e0a57f</Index>
+      <OriginalIndex>1a5cb789-47cd-4c69-9ec5-29aaf97f9ff6</OriginalIndex>
+      <FolderProperties NodeType="FolderProperty">
+        <Expanded>true</Expanded>
+        <TestName>Shutdown</TestName>
+        <RealName>Folder</RealName>
+        <CheckStateTest>Unchecked</CheckStateTest>
+        <IsLinkActive xsi:nil="true" />
+        <NodeRID>-1</NodeRID>
+        <NumberOfTests>2</NumberOfTests>
+        <Parameters />
+        <LinkChecksum />
+        <ConfigChecksum />
+      </FolderProperties>
+      <HiveTest NodeType="Test">
+        <Index>b3088ee6-249f-4676-a9d7-2b7a6a5668a4</Index>
+        <OriginalIndex>244b85f1-8884-4073-9268-4da1c0208fcc</OriginalIndex>
+        <HiveProperties NodeType="TestProperty">
+          <TestName>Power Supply Off</TestName>
+          <RealName>RFCal_PSOnOff</RealName>
+          <Description>Turn On, Off, or toggle the Power Supply. Note that some parameters in this node are used globally, and some may be overriden by SUITEGlobalConfiguration test node. Check the individual params descriptions.</Description>
+          <CheckStateTest>Unchecked</CheckStateTest>
+          <IsLinkActive xsi:nil="true" />
+          <LoggingEnabled>false</LoggingEnabled>
+          <NodeRID>-1</NodeRID>
+          <NumberOfTests>1</NumberOfTests>
+          <Parameters>
+            <ParameterCls>
+              <Name>Phone Poweroff Method</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value>1</Value>
+              <Unit>Power supply OFF method: 0 = Power OFF, 1 = Set 0 Volts</Unit>
+              <UpperLimit>0</UpperLimit>
+              <LowerLimit>0</LowerLimit>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>Output state</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <Unit>Output state : 0-OFF, 1-ON, 2-Toggle ON</Unit>
+              <UpperLimit>0</UpperLimit>
+              <LowerLimit>0</LowerLimit>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>Power up delay</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value>25000</Value>
+              <Unit>Power up delay (msec)</Unit>
+              <UpperLimit>0</UpperLimit>
+              <LowerLimit>0</LowerLimit>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>WARNING: SUITEGlobalConfiguration test node can override this param.If SUITEGlobalConfiguration has not run, this param will be used globally</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>Toggle delay</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value>5000</Value>
+              <Unit>millisec</Unit>
+              <UpperLimit>0</UpperLimit>
+              <LowerLimit>0</LowerLimit>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>WARNING: SUITEGlobalConfiguration test node can override this param.If SUITEGlobalConfiguration has not run, this param will be used globally</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>Store PS Toggle On TimeStamp</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <UpperLimit>0</UpperLimit>
+              <LowerLimit>0</LowerLimit>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Default : 0 - Do not store, 1 - Store.
+If stored a following test could use it to determine timing information for a reboot</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>Watch for Messages ?</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <UpperLimit>0</UpperLimit>
+              <LowerLimit>0</LowerLimit>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <DisplayHint>4098</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>Text Marker</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Any Text to Log - Supports entries in printf( format, args ) style, where its entries correspond to the "format" part of printf. Supported printf place-holders are: %d,%f,%s; for int, double, and string. There can be many place-holders. Example entry: Marker :: c:\qcn_backup\%s. In this example "%s" will be replaced with the corresponding or equivalent key value in "Args" parameter and it will result in the corresponding marker in the log.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>Marker Args</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <ParentName>Text Marker</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Supports entries in printf( format, args ) style, where its entries correspond to the "args" part of printf. A delimited list of keywords. Must have the same number of elements as the number of place-holders in "Command" param. Example entry: TESTTREEID. In this example "TESTTREEID" key will replace the "%s" found in "Command" param with the actual TESTTREEID of the tree used.</Description>
+              <DisplayHint>1024</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>Use Config Lookup For Marker Args</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <Unit>NONE</Unit>
+              <UpperLimit>0</UpperLimit>
+              <LowerLimit>0</LowerLimit>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <ParentName>Text Marker</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <DisplayHint>1282</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>Enable DLF Logging</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <UpperLimit>0</UpperLimit>
+              <LowerLimit>0</LowerLimit>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <DisplayHint>4098</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>File Name Marker</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value>TEST</Value>
+              <Unit>NONE</Unit>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <ParentName>Enable DLF Logging</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>File Name will be DLFLog_&lt;filenamemarker&gt;_TimeStamp.dlf. File will be stored in C:\Qualcomm\Qdart\Temp</Description>
+              <DisplayHint>1024</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>List of Log Packets for DLF Logging</Name>
+              <RealName />
+              <NoOfElements>1</NoOfElements>
+              <Value>0x5082,0x5260</Value>
+              <Unit>NONE</Unit>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <ParentName>Enable DLF Logging</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <DisplayHint>1024</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+          </Parameters>
+          <DLLName>SubSysRFCal_NET.dll</DLLName>
+          <HIVENodeProperties>0</HIVENodeProperties>
+        </HiveProperties>
+      </HiveTest>
+    </FolderTest>
+    <RootProperties NodeType="RootProperty">
+      <Expanded>true</Expanded>
+      <TestName>QSEQ_TestRecord</TestName>
+      <RealName>ROOT</RealName>
+      <CheckStateTest>Indeterminate</CheckStateTest>
+      <IsLinkActive xsi:nil="true" />
+      <NodeRID>-1</NodeRID>
+      <NumberOfTests>32</NumberOfTests>
+      <Parameters />
+      <LinkChecksum />
+      <ConfigChecksum />
+      <Server />
+      <Database />
+      <EnableDatabase>true</EnableDatabase>
+      <ForceRegistrationOnLinkedTreeChange>false</ForceRegistrationOnLinkedTreeChange>
+      <RegisteredLinkedTreeOnly>false</RegisteredLinkedTreeOnly>
+      <EditQGroups />
+      <RegisteredMachine />
+      <SiteKey>C0500\QTM</SiteKey>
+      <TreeType>DVT</TreeType>
+      <TreeStringID>-1</TreeStringID>
+      <EnforceTestDllVersions>false</EnforceTestDllVersions>
+    </RootProperties>
+  </theRootTest>
+  <thePlugInConfig>
+    <NumPlugIn>0</NumPlugIn>
+    <AllConfig>
+      <PlugInName>PluginWrapper</PlugInName>
+    </AllConfig>
+    <AllConfig>
+      <PlugInName>GoNoGoUserControl</PlugInName>
+    </AllConfig>
+    <TestResultsConfig>
+      <PlugInName>UltraResults</PlugInName>
+      <string>True</string>
+      <string>True</string>
+      <string>True</string>
+      <string>C:\Qualcomm\QSPR\TestLog\DefaultTestResult.xls</string>
+      <string>C:\Program Files (x86)\Qualcomm\QDART\QSPRXLTemplates\StatsTemplate.xlt</string>
+      <string>C:\Qualcomm\QSPR\TestLog\</string>
+      <string>DefaultGroup</string>
+      <string>C:\Qualcomm\QSPR\TestLog\DefaultXls.xls</string>
+      <string>NoExcelLogging</string>
+      <string>LongFormat</string>
+      <string>NewFile</string>
+      <string>True</string>
+      <string>True</string>
+      <string>10</string>
+      <string>True</string>
+      <string>False</string>
+      <string>False</string>
+      <string>True</string>
+      <string>C:\Qualcomm\QSPR\TestLog\</string>
+      <string>False</string>
+      <string>False</string>
+      <string>ALL</string>
+      <string>False</string>
+      <PlugInConfigNames>EnableGrid</PlugInConfigNames>
+      <PlugInConfigNames>EnableExcelLog</PlugInConfigNames>
+      <PlugInConfigNames>PromptInvalidExcelMap</PlugInConfigNames>
+      <PlugInConfigNames>ExcelFileName</PlugInConfigNames>
+      <PlugInConfigNames>ExcelTemplate</PlugInConfigNames>
+      <PlugInConfigNames>FileLocation</PlugInConfigNames>
+      <PlugInConfigNames>GroupName</PlugInConfigNames>
+      <PlugInConfigNames>OutputFile</PlugInConfigNames>
+      <PlugInConfigNames>ViewType</PlugInConfigNames>
+      <PlugInConfigNames>AllUnitsFormation</PlugInConfigNames>
+      <PlugInConfigNames>FileOption</PlugInConfigNames>
+      <PlugInConfigNames>ColorExcelCells</PlugInConfigNames>
+      <PlugInConfigNames>OpenExcelAfterTestRun</PlugInConfigNames>
+      <PlugInConfigNames>MaxVisibleArraySize</PlugInConfigNames>
+      <PlugInConfigNames>AutoScrollGrid</PlugInConfigNames>
+      <PlugInConfigNames>EnableVisibleArraySize</PlugInConfigNames>
+      <PlugInConfigNames>ShowTestsWithoutParameters</PlugInConfigNames>
+      <PlugInConfigNames>ShowCharValue</PlugInConfigNames>
+      <PlugInConfigNames>XmlFilePath</PlugInConfigNames>
+      <PlugInConfigNames>WriteXml</PlugInConfigNames>
+      <PlugInConfigNames>ShowLinkedTreeNameColumn</PlugInConfigNames>
+      <PlugInConfigNames>LinesToKeep</PlugInConfigNames>
+      <PlugInConfigNames>WriteCsv</PlugInConfigNames>
+    </TestResultsConfig>
+    <TestResultsConfig>
+      <PlugInName>QsprWebReportViewer</PlugInName>
+    </TestResultsConfig>
+    <TestResultsConfig>
+      <PlugInName>QNPTPlugIn</PlugInName>
+      <string>MultiRadioNoiseProfiler</string>
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <PlugInConfigNames>TestName</PlugInConfigNames>
+      <PlugInConfigNames>DataSetName</PlugInConfigNames>
+      <PlugInConfigNames>XAxisParamName</PlugInConfigNames>
+      <PlugInConfigNames>YAxisParamName</PlugInConfigNames>
+      <PlugInConfigNames>ZAxisParamName</PlugInConfigNames>
+      <PlugInConfigNames>SuiteFileFolderName</PlugInConfigNames>
+      <PlugInConfigNames>ChartTitle</PlugInConfigNames>
+      <PlugInConfigNames />
+      <PlugInConfigNames />
+      <PlugInConfigNames />
+      <PlugInConfigNames />
+    </TestResultsConfig>
+    <TestResultsConfig>
+      <PlugInName>XmlForDB</PlugInName>
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string>False</string>
+      <string>True</string>
+      <string>False</string>
+      <string />
+      <string>C:\Qualcomm\QSPR\TestLog\</string>
+      <string>C:\Program Files (x86)\Qualcomm\QDART\QSPRStyleSheets\QTMData.xsl</string>
+      <string>True</string>
+      <string>False</string>
+      <string />
+      <string>False</string>
+      <string>False</string>
+      <string />
+      <string>False</string>
+      <string>False</string>
+      <string />
+      <string />
+      <string>False</string>
+      <string>False</string>
+      <PlugInConfigNames>idHeader</PlugInConfigNames>
+      <PlugInConfigNames>processHeader </PlugInConfigNames>
+      <PlugInConfigNames>stationHeader</PlugInConfigNames>
+      <PlugInConfigNames>lineHeader</PlugInConfigNames>
+      <PlugInConfigNames>modelHeader</PlugInConfigNames>
+      <PlugInConfigNames>serialNumberHeader</PlugInConfigNames>
+      <PlugInConfigNames>testNameHeader</PlugInConfigNames>
+      <PlugInConfigNames>highSpecHeader</PlugInConfigNames>
+      <PlugInConfigNames>lowSpecHeader</PlugInConfigNames>
+      <PlugInConfigNames>resultHeader</PlugInConfigNames>
+      <PlugInConfigNames>testTimeHeader</PlugInConfigNames>
+      <PlugInConfigNames>testStatusHeader</PlugInConfigNames>
+      <PlugInConfigNames>testDateHeader</PlugInConfigNames>
+      <PlugInConfigNames>globalLine</PlugInConfigNames>
+      <PlugInConfigNames>globalProcess</PlugInConfigNames>
+      <PlugInConfigNames>writeCSV</PlugInConfigNames>
+      <PlugInConfigNames>writeXML</PlugInConfigNames>
+      <PlugInConfigNames>ConvertAtEnd</PlugInConfigNames>
+      <PlugInConfigNames>CSVFilePath</PlugInConfigNames>
+      <PlugInConfigNames>xmlFilePath</PlugInConfigNames>
+      <PlugInConfigNames>styleSheet</PlugInConfigNames>
+      <PlugInConfigNames>AppendComputerName</PlugInConfigNames>
+      <PlugInConfigNames>writeToCustomFormat</PlugInConfigNames>
+      <PlugInConfigNames>customFormatterFilePath</PlugInConfigNames>
+      <PlugInConfigNames>combineSnResults</PlugInConfigNames>
+      <PlugInConfigNames>writeXmlAfterTest</PlugInConfigNames>
+      <PlugInConfigNames>LogCopyPath</PlugInConfigNames>
+      <PlugInConfigNames>CopyLogs</PlugInConfigNames>
+      <PlugInConfigNames>SendEmail</PlugInConfigNames>
+      <PlugInConfigNames>EmailTo</PlugInConfigNames>
+      <PlugInConfigNames>TrackingEmailTo</PlugInConfigNames>
+      <PlugInConfigNames>EmailCurrentUser</PlugInConfigNames>
+      <PlugInConfigNames>logPartialResults</PlugInConfigNames>
+    </TestResultsConfig>
+  </thePlugInConfig>
+  <WConfig>
+    <SuppressSerialNumberDialog>true</SuppressSerialNumberDialog>
+    <SuppressResultsDialog>true</SuppressResultsDialog>
+    <CustomLinkAppName />
+    <CustomLinkAppArgs />
+    <DLLPaths />
+    <DebugWindowSaveLocation>C:\Qualcomm\QSPR\TestLog\</DebugWindowSaveLocation>
+    <TestResultsSaveLocation>C:\Qualcomm\QSPR\TestLog\</TestResultsSaveLocation>
+    <sFont>
+      <FontFamily>Microsoft Sans Serif</FontFamily>
+      <GraphicsUnit>Point</GraphicsUnit>
+      <Size>10</Size>
+      <Style>Regular</Style>
+    </sFont>
+    <SuiteParamGVs />
+    <SearchString>\Sequences\RFVFS\\CDMA\2.0\QSEQ_RFVFS_CDMA_Section_Start.xml</SearchString>
+  </WConfig>
+  <theRegistry>
+    <QTMThisPCTarget>
+      <Name>This PC</Name>
+      <TestContainers>
+        <Key>This PCC:\HTE\Tools\SUITE-3G-EV\bin\QSEQ_DOTNETTest.dll</Key>
+        <Name>C:\HTE\Tools\SUITE-3G-EV\bin\QSEQ_DOTNETTest.dll</Name>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.CheckForOverrun</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>logPath</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Check for overrun flag within the latest QMSL file</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.CheckPhoneCommunication</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>ConnectTimeout</Name>
+              <RealName>ConnectTimeout</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>300000</Value>
+              <DataType>UInt32</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Phone Connect Time out.Unit:ms</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>ConnectPort</Name>
+              <RealName>ConnectPort</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>ConnectMode</Name>
+              <RealName>ConnectMode</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Constraints>QPHONEMS=0;QPST=1;QUTS=2</Constraints>
+              <DisplayHint>8</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.ClearCumulatedSequence</Name>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.CloseQSEQAllResources</Name>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.DeviceGroupQSEQRepositoryGet</Name>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.DeviceGroupQSEQRepositoryPut</Name>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.GetStartTime</Name>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.GlobalQSEQRepositoryGet</Name>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.GlobalQSEQRepositoryPut</Name>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.LoadAllComboInfo</Name>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.LoadAllPathInfo</Name>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.LoadSequenceFromXMLCumulatively</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>sequenceXMLFileName</Name>
+              <RealName>sequenceXMLFileName</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.LoadSequenceStringCumulatively</Name>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.LoadTestRecord</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>testPlan</Name>
+              <RealName>testPlan</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Qualcomm Developed Test Plans. For a custom test plan, please choose the USER_DEFINED option and enter the test plan string into the parameter userDefinedTestPlan.</Description>
+              <Constraints>RFVFS_ALLTECH_MP=0;RFVFS_ALLTECH_NPI=1;RFVFS4G_NSVFS23G_NPI=2;RFVFS4G_PWR_ONLY=3;USER_DEFINED=4</Constraints>
+              <DisplayHint>8</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>userDefinedTestPlan</Name>
+              <RealName>userDefinedTestPlan</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>RFVFS_ALLTECH_MP</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <ParentName>testPlan</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>User defined custom Test Plan to be run, if no match is found, then it will throw an error.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>testRecordFileName</Name>
+              <RealName>testRecordFileName</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>XML that contains the Test Record information to run verification.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>inputConfigFileName</Name>
+              <RealName>inputConfigFileName</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Optional Per product file that describes the functionality of the RF Card. Not used if parameter is left empty.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>timeProfileFileName</Name>
+              <RealName>timeProfileFileName</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Optional file that describes the test time in segments for a given set of attributes. Not used if parameter is left empty.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>writeSequenceFilesToDisk</Name>
+              <RealName>writeSequenceFilesToDisk</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>False</Value>
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>If the sequence xml files are to be written to disk.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>saveModifiedTestRecord</Name>
+              <RealName>saveModifiedTestRecord</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>False</Value>
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>The XTR data object that is modified by the input configuration file is saved to disk.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>outputSequenceFilePath</Name>
+              <RealName>outputSequenceFilePath</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>C:\Program Files (x86)\Qualcomm\QDART\XTT\SubSysVFS\TestRecordSequences</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Location of the output sequence XML files or modified XTR. This parameter is ignored if parameter to write files is false.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>overrideSelfTestMode</Name>
+              <RealName>overrideSelfTestMode</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Allows user to override the SelfTest mode in all tests defined in the Test Record.</Description>
+              <Constraints>NoOverride=0;SelfTestOnly=1;SelfTestPlusTestEquipment=2;TestEquipmentOnly=3</Constraints>
+              <DisplayHint>8</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>overrideUEPowerClass</Name>
+              <RealName>overrideUEPowerClass</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Allows user to override the UE Power Class for all tests defined in the Test Record.</Description>
+              <Constraints>NoOverride=0;POWERCLASS1=1;POWERCLASS2=2;POWERCLASS3=3;POWERCLASS5=5;POWERCLASS6=6</Constraints>
+              <DisplayHint>8</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>RxTriggerUsage</Name>
+              <RealName>RxTriggerUsage</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>0.Supplementary = Rx trigger is only a suplementary way for DL only bands or path ;  1.Mandatory = Rx trigger test plan will be generated anyway.</Description>
+              <Constraints>Supplementary=0;Mandatory=1</Constraints>
+              <DisplayHint>8</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>enableAllPathsTest</Name>
+              <RealName>enableAllPathsTest</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>False</Value>
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Creates multiple sequences, one for each path to be tested.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>ConnectTimeout</Name>
+              <RealName>ConnectTimeout</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>60</Value>
+              <DataType>UInt32</DataType>
+              <Type>Input</Type>
+              <ParentName>enableAllPathsTest</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Phone Connect Time out.Unit:ms</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>AllPathTech</Name>
+              <RealName>AllPathTech</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>3</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <ParentName>enableAllPathsTest</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Technology being queried in all path</Description>
+              <Constraints>CDMA=0;WCDMA=1;EDGE=2;LTE=3;TDSCDMA=4;NRFR1=5;ALL_TECH=6</Constraints>
+              <DisplayHint>8</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>TxRxCalAction</Name>
+              <RealName>TxRxCalAction</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>1</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <ParentName>enableAllPathsTest</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Tx Rx Calibration Action Type:0 = Characterization; 1 = Calibration; 2 = offset calibration; 4 = All calibration types</Description>
+              <Constraints>Characterization=0;Calibration=1;Offset_Calibration=2;All_Type=3</Constraints>
+              <DisplayHint>8</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>RfmPathType</Name>
+              <RealName>RfmPathType</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>2</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <ParentName>enableAllPathsTest</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>RFM path Type: 0 = Rx; 1 =  Tx ; 2 = All path types</Description>
+              <Constraints>Rx=0;Tx=1;All_Path_Type=2</Constraints>
+              <DisplayHint>8</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>OutputRawData</Name>
+              <RealName>OutputRawData</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>False</Value>
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <ParentName>enableAllPathsTest</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Debug use. Output the raw data from the query</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>SavePathConfigToDisk</Name>
+              <RealName>SavePathConfigToDisk</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>False</Value>
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <ParentName>enableAllPathsTest</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Debug use. Save the path configuration to disk</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>DetectTech</Name>
+              <RealName>DetectTech</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>1</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <ParentName>enableAllPathsTest</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Phone detection tech. </Description>
+              <Constraints>CDMA=0;WCDMA=1;EDGE=2;LTE=3;TDSCDMA=4;NRFR1=5;NRFR2=6</Constraints>
+              <DisplayHint>8</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>DetectBand</Name>
+              <RealName>DetectBand</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>1</Value>
+              <DataType>UInt16</DataType>
+              <Type>Input</Type>
+              <ParentName>enableAllPathsTest</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Phone detection band.Input the actual band number, like 34(TDS B34) or 1800(GSM DCS) </Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>InputUserDefinedPathConfig</Name>
+              <RealName>InputUserDefinedPathConfig</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <ParentName>enableAllPathsTest</ParentName>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Input user-defined RF path information</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.RunAllCombosSequences</Name>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.RunAllSequencesByTech</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>technology</Name>
+              <RealName>technology</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Constraints>CDMA=0;WCDMA=1;EDGE=2;LTE=3;TDSCDMA=4;NRFR1=5;NRFR2=6</Constraints>
+              <DisplayHint>8</DisplayHint>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>bandList</Name>
+              <RealName>bandList</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>-1</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Run band by a give band list,such as 1,2,5;-1 means default all bands</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>sequenceRunError</Name>
+              <RealName>sequenceRunError</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Byte</DataType>
+              <Type>Output</Type>
+              <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>sequenceTestFailed</Name>
+              <RealName>sequenceTestFailed</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Byte</DataType>
+              <Type>Output</Type>
+              <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.RunCumulatedSequence</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>sequenceRunError</Name>
+              <RealName>sequenceRunError</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Byte</DataType>
+              <Type>Output</Type>
+              <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>sequenceTestFailed</Name>
+              <RealName>sequenceTestFailed</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Byte</DataType>
+              <Type>Output</Type>
+              <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.RunQSEQSequence</Name>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.RunQSEQSequenceFromXML</Name>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.SetOperatorInfo</Name>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.SetRadioAllocation</Name>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.SetUUTInfo</Name>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.StartDefaultQSEQSession</Name>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.StartQSEQSession</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>deviceConfigFileName</Name>
+              <RealName>deviceConfigFileName</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>..\Databases\QSEQ_DeviceConfig.xml</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Location to the device config xml used to specify parameters for the test equipment as well as the DUT. Other general QSEQ test parameters are also found within this file. Relative paths are based off the DLL location.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>logBaseFolder</Name>
+              <RealName>logBaseFolder</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>C:\Qualcomm\QDART\Logs\QSEQ</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Location of the output logs files, including QMSL, EQUIP and HTML reports. Allows template naming, such as %SN% to insert serial number. Relative paths are based off the DLL location.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>loadingLogFileName</Name>
+              <RealName>loadingLogFileName</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>%DATE_TIME%_loadingLog.txt</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Template name for the loading log file. This is the file that gives information on any errors that can occur when Start QSEQ Session node is run.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>logBaseFolderName_out</Name>
+              <RealName>logBaseFolderName_out</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Output</Type>
+              <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>loadingLogFileName_out</Name>
+              <RealName>loadingLogFileName_out</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Output</Type>
+              <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.StartQSEQSessionV2</Name>
+        </Tests>
+        <Tests>
+          <Name>QSEQ_DOTNETTest.QSEQ_DOTNETTests.StopQSEQSession</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>saveToStorageFolder</Name>
+              <RealName>saveToStorageFolder</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>True</Value>
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Set to 'True' to save the XML result file to the storage drive defined in the Device Config XML.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>useTestTreeFileName</Name>
+              <RealName>useTestTreeFileName</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>True</Value>
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>When 'saveToStorageFolder' is 'True': 
+Set this parameter to 'True' to use the XTT file name to create the storage path for the XML result file. 
+Set this parameter to 'False' to ignore the XTT filename and save the XML result file directly to the path specified in the Device Config XML within the XMLLogStorageFolderPath tag. 
+
+When 'saveToStorageFolder is 'False', this parameter is ignored.</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>disconnectPhoneServer</Name>
+              <RealName>disconnectPhoneServer</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value>True</Value>
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>When 'disconnectPhoneServer' is 'True': 
+Set this parameter to 'True' to kill the instance of Phone Server started by the QSEQ Session. 
+Set this parameter to 'False' to ignore the instance of Phone Server at let it run even after the current QSEQ Session ends.
+</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+            <ParameterCls>
+              <Name>xmlFilePath</Name>
+              <RealName>xmlFilePath</RealName>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Output</Type>
+              <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>false</UseRunTimeLimits>
+              <Description>Complete path to QSEQ generated xml log.
+</Description>
+              <ArrayParameterRIDsAsString />
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <TargetType>ThisPC</TargetType>
+        <TargetName>This PC</TargetName>
+        <Expanded>false</Expanded>
+        <HideTests>false</HideTests>
+        <ContainerType>DotNetTest</ContainerType>
+      </TestContainers>
+      <TestContainers>
+        <Key>This PCC:\HTE\Tools\SUITE-3G-EV\Bin\SubSysRFCal_NET.dll</Key>
+        <Name>C:\HTE\Tools\SUITE-3G-EV\Bin\SubSysRFCal_NET.dll</Name>
+        <Tests>
+          <Name>HIVEK_CTest</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_AddActivePhone</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_AntennaInterfererPositioner</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_AntennaPositioner</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_AP_Utility</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_APT_Averaging</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_BuildLoaderConfig</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_CharMeasurements</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_CharProcessing</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_CheckPhoneCommAndPhoneMode</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_CheckPhoneFFBMMode</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_ClearActivePhone</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_ConfigTemperature</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_ConfigTemperatureV2</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_CopyFile</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_CopyFile_V2</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_CrashLogger</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_CReadRFCalInput</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_CReadRFCalLimits</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_CReadRFCalParams</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_CReadTx_Internal_CalInput</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_CReadXPTCharInput</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_CRFCalAveraging</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_DCOC_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_DeleteEFSItem</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_DisconnectPhone</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_DisplayMessageUtility</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_DLFLogging</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_EFSGroupInfo</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_ENDCCoexChar</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_ENDCCoexCharInput</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_Enh_Internal_Device_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_EquipmentAidedCal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_ESC</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_ET_Proto_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_EventEvaluator</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_ExecuteCommand</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FeedBackRx_Characterization</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FinalizeDataLogging</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FinalizeFactorySetup</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_CAL_DEVICE_ATTRIBUTES</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_CAL_START_STOP</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_DO_SELF_CAL</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_GET_ADC_VAL</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_GET_RSSI</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_GET_RX_AGC</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_IRAT_X2Y_X_Y</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_RF_MODE_EXIT</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_RPC_Command</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_SET_CALIBRATION_STATE</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_SET_CHAN</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_SET_DEVICE_PATH</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_SET_LNA_RANGE</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_SET_LTE_BANDWIDTH</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_SET_LTE_TX_WAVEFORM</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_SET_MODE</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_SET_MODE_ID</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_SET_PA_RANGE</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_SET_PATH_SEL_OVERRIDE_INDEX</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_SET_PDM</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_SET_RF_POWER_MODE</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_SET_SECONDARY_CHAIN</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_SET_TX_ON_OFF</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_FTM_USE_FIXED_VECTOR</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_GenerateDownlink</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_GenericDiagCommand</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_GenericSpecAnMeasurement</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_GenericWriteNV</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_GetFWVersion</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_GetPhoneData</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_GetRFPathInformation</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_GetTxRxCalPathInfo</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_GetUUTID</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_GSM_AvgRxChar</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_GSM_Char</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_GSM_IIP2_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_GSM_Self_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_GSM_V4_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_Init_V3</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_InitializeDataLogging</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_InitializeFactorySetup</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_InitPowerSupply</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_Internal_Device_Cal_v2</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_KernelVerification</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_LockResource</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_LogItem</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_MeasPower</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_MeasReduction</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_MessageLogger</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_MMW_FDRSB</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_MPEDebug</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_NelderMead</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_NLICChar</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_NLICCharInput</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_NR5GMMW_RfcQuery</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_PhoneBootupCheck</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_PresetSigGen</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_ProcessCharMeasurements</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_PSOnOff</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_QCN_Download_Util</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_QCN_Upload</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_QDART_FinalizeDataLogging</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_QDART_InitializeDataLogging</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_QEPMMeasure</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_QLINK_Test_V2</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_QMatchTool</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_QSC</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_ReadFileFromEFS</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_ReadQSCParams</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_ReadRficReducedRgiInput</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_ReLoadRFNVItems</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_RFFE_Scan</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_RXOffset_Averaging</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_SelectActivePhone</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_SelectRFPath</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_SetCalConfigUtility</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_SetConfigItem</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_SetDIPSwitchMask</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_Sleep</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_SUITEGlobalConfiguration</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_SwitchRFPath</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_Synchronization</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_SynctoEFS</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_TestEquipScreenCapture</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_TxRsb_TxLo_Internal_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_APT_Characterization</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_Composite_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_Flush_Calibrated_NV</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_GSM_Linear_Tx_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_GSM_Rx_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_GSM_Tx_4xFMod_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_GSM_Tx_AMAM_AMPM_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_GSM_Tx_CS_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_GSM_Tx_DC_DC_PDM_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_GSM_Tx_Detector_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_GSM_Tx_Kvco_Auto_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_GSM_Tx_Kvco_Cal_V2</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_GSM_Tx_PA_DAC_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_GSM_Tx_Path_Delay_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_GSM_Tx_RSB_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_Init</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_IntelliCeiver_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_LinearDC_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_Rx_DC_Auto_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_Rx_ICI_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_Serial_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_Thermistor_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_VBATT_ADC_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V2_XO_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V3_GSM_FTMSeqRx_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V3_WideBand_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_V3_XO_Cal</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_VerifyDLLVersion_V2</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_VerifySW</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_WriteFileToEFS</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_XMLUploadUtil</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_XO_Cal_Pulse</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_XO_Cal_Pulse_v2</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_XPT_Characterization</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_XPT_Process_Char_Measurements</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_XPTCharV2</Name>
+        </Tests>
+        <Tests>
+          <Name>RFCal_XPTCharV3</Name>
+        </Tests>
+        <Tests>
+          <Name>RFChar_QCC</Name>
+        </Tests>
+        <TargetType>ThisPC</TargetType>
+        <TargetName>This PC</TargetName>
+        <Expanded>false</Expanded>
+        <HideTests>true</HideTests>
+        <ContainerType>HiveTest</ContainerType>
+      </TestContainers>
+      <Expanded>true</Expanded>
+      <Key>This PC</Key>
+    </QTMThisPCTarget>
+  </theRegistry>
+</SerializeComponents>

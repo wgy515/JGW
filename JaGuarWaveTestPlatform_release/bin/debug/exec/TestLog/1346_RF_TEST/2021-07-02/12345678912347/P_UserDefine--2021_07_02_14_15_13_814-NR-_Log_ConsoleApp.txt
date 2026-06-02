@@ -1,0 +1,805 @@
+15:13:922	Start Log
+15:13:922	07/02/21, 14:15:13
+15:13:922	Log file: C:\Qualcomm\Log\C0500-2021_07_02-NC700_1_3_4_5_RF\UserDefine--2021_07_02_14_15_13_814-%TECHNOLOGIES%-_Log_ConsoleApp.txt
+15:13:970	Clearing Sequence data...
+15:13:976	Construction Sequence...
+15:13:977	Loaded XML Sequence
+15:13:977	=== Algorithm Segment Add: SequenceControl ===
+15:13:977	QSEQ_DataItemList::AddNameValuePair(): Name = 'ACTIVATE_SEQUENCE_MODE', Value = '0'
+15:13:977	QSEQ_DataItemList::AddNameValuePair(): Name = 'BASE_EQUIP_STARTUP_RESET_INHIBIT', Value = '1'
+15:13:978	QSEQ_DataItemList::AddNameValuePair(): Name = 'BASE_MOBILE_MSGS_F3', Value = '0'
+15:13:978	QSEQ_DataItemList::AddNameValuePair(): Name = 'BASE_MOBILE_MSGS_L1', Value = '0'
+15:13:978	QSEQ_DataItemList::AddNameValuePair(): Name = 'FTM_COMMAND_TIMING_PROFILE', Value = '1'
+15:13:978	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MODE', Value = 'OFF'
+15:13:978	QSEQ_DataItemList::AddNameValuePair(): Name = 'BASE_COMMON_TRIGGER_TYPE', Value = 'Tx'
+15:13:978	QSEQ_DataItemList::AddNameValuePair(): Name = 'BASE_COMMON_RX_TRIGGER_THRESHOLD', Value = '-65.0'
+15:13:978	=== Algorithm Segment End ===
+
+15:13:978	=== Algorithm Segment Add: Set Initial Radio Configuration ===
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_INIT_MODE', Value = 'SET_VALUE'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_NUM_DL_CARRIERS', Value = '1'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_NUM_UL_CARRIERS', Value = '1'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UL_POWER_REF_HEADROOM', Value = '15'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_NS_VALUE', Value = '1'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UL_POWER_MAX', Value = '23'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_RX_LEVEL_LOWER_DELTA', Value = '2.0'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_RX_LEVEL_UPPER_DELTA', Value = '2.0'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_SELECTED_RX_CHAIN_LIST', Value = '0'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UL_MODULATION_TYPE', Value = 'QPSK'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_RX_MEASUREMENT_OFFSET_MS', Value = '5'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_ANT_PORT_STATE', Value = '0'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_APPLY_POINTA_CHANNEL', Value = '0'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_TX_DUTY_CYCLE', Value = '100'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_INIT_MODE', Value = 'SET_VALUE'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_CARRIER', Value = 'PCC'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_BAND', Value = '78'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_OPT_CHANNEL', Value = 'HIGH'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_CH_BANDWIDTH', Value = '20'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_SUB_CARRIER_SPACING', Value = '30'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UL_MODULATION_TYPE', Value = 'QPSK'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_RB_ALLOCATION', Value = 'OUTER_FULL'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_OFDM_TYPE', Value = 'CP'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_TUNE_NUM_RX_CHAIN', Value = '4'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UL_POWER', Value = '20.0'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UL_POWER_REF_LEVEL', Value = '20.0'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_DL_POWER', Value = '-120.0'
+15:13:985	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UPLINK_ACTIVE', Value = 'TRUE'
+15:13:985	=== Algorithm Segment End ===
+
+15:13:985	=== Algorithm Segment Add: SUB6 SelfTest Values ===
+15:13:986	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_INIT_MODE', Value = 'SET_VALUE'
+15:13:986	QSEQ_DataItemList::AddNameValuePair(): Name = 'TX_SELF_TEST_MODE', Value = 'OFF'
+15:13:986	QSEQ_DataItemList::AddNameValuePair(): Name = 'TX_SELF_TEST_MEASUREMENTS', Value = 'POWER,EVM,ACLR,SPECTRAL_FLATNESS,SEM,OBW,VSWR'
+15:13:986	QSEQ_DataItemList::AddNameValuePair(): Name = 'RX_SELF_TEST_MODE', Value = 'OFF'
+15:13:986	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_EST_SEN_MEAS_COUNT', Value = '3'
+15:13:986	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_NUMBER_OF_AVERAGE', Value = '1'
+15:13:986	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_Tx_POWER_LIMIT', Value = '-40.0'
+15:13:986	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_Tx_POWER_EVM_LIMIT', Value = '0.0'
+15:13:986	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_Tx_POWER_ACLR_LIMIT', Value = '0.0'
+15:13:986	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_Tx_POWER_VSWR_LIMIT', Value = '-30.0'
+15:13:986	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_Tx_POWER_SPECFLAT_LIMIT', Value = '0.0'
+15:13:986	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_Tx_POWER_SEM_LIMIT', Value = '20.0'
+15:13:986	QSEQ_DataItemList::AddNameValuePair(): Name = 'SELF_TEST_MEAS_Tx_POWER_OBW_LIMIT', Value = '20.0'
+15:13:986	=== Algorithm Segment End ===
+
+15:13:986	=== Algorithm Segment Add: ========== Mobile: Setup for Freq Offset Calc ========== ===
+15:13:986	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_INIT_MODE', Value = 'FREQ_OFFSET_SETUP'
+15:13:986	=== Algorithm Segment End ===
+
+15:13:986	=== Algorithm Segment Add: ========== Equip: Compute Mobile Freq Offset ========== ===
+15:13:986	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_INIT_MODE', Value = 'FREQ_OFFSET_COMPUTE'
+15:13:986	=== Algorithm Segment End ===
+
+15:13:986	=== Algorithm Segment Add: ========== Mobile: Set Freq Offset ========== ===
+15:13:986	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_INIT_MODE', Value = 'FREQ_OFFSET_SET_MOBILE'
+15:13:986	=== Algorithm Segment End ===
+
+15:13:986	=== Algorithm Segment Add: ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+15:13:986	QSEQ_DataItemList::AddNameValuePair(): Name = 'ACTIVATE_SEQUENCE_MODE', Value = '1'
+15:13:987	=== Algorithm Segment End ===
+
+15:13:987	=== Algorithm Segment Add: === Establish SUB6 FTM RF Call (Start call from PCC) === ===
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_SEGMENT_OFFSET_SEGMENT_ID', Value = '0'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_SEGMENT_OFFSET_MS', Value = '20'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_CARRIER', Value = 'PCC'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UL_POWER_REF_LEVEL', Value = '-25.0'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UL_POWER', Value = '-25.0'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_RF_ANALYZER_TRIGGER_THRESHOLD', Value = '-20.0'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_FORCE_LEGACY_FREQ_ADJUST', Value = '0'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_RX_FREQ_ERR_CW_OFFSET_KHZ', Value = '50'
+15:13:987	=== Algorithm Segment End ===
+
+15:13:987	=== Algorithm Segment Add: === Trigger === ===
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_SEGMENT_DURATION_MS', Value = '20'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UL_POWER', Value = '28.0'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UL_POWER_REF_LEVEL', Value = '28.0'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_UL_POWER_UPPER_DELTA', Value = '3.0'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_UL_POWER_LOWER_DELTA', Value = '3.0'
+15:13:987	=== Algorithm Segment End ===
+
+15:13:987	=== Algorithm Segment Add: Handover Section ===
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_INIT_MODE', Value = 'SET_VALUE'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_CARRIER', Value = 'PCC'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_BAND', Value = '78'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_CH_BANDWIDTH', Value = '20'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_SUB_CARRIER_SPACING', Value = '30'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_OPT_CHANNEL', Value = 'HIGH'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_TUNE_NUM_RX_CHAIN', Value = '4'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UPLINK_ACTIVE', Value = 'TRUE'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_RB_ALLOCATION', Value = 'OUTER_FULL'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_OFDM_TYPE', Value = 'CP'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UL_MODULATION_TYPE', Value = 'QPSK'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_DL_POWER', Value = '-120'
+15:13:987	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_SEGMENT_DURATION_MS', Value = '150'
+15:13:988	=== Algorithm Segment End ===
+
+15:13:988	=== Algorithm Segment Add: Configure ===
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_SEGMENT_DURATION_MS', Value = '20'
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UL_POWER', Value = '28'
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UL_POWER_REF_LEVEL', Value = '28'
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UL_MODULATION_TYPE', Value = 'QPSK'
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_RB_ALLOCATION', Value = 'OUTER_FULL'
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_OFDM_TYPE', Value = 'CP'
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_NS_VALUE', Value = '1'
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_DL_POWER', Value = '-120'
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_UL_POWER_UPPER_DELTA', Value = '3'
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_UL_POWER_LOWER_DELTA', Value = '3'
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_EST_SEN_UPPERLIMIT', Value = '-89.9'
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_TX_EVM_UPPER_LIMIT', Value = '17.5'
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_TX_FREQERROR_LOWER_LIMIT', Value = '-0.1'
+15:13:988	=== Algorithm Segment End ===
+
+15:13:988	=== Algorithm Segment Add: Measure ===
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_SEGMENT_DURATION_MS', Value = '30'
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_UL_POWER', Value = ''
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_TX_FREQERROR', Value = ''
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_TX_EVM', Value = ''
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_SEM', Value = ''
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_OBW', Value = ''
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_ACLR', Value = ''
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_TX_SPECFLATNESS', Value = ''
+15:13:988	=== Algorithm Segment End ===
+
+15:13:988	=== Algorithm Segment Add: Configure ===
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_SEGMENT_DURATION_MS', Value = '20'
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_RB_ALLOCATION', Value = 'INNER_FULL'
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_EST_SEN_UPPERLIMIT', Value = '-89.9'
+15:13:988	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_TX_FREQERROR_LOWER_LIMIT', Value = '-0.1'
+15:13:988	=== Algorithm Segment End ===
+
+15:13:988	=== Algorithm Segment Add: Measure ===
+15:13:989	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_SEGMENT_DURATION_MS', Value = '20'
+15:13:989	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_UL_POWER', Value = ''
+15:13:989	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_TX_EVM', Value = ''
+15:13:989	=== Algorithm Segment End ===
+
+15:13:989	=== Algorithm Segment Add: Configure ===
+15:13:989	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_SEGMENT_DURATION_MS', Value = '20'
+15:13:989	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_RB_ALLOCATION', Value = 'INNER_1RB_LEFT'
+15:13:989	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_EST_SEN_UPPERLIMIT', Value = '-89.9'
+15:13:989	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_TX_FREQERROR_LOWER_LIMIT', Value = '-0.1'
+15:13:989	=== Algorithm Segment End ===
+
+15:13:989	=== Algorithm Segment Add: Measure ===
+15:13:989	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_SEGMENT_DURATION_MS', Value = '30'
+15:13:989	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_UL_POWER', Value = ''
+15:13:989	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_SEM', Value = ''
+15:13:989	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_ACLR', Value = ''
+15:13:989	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_TX_ORIGOFFSET', Value = ''
+15:13:989	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_TX_IBE', Value = ''
+15:13:989	=== Algorithm Segment End ===
+
+15:13:989	=== Algorithm Segment Add: Configure ===
+15:13:989	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_SEGMENT_DURATION_MS', Value = '20'
+15:13:989	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_RB_ALLOCATION', Value = 'INNER_1RB_RIGHT'
+15:13:989	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_EST_SEN_UPPERLIMIT', Value = '-89.9'
+15:13:989	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_TX_FREQERROR_LOWER_LIMIT', Value = '-0.1'
+15:13:989	=== Algorithm Segment End ===
+
+15:13:989	=== Algorithm Segment Add: Measure ===
+15:13:989	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_SEGMENT_DURATION_MS', Value = '30'
+15:13:989	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_UL_POWER', Value = ''
+15:13:989	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_SEM', Value = ''
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_ACLR', Value = ''
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_TX_ORIGOFFSET', Value = ''
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_TX_IBE', Value = ''
+15:13:990	=== Algorithm Segment End ===
+
+15:13:990	=== Algorithm Segment Add: Handover Section ===
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_INIT_MODE', Value = 'SET_VALUE'
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_CARRIER', Value = 'PCC'
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_BAND', Value = '78'
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_CH_BANDWIDTH', Value = '20'
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_TUNE_NUM_RX_CHAIN', Value = '4'
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UPLINK_ACTIVE', Value = 'TRUE'
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_RB_ALLOCATION', Value = 'OUTER_FULL'
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_OFDM_TYPE', Value = 'CP'
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UL_MODULATION_TYPE', Value = 'QPSK'
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_DL_POWER', Value = '-120'
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_SEGMENT_DURATION_MS', Value = '150'
+15:13:990	=== Algorithm Segment End ===
+
+15:13:990	=== Algorithm Segment Add: Configure ===
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_SEGMENT_DURATION_MS', Value = '20'
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UL_POWER', Value = '-40.0'
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UL_POWER_REF_LEVEL', Value = '-40.0'
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UL_MODULATION_TYPE', Value = 'QPSK'
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_RB_ALLOCATION', Value = 'OUTER_FULL'
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_OFDM_TYPE', Value = 'CP'
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_NS_VALUE', Value = '1'
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_DL_POWER', Value = '-75.0'
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_RX_LEVEL_LOWER_DELTA', Value = '3'
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_RX_LEVEL_UPPER_DELTA', Value = '3'
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_EST_SEN_UPPERLIMIT', Value = '-89.9'
+15:13:990	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_TX_FREQERROR_LOWER_LIMIT', Value = '-0.1'
+15:13:990	=== Algorithm Segment End ===
+
+15:13:990	=== Algorithm Segment Add: Measure ===
+15:13:991	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_SEGMENT_DURATION_MS', Value = '150'
+15:13:991	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_RX_LEVEL', Value = ''
+15:13:991	=== Algorithm Segment End ===
+
+15:13:991	=== Algorithm Segment Add: Configure ===
+15:13:991	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_SEGMENT_DURATION_MS', Value = '20'
+15:13:991	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_DL_POWER', Value = '-80.0'
+15:13:991	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_EST_SEN_UPPERLIMIT', Value = '-89.9'
+15:13:991	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_TX_FREQERROR_LOWER_LIMIT', Value = '-0.1'
+15:13:991	=== Algorithm Segment End ===
+
+15:13:991	=== Algorithm Segment Add: Measure ===
+15:13:991	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_SEGMENT_DURATION_MS', Value = '150'
+15:13:991	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_RX_LEVEL', Value = ''
+15:13:991	=== Algorithm Segment End ===
+
+15:13:991	=== Algorithm Segment Add: Configure ===
+15:13:991	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_SEGMENT_DURATION_MS', Value = '20'
+15:13:991	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UL_POWER', Value = '28.0'
+15:13:991	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_UL_POWER_REF_LEVEL', Value = '28.0'
+15:13:991	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_DL_POWER', Value = '-85.0'
+15:13:991	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_EST_SEN_UPPERLIMIT', Value = '-89.9'
+15:13:991	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_TX_FREQERROR_LOWER_LIMIT', Value = '-0.1'
+15:13:991	=== Algorithm Segment End ===
+
+15:13:991	=== Algorithm Segment Add: Measure ===
+15:13:991	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_SEGMENT_DURATION_MS', Value = '180'
+15:13:991	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_MEAS_EST_SEN', Value = ''
+15:13:992	=== Algorithm Segment End ===
+
+15:13:992	=== Algorithm Segment Add: === Mobile-CallRelease, EQUIP-RfGenOff === ===
+15:13:992	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_ACTION_CALL_RELEASE', Value = ''
+15:13:992	QSEQ_DataItemList::AddNameValuePair(): Name = 'NR_ACTION_RF_GEN_OFF', Value = ''
+15:13:992	=== Algorithm Segment End ===
+
+15:13:992	Sequence create time (ms): 16
+15:13:992	Running Sequence...
+15:13:992	== Sequence Executing Algorithm Step: INITIALIZE ==
+15:13:992	===Algorithm Step: (0) SequenceControl ===
+15:14:087	DeviceInfo: Equipment: Rohde&Schwarz,CMW,1201.0002k06/116992,3.8.12
+15:14:108	DeviceInfo: Equipment: KM600_5GNR_Sub6: "V3.8.20"
+15:14:111	DeviceInfo: Equipment: CMW_GPRF_Gen: "V3.8.11"
+15:14:114	DeviceInfo: Equipment: CMW1xx_BASE: "V3.8.12"
+15:14:122	===Algorithm Step: (1) Set Initial Radio Configuration ===
+15:14:122	===Algorithm Step: (2) SUB6 SelfTest Values ===
+15:14:122	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+15:14:122	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+15:14:122	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+15:14:122	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+15:14:124	===Algorithm Step: (7) === Establish SUB6 FTM RF Call (Start call from PCC) === ===
+15:14:124	===Algorithm Step: (8) === Trigger === ===
+15:14:124	===Algorithm Step: (9) Handover Section ===
+15:14:124	===Algorithm Step: (10) Configure ===
+15:14:124	===Algorithm Step: (11) Measure ===
+15:14:124	===Algorithm Step: (12) Configure ===
+15:14:124	===Algorithm Step: (13) Measure ===
+15:14:124	===Algorithm Step: (14) Configure ===
+15:14:124	===Algorithm Step: (15) Measure ===
+15:14:124	===Algorithm Step: (16) Configure ===
+15:14:124	===Algorithm Step: (17) Measure ===
+15:14:124	===Algorithm Step: (18) Handover Section ===
+15:14:124	===Algorithm Step: (19) Configure ===
+15:14:124	===Algorithm Step: (20) Measure ===
+15:14:124	===Algorithm Step: (21) Configure ===
+15:14:124	===Algorithm Step: (22) Measure ===
+15:14:124	===Algorithm Step: (23) Configure ===
+15:14:124	===Algorithm Step: (24) Measure ===
+15:14:124	===Algorithm Step: (25) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+15:14:124	=== End Sequence Algorithm Step: INITIALIZE, Duration(ms): 140 ===
+
+
+15:14:124	== Sequence Executing Algorithm Step: PRESEQUENCE ==
+15:14:124	===Algorithm Step: (0) SequenceControl ===
+15:15:133	Mobile: DiagTransportMode=QUTS
+15:15:133	Mobile: CommPort=-1
+15:15:563	Mobile: QLIB_IsPhoneConnected(): OK
+15:15:787	The total number of DMRS symbols is 3, the Add. Position for DMRS is 2
+15:15:787	===Algorithm Step: (1) Set Initial Radio Configuration ===
+15:15:787	===Algorithm Step: (2) SUB6 SelfTest Values ===
+15:15:787	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+15:15:788	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+15:15:788	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+15:15:788	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+15:15:802	The total number of DMRS symbols is 3, the Add. Position for DMRS is 2
+15:15:802	===Algorithm Step: (7) === Establish SUB6 FTM RF Call (Start call from PCC) === ===
+15:15:802	===Algorithm Step: (8) === Trigger === ===
+15:15:802	===Algorithm Step: (9) Handover Section ===
+15:15:802	===Algorithm Step: (10) Configure ===
+15:15:802	===Algorithm Step: (11) Measure ===
+15:15:802	===Algorithm Step: (12) Configure ===
+15:15:802	===Algorithm Step: (13) Measure ===
+15:15:802	===Algorithm Step: (14) Configure ===
+15:15:802	===Algorithm Step: (15) Measure ===
+15:15:802	===Algorithm Step: (16) Configure ===
+15:15:802	===Algorithm Step: (17) Measure ===
+15:15:802	===Algorithm Step: (18) Handover Section ===
+15:15:802	===Algorithm Step: (19) Configure ===
+15:15:802	===Algorithm Step: (20) Measure ===
+15:15:802	===Algorithm Step: (21) Configure ===
+15:15:802	===Algorithm Step: (22) Measure ===
+15:15:802	===Algorithm Step: (23) Configure ===
+15:15:802	===Algorithm Step: (24) Measure ===
+15:15:802	===Algorithm Step: (25) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+15:15:802	=== End Sequence Algorithm Step: PRESEQUENCE, Duration(ms): 1672 ===
+
+
+15:15:802	== Sequence Executing Algorithm Step: CONFIGURE ==
+15:15:802	===Algorithm Step: (0) SequenceControl ===
+15:15:802	QLIB_GetLibraryVersion(), Status=[n/a] [ QMSL Library Version: QLIB V6.1.440,QUTS ]
+15:15:802	QLIB_DIAG_SetPhoneLoggingState(), Status=1
+15:15:802	QLIB_FTM_SEQ_SetSequencerMode(): Status: 1
+15:15:809	QLIB_DIAG_VERNO_F(): Status: 1
+15:15:809	DeviceInfo: Mobile: Compile Date Time: May 26 2021 12:25:37
+15:15:809	DeviceInfo: Mobile: Release Date Time: May 04 2021 17:00:00
+15:15:809	DeviceInfo: Mobile: Version Directory: sdx55.cp
+15:15:809	DeviceInfo: Mobile: Station Class Mark (SCM): 42
+15:15:809	DeviceInfo: Mobile: CAI rev: 9
+15:15:809	DeviceInfo: Mobile: Mobile Model: 255
+15:15:809	DeviceInfo: Mobile: Firmware Rev: 100
+15:15:809	DeviceInfo: Mobile: Slot Cycle Index: 48
+15:15:809	DeviceInfo: Mobile: Vocoder major-minor version: 0.207
+15:15:815	QLIB_DIAG_EXT_BUILD_ID_F(): Status: 1
+15:15:815	DeviceInfo: Mobile: MSM_HW_Version: 0xCF2
+15:15:815	DeviceInfo: Mobile: MobModel: 0x14E
+15:15:815	DeviceInfo: Mobile: MobSwRev: MPSS.HI.2.0.3-00217-SDX55_CPEALL_PACK-1
+15:15:815	DeviceInfo: Mobile: ModelStr: 
+15:15:816	QLIB_DIAG_READ_ESN_F(): Status: 1
+15:15:816	DeviceInfo: Mobile: ESN: 0x0
+15:15:818	===Algorithm Step: (1) Set Initial Radio Configuration ===
+15:15:818	===Algorithm Step: (2) SUB6 SelfTest Values ===
+15:15:818	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+15:15:818	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+15:15:818	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+15:15:818	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+15:15:818	QLIB_GetLibraryVersion(), Status=[n/a] [ QMSL Library Version: QLIB V6.1.440,QUTS ]
+15:15:818	QLIB_DIAG_SetPhoneLoggingState(), Status=1
+15:15:819	QLIB_FTM_SEQ_SetSequencerMode(): Status: 1
+15:15:825	QLIB_DIAG_VERNO_F(): Status: 1
+15:15:825	DeviceInfo: Mobile: Compile Date Time: May 26 2021 12:25:37
+15:15:825	DeviceInfo: Mobile: Release Date Time: May 04 2021 17:00:00
+15:15:825	DeviceInfo: Mobile: Version Directory: sdx55.cp
+15:15:825	DeviceInfo: Mobile: Station Class Mark (SCM): 42
+15:15:825	DeviceInfo: Mobile: CAI rev: 9
+15:15:825	DeviceInfo: Mobile: Mobile Model: 255
+15:15:825	DeviceInfo: Mobile: Firmware Rev: 100
+15:15:825	DeviceInfo: Mobile: Slot Cycle Index: 48
+15:15:825	DeviceInfo: Mobile: Vocoder major-minor version: 0.207
+15:15:832	QLIB_DIAG_EXT_BUILD_ID_F(): Status: 1
+15:15:832	DeviceInfo: Mobile: MSM_HW_Version: 0xCF2
+15:15:832	DeviceInfo: Mobile: MobModel: 0x14E
+15:15:832	DeviceInfo: Mobile: MobSwRev: MPSS.HI.2.0.3-00217-SDX55_CPEALL_PACK-1
+15:15:832	DeviceInfo: Mobile: ModelStr: 
+15:15:834	QLIB_DIAG_READ_ESN_F(): Status: 1
+15:15:834	DeviceInfo: Mobile: ESN: 0x0
+15:15:846	QLIB_FTM_SEQ_ActivateBatchMode (): Status: 1
+15:15:846	QLIB_FTM_SEQ_SetPayloadType (): Status: 1
+15:15:846	QLIB_FTM_SEQ_SetResponseType (): Status: 1
+15:15:846	QLIB_FTM_SEQ_Resize_Command_Buffer (2000): Status: 1
+15:15:847	QLIB_FTM_SEQ_CLEAR_QUEUE (): Status: 1
+15:15:849	===Algorithm Step: (7) === Establish SUB6 FTM RF Call (Start call from PCC) === ===
+15:15:855	[0] TxControl(-25.00): Status: 1 [Tx Control]
+15:15:855	[1] QLIB_FTM_SEQ_ADD_WAIT(20000 micro seconds): Status: 1 [Tx Control]
+15:15:855	[2] QLIB_FTM_SEQ_ADD_TIMING_MARKER(): Status: 1
+15:16:109	===Algorithm Step: (8) === Trigger === ===
+15:16:109	[3] TxControl(28.00): Status: 1
+15:16:109	[4] QLIB_FTM_SEQ_ADD_WAIT(20000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+15:16:127	===Algorithm Step: (9) Handover Section ===
+15:16:127	[5] QLIB_FTM_SEQ_ADD_WAIT(150000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+15:16:142	===Algorithm Step: (10) Configure ===
+15:16:142	[6] QLIB_FTM_SEQ_ADD_WAIT(20000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+15:16:156	===Algorithm Step: (11) Measure ===
+15:16:156	[7] QLIB_FTM_SEQ_ADD_WAIT(30000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+15:16:170	===Algorithm Step: (12) Configure ===
+15:16:170	[8] TxControl(28.00): Status: 1
+15:16:170	[9] QLIB_FTM_SEQ_ADD_WAIT(20000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+15:16:185	===Algorithm Step: (13) Measure ===
+15:16:185	[10] QLIB_FTM_SEQ_ADD_WAIT(20000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+15:16:200	===Algorithm Step: (14) Configure ===
+15:16:203	[11] TxControl(28.00): Status: 1
+15:16:203	[12] QLIB_FTM_SEQ_ADD_WAIT(20000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+15:16:218	===Algorithm Step: (15) Measure ===
+15:16:218	[13] QLIB_FTM_SEQ_ADD_WAIT(30000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+15:16:232	===Algorithm Step: (16) Configure ===
+15:16:232	[14] TxControl(28.00): Status: 1
+15:16:232	[15] QLIB_FTM_SEQ_ADD_WAIT(20000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+15:16:246	===Algorithm Step: (17) Measure ===
+15:16:247	[16] QLIB_FTM_SEQ_ADD_WAIT(30000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+15:16:261	===Algorithm Step: (18) Handover Section ===
+15:16:261	[17] TxControl(28.00): Status: 1
+15:16:261	[18] QLIB_FTM_SEQ_ADD_WAIT(150000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+15:16:275	===Algorithm Step: (19) Configure ===
+15:16:275	[19] TxControl(-40.00): Status: 1
+15:16:275	[20] QLIB_FTM_SEQ_ADD_WAIT(20000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+15:16:289	===Algorithm Step: (20) Measure ===
+15:16:289	[21] Tx Off Before Rx Measure: Status: 1
+15:16:289	[22] QLIB_FTM_SEQ_ADD_WAIT(3000), Status=1
+15:16:290	[23] QLIB_FTM_SEQ_ADD_WAIT(5000), Status=1
+15:16:290	[24] QLIB_FTM_SEQ_ADD_WAIT(142000 micro seconds): Status: 1 [Pad FINAL]
+15:16:304	===Algorithm Step: (21) Configure ===
+15:16:304	[25] QLIB_FTM_SEQ_ADD_WAIT(20000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+15:16:319	===Algorithm Step: (22) Measure ===
+15:16:319	[26] QLIB_FTM_SEQ_ADD_WAIT(5000), Status=1
+15:16:319	[27] QLIB_FTM_SEQ_ADD_WAIT(145000 micro seconds): Status: 1 [Pad FINAL]
+15:16:334	===Algorithm Step: (23) Configure ===
+15:16:334	[28] TxControl(28.00): Status: 1
+15:16:334	[29] QLIB_FTM_SEQ_ADD_WAIT(20000 micro seconds): Status: 1 [Mid-test/End-Segment Delay]
+15:16:347	===Algorithm Step: (24) Measure ===
+15:16:356	[30] Tx Off Before Rx Measure: Status: 1
+15:16:356	[31] QLIB_FTM_SEQ_ADD_WAIT(3000), Status=1
+15:16:356	[32] QLIB_FTM_SEQ_ADD_WAIT(5000), Status=1
+15:16:356	[33] QLIB_FTM_SEQ_ADD_WAIT(172000 micro seconds): Status: 1 [Pad FINAL]
+15:16:370	===Algorithm Step: (25) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+15:16:370	[34] TxControl(Stop Waveform): Status: 1
+15:16:370	[35] QLIB_FTM_SEQ_ADD_WAIT(5000 micro seconds): Status: 1
+15:16:370	[36] DropRadio: Status: 1
+15:16:370	[37] QLIB_FTM_SEQ_ADD_WAIT(25000 micro seconds): Status: 1
+15:16:370	[38] Stop Tech: Status: 1
+15:16:370	Segment Duration Total     = 1050 ms
+15:16:370	MELM Measurement Time Total= 110 ms
+15:16:370	Segment Subframe Total= 1050 
+15:16:370	Segment Number Total= 17 
+15:16:475	=== End Sequence Algorithm Step: CONFIGURE, Duration(ms): 672 ===
+
+
+15:16:475	== Sequence Executing Algorithm Step: EXECUTE ==
+15:16:475	===Algorithm Step: (0) SequenceControl ===
+15:16:475	===Algorithm Step: (1) Set Initial Radio Configuration ===
+15:16:476	===Algorithm Step: (2) SUB6 SelfTest Values ===
+15:16:476	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+15:16:476	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+15:16:476	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+15:16:476	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+15:16:476	FTM_SequencerTimeout AUTO-SET: Start[5000] + Measure(sum)[1050] + Stop[1000] = 7050 ms
+15:16:476	QLIB_ConfigureTimeOut ( FTM_Sequencer= 7050 ms ): Status: 1
+15:18:097	===Algorithm Step: (7) === Establish SUB6 FTM RF Call (Start call from PCC) === ===
+15:18:098	===Algorithm Step: (8) === Trigger === ===
+15:18:098	===Algorithm Step: (9) Handover Section ===
+15:18:098	===Algorithm Step: (10) Configure ===
+15:18:098	===Algorithm Step: (11) Measure ===
+15:18:098	===Algorithm Step: (12) Configure ===
+15:18:098	===Algorithm Step: (13) Measure ===
+15:18:098	===Algorithm Step: (14) Configure ===
+15:18:098	===Algorithm Step: (15) Measure ===
+15:18:098	===Algorithm Step: (16) Configure ===
+15:18:098	===Algorithm Step: (17) Measure ===
+15:18:098	===Algorithm Step: (18) Handover Section ===
+15:18:098	===Algorithm Step: (19) Configure ===
+15:18:098	===Algorithm Step: (20) Measure ===
+15:18:098	===Algorithm Step: (21) Configure ===
+15:18:098	===Algorithm Step: (22) Measure ===
+15:18:098	===Algorithm Step: (23) Configure ===
+15:18:098	===Algorithm Step: (24) Measure ===
+15:18:098	===Algorithm Step: (25) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+15:18:098	=== End Sequence Algorithm Step: EXECUTE, Duration(ms): 1625 ===
+
+
+15:18:098	== Sequence Executing Algorithm Step: COLLECT ==
+15:18:098	===Algorithm Step: (0) SequenceControl ===
+15:18:098	===Algorithm Step: (1) Set Initial Radio Configuration ===
+15:18:098	===Algorithm Step: (2) SUB6 SelfTest Values ===
+15:18:098	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+15:18:098	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+15:18:098	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+15:18:098	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+15:18:098	QLIB_FTM_SEQ_EXECUTE_QUEUE(): Status=255,FTM_EC=0,Comp=1 [SegTime= 1050 ms, TotalTime=0]
+15:18:101	QLIB_FTM_SEQ_DeactivateBatchMode(): Status = 1
+15:18:101	===Algorithm Step: (7) === Establish SUB6 FTM RF Call (Start call from PCC) === ===
+15:18:101	Rx Measurement Freq Error Hz: 16928.000
+15:18:101	UTI Query: UE Max Power Limit: 24.500; UE Supported Power Classes: Power Class 2,3,
+15:18:103	CMW FETCH:STATUS queries=1 [0 msec]
+15:18:105	===Algorithm Step: (8) === Trigger === ===
+15:18:105	===Algorithm Step: (9) Handover Section ===
+15:18:105	===Algorithm Step: (10) Configure ===
+15:18:106	===Algorithm Step: (11) Measure ===
+15:18:132	===Algorithm Step: (12) Configure ===
+15:18:132	===Algorithm Step: (13) Measure ===
+15:18:145	===Algorithm Step: (14) Configure ===
+15:18:145	===Algorithm Step: (15) Measure ===
+15:18:170	===Algorithm Step: (16) Configure ===
+15:18:170	===Algorithm Step: (17) Measure ===
+15:18:194	===Algorithm Step: (18) Handover Section ===
+15:18:194	===Algorithm Step: (19) Configure ===
+15:18:194	===Algorithm Step: (20) Measure ===
+15:18:194	===Algorithm Step: (21) Configure ===
+15:18:194	===Algorithm Step: (22) Measure ===
+15:18:194	===Algorithm Step: (23) Configure ===
+15:18:194	===Algorithm Step: (24) Measure ===
+15:18:194	===Algorithm Step: (25) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+15:18:204	=== End Sequence Algorithm Step: COLLECT, Duration(ms): 109 ===
+
+
+15:18:204	== Sequence Executing Algorithm Step: PROCESS ==
+15:18:204	===Algorithm Step: (0) SequenceControl ===
+15:18:204	===Algorithm Step: (1) Set Initial Radio Configuration ===
+15:18:204	===Algorithm Step: (2) SUB6 SelfTest Values ===
+15:18:204	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+15:18:204	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+15:18:204	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+15:18:204	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+15:18:204	===Algorithm Step: (7) === Establish SUB6 FTM RF Call (Start call from PCC) === ===
+15:18:204	===Algorithm Step: (8) === Trigger === ===
+15:18:204	===Algorithm Step: (9) Handover Section ===
+15:18:204	===Algorithm Step: (10) Configure ===
+15:18:205	===Algorithm Step: (11) Measure ===
+15:18:205	===Algorithm Step: (12) Configure ===
+15:18:205	===Algorithm Step: (13) Measure ===
+15:18:205	===Algorithm Step: (14) Configure ===
+15:18:205	===Algorithm Step: (15) Measure ===
+15:18:205	===Algorithm Step: (16) Configure ===
+15:18:205	===Algorithm Step: (17) Measure ===
+15:18:205	===Algorithm Step: (18) Handover Section ===
+15:18:205	===Algorithm Step: (19) Configure ===
+15:18:205	===Algorithm Step: (20) Measure ===
+15:18:205	===Algorithm Step: (21) Configure ===
+15:18:205	===Algorithm Step: (22) Measure ===
+15:18:205	===Algorithm Step: (23) Configure ===
+15:18:205	===Algorithm Step: (24) Measure ===
+15:18:205	===Algorithm Step: (25) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+15:18:205	=== End Sequence Algorithm Step: PROCESS, Duration(ms): 0 ===
+
+
+15:18:205	== Sequence Executing Algorithm Step: REPORT ==
+15:18:205	===Algorithm Step: (0) SequenceControl ===
+15:18:205	===Algorithm Step: (1) Set Initial Radio Configuration ===
+15:18:234	===Algorithm Step: (2) SUB6 SelfTest Values ===
+15:18:234	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+15:18:234	===================== Freq Offset Setup============================
+15:18:234	RFVFS NR5G Init MOB: RRA Time: 0.000
+15:18:234	RFVFS NR5G Init MOB: Radio Config Time: 0.000
+15:18:234	RFVFS NR5G Init MOB: Tx Control Time: 0.000
+15:18:234	RFVFS NR5G Init MOB: Wait Time: 0.000
+15:18:234	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+15:18:234	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+15:18:234	===================== Freq Offset Set Mobile============================
+15:18:234	RFVFS NR5G Init MOB: Disable Tx Time: 0.000
+15:18:234	RFVFS NR5G Init MOB: RRA Time: 0.000
+15:18:234	RFVFS NR5G Init MOB: Radio Config Time: 0.000
+15:18:234	RFVFS NR5G Init MOB: Drop Radio Time: 0.000
+15:18:234	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+15:18:234	RFVFS CommonSequenceControl MOB: === Cached Data ====================================
+15:18:234	RFVFS CommonSequenceControl MOB: m_Cache.Conf.usFTM_EC_ClearQueue  = 0
+15:18:235	RFVFS CommonSequenceControl MOB: m_Cache.Exe.usFTM_EC_Execute      = 0
+15:18:235	RFVFS CommonSequenceControl MOB: m_Cache.Exe.ucSequenceCompleted   = 1
+15:18:235	RFVFS CommonSequenceControl MOB: ==============
+15:18:235	===Algorithm Step: (7) === Establish SUB6 FTM RF Call (Start call from PCC) === ===
+15:18:235	RFVFS NR5G Start MOB: Report: === Cached Data ====================================
+15:18:235	RFVFS NR5G Start MOB: Report: m_Cache.TimingMarker.usFTM_EC                                    = 0
+15:18:235	RFVFS NR5G Start MOB: ==============
+15:18:235	RFVFS NR5G Start MOB: RRA Time: 1.112
+15:18:235	RFVFS NR5G Start MOB: Tech Start Time: 3.444
+15:18:235	RFVFS NR5G Start MOB: Radio Config Time: 48.324
+15:18:235	RFVFS NR5G Start MOB: Tx Control Time: 0.137
+15:18:235	RFVFS NR5G Start MOB: Wait Time: 20.000
+15:18:235	RFVFS NR5G Execution Time Segment ID = 7, Totol Test Time= 104.217 ms
+15:18:235	===Algorithm Step: (8) === Trigger === ===
+15:18:235	RFVFS NR5G Measure MOB: === Cached Data ===
+15:18:235	RFVFS NR5G Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+15:18:235	RFVFS NR5G Measure MOB: m_Cache.FTM_RF_Measure.dTxContol_ms       = 0.12
+15:18:235	RFVFS NR5G Execution Time Segment ID = 8, Totol Test Time= 0.117 ms
+15:18:246	===Algorithm Step: (9) Handover Section ===
+15:18:246	RFVFS NR5G Measure MOB: === Cached Data ===
+15:18:246	RFVFS NR5G Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+15:18:246	===Algorithm Step: (10) Configure ===
+15:18:246	RFVFS NR5G Measure MOB: === Cached Data ===
+15:18:246	RFVFS NR5G Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+15:18:246	===Algorithm Step: (11) Measure ===
+15:18:246	RFVFS NR5G Measure MOB: === Cached Data ===
+15:18:246	RFVFS NR5G Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+15:18:247	RFVFS NR5G Measure EQP: TestName,Ref = NR5G_MaxPower, 
+15:18:247	RFVFS NR5G Measure EQP: MPR          = 3.00
+15:18:247	RFVFS NR5G Measure EQP: UL_Power(avg)= OK,20.98 [18.50, 24.50, PASS]
+15:18:247	RFVFS NR5G Measure EQP: UL_Power(min)= OK,20.98 [18.50, ---, PASS]
+15:18:247	RFVFS NR5G Measure EQP: UL_Power(max)= OK,20.98 [---, 24.50, PASS]
+15:18:264	RFVFS NR5G Measure EQP: EVM          = OK,4.64,4.78 [---, 17.50, PASS]
+15:18:264	RFVFS NR5G Measure EQP: EVM(DMRS)    = OK,4.29,4.30 [---, 17.50, PASS]
+15:18:264	RFVFS NR5G Measure EQP: FreqErr (ppm) average = OK,0.0006 [-0.1000, 0.1000, PASS]
+15:18:264	RFVFS NR5G Measure EQP: FreqErr (ppm) worst   = OK,0.0011 [-0.1000, 0.1000, PASS]
+15:18:264	RFVFS NR Measure EQP: Spectrum Flatness R1  = OK,0.79 [4.0000, PASS]
+15:18:264	RFVFS NR Measure EQP: Spectrum Flatness R2  = OK,0.30 [8.0000, PASS]
+15:18:264	RFVFS NR Measure EQP: Spectrum Flatness R12  = OK,0.87 [5.0000, PASS]
+15:18:264	RFVFS NR Measure EQP: Spectrum Flatness R21  = OK,0.22 [7.0000, PASS]
+15:18:265	RFVFS NR5G Measure EQP: OBW (MHz)    = OK,18.18 [---, 20.00, PASS]
+15:18:265	RFVFS NR5G Measure EQP: SEM (dB)     = OK,-39.26,-36.96,-30.85,-34.39,-34.47,-30.30,-33.70,-39.09
+15:18:266	RFVFS NR5G Measure EQP: ACLR (dB)    = OK,51.56,46.11,42.98,41.48,44.87,49.14
+15:18:267	===Algorithm Step: (12) Configure ===
+15:18:268	RFVFS NR5G Measure MOB: === Cached Data ===
+15:18:268	RFVFS NR5G Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+15:18:268	RFVFS NR5G Measure MOB: m_Cache.FTM_RF_Measure.dTxContol_ms       = 0.14
+15:18:268	RFVFS NR5G Execution Time Segment ID = 12, Totol Test Time= 0.136 ms
+15:18:268	===Algorithm Step: (13) Measure ===
+15:18:268	RFVFS NR5G Measure MOB: === Cached Data ===
+15:18:268	RFVFS NR5G Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+15:18:268	RFVFS NR5G Measure EQP: TestName,Ref = NR5G_MaxPower, 
+15:18:268	RFVFS NR5G Measure EQP: MPR          = 1.50
+15:18:268	RFVFS NR5G Measure EQP: UL_Power(avg)= OK,22.30 [20.00, 26.00, PASS]
+15:18:268	RFVFS NR5G Measure EQP: UL_Power(min)= OK,22.29 [20.00, ---, PASS]
+15:18:268	RFVFS NR5G Measure EQP: UL_Power(max)= OK,22.29 [---, 26.00, PASS]
+15:18:269	RFVFS NR5G Measure EQP: EVM          = OK,8.43,8.68 [---, 17.50, PASS]
+15:18:269	RFVFS NR5G Measure EQP: EVM(DMRS)    = OK,8.34,8.34 [---, 17.50, PASS]
+15:18:270	===Algorithm Step: (14) Configure ===
+15:18:270	RFVFS NR5G Measure MOB: === Cached Data ===
+15:18:270	RFVFS NR5G Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+15:18:270	RFVFS NR5G Measure MOB: m_Cache.FTM_RF_Measure.dTxContol_ms       = 0.12
+15:18:270	RFVFS NR5G Execution Time Segment ID = 14, Totol Test Time= 0.122 ms
+15:18:270	===Algorithm Step: (15) Measure ===
+15:18:270	RFVFS NR5G Measure MOB: === Cached Data ===
+15:18:270	RFVFS NR5G Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+15:18:270	RFVFS NR5G Measure EQP: TestName,Ref = NR5G_MaxPower, 
+15:18:270	RFVFS NR5G Measure EQP: MPR          = 1.50
+15:18:270	RFVFS NR5G Measure EQP: UL_Power(avg)= OK,22.35 [20.00, 26.00, PASS]
+15:18:270	RFVFS NR5G Measure EQP: UL_Power(min)= OK,22.31 [20.00, ---, PASS]
+15:18:270	RFVFS NR5G Measure EQP: UL_Power(max)= OK,22.31 [---, 26.00, PASS]
+15:18:271	RFVFS NR5G Measure EQP: OriginOffset Average = OK,-49.51 [-28.0000, PASS]
+15:18:271	RFVFS NR5G Measure EQP: IBE(Worst Margin)  = OK,12.37 [0.0000, PASS]
+15:18:272	RFVFS NR5G Measure EQP: SEM (dB)     = OK,-41.46,-36.16,-35.46,-28.11,-46.77,-40.25,-40.29,-41.26
+15:18:273	RFVFS NR5G Measure EQP: ACLR (dB)    = OK,53.61,50.95,46.64,48.74,55.50,56.07
+15:18:274	===Algorithm Step: (16) Configure ===
+15:18:274	RFVFS NR5G Measure MOB: === Cached Data ===
+15:18:274	RFVFS NR5G Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+15:18:274	RFVFS NR5G Measure MOB: m_Cache.FTM_RF_Measure.dTxContol_ms       = 0.12
+15:18:274	RFVFS NR5G Execution Time Segment ID = 16, Totol Test Time= 0.122 ms
+15:18:274	===Algorithm Step: (17) Measure ===
+15:18:274	RFVFS NR5G Measure MOB: === Cached Data ===
+15:18:274	RFVFS NR5G Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+15:18:274	RFVFS NR5G Measure EQP: TestName,Ref = NR5G_MaxPower, 
+15:18:274	RFVFS NR5G Measure EQP: MPR          = 1.50
+15:18:274	RFVFS NR5G Measure EQP: UL_Power(avg)= OK,22.30 [20.00, 26.00, PASS]
+15:18:274	RFVFS NR5G Measure EQP: UL_Power(min)= OK,22.24 [20.00, ---, PASS]
+15:18:274	RFVFS NR5G Measure EQP: UL_Power(max)= OK,22.24 [---, 26.00, PASS]
+15:18:275	RFVFS NR5G Measure EQP: OriginOffset Average = OK,-49.55 [-28.0000, PASS]
+15:18:275	RFVFS NR5G Measure EQP: IBE(Worst Margin)  = OK,13.57 [0.0000, PASS]
+15:18:276	RFVFS NR5G Measure EQP: SEM (dB)     = OK,-41.40,-40.52,-40.26,-46.43,-31.06,-36.02,-35.13,-40.91
+15:18:277	RFVFS NR5G Measure EQP: ACLR (dB)    = OK,56.15,55.25,48.93,46.47,51.46,52.85
+15:18:278	===Algorithm Step: (18) Handover Section ===
+15:18:278	RFVFS NR5G Measure MOB: === Cached Data ===
+15:18:278	RFVFS NR5G Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+15:18:278	RFVFS NR5G Measure MOB: m_Cache.FTM_RF_Measure.dTxContol_ms       = 0.12
+15:18:278	RFVFS NR5G Execution Time Segment ID = 18, Totol Test Time= 0.120 ms
+15:18:278	===Algorithm Step: (19) Configure ===
+15:18:278	RFVFS NR5G Measure MOB: === Cached Data ===
+15:18:278	RFVFS NR5G Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+15:18:278	RFVFS NR5G Measure MOB: m_Cache.FTM_RF_Measure.dTxContol_ms       = 0.15
+15:18:278	RFVFS NR5G Execution Time Segment ID = 19, Totol Test Time= 0.151 ms
+15:18:279	===Algorithm Step: (20) Measure ===
+15:18:279	RFVFS NR5G Measure MOB: === Cached Data ===
+15:18:279	RFVFS NR5G Measure MOB: m_Cache.RxMeasureReport.usFTM_EC_ExtraWait_TDD     = 0
+15:18:279	RFVFS NR5G Measure MOB: m_Cache.RxMeasureReport.usFTM_EC_AddWait     = 0
+15:18:279	RFVFS NR5G Measure MOB: m_Cache.Timing_End.usFTM_EC_AddWait       = 0
+15:18:279	RFVFS NR5G Measure MOB: m_Cache.FTM_RF_Measure.dDisableTx_ms       = 0.12
+15:18:279	RFVFS NR5G Measure MOB: m_Cache.FTM_RF_Measure.dWaitTime_ms       = 8.00
+15:18:279	RFVFS SUB6 Measure MOB: Rx0-Rx_Level = -73.60 [-78.00, -72.00 PASS]
+15:18:279	RFVFS SUB6 Measure MOB: Rx1-Rx_Level = -73.70 [-78.00, -72.00 PASS]
+15:18:279	RFVFS SUB6 Measure MOB: Rx2-Rx_Level = -76.10 [-78.00, -72.00 PASS]
+15:18:279	RFVFS SUB6 Measure MOB: Rx3-Rx_Level = -77.20 [-78.00, -72.00 PASS]
+15:18:280	RFVFS NR5G Execution Time Segment ID = 20, Totol Test Time= 78.601 ms
+15:18:281	===Algorithm Step: (21) Configure ===
+15:18:281	RFVFS NR5G Measure MOB: === Cached Data ===
+15:18:281	RFVFS NR5G Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+15:18:281	===Algorithm Step: (22) Measure ===
+15:18:281	RFVFS NR5G Measure MOB: === Cached Data ===
+15:18:281	RFVFS NR5G Measure MOB: m_Cache.RxMeasureReport.usFTM_EC_ExtraWait_TDD     = 1
+15:18:281	RFVFS NR5G Measure MOB: m_Cache.RxMeasureReport.usFTM_EC_AddWait     = 0
+15:18:281	RFVFS NR5G Measure MOB: m_Cache.Timing_End.usFTM_EC_AddWait       = 0
+15:18:281	RFVFS NR5G Measure MOB: m_Cache.FTM_RF_Measure.dWaitTime_ms       = 5.00
+15:18:281	RFVFS SUB6 Measure MOB: Rx0-Rx_Level = -78.60 [-83.00, -77.00 PASS]
+15:18:281	RFVFS SUB6 Measure MOB: Rx1-Rx_Level = -78.50 [-83.00, -77.00 PASS]
+15:18:281	RFVFS SUB6 Measure MOB: Rx2-Rx_Level = -80.70 [-83.00, -77.00 PASS]
+15:18:281	RFVFS SUB6 Measure MOB: Rx3-Rx_Level = -81.70 [-83.00, -77.00 PASS]
+15:18:282	RFVFS NR5G Execution Time Segment ID = 22, Totol Test Time= 71.003 ms
+15:18:283	===Algorithm Step: (23) Configure ===
+15:18:283	RFVFS NR5G Measure MOB: === Cached Data ===
+15:18:283	RFVFS NR5G Measure MOB: m_Cache.Timing_MidSeg.usFTM_EC_AddWait    = 0
+15:18:283	RFVFS NR5G Measure MOB: m_Cache.FTM_RF_Measure.dTxContol_ms       = 6.93
+15:18:283	RFVFS NR5G Execution Time Segment ID = 23, Totol Test Time= 6.933 ms
+15:18:283	===Algorithm Step: (24) Measure ===
+15:18:283	RFVFS NR5G Measure MOB: === Cached Data ===
+15:18:283	RFVFS NR5G Measure MOB: m_Cache.RxMeasureReport.usFTM_EC_ExtraWait_TDD     = 0
+15:18:283	RFVFS NR5G Measure MOB: m_Cache.RxMeasureReport.usFTM_EC_AddWait     = 0
+15:18:283	RFVFS NR5G Measure MOB: m_Cache.Timing_End.usFTM_EC_AddWait       = 0
+15:18:283	RFVFS NR5G Measure MOB: m_Cache.FTM_RF_Measure.dDisableTx_ms       = 0.12
+15:18:283	RFVFS NR5G Measure MOB: m_Cache.FTM_RF_Measure.dWaitTime_ms       = 8.00
+15:18:283	======Rx Chain 0======
+15:18:283	RFVFS NR5G Measure MOB: Est Sensitivity Rx0 = -97.59 [---, -89.90 PASS]
+15:18:283	RFVFS NR5G Measure MOB: CtoN Rx0    = 11.59
+15:18:283	RFVFS NR5G Measure MOB: Rx0 AGC    = -83.20
+15:18:283	======Rx Chain 1======
+15:18:283	RFVFS NR5G Measure MOB: Est Sensitivity Rx1 = -96.88 [---, -89.90 PASS]
+15:18:283	RFVFS NR5G Measure MOB: CtoN Rx1    = 10.88
+15:18:283	RFVFS NR5G Measure MOB: Rx1 AGC    = -83.40
+15:18:284	======Rx Chain 2======
+15:18:284	RFVFS NR5G Measure MOB: Est Sensitivity Rx2 = -92.42 [---, -89.90 PASS]
+15:18:284	RFVFS NR5G Measure MOB: CtoN Rx2    = 6.42
+15:18:284	RFVFS NR5G Measure MOB: Rx2 AGC    = -85.10
+15:18:284	======Rx Chain 3======
+15:18:284	RFVFS NR5G Measure MOB: Est Sensitivity Rx3 = -95.14 [---, -89.90 PASS]
+15:18:284	RFVFS NR5G Measure MOB: CtoN Rx3    = 9.14
+15:18:284	RFVFS NR5G Measure MOB: Rx3 AGC    = -86.50
+15:18:285	RFVFS NR5G Execution Time Segment ID = 24, Totol Test Time= 168.890 ms
+15:18:285	===Algorithm Step: (25) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+15:18:285	RFVFS NR5G Stop MOB: Report: === Cached Data ====================================
+15:18:285	RFVFS NR5G Stop MOB: Report: m_Cache.FTM_RF_Stop.usFTM_EC_AddWait     = 0
+15:18:285	RFVFS NR5G Stop MOB: Disable Tx Time: 0.125
+15:18:285	RFVFS NR5G Stop MOB: Drop Radio Time: 15.159
+15:18:285	RFVFS NR5G Stop MOB: Wait Time: 30.000
+15:18:285	RFVFS NR5G Execution Time Segment ID = 25, Totol Test Time= 55.466 ms
+15:18:286	=== End Sequence Algorithm Step: REPORT, Duration(ms): 78 ===
+
+
+15:18:286	== Sequence Executing Algorithm Step: POSTSEQUENCE ==
+15:18:286	===Algorithm Step: (0) SequenceControl ===
+15:18:286	===Algorithm Step: (1) Set Initial Radio Configuration ===
+15:18:286	===Algorithm Step: (2) SUB6 SelfTest Values ===
+15:18:286	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+15:18:286	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+15:18:286	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+15:18:286	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+15:18:286	===Algorithm Step: (7) === Establish SUB6 FTM RF Call (Start call from PCC) === ===
+15:18:286	===Algorithm Step: (8) === Trigger === ===
+15:18:286	===Algorithm Step: (9) Handover Section ===
+15:18:286	===Algorithm Step: (10) Configure ===
+15:18:286	===Algorithm Step: (11) Measure ===
+15:18:286	===Algorithm Step: (12) Configure ===
+15:18:286	===Algorithm Step: (13) Measure ===
+15:18:286	===Algorithm Step: (14) Configure ===
+15:18:286	===Algorithm Step: (15) Measure ===
+15:18:287	===Algorithm Step: (16) Configure ===
+15:18:287	===Algorithm Step: (17) Measure ===
+15:18:287	===Algorithm Step: (18) Handover Section ===
+15:18:287	===Algorithm Step: (19) Configure ===
+15:18:287	===Algorithm Step: (20) Measure ===
+15:18:287	===Algorithm Step: (21) Configure ===
+15:18:287	===Algorithm Step: (22) Measure ===
+15:18:287	===Algorithm Step: (23) Configure ===
+15:18:287	===Algorithm Step: (24) Measure ===
+15:18:287	===Algorithm Step: (25) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+15:18:287	=== End Sequence Algorithm Step: POSTSEQUENCE, Duration(ms): 0 ===
+
+
+15:18:287	== Sequence Executing Algorithm Step: SHUTDOWN ==
+15:18:287	===Algorithm Step: (0) SequenceControl ===
+15:18:296	===Algorithm Step: (1) Set Initial Radio Configuration ===
+15:18:296	===Algorithm Step: (2) SUB6 SelfTest Values ===
+15:18:296	===Algorithm Step: (3) ========== Mobile: Setup for Freq Offset Calc ========== ===
+15:18:296	===Algorithm Step: (4) ========== Equip: Compute Mobile Freq Offset ========== ===
+15:18:296	===Algorithm Step: (5) ========== Mobile: Set Freq Offset ========== ===
+15:18:296	===Algorithm Step: (6) ===== Sequence Control - Enable Mobile Batch Mode ===== ===
+15:18:296	===Algorithm Step: (7) === Establish SUB6 FTM RF Call (Start call from PCC) === ===
+15:18:296	===Algorithm Step: (8) === Trigger === ===
+15:18:296	===Algorithm Step: (9) Handover Section ===
+15:18:296	===Algorithm Step: (10) Configure ===
+15:18:297	===Algorithm Step: (11) Measure ===
+15:18:297	===Algorithm Step: (12) Configure ===
+15:18:297	===Algorithm Step: (13) Measure ===
+15:18:297	===Algorithm Step: (14) Configure ===
+15:18:297	===Algorithm Step: (15) Measure ===
+15:18:297	===Algorithm Step: (16) Configure ===
+15:18:297	===Algorithm Step: (17) Measure ===
+15:18:297	===Algorithm Step: (18) Handover Section ===
+15:18:297	===Algorithm Step: (19) Configure ===
+15:18:297	===Algorithm Step: (20) Measure ===
+15:18:297	===Algorithm Step: (21) Configure ===
+15:18:297	===Algorithm Step: (22) Measure ===
+15:18:297	===Algorithm Step: (23) Configure ===
+15:18:297	===Algorithm Step: (24) Measure ===
+15:18:297	===Algorithm Step: (25) === Mobile-CallRelease, EQUIP-RfGenOff === ===
+15:18:297	=== End Sequence Algorithm Step: SHUTDOWN, Duration(ms): 16 ===
+
+
+15:18:297	 Sequence create duration(ms): 16
+15:18:297	Sequence runtime duration(ms): 4312
+15:18:297	      INITIALIZE duration(ms): 140
+15:18:297	     PRESEQUENCE duration(ms): 1672
+15:18:297	       CONFIGURE duration(ms): 672
+15:18:297	         EXECUTE duration(ms): 1625
+15:18:297	         COLLECT duration(ms): 109
+15:18:297	         PROCESS duration(ms): 0
+15:18:297	          REPORT duration(ms): 78
+15:18:297	    POSTSEQUENCE duration(ms): 0
+15:18:297	        SHUTDOWN duration(ms): 16
+15:18:297	
+15:18:297	Last Error code: 0, Last Error Text: No Error
+
+15:18:297	SubErrorName : SYSTEM__COMMON__NO_ERROR
+15:18:297	SubErrorCode : 0000
+
+15:18:367	Log DeviceGroup1 result to C:\Qualcomm\Log\C0500-2021_07_02-NC700_1_3_4_5_RF\UserDefine--2021_07_02_14_15_13_814-NR-.xml
+15:18:445	[HTML]: C:\Qualcomm\Log\C0500-2021_07_02-NC700_1_3_4_5_RF\UserDefine--2021_07_02_14_15_13_814-NR-.html
+15:18:445	Stop Log

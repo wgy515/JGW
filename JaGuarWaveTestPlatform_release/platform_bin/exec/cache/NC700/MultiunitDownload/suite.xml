@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Suite>
+    <common>
+		<ApplicationCMD>cmd.exe</ApplicationCMD>
+		<!-- 开启ADB TCPIP 网络连接-->
+		<TSE_FTM_CONNECT_MODE>ADB_TCPIP</TSE_FTM_CONNECT_MODE>
+	</common>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_QualcommFlashImageDownload" description="连接高通设备" />
+		<TestName paramVal="Sahara协议下载" description="测试名称描述" />
+		<Command paramVal="QSaharaServer.exe -p $$TSE_DOWNLOAD_PORT_PARAM$$ -s 13:$$TSE_DOWNLOAD_PATH_PARAM$$\$$TSE_SAHARA_FIREHOSE_IMAGE_PARAM$$" description="协议下载命令" />
+		<CommandOk paramVal="File transferred successfully" description="命令下发成功标记" />
+		<RetryCount paramVal="1" description="错误重测次数"/>
+		<TimeOut paramVal="600" description="命令超时时间S"/>
+	</SuiteProject>
+	<!--SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_QualcommFlashImageDownload" description="连接高通设备" />
+		<TestName paramVal="UFS初始化" description="测试名称描述" />
+		<Command paramVal="fh_loader.exe --port=$$TSE_DOWNLOAD_PORT_PARAM$$ --sendxml=$$TSE_DOWNLOAD_PROVISION_XML_NAME_PARAM$$ --search_path=$$TSE_DOWNLOAD_PATH_PARAM$$ --noprompt --showpercentagecomplete --skipwrite --zlpawarehost=1 --memoryname=UFS --skipstorageinit" description="协议下载命令" />
+		<CommandOk paramVal="All Finished Successfull" description="命令下发成功标记" />
+		<RetryCount paramVal="1" description="错误重测次数"/>
+	</SuiteProject-->
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_QualcommFlashImageDownload" description="连接高通设备" />
+		<TestName paramVal="Rawprogram下载" description="测试名称描述" />
+		<Command paramVal="fh_loader.exe --port=$$TSE_DOWNLOAD_PORT_PARAM$$ --sendxml=$$TSE_RAWPROGRAM_XML_NAMES_PARAM$$ --search_path=$$TSE_DOWNLOAD_PATH_PARAM$$ --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=nand" description="协议下载命令"/>
+		<CommandOk paramVal="All Finished Successfull" description="命令下发成功标记" />
+		<TimeOut paramVal="600" description="命令超时时间S"/>
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_QualcommFlashImageDownload" description="连接高通设备" />
+		<TestName paramVal="Patch下载" description="测试名称描述" />
+		<Command paramVal="fh_loader.exe --port=$$TSE_DOWNLOAD_PORT_PARAM$$ --sendxml=$$TSE_PATCH_XML_NAMES_PARAM$$ --search_path=$$TSE_DOWNLOAD_PATH_PARAM$$ --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=nand" description="协议下载命令" />
+		<CommandOk paramVal="All Finished Successfull" description="命令下发成功标记" />
+		<TimeOut paramVal="600" description="命令超时时间S"/>
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_QualcommFlashImageDownload" description="连接高通设备" />
+		<TestName paramVal="分区激活" description="测试名称描述" />
+		<Command paramVal="fh_loader.exe --port=$$TSE_DOWNLOAD_PORT_PARAM$$ --setactivepartition=0 --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=nand" description="协议下载命令" />
+		<CommandOk paramVal="All Finished Successfull" description="命令下发成功标记" />
+		<TimeOut paramVal="600" description="命令超时时间S"/>
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_QualcommFlashImageDownload" description="连接高通设备" />
+		<TestName paramVal="下载完成重启" description="测试名称描述" />
+		<Command paramVal="fh_loader.exe --port=$$TSE_DOWNLOAD_PORT_PARAM$$ --reset --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=nand" description="协议下载命令" />
+		<CommandOk paramVal="All Finished Successfull" description="命令下发成功标记" />
+		<TimeOut paramVal="600" description="命令超时时间S"/>
+	</SuiteProject>
+</Suite>

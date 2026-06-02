@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{48d01862-40b0-4793-90a2-19877137225f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Throughput">
+      <UniqueIdentifier>{833cce1c-dd7d-41b1-aca4-810620056cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TSE">
+      <UniqueIdentifier>{b1c62eb3-17af-4ad7-a2b0-57f8f2b5ac00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSV">
+      <UniqueIdentifier>{ec1862a0-c39c-401e-924f-c80f298d49db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\TSE_LANIPConfig.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\CJGW_LANConfigDlg.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\CJGW_LANSuiteConfigXML.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Throughput\CJGW_ThroughTestConfigDlg.h">
+      <Filter>Throughput</Filter>
+    </ClInclude>
+    <ClInclude Include="Throughput\CJGW_ThroughputTestConfigXml.h">
+      <Filter>Throughput</Filter>
+    </ClInclude>
+    <ClInclude Include="Throughput\TSE_ThroughputConfig.h">
+      <Filter>Throughput</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE\TSE_BaseConfigDlg.h">
+      <Filter>TSE</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE\TSE_BaseConfig.h">
+      <Filter>TSE</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_CSVConfigUI.h">
+      <Filter>CSV</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_CSVConfigDlg.h">
+      <Filter>CSV</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE\CJGW_FTM_Json.h">
+      <Filter>TSE</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_InputNumberWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_InputViewResolver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Config\TSE_LANIPConfig.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Config\CJGW_LANConfigDlg.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Config\CJGW_LANSuiteConfigXML.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Throughput\CJGW_ThroughTestConfigDlg.cpp">
+      <Filter>Throughput</Filter>
+    </ClCompile>
+    <ClCompile Include="Throughput\CJGW_ThroughputTestConfigXml.cpp">
+      <Filter>Throughput</Filter>
+    </ClCompile>
+    <ClCompile Include="Throughput\TSE_ThroughputConfig.cpp">
+      <Filter>Throughput</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE\TSE_BaseConfigDlg.cpp">
+      <Filter>TSE</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE\TSE_BaseConfig.cpp">
+      <Filter>TSE</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_CSVConfigUI.cpp">
+      <Filter>CSV</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_CSVConfigDlg.cpp">
+      <Filter>CSV</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE\CJGW_FTM_Json.cpp">
+      <Filter>TSE</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_InputNumberWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_InputViewResolver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

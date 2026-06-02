@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by Qualcomm (Qualcomm) -->
+<FormatDescriptor>
+	<OutputGroupSet name="Plain Table" width="2">
+		<!-- defines a worksheet with a name "Plain Table" -->
+		<CondensedSummaryDescriptor name="Summary">
+			<!-- defines a table of data -->
+			<IndexedParam index="1" id="Technology"/>
+			<!-- defines a column -->
+			<IndexedParam index="2" id="Band"/>
+			<!-- defines a column -->
+			<IndexedParam index="3" id="Channel"/>
+			<!-- defines a column -->
+			<IndexedParam index="4" id="Mobile Tx Frequency"/>
+			<!-- defines a column -->
+			<IndexedParam index="5" id="Mobile Rx Frequency"/>
+			<!-- defines a column -->
+			<IndexedParam index="6" id="Spur Index"/>
+			<!-- defines a column -->
+			<IndexedParam index="7" id="Spur Frequency Offset"/>
+			<!-- defines a column -->
+			<IndexedParam index="8" id="Spur Width"/>
+			<!-- defines a column -->
+			<IndexedParam index="9" id="Spur Pass"/>
+			<!-- defines a column -->
+			<!--			<Result resID="Highest Spur Measured" testID="Wideband Spectral Analysis" format="0.00">
+				<Discriminator id="Technology" isString="true">
+					 Nested discriminators: Technology, Band, Channel 
+					<Discriminator id="Band" isString="true">
+						<Discriminator id="Channel"/>
+					</Discriminator>
+				</Discriminator>
+			</Result>-->
+			<!--NOTE: The testID "List of the Highest Spurs" is kept only for backward compatibility.
+			 Users should use testID= "Wideband Spectral Analysis" for further spur search-->
+			<!--			<Result resID="Spur Power" testID="List of the Highest Spurs" format="0.00">
+				<Discriminator id="Technology" isString="true">
+					 Nested discriminators: Technology, Band, Channel 
+					<Discriminator id="Band" isString="true">
+						<Discriminator id="Channel">
+							<Discriminator id="Spur Index"/>
+						</Discriminator>
+					</Discriminator>
+				</Discriminator>
+			</Result>-
+			<Result resID="Spur Power" testID="List of the Highest Spurs" format="0.00">
+				<Discriminator id="Technology" isString="true">
+					<Discriminator id="Band" isString="true">
+						<Discriminator id="Channel">
+							<Discriminator id="Spur Index">
+								<Discriminator id="Spur Frequency Offset from L1"/>
+							</Discriminator>
+						</Discriminator>
+					</Discriminator>
+				</Discriminator>
+			</Result>-->
+			<Result resID="Spur Power" testID="Wideband Spectral Analysis" format="0.00">
+				<Discriminator id="Technology" isString="true">
+					<!-- Nested discriminators: Technology, Band, Channel -->
+					<Discriminator id="Band" isString="true">
+						<Discriminator id="Channel">
+							<Discriminator id="Spur Index"/>
+						</Discriminator>
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<!--<Result resID="Spur Power" testID="Wideband Spectral Analysis" format="0.00">
+				<Discriminator id="Technology" isString="true">
+					<Discriminator id="Band" isString="true">
+						<Discriminator id="Channel">
+							<Discriminator id="Spur Index">
+								<Discriminator id="Spur Frequency Offset"/>
+							</Discriminator>
+						</Discriminator>
+					</Discriminator>
+				</Discriminator>
+			</Result>-->
+			<Result resID="Noise Figure Measured" testID="Wideband Spectral Analysis" format="0.00">
+				<Discriminator id="Technology" isString="true">
+					<!-- Nested discriminators: Technology, Band, Channel -->
+					<Discriminator id="Band" isString="true">
+						<Discriminator id="Channel"/>
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="SNR Measured" testID="Wideband Spectral Analysis" name="C/No Measured (dB)" format="0.00">
+				<Discriminator id="Technology" isString="true">
+					<!-- Nested discriminators: Technology, Band, Channel -->
+					<Discriminator id="Band" isString="true">
+						<Discriminator id="Channel"/>
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Noise Floor" testID="Wideband Spectral Analysis" format="0.00">
+				<Discriminator id="Technology" isString="true">
+					<!-- Nested discriminators: Technology, Band, Channel -->
+					<Discriminator id="Band" isString="true">
+						<Discriminator id="Channel"/>
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Frequency Accuracy" testID="Wideband Spectral Analysis" name="Frequency accuracy (ppm)" format="0.000">
+				<Discriminator id="Technology" isString="true">
+					<!-- Nested discriminators: Technology, Band, Channel -->
+					<Discriminator id="Band" isString="true">
+						<Discriminator id="Channel"/>
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="std(I)" testID="Wideband Spectral Analysis" format="0.00">
+				<Discriminator id="Technology" isString="true">
+					<!-- Nested discriminators: Technology, Band, Channel -->
+					<Discriminator id="Band" isString="true">
+						<Discriminator id="Channel"/>
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="std(Q)" testID="Wideband Spectral Analysis" format="0.00">
+				<Discriminator id="Technology" isString="true">
+					<!-- Nested discriminators: Technology, Band, Channel -->
+					<Discriminator id="Band" isString="true">
+						<Discriminator id="Channel"/>
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<!--	<Result resID="WB Spectrum BMP Unique File Name" testID="Wideband Spectral Analysis">
+				<Discriminator id="Technology" isString="true">  
+					<Discriminator id="Band" isString="true">
+						<Discriminator id="Channel"/>
+					</Discriminator>
+				</Discriminator>
+			</Result>	-->
+		</CondensedSummaryDescriptor>
+	</OutputGroupSet>
+	<!--"Plain table"-->
+	<OutputGroupSet name="Graphs vs. channel" width="2">
+		<!-- defines a worksheet -->
+		<!--		<OutputGroupDescriptor_Sc name="Highest Spur vs. channel" xName="UL Channel" yName="Highest Spur (dBm)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<YAxis index="1" min="-150" max="-120"/>
+			</OGDisplayProperties>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.00">
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Channel"/>
+				<DepVar id="Highest Spur Measured"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>-->
+		<OutputGroupDescriptor_Sc name="Spur detail vs. channel" xName="UL Channel" yName="Spur Level (dBm)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<YAxis index="1"/>
+				<!--YAxis min="-150" max="-140"-->
+			</OGDisplayProperties>
+			<Series testID="List of the Highest Spurs" groupByTC="true" format="0.00">
+				<Discriminator id="Spur Index" value="&lt;=10"/>
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="false" cycleColors="true"/>
+				<IndVar id="Channel"/>
+				<DepVar id="Spur Power"/>
+			</Series>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.00">
+				<Discriminator id="Spur Index" value="&lt;=10"/>
+				<!-- TEST  <Discriminator id="Spur Pass" value="&lt;=1"/>-->
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="false" cycleColors="true"/>
+				<IndVar id="Channel"/>
+				<DepVar id="Spur Power"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>
+		<OutputGroupDescriptor_Sc name="Noise Figure vs. channel" xName="UL Channel" yName="Noise Figure (dB)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<!--YAxis index="1" min="0" max="8"/-->
+			</OGDisplayProperties>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.00">
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Channel"/>
+				<DepVar id="Noise Figure Measured"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>
+		<OutputGroupDescriptor_Sc name="C/No vs. channel" xName="UL Channel" yName="C/No (dB)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<!--YAxis index="1" min="0" max="50"/-->
+			</OGDisplayProperties>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.00">
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Channel"/>
+				<DepVar id="SNR Measured"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>
+		<OutputGroupDescriptor_Sc name="Noise Floor vs. channel" xName="UL Channel" yName="Noise Floor (dB)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<!--YAxis index="1" min="-40" max="0"/-->
+			</OGDisplayProperties>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.00">
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Channel"/>
+				<DepVar id="Noise Floor"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>
+		<OutputGroupDescriptor_Sc name="Frequency Accuracy (ppm) vs. channel" xName="UL Channel" yName="Frequency Accuracy (ppm)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<!--YAxis index="1" min="0" max="2"/-->
+			</OGDisplayProperties>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.000">
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Channel"/>
+				<DepVar id="Frequency Accuracy"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>
+		<OutputGroupDescriptor_Sc name="std(I) vs. channel" xName="UL Channel" yName="std(I)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<!--YAxis index="1" min="0" max="3.5"/-->
+			</OGDisplayProperties>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.00">
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Channel"/>
+				<DepVar id="std(I)"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>
+		<OutputGroupDescriptor_Sc name="std(Q) vs. channel" xName="UL Channel" yName="std(Q)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<!--YAxis index="1" min="0" max="3.5"/-->
+			</OGDisplayProperties>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.00">
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Channel"/>
+				<DepVar id="std(Q)"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>
+	</OutputGroupSet>
+	<!--"Graphs vs. channel"-->
+	<OutputGroupSet name="Graphs vs. Mob. Tx frequency" width="2">
+		<!-- defines a worksheet -->
+		<!--		<OutputGroupDescriptor_Sc name="Highest Spur vs. Mobile Tx Frequency" xName="Mobile Tx Frequency" yName="Highest Spur (dBm)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<YAxis index="1" min="-150" max="-120"/>
+			</OGDisplayProperties>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.00">
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Mobile Tx Frequency"/>
+				<DepVar id="Highest Spur Measured"/>
+			</Series>-
+		</OutputGroupDescriptor_Sc>-->
+		<OutputGroupDescriptor_Sc name="Spur detail vs. Mobile Tx frequency" xName="Mobile Tx Frequency" yName="Spur Level (dBm)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<YAxis index="1"/>
+				<!--YAxis min="-150" max="-120"-->
+			</OGDisplayProperties>
+			<Series testID="List of the Highest Spurs" groupByTC="true" format="0.00">
+				<Discriminator id="Spur Index" value="&lt;=10"/>
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Mobile Tx Frequency"/>
+				<DepVar id="Spur Power"/>
+			</Series>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.00">
+				<Discriminator id="Spur Index" value="&lt;=10"/>
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Mobile Tx Frequency"/>
+				<DepVar id="Spur Power"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>
+		<OutputGroupDescriptor_Sc name="Noise Figure vs. Mobile Tx Frequency" xName="Mobile Tx Frequency" yName="Noise Figure (dB)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<!--YAxis index="1" min="0" max="8"/-->
+			</OGDisplayProperties>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.00">
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Mobile Tx Frequency"/>
+				<DepVar id="Noise Figure Measured"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>
+		<OutputGroupDescriptor_Sc name="C/No vs. Mobile Tx Frequency" xName="Mobile Tx Frequency" yName="C/No (dB)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<!--YAxis index="1" min="0" max="50"/-->
+			</OGDisplayProperties>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.00">
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Mobile Tx Frequency"/>
+				<DepVar id="SNR Measured"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>
+		<OutputGroupDescriptor_Sc name="Noise Floor vs. Mobile Tx Frequency" xName="Mobile Tx Frequency" yName="Noise Floor (dB)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<!--YAxis index="1" min="-40" max="0"/-->
+			</OGDisplayProperties>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.00">
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Mobile Tx Frequency"/>
+				<DepVar id="Noise Floor"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>
+		<OutputGroupDescriptor_Sc name="Frequency Accuracy (ppm) vs. Mobile Tx Frequency" xName="Mobile Tx Frequency" yName="Frequency Accuracy (ppm)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<!--YAxis index="1" min="0" max="2"/-->
+			</OGDisplayProperties>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.000">
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Mobile Tx Frequency"/>
+				<DepVar id="Frequency Accuracy"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>
+		<OutputGroupDescriptor_Sc name="std(I) vs. Mobile Tx Frequency" xName="Mobile Tx Frequency" yName="std(I)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<!--YAxis index="1" min="0" max="3.5"/-->
+			</OGDisplayProperties>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.00">
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Mobile Tx Frequency"/>
+				<DepVar id="std(I)"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>
+		<OutputGroupDescriptor_Sc name="std(Q) vs. Mobile Tx Frequency" xName="Mobile Tx Frequency" yName="std(Q)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<!--YAxis index="1" min="0" max="3.5"/-->
+			</OGDisplayProperties>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.00">
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Mobile Tx Frequency"/>
+				<DepVar id="std(Q)"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>
+	</OutputGroupSet>
+	<!--"Graphs vs. Mob. Tx frequency"-->
+	<OutputGroupSet name="Graphs vs. Mob. Rx frequency" width="2">
+		<!-- defines a worksheet -->
+		<!--		<OutputGroupDescriptor_Sc name="Highest Spur vs. Mobile Rx Frequency" xName="Mobile Rx Frequency" yName="Highest Spur (dBm)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<YAxis index="1" min="-150" max="-120"/>
+			</OGDisplayProperties>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.00">
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Mobile Rx Frequency"/>
+				<DepVar id="Highest Spur Measured"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>-->
+		<OutputGroupDescriptor_Sc name="Spur detail vs. Mobile Rx frequency" xName="Mobile Rx Frequency" yName="Spur Level (dBm)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<YAxis index="1"/>
+				<!--YAxis min="-150" max="-120" -->
+			</OGDisplayProperties>
+			<Series testID="List of the Highest Spurs" groupByTC="true" format="0.00">
+				<Discriminator id="Spur Index" value="&lt;=10"/>
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Mobile Rx Frequency"/>
+				<DepVar id="Spur Power"/>
+			</Series>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.00">
+				<Discriminator id="Spur Index" value="&lt;=10"/>
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Mobile Rx Frequency"/>
+				<DepVar id="Spur Power"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>
+		<OutputGroupDescriptor_Sc name="Noise Figure vs. Mobile Rx Frequency" xName="Mobile Rx Frequency" yName="Noise Figure (dB)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<!--YAxis index="1" min="0" max="8"/-->
+			</OGDisplayProperties>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.00">
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Mobile Rx Frequency"/>
+				<DepVar id="Noise Figure Measured"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>
+		<OutputGroupDescriptor_Sc name="C/No vs. Mobile Rx Frequency" xName="Mobile Rx Frequency" yName="C/No (dB)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<!--YAxis index="1" min="0" max="50"/-->
+			</OGDisplayProperties>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.00">
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Mobile Rx Frequency"/>
+				<DepVar id="SNR Measured"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>
+		<OutputGroupDescriptor_Sc name="Noise Floor vs. Mobile Rx Frequency" xName="Mobile Rx Frequency" yName="Noise Floor (dB)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<!--YAxis index="1" min="-40" max="0"/-->
+			</OGDisplayProperties>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.00">
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Mobile Rx Frequency"/>
+				<DepVar id="Noise Floor"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>
+		<OutputGroupDescriptor_Sc name="Frequency Accuracy (ppm) vs. Mobile Rx Frequency" xName="Mobile Rx Frequency" yName="Frequency Accuracy (ppm)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<!--YAxis index="1" min="0" max="2"/-->
+			</OGDisplayProperties>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.000">
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Mobile Rx Frequency"/>
+				<DepVar id="Frequency Accuracy"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>
+		<OutputGroupDescriptor_Sc name="std(I) vs. Mobile Rx Frequency" xName="Mobile Rx Frequency" yName="std(I)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<!--YAxis index="1" min="0" max="3.5"/-->
+			</OGDisplayProperties>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.00">
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Mobile Rx Frequency"/>
+				<DepVar id="std(I)"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>
+		<OutputGroupDescriptor_Sc name="std(Q) vs. Mobile Rx Frequency" xName="Mobile Rx Frequency" yName="std(Q)">
+			<Discriminator id="Technology" isString="true">
+				<Discriminator id="Band" isString="true"/>
+			</Discriminator>
+			<OGDisplayProperties legendPosition="4">
+				<XAxis maxScaleRes="1"/>
+				<!--YAxis index="1" min="0" max="3.5"/-->
+			</OGDisplayProperties>
+			<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.00">
+				<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+				<IndVar id="Mobile Rx Frequency"/>
+				<DepVar id="std(Q)"/>
+			</Series>
+		</OutputGroupDescriptor_Sc>
+	</OutputGroupSet>
+	<!--"Graphs vs. Mobile Rx frequency"-->
+	<!-- Use this as a template, so that the GNSS Spur Search users can create new worksheets in Excel
+    <OutputGroupSet name="Spur detail vs. Mob. Tx frequency" width="2"> 
+		<OutputGroupDescriptor_Sc name="Spur detail vs. Mob. Tx frequency"  xName="Mobile Tx Frequency" yName="Spur Level (dBm)">
+			<Discriminator id="Technology" isString="true"/>
+			<Discriminator id="Band" isString="true"/>
+			<OGDisplayProperties legendPosition="4">
+				<YAxis index="1" min="-150" max="-120"/>
+			</OGDisplayProperties>
+				<Series testID="Wideband Spectral Analysis" groupByTC="true" format="0.00">  
+					<Discriminator id="Spur Index" value="&lt;=10"/>
+					<DisplayProperties color="0x0000FF" markerOn="false" weight="3" smooth="true" cycleColors="true"/>
+					<IndVar id="Mobile Tx Frequency"/>
+					<DepVar id="Spur Power"/>
+				</Series >
+		</OutputGroupDescriptor_Sc>
+	</OutputGroupSet> -->
+</FormatDescriptor>

@@ -1,0 +1,753 @@
+<6>[29996.479929]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[29998.429666]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[29998.478908]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[29999.445176]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[29999.493110]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30001.460394]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30001.504184]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30003.035665]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30003.072115]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30005.467313]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30005.509682]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       4      current tx performance:       0 Mbits/s
+<6>[30007.037146]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30007.062220]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30008.497963]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30008.547722]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30010.504001]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30010.545132]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30011.506263]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30011.556717]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30013.522091]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30013.569877]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30015.039925]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30015.152383]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30016.849317]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30017.598677]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30019.041247]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30019.143366]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30021.577756]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30021.633057]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30023.042534]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30023.133280]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30024.613347]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30024.655852]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30025.618058]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30025.667779]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30027.043305]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30027.132664]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30028.649647]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30028.695687]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30030.670366]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30030.720033]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30031.685740]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30031.727403]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:      12      current tx performance:       0 Mbits/s
+<6>[30032.697010]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30032.749488]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30034.712460]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30034.759322]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30036.732445]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30036.775288]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30037.747877]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30037.803671]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30039.046858]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30039.109110]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30041.753567]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30041.807246]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30042.768985]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30042.820040]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30043.783496]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30043.833886]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30044.789063]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30044.835652]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30046.794077]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30046.847248]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30048.802895]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30048.846935]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30049.808149]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30049.863237]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30051.052513]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30051.090992]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30053.832931]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30053.879765]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30054.836630]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30054.880828]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30055.852899]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30055.898180]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30056.867318]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30056.917282]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30058.876244]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30058.918022]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30059.891154]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30059.943243]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30061.897322]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30061.943460]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30062.913154]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30062.969389]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30063.915007]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30063.969400]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       4      current tx performance:       0 Mbits/s
+<6>[30065.915796]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30065.969970]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30066.931209]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30066.980490]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30067.945071]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30067.996089]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30069.964216]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30070.011009]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30071.058324]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30071.169996]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30073.997948]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30074.043463]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30075.011383]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30075.056612]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30076.027649]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30076.083589]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       4      current tx performance:       0 Mbits/s
+<6>[30077.675905]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30078.034193]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30078.690607]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30079.145974]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30080.096803]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30081.067168]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30081.110474]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30082.071386]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30082.119768]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30083.086614]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30083.133069]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30085.103494]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30085.150103]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30086.117853]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30086.164129]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30087.145984]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30087.346362]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30088.377989]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30088.378042]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsRx:1586]: Rx Number of   ARP indicated to OS  Success:   1    Failure:  0  
+<6>[30089.187996]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30089.393913]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30089.393982]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsRx:1586]: Rx Number of   ARP indicated to OS  Success:   1    Failure:  0  
+<6>[30090.433956]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30090.434009]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsRx:1586]: Rx Number of   ARP indicated to OS  Success:   1    Failure:  0  
+<6>[30091.063425]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30091.474013]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30091.474065]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsRx:1586]: Rx Number of   ARP indicated to OS  Success:   1    Failure:  0  
+<6>[30092.514103]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30092.514156]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsRx:1586]: Rx Number of   ARP indicated to OS  Success:   1    Failure:  0  
+<6>[30093.199625]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30093.553914]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30093.553966]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsRx:1586]: Rx Number of   ARP indicated to OS  Success:   1    Failure:  0  
+<6>[30094.228880]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30095.122344]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30095.367696]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30097.204725]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30097.257991]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30098.219306]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30098.273785]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30099.363698]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30099.376689]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30101.253836]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30101.308318]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30102.258259]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30102.313761]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30103.273776]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30103.329686]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30105.291923]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30105.344256]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30106.919217]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30107.068990]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30109.299541]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30109.346433]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30110.315132]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30110.356250]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30111.329447]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30111.385317]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30113.331668]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30113.387294]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30114.346002]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30114.401666]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30115.360865]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30115.414783]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30117.379483]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30117.428695]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30118.394257]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30118.444282]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30119.408660]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30119.456348]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30120.422271]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30120.475648]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30121.438591]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30121.493524]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30123.074024]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30123.189999]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30124.469618]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30124.525611]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       4      current tx performance:       0 Mbits/s
+<6>[30125.485229]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30125.540169]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30127.074972]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30127.173471]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30129.515408]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30129.566670]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30130.530835]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30130.587171]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30131.545327]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30131.587174]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30133.561178]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30133.604908]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30135.076883]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30135.159960]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30136.949440]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30137.640347]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30138.587722]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30139.078179]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30139.602941]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30141.620014]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30141.674912]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30143.079483]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30143.149375]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30144.650162]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30144.694759]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30146.676807]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30146.725059]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30148.676822]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30148.720562]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30149.682109]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30149.737370]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30151.082088]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30151.134530]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30153.594891]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30153.695786]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30154.706204]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30154.753914]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30156.714855]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30156.766562]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30158.723103]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30158.776398]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30159.736054]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30159.788489]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30160.743445]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30162.755042]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30162.810090]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30163.770435]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30163.822354]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30164.785894]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30164.834806]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30166.789691]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30166.832919]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30168.801909]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30168.851333]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30169.813463]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30169.863083]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30171.088246]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30171.236541]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30173.820892]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30173.877693]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30174.823561]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30174.879278]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30176.828169]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30176.871963]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30178.831684]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30178.884614]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30180.835492]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30180.878001]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30181.837957]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30181.892189]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30183.091280]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30183.189149]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30184.855620]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30184.897151]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       4      current tx performance:       0 Mbits/s
+<6>[30186.867390]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30186.910672]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30187.882276]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30187.925038]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30188.896728]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30188.938195]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30189.901527]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30189.952567]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30191.093708]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30191.184258]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30192.917785]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30192.963120]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30194.932356]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30194.979267]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30196.678280]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       4      current tx performance:       0 Mbits/s
+<6>[30196.942163]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30197.690386]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30198.705289]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30198.957787]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30199.963749]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30200.007894]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       4      current tx performance:       0 Mbits/s
+<6>[30200.979039]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30201.022803]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30202.996920]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30203.049261]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30205.011317]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30205.054728]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30207.018532]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30207.064408]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30209.024004]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30209.070208]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30210.026809]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30211.042413]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30211.090370]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30212.057099]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30212.102119]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30213.655214]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30214.065931]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30215.081538]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30215.100092]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30217.086145]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30217.130748]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30218.091932]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30218.144420]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30219.126353]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30219.623353]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30222.116170]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30222.168830]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30223.130825]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30223.182829]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30224.141575]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30224.195641]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30225.151059]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30227.013001]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30227.104368]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30228.167928]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30228.221103]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30230.176355]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30230.221318]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30231.191429]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30231.234629]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30233.209516]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30233.260242]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30234.223043]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30234.274790]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30235.252101]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30235.297540]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30237.242000]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30237.282366]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30238.256707]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30238.313026]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30239.261899]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30239.313555]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30241.268706]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30241.309757]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30243.109055]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30243.198643]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30245.300644]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30245.342943]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       4      current tx performance:       0 Mbits/s
+<6>[30247.110007]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30247.197865]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30249.318597]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30249.369598]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30251.110782]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30251.183941]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30253.332105]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30253.377549]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30254.342479]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30254.391241]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30255.717378]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30255.729239]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30257.043189]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30257.404588]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30258.374061]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30258.418777]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30259.387726]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30259.444530]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30261.393915]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30261.449302]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30262.409168]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30262.464721]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30263.727235]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30263.739563]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30265.430229]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30265.475450]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30266.435335]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30266.486331]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30267.737128]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30267.748900]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30270.443460]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30270.498137]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30271.745996]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30271.757379]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30273.715477]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30274.447233]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30275.117713]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30275.452669]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30277.457273]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30277.506493]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30279.119039]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30279.245790]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30280.469404]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30280.522124]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30282.482934]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30282.526195]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30283.497436]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30283.540379]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30284.512201]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30284.554936]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30286.517486]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30286.569341]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30287.533054]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30287.588432]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30289.551853]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30289.595295]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30290.563136]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30290.610017]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30291.576376]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30291.630686]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30293.593805]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30293.641056]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30295.123886]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30295.212709]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30296.617782]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30296.672280]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30297.633262]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30297.685073]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30298.638003]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30298.687704]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30299.813514]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30299.826369]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30302.664506]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30302.717025]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30303.735656]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30303.823234]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30306.678779]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30306.733731]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30307.824606]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30307.835962]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30310.689354]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30310.743427]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30311.704604]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30311.757981]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30313.714292]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30313.755568]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30314.716392]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30314.771868]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30315.847997]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30315.859744]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30317.073582]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30317.703583]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30318.718288]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30319.176602]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30319.794022]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30321.746300]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30321.797031]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30322.749984]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30323.132295]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30323.763672]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30325.769306]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30325.822307]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30326.784723]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30326.836153]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30327.883653]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30327.896559]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30330.800416]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30330.854966]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30331.893885]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30331.905560]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30333.765811]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30333.830344]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30335.135846]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30335.255019]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30336.840457]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30336.889736]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30338.860106]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30338.913229]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30339.874633]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30339.918668]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30341.883102]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30341.932543]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30343.138802]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30343.249941]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30345.901175]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30345.953279]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30346.916800]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30346.967998]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30347.932234]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30347.980245]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30349.933159]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30349.987310]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30351.140358]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30351.233577]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30352.950671]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30352.995238]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30354.968809]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30355.010156]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30356.990551]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30357.042760]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30358.004540]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30358.047673]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30359.143300]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30359.215429]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30361.028939]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30361.075558]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30363.035134]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30363.089435]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30365.043370]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30365.087371]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       4      current tx performance:       0 Mbits/s
+<6>[30366.045481]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30367.060061]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30367.116126]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30369.075854]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30369.120360]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30371.083396]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30371.135442]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30372.098864]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30372.141581]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30373.111492]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30373.159463]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30374.126891]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30374.177171]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30375.353451] nss-dp 3a001a00.dp6 eth1: PHY Link is down
+<6>[30375.357836] br-lan: port 2(eth1) entered disabled state
+<6>[30375.975164]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30377.134022]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30378.549839]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30379.979276]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30381.151310]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30382.091105]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30382.182829]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30382.182879]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsRx:1586]: Rx Number of   ARP indicated to OS  Success:   1    Failure:  0  
+<6>[30383.673242] nss-dp 3a001a00.dp6 eth1: PHY Link up speed: 100
+<6>[30383.673365] br-lan: port 2(eth1) entered blocking state
+<6>[30383.677961] br-lan: port 2(eth1) entered forwarding state
+<6>[30383.684039]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       4      current tx performance:       0 Mbits/s
+<6>[30383.688489]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsRx:1586]: Rx Number of   ARP indicated to OS  Success:   1    Failure:  0  
+<6>[30384.015410]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30384.015463]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsTx:1550]: Tx Number of ARP queued to core  Success:  1   Failure:  0 
+<6>[30384.692763]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       6      current tx performance:       0 Mbits/s
+<4>[30384.692812]  DRIVER_LOG[7c:6c:f0:af:ff:36][WARNING-OTHER]-[Private_CurrentTxPerformance:1057]: TX ARP frame Sent 2
+<6>[30384.707910]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsRx:1586]: Rx Number of   ARP indicated to OS  Success:   1    Failure:  0  
+<6>[30384.718248]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsTx:1550]: Tx Number of ARP queued to core  Success:  1   Failure:  0 
+<6>[30385.438499]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30385.438551]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsTx:1550]: Tx Number of ARP queued to core  Success:  1   Failure:  0 
+<6>[30385.707742]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:      39      current tx performance:       0 Mbits/s
+<4>[30385.707790]  DRIVER_LOG[7c:6c:f0:af:ff:36][WARNING-OTHER]-[Private_CurrentTxPerformance:1057]: TX ARP frame Sent 1
+<6>[30386.919798]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:     121      current tx performance:       1 Mbits/s
+<4>[30386.919847]  DRIVER_LOG[7c:6c:f0:af:ff:36][WARNING-OTHER]-[Private_CurrentTxPerformance:1057]: TX ARP frame Sent 2
+<6>[30386.934952]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsTx:1550]: Tx Number of ARP queued to core  Success:  2   Failure:  0 
+<6>[30387.292075]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30387.924936]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:      17      current tx performance:       0 Mbits/s
+<6>[30388.313978]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30388.936075]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:      21      current tx performance:       0 Mbits/s
+<6>[30389.318235]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30389.913449] nss-dp 3a001a00.dp6 eth1: PHY Link is down
+<6>[30389.914035] br-lan: port 2(eth1) entered disabled state
+<6>[30390.514885]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30391.611350]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30392.660366]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30393.723798]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30393.802603]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:      19      current tx performance:       0 Mbits/s
+<6>[30394.861251]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30396.671451]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30396.671503]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsRx:1586]: Rx Number of   ARP indicated to OS  Success:   2    Failure:  0  
+<6>[30397.273279]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30397.674330]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30397.674382]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsRx:1586]: Rx Number of   ARP indicated to OS  Success:   1    Failure:  0  
+<6>[30398.413259]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       4      current tx performance:       0 Mbits/s
+<6>[30399.703576]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30399.703650]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsRx:1586]: Rx Number of   ARP indicated to OS  Success:   1    Failure:  0  
+<6>[30399.753267]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30401.513272]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30401.513324]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsRx:1586]: Rx Number of   ARP indicated to OS  Success:   1    Failure:  0  
+<6>[30401.711989]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30401.712039]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsRx:1586]: Rx Number of   ARP indicated to OS  Success:   1    Failure:  0  
+<6>[30402.393246] nss-dp 3a001a00.dp6 eth1: PHY Link up speed: 100
+<6>[30402.393330] br-lan: port 2(eth1) entered blocking state
+<6>[30402.397966] br-lan: port 2(eth1) entered forwarding state
+<6>[30402.877392]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30403.918840]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:      57      current tx performance:       0 Mbits/s
+<4>[30403.918889]  DRIVER_LOG[7c:6c:f0:af:ff:36][WARNING-OTHER]-[Private_CurrentTxPerformance:1057]: TX ARP frame Sent 2
+<6>[30403.933996]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsTx:1550]: Tx Number of ARP queued to core  Success:  2   Failure:  0 
+<6>[30404.932693]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:      26      current tx performance:       0 Mbits/s
+<4>[30404.932742]  DRIVER_LOG[7c:6c:f0:af:ff:36][WARNING-OTHER]-[Private_CurrentTxPerformance:1057]: TX ARP frame Sent 1
+<6>[30404.947846]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsTx:1550]: Tx Number of ARP queued to core  Success:  1   Failure:  0 
+<6>[30405.137010]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30406.035830]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:      24      current tx performance:       0 Mbits/s
+<4>[30406.035880]  DRIVER_LOG[7c:6c:f0:af:ff:36][WARNING-OTHER]-[Private_CurrentTxPerformance:1057]: TX ARP frame Sent 1
+<6>[30406.050989]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsRx:1586]: Rx Number of   ARP indicated to OS  Success:   1    Failure:  0  
+<6>[30406.061320]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsTx:1550]: Tx Number of ARP queued to core  Success:  1   Failure:  0 
+<6>[30407.142696]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:      15      current tx performance:       0 Mbits/s
+<6>[30407.179272]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30408.202692]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:      42      current tx performance:       0 Mbits/s
+<6>[30409.135279]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30409.333647]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       5      current tx performance:       0 Mbits/s
+<6>[30410.495488]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       8      current tx performance:       0 Mbits/s
+<4>[30410.495537]  DRIVER_LOG[7c:6c:f0:af:ff:36][WARNING-OTHER]-[Private_CurrentTxPerformance:1057]: TX ARP frame Sent 1
+<6>[30410.510636]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsRx:1586]: Rx Number of   ARP indicated to OS  Success:   1    Failure:  0  
+<6>[30410.520973]  DRIVER_LOG[7c:6c:f0:af:ff:36][ALWAYS-OSIF]-[PrsCoreDelegateInterface_PrintPeriodicStatsTx:1550]: Tx Number of ARP queued to core  Success:  1   Failure:  0 
+<6>[30411.092380]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30411.817154]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:      44      current tx performance:       0 Mbits/s
+<6>[30412.607310]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30412.956573]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:      10      current tx performance:       0 Mbits/s
+<6>[30414.634495]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       7      current tx performance:       0 Mbits/s
+<6>[30416.517605]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:      13      current tx performance:       0 Mbits/s
+<6>[30418.525887]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30420.260890]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30420.946112]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30421.706757]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:     149      current tx performance:       1 Mbits/s
+<6>[30422.056972]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 1 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30422.728052]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:      22      current tx performance:       0 Mbits/s
+<6>[30423.058523]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30423.812911]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:      21      current tx performance:       0 Mbits/s
+<6>[30424.309477]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30424.812445]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:      11      current tx performance:       0 Mbits/s
+<6>[30425.354294]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 1 Mbits/s      MSDU processing: 1 Mbits/s      Indicated Rx: 1 Mbits/s
+<6>[30426.318915]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:      21      current tx performance:       0 Mbits/s
+<6>[30427.283915]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30427.320969]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       6      current tx performance:       0 Mbits/s
+<6>[30428.386370]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:      19      current tx performance:       0 Mbits/s
+<6>[30428.528310]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30429.584366]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30429.898860]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:      11      current tx performance:       0 Mbits/s
+<6>[30431.088202]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30431.569658]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:      26      current tx performance:       0 Mbits/s
+<6>[30432.607754]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30432.922611]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       7      current tx performance:       0 Mbits/s
+<6>[30433.998467]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30434.941901]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30435.197116]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       8      current tx performance:       0 Mbits/s
+<6>[30435.942390]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30436.546368]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       4      current tx performance:       0 Mbits/s
+<6>[30436.961605]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30438.553430]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30438.971541]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30439.947045]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       4      current tx performance:       0 Mbits/s
+<6>[30440.985964]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30441.032300]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30443.000551]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30443.048619]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30445.006876]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30445.059166]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30447.012031]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30447.064623]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30448.016946]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30450.027675]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30450.077812]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       5      current tx performance:       0 Mbits/s
+<6>[30451.040634]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30451.087277]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30452.048987]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30452.096371]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30453.843061]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30454.062910]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30455.077838]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30455.125683]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30457.091714]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30457.143593]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30458.096452]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30459.987342]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30459.993011]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30462.125070]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30462.175709]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30463.992673]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30464.003445]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30466.135730]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30466.184539]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       4      current tx performance:       0 Mbits/s
+<6>[30467.149850]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30467.195227]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30469.156696]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30469.198769]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30471.163224]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30471.210539]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30473.171100]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30473.214252]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       4      current tx performance:       0 Mbits/s
+<6>[30474.172394]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30474.221447]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30476.006201]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30476.032389]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30478.180185]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30478.224320]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30480.008908]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30480.046473]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30482.204082]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30482.245929]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30483.218817]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30483.261882]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30485.244404]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30485.286791]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       4      current tx performance:       0 Mbits/s
+<6>[30486.255452]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30486.301339]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30488.030764]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30488.051377]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30489.844017]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30489.896878]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       5      current tx performance:       0 Mbits/s
+<6>[30491.850884]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30491.894812]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30492.856247]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30493.859654]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30493.909557]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30495.869706]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30495.917296]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30497.219439]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30497.932225]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30499.879764]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30499.921746]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30501.882806]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30501.926698]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30503.898363]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30503.949314]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30505.904209]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30505.950225]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30506.907188]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30506.954966]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30508.800288]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30508.821135]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30509.927805]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30509.971668]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30511.947571]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30511.995672]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30513.893376]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30513.965078]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30515.968597]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30516.016591]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30517.958374]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30518.011031]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30519.964219]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30520.005989]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30520.968960]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30521.019106]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30522.986645]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30523.040891]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30524.824580]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30524.908078]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30526.537226]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30527.007559]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30527.541800]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30528.551021]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30528.894667]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30529.562481]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       4      current tx performance:       0 Mbits/s
+<6>[30530.035990]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30532.040418]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30532.095486]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30534.044670]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30534.097647]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30535.048512]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30535.103258]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30536.846870]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30536.882407]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30539.057876]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30539.113310]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30540.853767]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30540.876189]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30543.081947]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30543.124935]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30544.094888]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30544.136325]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+<6>[30545.110664]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30545.162090]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30547.113736]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30547.163004]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30548.868780]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30548.946837]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30551.152683]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30551.202111]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30552.162142]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30552.212654]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30553.176117]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30553.224201]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30555.197452]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30555.244196]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30556.888186]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30556.950023]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30559.219539]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30559.261254]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s
+<6>[30560.220916]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30560.268973]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       1      current tx performance:       0 Mbits/s
+<6>[30562.227299]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+<6>[30562.273214]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       3      current tx performance:       0 Mbits/s

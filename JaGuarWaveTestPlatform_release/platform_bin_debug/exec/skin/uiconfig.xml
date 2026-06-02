@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<JGW>
+    <ui>
+        <!-- 左侧按钮配置 -->
+        <project_button>
+            <image_height>36</image_height>
+            <image_weight>36</image_weight>
+            <label_height>20</label_height>
+            <height>60</height>
+            <font_id>1</font_id>
+            <label_textcolor>#FFFFFFFF</label_textcolor>
+            <width>110</width>
+        </project_button>
+        <group_button>
+            <height>30</height>
+            <textcolor>#FF000000&quot;</textcolor>
+            <font_id>1</font_id>
+            <normal_image>file=&apos;btn_new_normal.png&apos; corner=&apos;5,5,5,5&apos;</normal_image>
+            <focused_image>file=&apos;btn_new_hover.png&apos; corner=&apos;5,5,5,5&apos;</focused_image>
+            <disable_image>file=&apos;disable_btn.png&apos; corner=&apos;5,5,5,5&apos;</disable_image>
+            <hot_image>file=&apos;btn_new_down.png&apos; corner=&apos;5,5,5,5&apos;</hot_image>
+            <pushed_image>file=&apos;btn_new_down.png&apos; corner=&apos;5,5,5,5&apos;</pushed_image>
+        </group_button>
+        <button_image_group>
+            <image>
+                <normal_image>file=&apos;download0.png&apos; corner=&apos;5,5,5,5&apos;</normal_image>
+                <focused_image>file=&apos;download_focused0.png&apos; corner=&apos;5,5,5,5&apos;</focused_image>
+                <disable_image>file=&apos;disable_btn.png&apos; corner=&apos;5,5,5,5&apos;</disable_image>
+                <hot_image>file=&apos;download_hot_pushed0.png&apos; corner=&apos;5,5,5,5&apos;</hot_image>
+                <pushed_image>file=&apos;download_hot_pushed0.png&apos; corner=&apos;5,5,5,5&apos;</pushed_image>
+            </image>
+            <image>
+                <normal_image>file=&apos;icon1.png&apos; corner=&apos;5,5,5,5&apos;</normal_image>
+                <focused_image>file=&apos;icon1_focused.png&apos; corner=&apos;5,5,5,5&apos;</focused_image>
+                <disable_image>file=&apos;disable_btn.png&apos; corner=&apos;5,5,5,5&apos;</disable_image>
+                <hot_image>file=&apos;icon1_host_pushed.png&apos; corner=&apos;5,5,5,5&apos;</hot_image>
+                <pushed_image>file=&apos;icon1_host_pushed.png&apos; corner=&apos;5,5,5,5&apos;</pushed_image>
+            </image>
+            <image>
+                <normal_image>file=&apos;icon2.png&apos; corner=&apos;5,5,5,5&apos;</normal_image>
+                <focused_image>file=&apos;icon2_focused.png&apos; corner=&apos;5,5,5,5&apos;</focused_image>
+                <disable_image>file=&apos;disable_btn.png&apos; corner=&apos;5,5,5,5&apos;</disable_image>
+                <hot_image>file=&apos;icon2_hot_pushed.png&apos; corner=&apos;5,5,5,5&apos;</hot_image>
+                <pushed_image>file=&apos;icon2_hot_pushed.png&apos; corner=&apos;5,5,5,5&apos;</pushed_image>
+            </image>
+            <image>
+                <normal_image>file=&apos;icon3.png&apos; corner=&apos;5,5,5,5&apos;</normal_image>
+                <focused_image>file=&apos;icon3_focused.png&apos; corner=&apos;5,5,5,5&apos;</focused_image>
+                <disable_image>file=&apos;disable_btn.png&apos; corner=&apos;5,5,5,5&apos;</disable_image>
+                <hot_image>file=&apos;icon3_hot_pushed.png&apos; corner=&apos;5,5,5,5&apos;</hot_image>
+                <pushed_image>file=&apos;icon3_hot_pushed.png&apos; corner=&apos;5,5,5,5&apos;</pushed_image>
+            </image>
+            <image>
+                <normal_image>file=&apos;icon4.png&apos; corner=&apos;5,5,5,5&apos;</normal_image>
+                <focused_image>file=&apos;icon4_focused.png&apos; corner=&apos;5,5,5,5&apos;</focused_image>
+                <disable_image>file=&apos;disable_btn.png&apos; corner=&apos;5,5,5,5&apos;</disable_image>
+                <hot_image>file=&apos;icon4_hot_pushed.png&apos; corner=&apos;5,5,5,5&apos;</hot_image>
+                <pushed_image>file=&apos;icon4_hot_pushed.png&apos; corner=&apos;5,5,5,5&apos;</pushed_image>
+            </image>
+            <image>
+                <normal_image>file=&apos;rfcal5.png&apos; corner=&apos;5,5,5,5&apos;</normal_image>
+                <focused_image>file=&apos;rfcal5_focused.png&apos; corner=&apos;5,5,5,5&apos;</focused_image>
+                <disable_image>file=&apos;disable_btn.png&apos; corner=&apos;5,5,5,5&apos;</disable_image>
+                <hot_image>file=&apos;rfcal5_hot_pushed.png&apos; corner=&apos;5,5,5,5&apos;</hot_image>
+                <pushed_image>file=&apos;rfcal5_hot_pushed.png&apos; corner=&apos;5,5,5,5&apos;</pushed_image>
+            </image>
+            <image>
+                <normal_image>file=&apos;rftest6.png&apos; corner=&apos;5,5,5,5&apos;</normal_image>
+                <focused_image>file=&apos;rftest_focused6.png&apos; corner=&apos;5,5,5,5&apos;</focused_image>
+                <disable_image>file=&apos;disable_btn.png&apos; corner=&apos;5,5,5,5&apos;</disable_image>
+                <hot_image>file=&apos;rftest_hot_pushed6.png&apos; corner=&apos;5,5,5,5&apos;</hot_image>
+                <pushed_image>file=&apos;rftest_hot_pushed6.png&apos; corner=&apos;5,5,5,5&apos;</pushed_image>
+            </image>
+            <image>
+                <normal_image>file=&apos;system_upgrade7.png&apos; corner=&apos;5,5,5,5&apos;</normal_image>
+                <focused_image>file=&apos;system_upgrade_focused7.png&apos; corner=&apos;5,5,5,5&apos;</focused_image>
+                <disable_image>file=&apos;disable_btn.png&apos; corner=&apos;5,5,5,5&apos;</disable_image>
+                <hot_image>file=&apos;system_upgrade_hot_pushed7.png&apos; corner=&apos;5,5,5,5&apos;</hot_image>
+                <pushed_image>file=&apos;system_upgrade_hot_pushed7.png&apos; corner=&apos;5,5,5,5&apos;</pushed_image>
+            </image>
+            <image>
+                <normal_image>file=&apos;update8.png&apos; corner=&apos;5,5,5,5&apos;</normal_image>
+                <focused_image>file=&apos;update_focused8.png&apos; corner=&apos;5,5,5,5&apos;</focused_image>
+                <disable_image>file=&apos;disable_btn.png&apos; corner=&apos;5,5,5,5&apos;</disable_image>
+                <hot_image>file=&apos;update_hot_pushed8.png&apos; corner=&apos;5,5,5,5&apos;</hot_image>
+                <pushed_image>file=&apos;update_hot_pushed8.png&apos; corner=&apos;5,5,5,5&apos;</pushed_image>
+            </image>
+            <image>
+                <normal_image>file=&apos;wifical9.png&apos; corner=&apos;5,5,5,5&apos;</normal_image>
+                <focused_image>file=&apos;wifical_focused9.png&apos; corner=&apos;5,5,5,5&apos;</focused_image>
+                <disable_image>file=&apos;disable_btn.png&apos; corner=&apos;5,5,5,5&apos;</disable_image>
+                <hot_image>file=&apos;wifical_hot_pushed9.png&apos; corner=&apos;5,5,5,5&apos;</hot_image>
+                <pushed_image>file=&apos;wifical_hot_pushed9.png&apos; corner=&apos;5,5,5,5&apos;</pushed_image>
+            </image>
+            <image>
+                <normal_image>file=&apos;wifitest10.png&apos; corner=&apos;5,5,5,5&apos;</normal_image>
+                <focused_image>file=&apos;wifitest_focused10.png&apos; corner=&apos;5,5,5,5&apos;</focused_image>
+                <disable_image>file=&apos;disable_btn.png&apos; corner=&apos;5,5,5,5&apos;</disable_image>
+                <hot_image>file=&apos;wifitest_hot_pushed10.png&apos; corner=&apos;5,5,5,5&apos;</hot_image>
+                <pushed_image>file=&apos;wifitest_hot_pushed10.png&apos; corner=&apos;5,5,5,5&apos;</pushed_image>
+            </image>
+        </button_image_group>
+        <viewloader>
+            <plugin name="JGW_UiLibViewResolver.dll">
+                <clsid id="1" value="JGW::CCJGWUiLibViewResoverDialog" />
+                <clsid id="2" value="JGW::CCJGWUiLibPluginViewResolver" />
+            </plugin>
+            <!--name clsid="CCTFUiLibViewResoverDialog" plugin_name="CTFUiLibViewResolver.dll" />
+			<name clsid="CCTFUiLibPluginViewResolver" plugin_name="CTFUiLibViewResolver.dll" /-->
+        </viewloader>
+        <device_pool>
+            <plugin name="JGW_DevicePool.dll" clsid="JGW::CCJGW_DevicePoolThread" />
+        </device_pool>
+        <prev_plugin_info_index project_index="0" group_index="0" />
+        <home stationid="-1" clsid="JGW::CCWelcomViewDlg" viewloader_id="0" module_folder="CCWelcomViewDlg" name="CWelcomPlugin.dll" station_name="CWelcomPlugin" image_id="4" />
+        <ExecMenu name="toolBtn">
+            <MenuElement name="auto_update_service" text="自动升级服务" exec="..\help\JaGuarWaveHelp.exe" show="1" />
+            <MenuElement name="peraso_control_service" text="Peraso控制服务" exec="JGW_WlanServiceApplication.exe" show="1" />
+            <MenuElement name="JGW_LossConfigTools" text="线损配置工具" exec="JGW_LossConfigTools.exe" show="1" />
+            <MenuElement name="putty" text="putty" exec="putty.exe" show="1" />
+            <MenuElement name="x20_route_add" text="UC600AA耦合路由添加" exec="x20_route_add.bat" show="1" />
+            <MenuElement name="auto_switch_modem" text="自动切换X20 USB" exec="auto_switch_modem.bat" show="1" />
+            <MenuElement name="JGW_EquipConfig" text="仪器配置工具" exec="JGW_EquipConfig.exe" show="1" />
+            <MenuElement name="lynx_test_puma_service" text="LYNX吞吐率服务" exec="lynx_test_puma_service.bat" show="1" />
+            <MenuElement name="puma_test_lynx_service" text="PUMA吞吐率服务" exec="puma_test_lynx_service.bat" show="1" />
+            <MenuElement name="aps_test_lynx_service" text="APS吞吐率服务" exec="aps_test_puma_service.bat" show="1" />
+            <MenuElement name="pumas_test_ap_service" text="PUMAS吞吐率服务" exec="pumas_test_ap_service.bat" show="1" />
+            <MenuElement name="tftpd_cpe" text="IPQ TFTPD" exec="Tftpd32\tftpd32.exe" show="1" />
+            <MenuElement name="LogCat" text="LogCat" exec="JGW_LogCat.exe" show="1" />
+            <MenuElement name="ssh_demo" text="ap ssh" exec="JGW_SSHExec.exe" show="1" />
+            <MenuElement name="cmd_debug" text="控制台工具" exec="cmd.exe" show="1" />
+			<MenuElement name="nc700_wifi_rf_test_init" text="NC700 WIFI RF初始化" exec="nc700_wifi_rf_test_init.bat" show="1" />
+            <MenuElement name="nc700_wifi_ant_init" text="NC700 WIFI耦合初始化" exec="nc700_wifi_ant_init.bat" show="1" />
+        </ExecMenu>
+    </ui>
+    <!-- 插件配置信息 4-->
+    <plugin>
+        <project name="NC700" menu_name="nc700_menu">
+            <group name="SMT">
+                <!-- <pln stationid="-1" clsid="JGW::CCBoostDownloadView" viewloader_id="2" module_folder="NC700\BoostDownloadQualComm" name="CBoostDownloadQualCommPlugin.dll" station_name="下载" image_id="0" /> -->
+                <pln stationid="-1" clsid="JGW::CCTSEMultiunitDownloadView" viewloader_id="2" module_folder="NC700\MultiunitDownload" name="CTSEMultiunitDownload.dll" station_name="下载" image_id="8" />
+                <pln stationid="-1" clsid="JGW::CCTSEThroughTestDlg" viewloader_id="2" module_folder="NC700\45G_RF" name="CTSEThroughTestPlugin.dll" station_name="4/5G(1345)综测" image_id="5" suite_name="1345_rf_test.xml" />
+                <pln stationid="-1" clsid="JGW::CCTSEThroughTestDlg" viewloader_id="2" module_folder="NC700\45G_RF" name="CTSEThroughTestPlugin.dll" station_name="4/5G(0267)综测" image_id="6" suite_name="0267_rf_test.xml" />
+                <pln stationid="-1" clsid="JGW::CCTSEThroughTestDlg" viewloader_id="2" module_folder="NC700\WIFI_FT" name="CTSEThroughTestPlugin.dll" station_name="WIFI综测" image_id="10" suite_name="wifi_rf_test_suite.xml" />
+                <pln stationid="-1" clsid="JGW::CCRFCalVerTestView" viewloader_id="2" module_folder="NC700" name="CRFCalVerTestPlugin.dll" station_name="SMT FCT" image_id="1" suite_name="smt_fct.xml" />
+            </group>
+            <group name="组装">
+                <pln stationid="-1" clsid="JGW::CCTSEThroughTestDlg" viewloader_id="2" module_folder="NC700\45G_ANT" name="CTSEThroughTestPlugin.dll" station_name="4/5G耦合" image_id="6" suite_name="rf_ant_test.xml" />
+                <pln stationid="-1" clsid="JGW::CCTSEThroughTestDlg" viewloader_id="2" module_folder="NC700\WIFI_ANT" name="CTSEThroughTestPlugin.dll" station_name="WIFI耦合" image_id="10" suite_name="wifi_ant_test_suite.xml" />
+                <pln stationid="-1" clsid="JGW::CCRFCalVerTestView" viewloader_id="2" module_folder="NC700" name="CRFCalVerTestPlugin.dll" station_name="FCT" image_id="1" suite_name="fct.xml" />
+            </group>
+            <group name="包装">
+                <pln stationid="-1" clsid="JGW::CCTSEMultipleTestPluginDlg" viewloader_id="2" module_folder="NC700\upgrade_http_multiunit" name="CTSEMultipleTestPlugin.dll" station_name="HTTP升级(显示LOG)" image_id="8" suite_name="tsepm.config" />
+                <pln stationid="011" clsid="JGW::CCRFCalVerTestView" viewloader_id="2" module_folder="NC700" name="CRFCalVerTestPlugin.dll" station_name="写号" image_id="7" suite_name="number_adb.xml" />
+                <pln stationid="012" clsid="JGW::CCRFCalVerTestView" viewloader_id="2" module_folder="NC700" name="CRFCalVerTestPlugin.dll" station_name="查号" image_id="6" suite_name="check_number_adb.xml" />
+            </group>
+        </project>
+    </plugin>
+</JGW>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{3b2e460e-dfc8-42b9-b74d-909bc6f0b3cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSETcpClientThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSETestInfoForward.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSETestThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ITSEControlCmdForward.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IWriteInfoServerInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSETestMsgQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="json\TSEServerJsonCommand.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\JsonEnumDefine.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\CJGW_FTM_Json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\TSEServerFlagsJson.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\TSETestIndexChangeJson.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\TSETestLogJson.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\TSETestStatusChangeJson.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\TSEServerBaseJson.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\TSEControlCmdJson.h">
+      <Filter>json</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSEClientTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSETcpClientThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSETestInfoForward.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSETestThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSETestMsgQueue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="json\TSEServerJsonCommand.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\CJGW_FTM_Json.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\TSEServerFlagsJson.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\TSETestIndexChangeJson.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\TSETestLogJson.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\TSETestStatusChangeJson.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\TSEServerBaseJson.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\TSEControlCmdJson.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\platform_library\library\JGW_FoundationFunc\JGW_ApplicationDecrypt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

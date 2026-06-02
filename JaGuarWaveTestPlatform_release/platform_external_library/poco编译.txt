@@ -1,0 +1,3 @@
+1、安装vs2010
+2、修改buildwin.cmd文件
+3、在VS2010控制台下运行build_vs100.cmd

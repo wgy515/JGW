@@ -1,0 +1,155 @@
+2025-08-06 10:18:41 INFO  - LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\JGW_UiLibViewResolver.dll)
+2025-08-06 10:18:41 INFO  - CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_DevicePool.dll)
+2025-08-06 10:18:41 INFO  - LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2025-08-06 10:18:41 INFO  - LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll)
+2025-08-06 10:18:41 INFO  - CreateSubWndImpl : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2025-08-06 10:18:42 INFO  - CCJGWMainDlg::CloseSubPluginView
+2025-08-06 10:18:42 INFO  - CCJGWUIEvent::CloseSubPluginView
+2025-08-06 10:18:42 INFO  - CloseSubPluginView : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll
+2025-08-06 10:18:42 INFO  - CCJGWMainDlg::DestroySubPlugin
+2025-08-06 10:18:42 INFO  - CCJGWUIEvent::DestroySubPlugin
+2025-08-06 10:18:42 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll
+2025-08-06 10:18:42 INFO  - DestroyClassPtr clsid : ,ptr : 00000000
+2025-08-06 10:18:42 INFO  - CreateSubWndImpl : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2025-08-06 10:18:42 INFO  - LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2025-08-06 10:18:42 INFO  - LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll)
+2025-08-06 10:18:42 INFO  - CreateSubWndImpl : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2025-08-06 10:18:44 INFO  - CCJGWMainDlg::CloseSubPluginView
+2025-08-06 10:18:44 INFO  - CCJGWUIEvent::CloseSubPluginView
+2025-08-06 10:18:44 INFO  - CloseSubPluginView : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll
+2025-08-06 10:18:48 INFO  - CCJGWMainDlg::OnCloseWindow
+2025-08-06 10:18:48 INFO  - CCJGWMainDlg::CloseSubPluginView
+2025-08-06 10:18:48 INFO  - CCJGWUIEvent::CloseSubPluginView
+2025-08-06 10:18:48 INFO  - CCJGWMainDlg::DestroySubPlugin
+2025-08-06 10:18:48 INFO  - CCJGWUIEvent::DestroySubPlugin
+2025-08-06 10:18:48 INFO  - DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0386B928
+2025-08-06 10:18:48 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll
+2025-08-06 10:18:48 INFO  - CCJGWUIEvent::CloseSubPluginView
+2025-08-06 10:18:48 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\JGW_UiLibViewResolver.dll
+2025-08-06 10:19:14 INFO  - LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\JGW_UiLibViewResolver.dll)
+2025-08-06 10:19:14 INFO  - CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_DevicePool.dll)
+2025-08-06 10:19:15 INFO  - LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2025-08-06 10:19:15 INFO  - LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll)
+2025-08-06 10:19:15 INFO  - CreateSubWndImpl : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2025-08-06 10:19:19 INFO  - CCJGWMainDlg::CloseSubPluginView
+2025-08-06 10:19:19 INFO  - CCJGWUIEvent::CloseSubPluginView
+2025-08-06 10:19:19 INFO  - CloseSubPluginView : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll
+2025-08-06 10:19:19 INFO  - CCJGWMainDlg::DestroySubPlugin
+2025-08-06 10:19:19 INFO  - CCJGWUIEvent::DestroySubPlugin
+2025-08-06 10:19:19 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll
+2025-08-06 10:19:19 INFO  - DestroyClassPtr clsid : ,ptr : 00000000
+2025-08-06 10:19:19 INFO  - CreateSubWndImpl : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2025-08-06 10:19:19 INFO  - LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2025-08-06 10:19:19 INFO  - LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll)
+2025-08-06 10:19:20 INFO  - CreateSubWndImpl : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2025-08-06 10:19:26 INFO  - CCJGWMainDlg::CloseSubPluginView
+2025-08-06 10:19:26 INFO  - CCJGWUIEvent::CloseSubPluginView
+2025-08-06 10:19:26 INFO  - CloseSubPluginView : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll
+2025-08-06 10:24:28 INFO  - CCJGWMainDlg::CloseSubPluginView
+2025-08-06 10:24:28 INFO  - CCJGWUIEvent::CloseSubPluginView
+2025-08-06 10:24:28 INFO  - CCJGWMainDlg::DestroySubPlugin
+2025-08-06 10:24:28 INFO  - CCJGWUIEvent::DestroySubPlugin
+2025-08-06 10:24:28 INFO  - DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 02DB3180
+2025-08-06 10:24:28 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll
+2025-08-06 10:24:28 INFO  - CreateSubWndImpl : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2025-08-06 10:24:28 INFO  - LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2025-08-06 10:24:28 INFO  - LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll)
+2025-08-06 10:24:29 INFO  - CreateSubWndImpl : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2025-08-06 10:27:21 INFO  - LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\JGW_UiLibViewResolver.dll)
+2025-08-06 10:27:21 INFO  - CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_DevicePool.dll)
+2025-08-06 10:27:22 INFO  - LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2025-08-06 10:27:22 INFO  - LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll)
+2025-08-06 10:27:22 INFO  - CreateSubWndImpl : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2025-08-06 10:27:23 INFO  - CCJGWMainDlg::CloseSubPluginView
+2025-08-06 10:27:23 INFO  - CCJGWUIEvent::CloseSubPluginView
+2025-08-06 10:27:23 INFO  - CloseSubPluginView : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll
+2025-08-06 10:27:23 INFO  - CCJGWMainDlg::DestroySubPlugin
+2025-08-06 10:27:23 INFO  - CCJGWUIEvent::DestroySubPlugin
+2025-08-06 10:27:23 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll
+2025-08-06 10:27:23 INFO  - DestroyClassPtr clsid : ,ptr : 00000000
+2025-08-06 10:27:23 INFO  - CreateSubWndImpl : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2025-08-06 10:27:23 INFO  - LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2025-08-06 10:27:23 INFO  - LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll)
+2025-08-06 10:27:24 INFO  - CreateSubWndImpl : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2025-08-06 10:27:37 INFO  - CCJGWMainDlg::CloseSubPluginView
+2025-08-06 10:27:37 INFO  - CCJGWUIEvent::CloseSubPluginView
+2025-08-06 10:27:37 INFO  - CloseSubPluginView : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll
+2025-08-06 10:27:43 INFO  - CCJGWMainDlg::OnCloseWindow
+2025-08-06 10:27:43 INFO  - CCJGWMainDlg::CloseSubPluginView
+2025-08-06 10:27:43 INFO  - CCJGWUIEvent::CloseSubPluginView
+2025-08-06 10:27:43 INFO  - CCJGWMainDlg::DestroySubPlugin
+2025-08-06 10:27:43 INFO  - CCJGWUIEvent::DestroySubPlugin
+2025-08-06 10:27:43 INFO  - DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 03057908
+2025-08-06 10:27:43 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll
+2025-08-06 10:27:43 INFO  - CCJGWUIEvent::CloseSubPluginView
+2025-08-06 10:27:43 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\JGW_UiLibViewResolver.dll
+2025-08-06 10:28:21 INFO  - LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\JGW_UiLibViewResolver.dll)
+2025-08-06 10:28:22 INFO  - CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_DevicePool.dll)
+2025-08-06 10:28:22 INFO  - LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2025-08-06 10:28:22 INFO  - LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll)
+2025-08-06 10:28:22 INFO  - CreateSubWndImpl : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2025-08-06 10:33:47 INFO  - CCJGWMainDlg::CloseSubPluginView
+2025-08-06 10:33:47 INFO  - CCJGWUIEvent::CloseSubPluginView
+2025-08-06 10:33:47 INFO  - CloseSubPluginView : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll
+2025-08-06 10:33:47 INFO  - CCJGWMainDlg::DestroySubPlugin
+2025-08-06 10:33:47 INFO  - CCJGWUIEvent::DestroySubPlugin
+2025-08-06 10:33:47 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll
+2025-08-06 10:33:47 INFO  - DestroyClassPtr clsid : ,ptr : 00000000
+2025-08-06 10:33:47 INFO  - CreateSubWndImpl : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2025-08-06 10:33:47 INFO  - LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2025-08-06 10:33:47 INFO  - LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll)
+2025-08-06 10:33:48 INFO  - CreateSubWndImpl : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2025-08-06 10:41:30 INFO  - LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\JGW_UiLibViewResolver.dll)
+2025-08-06 10:41:30 INFO  - CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_DevicePool.dll)
+2025-08-06 10:41:30 INFO  - LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2025-08-06 10:41:30 INFO  - LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll)
+2025-08-06 10:41:30 INFO  - CreateSubWndImpl : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2025-08-06 10:41:32 INFO  - CCJGWMainDlg::CloseSubPluginView
+2025-08-06 10:41:32 INFO  - CCJGWUIEvent::CloseSubPluginView
+2025-08-06 10:41:32 INFO  - CloseSubPluginView : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll
+2025-08-06 10:41:32 INFO  - CCJGWMainDlg::DestroySubPlugin
+2025-08-06 10:41:32 INFO  - CCJGWUIEvent::DestroySubPlugin
+2025-08-06 10:41:32 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll
+2025-08-06 10:41:32 INFO  - DestroyClassPtr clsid : ,ptr : 00000000
+2025-08-06 10:41:32 INFO  - CreateSubWndImpl : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2025-08-06 10:41:32 INFO  - LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2025-08-06 10:41:32 INFO  - LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll)
+2025-08-06 10:41:32 INFO  - CreateSubWndImpl : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2025-08-06 10:41:33 ERROR - loadTestSuiteModule fail(D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\TSE_InstrumentPlugin.dll)([0x7e]2025-08-06 10:41:34 INFO  - CCJGWMainDlg::CloseSubPluginView
+2025-08-06 10:41:34 INFO  - CCJGWUIEvent::CloseSubPluginView
+2025-08-06 10:41:34 INFO  - CloseSubPluginView : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll
+2025-08-06 10:41:43 INFO  - CCJGWMainDlg::OnCloseWindow
+2025-08-06 10:41:43 INFO  - CCJGWMainDlg::CloseSubPluginView
+2025-08-06 10:41:43 INFO  - CCJGWUIEvent::CloseSubPluginView
+2025-08-06 10:41:43 INFO  - CCJGWMainDlg::DestroySubPlugin
+2025-08-06 10:41:43 INFO  - CCJGWUIEvent::DestroySubPlugin
+2025-08-06 10:41:43 INFO  - DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 02E7ACB0
+2025-08-06 10:41:43 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll
+2025-08-06 10:41:43 INFO  - CCJGWUIEvent::CloseSubPluginView
+2025-08-06 10:41:43 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\JGW_UiLibViewResolver.dll
+2025-08-06 10:52:48 INFO  - LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\JGW_UiLibViewResolver.dll)
+2025-08-06 10:52:48 INFO  - CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_DevicePool.dll)
+2025-08-06 10:52:48 INFO  - LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2025-08-06 10:52:48 INFO  - LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll)
+2025-08-06 10:52:48 INFO  - CreateSubWndImpl : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2025-08-06 10:52:49 INFO  - CCJGWMainDlg::CloseSubPluginView
+2025-08-06 10:52:49 INFO  - CCJGWUIEvent::CloseSubPluginView
+2025-08-06 10:52:49 INFO  - CloseSubPluginView : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll
+2025-08-06 10:52:49 INFO  - CCJGWMainDlg::DestroySubPlugin
+2025-08-06 10:52:49 INFO  - CCJGWUIEvent::DestroySubPlugin
+2025-08-06 10:52:49 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CWelcomPlugin.dll
+2025-08-06 10:52:49 INFO  - DestroyClassPtr clsid : ,ptr : 00000000
+2025-08-06 10:52:49 INFO  - CreateSubWndImpl : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2025-08-06 10:52:49 INFO  - LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2025-08-06 10:52:49 INFO  - LoadSubWndPlugin loadLibrary(path:D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll)
+2025-08-06 10:52:49 INFO  - CreateSubWndImpl : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2025-08-06 10:52:57 INFO  - CCJGWMainDlg::OnCloseWindow
+2025-08-06 10:52:57 INFO  - CCJGWMainDlg::CloseSubPluginView
+2025-08-06 10:52:57 INFO  - CCJGWUIEvent::CloseSubPluginView
+2025-08-06 10:52:57 INFO  - CloseSubPluginView : D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll
+2025-08-06 10:52:57 INFO  - CCJGWMainDlg::DestroySubPlugin
+2025-08-06 10:52:57 INFO  - CCJGWUIEvent::DestroySubPlugin
+2025-08-06 10:52:57 INFO  - DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 037B8718
+2025-08-06 10:52:57 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\CTSEThroughTestPlugin.dll
+2025-08-06 10:52:57 INFO  - CCJGWUIEvent::CloseSubPluginView
+2025-08-06 10:52:57 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\plugin\JGW_UiLibViewResolver.dll

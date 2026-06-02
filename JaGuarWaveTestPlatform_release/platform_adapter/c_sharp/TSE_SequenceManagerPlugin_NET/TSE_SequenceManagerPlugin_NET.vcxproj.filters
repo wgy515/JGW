@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GlobalEnvironment">
+      <UniqueIdentifier>{55e42d74-7a56-4a26-b512-04e0fdf8a1b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{eea32e4d-1f4f-4193-ab25-ec607a8f79d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{af844a83-ab9a-4fc7-9eca-f843e5f062dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MES">
+      <UniqueIdentifier>{f2670979-2b6e-4f4e-b2ad-a76b7be8d092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HQR">
+      <UniqueIdentifier>{23d89685-efa8-40a3-9f51-570032b58416}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSEExportInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\platform_plugin\TSE\TSE_SequenceManagerPlugin\TSE_GlobalEnvironment.h">
+      <Filter>GlobalEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\platform_plugin\include\TSE_SequenceManagerPlugin\TSE_GlobalEnvironmentImpl.h">
+      <Filter>GlobalEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_LogNet.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_SequenceTestNet.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_MESConfig.h">
+      <Filter>MES</Filter>
+    </ClInclude>
+    <ClInclude Include="HtmlQdartResolveDefine.h">
+      <Filter>HQR</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_HtmlQdartResolveConfig.h">
+      <Filter>HQR</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_ResolveQdartHtml.h">
+      <Filter>HQR</Filter>
+    </ClInclude>
+    <ClInclude Include="CTSE_ManagerSource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSEExportInterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\platform_plugin\TSE\TSE_SequenceManagerPlugin\TSE_GlobalEnvironment.cpp">
+      <Filter>GlobalEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_LogNet.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_SequenceTestNet.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_MESConfig.cpp">
+      <Filter>MES</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_HtmlQdartResolveConfig.cpp">
+      <Filter>HQR</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_ResolveQdartHtml.cpp">
+      <Filter>HQR</Filter>
+    </ClCompile>
+    <ClCompile Include="CTSE_ManagerSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

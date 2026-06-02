@@ -1,0 +1,17 @@
+[Test_Station]
+TestName=Test
+OrderID=
+OperationID=
+WorkUnitID=TEST-BT-G2-03
+UserName=
+FixtureNO=Fix0001
+CableNO=RF Cable 0001
+InstrumentNO=CMW500 RF1
+[LOTINFO]
+TestStartTime=7-26-2018 5:55:37
+TestSN=LY461830000004
+TestResult=PASS
+TestTotTime=51
+TestMsg=
+Version=2.0.38.0
+Platform=Qualcomm

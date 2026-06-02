@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Suite>
+    <common>
+		<TSE_SSH_SOURCE_IP>192.168.225.5</TSE_SSH_SOURCE_IP>
+        <TSE_SSH_HOST>192.168.225.1</TSE_SSH_HOST>
+		<TSE_QUALCOMM_HELP_TOOL>QualcommHelp\JaGuarWaveQualcommHelpTool.exe</TSE_QUALCOMM_HELP_TOOL>
+		<TSE_RF_TEST_XTT_PATH>cache\NC700\45G_ANT\NC700_ANT.xtt</TSE_RF_TEST_XTT_PATH>
+		<TSE_TEST_PROJECT_NAME>RF_ANT\</TSE_TEST_PROJECT_NAME>
+	</common>
+	<SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_PingTest" description="TSE测试实例名称" />
+        <TestName paramVal="检查设备网络连接" description="Ping测试" />
+        <SourceAddrEnvironment paramVal="TSE_SSH_SOURCE_IP" description="Socke 路由IP地址" />
+        <HostEnvironment paramVal="TSE_SSH_HOST" description="主机IP地址" />
+        <PingTestTimeSec paramVal="2" description="ping测试，默认在1S中测试一次" />
+        <TimeOutSec paramVal="120" description="超时时间秒" />
+        <RetryCount paramVal="1" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+        <RealName paramVal="CTSE_CheckSocketPortOpen" description="" />
+        <TestName paramVal="检查WEB网络连接" description="" />
+        <SourceAddrEnvironment paramVal="TSE_SSH_SOURCE_IP" description="" />
+        <HostAddrEnvironment paramVal="TSE_SSH_HOST" description="" />
+        <SocketPort paramVal="80" description="" />
+        <TimeOutSec paramVal="30" description="" />
+		<RetryCount paramVal="1" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="断开ADB TCP连接" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb disconnect $$_TSE_SSH_HOST_$$" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="1" description="发送次数"/>
+		<TimeOut1 paramVal="1" description="命令超时时间"/>
+		<RetryCount paramVal="3" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="ADB TCP连接" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb connect $$_TSE_SSH_HOST_$$" description="指令"/>
+		<Recv1 paramVal="connected to" description="接收字符串"/>
+		<SendCounts1 paramVal="2" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+		<RetryCount paramVal="3" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject ReversedResult="0">
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="检查ADB端口" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb devices |find /V /i &quot;devices&quot;" description="指令"/>
+		<Recv1 paramVal="device" description="接收字符串"/>
+		<SendCounts1 paramVal="300" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+		<RetryCount paramVal="3" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />                                    
+        <TestName paramVal="创建并检查Firmware分区" description="测试名称描述" />
+		<CommandCount paramVal="2" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>
+		<Command1 paramVal="adb shell mount -o remount,rw /firmware" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="1" description="发送次数"/>
+		<TimeOut1 paramVal="10" description="命令超时时间"/>
+		<Command2 paramVal="adb shell &quot;find /firmware -name image&quot;" description="指令"/>
+		<Recv2 paramVal="/firmware/image" description="接收字符串"/>
+		<SendCounts2 paramVal="1" description="发送次数"/>
+		<TimeOut2 paramVal="10" description="命令超时时间"/>
+		<IntervalTimeMS paramVal="1000" description="测试失败后进行下次测试间隔时间"/>
+		<RetryCount paramVal="30" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+		<RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+		<TestName paramVal="ABD获取SMT SN" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+		<Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径" />
+		<Command1 paramVal="adb shell sed -n &quot;/SMT_SN/p&quot; /firmware/factory.conf" description="指令" />
+		<Recv1 paramVal="SMT_SN=" description="接收字符串" />
+		<SendCounts1 paramVal="3" description="发送次数" />
+		<TimeOut1 paramVal="30" description="命令超时时间" />
+		<Environment1 paramVal="TSE_SN_SRC" description="保存环境变量" />
+		<SuiteProject>
+			<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+			<RealName paramVal="CTSE_BuildString" description="连接高通设备" />
+			<TestName paramVal="检查SMT SN规则" description="测试名称描述" />
+			<EraseStringSplit paramVal="SMT_SN=, " description="" />
+			<SrcStringCommand paramVal="$$_TSE_SN_SRC_$$" description="" />
+			<RegexRule paramVal="[0-9A-Za-z]{12,}" description="regex rule" />
+			<SaveEnvironment paramVal="TSE_SMT_SN" description="" />
+		</SuiteProject>
+		<SuiteProject>
+			<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+			<RealName paramVal="CTSE_PrintInfo" description="连接高通设备" />
+			<TestName paramVal="SMT SN" description="测试名称描述" />
+			<EnvPrintCommand paramVal="TSE_BARCODE: $$_TSE_SMT_SN_$$  " description="" />
+		</SuiteProject>
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_MESCheckSNStatus" description="连接高通设备" />
+		<TestName paramVal="检查SN当前状态" description="测试名称描述" />
+		<EnvironmentLen paramVal="14" description="当前环境变量对应的值长度限定" />
+		<SNEnvironment paramVal="TSE_SMT_SN" description="保存到某个环境变量" />
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_MESSaveTestRecords" description="连接高通设备" />
+		<TestName paramVal="更新测试时间" description="测试名称描述" />
+		<StartTestTime paramVal="1" description=""/>
+		<EndTestTime paramVal="0" description=""/>
+		<EnvironmentLen paramVal="14" description="当前环境变量对应的值长度限定" />
+		<IMEISNEnvironment paramVal="TSE_SMT_SN" description="保存到某个环境变量" />
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_QutsStartTcpServer" description="连接高通设备" />
+		<TestName paramVal="开启QUTS" description="测试名称描述" />
+		<QutsType paramVal="0" description="Set 0 to indicate diag type"/>
+		<QutsTcpPort paramVal="5000" description="quts tcp port default:5000"/>
+	</SuiteProject>
+	<SuiteProject ReversedResult="0">
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ConsoleAppOperation" description="连接高通设备" />
+        <TestName paramVal="设置LAN模式" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <ConsoleAppPath paramVal="cmd.exe" description="程序路径" />
+		<ProcessPipeEnvironment paramVal="TSE_WIFI_LAN_CONSOLE" description="程序路径"/>	
+		<Command1 paramVal="adb shell diag_socket_log -a $$_TSE_SSH_SOURCE_IP_$$ -p 5000 -r 100" description="指令"/>
+		<FindOk1 paramVal="logging switched" description="接收字符串"/>
+		<ErrorReTestCount1 paramVal="1" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+		<ErrorTestIntervalMSec1 paramVal="1000" description=""/>
+		<WaitCommandEnd1 paramVal="0" description="wait command end"/>
+		<RetryCount paramVal="20" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ConnectQcomDiag" description="连接高通设备" />
+		<TestName paramVal="连接高通端口" description="测试名称描述" />
+		<port paramVal="65535" description=""/>
+		<QMSLLibraryMode paramVal="2" description="1 to use QPST, 0 to use QPHONEMS, 2 to use QUTS"/>
+		<TimeOut paramVal="60" description="超时时间设置 以S为单位" />
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_DisConnectQocmDiag" description="连接高通设备" />
+		<TestName paramVal="断开连接" description="测试名称描述" />
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_MessageTestPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_QSPRAdaptTest" description="连接高通设备" />                                    
+        <TestName paramVal="4/5G耦合测试" description="测试名称描述" />
+		<ApplicationPathEnvironment paramVal="TSE_QUALCOMM_HELP_TOOL" description="application path environment" />
+		<QSPREngineType paramVal="0" description="qspr engine type 0 : QSPRGUIType,1 : QIAType" />
+		<XttPathEnvironment paramVal="TSE_RF_TEST_XTT_PATH" description="xtt file path environment" />
+		<TSEGlobalVariableKey paramVal="TSE_SMT_SN,TSE_SMT_SN" description=""/>
+		<XttGlobalVariableKey paramVal="SN,QSEQ_INTERNAL_UUT_ID" description=""/>
+		<ShowTestLogType paramVal="1" description="0:不显示PASS和FAIL LOG,1:TSET FAIL 显示FAIL LOG 但不显示PASS LOG,2:TSET FAIL 显示所有LOG,3:TSET PASS 显示所有LOG"/>
+		<HtmlResolveRuleFilePath paramVal="HTML_QDART_Resolve.ini" description="qdart html resolve rule file path"/>
+		<TestTimeOutSec paramVal="120" description=""/>
+		<SaveTestLogging paramVal="1" description="save test log"/>
+		<SNEnvironment paramVal="TSE_SMT_SN" description="sn environment"/>
+		<RetryCount paramVal="1" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_MESNextSNStation" description="连接高通设备" />
+		<TestName paramVal="PCBASN过站" description="测试名称描述" />
+		<EnvironmentLen paramVal="14" description="当前环境变量对应的值长度限定" />
+		<SNEnvironment paramVal="TSE_SMT_SN" description="保存到某个环境变量" />
+	</SuiteProject>
+	<SuiteProject IsFinalize="1">
+		<ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_MESSaveTestRecords" description="连接高通设备" />
+		<TestName paramVal="保存测试记录" description="测试名称描述" />
+		<StartTestTime paramVal="0" description=""/>
+		<EndTestTime paramVal="1" description=""/>
+		<EnvironmentLen paramVal="14" description="当前环境变量对应的值长度限定" />
+		<IMEISNEnvironment paramVal="TSE_SMT_SN" description="保存到某个环境变量" />
+	</SuiteProject>
+</Suite>

@@ -1,0 +1,850 @@
+2021-06-18 09:03:04 [22280] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-18 09:03:04 [22280] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-18 09:03:04 [22280] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-18 09:03:04 [22280] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-18 09:03:04 [22280] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-18 09:03:08 [22280] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 09:03:08 [22280] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 09:03:08 [22280] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 09:03:08 [22280] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 09:03:08 [22280] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 09:03:08 [22280] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 09:03:08 [22280] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-18 09:03:08 [22280] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 09:03:08 [22280] INFO  : LoadSubPluginSubWndImpl : CRFCalVerTestPlugin.dll
+2021-06-18 09:03:08 [22280] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll)
+2021-06-18 09:03:08 [22280] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll,clsid: JGW::CCRFCalVerTestView
+2021-06-18 09:03:12 [22280] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 09:03:12 [22280] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 09:03:12 [22280] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll
+2021-06-18 09:03:12 [22280] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 09:03:12 [22280] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 09:03:12 [22280] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0309BAB8
+2021-06-18 09:03:12 [22280] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll
+2021-06-18 09:03:12 [22280] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 09:03:12 [22280] INFO  : LoadSubPluginSubWndImpl : CRFCalVerTestPlugin.dll
+2021-06-18 09:03:12 [22280] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll)
+2021-06-18 09:03:12 [22280] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll,clsid: JGW::CCRFCalVerTestView
+2021-06-18 09:03:24 [22280] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-18 09:03:24 [22280] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 09:03:24 [22280] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 09:03:24 [22280] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll
+2021-06-18 09:03:24 [22280] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 09:03:24 [22280] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 09:03:24 [22280] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0309BFF8
+2021-06-18 09:03:24 [22280] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll
+2021-06-18 11:00:40 [14372] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-18 11:00:40 [14372] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-18 11:00:40 [14372] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-18 11:00:40 [14372] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-18 11:00:40 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-18 11:00:43 [14372] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:00:43 [14372] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:00:43 [14372] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 11:00:44 [14372] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:00:44 [14372] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:00:44 [14372] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 11:00:44 [14372] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-18 11:00:44 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:00:44 [14372] INFO  : LoadSubPluginSubWndImpl : CTSEMultiunitDownload.dll
+2021-06-18 11:00:44 [14372] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultiunitDownload.dll)
+2021-06-18 11:00:44 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultiunitDownload.dll,clsid: JGW::CCTSEMultiunitDownloadView
+2021-06-18 11:01:24 [14372] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:01:24 [14372] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:01:24 [14372] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultiunitDownload.dll
+2021-06-18 11:01:24 [14372] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:01:24 [14372] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:01:24 [14372] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0326C440
+2021-06-18 11:01:24 [14372] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultiunitDownload.dll
+2021-06-18 11:01:24 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:01:24 [14372] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-18 11:01:24 [14372] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-18 11:01:24 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-18 11:01:41 [ 2844] ERROR : 获取输入框内容失败
+
+2021-06-18 11:01:42 [14372] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:01:42 [14372] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:01:42 [14372] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-18 11:01:42 [14372] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:01:42 [14372] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:01:42 [14372] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0326C788
+2021-06-18 11:01:42 [14372] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-18 11:01:42 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:01:42 [14372] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-18 11:01:42 [14372] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-18 11:01:42 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-18 11:03:07 [14372] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:03:07 [14372] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:03:07 [14372] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-18 11:03:08 [14372] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:03:08 [14372] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:03:08 [14372] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0326C590
+2021-06-18 11:03:08 [14372] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-18 11:03:08 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:03:08 [14372] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-18 11:03:08 [14372] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-18 11:03:08 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-18 11:04:09 [14372] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:04:09 [14372] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:04:09 [14372] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-18 11:04:09 [14372] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:04:09 [14372] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:04:09 [14372] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0326C788
+2021-06-18 11:04:09 [14372] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-18 11:04:09 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:04:09 [14372] INFO  : LoadSubPluginSubWndImpl : CRFCalVerTestPlugin.dll
+2021-06-18 11:04:09 [14372] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll)
+2021-06-18 11:04:09 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll,clsid: JGW::CCRFCalVerTestView
+2021-06-18 11:05:02 [14372] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:05:02 [14372] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:05:02 [14372] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll
+2021-06-18 11:05:03 [14372] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:05:03 [14372] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:05:03 [14372] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0598D020
+2021-06-18 11:05:03 [14372] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll
+2021-06-18 11:05:03 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:05:03 [14372] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-18 11:05:03 [14372] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-18 11:05:03 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-18 11:05:54 [14372] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:05:54 [14372] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:05:54 [14372] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-18 11:05:55 [14372] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:05:55 [14372] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:05:55 [14372] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0598CCD8
+2021-06-18 11:05:55 [14372] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-18 11:05:55 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:05:55 [14372] INFO  : LoadSubPluginSubWndImpl : CRFCalVerTestPlugin.dll
+2021-06-18 11:05:55 [14372] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll)
+2021-06-18 11:05:55 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll,clsid: JGW::CCRFCalVerTestView
+2021-06-18 11:06:46 [14372] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:06:46 [14372] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:06:46 [14372] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll
+2021-06-18 11:06:47 [14372] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:06:47 [14372] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:06:47 [14372] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0598C108
+2021-06-18 11:06:47 [14372] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll
+2021-06-18 11:06:47 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:06:47 [14372] INFO  : LoadSubPluginSubWndImpl : CRFCalVerTestPlugin.dll
+2021-06-18 11:06:47 [14372] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll)
+2021-06-18 11:06:47 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll,clsid: JGW::CCRFCalVerTestView
+2021-06-18 11:08:16 [14372] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:08:16 [14372] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:08:16 [14372] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll
+2021-06-18 11:08:17 [14372] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:08:17 [14372] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:08:17 [14372] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0598CF78
+2021-06-18 11:08:17 [14372] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll
+2021-06-18 11:08:17 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:08:17 [14372] INFO  : LoadSubPluginSubWndImpl : CRFCalVerTestPlugin.dll
+2021-06-18 11:08:17 [14372] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll)
+2021-06-18 11:08:17 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll,clsid: JGW::CCRFCalVerTestView
+2021-06-18 11:08:30 [14372] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:08:30 [14372] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:08:30 [14372] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll
+2021-06-18 11:08:30 [14372] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:08:30 [14372] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:08:30 [14372] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0598D2C0
+2021-06-18 11:08:30 [14372] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll
+2021-06-18 11:08:30 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:08:30 [14372] INFO  : LoadSubPluginSubWndImpl : CRFCalVerTestPlugin.dll
+2021-06-18 11:08:30 [14372] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll)
+2021-06-18 11:08:30 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll,clsid: JGW::CCRFCalVerTestView
+2021-06-18 11:09:18 [14372] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:09:18 [14372] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:09:18 [14372] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll
+2021-06-18 11:09:18 [14372] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:09:18 [14372] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:09:18 [14372] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0598C258
+2021-06-18 11:09:18 [14372] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll
+2021-06-18 11:09:18 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:09:18 [14372] INFO  : LoadSubPluginSubWndImpl : CRFCalVerTestPlugin.dll
+2021-06-18 11:09:18 [14372] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll)
+2021-06-18 11:09:18 [14372] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll,clsid: JGW::CCRFCalVerTestView
+2021-06-18 11:14:52 [14372] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-18 11:14:52 [14372] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:14:52 [14372] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:14:52 [14372] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll
+2021-06-18 11:14:52 [14372] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:14:52 [14372] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:14:52 [14372] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0598D170
+2021-06-18 11:14:52 [14372] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll
+2021-06-18 11:25:23 [  248] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-18 11:25:23 [  248] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-18 11:25:24 [  248] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-18 11:25:24 [  248] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-18 11:25:24 [  248] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-18 11:25:27 [  248] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:25:27 [  248] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:25:27 [  248] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 11:25:28 [  248] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:25:28 [  248] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:25:28 [  248] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 11:25:28 [  248] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-18 11:25:28 [  248] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:25:28 [  248] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 11:25:28 [  248] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 11:25:28 [  248] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 11:25:28 [  248] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 11:25:28 [  248] INFO  : NETCARD Remove NetCard Msg Window:5248250
+2021-06-18 11:25:28 [  248] INFO  : Remove NetCard Device Msg Window:5248250
+2021-06-18 11:25:39 [  248] INFO  : NETCARD Remove NetCard Msg Window:5248250
+2021-06-18 11:25:39 [  248] INFO  : Remove NetCard Device Msg Window:5248250
+2021-06-18 11:26:17 [  248] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:26:17 [  248] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:26:17 [  248] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:26:17 [  248] INFO  : NETCARD Remove NetCard Msg Window:5248250
+2021-06-18 11:26:17 [  248] INFO  : Remove NetCard Device Msg Window:5248250
+2021-06-18 11:26:17 [  248] INFO  : NETCARD Close NetCard Thread
+2021-06-18 11:26:17 [  248] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:26:17 [  248] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:26:17 [  248] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0301BF00
+2021-06-18 11:26:17 [  248] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:26:17 [  248] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:26:17 [  248] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 11:26:17 [  248] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 11:26:17 [  248] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 11:26:17 [  248] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 11:26:17 [  248] INFO  : NETCARD Remove NetCard Msg Window:5248250
+2021-06-18 11:26:17 [  248] INFO  : Remove NetCard Device Msg Window:5248250
+2021-06-18 11:26:17 [  248] INFO  : NETCARD Reg NetCard Msg Window: 5248250,IP:192.168.1.
+2021-06-18 11:26:28 [  248] INFO  : NETCARD Remove NetCard Msg Window:5248250
+2021-06-18 11:26:28 [  248] INFO  : Remove NetCard Device Msg Window:5248250
+2021-06-18 11:26:28 [  248] INFO  : NETCARD Reg NetCard Msg Window: 5248250,IP:192.168.1.
+2021-06-18 11:26:53 [  248] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-18 11:26:53 [  248] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:26:53 [  248] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:26:53 [  248] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:26:53 [  248] INFO  : NETCARD Remove NetCard Msg Window:5248250
+2021-06-18 11:26:53 [  248] INFO  : Remove NetCard Device Msg Window:5248250
+2021-06-18 11:26:53 [  248] INFO  : NETCARD Close NetCard Thread
+2021-06-18 11:26:53 [  248] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:26:53 [  248] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:26:53 [  248] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0301BFA8
+2021-06-18 11:26:53 [  248] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:29:18 [25036] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-18 11:29:18 [25036] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-18 11:29:18 [25036] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-18 11:29:18 [25036] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-18 11:29:18 [25036] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-18 11:29:21 [25036] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:29:21 [25036] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:29:21 [25036] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 11:29:21 [25036] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:29:21 [25036] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:29:21 [25036] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 11:29:21 [25036] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-18 11:29:21 [25036] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:29:21 [25036] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 11:29:21 [25036] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 11:29:21 [25036] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 11:29:21 [25036] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 11:29:21 [25036] INFO  : NETCARD Remove NetCard Msg Window:8129068
+2021-06-18 11:29:21 [25036] INFO  : Remove NetCard Device Msg Window:8129068
+2021-06-18 11:29:21 [25036] INFO  : NETCARD Reg NetCard Msg Window: 8129068,IP:192.168.1.
+2021-06-18 11:29:30 [25036] INFO  : NETCARD Remove NetCard Msg Window:8129068
+2021-06-18 11:29:30 [25036] INFO  : Remove NetCard Device Msg Window:8129068
+2021-06-18 11:29:30 [25036] INFO  : NETCARD Reg NetCard Msg Window: 8129068,IP:192.168.1.
+2021-06-18 11:29:32 [25036] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-18 11:29:32 [25036] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:29:32 [25036] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:29:32 [25036] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:29:32 [25036] INFO  : NETCARD Remove NetCard Msg Window:8129068
+2021-06-18 11:29:32 [25036] INFO  : Remove NetCard Device Msg Window:8129068
+2021-06-18 11:29:32 [25036] INFO  : NETCARD Close NetCard Thread
+2021-06-18 11:29:33 [25036] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:29:33 [25036] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:29:33 [25036] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0293B9C0
+2021-06-18 11:29:33 [25036] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:29:44 [ 6984] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-18 11:29:44 [ 6984] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-18 11:29:44 [ 6984] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-18 11:29:44 [ 6984] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-18 11:29:44 [ 6984] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-18 11:29:45 [ 6984] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:29:45 [ 6984] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:29:45 [ 6984] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 11:29:45 [ 6984] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:29:45 [ 6984] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:29:45 [ 6984] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 11:29:45 [ 6984] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-18 11:29:45 [ 6984] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:29:45 [ 6984] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 11:29:45 [ 6984] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 11:29:46 [ 6984] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 11:29:46 [ 6984] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 11:29:46 [ 6984] INFO  : NETCARD Remove NetCard Msg Window:6100400
+2021-06-18 11:29:46 [ 6984] INFO  : Remove NetCard Device Msg Window:6100400
+2021-06-18 11:30:05 [ 6984] INFO  : NETCARD Remove NetCard Msg Window:6100400
+2021-06-18 11:30:05 [ 6984] INFO  : Remove NetCard Device Msg Window:6100400
+2021-06-18 11:30:58 [ 6984] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:30:58 [ 6984] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:30:58 [ 6984] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:30:58 [ 6984] INFO  : NETCARD Remove NetCard Msg Window:6100400
+2021-06-18 11:30:58 [ 6984] INFO  : Remove NetCard Device Msg Window:6100400
+2021-06-18 11:30:58 [ 6984] INFO  : NETCARD Close NetCard Thread
+2021-06-18 11:30:58 [ 6984] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:30:58 [ 6984] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:30:58 [ 6984] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 031CC788
+2021-06-18 11:30:58 [ 6984] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:30:58 [ 6984] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:30:58 [ 6984] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 11:30:58 [ 6984] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 11:30:58 [ 6984] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 11:30:59 [ 6984] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 11:30:59 [ 6984] INFO  : NETCARD Remove NetCard Msg Window:6100400
+2021-06-18 11:30:59 [ 6984] INFO  : Remove NetCard Device Msg Window:6100400
+2021-06-18 11:30:59 [ 6984] INFO  : NETCARD Reg NetCard Msg Window: 6100400,IP:192.168.1.
+2021-06-18 11:31:10 [ 6984] INFO  : NETCARD Remove NetCard Msg Window:6100400
+2021-06-18 11:31:10 [ 6984] INFO  : Remove NetCard Device Msg Window:6100400
+2021-06-18 11:31:10 [ 6984] INFO  : NETCARD Reg NetCard Msg Window: 6100400,IP:192.168.1.
+2021-06-18 11:31:47 [ 6984] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:31:47 [ 6984] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:31:47 [ 6984] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:31:47 [ 6984] INFO  : NETCARD Remove NetCard Msg Window:6100400
+2021-06-18 11:31:47 [ 6984] INFO  : Remove NetCard Device Msg Window:6100400
+2021-06-18 11:31:47 [ 6984] INFO  : NETCARD Close NetCard Thread
+2021-06-18 11:31:47 [ 6984] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:31:47 [ 6984] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:31:47 [ 6984] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 031CC638
+2021-06-18 11:31:47 [ 6984] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:31:47 [ 6984] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:31:47 [ 6984] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 11:31:47 [ 6984] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 11:31:47 [ 6984] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 11:31:47 [ 6984] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 11:31:47 [ 6984] INFO  : NETCARD Remove NetCard Msg Window:6100400
+2021-06-18 11:31:47 [ 6984] INFO  : Remove NetCard Device Msg Window:6100400
+2021-06-18 11:31:47 [ 6984] INFO  : NETCARD Reg NetCard Msg Window: 6100400,IP:192.168.1.
+2021-06-18 11:31:55 [ 6984] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:31:55 [ 6984] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:31:55 [ 6984] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:31:55 [ 6984] INFO  : NETCARD Remove NetCard Msg Window:6100400
+2021-06-18 11:31:55 [ 6984] INFO  : Remove NetCard Device Msg Window:6100400
+2021-06-18 11:31:55 [ 6984] INFO  : NETCARD Close NetCard Thread
+2021-06-18 11:31:56 [ 6984] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:31:56 [ 6984] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:31:56 [ 6984] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 031CBBB8
+2021-06-18 11:31:56 [ 6984] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:31:56 [ 6984] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:31:56 [ 6984] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 11:31:56 [ 6984] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 11:31:56 [ 6984] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 11:31:56 [ 6984] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 11:31:56 [ 6984] INFO  : NETCARD Remove NetCard Msg Window:6100400
+2021-06-18 11:31:56 [ 6984] INFO  : Remove NetCard Device Msg Window:6100400
+2021-06-18 11:31:56 [ 6984] INFO  : NETCARD Reg NetCard Msg Window: 6100400,IP:192.168.1.
+2021-06-18 11:32:10 [ 6984] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:32:10 [ 6984] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:32:10 [ 6984] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:32:10 [ 6984] INFO  : NETCARD Remove NetCard Msg Window:6100400
+2021-06-18 11:32:10 [ 6984] INFO  : Remove NetCard Device Msg Window:6100400
+2021-06-18 11:32:10 [ 6984] INFO  : NETCARD Close NetCard Thread
+2021-06-18 11:32:11 [ 6984] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:32:11 [ 6984] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:32:11 [ 6984] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 031CBDB0
+2021-06-18 11:32:11 [ 6984] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:32:11 [ 6984] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:32:11 [ 6984] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 11:32:11 [ 6984] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 11:32:11 [ 6984] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 11:32:11 [ 6984] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 11:32:11 [ 6984] INFO  : NETCARD Remove NetCard Msg Window:6100400
+2021-06-18 11:32:11 [ 6984] INFO  : Remove NetCard Device Msg Window:6100400
+2021-06-18 11:32:11 [ 6984] INFO  : NETCARD Reg NetCard Msg Window: 6100400,IP:192.168.1.
+2021-06-18 11:32:15 [ 6984] INFO  : NETCARD Remove NetCard Msg Window:6100400
+2021-06-18 11:32:15 [ 6984] INFO  : Remove NetCard Device Msg Window:6100400
+2021-06-18 11:32:15 [ 6984] INFO  : NETCARD Reg NetCard Msg Window: 6100400,IP:192.168.1.
+2021-06-18 11:32:16 [ 6984] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-18 11:32:16 [ 6984] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:32:16 [ 6984] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:32:16 [ 6984] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:32:16 [ 6984] INFO  : NETCARD Remove NetCard Msg Window:6100400
+2021-06-18 11:32:16 [ 6984] INFO  : Remove NetCard Device Msg Window:6100400
+2021-06-18 11:32:16 [ 6984] INFO  : NETCARD Close NetCard Thread
+2021-06-18 11:32:16 [ 6984] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:32:16 [ 6984] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:32:16 [ 6984] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 031CC1A0
+2021-06-18 11:32:16 [ 6984] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:37:04 [16860] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-18 11:37:04 [16860] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-18 11:37:04 [16860] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-18 11:37:04 [16860] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-18 11:37:04 [16860] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-18 11:37:05 [16860] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:37:05 [16860] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:37:05 [16860] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 11:37:05 [16860] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:37:05 [16860] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:37:05 [16860] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 11:37:05 [16860] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-18 11:37:05 [16860] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:37:05 [16860] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 11:37:05 [16860] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 11:37:05 [16860] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 11:37:05 [16860] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 11:37:05 [16860] INFO  : NETCARD Remove NetCard Msg Window:2565622
+2021-06-18 11:37:05 [16860] INFO  : Remove NetCard Device Msg Window:2565622
+2021-06-18 11:37:16 [16860] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-18 11:37:16 [16860] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:37:16 [16860] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:37:16 [16860] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:37:16 [16860] INFO  : NETCARD Remove NetCard Msg Window:2565622
+2021-06-18 11:37:16 [16860] INFO  : Remove NetCard Device Msg Window:2565622
+2021-06-18 11:37:16 [16860] INFO  : NETCARD Close NetCard Thread
+2021-06-18 11:37:17 [16860] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:37:17 [16860] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:37:17 [16860] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0356C8D8
+2021-06-18 11:37:17 [16860] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:47:59 [21092] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-18 11:47:59 [21092] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-18 11:47:59 [21092] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-18 11:47:59 [21092] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-18 11:47:59 [21092] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-18 11:48:00 [21092] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:48:00 [21092] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:48:00 [21092] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 11:48:00 [21092] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:48:00 [21092] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:48:00 [21092] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 11:48:00 [21092] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-18 11:48:00 [21092] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:48:00 [21092] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 11:48:00 [21092] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 11:48:00 [21092] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 11:48:00 [21092] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 11:48:00 [21092] INFO  : NETCARD Remove NetCard Msg Window:38407900
+2021-06-18 11:48:00 [21092] INFO  : Remove NetCard Device Msg Window:38407900
+2021-06-18 11:48:00 [21092] INFO  : NETCARD Reg NetCard Msg Window: 38407900,IP:192.168.1.
+2021-06-18 11:48:07 [21092] INFO  : NETCARD Remove NetCard Msg Window:38407900
+2021-06-18 11:48:07 [21092] INFO  : Remove NetCard Device Msg Window:38407900
+2021-06-18 11:48:07 [21092] INFO  : NETCARD Reg NetCard Msg Window: 38407900,IP:192.168.1.
+2021-06-18 11:48:22 [21092] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:48:22 [21092] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:48:22 [21092] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:48:22 [21092] INFO  : NETCARD Remove NetCard Msg Window:38407900
+2021-06-18 11:48:22 [21092] INFO  : Remove NetCard Device Msg Window:38407900
+2021-06-18 11:48:22 [21092] INFO  : NETCARD Close NetCard Thread
+2021-06-18 11:48:22 [21092] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:48:22 [21092] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:48:22 [21092] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 030CC638
+2021-06-18 11:48:22 [21092] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:48:22 [21092] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:48:22 [21092] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 11:48:22 [21092] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 11:48:22 [21092] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 11:48:22 [21092] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 11:48:22 [21092] INFO  : NETCARD Remove NetCard Msg Window:38407900
+2021-06-18 11:48:22 [21092] INFO  : Remove NetCard Device Msg Window:38407900
+2021-06-18 11:48:22 [21092] INFO  : NETCARD Reg NetCard Msg Window: 38407900,IP:192.168.1.
+2021-06-18 11:48:38 [21092] INFO  : NETCARD Remove NetCard Msg Window:38407900
+2021-06-18 11:48:38 [21092] INFO  : Remove NetCard Device Msg Window:38407900
+2021-06-18 11:48:38 [21092] INFO  : NETCARD Reg NetCard Msg Window: 38407900,IP:192.168.1.
+2021-06-18 11:48:40 [21092] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:48:40 [21092] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:48:40 [21092] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:48:40 [21092] INFO  : NETCARD Remove NetCard Msg Window:38407900
+2021-06-18 11:48:40 [21092] INFO  : Remove NetCard Device Msg Window:38407900
+2021-06-18 11:48:40 [21092] INFO  : NETCARD Close NetCard Thread
+2021-06-18 11:48:41 [21092] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:48:41 [21092] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:48:41 [21092] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 030CC248
+2021-06-18 11:48:41 [21092] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:48:41 [21092] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:48:41 [21092] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 11:48:41 [21092] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 11:48:41 [21092] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 11:48:41 [21092] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 11:48:41 [21092] INFO  : NETCARD Remove NetCard Msg Window:38407900
+2021-06-18 11:48:41 [21092] INFO  : Remove NetCard Device Msg Window:38407900
+2021-06-18 11:48:41 [21092] INFO  : NETCARD Reg NetCard Msg Window: 38407900,IP:192.168.1.
+2021-06-18 11:48:42 [21092] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-18 11:48:42 [21092] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:48:42 [21092] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:48:42 [21092] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:48:42 [21092] INFO  : NETCARD Remove NetCard Msg Window:38407900
+2021-06-18 11:48:42 [21092] INFO  : Remove NetCard Device Msg Window:38407900
+2021-06-18 11:48:42 [21092] INFO  : NETCARD Close NetCard Thread
+2021-06-18 11:48:42 [21092] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:48:42 [21092] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:48:42 [21092] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 030CC050
+2021-06-18 11:48:42 [21092] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:48:48 [16300] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-18 11:48:48 [16300] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-18 11:48:48 [16300] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-18 11:48:48 [16300] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-18 11:48:48 [16300] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-18 11:48:49 [16300] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:48:49 [16300] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:48:49 [16300] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 11:48:49 [16300] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:48:49 [16300] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:48:49 [16300] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 11:48:49 [16300] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-18 11:48:49 [16300] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:48:49 [16300] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 11:48:49 [16300] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 11:48:49 [16300] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 11:48:49 [16300] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 11:48:49 [16300] INFO  : NETCARD Remove NetCard Msg Window:4986002
+2021-06-18 11:48:49 [16300] INFO  : Remove NetCard Device Msg Window:4986002
+2021-06-18 11:48:49 [16300] INFO  : NETCARD Reg NetCard Msg Window: 4986002,IP:192.168.1.
+2021-06-18 11:48:52 [16300] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-18 11:48:52 [16300] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:48:52 [16300] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:48:52 [16300] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:48:52 [16300] INFO  : NETCARD Remove NetCard Msg Window:4986002
+2021-06-18 11:48:52 [16300] INFO  : Remove NetCard Device Msg Window:4986002
+2021-06-18 11:48:52 [16300] INFO  : NETCARD Close NetCard Thread
+2021-06-18 11:48:52 [16300] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:48:52 [16300] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:48:52 [16300] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0397BDB0
+2021-06-18 11:48:52 [16300] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:50:19 [21512] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-18 11:50:19 [21512] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-18 11:50:19 [21512] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-18 11:50:19 [21512] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-18 11:50:19 [21512] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-18 11:50:20 [21512] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:50:20 [21512] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:50:20 [21512] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 11:50:20 [21512] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:50:20 [21512] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:50:20 [21512] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 11:50:20 [21512] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-18 11:50:20 [21512] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:50:20 [21512] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 11:50:20 [21512] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 11:50:20 [21512] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 11:50:20 [21512] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 11:50:20 [21512] INFO  : NETCARD Remove NetCard Msg Window:5838858
+2021-06-18 11:50:20 [21512] INFO  : Remove NetCard Device Msg Window:5838858
+2021-06-18 11:50:20 [21512] INFO  : NETCARD Reg NetCard Msg Window: 5838858,IP:192.168.1.
+2021-06-18 11:50:29 [21512] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:50:29 [21512] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:50:29 [21512] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:50:29 [21512] INFO  : NETCARD Remove NetCard Msg Window:5838858
+2021-06-18 11:50:29 [21512] INFO  : Remove NetCard Device Msg Window:5838858
+2021-06-18 11:50:29 [21512] INFO  : NETCARD Close NetCard Thread
+2021-06-18 11:50:30 [21512] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:50:30 [21512] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:50:30 [21512] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 035FC6E0
+2021-06-18 11:50:30 [21512] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:50:30 [21512] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 11:50:30 [21512] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 11:50:30 [21512] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 11:50:30 [21512] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 11:50:30 [21512] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 11:50:30 [21512] INFO  : NETCARD Remove NetCard Msg Window:5838858
+2021-06-18 11:50:30 [21512] INFO  : Remove NetCard Device Msg Window:5838858
+2021-06-18 11:50:30 [21512] INFO  : NETCARD Reg NetCard Msg Window: 5838858,IP:192.168.1.
+2021-06-18 11:50:35 [21512] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-18 11:50:35 [21512] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 11:50:35 [21512] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 11:50:35 [21512] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 11:50:35 [21512] INFO  : NETCARD Remove NetCard Msg Window:5838858
+2021-06-18 11:50:35 [21512] INFO  : Remove NetCard Device Msg Window:5838858
+2021-06-18 11:50:35 [21512] INFO  : NETCARD Close NetCard Thread
+2021-06-18 11:50:35 [21512] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 11:50:35 [21512] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 11:50:35 [21512] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 035FBA68
+2021-06-18 11:50:35 [21512] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 13:56:08 [20804] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-18 13:56:08 [20804] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-18 13:56:08 [20804] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-18 13:56:08 [20804] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-18 13:56:08 [20804] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-18 13:56:09 [20804] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 13:56:09 [20804] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 13:56:09 [20804] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 13:56:10 [20804] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 13:56:10 [20804] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 13:56:10 [20804] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 13:56:10 [20804] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-18 13:56:10 [20804] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 13:56:10 [20804] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 13:56:10 [20804] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 13:56:10 [20804] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 13:56:10 [20804] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 13:56:10 [20804] INFO  : NETCARD Remove NetCard Msg Window:7539880
+2021-06-18 13:56:10 [20804] INFO  : Remove NetCard Device Msg Window:7539880
+2021-06-18 13:56:10 [20804] INFO  : NETCARD Reg NetCard Msg Window: 7539880,IP:192.168.1.
+2021-06-18 14:09:44 [20804] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-18 14:09:44 [20804] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 14:09:44 [20804] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 14:09:44 [20804] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 14:09:44 [20804] INFO  : NETCARD Remove NetCard Msg Window:7539880
+2021-06-18 14:09:44 [20804] INFO  : Remove NetCard Device Msg Window:7539880
+2021-06-18 14:09:44 [20804] INFO  : NETCARD Close NetCard Thread
+2021-06-18 14:09:45 [20804] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 14:09:45 [20804] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 14:09:45 [20804] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 038DB7D8
+2021-06-18 14:09:45 [20804] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 15:02:46 [26816] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-18 15:02:46 [26816] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-18 15:02:46 [26816] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-18 15:02:46 [26816] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-18 15:02:46 [26816] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-18 15:02:48 [26816] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 15:02:48 [26816] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 15:02:48 [26816] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 15:02:48 [26816] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 15:02:48 [26816] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 15:02:48 [26816] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 15:02:48 [26816] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-18 15:02:48 [26816] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 15:02:48 [26816] INFO  : LoadSubPluginSubWndImpl : CRFCalVerTestPlugin.dll
+2021-06-18 15:02:48 [26816] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll)
+2021-06-18 15:02:48 [26816] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll,clsid: JGW::CCRFCalVerTestView
+2021-06-18 15:02:49 [26816] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 15:02:49 [26816] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 15:02:49 [26816] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll
+2021-06-18 15:02:49 [26816] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 15:02:49 [26816] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 15:02:49 [26816] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 02F1BBB8
+2021-06-18 15:02:49 [26816] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CRFCalVerTestPlugin.dll
+2021-06-18 15:02:49 [26816] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 15:02:49 [26816] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 15:02:49 [26816] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 15:02:49 [26816] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 15:02:49 [26816] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 15:02:49 [26816] INFO  : NETCARD Remove NetCard Msg Window:590388
+2021-06-18 15:02:49 [26816] INFO  : Remove NetCard Device Msg Window:590388
+2021-06-18 15:02:49 [26816] INFO  : NETCARD Reg NetCard Msg Window: 590388,IP:192.168.1.
+2021-06-18 15:02:54 [26816] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 15:02:54 [26816] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 15:02:54 [26816] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 15:02:54 [26816] INFO  : NETCARD Remove NetCard Msg Window:590388
+2021-06-18 15:02:54 [26816] INFO  : Remove NetCard Device Msg Window:590388
+2021-06-18 15:02:54 [26816] INFO  : NETCARD Close NetCard Thread
+2021-06-18 15:02:54 [26816] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 15:02:54 [26816] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 15:02:54 [26816] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 02F1C8D8
+2021-06-18 15:02:54 [26816] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 15:02:54 [26816] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 15:02:54 [26816] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 15:02:54 [26816] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 15:02:54 [26816] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 15:02:54 [26816] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 15:02:54 [26816] INFO  : NETCARD Remove NetCard Msg Window:590388
+2021-06-18 15:02:54 [26816] INFO  : Remove NetCard Device Msg Window:590388
+2021-06-18 15:02:54 [26816] INFO  : NETCARD Reg NetCard Msg Window: 590388,IP:192.168.1.
+2021-06-18 15:02:56 [26816] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 15:02:56 [26816] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 15:02:56 [26816] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 15:02:56 [26816] INFO  : NETCARD Remove NetCard Msg Window:590388
+2021-06-18 15:02:56 [26816] INFO  : Remove NetCard Device Msg Window:590388
+2021-06-18 15:02:56 [26816] INFO  : NETCARD Close NetCard Thread
+2021-06-18 15:02:57 [26816] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 15:02:57 [26816] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 15:02:57 [26816] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 02F1BBB8
+2021-06-18 15:02:57 [26816] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 15:02:57 [26816] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 15:02:57 [26816] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 15:02:57 [26816] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 15:02:57 [26816] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 15:02:57 [26816] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 15:02:57 [26816] INFO  : NETCARD Remove NetCard Msg Window:590388
+2021-06-18 15:02:57 [26816] INFO  : Remove NetCard Device Msg Window:590388
+2021-06-18 15:02:57 [26816] INFO  : NETCARD Reg NetCard Msg Window: 590388,IP:192.168.1.
+2021-06-18 15:02:58 [26816] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 15:02:58 [26816] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 15:02:58 [26816] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 15:02:58 [26816] INFO  : NETCARD Remove NetCard Msg Window:590388
+2021-06-18 15:02:58 [26816] INFO  : Remove NetCard Device Msg Window:590388
+2021-06-18 15:02:58 [26816] INFO  : NETCARD Close NetCard Thread
+2021-06-18 15:02:58 [26816] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 15:02:58 [26816] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 15:02:58 [26816] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 02F1BBB8
+2021-06-18 15:02:58 [26816] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 15:02:58 [26816] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 15:02:58 [26816] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 15:02:58 [26816] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 15:02:58 [26816] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 15:02:58 [26816] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 15:02:58 [26816] INFO  : NETCARD Remove NetCard Msg Window:590388
+2021-06-18 15:02:58 [26816] INFO  : Remove NetCard Device Msg Window:590388
+2021-06-18 15:02:58 [26816] INFO  : NETCARD Reg NetCard Msg Window: 590388,IP:192.168.1.
+2021-06-18 15:02:59 [26816] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 15:02:59 [26816] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 15:02:59 [26816] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 15:02:59 [26816] INFO  : NETCARD Remove NetCard Msg Window:590388
+2021-06-18 15:02:59 [26816] INFO  : Remove NetCard Device Msg Window:590388
+2021-06-18 15:02:59 [26816] INFO  : NETCARD Close NetCard Thread
+2021-06-18 15:02:59 [26816] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 15:02:59 [26816] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 15:02:59 [26816] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 02F1BF00
+2021-06-18 15:02:59 [26816] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 15:02:59 [26816] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 15:02:59 [26816] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 15:02:59 [26816] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 15:02:59 [26816] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 15:02:59 [26816] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 15:02:59 [26816] INFO  : NETCARD Remove NetCard Msg Window:590388
+2021-06-18 15:02:59 [26816] INFO  : Remove NetCard Device Msg Window:590388
+2021-06-18 15:02:59 [26816] INFO  : NETCARD Reg NetCard Msg Window: 590388,IP:192.168.1.
+2021-06-18 15:03:03 [26816] INFO  : NETCARD Remove NetCard Msg Window:590388
+2021-06-18 15:03:03 [26816] INFO  : Remove NetCard Device Msg Window:590388
+2021-06-18 15:03:03 [26816] INFO  : NETCARD Reg NetCard Msg Window: 590388,IP:192.168.1.
+2021-06-18 15:03:08 [26816] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-18 15:03:08 [26816] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 15:03:08 [26816] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 15:03:08 [26816] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 15:03:08 [26816] INFO  : NETCARD Remove NetCard Msg Window:590388
+2021-06-18 15:03:08 [26816] INFO  : Remove NetCard Device Msg Window:590388
+2021-06-18 15:03:08 [26816] INFO  : NETCARD Close NetCard Thread
+2021-06-18 15:03:08 [26816] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 15:03:08 [26816] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 15:03:08 [26816] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 02F1C590
+2021-06-18 15:03:08 [26816] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 15:07:33 [19952] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-18 15:07:33 [19952] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-18 15:07:33 [19952] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-18 15:07:33 [19952] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-18 15:07:33 [19952] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-18 15:07:34 [19952] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 15:07:34 [19952] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 15:07:34 [19952] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 15:07:34 [19952] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 15:07:34 [19952] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 15:07:34 [19952] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 15:07:34 [19952] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-18 15:07:34 [19952] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 15:07:34 [19952] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 15:07:34 [19952] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 15:07:34 [19952] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 15:07:34 [19952] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 15:07:34 [19952] INFO  : NETCARD Remove NetCard Msg Window:5313146
+2021-06-18 15:07:34 [19952] INFO  : Remove NetCard Device Msg Window:5313146
+2021-06-18 15:07:34 [19952] INFO  : NETCARD Reg NetCard Msg Window: 5313146,IP:192.168.1.
+2021-06-18 15:07:36 [19952] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 15:07:36 [19952] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 15:07:36 [19952] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 15:07:36 [19952] INFO  : NETCARD Remove NetCard Msg Window:5313146
+2021-06-18 15:07:36 [19952] INFO  : Remove NetCard Device Msg Window:5313146
+2021-06-18 15:07:36 [19952] INFO  : NETCARD Close NetCard Thread
+2021-06-18 15:07:36 [19952] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 15:07:36 [19952] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 15:07:36 [19952] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0398BE58
+2021-06-18 15:07:36 [19952] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 15:07:36 [19952] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 15:07:36 [19952] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 15:07:36 [19952] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 15:07:36 [19952] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 15:07:36 [19952] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 15:07:36 [19952] INFO  : NETCARD Remove NetCard Msg Window:5313146
+2021-06-18 15:07:36 [19952] INFO  : Remove NetCard Device Msg Window:5313146
+2021-06-18 15:07:36 [19952] INFO  : NETCARD Reg NetCard Msg Window: 5313146,IP:192.168.1.
+2021-06-18 15:07:37 [19952] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 15:07:37 [19952] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 15:07:37 [19952] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 15:07:37 [19952] INFO  : NETCARD Remove NetCard Msg Window:5313146
+2021-06-18 15:07:37 [19952] INFO  : Remove NetCard Device Msg Window:5313146
+2021-06-18 15:07:37 [19952] INFO  : NETCARD Close NetCard Thread
+2021-06-18 15:07:37 [19952] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 15:07:37 [19952] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 15:07:37 [19952] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0398BE58
+2021-06-18 15:07:37 [19952] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 15:07:37 [19952] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 15:07:37 [19952] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 15:07:37 [19952] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 15:07:37 [19952] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 15:07:37 [19952] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 15:07:37 [19952] INFO  : NETCARD Remove NetCard Msg Window:5313146
+2021-06-18 15:07:37 [19952] INFO  : Remove NetCard Device Msg Window:5313146
+2021-06-18 15:07:37 [19952] INFO  : NETCARD Reg NetCard Msg Window: 5313146,IP:192.168.1.
+2021-06-18 15:08:23 [19952] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 15:08:23 [19952] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 15:08:23 [19952] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 15:08:23 [19952] INFO  : NETCARD Remove NetCard Msg Window:5313146
+2021-06-18 15:08:23 [19952] INFO  : Remove NetCard Device Msg Window:5313146
+2021-06-18 15:08:23 [19952] INFO  : NETCARD Close NetCard Thread
+2021-06-18 15:08:24 [19952] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 15:08:24 [19952] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 15:08:24 [19952] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0398BB10
+2021-06-18 15:08:24 [19952] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 15:08:24 [19952] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 15:08:24 [19952] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 15:08:24 [19952] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 15:08:24 [19952] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 15:08:24 [19952] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 15:08:24 [19952] INFO  : NETCARD Remove NetCard Msg Window:5313146
+2021-06-18 15:08:24 [19952] INFO  : Remove NetCard Device Msg Window:5313146
+2021-06-18 15:08:24 [19952] INFO  : NETCARD Reg NetCard Msg Window: 5313146,IP:192.168.1.
+2021-06-18 15:09:51 [19952] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-18 15:09:51 [19952] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 15:09:51 [19952] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 15:09:51 [19952] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 15:09:51 [19952] INFO  : NETCARD Remove NetCard Msg Window:5313146
+2021-06-18 15:09:51 [19952] INFO  : Remove NetCard Device Msg Window:5313146
+2021-06-18 15:09:51 [19952] INFO  : NETCARD Close NetCard Thread
+2021-06-18 15:09:52 [19952] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 15:09:52 [19952] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 15:09:52 [19952] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0398C8D8
+2021-06-18 15:09:52 [19952] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 15:10:28 [13720] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-18 15:10:28 [13720] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-18 15:10:29 [13720] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-18 15:10:29 [13720] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-18 15:10:29 [13720] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-18 15:10:32 [13720] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 15:10:32 [13720] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 15:10:32 [13720] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 15:10:32 [13720] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 15:10:32 [13720] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 15:10:32 [13720] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 15:10:32 [13720] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-18 15:10:32 [13720] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 15:10:32 [13720] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 15:10:32 [13720] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 15:10:32 [13720] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 15:10:32 [13720] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 15:10:32 [13720] INFO  : NETCARD Remove NetCard Msg Window:1384504
+2021-06-18 15:10:32 [13720] INFO  : Remove NetCard Device Msg Window:1384504
+2021-06-18 15:10:32 [13720] INFO  : NETCARD Reg NetCard Msg Window: 1384504,IP:192.168.1.
+2021-06-18 15:11:23 [13720] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-18 15:11:23 [13720] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 15:11:23 [13720] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 15:11:23 [13720] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 15:11:23 [13720] INFO  : NETCARD Remove NetCard Msg Window:1384504
+2021-06-18 15:11:23 [13720] INFO  : Remove NetCard Device Msg Window:1384504
+2021-06-18 15:11:23 [13720] INFO  : NETCARD Close NetCard Thread
+2021-06-18 15:11:23 [13720] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 15:11:23 [13720] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 15:11:23 [13720] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 034EC638
+2021-06-18 15:11:23 [13720] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 15:14:58 [20504] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-18 15:14:58 [20504] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-18 15:14:58 [20504] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-18 15:14:58 [20504] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-18 15:14:58 [20504] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-18 15:14:59 [20504] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 15:14:59 [20504] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 15:14:59 [20504] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 15:15:00 [20504] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 15:15:00 [20504] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 15:15:00 [20504] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-18 15:15:00 [20504] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-18 15:15:00 [20504] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-18 15:15:00 [20504] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-06-18 15:15:00 [20504] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-06-18 15:15:00 [20504] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-06-18 15:15:00 [20504] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-06-18 15:15:00 [20504] INFO  : NETCARD Remove NetCard Msg Window:2038520
+2021-06-18 15:15:00 [20504] INFO  : Remove NetCard Device Msg Window:2038520
+2021-06-18 15:15:00 [20504] INFO  : NETCARD Reg NetCard Msg Window: 2038520,IP:192.168.225.
+2021-06-18 15:15:00 [24288] INFO  : ReportNetCardThread PostMessage 2038520 - Realtek USB FE Family Controller
+2021-06-18 15:15:02 [24288] INFO  : ReportNetCardThread PostMessage 2038520 - Realtek USB FE Family Controller
+2021-06-18 15:15:41 [24288] INFO  : ReportNetCardThread PostMessage 2038520 - Realtek USB FE Family Controller
+2021-06-18 15:16:46 [24288] INFO  : ReportNetCardThread PostMessage 2038520 - Realtek USB FE Family Controller
+2021-06-18 15:18:33 [20504] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-18 15:18:33 [20504] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-18 15:18:33 [20504] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-18 15:18:33 [20504] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-06-18 15:18:33 [20504] INFO  : NETCARD Remove NetCard Msg Window:2038520
+2021-06-18 15:18:33 [20504] INFO  : Remove NetCard Device Msg Window:2038520
+2021-06-18 15:18:33 [20504] INFO  : NETCARD Close NetCard Thread
+2021-06-18 15:18:34 [20504] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-18 15:18:34 [20504] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-18 15:18:34 [20504] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 02CABA68
+2021-06-18 15:18:34 [20504] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEMultipleTestPlugin.dll

@@ -1,0 +1,2561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--(QUALCOMM PROPREITARY)
+    Copyright (c) 2013-2017, Qualcomm Technologies, Inc.
+    This document contains proprietary information, and except with written permission of Qualcomm Technologies Incorporated,
+    such information shall not be published, or disclosed to others, or used for any purpose, 
+    and the document shall not be duplicated in whole or in part -->
+<!-- $Revision:  $ $DateTime: $ -->
+<CalibrationData>
+    <!--  CW Signal Generator to UUT Primary connector, frequencies should cover all frequencies that the SG might use-->
+    <CalConfig name="GENERIC">
+        <!--  Signal Generator 1, Optional-->
+        <CalPath number="1" name="SG1" date="02/14/08 18:57:54" dayLimit="999">
+            <CalPoint freq="400" loss="1.0"/>
+            <CalPoint freq="2400" loss="1.0"/>
+        </CalPath>
+        <!--  Signal Generator 2, Optional-->
+        <CalPath number="2" name="SG2" date="02/14/08 18:57:54" dayLimit="999">
+            <CalPoint freq="400" loss="1.0"/>
+            <CalPoint freq="2400" loss="1.0"/>
+        </CalPath>
+        <!--  Signal Generator 3, Optional-->
+        <CalPath number="3" name="SG3" date="02/14/08 18:57:54" dayLimit="999">
+            <CalPoint freq="400" loss="1.0"/>
+            <CalPoint freq="2400" loss="1.0"/>
+        </CalPath>
+    </CalConfig>
+    <!-- CW Signal Generator to UUT Secondary connector, frequencies should cover all frequencies that the SG might use-->
+    <CalConfig name="GENERIC_DIV">
+        <!--  Signal Generator 1, Optional-->
+        <CalPath number="1" name="SG1" date="02/14/08 18:57:54" dayLimit="999">
+            <CalPoint freq="400" loss="1.0"/>
+            <CalPoint freq="2400" loss="1.0"/>
+        </CalPath>
+        <!--  Signal Generator 2, Optional-->
+        <CalPath number="2" name="SG2" date="02/14/08 18:57:54" dayLimit="999">
+            <CalPoint freq="400" loss="1.0"/>
+            <CalPoint freq="2400" loss="1.0"/>
+        </CalPath>
+        <!--  Signal Generator 3, Optional-->
+        <CalPath number="3" name="SG3" date="02/14/08 18:57:54" dayLimit="999">
+            <CalPoint freq="400" loss="1.0"/>
+            <CalPoint freq="2400" loss="1.0"/>
+        </CalPath>
+    </CalConfig>
+    <!-- CW Signal Generator and GPS Emulator to UUT GPS connector-->
+    <CalConfig name="GENERIC_GPS">
+        <!--  GPS Emulator to GPS Connector -->
+        <CalPath number="6" name="GPS" date="02/14/08 18:57:54" dayLimit="999">
+            <CalPoint freq="1561" loss="1.0"/>
+            <CalPoint freq="1570" loss="1.0"/>
+            <CalPoint freq="1575" loss="1.0"/>
+            <CalPoint freq="1580" loss="1.0"/>
+            <CalPoint freq="1585" loss="1.0"/>
+            <CalPoint freq="1590" loss="1.0"/>
+            <CalPoint freq="1595" loss="1.0"/>
+            <CalPoint freq="1600" loss="1.0"/>
+            <CalPoint freq="1605" loss="1.0"/>
+            <CalPoint freq="1610" loss="1.0"/>
+        </CalPath>
+        <!--  CW Generator 1 to GPS Connector -->
+        <CalPath number="1" name="SG1" date="02/14/08 18:56:32" dayLimit="999">
+            <CalPoint freq="1561" loss="1.0"/>
+            <CalPoint freq="1570" loss="1.0"/>
+            <CalPoint freq="1575" loss="1.0"/>
+            <CalPoint freq="1580" loss="1.0"/>
+            <CalPoint freq="1585" loss="1.0"/>
+            <CalPoint freq="1590" loss="1.0"/>
+            <CalPoint freq="1595" loss="1.0"/>
+            <CalPoint freq="1600" loss="1.0"/>
+            <CalPoint freq="1605" loss="1.0"/>
+            <CalPoint freq="1610" loss="1.0"/>
+        </CalPath>
+    </CalConfig>
+    <!-- Path loss for Network Analyzer magnitude measurements -->
+    <CalConfig name="GENERIC_NA">
+        <!--  Network Analyzer 1, Optional-->
+        <CalPath number="13" name="NA1" date="08/28/14 10:11:48" dayLimit="999">
+            <CalPoint freq="400" loss="1.0"/>
+            <CalPoint freq="2700" loss="1.0"/>
+        </CalPath>
+    </CalConfig>
+    <!-- Technology Dependent path loss-->
+    <CalConfig name="CDMA">
+        <!-- CDMA Calibration and Non-sigaling/signaling call test: Forward Link Path Loss for Call Processor 1(CP1) -->
+        <CalPath date="11/04/05 15:44:57" dayLimit="999" name="CP1_UUT" number="4">
+            <!--  BC0- CELL  -->
+            <CalPoint freq="869.04" loss="1.0"/>
+            <CalPoint freq="893.97" loss="1.0"/>
+            <!--  BC1- PCS -->
+            <CalPoint freq="1930.00" loss="1.0"/>
+            <CalPoint freq="1989.95" loss="1.0"/>
+            <!--  BC3 JTACS  -->
+            <CalPoint freq="832.0125" loss="1.0"/>
+            <CalPoint freq="869.00" loss="1.0"/>
+            <!--  BC5 450 MHz -->
+            <CalPoint freq="420.00" loss="1.0"/>
+            <CalPoint freq="493.00" loss="1.0"/>
+            <!--  BC6 2GHz   -->
+            <CalPoint freq="2111.25" loss="1.0"/>
+            <CalPoint freq="2168.75" loss="1.0"/>
+            <!--  BC15 AWS   -->
+            <CalPoint freq="2110.00" loss="1.0"/>
+            <CalPoint freq="2155.00" loss="1.0"/>
+        </CalPath>
+        <!-- CDMA Calibration and Non-sigaling/signaling call test: Reverse Link Path Loss for Call Processor 1(CP1) -->
+        <CalPath date="11/04/05 16:26:40" dayLimit="999" name="UUT_CP1" number="5">
+            <!--  BC0- CELL  -->
+            <CalPoint freq="824.04" loss="1.0"/>
+            <CalPoint freq="848.97" loss="1.0"/>
+            <!--  BC1- PCS -->
+            <CalPoint freq="1850.00" loss="1.0"/>
+            <CalPoint freq="1910.00" loss="1.0"/>
+            <!--  BC3 JTACS  -->
+            <CalPoint freq="887.0125" loss="1.0"/>
+            <CalPoint freq="924.9875" loss="1.0"/>
+            <!--  BC5 450 MHz -->
+            <CalPoint freq="410.00" loss="1.0"/>
+            <CalPoint freq="483.00" loss="1.0"/>
+            <!--  BC6 2GHz   -->
+            <CalPoint freq="1920.00" loss="1.0"/>
+            <CalPoint freq="1979.95" loss="1.0"/>
+            <!--  BC15 AWS   -->
+            <CalPoint freq="1710.00" loss="1.0"/>
+            <CalPoint freq="1755.95" loss="1.0"/>
+        </CalPath>
+        <CalPath date="11/04/05 16:26:40" dayLimit="999" name="CP1AUX->UUT" number="14">
+            <!--  BC0- CELL  -->
+            <CalPoint freq="824.04" loss="1.0"/>
+            <CalPoint freq="848.97" loss="1.0"/>
+            <!--  BC1- PCS -->
+            <CalPoint freq="1850.00" loss="1.0"/>
+            <CalPoint freq="1910.00" loss="1.0"/>
+            <!--  BC3 JTACS  -->
+            <CalPoint freq="887.0125" loss="1.0"/>
+            <CalPoint freq="924.9875" loss="1.0"/>
+            <!--  BC5 450 MHz -->
+            <CalPoint freq="410.00" loss="1.0"/>
+            <CalPoint freq="483.00" loss="1.0"/>
+            <!--  BC6 2GHz   -->
+            <CalPoint freq="1920.00" loss="1.0"/>
+            <CalPoint freq="1979.95" loss="1.0"/>
+            <!--  BC15 AWS   -->
+            <CalPoint freq="1710.00" loss="1.0"/>
+            <CalPoint freq="1755.95" loss="1.0"/>
+        </CalPath>
+       <CalPath date="11/04/05 16:26:40" dayLimit="999" name="UUT_TX2_CP1" number="25">
+        <!--  BC0- CELL  -->
+        <CalPoint freq="824.04" loss="1.0"/>
+        <CalPoint freq="848.97" loss="1.0"/>
+        <!--  BC1- PCS -->
+        <CalPoint freq="1850.00" loss="1.0"/>
+        <CalPoint freq="1910.00" loss="1.0"/>
+        <!--  BC3 JTACS  -->
+        <CalPoint freq="887.0125" loss="1.0"/>
+        <CalPoint freq="924.9875" loss="1.0"/>
+        <!--  BC5 450 MHz -->
+        <CalPoint freq="410.00" loss="1.0"/>
+        <CalPoint freq="483.00" loss="1.0"/>
+        <!--  BC6 2GHz   -->
+        <CalPoint freq="1920.00" loss="1.0"/>
+        <CalPoint freq="1979.95" loss="1.0"/>
+        <!--  BC15 AWS   -->
+        <CalPoint freq="1710.00" loss="1.0"/>
+        <CalPoint freq="1755.95" loss="1.0"/>
+        </CalPath>
+      <CalPath date="11/04/05 16:26:40" dayLimit="999" name="CP1AUX->UUT" number="14">
+        <!--  BC0- CELL  -->
+        <CalPoint freq="824.04" loss="1.0"/>
+        <CalPoint freq="848.97" loss="1.0"/>
+        <!--  BC1- PCS -->
+        <CalPoint freq="1850.00" loss="1.0"/>
+        <CalPoint freq="1910.00" loss="1.0"/>
+        <!--  BC3 JTACS  -->
+        <CalPoint freq="887.0125" loss="1.0"/>
+        <CalPoint freq="924.9875" loss="1.0"/>
+        <!--  BC5 450 MHz -->
+        <CalPoint freq="410.00" loss="1.0"/>
+        <CalPoint freq="483.00" loss="1.0"/>
+        <!--  BC6 2GHz   -->
+        <CalPoint freq="1920.00" loss="1.0"/>
+        <CalPoint freq="1979.95" loss="1.0"/>
+        <!--  BC15 AWS   -->
+        <CalPoint freq="1710.00" loss="1.0"/>
+        <CalPoint freq="1755.95" loss="1.0"/>
+      </CalPath>
+      <CalPath date="11/04/05 16:26:40" dayLimit="999" name="CP1->UUT_RX2" number="24">
+        <!--  BC0- CELL  -->
+        <CalPoint freq="824.04" loss="1.0"/>
+        <CalPoint freq="848.97" loss="1.0"/>
+        <!--  BC1- PCS -->
+        <CalPoint freq="1850.00" loss="1.0"/>
+        <CalPoint freq="1910.00" loss="1.0"/>
+        <!--  BC3 JTACS  -->
+        <CalPoint freq="887.0125" loss="1.0"/>
+        <CalPoint freq="924.9875" loss="1.0"/>
+        <!--  BC5 450 MHz -->
+        <CalPoint freq="410.00" loss="1.0"/>
+        <CalPoint freq="483.00" loss="1.0"/>
+        <!--  BC6 2GHz   -->
+        <CalPoint freq="1920.00" loss="1.0"/>
+        <CalPoint freq="1979.95" loss="1.0"/>
+        <!--  BC15 AWS   -->
+        <CalPoint freq="1710.00" loss="1.0"/>
+        <CalPoint freq="1755.95" loss="1.0"/>
+      </CalPath>
+      <CalPath date="11/04/05 16:26:40" dayLimit="999" name="CP1->UUT_RX3" number="34">
+        <!--  BC0- CELL  -->
+        <CalPoint freq="824.04" loss="1.0"/>
+        <CalPoint freq="848.97" loss="1.0"/>
+        <!--  BC1- PCS -->
+        <CalPoint freq="1850.00" loss="1.0"/>
+        <CalPoint freq="1910.00" loss="1.0"/>
+        <!--  BC3 JTACS  -->
+        <CalPoint freq="887.0125" loss="1.0"/>
+        <CalPoint freq="924.9875" loss="1.0"/>
+        <!--  BC5 450 MHz -->
+        <CalPoint freq="410.00" loss="1.0"/>
+        <CalPoint freq="483.00" loss="1.0"/>
+        <!--  BC6 2GHz   -->
+        <CalPoint freq="1920.00" loss="1.0"/>
+        <CalPoint freq="1979.95" loss="1.0"/>
+        <!--  BC15 AWS   -->
+        <CalPoint freq="1710.00" loss="1.0"/>
+        <CalPoint freq="1755.95" loss="1.0"/>
+      </CalPath>
+        <!-- CDMA Calibration and Non-sigaling/signaling call test: Forward Link Path Loss for Call Processor 1(CP1) for DRx. Used only in Multi DUT with direct DRx connection. -->
+        <CalPath date="11/04/05 15:44:57" dayLimit="999" name="CP1_UUT" number="8">
+            <!--  BC0- CELL  -->
+            <CalPoint freq="869.04" loss="1.0"/>
+            <CalPoint freq="893.97" loss="1.0"/>
+            <!--  BC1- PCS -->
+            <CalPoint freq="1930.00" loss="1.0"/>
+            <CalPoint freq="1989.95" loss="1.0"/>
+            <!--  BC3 JTACS  -->
+            <CalPoint freq="832.0125" loss="1.0"/>
+            <CalPoint freq="869.00" loss="1.0"/>
+            <!--  BC5 450 MHz -->
+            <CalPoint freq="420.00" loss="1.0"/>
+            <CalPoint freq="493.00" loss="1.0"/>
+            <!--  BC6 2GHz   -->
+            <CalPoint freq="2111.25" loss="1.0"/>
+            <CalPoint freq="2168.75" loss="1.0"/>
+            <!--  BC15 AWS   -->
+            <CalPoint freq="2110.00" loss="1.0"/>
+            <CalPoint freq="2155.00" loss="1.0"/>
+        </CalPath>
+        <!-- CDMA Calibration and Non-sigaling/signaling call test: Forward Link Path Loss for Call Processor 2 (CP2), Optional -->
+        <CalPath date="11/04/05 15:44:57" dayLimit="999" name="CP2_UUT" number="204">
+            <!--  BC0- CELL  -->
+            <CalPoint freq="869.04" loss="1.0"/>
+            <CalPoint freq="893.97" loss="1.0"/>
+            <!--  BC1- PCS -->
+            <CalPoint freq="1930.00" loss="1.0"/>
+            <CalPoint freq="1989.95" loss="1.0"/>
+            <!--  BC3 JTACS  -->
+            <CalPoint freq="832.0125" loss="1.0"/>
+            <CalPoint freq="869.00" loss="1.0"/>
+            <!--  BC5 450 MHz -->
+            <CalPoint freq="420.00" loss="1.0"/>
+            <CalPoint freq="493.00" loss="1.0"/>
+            <!--  BC6 2GHz   -->
+            <CalPoint freq="2111.25" loss="1.0"/>
+            <CalPoint freq="2168.75" loss="1.0"/>
+            <!--  BC15 AWS   -->
+            <CalPoint freq="2110.00" loss="1.0"/>
+            <CalPoint freq="2155.00" loss="1.0"/>
+        </CalPath>
+        <!-- CDMA Calibration and Non-sigaling/signaling call test: Reverse Link Path Loss for Call Processor 2 (CP2), Optional -->
+        <CalPath date="11/04/05 16:26:40" dayLimit="999" name="UUT_CP2" number="205">
+            <!--  BC0- CELL  -->
+            <CalPoint freq="824.04" loss="1.0"/>
+            <CalPoint freq="848.97" loss="1.0"/>
+            <!--  BC1- PCS -->
+            <CalPoint freq="1850.00" loss="1.0"/>
+            <CalPoint freq="1910.00" loss="1.0"/>
+            <!--  BC3 JTACS  -->
+            <CalPoint freq="887.0125" loss="1.0"/>
+            <CalPoint freq="924.9875" loss="1.0"/>
+            <!--  BC5 450 MHz -->
+            <CalPoint freq="410.00" loss="1.0"/>
+            <CalPoint freq="483.00" loss="1.0"/>
+            <!--  BC6 2GHz   -->
+            <CalPoint freq="1920.00" loss="1.0"/>
+            <CalPoint freq="1979.95" loss="1.0"/>
+            <!--  BC15 AWS   -->
+            <CalPoint freq="1710.00" loss="1.0"/>
+            <CalPoint freq="1755.95" loss="1.0"/>
+        </CalPath>
+        <CalPath date="11/04/05 16:26:40" dayLimit="999" name="CP2AUX_UUT" number="214">
+            <!--  BC0- CELL  -->
+            <CalPoint freq="824.04" loss="1.0"/>
+            <CalPoint freq="848.97" loss="1.0"/>
+            <!--  BC1- PCS -->
+            <CalPoint freq="1850.00" loss="1.0"/>
+            <CalPoint freq="1910.00" loss="1.0"/>
+            <!--  BC3 JTACS  -->
+            <CalPoint freq="887.0125" loss="1.0"/>
+            <CalPoint freq="924.9875" loss="1.0"/>
+            <!--  BC5 450 MHz -->
+            <CalPoint freq="410.00" loss="1.0"/>
+            <CalPoint freq="483.00" loss="1.0"/>
+            <!--  BC6 2GHz   -->
+            <CalPoint freq="1920.00" loss="1.0"/>
+            <CalPoint freq="1979.95" loss="1.0"/>
+            <!--  BC15 AWS   -->
+            <CalPoint freq="1710.00" loss="1.0"/>
+            <CalPoint freq="1755.95" loss="1.0"/>
+        </CalPath>
+        <!--Links to Generic items, used by Signal Generators. For example, in DOrB Non-sig, when a signal generator is used to playback ARB waveform files.-->
+        <CalPathLink srcCalConfig="GENERIC" srcPathNumber="1" destPathNumber="1"/>
+        <CalPathLink srcCalConfig="GENERIC" srcPathNumber="2" destPathNumber="2"/>
+        <CalPathLink srcCalConfig="GENERIC" srcPathNumber="3" destPathNumber="3"/>
+    </CalConfig>
+    <CalConfig name="CDMA_DIV">
+        <!-- CDMA Calibration and Non-signaling/signaling call test: Forward Link DIVERSITY Path Loss for Call Procssor 1(CP1)-->
+        <CalPath date="07/28/05 16:01:33" dayLimit="999" name="CP1_TO_UUT_DIV_PATH" number="4">
+            <!--  BC0- CELL  -->
+            <CalPoint freq="869.04" loss="1.0"/>
+            <CalPoint freq="893.97" loss="1.0"/>
+            <!--  BC1- PCS -->
+            <CalPoint freq="1930.00" loss="1.0"/>
+            <CalPoint freq="1989.95" loss="1.0"/>
+            <!--  BC3 JTACS  -->
+            <CalPoint freq="832.0125" loss="1.0"/>
+            <CalPoint freq="869.00" loss="1.0"/>
+            <!--  BC5 450 MHz -->
+            <CalPoint freq="420.00" loss="1.0"/>
+            <CalPoint freq="493.00" loss="1.0"/>
+            <!--  BC6 2GHz   -->
+            <CalPoint freq="2111.25" loss="1.0"/>
+            <CalPoint freq="2168.75" loss="1.0"/>
+            <!--  BC15 AWS   -->
+            <CalPoint freq="2110.00" loss="1.0"/>
+            <CalPoint freq="2155.00" loss="1.0"/>
+        </CalPath>
+        <!--  Refer to the primary path for UL calibration offsets  for Call Procssor 1(CP1)-->
+        <CalPathLink destPathNumber="5" srcCalConfig="CDMA" srcPathNumber="5"/>
+        <!-- CDMA Calibration and Non-signaling/signaling call test: Forward Link DIVERSITY Path Loss for Call Procssor 2  (CP2), Optional-->
+        <CalPath date="07/28/05 16:01:33" dayLimit="999" name="CP2_TO_UUT_DIV_PATH" number="7">
+            <!--  BC0- CELL  -->
+            <CalPoint freq="869.04" loss="1.0"/>
+            <CalPoint freq="893.97" loss="1.0"/>
+            <!--  BC1- PCS -->
+            <CalPoint freq="1930.00" loss="1.0"/>
+            <CalPoint freq="1989.95" loss="1.0"/>
+            <!--  BC3 JTACS  -->
+            <CalPoint freq="832.0125" loss="1.0"/>
+            <CalPoint freq="869.00" loss="1.0"/>
+            <!--  BC5 450 MHz -->
+            <CalPoint freq="420.00" loss="1.0"/>
+            <CalPoint freq="493.00" loss="1.0"/>
+            <!--  BC6 2GHz   -->
+            <CalPoint freq="2111.25" loss="1.0"/>
+            <CalPoint freq="2168.75" loss="1.0"/>
+            <!--  BC15 AWS   -->
+            <CalPoint freq="2110.00" loss="1.0"/>
+            <CalPoint freq="2155.00" loss="1.0"/>
+        </CalPath>
+        <!--  Refer to the primary path for UL calibration offsets for Call Procssor 2  (CP2), Optional-->
+        <CalPathLink destPathNumber="8" srcCalConfig="CDMA" srcPathNumber="8"/>
+    </CalConfig>
+    <CalConfig name="GSM">
+        <!-- GSM Calibration and Non-signaling Test  Uplink for Call Procssor 1(CP1)-->
+        <CalPath date="04/07/05 09:25:05" dayLimit="999" name="UUT_CP1" number="5">
+            <!--  GSM 850  -->
+            <CalPoint freq="824" loss="1.0"/>
+            <CalPoint freq="849" loss="1.0"/>
+            <!--  GSM 900  -->
+            <CalPoint freq="890" loss="1.0"/>
+            <CalPoint freq="915" loss="1.0"/>
+            <!--  DCS 1800  -->
+            <CalPoint freq="1710" loss="1.0"/>
+            <CalPoint freq="1785" loss="1.0"/>
+            <!--  PCS 1900  -->
+            <CalPoint freq="1850" loss="1.0"/>
+            <CalPoint freq="1910" loss="1.0"/>
+        </CalPath>
+        <CalPath date="04/07/05 09:25:05" dayLimit="999" name="UUT_TX2_CP1" number="5">
+        <!--  GSM 850  -->
+          <CalPoint freq="824" loss="1.0"/>
+          <CalPoint freq="849" loss="1.0"/>
+          <!--  GSM 900  -->
+          <CalPoint freq="890" loss="1.0"/>
+          <CalPoint freq="915" loss="1.0"/>
+          <!--  DCS 1800  -->
+          <CalPoint freq="1710" loss="1.0"/>
+          <CalPoint freq="1785" loss="1.0"/>
+          <!--  PCS 1900  -->
+          <CalPoint freq="1850" loss="1.0"/>
+          <CalPoint freq="1910" loss="1.0"/>
+        </CalPath>
+        <!-- GSM Calibration and Non-signaling Test Downlink for Call Procssor 1(CP1)-->
+        <CalPath date="04/07/05 09:31:41" dayLimit="999" name="CP1_UUT" number="4">
+            <!--  GSM 850  -->
+            <CalPoint freq="869" loss="1.0"/>
+            <CalPoint freq="894" loss="1.0"/>
+            <!--  GSM 900  -->
+            <CalPoint freq="935" loss="1.0"/>
+            <CalPoint freq="960" loss="1.0"/>
+            <!--  DCS 1800  -->
+            <CalPoint freq="1805" loss="1.0"/>
+            <CalPoint freq="1880" loss="1.0"/>
+            <!--  PCS 1900  -->
+            <CalPoint freq="1930" loss="1.0"/>
+            <CalPoint freq="1990" loss="1.0"/>
+        </CalPath>
+        <CalPath date="04/07/05 09:31:41" dayLimit="999" name="CP1AUX_UUT" number="14">
+            <!--  GSM 850  -->
+            <CalPoint freq="869" loss="1.0"/>
+            <CalPoint freq="894" loss="1.0"/>
+            <!--  GSM 900  -->
+            <CalPoint freq="935" loss="1.0"/>
+            <CalPoint freq="960" loss="1.0"/>
+            <!--  DCS 1800  -->
+            <CalPoint freq="1805" loss="1.0"/>
+            <CalPoint freq="1880" loss="1.0"/>
+            <!--  PCS 1900  -->
+            <CalPoint freq="1930" loss="1.0"/>
+            <CalPoint freq="1990" loss="1.0"/>
+        </CalPath>
+      <CalPath date="04/07/05 09:31:41" dayLimit="999" name="CP1_UUT_RX2" number="24">
+        <!--  GSM 850  -->
+        <CalPoint freq="869" loss="1.0"/>
+        <CalPoint freq="894" loss="1.0"/>
+        <!--  GSM 900  -->
+        <CalPoint freq="935" loss="1.0"/>
+        <CalPoint freq="960" loss="1.0"/>
+        <!--  DCS 1800  -->
+        <CalPoint freq="1805" loss="1.0"/>
+        <CalPoint freq="1880" loss="1.0"/>
+        <!--  PCS 1900  -->
+        <CalPoint freq="1930" loss="1.0"/>
+        <CalPoint freq="1990" loss="1.0"/>
+      </CalPath>
+      <CalPath date="04/07/05 09:31:41" dayLimit="999" name="CP1_UUT_RX3" number="34">
+        <!--  GSM 850  -->
+        <CalPoint freq="869" loss="1.0"/>
+        <CalPoint freq="894" loss="1.0"/>
+        <!--  GSM 900  -->
+        <CalPoint freq="935" loss="1.0"/>
+        <CalPoint freq="960" loss="1.0"/>
+        <!--  DCS 1800  -->
+        <CalPoint freq="1805" loss="1.0"/>
+        <CalPoint freq="1880" loss="1.0"/>
+        <!--  PCS 1900  -->
+        <CalPoint freq="1930" loss="1.0"/>
+        <CalPoint freq="1990" loss="1.0"/>
+      </CalPath>
+        <!-- GSM Calibration and Non-signaling Test Downlink for Call Procssor 1(CP1) for DRx. Used only in Multi DUT with direct DRx connection.-->
+        <CalPath date="04/07/05 09:31:41" dayLimit="999" name="CP1_UUT" number="8">
+            <!--  GSM 850  -->
+            <CalPoint freq="869" loss="1.0"/>
+            <CalPoint freq="894" loss="1.0"/>
+            <!--  GSM 900  -->
+            <CalPoint freq="935" loss="1.0"/>
+            <CalPoint freq="960" loss="1.0"/>
+            <!--  DCS 1800  -->
+            <CalPoint freq="1805" loss="1.0"/>
+            <CalPoint freq="1880" loss="1.0"/>
+            <!--  PCS 1900  -->
+            <CalPoint freq="1930" loss="1.0"/>
+            <CalPoint freq="1990" loss="1.0"/>
+        </CalPath>
+        <!-- GSM Calibration and Non-signaling Test  Uplink for Call Procssor 2 (CP2), Optional-->
+        <CalPath date="04/07/05 09:25:05" dayLimit="999" name="UUT_CP2" number="205">
+            <!--  GSM 850  -->
+            <CalPoint freq="824" loss="1.0"/>
+            <CalPoint freq="849" loss="1.0"/>
+            <!--  GSM 900  -->
+            <CalPoint freq="890" loss="1.0"/>
+            <CalPoint freq="915" loss="1.0"/>
+            <!--  DCS 1800  -->
+            <CalPoint freq="1710" loss="1.0"/>
+            <CalPoint freq="1785" loss="1.0"/>
+            <!--  PCS 1900  -->
+            <CalPoint freq="1850" loss="1.0"/>
+            <CalPoint freq="1910" loss="1.0"/>
+        </CalPath>
+        <!-- GSM Calibration and Non-signaling Test Downlink for Call Procssor 2 (CP2), Optional-->
+        <CalPath date="04/07/05 09:31:41" dayLimit="999" name="CP2_UUT" number="204">
+            <!--  GSM 850  -->
+            <CalPoint freq="869" loss="1.0"/>
+            <CalPoint freq="894" loss="1.0"/>
+            <!--  GSM 900  -->
+            <CalPoint freq="935" loss="1.0"/>
+            <CalPoint freq="960" loss="1.0"/>
+            <!--  DCS 1800  -->
+            <CalPoint freq="1805" loss="1.0"/>
+            <CalPoint freq="1880" loss="1.0"/>
+            <!--  PCS 1900  -->
+            <CalPoint freq="1930" loss="1.0"/>
+            <CalPoint freq="1990" loss="1.0"/>
+        </CalPath>
+        <CalPath date="04/07/05 09:31:41" dayLimit="999" name="CP2AUX_UUT" number="214">
+            <!--  GSM 850  -->
+            <CalPoint freq="869" loss="1.0"/>
+            <CalPoint freq="894" loss="1.0"/>
+            <!--  GSM 900  -->
+            <CalPoint freq="935" loss="1.0"/>
+            <CalPoint freq="960" loss="1.0"/>
+            <!--  DCS 1800  -->
+            <CalPoint freq="1805" loss="1.0"/>
+            <CalPoint freq="1880" loss="1.0"/>
+            <!--  PCS 1900  -->
+            <CalPoint freq="1930" loss="1.0"/>
+            <CalPoint freq="1990" loss="1.0"/>
+        </CalPath>
+        <CalPath date="04/07/05 09:25:05" dayLimit="999" name="UUT_CP3" number="305">
+            <!--  GSM 850  -->
+            <CalPoint freq="824" loss="1.0"/>
+            <CalPoint freq="849" loss="1.0"/>
+            <!--  GSM 900  -->
+            <CalPoint freq="890" loss="1.0"/>
+            <CalPoint freq="915" loss="1.0"/>
+            <!--  DCS 1800  -->
+            <CalPoint freq="1710" loss="1.0"/>
+            <CalPoint freq="1785" loss="1.0"/>
+            <!--  PCS 1900  -->
+            <CalPoint freq="1850" loss="1.0"/>
+            <CalPoint freq="1910" loss="1.0"/>
+        </CalPath>
+        <!-- GSM Calibration and Non-signaling Test Downlink for Call Procssor 3 (CP3), Optional-->
+        <CalPath date="04/07/05 09:31:41" dayLimit="999" name="CP3_UUT" number="304">
+            <!--  GSM 850  -->
+            <CalPoint freq="869" loss="1.0"/>
+            <CalPoint freq="894" loss="1.0"/>
+            <!--  GSM 900  -->
+            <CalPoint freq="935" loss="1.0"/>
+            <CalPoint freq="960" loss="1.0"/>
+            <!--  DCS 1800  -->
+            <CalPoint freq="1805" loss="1.0"/>
+            <CalPoint freq="1880" loss="1.0"/>
+            <!--  PCS 1900  -->
+            <CalPoint freq="1930" loss="1.0"/>
+            <CalPoint freq="1990" loss="1.0"/>
+        </CalPath>
+        <CalPath date="04/07/05 09:31:41" dayLimit="999" name="CP3AUX_UUT" number="314">
+            <!--  GSM 850  -->
+            <CalPoint freq="869" loss="1.0"/>
+            <CalPoint freq="894" loss="1.0"/>
+            <!--  GSM 900  -->
+            <CalPoint freq="935" loss="1.0"/>
+            <CalPoint freq="960" loss="1.0"/>
+            <!--  DCS 1800  -->
+            <CalPoint freq="1805" loss="1.0"/>
+            <CalPoint freq="1880" loss="1.0"/>
+            <!--  PCS 1900  -->
+            <CalPoint freq="1930" loss="1.0"/>
+            <CalPoint freq="1990" loss="1.0"/>
+        </CalPath>
+    </CalConfig>
+    <CalConfig name="WCDMA">
+        <!--  UMTS/HSDPA Calibration and Non-signaling test Uplink for Call Procssor 1(CP1)  -->
+        <CalPath date="07/28/05 15:48:59" dayLimit="999" name="UUT_TX0_CP1" number="5">
+            <!-- Band V/VIII -->
+            <CalPoint freq="824" loss="1.0"/>
+            <CalPoint freq="915" loss="1.0"/>
+            <!--  Band IV  -->
+            <CalPoint freq="1710" loss="1.0"/>
+            <CalPoint freq="1785" loss="1.0"/>
+            <!--  Band II  -->
+            <CalPoint freq="1850" loss="1.0"/>
+            <CalPoint freq="1910" loss="1.0"/>
+            <!--  Band I  -->
+            <CalPoint freq="1920" loss="1.0"/>
+            <CalPoint freq="1980" loss="1.0"/>
+            <!-- Band class 7 for LTE cal-->
+            <CalPoint freq="2500" loss="1.0"/>
+            <CalPoint freq="2570" loss="1.0"/>
+            <!-- Band class 13 for LTE cal  -->
+            <CalPoint freq="777" loss="1.0"/>
+            <CalPoint freq="787" loss="1.0"/>
+            <!-- Band class 12 & 17 for LTE cal  -->
+            <CalPoint freq="698" loss="1.0"/>
+            <CalPoint freq="716" loss="1.0"/>
+            <!-- Band class 40 for LTE cal  -->
+            <CalPoint freq="2300" loss="1.0"/>
+            <CalPoint freq="2400" loss="1.0"/>
+            <!-- Band class 38 for LTE cal  -->
+            <CalPoint freq="2571" loss="1.0"/>
+            <CalPoint freq="2620" loss="1.0"/>
+            <!-- Band class 28 for LTE cal  -->
+            <CalPoint freq="703" loss="1.0"/>
+            <CalPoint freq="748" loss="1.0"/>
+            <!-- Band class 41 for LTE cal  -->
+            <CalPoint freq="2490" loss="1.0"/>
+            <CalPoint freq="2700" loss="1.0"/>
+            
+        </CalPath>
+      <CalPath date="07/28/05 15:48:59" dayLimit="999" name="UUT_TX2_CP1" number="25">
+        <!-- Band V/VIII -->
+        <CalPoint freq="824" loss="1.0"/>
+        <CalPoint freq="915" loss="1.0"/>
+        <!--  Band IV  -->
+        <CalPoint freq="1710" loss="1.0"/>
+        <CalPoint freq="1785" loss="1.0"/>
+        <!--  Band II  -->
+        <CalPoint freq="1850" loss="1.0"/>
+        <CalPoint freq="1910" loss="1.0"/>
+        <!--  Band I  -->
+        <CalPoint freq="1920" loss="1.0"/>
+        <CalPoint freq="1980" loss="1.0"/>
+        <!-- Band class 7 for LTE cal-->
+        <CalPoint freq="2500" loss="1.0"/>
+        <CalPoint freq="2570" loss="1.0"/>
+        <!-- Band class 13 for LTE cal  -->
+        <CalPoint freq="777" loss="1.0"/>
+        <CalPoint freq="787" loss="1.0"/>
+        <!-- Band class 12 & 17 for LTE cal  -->
+        <CalPoint freq="698" loss="1.0"/>
+        <CalPoint freq="716" loss="1.0"/>
+        <!-- Band class 40 for LTE cal  -->
+        <CalPoint freq="2300" loss="1.0"/>
+        <CalPoint freq="2400" loss="1.0"/>
+        <!-- Band class 38 for LTE cal  -->
+        <CalPoint freq="2571" loss="1.0"/>
+        <CalPoint freq="2620" loss="1.0"/>
+        <!-- Band class 28 for LTE cal  -->
+        <CalPoint freq="703" loss="1.0"/>
+        <CalPoint freq="748" loss="1.0"/>
+        <!-- Band class 41 for LTE cal  -->
+        <CalPoint freq="2490" loss="1.0"/>
+        <CalPoint freq="2700" loss="1.0"/>
+
+      </CalPath>
+        <!--  UMTS/HSDPA Calibration and Non-signaling test Downlink for Call Procssor 1(CP1)  -->
+        <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP1_UUT" number="4">
+            <!--  Band V  -->
+            <CalPoint freq="869" loss="1.0"/>
+            <CalPoint freq="894" loss="1.0"/>
+            <!--  Band VIII  -->
+            <CalPoint freq="925" loss="1.0"/>
+            <CalPoint freq="960" loss="1.0"/>
+            <!-- Band IV  -->
+            <CalPoint freq="1805" loss="1.0"/>
+            <CalPoint freq="1880" loss="1.0"/>
+            <!--  Band II  -->
+            <CalPoint freq="1930" loss="1.0"/>
+            <CalPoint freq="1990" loss="1.0"/>
+            <!--  Band I  -->
+            <CalPoint freq="2110" loss="1.0"/>
+            <CalPoint freq="2170" loss="1.0"/>
+            <!-- Band class 7 for LTE cal-->
+            <CalPoint freq="2620" loss="1.0"/>
+            <CalPoint freq="2690" loss="1.0"/>
+            <!-- Band class 13 for LTE cal  -->
+            <CalPoint freq="746" loss="1.0"/>
+            <CalPoint freq="756" loss="1.0"/>
+            <!-- Band class 12 & 17 for LTE cal  -->
+            <CalPoint freq="728" loss="1.0"/>
+            <CalPoint freq="746" loss="1.0"/>
+            <!-- Band class 40 for LTE cal  -->
+            <CalPoint freq="2300" loss="1.0"/>
+            <CalPoint freq="2400" loss="1.0"/>
+            <!-- Band class 38 for LTE cal  -->
+            <CalPoint freq="2570" loss="1.0"/>
+            <CalPoint freq="2620" loss="1.0"/>
+            <!-- Band class 28 for LTE cal  -->
+            <CalPoint freq="758" loss="1.0"/>
+            <CalPoint freq="803" loss="1.0"/>
+            <!-- Band class 41 for LTE cal  -->
+            <CalPoint freq="2490" loss="1.0"/>
+            <CalPoint freq="2700" loss="1.0"/>
+            <!-- Band class 252 for LTEU cal  -->
+            <CalPoint freq="5150" loss="1.0"/>
+            <CalPoint freq="5250" loss="1.0"/>
+            <!-- Band class 255 for LTEU cal  -->
+            <CalPoint freq="5725" loss="1.0"/>
+            <CalPoint freq="5850" loss="1.0"/>
+        </CalPath>
+        <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP1AUX_UUT" number="14">
+            <!--  Band V  -->
+            <CalPoint freq="869" loss="1.0"/>
+            <CalPoint freq="894" loss="1.0"/>
+            <!--  Band VIII  -->
+            <CalPoint freq="925" loss="1.0"/>
+            <CalPoint freq="960" loss="1.0"/>
+            <!-- Band IV  -->
+            <CalPoint freq="1805" loss="1.0"/>
+            <CalPoint freq="1880" loss="1.0"/>
+            <!--  Band II  -->
+            <CalPoint freq="1930" loss="1.0"/>
+            <CalPoint freq="1990" loss="1.0"/>
+            <!--  Band I  -->
+            <CalPoint freq="2110" loss="1.0"/>
+            <CalPoint freq="2170" loss="1.0"/>
+            <!-- Band class 7 for LTE cal-->
+            <CalPoint freq="2620" loss="1.0"/>
+            <CalPoint freq="2690" loss="1.0"/>
+            <!-- Band class 13 for LTE cal  -->
+            <CalPoint freq="746" loss="1.0"/>
+            <CalPoint freq="756" loss="1.0"/>
+            <!-- Band class 12 & 17 for LTE cal  -->
+            <CalPoint freq="728" loss="1.0"/>
+            <CalPoint freq="746" loss="1.0"/>
+            <!-- Band class 40 for LTE cal  -->
+            <CalPoint freq="2300" loss="1.0"/>
+            <CalPoint freq="2400" loss="1.0"/>
+            <!-- Band class 38 for LTE cal  -->
+            <CalPoint freq="2570" loss="1.0"/>
+            <CalPoint freq="2620" loss="1.0"/>
+            <!-- Band class 28 for LTE cal  -->
+            <CalPoint freq="758" loss="1.0"/>
+            <CalPoint freq="803" loss="1.0"/>
+            <!-- Band class 41 for LTE cal  -->
+            <CalPoint freq="2490" loss="1.0"/>
+            <CalPoint freq="2700" loss="1.0"/>
+            <!-- Band class 252 for LTEU cal  -->
+            <CalPoint freq="5150" loss="1.0"/>
+            <CalPoint freq="5250" loss="1.0"/>
+            <!-- Band class 255 for LTEU cal  -->
+            <CalPoint freq="5725" loss="1.0"/>
+            <CalPoint freq="5850" loss="1.0"/>
+        </CalPath>
+      <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP1AUX_UUT_RX2" number="24">
+        <!--  Band V  -->
+        <CalPoint freq="869" loss="1.0"/>
+        <CalPoint freq="894" loss="1.0"/>
+        <!--  Band VIII  -->
+        <CalPoint freq="925" loss="1.0"/>
+        <CalPoint freq="960" loss="1.0"/>
+        <!-- Band IV  -->
+        <CalPoint freq="1805" loss="1.0"/>
+        <CalPoint freq="1880" loss="1.0"/>
+        <!--  Band II  -->
+        <CalPoint freq="1930" loss="1.0"/>
+        <CalPoint freq="1990" loss="1.0"/>
+        <!--  Band I  -->
+        <CalPoint freq="2110" loss="1.0"/>
+        <CalPoint freq="2170" loss="1.0"/>
+        <!-- Band class 7 for LTE cal-->
+        <CalPoint freq="2620" loss="1.0"/>
+        <CalPoint freq="2690" loss="1.0"/>
+        <!-- Band class 13 for LTE cal  -->
+        <CalPoint freq="746" loss="1.0"/>
+        <CalPoint freq="756" loss="1.0"/>
+        <!-- Band class 12 & 17 for LTE cal  -->
+        <CalPoint freq="728" loss="1.0"/>
+        <CalPoint freq="746" loss="1.0"/>
+        <!-- Band class 40 for LTE cal  -->
+        <CalPoint freq="2300" loss="1.0"/>
+        <CalPoint freq="2400" loss="1.0"/>
+        <!-- Band class 38 for LTE cal  -->
+        <CalPoint freq="2570" loss="1.0"/>
+        <CalPoint freq="2620" loss="1.0"/>
+        <!-- Band class 28 for LTE cal  -->
+        <CalPoint freq="758" loss="1.0"/>
+        <CalPoint freq="803" loss="1.0"/>
+        <!-- Band class 41 for LTE cal  -->
+        <CalPoint freq="2490" loss="1.0"/>
+        <CalPoint freq="2700" loss="1.0"/>
+        <!-- Band class 252 for LTEU cal  -->
+        <CalPoint freq="5150" loss="1.0"/>
+        <CalPoint freq="5250" loss="1.0"/>
+        <!-- Band class 255 for LTEU cal  -->
+        <CalPoint freq="5725" loss="1.0"/>
+        <CalPoint freq="5850" loss="1.0"/>
+      </CalPath>
+      <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP1_UUT_RX3" number="34">
+        <!--  Band V  -->
+        <CalPoint freq="869" loss="1.0"/>
+        <CalPoint freq="894" loss="1.0"/>
+        <!--  Band VIII  -->
+        <CalPoint freq="925" loss="1.0"/>
+        <CalPoint freq="960" loss="1.0"/>
+        <!-- Band IV  -->
+        <CalPoint freq="1805" loss="1.0"/>
+        <CalPoint freq="1880" loss="1.0"/>
+        <!--  Band II  -->
+        <CalPoint freq="1930" loss="1.0"/>
+        <CalPoint freq="1990" loss="1.0"/>
+        <!--  Band I  -->
+        <CalPoint freq="2110" loss="1.0"/>
+        <CalPoint freq="2170" loss="1.0"/>
+        <!-- Band class 7 for LTE cal-->
+        <CalPoint freq="2620" loss="1.0"/>
+        <CalPoint freq="2690" loss="1.0"/>
+        <!-- Band class 13 for LTE cal  -->
+        <CalPoint freq="746" loss="1.0"/>
+        <CalPoint freq="756" loss="1.0"/>
+        <!-- Band class 12 & 17 for LTE cal  -->
+        <CalPoint freq="728" loss="1.0"/>
+        <CalPoint freq="746" loss="1.0"/>
+        <!-- Band class 40 for LTE cal  -->
+        <CalPoint freq="2300" loss="1.0"/>
+        <CalPoint freq="2400" loss="1.0"/>
+        <!-- Band class 38 for LTE cal  -->
+        <CalPoint freq="2570" loss="1.0"/>
+        <CalPoint freq="2620" loss="1.0"/>
+        <!-- Band class 28 for LTE cal  -->
+        <CalPoint freq="758" loss="1.0"/>
+        <CalPoint freq="803" loss="1.0"/>
+        <!-- Band class 41 for LTE cal  -->
+        <CalPoint freq="2490" loss="1.0"/>
+        <CalPoint freq="2700" loss="1.0"/>
+        <!-- Band class 252 for LTEU cal  -->
+        <CalPoint freq="5150" loss="1.0"/>
+        <CalPoint freq="5250" loss="1.0"/>
+        <!-- Band class 255 for LTEU cal  -->
+        <CalPoint freq="5725" loss="1.0"/>
+        <CalPoint freq="5850" loss="1.0"/>
+      </CalPath>
+        <!--  UMTS/HSDPA Calibration and Non-signaling test Downlink for Call Procssor 1(CP1) for DRx. Used only in Multi DUT with direct DRx connection. -->
+        <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP1_UUT" number="8">
+            <!--  Band V  -->
+            <CalPoint freq="869" loss="1.0"/>
+            <CalPoint freq="894" loss="1.0"/>
+            <!--  Band VIII  -->
+            <CalPoint freq="925" loss="1.0"/>
+            <CalPoint freq="960" loss="1.0"/>
+            <!-- Band IV  -->
+            <CalPoint freq="1805" loss="1.0"/>
+            <CalPoint freq="1880" loss="1.0"/>
+            <!--  Band II  -->
+            <CalPoint freq="1930" loss="1.0"/>
+            <CalPoint freq="1990" loss="1.0"/>
+            <!--  Band I  -->
+            <CalPoint freq="2110" loss="1.0"/>
+            <CalPoint freq="2170" loss="1.0"/>
+            <!-- Band class 7 for LTE cal-->
+            <CalPoint freq="2620" loss="1.0"/>
+            <CalPoint freq="2690" loss="1.0"/>
+            <!-- Band class 13 for LTE cal  -->
+            <CalPoint freq="746" loss="1.0"/>
+            <CalPoint freq="756" loss="1.0"/>
+            <!-- Band class 12 & 17 for LTE cal  -->
+            <CalPoint freq="728" loss="1.0"/>
+            <CalPoint freq="746" loss="1.0"/>
+            <!-- Band class 40 for LTE cal  -->
+            <CalPoint freq="2300" loss="1.0"/>
+            <CalPoint freq="2400" loss="1.0"/>
+            <!-- Band class 38 for LTE cal  -->
+            <CalPoint freq="2570" loss="1.0"/>
+            <CalPoint freq="2620" loss="1.0"/>
+            <!-- Band class 28 for LTE cal  -->
+            <CalPoint freq="758" loss="1.0"/>
+            <CalPoint freq="803" loss="1.0"/>
+            <!-- Band class 41 for LTE cal  -->
+            <CalPoint freq="2490" loss="1.0"/>
+            <CalPoint freq="2700" loss="1.0"/>
+        </CalPath>
+        <!--  UMTS/HSDPA Calibration and Non-signaling test Uplink for Call Procssor 2 (CP2), Optional -->
+        <CalPath date="07/28/05 15:48:59" dayLimit="999" name="UUT_CP2" number="205">
+            <!-- Band V/VIII -->
+            <CalPoint freq="824" loss="1.0"/>
+            <CalPoint freq="915" loss="1.0"/>
+            <!--  Band IV  -->
+            <CalPoint freq="1710" loss="1.0"/>
+            <CalPoint freq="1785" loss="1.0"/>
+            <!--  Band II  -->
+            <CalPoint freq="1850" loss="1.0"/>
+            <CalPoint freq="1910" loss="1.0"/>
+            <!--  Band I  -->
+            <CalPoint freq="1920" loss="1.0"/>
+            <CalPoint freq="1980" loss="1.0"/>
+        </CalPath>
+        <!--  UMTS/HSDPA Calibration and Non-signaling test Downlink for Call Procssor 2 (CP2), Optional  -->
+        <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP2_UUT" number="204">
+            <!--  Band V  -->
+            <CalPoint freq="869" loss="1.0"/>
+            <CalPoint freq="894" loss="1.0"/>
+            <!--  Band VIII  -->
+            <CalPoint freq="925" loss="1.0"/>
+            <CalPoint freq="960" loss="1.0"/>
+            <!-- Band IV  -->
+            <CalPoint freq="1805" loss="1.0"/>
+            <CalPoint freq="1880" loss="1.0"/>
+            <!--  Band II  -->
+            <CalPoint freq="1930" loss="1.0"/>
+            <CalPoint freq="1990" loss="1.0"/>
+            <!--  Band I  -->
+            <CalPoint freq="2110" loss="1.0"/>
+            <CalPoint freq="2170" loss="1.0"/>
+        </CalPath>
+        <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP2AUX_UUT" number="214">
+            <!--  Band V  -->
+            <CalPoint freq="869" loss="1.0"/>
+            <CalPoint freq="894" loss="1.0"/>
+            <!--  Band VIII  -->
+            <CalPoint freq="925" loss="1.0"/>
+            <CalPoint freq="960" loss="1.0"/>
+            <!-- Band IV  -->
+            <CalPoint freq="1805" loss="1.0"/>
+            <CalPoint freq="1880" loss="1.0"/>
+            <!--  Band II  -->
+            <CalPoint freq="1930" loss="1.0"/>
+            <CalPoint freq="1990" loss="1.0"/>
+            <!--  Band I  -->
+            <CalPoint freq="2110" loss="1.0"/>
+            <CalPoint freq="2170" loss="1.0"/>
+        </CalPath>
+    </CalConfig>
+    <CalConfig name="WCDMA_DIV">
+        <!--  UMTS/HSDPA Calibration and Non-signaling test Downlink DIVERSITY Path for Call Processor 1(CP1)-->
+        <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP1_UUT_DIV_PATH" number="4">
+            <!--  Band V/III  -->
+            <CalPoint freq="869" loss="1.0"/>
+            <CalPoint freq="915" loss="1.0"/>
+            <!-- Band IV  -->
+            <CalPoint freq="1805" loss="1.0"/>
+            <CalPoint freq="1880" loss="1.0"/>
+            <!--  Band II  -->
+            <CalPoint freq="1930" loss="1.0"/>
+            <CalPoint freq="1990" loss="1.0"/>
+            <!--  Band I  -->
+            <CalPoint freq="2110" loss="1.0"/>
+            <CalPoint freq="2170" loss="1.0"/>
+            <!-- Band class 7 for LTE cal-->
+            <CalPoint freq="2620" loss="1.0"/>
+            <CalPoint freq="2690" loss="1.0"/>
+            <!-- Band class 13 for LTE cal  -->
+            <CalPoint freq="746" loss="1.0"/>
+            <CalPoint freq="756" loss="1.0"/>
+            <!-- Band class 12 & 17 for LTE cal  -->
+            <CalPoint freq="728" loss="1.0"/>
+            <CalPoint freq="746" loss="1.0"/>
+            <!-- Band class 40 for LTE cal  -->
+            <CalPoint freq="2300" loss="1.0"/>
+            <CalPoint freq="2400" loss="1.0"/>
+            <!-- Band class 38 for LTE cal  -->
+            <CalPoint freq="2570" loss="1.0"/>
+            <CalPoint freq="2619" loss="1.0"/>
+            <!-- Band class 28 for LTE cal  -->
+            <CalPoint freq="758" loss="1.0"/>
+            <CalPoint freq="803" loss="1.0"/>
+        </CalPath>
+        - <!--   UMTS/HSDPA Calibration and Non-signaling test Div Tx Uplink for Call Procssor 1(CP1)  --> 
+        <CalPath date="07/28/05 15:48:59" dayLimit="999" name="UUT_CP1_DIV_PATH" number="5">
+            - <!--  Band V -->
+            <CalPoint freq="824" loss="1.0"/>
+            <CalPoint freq="849" loss="1.0"/> 
+            - <!--   Band IV  -->
+            <CalPoint freq="1710" loss="1.0"/>
+            <CalPoint freq="1785" loss="1.0"/> 
+            - <!--   Band II  -->
+            <CalPoint freq="1850" loss="1.0"/>
+            <CalPoint freq="1910" loss="1.0"/> 
+            - <!--   Band I  -->
+            <CalPoint freq="1920" loss="1.0"/>
+            <CalPoint freq="1980" loss="1.0"/> 
+            - <!--  Band class 7 for LTE cal-->
+            <CalPoint freq="2500" loss="1.0"/>
+            <CalPoint freq="2570" loss="1.0"/> 
+            - <!--  Band class 13 for LTE cal  -->
+            <CalPoint freq="777" loss="1.0"/>
+            <CalPoint freq="787" loss="1.0"/> 
+            - <!--  Band class 12 & 17 for LTE cal  -->
+            <CalPoint freq="698" loss="1.0"/>
+            <CalPoint freq="716" loss="1.0"/> 
+            - <!--  Band class 40 for LTE cal  -->
+            <CalPoint freq="2300" loss="1.0"/>
+            <CalPoint freq="2400" loss="1.0"/>
+        </CalPath>
+        <!--  UMTS/HSDPA Calibration and Non-signaling test Downlink DIVERSITY Path for Call Processor 2 (CP2), Optional-->
+        <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP2_UUT_DIV_PATH" number="7">
+            <!--  Band V  -->
+            <CalPoint freq="869" loss="1.0"/>
+            <CalPoint freq="894" loss="1.0"/>
+      <!--  Band VIII  -->
+      <CalPoint freq="925" loss="1.0"/>
+      <CalPoint freq="960" loss="1.0"/>
+            <!-- Band IV  -->
+            <CalPoint freq="1805" loss="1.0"/>
+            <CalPoint freq="1880" loss="1.0"/>
+            <!--  Band II  -->
+            <CalPoint freq="1930" loss="1.0"/>
+            <CalPoint freq="1990" loss="1.0"/>
+            <!--  Band I  -->
+            <CalPoint freq="2110" loss="1.0"/>
+            <CalPoint freq="2170" loss="1.0"/>
+        </CalPath>
+        <!--   UMTS/HSDPA Calibration and Non-signaling test for DTx Uplink for Call Procssor 2 (CP2), Optional 
+  --> 
+- <CalPath date="07/28/05 15:48:59" dayLimit="999" name="UUT_CP2_DIV_PATH" number="8">
+- <!--  Band V 
+  -->
+            <CalPoint freq="824" loss="1.0"/>
+            <CalPoint freq="849" loss="1.0"/> 
+- <!--   Band IV  
+  -->
+            <CalPoint freq="1710" loss="1.0"/>
+            <CalPoint freq="1785" loss="1.0"/> 
+- <!--   Band II  
+  -->
+            <CalPoint freq="1850" loss="1.0"/>
+            <CalPoint freq="1910" loss="1.0"/> 
+- <!--   Band I  
+  -->
+            <CalPoint freq="1920" loss="1.0"/>
+            <CalPoint freq="1980" loss="1.0"/>
+        </CalPath>
+    </CalConfig>
+    <CalConfig name="LTE">
+        <!--  LTE Calibration and Non-signaling test Uplink for Call Processor 1(CP1) -->
+        <CalPath date="07/28/05 15:48:59" dayLimit="999" name="UUT_CP1" number="5">
+            <!--  Band 1  -->
+            <CalPoint freq="1920" loss="1.0"/>
+            <CalPoint freq="1980" loss="1.0"/>
+            <!--  Band 2  -->
+            <CalPoint freq="1850" loss="1.0"/>
+            <CalPoint freq="1910" loss="1.0"/>
+            <!--  Band 3  -->
+            <CalPoint freq="1710" loss="1.0"/>
+            <CalPoint freq="1785" loss="1.0"/>
+            <!--  Band 4  -->
+            <CalPoint freq="1710" loss="1.0"/>
+            <CalPoint freq="1755" loss="1.0"/>
+            <!--  Band 5  -->
+            <CalPoint freq="824" loss="1.0"/>
+            <CalPoint freq="849" loss="1.0"/>
+            <!-- Band class 7 for LTE cal-->
+            <CalPoint freq="2500" loss="1.0"/>
+            <CalPoint freq="2570" loss="1.0"/>
+            <!-- Band class 8 for LTE cal-->
+            <CalPoint freq="880" loss="1.0"/>
+            <CalPoint freq="915" loss="1.0"/>
+            <!-- Band class 13 for LTE cal  -->
+            <CalPoint freq="777" loss="1.0"/>
+            <CalPoint freq="787" loss="1.0"/>
+            <!-- Band class 12 & 17 for LTE cal  -->
+            <CalPoint freq="698" loss="1.0"/>
+            <CalPoint freq="716" loss="1.0"/>
+            <!-- Band class 20 for LTE cal  -->
+            <CalPoint freq="832" loss="1.0"/>
+            <CalPoint freq="862" loss="1.0"/>
+            <!-- Band class 40 for LTE cal  -->
+            <CalPoint freq="2300" loss="1.0"/>
+            <CalPoint freq="2400" loss="1.0"/>
+            <!-- Band class 38 for LTE cal  -->
+            <CalPoint freq="2570" loss="1.0"/>
+            <CalPoint freq="2620" loss="1.0"/>
+            <!-- Band class 28 for LTE cal  -->
+            <CalPoint freq="703" loss="1.0"/>
+            <CalPoint freq="748" loss="1.0"/>
+            <!-- Band class 41 for LTE cal  -->
+            <CalPoint freq="2490" loss="1.0"/>
+            <CalPoint freq="2700" loss="1.0"/>
+			<!-- Band class 31 for LTE cal  -->
+            <CalPoint freq="452.5" loss="1.0"/>
+            <CalPoint freq="457.5" loss="1.0"/>
+        </CalPath>
+      <CalPath date="07/28/05 15:48:59" dayLimit="999" name="UUT_TX2_CP1" number="25">
+        <!--  Band 1  -->
+        <CalPoint freq="1920" loss="1.0"/>
+        <CalPoint freq="1980" loss="1.0"/>
+        <!--  Band 2  -->
+        <CalPoint freq="1850" loss="1.0"/>
+        <CalPoint freq="1910" loss="1.0"/>
+        <!--  Band 3  -->
+        <CalPoint freq="1710" loss="1.0"/>
+        <CalPoint freq="1785" loss="1.0"/>
+        <!--  Band 4  -->
+        <CalPoint freq="1710" loss="1.0"/>
+        <CalPoint freq="1755" loss="1.0"/>
+        <!--  Band 5  -->
+        <CalPoint freq="824" loss="1.0"/>
+        <CalPoint freq="849" loss="1.0"/>
+        <!-- Band class 7 for LTE cal-->
+        <CalPoint freq="2500" loss="1.0"/>
+        <CalPoint freq="2570" loss="1.0"/>
+        <!-- Band class 8 for LTE cal-->
+        <CalPoint freq="880" loss="1.0"/>
+        <CalPoint freq="915" loss="1.0"/>
+        <!-- Band class 13 for LTE cal  -->
+        <CalPoint freq="777" loss="1.0"/>
+        <CalPoint freq="787" loss="1.0"/>
+        <!-- Band class 12 & 17 for LTE cal  -->
+        <CalPoint freq="698" loss="1.0"/>
+        <CalPoint freq="716" loss="1.0"/>
+        <!-- Band class 20 for LTE cal  -->
+        <CalPoint freq="832" loss="1.0"/>
+        <CalPoint freq="862" loss="1.0"/>
+        <!-- Band class 40 for LTE cal  -->
+        <CalPoint freq="2300" loss="1.0"/>
+        <CalPoint freq="2400" loss="1.0"/>
+        <!-- Band class 38 for LTE cal  -->
+        <CalPoint freq="2570" loss="1.0"/>
+        <CalPoint freq="2620" loss="1.0"/>
+        <!-- Band class 28 for LTE cal  -->
+        <CalPoint freq="703" loss="1.0"/>
+        <CalPoint freq="748" loss="1.0"/>
+        <!-- Band class 41 for LTE cal  -->
+        <CalPoint freq="2490" loss="1.0"/>
+        <CalPoint freq="2700" loss="1.0"/>
+        <!-- Band class 31 for LTE cal  -->
+        <CalPoint freq="452.5" loss="1.0"/>
+        <CalPoint freq="457.5" loss="1.0"/>
+      </CalPath>
+        <!--  LTE Calibration and Non-signaling test Downlink for Call Processor 1(CP1)  -->
+        <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP1_UUT" number="4">
+            <!--  Band XVII (17)-->
+            <CalPoint freq="734" loss="1.0"/>
+            <CalPoint freq="746" loss="1.0"/>
+            <!--  Band XIII  -->
+            <CalPoint freq="746" loss="1.0"/>
+            <CalPoint freq="756" loss="1.0"/>
+            <!-- Band VII  -->
+            <CalPoint freq="2620" loss="1.0"/>
+            <CalPoint freq="2690" loss="1.0"/>
+            <!--  Band I  -->
+            <CalPoint freq="2110" loss="1.0"/>
+            <CalPoint freq="2170" loss="1.0"/>
+            <!--  Band 2  -->
+            <CalPoint freq="1930" loss="1.0"/>
+            <CalPoint freq="1990" loss="1.0"/>
+            <!--  Band 3  -->
+            <CalPoint freq="1805" loss="1.0"/>
+            <CalPoint freq="1880" loss="1.0"/>
+            <!--  Band 4  -->
+            <CalPoint freq="2110" loss="1.0"/>
+            <CalPoint freq="2155" loss="1.0"/>
+            <!--  Band 5  -->
+            <CalPoint freq="869" loss="1.0"/>
+            <CalPoint freq="894" loss="1.0"/>
+            <!-- Band class 7 for LTE cal-->
+            <CalPoint freq="2620" loss="1.0"/>
+            <CalPoint freq="2690" loss="1.0"/>
+            <!-- Band class 8 for LTE cal-->
+            <CalPoint freq="925" loss="1.0"/>
+            <CalPoint freq="960" loss="1.0"/>
+            <!-- Band class 13 for LTE cal  -->
+            <CalPoint freq="746" loss="1.0"/>
+            <CalPoint freq="756" loss="1.0"/>
+            <!-- Band class 12 & 17 for LTE cal  -->
+            <CalPoint freq="728" loss="1.0"/>
+            <CalPoint freq="746" loss="1.0"/>
+            <!-- Band class 20 for LTE cal  -->
+            <CalPoint freq="791" loss="1.0"/>
+            <CalPoint freq="821" loss="1.0"/>
+            <!-- Band class 40 for LTE cal  -->
+            <CalPoint freq="2300" loss="1.0"/>
+            <CalPoint freq="2400" loss="1.0"/>
+            <!-- Band class 38 for LTE cal  -->
+            <CalPoint freq="2570" loss="1.0"/>
+            <CalPoint freq="2620" loss="1.0"/>
+            <!-- Band class 28 for LTE cal  -->
+            <CalPoint freq="758" loss="1.0"/>
+            <CalPoint freq="803" loss="1.0"/>
+            <!-- Band class 41 for LTE cal  -->
+            <CalPoint freq="2490" loss="1.0"/>
+            <CalPoint freq="2700" loss="1.0"/>
+			<!-- Band class 29 for LTE cal  -->
+            <CalPoint freq="717" loss="1.0"/>
+            <CalPoint freq="728" loss="1.0"/>
+            <!-- Band class 31 for LTE cal  -->
+            <CalPoint freq="462.5" loss="1.0"/>
+            <CalPoint freq="467.5" loss="1.0"/>
+        </CalPath>
+        <!--  LTE Calibration and Non-signaling test Downlink for Call Processor 1(CP1) Aux output port(when not using LTE_DIV)  -->
+        <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP1AUX_UUT" number="14">
+            <!--  Band XVII (17)-->
+            <CalPoint freq="734" loss="1.0"/>
+            <CalPoint freq="746" loss="1.0"/>
+            <!--  Band XIII (13) -->
+            <CalPoint freq="746" loss="1.0"/>
+            <CalPoint freq="756" loss="1.0"/>
+            <!--  Band 1 -->
+            <CalPoint freq="2110" loss="1.0"/>
+            <CalPoint freq="2170" loss="1.0"/>
+            <!--  Band 2 -->
+            <CalPoint freq="1930" loss="1.0"/>
+            <CalPoint freq="1990" loss="1.0"/>
+            <!--  Band 3 -->
+            <CalPoint freq="1805" loss="1.0"/>
+            <CalPoint freq="1880" loss="1.0"/>
+            <!--  Band 4 -->
+            <CalPoint freq="2110" loss="1.0"/>
+            <CalPoint freq="2155" loss="1.0"/>
+            <!--  Band 5 -->
+            <CalPoint freq="869" loss="1.0"/>
+            <CalPoint freq="894" loss="1.0"/>
+            <!-- Band 7 -->
+            <CalPoint freq="2620" loss="1.0"/>
+            <CalPoint freq="2690" loss="1.0"/>
+            <!-- Band 8 -->
+            <CalPoint freq="925" loss="1.0"/>
+            <CalPoint freq="960" loss="1.0"/>
+            <!-- Band 13 -->
+            <CalPoint freq="746" loss="1.0"/>
+            <CalPoint freq="756" loss="1.0"/>
+            <!-- Band 12 & 17 -->
+            <CalPoint freq="728" loss="1.0"/>
+            <CalPoint freq="746" loss="1.0"/>
+            <!-- Band 20 -->
+            <CalPoint freq="791" loss="1.0"/>
+            <CalPoint freq="821" loss="1.0"/>
+			<!-- Band class 40 for LTE cal  -->
+            <CalPoint freq="2300" loss="1.0"/>
+            <CalPoint freq="2400" loss="1.0"/>
+            <!-- Band class 38 for LTE cal  -->
+            <CalPoint freq="2570" loss="1.0"/>
+            <CalPoint freq="2620" loss="1.0"/>
+            <!-- Band class 28 for LTE cal  -->
+            <CalPoint freq="758" loss="1.0"/>
+            <CalPoint freq="803" loss="1.0"/>
+            <!-- Band class 41 for LTE cal  -->
+            <CalPoint freq="2490" loss="1.0"/>
+            <CalPoint freq="2700" loss="1.0"/>
+			<!-- Band class 29 for LTE cal  -->
+            <CalPoint freq="717" loss="1.0"/>
+            <CalPoint freq="728" loss="1.0"/>
+            <!-- Band class 31 for LTE cal  -->
+            <CalPoint freq="462.5" loss="1.0"/>
+            <CalPoint freq="467.5" loss="1.0"/>
+        </CalPath>
+      <!--  LTE Calibration and Non-signaling test Downlink for Call Processor 1(CP1) Aux output port(when not using LTE_DIV)  -->
+      <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP1_UUT_RX2" number="24">
+        <!--  Band XVII (17)-->
+        <CalPoint freq="734" loss="1.0"/>
+        <CalPoint freq="746" loss="1.0"/>
+        <!--  Band XIII (13) -->
+        <CalPoint freq="746" loss="1.0"/>
+        <CalPoint freq="756" loss="1.0"/>
+        <!--  Band 1 -->
+        <CalPoint freq="2110" loss="1.0"/>
+        <CalPoint freq="2170" loss="1.0"/>
+        <!--  Band 2 -->
+        <CalPoint freq="1930" loss="1.0"/>
+        <CalPoint freq="1990" loss="1.0"/>
+        <!--  Band 3 -->
+        <CalPoint freq="1805" loss="1.0"/>
+        <CalPoint freq="1880" loss="1.0"/>
+        <!--  Band 4 -->
+        <CalPoint freq="2110" loss="1.0"/>
+        <CalPoint freq="2155" loss="1.0"/>
+        <!--  Band 5 -->
+        <CalPoint freq="869" loss="1.0"/>
+        <CalPoint freq="894" loss="1.0"/>
+        <!-- Band 7 -->
+        <CalPoint freq="2620" loss="1.0"/>
+        <CalPoint freq="2690" loss="1.0"/>
+        <!-- Band 8 -->
+        <CalPoint freq="925" loss="1.0"/>
+        <CalPoint freq="960" loss="1.0"/>
+        <!-- Band 13 -->
+        <CalPoint freq="746" loss="1.0"/>
+        <CalPoint freq="756" loss="1.0"/>
+        <!-- Band 12 & 17 -->
+        <CalPoint freq="728" loss="1.0"/>
+        <CalPoint freq="746" loss="1.0"/>
+        <!-- Band 20 -->
+        <CalPoint freq="791" loss="1.0"/>
+        <CalPoint freq="821" loss="1.0"/>
+        <!-- Band class 40 for LTE cal  -->
+        <CalPoint freq="2300" loss="1.0"/>
+        <CalPoint freq="2400" loss="1.0"/>
+        <!-- Band class 38 for LTE cal  -->
+        <CalPoint freq="2570" loss="1.0"/>
+        <CalPoint freq="2620" loss="1.0"/>
+        <!-- Band class 28 for LTE cal  -->
+        <CalPoint freq="758" loss="1.0"/>
+        <CalPoint freq="803" loss="1.0"/>
+        <!-- Band class 41 for LTE cal  -->
+        <CalPoint freq="2490" loss="1.0"/>
+        <CalPoint freq="2700" loss="1.0"/>
+        <!-- Band class 29 for LTE cal  -->
+        <CalPoint freq="717" loss="1.0"/>
+        <CalPoint freq="728" loss="1.0"/>
+        <!-- Band class 31 for LTE cal  -->
+        <CalPoint freq="462.5" loss="1.0"/>
+        <CalPoint freq="467.5" loss="1.0"/>
+      </CalPath>
+      <!--  LTE Calibration and Non-signaling test Downlink for Call Processor 1(CP1) Aux output port(when not using LTE_DIV)  -->
+      <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP1_UUT_RX3" number="34">
+        <!--  Band XVII (17)-->
+        <CalPoint freq="734" loss="1.0"/>
+        <CalPoint freq="746" loss="1.0"/>
+        <!--  Band XIII (13) -->
+        <CalPoint freq="746" loss="1.0"/>
+        <CalPoint freq="756" loss="1.0"/>
+        <!--  Band 1 -->
+        <CalPoint freq="2110" loss="1.0"/>
+        <CalPoint freq="2170" loss="1.0"/>
+        <!--  Band 2 -->
+        <CalPoint freq="1930" loss="1.0"/>
+        <CalPoint freq="1990" loss="1.0"/>
+        <!--  Band 3 -->
+        <CalPoint freq="1805" loss="1.0"/>
+        <CalPoint freq="1880" loss="1.0"/>
+        <!--  Band 4 -->
+        <CalPoint freq="2110" loss="1.0"/>
+        <CalPoint freq="2155" loss="1.0"/>
+        <!--  Band 5 -->
+        <CalPoint freq="869" loss="1.0"/>
+        <CalPoint freq="894" loss="1.0"/>
+        <!-- Band 7 -->
+        <CalPoint freq="2620" loss="1.0"/>
+        <CalPoint freq="2690" loss="1.0"/>
+        <!-- Band 8 -->
+        <CalPoint freq="925" loss="1.0"/>
+        <CalPoint freq="960" loss="1.0"/>
+        <!-- Band 13 -->
+        <CalPoint freq="746" loss="1.0"/>
+        <CalPoint freq="756" loss="1.0"/>
+        <!-- Band 12 & 17 -->
+        <CalPoint freq="728" loss="1.0"/>
+        <CalPoint freq="746" loss="1.0"/>
+        <!-- Band 20 -->
+        <CalPoint freq="791" loss="1.0"/>
+        <CalPoint freq="821" loss="1.0"/>
+        <!-- Band class 40 for LTE cal  -->
+        <CalPoint freq="2300" loss="1.0"/>
+        <CalPoint freq="2400" loss="1.0"/>
+        <!-- Band class 38 for LTE cal  -->
+        <CalPoint freq="2570" loss="1.0"/>
+        <CalPoint freq="2620" loss="1.0"/>
+        <!-- Band class 28 for LTE cal  -->
+        <CalPoint freq="758" loss="1.0"/>
+        <CalPoint freq="803" loss="1.0"/>
+        <!-- Band class 41 for LTE cal  -->
+        <CalPoint freq="2490" loss="1.0"/>
+        <CalPoint freq="2700" loss="1.0"/>
+        <!-- Band class 29 for LTE cal  -->
+        <CalPoint freq="717" loss="1.0"/>
+        <CalPoint freq="728" loss="1.0"/>
+        <!-- Band class 31 for LTE cal  -->
+        <CalPoint freq="462.5" loss="1.0"/>
+        <CalPoint freq="467.5" loss="1.0"/>
+      </CalPath>
+        <!--  LTE Calibration and Non-signaling test Downlink for Call Processor 1(CP1) for DRx. Used only in Multi DUT with direct DRx connection.  -->
+        <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP1_UUT" number="8">
+            <!--  Band XVII (17)-->
+            <CalPoint freq="734" loss="1.0"/>
+            <CalPoint freq="746" loss="1.0"/>
+            <!--  Band XIII  -->
+            <CalPoint freq="746" loss="1.0"/>
+            <CalPoint freq="756" loss="1.0"/>
+            <!-- Band VII  -->
+            <CalPoint freq="2620" loss="1.0"/>
+            <CalPoint freq="2690" loss="1.0"/>
+            <!--  Band I  -->
+            <CalPoint freq="2110" loss="1.0"/>
+            <CalPoint freq="2170" loss="1.0"/>
+            <!--  Band 2  -->
+            <CalPoint freq="1930" loss="1.0"/>
+            <CalPoint freq="1990" loss="1.0"/>
+            <!--  Band 3  -->
+            <CalPoint freq="1805" loss="1.0"/>
+            <CalPoint freq="1880" loss="1.0"/>
+            <!--  Band 4  -->
+            <CalPoint freq="2110" loss="1.0"/>
+            <CalPoint freq="2155" loss="1.0"/>
+            <!--  Band 5  -->
+            <CalPoint freq="869" loss="1.0"/>
+            <CalPoint freq="894" loss="1.0"/>
+            <!-- Band class 7 for LTE cal-->
+            <CalPoint freq="2620" loss="1.0"/>
+            <CalPoint freq="2690" loss="1.0"/>
+            <!-- Band class 8 for LTE cal-->
+            <CalPoint freq="925" loss="1.0"/>
+            <CalPoint freq="960" loss="1.0"/>
+            <!-- Band class 13 for LTE cal  -->
+            <CalPoint freq="746" loss="1.0"/>
+            <CalPoint freq="756" loss="1.0"/>
+            <!-- Band class 12 & 17 for LTE cal  -->
+            <CalPoint freq="728" loss="1.0"/>
+            <CalPoint freq="746" loss="1.0"/>
+            <!-- Band class 20 for LTE cal  -->
+            <CalPoint freq="791" loss="1.0"/>
+            <CalPoint freq="821" loss="1.0"/>
+            <!-- Band class 40 for LTE cal  -->
+            <CalPoint freq="2300" loss="1.0"/>
+            <CalPoint freq="2400" loss="1.0"/>
+            <!-- Band class 38 for LTE cal  -->
+            <CalPoint freq="2570" loss="1.0"/>
+            <CalPoint freq="2620" loss="1.0"/>
+            <!-- Band class 28 for LTE cal  -->
+            <CalPoint freq="758" loss="1.0"/>
+            <CalPoint freq="803" loss="1.0"/>
+            <!-- Band class 41 for LTE cal  -->
+            <CalPoint freq="2490" loss="1.0"/>
+            <CalPoint freq="2700" loss="1.0"/>
+			<!-- Band class 29 for LTE cal  -->
+            <CalPoint freq="717" loss="1.0"/>
+            <CalPoint freq="728" loss="1.0"/>
+            <!-- Band class 31 for LTE cal  -->
+            <CalPoint freq="462.5" loss="1.0"/>
+            <CalPoint freq="467.5" loss="1.0"/>
+
+        </CalPath>
+        <!--  LTE Calibration and Non-signaling test Uplink for Call Processor 2 (CP2), Optional -->
+        <!-- *********************************************************************************** -->
+        <CalPath date="07/28/05 15:48:59" dayLimit="999" name="UUT_CP2" number="205">
+            <!--  Band 1  -->
+            <CalPoint freq="1920" loss="1.0"/>
+            <CalPoint freq="1980" loss="1.0"/>
+            <!--  Band 2  -->
+            <CalPoint freq="1850" loss="1.0"/>
+            <CalPoint freq="1910" loss="1.0"/>
+            <!--  Band 3  -->
+            <CalPoint freq="1710" loss="1.0"/>
+            <CalPoint freq="1785" loss="1.0"/>
+            <!--  Band 4  -->
+            <CalPoint freq="1710" loss="1.0"/>
+            <CalPoint freq="1755" loss="1.0"/>
+            <!--  Band 5  -->
+            <CalPoint freq="824" loss="1.0"/>
+            <CalPoint freq="849" loss="1.0"/>
+            <!--  Band 7  -->
+            <CalPoint freq="2500" loss="1.0"/>
+            <CalPoint freq="2570" loss="1.0"/>
+            <!-- Band class 8 for LTE cal-->
+            <CalPoint freq="880" loss="1.0"/>
+            <CalPoint freq="915" loss="1.0"/>
+			<!-- Band class 12 for LTE cal-->
+            <CalPoint freq="698" loss="1.0"/>
+            <CalPoint freq="716" loss="1.0"/>
+            <!-- Band 13 -->
+            <CalPoint freq="777" loss="1.0"/>
+            <CalPoint freq="787" loss="1.0"/>
+            <!--  Band 12 & 17 -->
+            <CalPoint freq="698" loss="1.0"/>
+            <CalPoint freq="716" loss="1.0"/>
+            <!-- Band class 20 for LTE cal  -->
+            <CalPoint freq="832" loss="1.0"/>
+            <CalPoint freq="862" loss="1.0"/>
+			<!-- Band class 40 for LTE cal  -->
+            <CalPoint freq="2300" loss="1.0"/>
+            <CalPoint freq="2400" loss="1.0"/>
+            <!-- Band class 38 for LTE cal  -->
+            <CalPoint freq="2570" loss="1.0"/>
+            <CalPoint freq="2620" loss="1.0"/>
+            <!-- Band class 28 for LTE cal  -->
+            <CalPoint freq="758" loss="1.0"/>
+            <CalPoint freq="803" loss="1.0"/>
+            <!-- Band class 41 for LTE cal  -->
+            <CalPoint freq="2490" loss="1.0"/>
+            <CalPoint freq="2700" loss="1.0"/>
+        </CalPath>
+        <!--  LTE Calibration and Non-signaling test Downlink for Call Processor 2 (CP2), Optional -->
+        <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP2_UUT" number="204">
+            <!--  Band I  -->
+            <CalPoint freq="2110" loss="1.0"/>
+            <CalPoint freq="2170" loss="1.0"/>
+            <!--  Band 2  -->
+            <CalPoint freq="1930" loss="1.0"/>
+            <CalPoint freq="1990" loss="1.0"/>
+            <!--  Band 3  -->
+            <CalPoint freq="1805" loss="1.0"/>
+            <CalPoint freq="1880" loss="1.0"/>
+            <!--  Band 4  -->
+            <CalPoint freq="2110" loss="1.0"/>
+            <CalPoint freq="2155" loss="1.0"/>
+            <!--  Band 5  -->
+            <CalPoint freq="869" loss="1.0"/>
+            <CalPoint freq="894" loss="1.0"/>
+            <!-- Band class 7 for LTE cal-->
+            <CalPoint freq="2620" loss="1.0"/>
+            <CalPoint freq="2690" loss="1.0"/>
+            <!-- Band class 8 for LTE cal-->
+            <CalPoint freq="925" loss="1.0"/>
+            <CalPoint freq="960" loss="1.0"/>
+			<!-- Band class 12 for LTE cal-->
+            <CalPoint freq="728" loss="1.0"/>
+            <CalPoint freq="746" loss="1.0"/>
+            <!-- Band class 13 for LTE cal  -->
+            <CalPoint freq="746" loss="1.0"/>
+            <CalPoint freq="756" loss="1.0"/>
+            <!-- Band class 17 for LTE cal  -->
+            <CalPoint freq="734" loss="1.0"/>
+            <CalPoint freq="746" loss="1.0"/>
+            <!-- Band class 20 for LTE cal  -->
+            <CalPoint freq="791" loss="1.0"/>
+            <CalPoint freq="821" loss="1.0"/>
+			<!-- Band class 40 for LTE cal  -->
+            <CalPoint freq="2300" loss="1.0"/>
+            <CalPoint freq="2400" loss="1.0"/>
+            <!-- Band class 38 for LTE cal  -->
+            <CalPoint freq="2570" loss="1.0"/>
+            <CalPoint freq="2620" loss="1.0"/>
+            <!-- Band class 28 for LTE cal  -->
+            <CalPoint freq="758" loss="1.0"/>
+            <CalPoint freq="803" loss="1.0"/>
+            <!-- Band class 41 for LTE cal  -->
+            <CalPoint freq="2490" loss="1.0"/>
+            <CalPoint freq="2700" loss="1.0"/>
+        </CalPath>
+        <!--  LTE Calibration and Non-signaling test Downlink for Call Processor 2 (CP2) Aux output port(when not using LTE_DIV), Optional -->
+        <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP2AUX_UUT" number="214">
+            <!--  Band XVII (17)-->
+            <CalPoint freq="734" loss="1.0"/>
+            <CalPoint freq="746" loss="1.0"/>
+            <!--  Band XIII  -->
+            <CalPoint freq="746" loss="1.0"/>
+            <CalPoint freq="756" loss="1.0"/>
+            <!-- Band VII  -->
+            <CalPoint freq="2620" loss="1.0"/>
+            <CalPoint freq="2690" loss="1.0"/>
+            <!--  Band I  -->
+            <CalPoint freq="2110" loss="1.0"/>
+            <CalPoint freq="2170" loss="1.0"/>
+        </CalPath>
+    </CalConfig>
+    <CalConfig name="LTE_DIV">
+        <!--  LTE Calibration and Non-signaling test Downlink DIVERSITY Path for Call Processor 1(CP1)-->
+        <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP1_UUT_DIV_PATH" number="4">
+            <!--  Band XVII (17)-->
+            <CalPoint freq="734" loss="1.0"/>
+            <CalPoint freq="746" loss="1.0"/>
+            <!--  Band XIII  -->
+            <CalPoint freq="746" loss="1.0"/>
+            <CalPoint freq="756" loss="1.0"/>
+            <!-- Band VII  -->
+            <CalPoint freq="2620" loss="1.0"/>
+            <CalPoint freq="2690" loss="1.0"/>
+            <!--  Band I  -->
+            <CalPoint freq="2110" loss="1.0"/>
+            <CalPoint freq="2170" loss="1.0"/>
+        </CalPath>
+        <!--  Refer to the primary path for UL calibration offsets for Call Processor 1(CP1) -->
+        <CalPathLink destPathNumber="5" srcCalConfig="LTE" srcPathNumber="5"/>
+        <!--  LTE Calibration and Non-signaling test Downlink DIVERSITY Path for Call Processor 2 (CP2), Optional-->
+        <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP2_UUT_DIV_PATH" number="7">
+            <!--  Band XVII (17)-->
+            <CalPoint freq="734" loss="1.0"/>
+            <CalPoint freq="746" loss="1.0"/>
+            <!--  Band XIII  -->
+            <CalPoint freq="746" loss="1.0"/>
+            <CalPoint freq="756" loss="1.0"/>
+            <!-- Band VII  -->
+            <CalPoint freq="2620" loss="1.0"/>
+            <CalPoint freq="2690" loss="1.0"/>
+            <!--  Band I  -->
+            <CalPoint freq="2110" loss="1.0"/>
+            <CalPoint freq="2170" loss="1.0"/>
+        </CalPath>
+        <!--  Refer to the primary path for UL calibration offsets for Call Processor 2 (CP2), Optional -->
+        <CalPathLink destPathNumber="8" srcCalConfig="LTE" srcPathNumber="8"/>
+    </CalConfig>
+        <CalConfig name="TDSCDMA">
+        <!-- TDSCDMA Calibration and Non-signaling test Uplink for Call Procssor 1(CP1)  -->
+        <CalPath date="07/28/05 15:48:59" dayLimit="999" name="UUT_CP1" number="5">
+            <!-- Band 34 -->
+            <CalPoint freq="2000" loss="1.0"/>
+            <CalPoint freq="2030" loss="1.0"/>
+            <!--  Band 39  -->
+            <CalPoint freq="1875" loss="1.0"/>
+            <CalPoint freq="1925" loss="1.0"/>
+            <!--  Band 40  -->
+            <CalPoint freq="2290" loss="1.0"/>
+            <CalPoint freq="2410" loss="1.0"/>
+        </CalPath>
+        <!-- TDSCDMA Calibration and Non-signaling test Downlink for Call Procssor 1(CP1)  -->
+        <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP1_UUT" number="4">
+            <!-- Band 34 -->
+            <CalPoint freq="2000" loss="1.0"/>
+            <CalPoint freq="2030" loss="1.0"/>
+            <!--  Band 39  -->
+            <CalPoint freq="1875" loss="1.0"/>
+            <CalPoint freq="1925" loss="1.0"/>
+            <!--  Band 40  -->
+            <CalPoint freq="2290" loss="1.0"/>
+            <CalPoint freq="2410" loss="1.0"/>
+        </CalPath>
+        <!-- TDSCDMA Calibration and Non-signaling test Downlink for Call Procssor 1(CP1)  -->
+        <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP1AUX_UUT" number="14">
+            <!-- Band 34 -->
+            <CalPoint freq="2000" loss="1.0"/>
+            <CalPoint freq="2030" loss="1.0"/>
+            <!--  Band 39  -->
+            <CalPoint freq="1875" loss="1.0"/>
+            <CalPoint freq="1925" loss="1.0"/>
+            <!--  Band 40  -->
+            <CalPoint freq="2290" loss="1.0"/>
+            <CalPoint freq="2410" loss="1.0"/>
+        </CalPath>
+        <!-- TDSCDMA Calibration and Non-signaling test Downlink for Call Procssor 1(CP1) for DRx. Used only in Multi DUT with direct DRx connection. -->
+        <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP1_UUT" number="8" >
+            <!-- Band 34 -->
+            <CalPoint freq="2000" loss="1.0"/>
+            <CalPoint freq="2030" loss="1.0"/>
+            <!--  Band 39  -->
+            <CalPoint freq="1875" loss="1.0"/>
+            <CalPoint freq="1925" loss="1.0"/>
+            <!--  Band 40  -->
+            <CalPoint freq="2290" loss="1.0"/>
+            <CalPoint freq="2410" loss="1.0"/>
+        </CalPath>
+        <!--  UMTS/HSDPA Calibration and Non-signaling test Uplink for Call Procssor 2 (CP2), Optional -->
+        <CalPath date="07/28/05 15:48:59" dayLimit="999" name="UUT_CP2" number="205">
+                <!-- Band 34 -->
+            <CalPoint freq="2000" loss="1.0"/>
+            <CalPoint freq="2030" loss="1.0"/>
+            <!--  Band 39  -->
+            <CalPoint freq="1875" loss="1.0"/>
+            <CalPoint freq="1925" loss="1.0"/>
+            <!--  Band 40  -->
+            <CalPoint freq="2290" loss="1.0"/>
+            <CalPoint freq="2410" loss="1.0"/>
+    </CalPath>
+        <!--  UMTS/HSDPA Calibration and Non-signaling test Downlink for Call Procssor 2 (CP2), Optional  -->
+        <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP2_UUT" number="204">
+            <!-- Band 34 -->
+            <CalPoint freq="2000" loss="1.0"/>
+            <CalPoint freq="2030" loss="1.0"/>
+            <!--  Band 39  -->
+            <CalPoint freq="1875" loss="1.0"/>
+            <CalPoint freq="1925" loss="1.0"/>
+            <!--  Band 40  -->
+            <CalPoint freq="2290" loss="1.0"/>
+            <CalPoint freq="2410" loss="1.0"/>
+        </CalPath>
+        <CalPath date="07/28/05 15:59:54" dayLimit="999" name="CP2AUX_UUT" number="214">
+            <!-- Band 34 -->
+            <CalPoint freq="2000" loss="1.0"/>
+            <CalPoint freq="2030" loss="1.0"/>
+            <!--  Band 39  -->
+            <CalPoint freq="1875" loss="1.0"/>
+            <CalPoint freq="1925" loss="1.0"/>
+            <!--  Band 40  -->
+            <CalPoint freq="2290" loss="1.0"/>
+            <CalPoint freq="2410" loss="1.0"/>
+        </CalPath>
+    </CalConfig>
+
+    <CalConfig name="BROADCAST">
+        <!--  This section is for MediaFLO and DVBH -->
+        <CalPath number="7" name="CP_UUT" date="09/24/07 16:44:54" dayLimit="999">
+            <CalPoint freq="400" loss="7.0"/>
+            <CalPoint freq="880" loss="7.0"/>
+        </CalPath>
+    </CalConfig>
+    <CalConfig name="FEMTO">
+        <CalPath number="1" name="SG1" date="04/26/12 14:08:45" dayLimit="999">
+            <CalPoint freq="800" loss="1.0"/>
+            <CalPoint freq="900" loss="1.0"/>
+            <CalPoint freq="1800" loss="1.0"/>
+            <CalPoint freq="2200" loss="1.0"/>
+        </CalPath>
+        <CalPath number="2" name="SG2" date="04/26/12 14:09:44" dayLimit="999">
+            <CalPoint freq="800" loss="1.0"/>
+            <CalPoint freq="900" loss="1.0"/>
+            <CalPoint freq="1800" loss="1.0"/>
+            <CalPoint freq="2200" loss="1.0"/>
+        </CalPath>
+        <CalPath number="4" name="DL" date="04/26/12 14:07:47" dayLimit="999">
+            <CalPoint freq="800" loss="1.0"/>
+            <CalPoint freq="900" loss="1.0"/>
+            <CalPoint freq="1800" loss="1.0"/>
+            <CalPoint freq="2200" loss="1.0"/>
+        </CalPath>
+        <CalPath number="5" name="UL" date="04/26/12 14:04:55" dayLimit="999">
+            <CalPoint freq="800" loss="1.0"/>
+            <CalPoint freq="900" loss="1.0"/>
+            <CalPoint freq="1800" loss="1.0"/>
+            <CalPoint freq="2200" loss="1.0"/>
+        </CalPath>
+        <CalPath number="6" name="GPS" date="04/26/12 15:27:05" dayLimit="999">
+            <CalPoint freq="0" loss="1.0"/>
+            <CalPoint freq="2000" loss="1"/>
+        </CalPath>
+        <CalPath number="7" name="SPA1" date="04/26/12 15:27:05" dayLimit="999">
+            <CalPoint freq="0" loss="1.0"/>
+            <CalPoint freq="2000" loss="1"/>
+        </CalPath>
+    </CalConfig>
+    <!--
+          Paths listed below this points are static links to other parts of the file and
+          never need to be changed, except selection of the SVDO/SVLTE UE architecture.
+          
+    -->
+    <!--GPS Config Items-->
+    <CalConfig name="GPS_CDMA">
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="1" destPathNumber="1"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="2" destPathNumber="2"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="3" destPathNumber="3"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="6" destPathNumber="6"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="5" destPathNumber="5"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="14" destPathNumber="14"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="204" destPathNumber="204"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="205" destPathNumber="205"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="205" destPathNumber="214"/>
+    </CalConfig>
+    <CalConfig name="GPS_GSM">
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="1" destPathNumber="1"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="2" destPathNumber="2"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="3" destPathNumber="3"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="6" destPathNumber="6"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="5" destPathNumber="5"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="14" destPathNumber="14"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="204" destPathNumber="204"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="205" destPathNumber="205"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="214" destPathNumber="214"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="304" destPathNumber="304"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="305" destPathNumber="305"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="314" destPathNumber="314"/>
+    </CalConfig>
+    <CalConfig name="GPS_OFFLINE">
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="1" destPathNumber="1"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="2" destPathNumber="2"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="3" destPathNumber="3"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="6" destPathNumber="6"/>
+    </CalConfig>
+    <CalConfig name="GPS_WCDMA">
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="1" destPathNumber="1"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="2" destPathNumber="2"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="3" destPathNumber="3"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="6" destPathNumber="6"/>
+        <CalPathLink srcCalConfig="WCDMA" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="WCDMA" srcPathNumber="5" destPathNumber="5"/>
+        <CalPathLink srcCalConfig="WCDMA" srcPathNumber="14" destPathNumber="14"/>
+        <CalPathLink srcCalConfig="WCDMA" srcPathNumber="204" destPathNumber="204"/>
+        <CalPathLink srcCalConfig="WCDMA" srcPathNumber="205" destPathNumber="205"/>
+        <CalPathLink srcCalConfig="WCDMA" srcPathNumber="214" destPathNumber="214"/>
+    </CalConfig>
+    <CalConfig name="GPS_LTE">
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="1" destPathNumber="1"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="2" destPathNumber="2"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="3" destPathNumber="3"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="6" destPathNumber="6"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="5" destPathNumber="5"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="14" destPathNumber="14"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="204" destPathNumber="204"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="205" destPathNumber="205"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="214" destPathNumber="214"/>
+    </CalConfig>
+    <CalConfig name="GPS_TDSCDMA">
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="1" destPathNumber="1"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="2" destPathNumber="2"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="3" destPathNumber="3"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="6" destPathNumber="6"/>
+        <CalPathLink srcCalConfig="TDSCDMA" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="TDSCDMA" srcPathNumber="5" destPathNumber="5"/>
+        <CalPathLink srcCalConfig="TDSCDMA" srcPathNumber="14" destPathNumber="14"/>
+        <CalPathLink srcCalConfig="TDSCDMA" srcPathNumber="204" destPathNumber="204"/>
+        <CalPathLink srcCalConfig="TDSCDMA" srcPathNumber="205" destPathNumber="205"/>
+        <CalPathLink srcCalConfig="TDSCDMA" srcPathNumber="214" destPathNumber="214"/>
+    </CalConfig>
+    <CalConfig name="GPS_OOS">
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="1" destPathNumber="1"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="2" destPathNumber="2"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="3" destPathNumber="3"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="6" destPathNumber="6"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="5" destPathNumber="5"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="14" destPathNumber="14"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="204" destPathNumber="204"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="205" destPathNumber="205"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="205" destPathNumber="214"/>
+    </CalConfig>
+    <!--Simultaneous Voice/Data Config Items. Depending on UE architecture design, the linked item might be different. Please choose your UE's design and remove  the other-->
+    <!--SVDO Config Item-->
+    <!-- UE Architecture design Architecture 1: 1x Tx and PRx are on the same antenna, 1x DRx is on another; DO Tx and PRx are on the same antenna, DO DRx is on another -->
+    <CalConfig name="SVDO_Architecture1">
+        <!-- CP1 is for 1x Voice-->
+        <!-- 1x PRx is on the same antenna connector with its Tx, using CP1's Main Output Port (RF In/Out)-->
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="4" destPathNumber="4"/>
+        <!-- 1x Tx antenna connector, using CP1's Main Output Port (RF In/Out)-->
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="5" destPathNumber="5"/>
+        <!-- CP2 is for DO Data (re-use CDMA 1x cal data on CP2)-->
+        <!-- DO PRx is on the same antenna connector with its Tx, using CP2's Main Output Port (RF In/Out)-->
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="7" destPathNumber="7"/>
+        <!-- DO Tx antenna connector, using CP2's Main Output Port (RF In/Out)-->
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="8" destPathNumber="8"/>
+    </CalConfig>
+    <!-- UE Architecture design Architecture 2: 1x Tx and DRx are on the same antenna, 1x PRx is on another; DO Tx and DRx are on the same antenna, DO PRx is on another -->
+    <CalConfig name="SVDO_Architecture2">
+        <!-- CP1 is for 1x Voice-->
+        <!-- 1x PRx is on a different antenna connector from its Tx, using CP1's Auxiliary Output Port (RF Out Only)-->
+        <CalPathLink srcCalConfig="CDMA_DIV" srcPathNumber="4" destPathNumber="4"/>
+        <!-- 1x Tx antenna connector, using CP1's Main Output Port (RF In/Out)-->
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="5" destPathNumber="5"/>
+        <!-- CP2 is for DO Data (re-use CDMA 1x cal data on CP2)-->
+        <!-- DO PRx is on a different antenna connector from its Tx, using CP2's Auxiliary Output Port (RF Out Only)-->
+        <CalPathLink srcCalConfig="CDMA_DIV" srcPathNumber="7" destPathNumber="7"/>
+        <!-- DO Tx antenna connector, using CP2's Main Output Port (RF In/Out)-->
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="8" destPathNumber="8"/>
+    </CalConfig>
+    <!--The following is the SVDO config item used by tree, it should be either of the two architectures shown above.-->
+    <CalConfig name="SVDO">
+        <!-- Please choose your UE architecture from the two above and overwrite the following.-->
+        <!-- CP1 is for 1x Voice-->
+        <!-- 1x PRx is on a different antenna connector from its Tx, using CP1's Auxiliary Output Port (RF Out Only)-->
+        <CalPathLink srcCalConfig="CDMA_DIV" srcPathNumber="4" destPathNumber="4"/>
+        <!-- 1x Tx antenna connector, using CP1's Main Output Port (RF In/Out)-->
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="5" destPathNumber="5"/>
+        <!-- CP2 is for DO Data (re-use CDMA 1x cal data on CP2)-->
+        <!-- DO PRx is on a different antenna connector from its Tx, using CP2's Auxiliary Output Port (RF Out Only)-->
+        <CalPathLink srcCalConfig="CDMA_DIV" srcPathNumber="7" destPathNumber="7"/>
+        <!-- DO Tx antenna connector, using CP2's Main Output Port (RF In/Out)-->
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="8" destPathNumber="8"/>
+    </CalConfig>
+    <!--SVLTE Config Item-->
+    <CalConfig name="SVLTE_Architecture1">
+        <!-- CP1 is for 1x Voice-->
+        <!-- 1x PRx is on the same antenna connector with its Tx, using CP1's Main Output Port (RF In/Out)-->
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="4" destPathNumber="4"/>
+        <!-- 1x Tx antenna connector, using CP1's Main Output Port (RF In/Out)-->
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="5" destPathNumber="5"/>
+        <!-- CP2 is for LTE Data-->
+        <!--LTE Tx and Its PRx is on the same antenna, using CP2's Main Output Port (RF In/Out)-->
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="7" destPathNumber="7"/>
+        <!--LTE Tx antenna connector, using CP2's Main Output Port (RF In/Out)-->
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="8" destPathNumber="8"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="14" destPathNumber="14"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="214" destPathNumber="214"/>
+    </CalConfig>
+    <CalConfig name="SVLTE_Architecture2">
+        <!-- CP1 is for 1x Voice-->
+        <!-- 1x PRx is on a different antenna connector from its Tx, using CP1's Auxiliary Output Port (RF Out Only)-->
+        <CalPathLink srcCalConfig="CDMA_DIV" srcPathNumber="4" destPathNumber="4"/>
+        <!-- 1x Tx antenna connector, using CP1's Main Output Port (RF In/Out)-->
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="5" destPathNumber="5"/>
+        <!-- CP2 is for LTE Data-->
+        <!--LTE Tx and Its PRx is on the same antenna, using CP2's Main Output Port (RF In/Out)-->
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="7" destPathNumber="7"/>
+        <!--LTE Tx antenna connector, using CP2's Main Output Port (RF In/Out)-->
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="8" destPathNumber="8"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="14" destPathNumber="14"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="214" destPathNumber="214"/>
+    </CalConfig>
+    <!--The following is the SVLTE config item used by tree, it should be either of the two architectures shown above.-->
+    <CalConfig name="SVLTE">
+        <!-- Please choose your UE architecture from the two above and overwrite the following.-->
+        <!-- CP1 is for 1x Voice-->
+        <!-- 1x PRx is on a different antenna connector from its Tx, using CP1's Auxiliary Output Port (RF Out Only)-->
+        <CalPathLink srcCalConfig="CDMA_DIV" srcPathNumber="4" destPathNumber="4"/>
+        <!-- 1x Tx antenna connector, using CP1's Main Output Port (RF In/Out)-->
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="5" destPathNumber="5"/>
+        <!-- CP2 is for LTE Data-->
+        <!--LTE Tx and Its PRx is on the same antenna, using CP2's Main Output Port (RF In/Out)-->
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="7" destPathNumber="7"/>
+        <!--LTE Tx antenna connector, using CP2's Main Output Port (RF In/Out)-->
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="8" destPathNumber="8"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="14" destPathNumber="14"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="214" destPathNumber="214"/>
+    </CalConfig>
+    <!--GPS + Simultaneous Voice/Data Config Items. Depending on your UE architecture desing,
+    you may overwrite the CP1/CP2 path similar to the SVDO/SVLTE config items.-->
+    <!--GPS + SVDO Config Item-->
+    <CalConfig name="GPS_SVDO">
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="1" destPathNumber="1"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="2" destPathNumber="2"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="3" destPathNumber="3"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="6" destPathNumber="6"/>
+        <!-- CP1 is for 1x Voice-->
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="5" destPathNumber="5"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="14" destPathNumber="14"/>
+        <!-- CP2 is for DO Data (re-use CDMA 1x cal data on CP2)-->
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="204" destPathNumber="204"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="205" destPathNumber="205"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="214" destPathNumber="214"/>
+
+    </CalConfig>
+    <!--GPS + SVLTE Config Item-->
+    <CalConfig name="GPS_SVLTE">
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="1" destPathNumber="1"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="2" destPathNumber="2"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="3" destPathNumber="3"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="6" destPathNumber="6"/>
+        <!-- CP1 is for 1x Voice-->
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="5" destPathNumber="5"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="14" destPathNumber="14"/>
+        <!-- CP2 is for LTE Data-->
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="204" destPathNumber="204"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="205" destPathNumber="205"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="214" destPathNumber="214"/>
+    </CalConfig>
+    <CalConfig name="GPS_SGLTE">
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="1" destPathNumber="1"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="2" destPathNumber="2"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="3" destPathNumber="3"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="6" destPathNumber="6"/>
+        <!-- CP1 is for 1x Voice-->
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="5" destPathNumber="5"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="14" destPathNumber="14"/>
+        <!-- CP2 is for LTE Data-->
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="204" destPathNumber="204"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="205" destPathNumber="205"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="214" destPathNumber="214"/>
+    </CalConfig>
+        <CalConfig name="GPS_SGTDS">
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="1" destPathNumber="1"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="2" destPathNumber="2"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="3" destPathNumber="3"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="6" destPathNumber="6"/>
+        <!-- CP1 is for 1x Voice-->
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="5" destPathNumber="5"/> 
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="14" destPathNumber="14"/>
+        <!-- CP2 is for LTE Data-->
+        <CalPathLink srcCalConfig="TDSCDMA" srcPathNumber="204" destPathNumber="204"/>
+        <CalPathLink srcCalConfig="TDSCDMA" srcPathNumber="205" destPathNumber="205"/>
+        <CalPathLink srcCalConfig="TDSCDMA" srcPathNumber="214" destPathNumber="214"/>
+    </CalConfig>
+
+    <!--GPS + SVLTE + GSM Config Item-->
+    <CalConfig name="GPS_SVLTE+G">
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="1" destPathNumber="1"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="2" destPathNumber="2"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="3" destPathNumber="3"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="6" destPathNumber="6"/>
+        <!-- CP1 is for SIM 0 CDMA -->
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="5" destPathNumber="5"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="14" destPathNumber="14"/>
+        <!-- CP2 is for SIM 0 LTE -->
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="204" destPathNumber="204"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="205" destPathNumber="205"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="214" destPathNumber="214"/>
+        <!-- CP3 is for SIM 1 GSM -->
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="304" destPathNumber="304"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="305" destPathNumber="305"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="314" destPathNumber="314"/>
+    </CalConfig>
+    <CalConfig name="GPS_SGLTE+G">
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="1" destPathNumber="1"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="2" destPathNumber="2"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="3" destPathNumber="3"/>
+        <CalPathLink srcCalConfig="GENERIC_GPS" srcPathNumber="6" destPathNumber="6"/>
+        <!-- CP1 is for SIM 0 GSM -->
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="5" destPathNumber="5"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="14" destPathNumber="14"/>
+        <!-- CP2 is for SIM 0 LTE -->
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="204" destPathNumber="204"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="205" destPathNumber="205"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="214" destPathNumber="214"/>
+        <!-- CP3 is for SIM 1 GSM -->
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="304" destPathNumber="304"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="305" destPathNumber="305"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="314" destPathNumber="314"/>
+    </CalConfig>
+
+    <!--SUITE Config Items-->
+    <CalConfig name="WCDMA_SUITE">
+        <CalPathLink srcCalConfig="GENERIC" srcPathNumber="1" destPathNumber="1"/>
+        <CalPathLink srcCalConfig="WCDMA" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="WCDMA" srcPathNumber="5" destPathNumber="5"/>
+        <CalPathLink srcCalConfig="WCDMA" srcPathNumber="7" destPathNumber="7"/>
+        <CalPathLink srcCalConfig="WCDMA" srcPathNumber="8" destPathNumber="8"/>
+        <CalPathLink srcCalConfig="WCDMA" srcPathNumber="14" destPathNumber="14"/>
+    </CalConfig>
+    <CalConfig name="WCDMA_SUITE_DIV">
+        <CalPathLink srcCalConfig="WCDMA_DIV" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="WCDMA" srcPathNumber="5" destPathNumber="5"/>
+        <CalPathLink srcCalConfig="WCDMA_DIV" srcPathNumber="7" destPathNumber="7"/>
+        <CalPathLink srcCalConfig="WCDMA" srcPathNumber="8" destPathNumber="8"/>
+    </CalConfig>
+    <CalConfig name="WCDMA_SUITE_DIV_MTD">
+        <CalPathLink srcCalConfig="WCDMA_DIV" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="WCDMA_DIV" srcPathNumber="5" destPathNumber="5"/>
+        <CalPathLink srcCalConfig="WCDMA_DIV" srcPathNumber="7" destPathNumber="7"/>
+        <CalPathLink srcCalConfig="WCDMA_DIV" srcPathNumber="8" destPathNumber="8"/>
+    </CalConfig>
+    <CalConfig name="GSM_SUITE">
+        <CalPathLink srcCalConfig="GENERIC" srcPathNumber="1" destPathNumber="1"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="5" destPathNumber="5"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="7" destPathNumber="7"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="8" destPathNumber="8"/>
+    </CalConfig>
+    <CalConfig name="CDMA_SUITE">
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="5" destPathNumber="5"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="7" destPathNumber="7"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="8" destPathNumber="8"/>
+    </CalConfig>
+    <CalConfig name="CDMA_SUITE_DIV">
+        <CalPathLink srcCalConfig="CDMA_DIV" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="5" destPathNumber="5"/>
+        <CalPathLink srcCalConfig="CDMA_DIV" srcPathNumber="7" destPathNumber="7"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="8" destPathNumber="8"/>
+    </CalConfig>
+    <CalConfig name="CDMA_HDR_SUITE">
+        <CalPathLink srcCalConfig="GENERIC" srcPathNumber="1" destPathNumber="1"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="5" destPathNumber="5"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="7" destPathNumber="7"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="8" destPathNumber="8"/>
+    </CalConfig>
+    <CalConfig name="CDMA_HDR_SUITE_DIV">
+        <CalPathLink srcCalConfig="CDMA_DIV" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="5" destPathNumber="5"/>
+        <CalPathLink srcCalConfig="CDMA_DIV" srcPathNumber="7" destPathNumber="7"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="8" destPathNumber="8"/>
+    </CalConfig>
+    <!--RFCal Config Items-->
+    <CalConfig name="RFCAL_GSM">
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="5" destPathNumber="5"/>
+		    <CalPathLink srcCalConfig="GSM" srcPathNumber="14" destPathNumber="14"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="24" destPathNumber="24"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="34" destPathNumber="34"/>
+        <CalPathLink srcCalConfig="GSM" srcPathNumber="25" destPathNumber="25"/>
+    </CalConfig>
+    <CalConfig name="RFCAL_WCDMA">
+        <CalPathLink srcCalConfig="WCDMA" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="WCDMA" srcPathNumber="5" destPathNumber="5"/>
+        <CalPathLink srcCalConfig="WCDMA" srcPathNumber="14" destPathNumber="14"/>
+        <CalPathLink srcCalConfig="WCDMA" srcPathNumber="24" destPathNumber="24"/>
+        <CalPathLink srcCalConfig="WCDMA" srcPathNumber="34" destPathNumber="34"/>
+        <CalPathLink srcCalConfig="WCDMA" srcPathNumber="25" destPathNumber="25"/>
+    </CalConfig>
+    <CalConfig name="RFCAL_WCDMA_DIV">
+        <CalPathLink srcCalConfig="WCDMA_DIV" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="WCDMA" srcPathNumber="5" destPathNumber="5"/>
+    </CalConfig>
+    <CalConfig name="RFCAL_WCDMA_DIV_MTD">
+        <CalPathLink srcCalConfig="WCDMA_DIV" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="WCDMA_DIV" srcPathNumber="5" destPathNumber="5"/>
+    </CalConfig>
+    <CalConfig name="RFCAL_CDMA">
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="5" destPathNumber="5"/>
+		    <CalPathLink srcCalConfig="CDMA" srcPathNumber="14" destPathNumber="14"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="24" destPathNumber="24"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="34" destPathNumber="34"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="25" destPathNumber="25"/>
+    </CalConfig>
+    <CalConfig name="RFCAL_CDMA_DIV">
+        <CalPathLink srcCalConfig="CDMA_DIV" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="CDMA" srcPathNumber="5" destPathNumber="5"/>
+    </CalConfig>
+    <CalConfig name="RFCAL_LTE">
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="5" destPathNumber="5"/>
+		    <CalPathLink srcCalConfig="LTE" srcPathNumber="14" destPathNumber="14"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="24" destPathNumber="24"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="34" destPathNumber="34"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="25" destPathNumber="25"/>
+    </CalConfig>
+    <CalConfig name="RFCAL_LTE_DIV">
+        <CalPathLink srcCalConfig="LTE_DIV" srcPathNumber="4" destPathNumber="4"/>
+        <CalPathLink srcCalConfig="LTE" srcPathNumber="5" destPathNumber="5"/>
+    </CalConfig>
+  <CalConfig name="QTA">
+    <CalPath number="1" name="FM_PWB_RXTX" date="7/18/2013 12:57 PM" dayLimit="999" additionalLoss="0" useCalCable="false" testerId="PC NAME" calCablePathName="CAL_CABLE">
+      <CalPoint freq="70" loss="1" delta="0" />
+      <CalPoint freq="71" loss="1" delta="0" />
+      <CalPoint freq="72" loss="1" delta="0" />
+      <CalPoint freq="73" loss="1" delta="0" />
+      <CalPoint freq="74" loss="1" delta="0" />
+      <CalPoint freq="75" loss="1" delta="0" />
+      <CalPoint freq="76" loss="1" delta="0" />
+      <CalPoint freq="77" loss="1" delta="0" />
+      <CalPoint freq="78" loss="1" delta="0" />
+      <CalPoint freq="79" loss="1" delta="0" />
+      <CalPoint freq="80" loss="1" delta="0" />
+      <CalPoint freq="81" loss="1" delta="0" />
+      <CalPoint freq="82" loss="1" delta="0" />
+      <CalPoint freq="83" loss="1" delta="0" />
+      <CalPoint freq="84" loss="1" delta="0" />
+      <CalPoint freq="85" loss="1" delta="0" />
+      <CalPoint freq="86" loss="1" delta="0" />
+      <CalPoint freq="87" loss="1" delta="0" />
+      <CalPoint freq="88" loss="1" delta="0" />
+      <CalPoint freq="89" loss="1" delta="0" />
+      <CalPoint freq="90" loss="1" delta="0" />
+      <CalPoint freq="91" loss="1" delta="0" />
+      <CalPoint freq="92" loss="1" delta="0" />
+      <CalPoint freq="93" loss="1" delta="0" />
+      <CalPoint freq="94" loss="1" delta="0" />
+      <CalPoint freq="95" loss="1" delta="0" />
+      <CalPoint freq="96" loss="1" delta="0" />
+      <CalPoint freq="97" loss="1" delta="0" />
+      <CalPoint freq="98" loss="1" delta="0" />
+      <CalPoint freq="99" loss="1" delta="0" />
+      <CalPoint freq="100" loss="1" delta="0" />
+      <CalPoint freq="101" loss="1" delta="0" />
+      <CalPoint freq="102" loss="1" delta="0" />
+      <CalPoint freq="103" loss="1" delta="0" />
+      <CalPoint freq="104" loss="1" delta="0" />
+      <CalPoint freq="105" loss="1" delta="0" />
+      <CalPoint freq="106" loss="1" delta="0" />
+      <CalPoint freq="107" loss="1" delta="0" />
+      <CalPoint freq="108" loss="1" delta="0" />
+      <CalPoint freq="109" loss="1" delta="0" />
+      <CalPoint freq="110" loss="1" delta="0" />
+      <CalPoint freq="111" loss="1" delta="0" />
+      <CalPoint freq="112" loss="1" delta="0" />
+      <CalPoint freq="113" loss="1" delta="0" />
+      <CalPoint freq="114" loss="1" delta="0" />
+      <CalPoint freq="115" loss="1" delta="0" />
+      <CalPoint freq="116" loss="1" delta="0" />
+      <CalPoint freq="117" loss="1" delta="0" />
+      <CalPoint freq="118" loss="1" delta="0" />
+      <CalPoint freq="119" loss="1" delta="0" />
+      <CalPoint freq="120" loss="1" delta="0" />
+    </CalPath>
+    <CalPath number="2" name="FM_HS_RX" date="7/18/2013 12:57 PM" dayLimit="999" additionalLoss="0" useCalCable="false" testerId="PC NAME" calCablePathName="CAL_CABLE">
+      <CalPoint freq="70" loss="1" delta="0" />
+      <CalPoint freq="71" loss="1" delta="0" />
+      <CalPoint freq="72" loss="1" delta="0" />
+      <CalPoint freq="73" loss="1" delta="0" />
+      <CalPoint freq="74" loss="1" delta="0" />
+      <CalPoint freq="75" loss="1" delta="0" />
+      <CalPoint freq="76" loss="1" delta="0" />
+      <CalPoint freq="77" loss="1" delta="0" />
+      <CalPoint freq="78" loss="1" delta="0" />
+      <CalPoint freq="79" loss="1" delta="0" />
+      <CalPoint freq="80" loss="1" delta="0" />
+      <CalPoint freq="81" loss="1" delta="0" />
+      <CalPoint freq="82" loss="1" delta="0" />
+      <CalPoint freq="83" loss="1" delta="0" />
+      <CalPoint freq="84" loss="1" delta="0" />
+      <CalPoint freq="85" loss="1" delta="0" />
+      <CalPoint freq="86" loss="1" delta="0" />
+      <CalPoint freq="87" loss="1" delta="0" />
+      <CalPoint freq="88" loss="1" delta="0" />
+      <CalPoint freq="89" loss="1" delta="0" />
+      <CalPoint freq="90" loss="1" delta="0" />
+      <CalPoint freq="91" loss="1" delta="0" />
+      <CalPoint freq="92" loss="1" delta="0" />
+      <CalPoint freq="93" loss="1" delta="0" />
+      <CalPoint freq="94" loss="1" delta="0" />
+      <CalPoint freq="95" loss="1" delta="0" />
+      <CalPoint freq="96" loss="1" delta="0" />
+      <CalPoint freq="97" loss="1" delta="0" />
+      <CalPoint freq="98" loss="1" delta="0" />
+      <CalPoint freq="99" loss="1" delta="0" />
+      <CalPoint freq="100" loss="1" delta="0" />
+      <CalPoint freq="101" loss="1" delta="0" />
+      <CalPoint freq="102" loss="1" delta="0" />
+      <CalPoint freq="103" loss="1" delta="0" />
+      <CalPoint freq="104" loss="1" delta="0" />
+      <CalPoint freq="105" loss="1" delta="0" />
+      <CalPoint freq="106" loss="1" delta="0" />
+      <CalPoint freq="107" loss="1" delta="0" />
+      <CalPoint freq="108" loss="1" delta="0" />
+      <CalPoint freq="109" loss="1" delta="0" />
+      <CalPoint freq="110" loss="1" delta="0" />
+      <CalPoint freq="111" loss="1" delta="0" />
+      <CalPoint freq="112" loss="1" delta="0" />
+      <CalPoint freq="113" loss="1" delta="0" />
+      <CalPoint freq="114" loss="1" delta="0" />
+      <CalPoint freq="115" loss="1" delta="0" />
+      <CalPoint freq="116" loss="1" delta="0" />
+      <CalPoint freq="117" loss="1" delta="0" />
+      <CalPoint freq="118" loss="1" delta="0" />
+      <CalPoint freq="119" loss="1" delta="0" />
+      <CalPoint freq="120" loss="1" delta="0" />
+    </CalPath>
+    <CalPath number="3" name="WCD" date="7/18/2013 12:57 PM" dayLimit="999" additionalLoss="0" useCalCable="false" testerId="PC NAME" calCablePathName="CAL_CABLE">
+      <CalPoint freq="2400" loss="1" delta="0" />
+      <CalPoint freq="2405" loss="1" delta="0" />
+      <CalPoint freq="2410" loss="1" delta="0" />
+      <CalPoint freq="2415" loss="1" delta="0" />
+      <CalPoint freq="2420" loss="1" delta="0" />
+      <CalPoint freq="2425" loss="1" delta="0" />
+      <CalPoint freq="2430" loss="1" delta="0" />
+      <CalPoint freq="2435" loss="1" delta="0" />
+      <CalPoint freq="2440" loss="1" delta="0" />
+      <CalPoint freq="2445" loss="1" delta="0" />
+      <CalPoint freq="2450" loss="1" delta="0" />
+      <CalPoint freq="2455" loss="1" delta="0" />
+      <CalPoint freq="2460" loss="1" delta="0" />
+      <CalPoint freq="2465" loss="1" delta="0" />
+      <CalPoint freq="2470" loss="1" delta="0" />
+      <CalPoint freq="2475" loss="1" delta="0" />
+      <CalPoint freq="2480" loss="1" delta="0" />
+      <CalPoint freq="2485" loss="1" delta="0" />
+      <CalPoint freq="2490" loss="1" delta="0" />
+      <CalPoint freq="2495" loss="1" delta="0" />
+      <CalPoint freq="2500" loss="1" delta="0" />
+      <CalPoint freq="4900" loss="1" delta="0" />
+      <CalPoint freq="4905" loss="1" delta="0" />
+      <CalPoint freq="4910" loss="1" delta="0" />
+      <CalPoint freq="4915" loss="1" delta="0" />
+      <CalPoint freq="4920" loss="1" delta="0" />
+      <CalPoint freq="4925" loss="1" delta="0" />
+      <CalPoint freq="4930" loss="1" delta="0" />
+      <CalPoint freq="4935" loss="1" delta="0" />
+      <CalPoint freq="4940" loss="1" delta="0" />
+      <CalPoint freq="4945" loss="1" delta="0" />
+      <CalPoint freq="4950" loss="1" delta="0" />
+      <CalPoint freq="4955" loss="1" delta="0" />
+      <CalPoint freq="4960" loss="1" delta="0" />
+      <CalPoint freq="4965" loss="1" delta="0" />
+      <CalPoint freq="4970" loss="1" delta="0" />
+      <CalPoint freq="4975" loss="1" delta="0" />
+      <CalPoint freq="4980" loss="1" delta="0" />
+      <CalPoint freq="4985" loss="1" delta="0" />
+      <CalPoint freq="4990" loss="1" delta="0" />
+      <CalPoint freq="4995" loss="1" delta="0" />
+      <CalPoint freq="5000" loss="1" delta="0" />
+      <CalPoint freq="5005" loss="1" delta="0" />
+      <CalPoint freq="5010" loss="1" delta="0" />
+      <CalPoint freq="5015" loss="1" delta="0" />
+      <CalPoint freq="5020" loss="1" delta="0" />
+      <CalPoint freq="5025" loss="1" delta="0" />
+      <CalPoint freq="5030" loss="1" delta="0" />
+      <CalPoint freq="5035" loss="1" delta="0" />
+      <CalPoint freq="5040" loss="1" delta="0" />
+      <CalPoint freq="5045" loss="1" delta="0" />
+      <CalPoint freq="5050" loss="1" delta="0" />
+      <CalPoint freq="5055" loss="1" delta="0" />
+      <CalPoint freq="5060" loss="1" delta="0" />
+      <CalPoint freq="5065" loss="1" delta="0" />
+      <CalPoint freq="5070" loss="1" delta="0" />
+      <CalPoint freq="5075" loss="1" delta="0" />
+      <CalPoint freq="5080" loss="1" delta="0" />
+      <CalPoint freq="5085" loss="1" delta="0" />
+      <CalPoint freq="5090" loss="1" delta="0" />
+      <CalPoint freq="5095" loss="1" delta="0" />
+      <CalPoint freq="5100" loss="1" delta="0" />
+      <CalPoint freq="5105" loss="1" delta="0" />
+      <CalPoint freq="5110" loss="1" delta="0" />
+      <CalPoint freq="5115" loss="1" delta="0" />
+      <CalPoint freq="5120" loss="1" delta="0" />
+      <CalPoint freq="5125" loss="1" delta="0" />
+      <CalPoint freq="5130" loss="1" delta="0" />
+      <CalPoint freq="5135" loss="1" delta="0" />
+      <CalPoint freq="5140" loss="1" delta="0" />
+      <CalPoint freq="5145" loss="1" delta="0" />
+      <CalPoint freq="5150" loss="1" delta="0" />
+      <CalPoint freq="5155" loss="1" delta="0" />
+      <CalPoint freq="5160" loss="1" delta="0" />
+      <CalPoint freq="5165" loss="1" delta="0" />
+      <CalPoint freq="5170" loss="1" delta="0" />
+      <CalPoint freq="5175" loss="1" delta="0" />
+      <CalPoint freq="5180" loss="1" delta="0" />
+      <CalPoint freq="5185" loss="1" delta="0" />
+      <CalPoint freq="5190" loss="1" delta="0" />
+      <CalPoint freq="5195" loss="1" delta="0" />
+      <CalPoint freq="5200" loss="1" delta="0" />
+      <CalPoint freq="5205" loss="1" delta="0" />
+      <CalPoint freq="5210" loss="1" delta="0" />
+      <CalPoint freq="5215" loss="1" delta="0" />
+      <CalPoint freq="5220" loss="1" delta="0" />
+      <CalPoint freq="5225" loss="1" delta="0" />
+      <CalPoint freq="5230" loss="1" delta="0" />
+      <CalPoint freq="5235" loss="1" delta="0" />
+      <CalPoint freq="5240" loss="1" delta="0" />
+      <CalPoint freq="5245" loss="1" delta="0" />
+      <CalPoint freq="5250" loss="1" delta="0" />
+      <CalPoint freq="5255" loss="1" delta="0" />
+      <CalPoint freq="5260" loss="1" delta="0" />
+      <CalPoint freq="5265" loss="1" delta="0" />
+      <CalPoint freq="5270" loss="1" delta="0" />
+      <CalPoint freq="5275" loss="1" delta="0" />
+      <CalPoint freq="5280" loss="1" delta="0" />
+      <CalPoint freq="5285" loss="1" delta="0" />
+      <CalPoint freq="5290" loss="1" delta="0" />
+      <CalPoint freq="5295" loss="1" delta="0" />
+      <CalPoint freq="5300" loss="1" delta="0" />
+      <CalPoint freq="5305" loss="1" delta="0" />
+      <CalPoint freq="5310" loss="1" delta="0" />
+      <CalPoint freq="5315" loss="1" delta="0" />
+      <CalPoint freq="5320" loss="1" delta="0" />
+      <CalPoint freq="5325" loss="1" delta="0" />
+      <CalPoint freq="5330" loss="1" delta="0" />
+      <CalPoint freq="5335" loss="1" delta="0" />
+      <CalPoint freq="5340" loss="1" delta="0" />
+      <CalPoint freq="5345" loss="1" delta="0" />
+      <CalPoint freq="5350" loss="1" delta="0" />
+      <CalPoint freq="5355" loss="1" delta="0" />
+      <CalPoint freq="5360" loss="1" delta="0" />
+      <CalPoint freq="5365" loss="1" delta="0" />
+      <CalPoint freq="5370" loss="1" delta="0" />
+      <CalPoint freq="5375" loss="1" delta="0" />
+      <CalPoint freq="5380" loss="1" delta="0" />
+      <CalPoint freq="5385" loss="1" delta="0" />
+      <CalPoint freq="5390" loss="1" delta="0" />
+      <CalPoint freq="5395" loss="1" delta="0" />
+      <CalPoint freq="5400" loss="1" delta="0" />
+      <CalPoint freq="5405" loss="1" delta="0" />
+      <CalPoint freq="5410" loss="1" delta="0" />
+      <CalPoint freq="5415" loss="1" delta="0" />
+      <CalPoint freq="5420" loss="1" delta="0" />
+      <CalPoint freq="5425" loss="1" delta="0" />
+      <CalPoint freq="5430" loss="1" delta="0" />
+      <CalPoint freq="5435" loss="1" delta="0" />
+      <CalPoint freq="5440" loss="1" delta="0" />
+      <CalPoint freq="5445" loss="1" delta="0" />
+      <CalPoint freq="5450" loss="1" delta="0" />
+      <CalPoint freq="5455" loss="1" delta="0" />
+      <CalPoint freq="5460" loss="1" delta="0" />
+      <CalPoint freq="5465" loss="1" delta="0" />
+      <CalPoint freq="5470" loss="1" delta="0" />
+      <CalPoint freq="5475" loss="1" delta="0" />
+      <CalPoint freq="5480" loss="1" delta="0" />
+      <CalPoint freq="5485" loss="1" delta="0" />
+      <CalPoint freq="5490" loss="1" delta="0" />
+      <CalPoint freq="5495" loss="1" delta="0" />
+      <CalPoint freq="5500" loss="1" delta="0" />
+      <CalPoint freq="5505" loss="1" delta="0" />
+      <CalPoint freq="5510" loss="1" delta="0" />
+      <CalPoint freq="5515" loss="1" delta="0" />
+      <CalPoint freq="5520" loss="1" delta="0" />
+      <CalPoint freq="5525" loss="1" delta="0" />
+      <CalPoint freq="5530" loss="1" delta="0" />
+      <CalPoint freq="5535" loss="1" delta="0" />
+      <CalPoint freq="5540" loss="1" delta="0" />
+      <CalPoint freq="5545" loss="1" delta="0" />
+      <CalPoint freq="5550" loss="1" delta="0" />
+      <CalPoint freq="5555" loss="1" delta="0" />
+      <CalPoint freq="5560" loss="1" delta="0" />
+      <CalPoint freq="5565" loss="1" delta="0" />
+      <CalPoint freq="5570" loss="1" delta="0" />
+      <CalPoint freq="5575" loss="1" delta="0" />
+      <CalPoint freq="5580" loss="1" delta="0" />
+      <CalPoint freq="5585" loss="1" delta="0" />
+      <CalPoint freq="5590" loss="1" delta="0" />
+      <CalPoint freq="5595" loss="1" delta="0" />
+      <CalPoint freq="5600" loss="1" delta="0" />
+      <CalPoint freq="5605" loss="1" delta="0" />
+      <CalPoint freq="5610" loss="1" delta="0" />
+      <CalPoint freq="5615" loss="1" delta="0" />
+      <CalPoint freq="5620" loss="1" delta="0" />
+      <CalPoint freq="5625" loss="1" delta="0" />
+      <CalPoint freq="5630" loss="1" delta="0" />
+      <CalPoint freq="5635" loss="1" delta="0" />
+      <CalPoint freq="5640" loss="1" delta="0" />
+      <CalPoint freq="5645" loss="1" delta="0" />
+      <CalPoint freq="5650" loss="1" delta="0" />
+      <CalPoint freq="5655" loss="1" delta="0" />
+      <CalPoint freq="5660" loss="1" delta="0" />
+      <CalPoint freq="5665" loss="1" delta="0" />
+      <CalPoint freq="5670" loss="1" delta="0" />
+      <CalPoint freq="5675" loss="1" delta="0" />
+      <CalPoint freq="5680" loss="1" delta="0" />
+      <CalPoint freq="5685" loss="1" delta="0" />
+      <CalPoint freq="5690" loss="1" delta="0" />
+      <CalPoint freq="5695" loss="1" delta="0" />
+      <CalPoint freq="5700" loss="1" delta="0" />
+      <CalPoint freq="5705" loss="1" delta="0" />
+      <CalPoint freq="5710" loss="1" delta="0" />
+      <CalPoint freq="5715" loss="1" delta="0" />
+      <CalPoint freq="5720" loss="1" delta="0" />
+      <CalPoint freq="5725" loss="1" delta="0" />
+      <CalPoint freq="5730" loss="1" delta="0" />
+      <CalPoint freq="5735" loss="1" delta="0" />
+      <CalPoint freq="5740" loss="1" delta="0" />
+      <CalPoint freq="5745" loss="1" delta="0" />
+      <CalPoint freq="5750" loss="1" delta="0" />
+      <CalPoint freq="5755" loss="1" delta="0" />
+      <CalPoint freq="5760" loss="1" delta="0" />
+      <CalPoint freq="5765" loss="1" delta="0" />
+      <CalPoint freq="5770" loss="1" delta="0" />
+      <CalPoint freq="5775" loss="1" delta="0" />
+      <CalPoint freq="5780" loss="1" delta="0" />
+      <CalPoint freq="5785" loss="1" delta="0" />
+      <CalPoint freq="5790" loss="1" delta="0" />
+      <CalPoint freq="5795" loss="1" delta="0" />
+      <CalPoint freq="5800" loss="1" delta="0" />
+      <CalPoint freq="5805" loss="1" delta="0" />
+      <CalPoint freq="5810" loss="1" delta="0" />
+      <CalPoint freq="5815" loss="1" delta="0" />
+      <CalPoint freq="5820" loss="1" delta="0" />
+      <CalPoint freq="5825" loss="1" delta="0" />
+      <CalPoint freq="5830" loss="1" delta="0" />
+      <CalPoint freq="5835" loss="1" delta="0" />
+      <CalPoint freq="5840" loss="1" delta="0" />
+      <CalPoint freq="5845" loss="1" delta="0" />
+      <CalPoint freq="5850" loss="1" delta="0" />
+      <CalPoint freq="5855" loss="1" delta="0" />
+      <CalPoint freq="5860" loss="1" delta="0" />
+      <CalPoint freq="5865" loss="1" delta="0" />
+      <CalPoint freq="5870" loss="1" delta="0" />
+      <CalPoint freq="5875" loss="1" delta="0" />
+      <CalPoint freq="5880" loss="1" delta="0" />
+      <CalPoint freq="5885" loss="1" delta="0" />
+      <CalPoint freq="5890" loss="1" delta="0" />
+      <CalPoint freq="5895" loss="1" delta="0" />
+      <CalPoint freq="5900" loss="1" delta="0" />
+    </CalPath>
+    <CalPath number="4" name="BTPath" date="7/18/2013 12:57 PM" dayLimit="999" additionalLoss="0" useCalCable="false" testerId="PC NAME" calCablePathName="CAL_CABLE">
+      <CalPoint freq="2402" loss="1" delta="0" />
+      <CalPoint freq="2441" loss="1" delta="0" />
+      <CalPoint freq="2480" loss="1" delta="0" />
+    </CalPath>
+	<CalPath number="7" name="WPAN15p4Path" date="7/18/2017 12:57 PM" dayLimit="999" additionalLoss="0" useCalCable="false" testerId="PC NAME" calCablePathName="CAL_CABLE">
+      <CalPoint freq="2405" loss="1" delta="0" />
+      <CalPoint freq="2441" loss="1" delta="0" />
+      <CalPoint freq="2480" loss="1" delta="0" />
+    </CalPath>
+    <CalPath number="5" name="ARBPath" date="7/19/2013 7:42 PM" dayLimit="999" additionalLoss="0" useCalCable="false" testerId="LABMACHINE-2109" calCablePathName="CAL_CABLE">
+      <CalPoint freq="2396" loss="1" delta="0" />
+      <CalPoint freq="2397" loss="1" delta="0" />
+      <CalPoint freq="2398" loss="1" delta="0" />
+      <CalPoint freq="2399" loss="1" delta="0" />
+      <CalPoint freq="2400" loss="1" delta="0" />
+      <CalPoint freq="2401" loss="1" delta="0" />
+      <CalPoint freq="2402" loss="1" delta="0" />
+      <CalPoint freq="2403" loss="1" delta="0" />
+      <CalPoint freq="2404" loss="1" delta="0" />
+      <CalPoint freq="2405" loss="1" delta="0" />
+      <CalPoint freq="2406" loss="1" delta="0" />
+      <CalPoint freq="2407" loss="1" delta="0" />
+      <CalPoint freq="2408" loss="1" delta="0" />
+      <CalPoint freq="2409" loss="1" delta="0" />
+      <CalPoint freq="2410" loss="1" delta="0" />
+      <CalPoint freq="2411" loss="1" delta="0" />
+      <CalPoint freq="2412" loss="1" delta="0" />
+      <CalPoint freq="2413" loss="1" delta="0" />
+      <CalPoint freq="2414" loss="1" delta="0" />
+      <CalPoint freq="2415" loss="1" delta="0" />
+      <CalPoint freq="2416" loss="1" delta="0" />
+      <CalPoint freq="2417" loss="1" delta="0" />
+      <CalPoint freq="2418" loss="1" delta="0" />
+      <CalPoint freq="2419" loss="1" delta="0" />
+      <CalPoint freq="2420" loss="1" delta="0" />
+      <CalPoint freq="2421" loss="1" delta="0" />
+      <CalPoint freq="2422" loss="1" delta="0" />
+      <CalPoint freq="2423" loss="1" delta="0" />
+      <CalPoint freq="2424" loss="1" delta="0" />
+      <CalPoint freq="2425" loss="1" delta="0" />
+      <CalPoint freq="2426" loss="1" delta="0" />
+      <CalPoint freq="2427" loss="1" delta="0" />
+      <CalPoint freq="2428" loss="1" delta="0" />
+      <CalPoint freq="2429" loss="1" delta="0" />
+      <CalPoint freq="2430" loss="1" delta="0" />
+      <CalPoint freq="2431" loss="1" delta="0" />
+      <CalPoint freq="2432" loss="1" delta="0" />
+      <CalPoint freq="2433" loss="1" delta="0" />
+      <CalPoint freq="2434" loss="1" delta="0" />
+      <CalPoint freq="2435" loss="1" delta="0" />
+      <CalPoint freq="2436" loss="1" delta="0" />
+      <CalPoint freq="2437" loss="1" delta="0" />
+      <CalPoint freq="2438" loss="1" delta="0" />
+      <CalPoint freq="2439" loss="1" delta="0" />
+      <CalPoint freq="2440" loss="1" delta="0" />
+      <CalPoint freq="2441" loss="1" delta="0" />
+      <CalPoint freq="2442" loss="1" delta="0" />
+      <CalPoint freq="2443" loss="1" delta="0" />
+      <CalPoint freq="2444" loss="1" delta="0" />
+      <CalPoint freq="2445" loss="1" delta="0" />
+      <CalPoint freq="2446" loss="1" delta="0" />
+      <CalPoint freq="2447" loss="1" delta="0" />
+      <CalPoint freq="2448" loss="1" delta="0" />
+      <CalPoint freq="2449" loss="1" delta="0" />
+      <CalPoint freq="2450" loss="1" delta="0" />
+      <CalPoint freq="2451" loss="1" delta="0" />
+      <CalPoint freq="2452" loss="1" delta="0" />
+      <CalPoint freq="2453" loss="1" delta="0" />
+      <CalPoint freq="2454" loss="1" delta="0" />
+      <CalPoint freq="2455" loss="1" delta="0" />
+      <CalPoint freq="2456" loss="1" delta="0" />
+      <CalPoint freq="2457" loss="1" delta="0" />
+      <CalPoint freq="2458" loss="1" delta="0" />
+      <CalPoint freq="2459" loss="1" delta="0" />
+      <CalPoint freq="2460" loss="1" delta="0" />
+      <CalPoint freq="2461" loss="1" delta="0" />
+      <CalPoint freq="2462" loss="1" delta="0" />
+      <CalPoint freq="2463" loss="1" delta="0" />
+      <CalPoint freq="2464" loss="1" delta="0" />
+      <CalPoint freq="2465" loss="1" delta="0" />
+      <CalPoint freq="2466" loss="1" delta="0" />
+      <CalPoint freq="2467" loss="1" delta="0" />
+      <CalPoint freq="2468" loss="1" delta="0" />
+      <CalPoint freq="2469" loss="1" delta="0" />
+      <CalPoint freq="2470" loss="1" delta="0" />
+      <CalPoint freq="2471" loss="1" delta="0" />
+      <CalPoint freq="2472" loss="1" delta="0" />
+      <CalPoint freq="2473" loss="1" delta="0" />
+      <CalPoint freq="2474" loss="1" delta="0" />
+      <CalPoint freq="2475" loss="1" delta="0" />
+      <CalPoint freq="2476" loss="1" delta="0" />
+      <CalPoint freq="2477" loss="1" delta="0" />
+      <CalPoint freq="2478" loss="1" delta="0" />
+      <CalPoint freq="2479" loss="1" delta="0" />
+      <CalPoint freq="2480" loss="1" delta="0" />
+      <CalPoint freq="2481" loss="1" delta="0" />
+      <CalPoint freq="2482" loss="1" delta="0" />
+      <CalPoint freq="2483" loss="1" delta="0" />
+      <CalPoint freq="2484" loss="1" delta="0" />
+      <CalPoint freq="2485" loss="1" delta="0" />
+      <CalPoint freq="2486" loss="1" delta="0" />
+    </CalPath>
+    <CalPath number="6" name="SAPath" date="7/22/2013 8:28 PM" dayLimit="999" additionalLoss="0" useCalCable="false" testerId="LABMACHINE-2109" calCablePathName="CAL_CABLE">
+      <CalPoint freq="2396" loss="1" delta="0" />
+      <CalPoint freq="2397" loss="1" delta="0" />
+      <CalPoint freq="2398" loss="1" delta="0" />
+      <CalPoint freq="2399" loss="1" delta="0" />
+      <CalPoint freq="2400" loss="1" delta="0" />
+      <CalPoint freq="2401" loss="1" delta="0" />
+      <CalPoint freq="2402" loss="1" delta="0" />
+      <CalPoint freq="2403" loss="1" delta="0" />
+      <CalPoint freq="2404" loss="1" delta="0" />
+      <CalPoint freq="2405" loss="1" delta="0" />
+      <CalPoint freq="2406" loss="1" delta="0" />
+      <CalPoint freq="2407" loss="1" delta="0" />
+      <CalPoint freq="2408" loss="1" delta="0" />
+      <CalPoint freq="2409" loss="1" delta="0" />
+      <CalPoint freq="2410" loss="1" delta="0" />
+      <CalPoint freq="2411" loss="1" delta="0" />
+      <CalPoint freq="2412" loss="1" delta="0" />
+      <CalPoint freq="2413" loss="1" delta="0" />
+      <CalPoint freq="2414" loss="1" delta="0" />
+      <CalPoint freq="2415" loss="1" delta="0" />
+      <CalPoint freq="2416" loss="1" delta="0" />
+      <CalPoint freq="2417" loss="1" delta="0" />
+      <CalPoint freq="2418" loss="1" delta="0" />
+      <CalPoint freq="2419" loss="1" delta="0" />
+      <CalPoint freq="2420" loss="1" delta="0" />
+      <CalPoint freq="2421" loss="1" delta="0" />
+      <CalPoint freq="2422" loss="1" delta="0" />
+      <CalPoint freq="2423" loss="1" delta="0" />
+      <CalPoint freq="2424" loss="1" delta="0" />
+      <CalPoint freq="2425" loss="1" delta="0" />
+      <CalPoint freq="2426" loss="1" delta="0" />
+      <CalPoint freq="2427" loss="1" delta="0" />
+      <CalPoint freq="2428" loss="1" delta="0" />
+      <CalPoint freq="2429" loss="1" delta="0" />
+      <CalPoint freq="2430" loss="1" delta="0" />
+      <CalPoint freq="2431" loss="1" delta="0" />
+      <CalPoint freq="2432" loss="1" delta="0" />
+      <CalPoint freq="2433" loss="1" delta="0" />
+      <CalPoint freq="2434" loss="1" delta="0" />
+      <CalPoint freq="2435" loss="1" delta="0" />
+      <CalPoint freq="2436" loss="1" delta="0" />
+      <CalPoint freq="2437" loss="1" delta="0" />
+      <CalPoint freq="2438" loss="1" delta="0" />
+      <CalPoint freq="2439" loss="1" delta="0" />
+      <CalPoint freq="2440" loss="1" delta="0" />
+      <CalPoint freq="2441" loss="1" delta="0" />
+      <CalPoint freq="2442" loss="1" delta="0" />
+      <CalPoint freq="2443" loss="1" delta="0" />
+      <CalPoint freq="2444" loss="1" delta="0" />
+      <CalPoint freq="2445" loss="1" delta="0" />
+      <CalPoint freq="2446" loss="1" delta="0" />
+      <CalPoint freq="2447" loss="1" delta="0" />
+      <CalPoint freq="2448" loss="1" delta="0" />
+      <CalPoint freq="2449" loss="1" delta="0" />
+      <CalPoint freq="2450" loss="1" delta="0" />
+      <CalPoint freq="2451" loss="1" delta="0" />
+      <CalPoint freq="2452" loss="1" delta="0" />
+      <CalPoint freq="2453" loss="1" delta="0" />
+      <CalPoint freq="2454" loss="1" delta="0" />
+      <CalPoint freq="2455" loss="1" delta="0" />
+      <CalPoint freq="2456" loss="1" delta="0" />
+      <CalPoint freq="2457" loss="1" delta="0" />
+      <CalPoint freq="2458" loss="1" delta="0" />
+      <CalPoint freq="2459" loss="1" delta="0" />
+      <CalPoint freq="2460" loss="1" delta="0" />
+      <CalPoint freq="2461" loss="1" delta="0" />
+      <CalPoint freq="2462" loss="1" delta="0" />
+      <CalPoint freq="2463" loss="1" delta="0" />
+      <CalPoint freq="2464" loss="1" delta="0" />
+      <CalPoint freq="2465" loss="1" delta="0" />
+      <CalPoint freq="2466" loss="1" delta="0" />
+      <CalPoint freq="2467" loss="1" delta="0" />
+      <CalPoint freq="2468" loss="1" delta="0" />
+      <CalPoint freq="2469" loss="1" delta="0" />
+      <CalPoint freq="2470" loss="1" delta="0" />
+      <CalPoint freq="2471" loss="1" delta="0" />
+      <CalPoint freq="2472" loss="1" delta="0" />
+      <CalPoint freq="2473" loss="1" delta="0" />
+      <CalPoint freq="2474" loss="1" delta="0" />
+      <CalPoint freq="2475" loss="1" delta="0" />
+      <CalPoint freq="2476" loss="1" delta="0" />
+      <CalPoint freq="2477" loss="1" delta="0" />
+      <CalPoint freq="2478" loss="1" delta="0" />
+      <CalPoint freq="2479" loss="1" delta="0" />
+      <CalPoint freq="2480" loss="1" delta="0" />
+      <CalPoint freq="2481" loss="1" delta="0" />
+      <CalPoint freq="2482" loss="1" delta="0" />
+      <CalPoint freq="2483" loss="1" delta="0" />
+      <CalPoint freq="2484" loss="1" delta="0" />
+      <CalPoint freq="2485" loss="1" delta="0" />
+      <CalPoint freq="2486" loss="1" delta="0" />
+    </CalPath>
+  </CalConfig>	
+</CalibrationData>

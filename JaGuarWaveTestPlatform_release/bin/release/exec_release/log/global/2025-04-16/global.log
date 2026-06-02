@@ -1,0 +1,480 @@
+2025-04-16 10:18:22 [20536] INFO  : Start Throughput Test...
+2025-04-16 10:18:22 [21240] INFO  : Check SSH (192.168.1.1) Internet connection ..
+2025-04-16 10:18:22 [21240] INFO  : Check SSH (192.168.1.1) Internet connection ..
+2025-04-16 10:18:22 [21240] INFO  : ping 192.168.1.1 52 bytes from 192.168.1.1: icmp_seq=1 ttl=64 time=1.762 ms
+2025-04-16 10:18:23 [21240] INFO  : ping 192.168.1.1 52 bytes from 192.168.1.1: icmp_seq=2 ttl=64 time=1.204 ms
+2025-04-16 10:18:24 [21240] INFO  : Connecting to the SSH(192.168.1.1) Service
+2025-04-16 10:18:24 [21240] INFO  : Connecting to the SSH(192.168.1.1) Service
+2025-04-16 10:18:24 [21240] ERROR : Authentication methods: publickey,password
+2025-04-16 10:18:24 [20536] INFO  : Stop Throughput Test Thread
+2025-04-16 10:18:24 [20536] INFO  : Stop Throughput Test...
+2025-04-16 10:18:27 [21240] INFO  : Start cat /proc/kmsg log
+2025-04-16 10:18:28 [21240] INFO  : Start logread -f log
+2025-04-16 10:18:29 [21240] INFO  : Enable the SSH(192.168.1.1) service thread to read the 11AD connection status every 500 millisecond
+2025-04-16 10:18:29 [21240] INFO  : Enable the SSH(192.168.1.1) service thread to read the 11AD connection status every 500 millisecond
+2025-04-16 10:18:29 [20380] INFO  : Error: The SSH(192.168.1.1) service connection is interrupted
+2025-04-16 10:18:33 [21240] INFO  : Connecting to the SCP(192.168.1.1) Service
+2025-04-16 10:18:33 [21240] INFO  : proc/kmsg log : G:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\log\ThroughputTestTool2\2025-04-16\h10_m18_s22_0/1744769902_kmsg.log
+2025-04-16 10:18:33 [21240] INFO  : logread log : G:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\log\ThroughputTestTool2\2025-04-16\h10_m18_s22_0/1744769902_logread.log
+2025-04-16 10:18:43 [20536] INFO  : Start Throughput Test...
+2025-04-16 10:18:43 [21240] INFO  : Check SSH (192.168.1.1) Internet connection ..
+2025-04-16 10:18:43 [21240] INFO  : Check SSH (192.168.1.1) Internet connection ..
+2025-04-16 10:18:43 [21240] INFO  : ping 192.168.1.1 52 bytes from 192.168.1.1: icmp_seq=3 ttl=64 time=1.262 ms
+2025-04-16 10:18:44 [21240] INFO  : ping 192.168.1.1 52 bytes from 192.168.1.1: icmp_seq=4 ttl=64 time=1.535 ms
+2025-04-16 10:18:45 [21240] INFO  : Connecting to the SSH(192.168.1.1) Service
+2025-04-16 10:18:45 [21240] INFO  : Connecting to the SSH(192.168.1.1) Service
+2025-04-16 10:18:45 [21240] ERROR : Authentication methods: publickey,password
+2025-04-16 10:18:48 [21240] INFO  : Start cat /proc/kmsg log
+2025-04-16 10:18:49 [21240] INFO  : Start logread -f log
+2025-04-16 10:18:50 [21240] INFO  : Enable the SSH(192.168.1.1) service thread to read the 11AD connection status every 500 millisecond
+2025-04-16 10:18:50 [21240] INFO  : Enable the SSH(192.168.1.1) service thread to read the 11AD connection status every 500 millisecond
+2025-04-16 10:19:05 [21240] INFO  : Stop Iperf3 Client
+2025-04-16 10:19:06 [21240] INFO  : Stop Iperf3 Client
+2025-04-16 10:19:07 [21240] INFO  : Stop Iperf3 Client
+2025-04-16 10:19:07 [11056] INFO  : Error: The SSH(192.168.1.1) service connection is interrupted
+2025-04-16 10:19:22 [ 9328] INFO  : Start Throughput Test...
+2025-04-16 10:19:22 [16564] INFO  : Check SSH (192.168.1.1) Internet connection ..
+2025-04-16 10:19:22 [16564] INFO  : Check SSH (192.168.1.1) Internet connection ..
+2025-04-16 10:19:22 [16564] INFO  : ping 192.168.1.1 52 bytes from 192.168.1.1: icmp_seq=1 ttl=64 time=1.818 ms
+2025-04-16 10:19:23 [16564] INFO  : ping 192.168.1.1 52 bytes from 192.168.1.1: icmp_seq=2 ttl=64 time=1.185 ms
+2025-04-16 10:19:24 [16564] INFO  : Connecting to the SSH(192.168.1.1) Service
+2025-04-16 10:19:24 [16564] INFO  : Connecting to the SSH(192.168.1.1) Service
+2025-04-16 10:19:24 [16564] ERROR : Authentication methods: publickey,password
+2025-04-16 10:19:27 [16564] INFO  : Start cat /proc/kmsg log
+2025-04-16 10:19:28 [16564] INFO  : Start logread -f log
+2025-04-16 10:19:29 [16564] INFO  : Enable the SSH(192.168.1.1) service thread to read the 11AD connection status every 500 millisecond
+2025-04-16 10:19:29 [16564] INFO  : Enable the SSH(192.168.1.1) service thread to read the 11AD connection status every 500 millisecond
+2025-04-16 10:19:29 [16564] INFO  : Stop Iperf3 Client
+2025-04-16 10:19:29 [16564] INFO  : Stop Iperf3 Client
+2025-04-16 10:19:29 [16564] INFO  : Stop Iperf3 Client
+2025-04-16 10:19:29 [16564] INFO  : Stop Iperf3 Client
+2025-04-16 10:19:29 [12396] INFO  : {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 95 ",
+		"beamforming_rssi": -55,
+		"remote_rssi": -57,
+		"beacon_rssi": -128,
+		"local_rssi": -54,
+		"average_rssi": -54,
+		"tx_sector": 18,
+		"rx_sector": 27,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 13,
+		"associated_time": 1757,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-16 10:19:29 [12396] INFO  : 1,-54,9,18,27
+2025-04-16 10:19:29 [16564] INFO  : Start Iperf3 Client
+2025-04-16 10:19:35 [12396] INFO  : {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 95 ",
+		"beamforming_rssi": -55,
+		"remote_rssi": -57,
+		"beacon_rssi": -128,
+		"local_rssi": -56,
+		"average_rssi": -55,
+		"tx_sector": 18,
+		"rx_sector": 27,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 13,
+		"associated_time": 1763,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-16 10:19:35 [12396] INFO  : 1,-56,9,18,27
+2025-04-16 10:19:36 [12396] INFO  : {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 95 ",
+		"beamforming_rssi": -55,
+		"remote_rssi": -57,
+		"beacon_rssi": -128,
+		"local_rssi": -55,
+		"average_rssi": -55,
+		"tx_sector": 18,
+		"rx_sector": 27,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 13,
+		"associated_time": 1764,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-16 10:19:36 [12396] INFO  : 1,-55,9,18,27
+2025-04-16 10:19:37 [16564] INFO  : Start Iperf3 Client
+2025-04-16 10:19:41 [12396] INFO  : {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 95 ",
+		"beamforming_rssi": -55,
+		"remote_rssi": -57,
+		"beacon_rssi": -128,
+		"local_rssi": -55,
+		"average_rssi": -55,
+		"tx_sector": 18,
+		"rx_sector": 27,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 13,
+		"associated_time": 1768,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-16 10:19:41 [12396] INFO  : 1,-55,9,18,27
+2025-04-16 10:19:42 [12396] INFO  : {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 95 ",
+		"beamforming_rssi": -55,
+		"remote_rssi": -57,
+		"beacon_rssi": -128,
+		"local_rssi": -55,
+		"average_rssi": -55,
+		"tx_sector": 18,
+		"rx_sector": 27,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 13,
+		"associated_time": 1769,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-16 10:19:42 [12396] INFO  : 1,-55,9,18,27
+2025-04-16 10:19:43 [12396] INFO  : {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 95 ",
+		"beamforming_rssi": -55,
+		"remote_rssi": -57,
+		"beacon_rssi": -128,
+		"local_rssi": -56,
+		"average_rssi": -55,
+		"tx_sector": 18,
+		"rx_sector": 27,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 13,
+		"associated_time": 1770,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-16 10:19:43 [12396] INFO  : 1,-56,9,18,27
+2025-04-16 10:19:43 [16564] INFO  : Start Iperf3 Client
+2025-04-16 10:19:44 [12396] INFO  : {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 95 ",
+		"beamforming_rssi": -55,
+		"remote_rssi": -57,
+		"beacon_rssi": -128,
+		"local_rssi": -55,
+		"average_rssi": -55,
+		"tx_sector": 18,
+		"rx_sector": 27,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 13,
+		"associated_time": 1771,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-16 10:19:44 [12396] INFO  : 1,-55,9,18,27
+2025-04-16 10:19:45 [12396] INFO  : {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 95 ",
+		"beamforming_rssi": -55,
+		"remote_rssi": -57,
+		"beacon_rssi": -128,
+		"local_rssi": -56,
+		"average_rssi": -55,
+		"tx_sector": 18,
+		"rx_sector": 27,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 13,
+		"associated_time": 1772,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-16 10:19:45 [12396] INFO  : 1,-56,9,18,27
+2025-04-16 10:19:45 [12396] INFO  : {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 95 ",
+		"beamforming_rssi": -55,
+		"remote_rssi": -57,
+		"beacon_rssi": -128,
+		"local_rssi": -55,
+		"average_rssi": -55,
+		"tx_sector": 18,
+		"rx_sector": 27,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 13,
+		"associated_time": 1773,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-16 10:19:45 [12396] INFO  : 1,-55,9,18,27
+2025-04-16 10:19:46 [16564] INFO  : Start Iperf3 Client
+2025-04-16 10:19:46 [12396] INFO  : {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 95 ",
+		"beamforming_rssi": -55,
+		"remote_rssi": -57,
+		"beacon_rssi": -128,
+		"local_rssi": -55,
+		"average_rssi": -55,
+		"tx_sector": 18,
+		"rx_sector": 27,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 13,
+		"associated_time": 1774,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-16 10:19:46 [12396] INFO  : 1,-55,9,18,27
+2025-04-16 10:19:47 [12396] INFO  : {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 95 ",
+		"beamforming_rssi": -55,
+		"remote_rssi": -57,
+		"beacon_rssi": -128,
+		"local_rssi": -55,
+		"average_rssi": -55,
+		"tx_sector": 18,
+		"rx_sector": 27,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 13,
+		"associated_time": 1775,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-16 10:19:47 [12396] INFO  : 1,-55,9,18,27
+2025-04-16 10:19:48 [12396] INFO  : {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 95 ",
+		"beamforming_rssi": -55,
+		"remote_rssi": -57,
+		"beacon_rssi": -128,
+		"local_rssi": -55,
+		"average_rssi": -55,
+		"tx_sector": 18,
+		"rx_sector": 27,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 13,
+		"associated_time": 1775,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-16 10:19:48 [12396] INFO  : 1,-55,9,18,27
+2025-04-16 10:19:49 [16564] INFO  : Start Iperf3 Client
+2025-04-16 10:19:49 [12396] INFO  : {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 95 ",
+		"beamforming_rssi": -55,
+		"remote_rssi": -57,
+		"beacon_rssi": -128,
+		"local_rssi": -55,
+		"average_rssi": -55,
+		"tx_sector": 18,
+		"rx_sector": 27,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 13,
+		"associated_time": 1776,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-16 10:19:49 [12396] INFO  : 1,-55,9,18,27
+2025-04-16 10:19:50 [12396] INFO  : {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 95 ",
+		"beamforming_rssi": -55,
+		"remote_rssi": -57,
+		"beacon_rssi": -128,
+		"local_rssi": -55,
+		"average_rssi": -55,
+		"tx_sector": 18,
+		"rx_sector": 27,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 13,
+		"associated_time": 1777,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-16 10:19:50 [12396] INFO  : 1,-55,9,18,27
+2025-04-16 10:19:51 [12396] INFO  : {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 95 ",
+		"beamforming_rssi": -55,
+		"remote_rssi": -57,
+		"beacon_rssi": -128,
+		"local_rssi": -55,
+		"average_rssi": -55,
+		"tx_sector": 18,
+		"rx_sector": 27,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 13,
+		"associated_time": 1778,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-16 10:19:51 [12396] INFO  : 1,-55,9,18,27
+2025-04-16 10:19:52 [16564] INFO  : Start Iperf3 Client
+2025-04-16 10:19:52 [12396] INFO  : {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 95 ",
+		"beamforming_rssi": -55,
+		"remote_rssi": -57,
+		"beacon_rssi": -128,
+		"local_rssi": -55,
+		"average_rssi": -55,
+		"tx_sector": 18,
+		"rx_sector": 27,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 13,
+		"associated_time": 1779,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-16 10:19:52 [12396] INFO  : 1,-55,9,18,27
+2025-04-16 10:19:53 [12396] INFO  : {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 95 ",
+		"beamforming_rssi": -55,
+		"remote_rssi": -57,
+		"beacon_rssi": -128,
+		"local_rssi": -55,
+		"average_rssi": -55,
+		"tx_sector": 18,
+		"rx_sector": 27,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 13,
+		"associated_time": 1780,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-16 10:19:53 [12396] INFO  : 1,-55,9,18,27
+2025-04-16 10:19:54 [12396] INFO  : {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 95 ",
+		"beamforming_rssi": -55,
+		"remote_rssi": -55,
+		"beacon_rssi": -128,
+		"local_rssi": -56,
+		"average_rssi": -55,
+		"tx_sector": 18,
+		"rx_sector": 27,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 13,
+		"associated_time": 1781,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-16 10:19:54 [12396] INFO  : 1,-56,9,18,27
+2025-04-16 10:19:54 [ 9328] INFO  : Kill Console
+2025-04-16 10:19:54 [ 9328] INFO  : Stop Throughput Test Thread
+2025-04-16 10:19:54 [ 9328] INFO  : Stop Throughput Test...
+2025-04-16 10:19:54 [12396] INFO  : Error: The SSH(192.168.1.1) service connection is interrupted
+2025-04-16 10:19:57 [16564] INFO  : Connecting to the SCP(192.168.1.1) Service
+2025-04-16 10:19:57 [16564] INFO  : proc/kmsg log : G:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\log\ThroughputTestTool2\2025-04-16\h10_m19_s22_0/1744769962_kmsg.log
+2025-04-16 10:19:57 [16564] INFO  : logread log : G:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\log\ThroughputTestTool2\2025-04-16\h10_m19_s22_0/1744769962_logread.log
+2025-04-16 10:20:03 [ 9328] INFO  : Stop Throughput Test Thread
+2025-04-16 10:20:03 [ 9328] INFO  : Stop Throughput Test...
+2025-04-16 10:33:59 [21216] INFO  : Stop Throughput Test...

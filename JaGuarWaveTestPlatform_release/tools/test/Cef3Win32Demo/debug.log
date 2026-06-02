@@ -1,0 +1,422 @@
+[0612/094707.043:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0612/094711.242:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0612/094711.246:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0612/094711.263:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0612/094711.265:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0612/094713.526:INFO:CONSOLE(301)] "æ— ç•æ˜¯é’æ˜¥çš„æ€åº¦ï¼Œçƒ­AIæ˜¯æ—¶ä»£çš„è„‰æã€‚
+å„ä½æ–°åŒå­¦æ­£ä»¥æ— ç•çš„å§¿æ€å¥”èµ´é€šç”¨äººå·¥æ™ºèƒ½çš„æ˜Ÿè¾°å¤§æµ·ï¼
+ä½œä¸ºå¼•é¢†AIæ—¶ä»£æµªæ½®çš„ä¸»åŠ›å†›ï¼Œå¹¿é˜”èˆžå°ï¼Œå¾…ä½ å¤§å±•èº«æ‰‹ã€‚
+ä¹˜é£Žç ´æµªï¼Œå‹‡å¾€ç›´å‰ï¼Œæœªæ¥ç™¾åº¦å°†ä¸Žä½ ä¸€èµ·ï¼Œåˆ›é€ æ— é™å¯èƒ½ï¼
+", source: https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_ca0165e.js (301)
+[0612/094713.527:INFO:CONSOLE(301)] "%cç™¾åº¦2025æ ¡å›­æ‹›è˜ç®€åŽ†æŠ•é€’ï¼šhttps://talent.baidu.com/jobs/list color:red", source: https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_ca0165e.js (301)
+[0612/094714.034:WARNING:http_cache_transaction.cc(1175)] Unable to open or create cache entry
+[0612/094716.253:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0612/094835.308:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0612/094839.980:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0612/094839.981:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0612/094839.988:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0612/094839.991:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0612/094842.271:INFO:CONSOLE(301)] "æ— ç•æ˜¯é’æ˜¥çš„æ€åº¦ï¼Œçƒ­AIæ˜¯æ—¶ä»£çš„è„‰æã€‚
+å„ä½æ–°åŒå­¦æ­£ä»¥æ— ç•çš„å§¿æ€å¥”èµ´é€šç”¨äººå·¥æ™ºèƒ½çš„æ˜Ÿè¾°å¤§æµ·ï¼
+ä½œä¸ºå¼•é¢†AIæ—¶ä»£æµªæ½®çš„ä¸»åŠ›å†›ï¼Œå¹¿é˜”èˆžå°ï¼Œå¾…ä½ å¤§å±•èº«æ‰‹ã€‚
+ä¹˜é£Žç ´æµªï¼Œå‹‡å¾€ç›´å‰ï¼Œæœªæ¥ç™¾åº¦å°†ä¸Žä½ ä¸€èµ·ï¼Œåˆ›é€ æ— é™å¯èƒ½ï¼
+", source: https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_ca0165e.js (301)
+[0612/094842.272:INFO:CONSOLE(301)] "%cç™¾åº¦2025æ ¡å›­æ‹›è˜ç®€åŽ†æŠ•é€’ï¼šhttps://talent.baidu.com/jobs/list color:red", source: https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_ca0165e.js (301)
+[0612/094842.513:WARNING:http_cache_transaction.cc(1175)] Unable to open or create cache entry
+[0612/094844.844:FATAL:context.cc(58)] Check failed: !g_context. CefShutdown was not called
+[0612/095002.823:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0612/095007.958:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0612/095007.960:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0612/095007.972:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0612/095007.974:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0612/095010.531:INFO:CONSOLE(301)] "æ— ç•æ˜¯é’æ˜¥çš„æ€åº¦ï¼Œçƒ­AIæ˜¯æ—¶ä»£çš„è„‰æã€‚
+å„ä½æ–°åŒå­¦æ­£ä»¥æ— ç•çš„å§¿æ€å¥”èµ´é€šç”¨äººå·¥æ™ºèƒ½çš„æ˜Ÿè¾°å¤§æµ·ï¼
+ä½œä¸ºå¼•é¢†AIæ—¶ä»£æµªæ½®çš„ä¸»åŠ›å†›ï¼Œå¹¿é˜”èˆžå°ï¼Œå¾…ä½ å¤§å±•èº«æ‰‹ã€‚
+ä¹˜é£Žç ´æµªï¼Œå‹‡å¾€ç›´å‰ï¼Œæœªæ¥ç™¾åº¦å°†ä¸Žä½ ä¸€èµ·ï¼Œåˆ›é€ æ— é™å¯èƒ½ï¼
+", source: https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_ca0165e.js (301)
+[0612/095010.533:INFO:CONSOLE(301)] "%cç™¾åº¦2025æ ¡å›­æ‹›è˜ç®€åŽ†æŠ•é€’ï¼šhttps://talent.baidu.com/jobs/list color:red", source: https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_ca0165e.js (301)
+[0612/095011.011:WARNING:http_cache_transaction.cc(1175)] Unable to open or create cache entry
+[0612/095018.441:FATAL:context.cc(58)] Check failed: !g_context. CefShutdown was not called
+[0612/095121.793:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0612/095125.876:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0612/095125.878:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0612/095125.885:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0612/095125.889:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0612/095150.041:FATAL:context.cc(58)] Check failed: !g_context. CefShutdown was not called
+[0612/095920.700:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0612/095925.008:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0612/095925.097:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0612/100013.203:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0612/100017.065:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0612/100017.069:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0612/100036.420:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0612/100041.958:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0612/100041.959:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0612/100041.989:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0612/100041.994:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0612/100045.173:FATAL:context.cc(58)] Check failed: !g_context. CefShutdown was not called
+[0612/100217.766:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0612/100224.152:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0612/100224.154:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0612/100224.179:FATAL:shutdown_checker.cc(57)] Check failed: !IsCefShutdown(). 
+[0612/103350.848:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0612/103355.097:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0612/103355.170:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0612/103355.184:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0612/103355.185:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0612/103359.089:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0612/105942.137:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0612/105946.034:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0612/105946.038:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0612/105946.481:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0612/105946.483:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0612/110011.802:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0613/171224.566:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/171227.800:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/171227.801:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/171231.862:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/171231.864:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/171451.306:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/171455.063:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/171455.065:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/171457.416:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/171457.417:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/171522.355:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0613/174711.888:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/174716.126:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/174716.128:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/174716.211:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/174716.215:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/174732.297:FATAL:hash_table.h(352)] Check failed: container_modifications_ == container_->Modifications() (1 vs. 2)
+[0613/174836.449:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/174839.987:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/174839.988:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/174840.014:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/174840.020:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/174857.439:FATAL:hash_table.h(352)] Check failed: container_modifications_ == container_->Modifications() (1 vs. 2)
+[0613/175108.468:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/175111.474:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/175111.476:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/175111.504:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/175111.509:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/175155.377:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0613/175339.843:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/175343.039:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/175343.041:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/175343.079:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/175343.086:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/175402.293:FATAL:run_loop.cc(231)] Check failed: IsRunningOnCurrentThread(). 
+[0613/175453.444:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/175456.698:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/175456.702:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/175456.738:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/175456.742:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/175508.412:FATAL:run_loop.cc(231)] Check failed: IsRunningOnCurrentThread(). 
+[0613/175525.720:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/175528.713:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/175528.715:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/175528.741:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/175528.744:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/175541.173:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0613/175732.157:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/175735.315:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/175735.320:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/175735.448:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/175735.449:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/175748.009:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0613/175854.319:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/175857.351:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/175857.352:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/175857.378:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/175857.381:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/175902.828:FATAL:run_loop.cc(231)] Check failed: IsRunningOnCurrentThread(). 
+[0613/180227.775:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/180230.543:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/180230.545:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/180230.568:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/180230.572:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/180237.728:FATAL:run_loop.cc(231)] Check failed: IsRunningOnCurrentThread(). 
+[0613/180257.339:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/180300.535:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/180300.540:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/180300.583:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/180300.587:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/180303.048:FATAL:context.cc(398)] Check failed: false. called on invalid thread
+[0613/180330.469:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/180333.698:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/180333.700:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/180333.724:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/180333.730:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/180336.553:FATAL:context.cc(398)] Check failed: false. called on invalid thread
+[0613/180356.381:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/180359.718:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/180359.719:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/180359.744:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/180359.749:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/180404.192:FATAL:context.cc(398)] Check failed: false. called on invalid thread
+[0613/180427.617:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/180430.802:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/180430.805:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/180430.845:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/180430.848:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/180443.395:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0613/180546.178:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/180549.363:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/180549.365:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/180549.389:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/180549.393:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/180708.568:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/180711.547:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/180711.550:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/180711.592:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/180711.596:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/181249.465:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/181251.918:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/181251.921:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/181251.957:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/181251.964:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/181333.084:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/181336.343:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/181336.345:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/181336.357:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/181336.362:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/181346.615:ERROR:frame_sink_provider_impl.cc(37)] No RenderWidgetHost exists with id 3 in process 3
+[0613/181346.617:ERROR:frame_sink_provider_impl.cc(55)] No RenderWidgetHost exists with id 3 in process 3
+[0613/181437.108:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/181440.313:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/181440.314:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/181440.341:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/181440.349:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/181452.859:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0613/181507.985:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/181511.278:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/181511.280:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/181511.307:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/181511.314:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/181523.584:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0613/181602.949:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/181606.865:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/181606.866:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/181606.891:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/181606.898:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/181749.542:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/181752.719:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/181752.724:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/181752.769:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/181752.774:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/181811.095:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0613/181901.997:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0613/181905.010:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0613/181905.011:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0613/181905.035:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/181905.040:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0613/181925.043:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0618/101151.283:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/101153.949:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/101153.951:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/101155.769:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/101155.770:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/101242.906:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/101245.911:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/101245.914:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/101246.447:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/101246.448:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/101321.052:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/101324.283:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/101324.285:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/101324.294:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/101324.298:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/101506.397:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/101509.430:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/101509.432:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/101509.437:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/101509.438:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/101519.809:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/101523.844:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/101523.847:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/101523.858:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/101523.860:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/101530.690:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/101533.589:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/101533.590:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/101533.615:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/101533.619:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/101549.146:FATAL:context.cc(398)] Check failed: false. called on invalid thread
+[0618/101628.685:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/101631.763:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/101631.765:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/101631.787:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/101631.792:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/101645.219:FATAL:context.cc(398)] Check failed: false. called on invalid thread
+[0618/101736.764:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/101739.705:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/101739.707:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/101739.732:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/101739.737:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/101758.618:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0618/101841.705:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/101845.168:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/101845.169:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/101845.194:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/101845.199:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/101848.210:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0618/101915.797:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/101918.684:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/101918.686:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/101918.708:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/101918.712:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/101920.665:FATAL:context.cc(58)] Check failed: !g_context. CefShutdown was not called
+[0618/102320.884:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/102324.507:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/102324.508:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/102324.510:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/102324.511:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/102327.322:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0618/112546.763:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/112549.787:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/112549.790:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/112550.291:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/112550.293:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/112552.732:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0618/112613.802:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/112617.044:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/112617.046:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/112617.072:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/112617.077:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/112619.508:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0618/141559.265:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/141602.773:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/141602.774:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/141603.640:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/141603.641:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/141608.192:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0618/142530.281:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/142534.279:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/142534.280:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/142534.306:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/142534.312:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/142614.390:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0618/142640.234:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/142644.643:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/142644.647:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/142644.688:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/142644.693:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/142655.639:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0618/142725.130:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/142729.044:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/142729.047:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/142729.072:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/142729.078:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/142736.374:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0618/143010.588:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/143014.600:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/143014.601:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/143014.624:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/143014.629:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/143021.982:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0618/143103.953:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/143108.434:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/143108.438:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/143143.272:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/143153.827:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/143153.830:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/143157.667:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/143157.672:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/143312.888:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/143320.390:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/143320.393:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/143320.435:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/143320.439:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/143400.372:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0618/145645.013:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/145648.970:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/145648.973:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/145648.996:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/145648.997:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/145653.955:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0618/145716.821:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/145721.158:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/145721.160:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/145721.212:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/145721.216:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/145934.539:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/145938.638:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/145938.640:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/145938.661:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/145938.665:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/150036.060:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/150040.126:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/150040.127:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/150040.170:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/150040.175:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/150120.054:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/150124.334:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/150124.335:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/150124.348:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/150124.350:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/150140.510:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown
+[0618/150211.194:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/150215.452:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/150215.454:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0618/150215.479:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/150215.484:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/153949.700:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0618/153952.813:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/153952.816:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0618/153956.773:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0618/153956.774:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0619/171314.989:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0619/171318.465:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0619/171318.467:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0619/171319.633:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0619/171319.635:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0619/171436.681:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0619/171440.637:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0619/171440.639:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0619/171440.666:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0619/171440.669:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0619/171443.559:INFO:CONSOLE(51)] "Uncaught TypeError: window.cefQuery is not a function", source: file:///G:/CEF/cef_binary_83.5.0+gbf03589+chromium-83.0.4103.106_windows32/tests/cefclient/resources/dialogs.html (51)
+[0619/171725.226:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0619/171729.363:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0619/171729.366:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0619/171729.424:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0619/171729.428:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0619/171750.776:INFO:CONSOLE(51)] "Uncaught TypeError: window.cefQuery is not a function", source: file:///G:/CEF/cef_binary_83.5.0+gbf03589+chromium-83.0.4103.106_windows32/tests/cefclient/resources/dialogs.html (51)
+[0619/172136.420:INFO:CONSOLE(51)] "Uncaught TypeError: window.cefQuery is not a function", source: file:///G:/CEF/cef_binary_83.5.0+gbf03589+chromium-83.0.4103.106_windows32/tests/cefclient/resources/dialogs.html (51)
+[0619/172137.740:INFO:CONSOLE(51)] "Uncaught TypeError: window.cefQuery is not a function", source: file:///G:/CEF/cef_binary_83.5.0+gbf03589+chromium-83.0.4103.106_windows32/tests/cefclient/resources/dialogs.html (51)
+[0619/172138.047:INFO:CONSOLE(51)] "Uncaught TypeError: window.cefQuery is not a function", source: file:///G:/CEF/cef_binary_83.5.0+gbf03589+chromium-83.0.4103.106_windows32/tests/cefclient/resources/dialogs.html (51)
+[0619/172138.456:INFO:CONSOLE(51)] "Uncaught TypeError: window.cefQuery is not a function", source: file:///G:/CEF/cef_binary_83.5.0+gbf03589+chromium-83.0.4103.106_windows32/tests/cefclient/resources/dialogs.html (51)
+[0619/172138.808:INFO:CONSOLE(51)] "Uncaught TypeError: window.cefQuery is not a function", source: file:///G:/CEF/cef_binary_83.5.0+gbf03589+chromium-83.0.4103.106_windows32/tests/cefclient/resources/dialogs.html (51)
+[0619/172139.134:INFO:CONSOLE(51)] "Uncaught TypeError: window.cefQuery is not a function", source: file:///G:/CEF/cef_binary_83.5.0+gbf03589+chromium-83.0.4103.106_windows32/tests/cefclient/resources/dialogs.html (51)
+[0619/174433.165:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0619/174438.502:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0619/174438.506:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0619/174438.519:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0619/174438.522:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0619/174627.562:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0619/174631.501:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0619/174631.502:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0619/174631.534:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0619/174631.536:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0619/174741.939:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0619/174746.017:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0619/174746.019:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0619/174746.065:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0619/174746.069:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0619/174753.660:FATAL:context.cc(398)] Check failed: false. called on invalid thread
+[0619/174811.623:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0619/174816.540:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0619/174816.542:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0619/174816.550:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0619/174816.551:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0620/140202.785:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0620/140206.191:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0620/140206.192:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0620/140207.716:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0620/140207.722:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0620/141136.533:INFO:content_main_runner_impl.cc(977)] Chrome is running in full browser mode.
+[0620/141140.425:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0620/141140.428:ERROR:system_network_context_manager.cc(574)] Cannot use V8 Proxy resolver in single process mode.
+[0620/141140.443:ERROR:dxva_video_decode_accelerator_win.cc(1320)] DXVAVDA fatal error: Could not load mf.dll: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£ (0x7E)
+[0620/141140.448:INFO:media_foundation_video_encode_accelerator_win.cc(357)] mf.dll is required for encoding
+[0620/141217.618:FATAL:shutdown_checker.cc(52)] Check failed: !IsCefShutdown(). Object reference incorrectly held at CefShutdown

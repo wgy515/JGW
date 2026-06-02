@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F01DE709-3A31-43F4-B931-A6AEB25B9C08}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>JGW_TestSuiteDevicesPlugin</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\debug\exec_debug\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\release\exec_release\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;JGW_TESTSUITEDEVICESPLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)platform_core\include;$(SolutionDir)platform_plugin\include;$(SolutionDir)platform_library\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)platform_core_lib\poco;$(SolutionDir)lib\core;$(SolutionDir)lib\library;$(SolutionDir)lib\plugin</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;JGW_TESTSUITEDEVICESPLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)platform_core\include;$(SolutionDir)platform_plugin\include;$(SolutionDir)platform_library\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)platform_core_lib\poco;$(SolutionDir)lib\core;$(SolutionDir)lib\library;$(SolutionDir)lib\plugin</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y  $(SolutionDir)bin\release\exec_release\$(TargetName)$(TargetExt) 	$(SolutionDir)bin\release\exec\$(TargetName)$(TargetExt)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CJGW_DevicesGlobalResource.h" />
+    <ClInclude Include="PUMA\TSE_PUMA_DownloadPDBFile.h" />
+    <ClInclude Include="PUMA\TSE_PUMA_InitPdbDevice.h" />
+    <ClInclude Include="PUMA\TSE_PUMA_LoadPDBImage.h" />
+    <ClInclude Include="PUMA\TSE_PUMA_OpenDevice.h" />
+    <ClInclude Include="PUMA\TSE_PUMA_ResetDevice.h" />
+    <ClInclude Include="PUMA\TSE_PUMA_WriteBoardID.h" />
+    <ClInclude Include="PUMA\TSE_PUMA_WriteMac.h" />
+    <ClInclude Include="PUMA\TSE_PUMA_WriteSerialNumber.h" />
+    <ClInclude Include="QCOMM\CJGW_ConnectQcomDiag.h" />
+    <ClInclude Include="QCOMM\CJGW_DisConnectQocmDiag.h" />
+    <ClInclude Include="QCOMM\CJGW_ReadQcomNV.h" />
+    <ClInclude Include="QCOMM\CJGW_SyncQcomNV.h" />
+    <ClInclude Include="QCOMM\CJGW_WriteQcomNV.h" />
+    <ClInclude Include="QCOMM\PacketTranslator.h" />
+    <ClInclude Include="RFCAL_QSEQ\CJGW_RFCalVFSSuite.h" />
+    <ClInclude Include="RFCAL_QSEQ\CJGW_RFCalVFS_Define.h" />
+    <ClInclude Include="RFCAL_QSEQ\CJGW_RFCalVFSConfig.h" />
+    <ClInclude Include="RFCAL_QSEQ\CJGW_RFQualcommInterface.h" />
+    <ClInclude Include="RFCAL_QSEQ\sti_export_func_decl.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\library\JGW_TestSuiteGlobalResourcesLibrary\CJGW_ExportRegTestSuiteGlobalResFunc.cpp" />
+    <ClCompile Include="CJGW_DevicesGlobalResource.cpp" />
+    <ClCompile Include="dllmain.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_PUMA_DownloadPDBFile.cpp" />
+    <ClCompile Include="PUMA\TSE_PUMA_InitPdbDevice.cpp" />
+    <ClCompile Include="PUMA\TSE_PUMA_LoadPDBImage.cpp" />
+    <ClCompile Include="PUMA\TSE_PUMA_OpenDevice.cpp" />
+    <ClCompile Include="PUMA\TSE_PUMA_ResetDevice.cpp" />
+    <ClCompile Include="PUMA\TSE_PUMA_WriteBoardID.cpp" />
+    <ClCompile Include="PUMA\TSE_PUMA_WriteMac.cpp" />
+    <ClCompile Include="PUMA\TSE_PUMA_WriteSerialNumber.cpp" />
+    <ClCompile Include="QCOMM\CJGW_ConnectQcomDiag.cpp" />
+    <ClCompile Include="QCOMM\CJGW_DisConnectQocmDiag.cpp" />
+    <ClCompile Include="QCOMM\CJGW_ReadQcomNV.cpp" />
+    <ClCompile Include="QCOMM\CJGW_SyncQcomNV.cpp" />
+    <ClCompile Include="QCOMM\CJGW_WriteQcomNV.cpp" />
+    <ClCompile Include="QCOMM\PacketTranslator.cpp" />
+    <ClCompile Include="RFCAL_QSEQ\CJGW_RFCalVFSSuite.cpp" />
+    <ClCompile Include="RFCAL_QSEQ\CJGW_RFCalVFSConfig.cpp" />
+    <ClCompile Include="RFCAL_QSEQ\CJGW_RFQualcommInterface.cpp" />
+    <ClCompile Include="RFCAL_QSEQ\sti_export_func_decl.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

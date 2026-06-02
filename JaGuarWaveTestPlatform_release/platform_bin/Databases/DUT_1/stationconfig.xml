@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE GeneralConfiguration [
+	<!ELEMENT ItemGroup (ConfigItem*)>
+	<!ATTLIST ItemGroup
+	id ID #REQUIRED
+>
+]>
+<StationConfiguration>
+	<ItemGroup id="StringItems">      
+		<ConfigItem name="TesterName" value="QDART"/>
+      <!-- The value of this item is displayed in the test logs for logging purposes-->      
+		<ConfigItem name="DomainName" value="Development"/>
+      <!-- The value of this item is displayed in the test logs for logging purposes-->		
+      <ConfigItem name="TesterType" value="QDART Test Station"/>
+      <!-- The value of this item is displayed in the test logs for logging purposes-->		
+      <ConfigItem name="GPSOneMeasurementManagerVersion" value="1.0"/>
+		<!--this item points to the config file path that includes the technology/comport 
+		mapping for targets with dual-comport(Fusion/SVLTE style)-->
+		<ConfigItem name="TargetDefsConfigPath" value="..\Databases\targetdefs.xml"/>
+		<!-- For SFU when used with SubSysBroadcast -->
+		<!-- Un-comment this only when using SFU as broadcast generator
+		<ConfigItem name="BroadcastLinkStateManagerVersion" value="SFU"/>
+		<ConfigItem name="BroadcastTestEnvironmentManagerVersion" value="SFU"/>
+		-->
+		<!--QMSL User Defined Transport DLL Path. eg C:\temp\userdefinedtransport.dll. The field is required with QMSLLibraryMode == 2-->
+		<ConfigItem name="QMSLUserDefinedTransportDLLPath" value="c:\OEM-QMSLUserDefinedTransport.dll"/>
+		<!--Resource ID string for QMSL user defined transport dll to identify the resources-->
+		<ConfigItem name="QMSLUserDefinedResourceID" value="ResourceID"/>
+		<!--QFE antenna tuner characterization config items-->
+		<ConfigItem name="QFE_SERIAL_PORT" value="COM10"/>
+        <!-- -->
+		<ConfigItem name="QFE_INTERFACE_TYPE" value="SCOUT"/>
+		<!--Active Multi DUT RF driver -->
+		<ConfigItem name="MULTIPLEX_MANAGER_CONFIG_FILE" value=""/>
+      <!-- -->
+	</ItemGroup>
+	<ItemGroup id="DoubleItems">
+		<ConfigItem name="GPS RF Nominal Output Power" value="-130.0"/>
+		<!-- Limitation of the GSS box in unit of dBm -->
+		<ConfigItem name="bseTimeOffsetCell" value="-448.830"/>
+		<!-- TimeOffset from the callbox in unit of ns -->
+		<ConfigItem name="bseTimeOffsetPCS" value="-453.475"/>
+		<!-- TimeOffset from the callbox in unit of ns -->
+		<ConfigItem name="bseTimeOffsetJCDMA" value="0.0"/>
+		<!-- TimeOffset from the callbox in unit of ns -->
+		<ConfigItem name="bseTimeOffsetKPCS" value="0.0"/>
+		<!-- TimeOffset from the callbox in unit of ns -->
+		<ConfigItem name="bseTimeOffsetNMT450" value="0.0"/>
+		<!-- TimeOffset from the callbox in unit of ns -->
+		<ConfigItem name="bseTimeOffsetIMT" value="0.0"/>
+		<!-- TimeOffset from the callbox in unit of ns -->
+		<ConfigItem name="bseTimeOffsetBC10"   value="0.0" />
+		<!-- TimeOffset from the callbox in unit of ns -->
+		<ConfigItem name="gpsSimulatorTimeOffset" value="0.0"/>
+		<!-- -->
+		<ConfigItem name="cable1TimeOffset" value="0.0"/>
+		<!-- -->
+		<ConfigItem name="cable2TimeOffset" value="0.0"/>
+		<!-- -->
+		<ConfigItem name="cable3TimeOffset" value="0.0"/>
+		<!-- -->
+		<ConfigItem name="cable4TimeOffset" value="0.0"/>
+		<!-- -->
+		<ConfigItem name="cable5TimeOffset" value="0.0"/>
+		<!-- -->
+		<ConfigItem name="cable6TimeOffset" value="0.0"/>
+		<!-- -->
+		<ConfigItem name="cable7TimeOffset" value="0.0"/>
+		<!-- -->
+		<ConfigItem name="combinerCdmaPathTimeOffset" value="0.0"/>
+		<!-- -->
+		<ConfigItem name="combinerGpsPathTimeOffset" value="0.0"/>
+		<!-- -->
+		<ConfigItem name="DeltaTCounter" value="0.0"/>
+		<!-- -->
+		<ConfigItem name="LTERegistrationIor" value="-55.0"/>
+      <!-- Needed for LTE handover in SubSysMultiMode-->
+	</ItemGroup>
+	<ItemGroup id="LongItems">
+		<ConfigItem name="gpsone_delayTimeAfterReset" value="3000"/>
+      <!-- -->
+		<ConfigItem name="GPS_Emulator1_Output_CalPathNumber" value="6"/>
+      <!-- -->
+		<ConfigItem name="QMSLLibraryMode" value="1"/>
+		<!-- 0:QPHONEMS, 1:QPST 2:UserDefinedTransport. User should also set QMSLUserDefinedTransportDLLPath and QMSLLibraryModes-->
+        <ConfigItem name="FinalizeDataLogging_PATH" value="0"/>
+		<!-- 0:Automatic, 1:QDART 2:SUITE. -->
+	</ItemGroup>
+	<ItemGroup id="BoolItems">
+		<ConfigItem name="useLTEPersonalityForCal" value="0"/>
+      <!-- Default value is 0 to use WCDMA personality. 1 is to use LTE personality -->
+		<ConfigItem name="PRESET_EXTARB" value="1"/>
+      <!-- If 1, the test equipment is preset without presetting the ARB subsystem -->
+      <ConfigItem name="LTEEnableCallboxDisplay" value="0"/>
+		<!-- Enables or disables the scren while tests are running -->
+	</ItemGroup>
+</StationConfiguration>

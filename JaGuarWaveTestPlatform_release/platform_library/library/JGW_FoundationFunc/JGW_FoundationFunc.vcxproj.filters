@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="string">
+      <UniqueIdentifier>{659d4780-2f51-4c33-9299-7b19b4a01d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filepath">
+      <UniqueIdentifier>{3377a496-05b0-4f7b-8f70-a60f54254c69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usb_reg">
+      <UniqueIdentifier>{8a2fcf6b-4710-418b-ab01-66b9eb3cb868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="process">
+      <UniqueIdentifier>{b5a5b598-9791-4fcc-964f-10dcf74610c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thread">
+      <UniqueIdentifier>{8482d7cc-5d7e-4417-9a92-e06bd601258b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="handle">
+      <UniqueIdentifier>{321ee10d-0675-45bf-ad7a-74c2f36fc951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="timer">
+      <UniqueIdentifier>{c83fdde6-51a1-43e9-a874-7e40bf70572d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lock">
+      <UniqueIdentifier>{296a2b1e-5606-40ae-9abd-391095d72b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="number">
+      <UniqueIdentifier>{5ff67a16-33ef-42ef-9440-2d7b84d6a1f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tls">
+      <UniqueIdentifier>{531477c6-48b5-4872-b252-5415fab94d44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="prs">
+      <UniqueIdentifier>{5e1e4f78-b5df-407f-83f2-6a886da434a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encrypt">
+      <UniqueIdentifier>{96c6996e-7031-46bf-b642-3d35f785bb5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exception">
+      <UniqueIdentifier>{01de8302-9cbd-439e-9d1b-23cd495ed511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window">
+      <UniqueIdentifier>{8e186e52-3d2b-4642-a92c-4d8f3183b0dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\JGW_StringFunc.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\CUtf8String.hpp">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\JGW_StringFuncTemplate.hpp">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\JGW_FilePath.h">
+      <Filter>filepath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\JGW_FoundationFuncLib_Define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\JGW_UsbRegedit.h">
+      <Filter>usb_reg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\jgw_single_application_instance.h">
+      <Filter>process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\jgw_process_manage.h">
+      <Filter>process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\JGW_ThreadFunc.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\jgw_smartpointer_handle_func.h">
+      <Filter>handle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\CJGW_DllDirectoryStateSaver.h">
+      <Filter>handle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\CJGW_HiPerfTimer.h">
+      <Filter>timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\CJGW_CriticalSectionLock.h">
+      <Filter>lock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\CJGW_NumberRule.h">
+      <Filter>number</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\CCJGW_LocalThreadStrogeMap.h">
+      <Filter>tls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\JGW_PrsDownloadProtocol.h">
+      <Filter>prs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\JGW_Encrypt.h">
+      <Filter>encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\JGW_Exception.h">
+      <Filter>exception</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\JGW_ModuleEnCrypt.h">
+      <Filter>encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_FoundationFunc\JGW_WindowFunc.h">
+      <Filter>window</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JGW_StringFunc.cpp">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="JGW_FilePath.cpp">
+      <Filter>filepath</Filter>
+    </ClCompile>
+    <ClCompile Include="JGW_UsbRegedit.cpp">
+      <Filter>usb_reg</Filter>
+    </ClCompile>
+    <ClCompile Include="jgw_single_application_instance.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="jgw_process_manage.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="JGW_ThreadFunc.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="jgw_smartpointer_handle_func.cpp">
+      <Filter>handle</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_HiPerfTimer.cpp">
+      <Filter>timer</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_NumberRule.cpp">
+      <Filter>number</Filter>
+    </ClCompile>
+    <ClCompile Include="JGW_PrsDownloadProtocol.cpp">
+      <Filter>prs</Filter>
+    </ClCompile>
+    <ClCompile Include="JGW_Encrypt.cpp">
+      <Filter>encrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="JGW_ModuleEnCrypt.cpp">
+      <Filter>encrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="JGW_ApplicationDecrypt.cpp">
+      <Filter>encrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="JGW_WindowFunc.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

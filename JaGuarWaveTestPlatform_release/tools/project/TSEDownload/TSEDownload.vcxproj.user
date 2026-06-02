@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments> "E:\project\JaGuarWaveTestPlatform_Debug\bin\debug\exec_debug\cache\TSEMultiunitDownload\suite.xml" 6 "F:\download\Lynx_20180801_0225" "prog_ufs_firehose_8996_ddr.elf" "provision_samsung.xml" "rawprogram_unsparse0.xml,rawprogram_unsparse4.xml,rawprogram1.xml,rawprogram2.xml,rawprogram3.xml,rawprogram5.xml" "patch0.xml,patch1.xml,patch2.xml,patch3.xml,patch4.xml,patch5.xml" 0</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C5260B66-C775-419D-95BA-E2E6FB96DF34}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TSE_DevicesPlugin</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\debug\exec_debug\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\release\exec_release\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;TSE_DEVICESPLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)platform_core\include;$(SolutionDir)platform_plugin\include;$(SolutionDir)platform_library\include;$(SolutionDir)platform_app\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)platform_core_lib\boost\lib;$(SolutionDir)lib\library;$(SolutionDir)platform_core_lib\poco;$(SolutionDir)lib\core;$(SolutionDir)lib\plugin;$(SolutionDir)platform_core_lib\libssh2</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ws2_32.lib;libssh2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>JGW_WiFiSetting_d.dll;JGW_QMSLFuncPlugin_d.dll;JGW_MESDataBase.dll</DelayLoadDLLs>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y  $(SolutionDir)bin\debug\exec_debug\$(TargetName)$(TargetExt) 	$(SolutionDir)bin\debug\exec\$(TargetName)$(TargetExt)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;TSE_DEVICESPLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)platform_core\include;$(SolutionDir)platform_plugin\include;$(SolutionDir)platform_library\include;$(SolutionDir)platform_app\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)platform_core_lib\boost\lib;$(SolutionDir)lib\library;$(SolutionDir)platform_core_lib\poco;$(SolutionDir)lib\core;$(SolutionDir)lib\plugin;$(SolutionDir)platform_core_lib\libssh2</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ws2_32.lib;libssh2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>JGW_QMSLFuncPlugin.dll;JGW_WiFiSetting.dll;JGW_MESDataBase.dll</DelayLoadDLLs>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y  $(SolutionDir)bin\release\exec_release\$(TargetName)$(TargetExt) 	$(SolutionDir)bin\release\exec\$(TargetName)$(TargetExt)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AP_NUMBER\TSE_BuildApInfoBinaryTxt.h" />
+    <ClInclude Include="AP_NUMBER\TSE_BuildAPInfoTxt.h" />
+    <ClInclude Include="AP_NUMBER\TSE_ParseConfigInfo.h" />
+    <ClInclude Include="COMMON\CJGW_FtpClient.h" />
+    <ClInclude Include="COMMON\TSE_BuildDateTimeStamp.h" />
+    <ClInclude Include="COMMON\TSE_BuildEnvironmentValue.h" />
+    <ClInclude Include="COMMON\TSE_BuildString.h" />
+    <ClInclude Include="COMMON\TSE_CheckAdapterSpeed.h" />
+    <ClInclude Include="COMMON\TSE_CheckFileExist.h" />
+    <ClInclude Include="COMMON\TSE_CheckUsbInterfaceStatus.h" />
+    <ClInclude Include="COMMON\TSE_FTPUpdateFile.h" />
+    <ClInclude Include="COMMON\TSE_PingTest.h" />
+    <ClInclude Include="COMMON\TSE_RandomGlobalVariable.h" />
+    <ClInclude Include="COMMON\TSE_ReadEth0Mac.h" />
+    <ClInclude Include="COMMON\TSE_SaveTestLog.h" />
+    <ClInclude Include="COMMON\TSE_WriteEth0MacConfig.h" />
+    <ClInclude Include="FASTMMI\CTSE_FastMMIDefine.h" />
+    <ClInclude Include="FASTMMI\TSE_FTMCheckTestResult.h" />
+    <ClInclude Include="FASTMMI\TSE_FTMExecuteSingleTestResult.h" />
+    <ClInclude Include="FASTMMI\TSE_FTMVersionTest.h" />
+    <ClInclude Include="FASTMMI\TSE_FTMClearAllTestInfo.h" />
+    <ClInclude Include="FASTMMI\TSE_FTMExecuteSingleTest.h" />
+    <ClInclude Include="FASTMMI\TSE_FTMClearTestResultFile.h" />
+    <ClInclude Include="http\TSE_HttpPost.h" />
+    <ClInclude Include="http\TSE_HttpPostUploadFile.h" />
+    <ClInclude Include="log\TSE_BuildTestLog.h" />
+    <ClInclude Include="LYNX_FTM\CJGW_FTM_ClientSocket.h" />
+    <ClInclude Include="LYNX_FTM\CJGW_FTM_Json.h" />
+    <ClInclude Include="LYNX_FTM\CJGW_FTM_JsonSocket.h" />
+    <ClInclude Include="LYNX_FTM\CJGW_FTM_KeyEventResponceVoJson.h" />
+    <ClInclude Include="LYNX_FTM\CJGW_FTM_MemoryCardResponceVoJson.h" />
+    <ClInclude Include="LYNX_FTM\CJGW_FTM_OTGInfooResponceVoJson.h" />
+    <ClInclude Include="LYNX_FTM\CJGW_FTM_QC3InfoResponceVoJson.h" />
+    <ClInclude Include="LYNX_FTM\CJGW_FTM_WiFiAPInfoResponceVo.h" />
+    <ClInclude Include="LYNX_FTM\TSE_FTM_CheckBreathingLed.h" />
+    <ClInclude Include="LYNX_FTM\TSE_FTM_CheckKey.h" />
+    <ClInclude Include="LYNX_FTM\TSE_FTM_CheckLEDRGB.h" />
+    <ClInclude Include="LYNX_FTM\TSE_FTM_CheckMemoryCard.h" />
+    <ClInclude Include="LYNX_FTM\TSE_FTM_CheckSIMDetect.h" />
+    <ClInclude Include="LYNX_FTM\TSE_FTM_CheckVersion.h" />
+    <ClInclude Include="LYNX_FTM\CJGW_FTM_ClientSocketServer.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\TSE_FTM_ConnectSocket.h" />
+    <ClInclude Include="LYNX_FTM\TSE_FTM_Define.h" />
+    <ClInclude Include="LYNX_FTM\TSE_FTM_DisConnectSocket.h" />
+    <ClInclude Include="LYNX_FTM\TSE_FTM_GetEth0IPAddress.h" />
+    <ClInclude Include="LYNX_FTM\TSE_FTM_HandoverWiFiMode.h" />
+    <ClInclude Include="LYNX_FTM\TSE_FTM_JSONCommand.h" />
+    <ClInclude Include="LYNX_FTM\CJGW_FTM_SocketResponceVo.h" />
+    <ClInclude Include="LYNX_FTM\TSE_FTM_LcdBackLightTest.h" />
+    <ClInclude Include="LYNX_FTM\TSE_FTM_LcdColorTest.h" />
+    <ClInclude Include="LYNX_FTM\TSE_FTM_MTPTest.h" />
+    <ClInclude Include="LYNX_FTM\TSE_FTM_OTGTest.h" />
+    <ClInclude Include="LYNX_FTM\TSE_FTM_QC3Test.h" />
+    <ClInclude Include="LYNX_FTM\TSE_FTM_TestBase.h" />
+    <ClInclude Include="LYNX_FTM\TSE_FTM_WiFiScanAP.h" />
+    <ClInclude Include="Modem\TSE_CloseModemPort.h" />
+    <ClInclude Include="Modem\TSE_OpenModemPort.h" />
+    <ClInclude Include="Modem\TSE_ReadWriteModemPort.h" />
+    <ClInclude Include="PUMA\CJGW_DMGRxResult.h" />
+    <ClInclude Include="PUMA\CTSE_PUMA_DEFINE.h" />
+    <ClInclude Include="PUMA\TSE_Connect1hotlinkPeraso.h" />
+    <ClInclude Include="PUMA\TSE_ConnectDMGPeraso.h" />
+    <ClInclude Include="PUMA\TSE_ConnectPeraso.h" />
+    <ClInclude Include="PUMA\TSE_DisConnectDMGPeraso.h" />
+    <ClInclude Include="PUMA\TSE_DisConnectPeraso.h" />
+    <ClInclude Include="PUMA\TSE_DownloadPDBToPeraso.h" />
+    <ClInclude Include="PUMA\TSE_InitPDBFileToPeraso.h" />
+    <ClInclude Include="PUMA\TSE_PearsoRSSITest.h" />
+    <ClInclude Include="PUMA\TSE_PerasoDMGGuCalTest.h" />
+    <ClInclude Include="PUMA\TSE_PerasoDMGTRXTest.h" />
+    <ClInclude Include="PUMA\TSE_PumaCommand.h" />
+    <ClInclude Include="PUMA\TSE_ReadNumberToPeraso.h" />
+    <ClInclude Include="PUMA\TSE_ResetPeraso.h" />
+    <ClInclude Include="PUMA\TSE_SaveProductScreenLogPeraso.h" />
+    <ClInclude Include="PUMA\TSE_WriteNumberToPeraso.h" />
+    <ClInclude Include="QCOMM\TSE_QualcommFlashImageDownload.h" />
+    <ClInclude Include="QCOMM\TSE_QualcommFlashImageDownloadV2.h" />
+    <ClInclude Include="QCOMM\TSE_QualcommQCN.h" />
+    <ClInclude Include="QCOMM\TSE_QutsStartTcpServer.h" />
+    <ClInclude Include="QCOMM\TSE_QutsStopTcpServer.h" />
+    <ClInclude Include="QCOMM\TSE_ReaderQcomSN.h" />
+    <ClInclude Include="QCOMM\TSE_ReadQualcommNumber.h" />
+    <ClInclude Include="QCOMM\TSE_SettingFTM.h" />
+    <ClInclude Include="QCOMM\TSE_SettingQualcommMode.h" />
+    <ClInclude Include="QCOMM\TSE_WriteQualcommNumber.h" />
+    <ClInclude Include="QCOMM\TSE_WriterQcomSN.h" />
+    <ClInclude Include="RFCAL_QSEQ\CJGW_MESQSEQCpkLog.h" />
+    <ClInclude Include="RFCAL_QSEQ\CJGW_MES_CPK_LOG_DEFINE.h" />
+    <ClInclude Include="RFCAL_QSEQ\CJGW_ParseCPKLogInfo.h" />
+    <ClInclude Include="Serial\TSE_CloseSerialComPort.h" />
+    <ClInclude Include="Serial\TSE_LongReadWriteSerialComPort.h" />
+    <ClInclude Include="Serial\TSE_OpenSerialComPort.h" />
+    <ClInclude Include="Serial\TSE_ReadWriteSerialComPort.h" />
+    <ClInclude Include="SOCKET\TSE_ConnectAsyncSocket.h" />
+    <ClInclude Include="SOCKET\TSE_DisConnectAsyncSocket.h" />
+    <ClInclude Include="SOCKET\TSE_ReadWriteSocket.h" />
+    <ClInclude Include="SOCKET\TSE_XWGaugeAsyncSocket.h" />
+    <ClInclude Include="SSH\TSE_APSReadAPInfo.h" />
+    <ClInclude Include="SSH\TSE_AP_NUMBER_DEFINE.h" />
+    <ClInclude Include="SSH\TSE_BuildAPBinSFTP.h" />
+    <ClInclude Include="SSH\TSE_ConnectSFTP.h" />
+    <ClInclude Include="SSH\TSE_ConnectSFTPV2.h" />
+    <ClInclude Include="SSH\TSE_ConnectSSH.h" />
+    <ClInclude Include="SSH\TSE_DisConnectSFTP.h" />
+    <ClInclude Include="SSH\TSE_DisConnectSFTPV2.h" />
+    <ClInclude Include="SSH\TSE_DisConnectSSH.h" />
+    <ClInclude Include="SSH\TSE_ExecSSH.h" />
+    <ClInclude Include="SSH\TSE_GetFileSFTP.h" />
+    <ClInclude Include="SSH\TSE_GetFileSFTPV2.h" />
+    <ClInclude Include="SSH\TSE_GetPerasoMibSSH.h" />
+    <ClInclude Include="SSH\TSE_IperfSSHTest.h" />
+    <ClInclude Include="SSH\TSE_PostHttpReqRsp.h" />
+    <ClInclude Include="SSH\TSE_PutFileSFTP.h" />
+    <ClInclude Include="SSH\TSE_PutFileSFTPV2.h" />
+    <ClInclude Include="SSH\TSE_ReadAPBinNumber.h" />
+    <ClInclude Include="SSH\TSE_ReadAPNumber.h" />
+    <ClInclude Include="SSH\TSE_ReadPumasSNSSH.h" />
+    <ClInclude Include="SSH\TSE_ReadWriteSSH.h" />
+    <ClInclude Include="ssh_scp\TSE_ConnectSSHSCP.h" />
+    <ClInclude Include="ssh_scp\TSE_DisConnectSSHSCP.h" />
+    <ClInclude Include="ssh_scp\TSE_GetFileSSHSCP.h" />
+    <ClInclude Include="ssh_scp\TSE_PutFileSSHSCP.h" />
+    <ClInclude Include="THROUGHPUT\TSE_CheckConnectWiFi.h" />
+    <ClInclude Include="THROUGHPUT\TSE_CheckThroughputTestResult.h" />
+    <ClInclude Include="THROUGHPUT\TSE_ConnectWiFi.h" />
+    <ClInclude Include="THROUGHPUT\TSE_DisConnectWiFi.h" />
+    <ClInclude Include="THROUGHPUT\TSE_DisConnectWiFiSocket.h" />
+    <ClInclude Include="THROUGHPUT\TSE_IperfTest.h" />
+    <ClInclude Include="THROUGHPUT\TSE_PerasoSSHRSSITest.h" />
+    <ClInclude Include="THROUGHPUT\TSE_ReadLynxAPInfo.h" />
+    <ClInclude Include="THROUGHPUT\TSE_RemoteConnectPeraso.h" />
+    <ClInclude Include="THROUGHPUT\TSE_RemoteDisConnectPeraso.h" />
+    <ClInclude Include="THROUGHPUT\TSE_RemoteShellExecute.h" />
+    <ClInclude Include="THROUGHPUT\TSE_RemoteWriteReadPeraso.h" />
+    <ClInclude Include="TSE_BuildEnvironmentFile.h" />
+    <ClInclude Include="TSE_BuildMESLog.h" />
+    <ClInclude Include="TSE_BuildTestLogV2.h" />
+    <ClInclude Include="TSE_CheckMAVoltageCurrentPower.h" />
+    <ClInclude Include="TSE_CheckSocketPortOpen.h" />
+    <ClInclude Include="TSE_CheckUsbDeviceExists.h" />
+    <ClInclude Include="TSE_CompareFloat.h" />
+    <ClInclude Include="TSE_CompareInt.h" />
+    <ClInclude Include="TSE_ComparisonEnvironment.h" />
+    <ClInclude Include="TSE_ConsoleAppOperation.h" />
+    <ClInclude Include="TSE_ContinousRxCommandFormat.h" />
+    <ClInclude Include="TSE_CopyThirdPartyTestLogs.h" />
+    <ClInclude Include="TSE_DevicesGlobalResource.h" />
+    <ClInclude Include="QCOMM\TSE_ConnectQcomDiag.h" />
+    <ClInclude Include="QCOMM\TSE_DisConnectQocmDiag.h" />
+    <ClInclude Include="QCOMM\TSE_ReadQcomNV.h" />
+    <ClInclude Include="QCOMM\TSE_SyncQcomNV.h" />
+    <ClInclude Include="QCOMM\TSE_WriteQcomNV.h" />
+    <ClInclude Include="QCOMM\PacketTranslator.h" />
+    <ClInclude Include="RFCAL_QSEQ\TSE_RFCalVFSConfig.h" />
+    <ClInclude Include="RFCAL_QSEQ\TSE_RFCalVFS_Define.h" />
+    <ClInclude Include="RFCAL_QSEQ\TSE_RFQualcommInterface.h" />
+    <ClInclude Include="RFCAL_QSEQ\sti_export_func_decl.h" />
+    <ClInclude Include="RFCAL_QSEQ\TSE_RFCalVFSTest.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TSE_CompareStringList.h" />
+    <ClInclude Include="TSE_FindString.h" />
+    <ClInclude Include="TSE_FormatMACAddress.h" />
+    <ClInclude Include="TSE_GetComputerName.h" />
+    <ClInclude Include="TSE_GetFileName.h" />
+    <ClInclude Include="TSE_GetIPQVersion.h" />
+    <ClInclude Include="TSE_GetUsbPort.h" />
+    <ClInclude Include="TSE_JsonParse.h" />
+    <ClInclude Include="TSE_MessageBox.h" />
+    <ClInclude Include="TSE_MicroAmmeterRW.h" />
+    <ClInclude Include="TSE_ParseContinousRxResult.h" />
+    <ClInclude Include="TSE_PrintInfo.h" />
+    <ClInclude Include="TSE_RecordTestTimeLog.h" />
+    <ClInclude Include="TSE_RFConfigFormat.h" />
+    <ClInclude Include="TSE_SaveMESLog.h" />
+    <ClInclude Include="TSE_SearchStringRegex.h" />
+    <ClInclude Include="TSE_SendPipeCommand.h" />
+    <ClInclude Include="TSE_SendRecvWindowMessage.h" />
+    <ClInclude Include="TSE_SingleToneTxFormat.h" />
+    <ClInclude Include="TSE_Sleep.h" />
+    <ClInclude Include="TSE_SplitString.h" />
+    <ClInclude Include="TSE_StringToIEE754Float.h" />
+    <ClInclude Include="TSE_WriteGuData.h" />
+    <ClInclude Include="UC600AA\TSE_ReadStringNVX20.h" />
+    <ClInclude Include="UC600AA\TSE_WriteStringNVX20.h" />
+    <ClInclude Include="WIFI\TSE_WiFiCalVFSTest.h" />
+    <ClInclude Include="WINDOW\TSE_InputWindows.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AP_NUMBER\TSE_BuildApInfoBinaryTxt.cpp" />
+    <ClCompile Include="AP_NUMBER\TSE_BuildAPInfoTxt.cpp" />
+    <ClCompile Include="AP_NUMBER\TSE_ParseConfigInfo.cpp" />
+    <ClCompile Include="COMMON\CJGW_FtpClient.cpp" />
+    <ClCompile Include="COMMON\TSE_BuildDateTimeStamp.cpp" />
+    <ClCompile Include="COMMON\TSE_BuildEnvironmentValue.cpp" />
+    <ClCompile Include="COMMON\TSE_BuildString.cpp" />
+    <ClCompile Include="COMMON\TSE_CheckAdapterSpeed.cpp" />
+    <ClCompile Include="COMMON\TSE_CheckFileExist.cpp" />
+    <ClCompile Include="COMMON\TSE_CheckUsbInterfaceStatus.cpp" />
+    <ClCompile Include="COMMON\TSE_FTPUpdateFile.cpp" />
+    <ClCompile Include="COMMON\TSE_PingTest.cpp" />
+    <ClCompile Include="COMMON\TSE_RandomGlobalVariable.cpp" />
+    <ClCompile Include="COMMON\TSE_ReadEth0Mac.cpp" />
+    <ClCompile Include="COMMON\TSE_SaveTestLog.cpp" />
+    <ClCompile Include="COMMON\TSE_WriteEth0MacConfig.cpp" />
+    <ClCompile Include="FASTMMI\TSE_FTMCheckTestResult.cpp" />
+    <ClCompile Include="FASTMMI\TSE_FTMExecuteSingleTestResult.cpp" />
+    <ClCompile Include="FASTMMI\TSE_FTMVersionTest.cpp" />
+    <ClCompile Include="FASTMMI\TSE_FTMClearAllTestInfo.cpp" />
+    <ClCompile Include="FASTMMI\TSE_FTMExecuteSingleTest.cpp" />
+    <ClCompile Include="FASTMMI\TSE_FTMClearTestResultFile.cpp" />
+    <ClCompile Include="http\TSE_HttpPost.cpp" />
+    <ClCompile Include="http\TSE_HttpPostUploadFile.cpp" />
+    <ClCompile Include="log\TSE_BuildTestLog.cpp" />
+    <ClCompile Include="LYNX_FTM\CJGW_FTM_ClientSocket.cpp" />
+    <ClCompile Include="LYNX_FTM\CJGW_FTM_Json.cpp" />
+    <ClCompile Include="LYNX_FTM\CJGW_FTM_JsonSocket.cpp" />
+    <ClCompile Include="LYNX_FTM\CJGW_FTM_KeyEventResponceVoJson.cpp" />
+    <ClCompile Include="LYNX_FTM\CJGW_FTM_MemoryCardResponceVoJson.cpp" />
+    <ClCompile Include="LYNX_FTM\CJGW_FTM_OTGInfooResponceVoJson.cpp" />
+    <ClCompile Include="LYNX_FTM\CJGW_FTM_QC3InfoResponceVoJson.cpp" />
+    <ClCompile Include="LYNX_FTM\CJGW_FTM_WiFiAPInfoResponceVo.cpp" />
+    <ClCompile Include="LYNX_FTM\TSE_FTM_CheckBreathingLed.cpp" />
+    <ClCompile Include="LYNX_FTM\TSE_FTM_CheckKey.cpp" />
+    <ClCompile Include="LYNX_FTM\TSE_FTM_CheckLEDRGB.cpp" />
+    <ClCompile Include="LYNX_FTM\TSE_FTM_CheckMemoryCard.cpp" />
+    <ClCompile Include="LYNX_FTM\TSE_FTM_CheckSIMDetect.cpp" />
+    <ClCompile Include="LYNX_FTM\TSE_FTM_CheckVersion.cpp" />
+    <ClCompile Include="LYNX_FTM\CJGW_FTM_ClientSocketServer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\TSE_FTM_ConnectSocket.cpp" />
+    <ClCompile Include="LYNX_FTM\TSE_FTM_DisConnectSocket.cpp" />
+    <ClCompile Include="LYNX_FTM\TSE_FTM_GetEth0IPAddress.cpp" />
+    <ClCompile Include="LYNX_FTM\TSE_FTM_HandoverWiFiMode.cpp" />
+    <ClCompile Include="LYNX_FTM\TSE_FTM_JSONCommand.cpp" />
+    <ClCompile Include="LYNX_FTM\CJGW_FTM_SocketResponceVo.cpp" />
+    <ClCompile Include="LYNX_FTM\TSE_FTM_LcdBackLightTest.cpp" />
+    <ClCompile Include="LYNX_FTM\TSE_FTM_LcdColorTest.cpp" />
+    <ClCompile Include="LYNX_FTM\TSE_FTM_MTPTest.cpp" />
+    <ClCompile Include="LYNX_FTM\TSE_FTM_OTGTest.cpp" />
+    <ClCompile Include="LYNX_FTM\TSE_FTM_QC3Test.cpp" />
+    <ClCompile Include="LYNX_FTM\TSE_FTM_TestBase.cpp" />
+    <ClCompile Include="LYNX_FTM\TSE_FTM_WiFiScanAP.cpp" />
+    <ClCompile Include="Modem\TSE_CloseModemPort.cpp" />
+    <ClCompile Include="Modem\TSE_OpenModemPort.cpp" />
+    <ClCompile Include="Modem\TSE_ReadWriteModemPort.cpp" />
+    <ClCompile Include="PUMA\CJGW_DMGRxResult.cpp" />
+    <ClCompile Include="PUMA\TSE_Connect1hotlinkPeraso.cpp" />
+    <ClCompile Include="PUMA\TSE_ConnectDMGPeraso.cpp" />
+    <ClCompile Include="PUMA\TSE_ConnectPeraso.cpp" />
+    <ClCompile Include="PUMA\TSE_DisConnectDMGPeraso.cpp" />
+    <ClCompile Include="PUMA\TSE_DisConnectPeraso.cpp" />
+    <ClCompile Include="PUMA\TSE_DownloadPDBToPeraso.cpp" />
+    <ClCompile Include="PUMA\TSE_InitPDBFileToPeraso.cpp" />
+    <ClCompile Include="PUMA\TSE_PearsoRSSITest.cpp" />
+    <ClCompile Include="PUMA\TSE_PerasoDMGGuCalTest.cpp" />
+    <ClCompile Include="PUMA\TSE_PerasoDMGTRXTest.cpp" />
+    <ClCompile Include="PUMA\TSE_PumaCommand.cpp" />
+    <ClCompile Include="PUMA\TSE_ReadNumberToPeraso.cpp" />
+    <ClCompile Include="PUMA\TSE_ResetPeraso.cpp" />
+    <ClCompile Include="PUMA\TSE_SaveProductScreenLogPeraso.cpp" />
+    <ClCompile Include="PUMA\TSE_WriteNumberToPeraso.cpp" />
+    <ClCompile Include="QCOMM\TSE_QualcommFlashImageDownload.cpp" />
+    <ClCompile Include="QCOMM\TSE_QualcommFlashImageDownloadV2.cpp" />
+    <ClCompile Include="QCOMM\TSE_QualcommQCN.cpp" />
+    <ClCompile Include="QCOMM\TSE_QutsStartTcpServer.cpp" />
+    <ClCompile Include="QCOMM\TSE_QutsStopTcpServer.cpp" />
+    <ClCompile Include="QCOMM\TSE_ReaderQcomSN.cpp" />
+    <ClCompile Include="QCOMM\TSE_ReadQualcommNumber.cpp" />
+    <ClCompile Include="QCOMM\TSE_SettingFTM.cpp" />
+    <ClCompile Include="QCOMM\TSE_SettingQualcommMode.cpp" />
+    <ClCompile Include="QCOMM\TSE_WriteQualcommNumber.cpp" />
+    <ClCompile Include="QCOMM\TSE_WriterQcomSN.cpp" />
+    <ClCompile Include="RFCAL_QSEQ\CJGW_MESQSEQCpkLog.cpp" />
+    <ClCompile Include="RFCAL_QSEQ\CJGW_ParseCPKLogInfo.cpp" />
+    <ClCompile Include="Serial\TSE_CloseSerialComPort.cpp" />
+    <ClCompile Include="Serial\TSE_LongReadWriteSerialComPort.cpp" />
+    <ClCompile Include="Serial\TSE_OpenSerialComPort.cpp" />
+    <ClCompile Include="Serial\TSE_ReadWriteSerialComPort.cpp" />
+    <ClCompile Include="SOCKET\TSE_ConnectAsyncSocket.cpp" />
+    <ClCompile Include="SOCKET\TSE_DisConnectAsyncSocket.cpp" />
+    <ClCompile Include="SOCKET\TSE_ReadWriteSocket.cpp" />
+    <ClCompile Include="SOCKET\TSE_XWGaugeAsyncSocket.cpp" />
+    <ClCompile Include="SSH\TSE_APSReadAPInfo.cpp" />
+    <ClCompile Include="SSH\TSE_BuildAPBinSFTP.cpp" />
+    <ClCompile Include="SSH\TSE_ConnectSFTP.cpp" />
+    <ClCompile Include="SSH\TSE_ConnectSFTPV2.cpp" />
+    <ClCompile Include="SSH\TSE_ConnectSSH.cpp" />
+    <ClCompile Include="SSH\TSE_DisConnectSFTP.cpp" />
+    <ClCompile Include="SSH\TSE_DisConnectSFTPV2.cpp" />
+    <ClCompile Include="SSH\TSE_DisConnectSSH.cpp" />
+    <ClCompile Include="SSH\TSE_ExecSSH.cpp" />
+    <ClCompile Include="SSH\TSE_GetFileSFTP.cpp" />
+    <ClCompile Include="SSH\TSE_GetFileSFTPV2.cpp" />
+    <ClCompile Include="SSH\TSE_GetPerasoMibSSH.cpp" />
+    <ClCompile Include="SSH\TSE_IperfSSHTest.cpp" />
+    <ClCompile Include="SSH\TSE_PostHttpReqRsp.cpp" />
+    <ClCompile Include="SSH\TSE_PutFileSFTP.cpp" />
+    <ClCompile Include="SSH\TSE_PutFileSFTPV2.cpp" />
+    <ClCompile Include="SSH\TSE_ReadAPBinNumber.cpp" />
+    <ClCompile Include="SSH\TSE_ReadAPNumber.cpp" />
+    <ClCompile Include="SSH\TSE_ReadPumasSNSSH.cpp" />
+    <ClCompile Include="SSH\TSE_ReadWriteSSH.cpp" />
+    <ClCompile Include="ssh_scp\TSE_ConnectSSHSCP.cpp" />
+    <ClCompile Include="ssh_scp\TSE_DisConnectSSHSCP.cpp" />
+    <ClCompile Include="ssh_scp\TSE_GetFileSSHSCP.cpp" />
+    <ClCompile Include="ssh_scp\TSE_PutFileSSHSCP.cpp" />
+    <ClCompile Include="THROUGHPUT\TSE_CheckConnectWiFi.cpp" />
+    <ClCompile Include="THROUGHPUT\TSE_CheckThroughputTestResult.cpp" />
+    <ClCompile Include="THROUGHPUT\TSE_ConnectWiFi.cpp" />
+    <ClCompile Include="THROUGHPUT\TSE_DisConnectWiFi.cpp" />
+    <ClCompile Include="THROUGHPUT\TSE_DisConnectWiFiSocket.cpp" />
+    <ClCompile Include="THROUGHPUT\TSE_IperfTest.cpp" />
+    <ClCompile Include="THROUGHPUT\TSE_PerasoSSHRSSITest.cpp" />
+    <ClCompile Include="THROUGHPUT\TSE_ReadLynxAPInfo.cpp" />
+    <ClCompile Include="THROUGHPUT\TSE_RemoteConnectPeraso.cpp" />
+    <ClCompile Include="THROUGHPUT\TSE_RemoteDisConnectPeraso.cpp" />
+    <ClCompile Include="THROUGHPUT\TSE_RemoteShellExecute.cpp" />
+    <ClCompile Include="THROUGHPUT\TSE_RemoteWriteReadPeraso.cpp" />
+    <ClCompile Include="TSE_BuildEnvironmentFile.cpp" />
+    <ClCompile Include="TSE_BuildMESLog.cpp" />
+    <ClCompile Include="TSE_BuildTestLogV2.cpp" />
+    <ClCompile Include="TSE_CheckMAVoltageCurrentPower.cpp" />
+    <ClCompile Include="TSE_CheckSocketPortOpen.cpp" />
+    <ClCompile Include="TSE_CheckUsbDeviceExists.cpp" />
+    <ClCompile Include="TSE_CompareFloat.cpp" />
+    <ClCompile Include="TSE_CompareInt.cpp" />
+    <ClCompile Include="TSE_ComparisonEnvironment.cpp" />
+    <ClCompile Include="TSE_ConsoleAppOperation.cpp" />
+    <ClCompile Include="TSE_ContinousRxCommandFormat.cpp" />
+    <ClCompile Include="TSE_CopyThirdPartyTestLogs.cpp" />
+    <ClCompile Include="TSE_DevicesGlobalResource.cpp" />
+    <ClCompile Include="dllmain.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="QCOMM\TSE_ConnectQcomDiag.cpp" />
+    <ClCompile Include="QCOMM\TSE_DisConnectQocmDiag.cpp" />
+    <ClCompile Include="QCOMM\TSE_ReadQcomNV.cpp" />
+    <ClCompile Include="QCOMM\TSE_SyncQcomNV.cpp" />
+    <ClCompile Include="QCOMM\TSE_WriteQcomNV.cpp" />
+    <ClCompile Include="QCOMM\PacketTranslator.cpp" />
+    <ClCompile Include="RFCAL_QSEQ\TSE_RFCalVFSConfig.cpp" />
+    <ClCompile Include="RFCAL_QSEQ\TSE_RFQualcommInterface.cpp" />
+    <ClCompile Include="RFCAL_QSEQ\sti_export_func_decl.cpp" />
+    <ClCompile Include="RFCAL_QSEQ\TSE_RFCalVFSTest.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TSE_CompareStringList.cpp" />
+    <ClCompile Include="TSE_FindString.cpp" />
+    <ClCompile Include="TSE_FormatMACAddress.cpp" />
+    <ClCompile Include="TSE_GetComputerName.cpp" />
+    <ClCompile Include="TSE_GetFileName.cpp" />
+    <ClCompile Include="TSE_GetIPQVersion.cpp" />
+    <ClCompile Include="TSE_GetUsbPort.cpp" />
+    <ClCompile Include="TSE_JsonParse.cpp" />
+    <ClCompile Include="TSE_MessageBox.cpp" />
+    <ClCompile Include="TSE_MicroAmmeterRW.cpp" />
+    <ClCompile Include="TSE_ParseContinousRxResult.cpp" />
+    <ClCompile Include="TSE_PrintInfo.cpp" />
+    <ClCompile Include="TSE_RecordTestTimeLog.cpp" />
+    <ClCompile Include="TSE_RFConfigFormat.cpp" />
+    <ClCompile Include="TSE_SaveMESLog.cpp" />
+    <ClCompile Include="TSE_SearchStringRegex.cpp" />
+    <ClCompile Include="TSE_SendPipeCommand.cpp" />
+    <ClCompile Include="TSE_SendRecvWindowMessage.cpp" />
+    <ClCompile Include="TSE_SingleToneTxFormat.cpp" />
+    <ClCompile Include="TSE_Sleep.cpp" />
+    <ClCompile Include="TSE_SplitString.cpp" />
+    <ClCompile Include="TSE_StringToIEE754Float.cpp" />
+    <ClCompile Include="TSE_WriteGuData.cpp" />
+    <ClCompile Include="UC600AA\TSE_ReadStringNVX20.cpp" />
+    <ClCompile Include="UC600AA\TSE_WriteStringNVX20.cpp" />
+    <ClCompile Include="WIFI\TSE_WiFiCalVFSTest.cpp" />
+    <ClCompile Include="WINDOW\TSE_InputWindows.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,40 @@
+<testsuites>
+	<testsuite name="ProductScreen">
+		<testcase classname="1" name="falcon_efuse_program">
+		</testcase>
+		<testcase classname="2" name="falcon_dcdc11">
+		</testcase>
+		<testcase classname="3" name="falcon_dcdc12">
+		</testcase>
+		<testcase classname="4" name="falcon_dac_vdd12">
+		</testcase>
+		<testcase classname="5" name="falcon_dac_vdd25">
+		</testcase>
+		<testcase classname="6" name="falcon_adc_vdd11">
+		</testcase>
+		<testcase classname="7" name="quetzal_v1p2_tx">
+		</testcase>
+		<testcase classname="8" name="quetzal_v1p8_pa">
+		</testcase>
+		<testcase classname="9" name="quetzal_pll_lock">
+		</testcase>
+		<testcase classname="10" name="quetzal_local_success">
+		</testcase>
+		<testcase classname="11" name="loopback_fixedgain_pow">
+		</testcase>
+		<testcase classname="12" name="temp_txrxon_pcb">
+		</testcase>
+		<testcase classname="13" name="temp_txrxon_radio">
+		</testcase>
+		<testcase classname="14" name="temp_txrxon_falcon">
+		</testcase>
+		<testcase classname="15" name="loopback_refh40_outpow">
+		</testcase>
+		<testcase classname="16" name="loopback_refh40_iqerr">
+		</testcase>
+		<testcase classname="17" name="loopback_refh40_imrr">
+		</testcase>
+		<testcase classname="18" name="loopback_bbagc_failcnt">
+		</testcase>
+	</testsuite>
+</testsuites>

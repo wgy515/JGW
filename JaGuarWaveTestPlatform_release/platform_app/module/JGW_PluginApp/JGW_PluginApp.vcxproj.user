@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>{"stationid":"003","clsid":"JGW::CCPEMultiDownloadPluginView","viewloader_id":"2","module_folder":"R100_IQ\\Download","name":"CPEMultiDownloadPlugin.dll","station_name":"多路下载","image_id":"0","suite_name":"download_suite.xml","MainWindow":"3017768","MES_MODEL":"0","PluginAppID":"1"}</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

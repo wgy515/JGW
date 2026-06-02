@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!--Window sizebox="4,4,6,6" caption="0,0,0,30" mininfo="450,300" roundcorner="3,3,3,3"-->
+<Window>
+	<VerticalLayout inset="5,5,5,5">
+		<HorizontalLayout height="30">
+			<Edit bkcolor="#ffa4a0a0" readonly="true" name="" padding="0,2,0,2" text="1" align="center" width="30" enabled="true" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+			<Control enabled="true" width="5"/>
+			<Progress name="" padding="0,2,0,2" enabled="true" height="26" bkimage="file=&apos;slider_bg.png&apos; corner=&apos;15,5,15,5&apos;" foreimage="file='progress_fore.png'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="300" value="100" hor="true" />
+			<!-- <Control enabled="true" width="5"/>
+			<Button name="" text="Start" padding="0,2,0,2" font="10" width="60" enabled="true" textcolor="#ffff00" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;button_nor_show.png&apos;corner='5,5,5,5'; " hotimage=" file=&apos;button_nor_show.png&apos;corner='5,5,5,5'; " pushedimage=" file=&apos;button_down.bmp&apos;corner='5,5,5,5';" focusedimage=" file=&apos;Button_Hot.png&apos;corner='5,5,5,5'; " disabledimage=" file=&apos;disable_btn.png&apos;corner='5,5,5,5'; " tooltip="" /> -->
+		</HorizontalLayout>
+		<HorizontalLayout height="42" >
+			<Label text="IDLE" font="5" name="" width="120" enabled="true" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+			<Text name="" text="" font="1" tipvalue=""  enabled="true" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"  maxchar="9000"  align="right" endellipsis="true" vscrollbar="true" readonly="true" hscrollbar="false" multiline="true" autohscroll="false" autovscroll="true"/>
+			<!-- <Label text="192.168.1.5 - 本地连接 4" font="1" name="" enabled="true" bkcolor="#ffffffa0"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="left" /> -->
+		</HorizontalLayout>
+		<HorizontalLayout>
+			<RichEdit name="" text="" font="1" tipvalue="" readonly="true"  enabled="true"  bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"  maxchar="9000"  align="left" vscrollbar="true" hscrollbar="false" multiline="true" autohscroll="false" autovscroll="true"/>
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>

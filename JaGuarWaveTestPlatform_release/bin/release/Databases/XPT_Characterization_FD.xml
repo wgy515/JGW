@@ -1,0 +1,1380 @@
+<?xml version="1.0"?>
+<FormatDescriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1">
+  <OutputGroupSet name="RGI Bias Char Plots" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="Compression Vs RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="PA Bias">
+              <Discriminator id="BW" optional="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="RGI" />
+        <Result resID="Compression dB" testID="XPT_Characterization" name="Compression">
+          <Discriminator id="RGI">
+            <Filter id="Compression dB" value="&gt;-999" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="TxPwr Vs RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="PA Bias">
+              <Discriminator id="BW" optional="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="TxPower_RgiBias" testID="XPT_Characterization" name="TxPwr">
+          <Discriminator id="RGI" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="ACLR Utra1 Vs RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="PA Bias">
+              <Discriminator id="BW" optional="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="AclrNeg1_RgiBias" testID="XPT_Characterization" name="ACLRNeg1">
+          <Discriminator id="RGI" />
+        </Result>
+        <Result resID="AclrPos1_RgiBias" testID="XPT_Characterization" name="ACLRPos1">
+          <Discriminator id="RGI" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="ACLR Utra2 Vs RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="PA Bias">
+              <Discriminator id="BW" optional="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="AclrNeg2_RgiBias" testID="XPT_Characterization" name="ACLRNeg2">
+          <Discriminator id="RGI" />
+        </Result>
+        <Result resID="AclrPos2_RgiBias" testID="XPT_Characterization" name="ACLRPos2">
+          <Discriminator id="RGI" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="ACLR EUtra Vs RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="PA Bias">
+              <Discriminator id="BW" optional="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="AclrEutraNeg_RgiBias" testID="XPT_Characterization" name="ACLREutraNeg">
+          <Discriminator id="RGI" />
+        </Result>
+        <Result resID="AclrEutraPos_RgiBias" testID="XPT_Characterization" name="ACLREutraPos">
+          <Discriminator id="RGI" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="RGI Bias Char Tables" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="RGI Bias Char Measurements Table" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UUT ID" />
+      <IndexedParam index="2" id="Technology" />
+      <IndexedParam index="3" id="Band" />
+      <IndexedParam index="4" id="PA State" />
+      <IndexedParam index="5" id="Channel" />
+      <IndexedParam index="6" id="PaBias_RgiBiasChar" />
+      <Result resID="Rgi_RgiBiasChar" testID="XPT_Characterization">
+        <Discriminator id="UUT ID">
+          <Discriminator id="Channel">
+            <Discriminator id="PaBias_RgiBiasChar" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="Power Char Max Power" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="Bias Yielding Max Power" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="Target Power" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Vdd_Max mV" testID="XPT_Characterization">
+          <Discriminator id="Compression dB" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Power Char M-Line" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="M-Line Plots" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="Compression Pt" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Output Pwr" testID="XPT_Characterization">
+          <Discriminator id="PA Bias" />
+          <Discriminator id="RGI" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Power Char Full Table" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="Full Table Plots" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="Compression dB" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Max Power dB" testID="XPT_Characterization">
+          <Discriminator id="Bias mV" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Power Char RGI Delta" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="RGI Delta Plots" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="PA Bias" />
+            <Discriminator id="PA State" />
+            <Discriminator id="IQ Gain" />
+            <Discriminator id="Env Scale" />
+            <Discriminator id="PA Current" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Meas Pwr" testID="XPT_Characterization">
+          <Discriminator id="RGI" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="APT Char Plots" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="TxPwr Vs RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="PA State">
+            <Discriminator id="Channel">
+              <Discriminator id="PA Bias" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="TxPwr_APTChar" testID="XPT_Characterization" name="TxPwr">
+          <Discriminator id="RGI" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="ACLR1 Vs RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="PA State">
+            <Discriminator id="Channel">
+              <Discriminator id="PA Bias" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="ACLRNeg1_APTChar" testID="XPT_Characterization" name="ACLRNeg1">
+          <Discriminator id="RGI" />
+        </Result>
+        <Result resID="ACLRPos1_APTChar" testID="XPT_Characterization" name="ACLRPos1">
+          <Discriminator id="RGI" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="ACLR2 Vs RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="PA State">
+            <Discriminator id="Channel">
+              <Discriminator id="PA Bias" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="ACLRNeg2_APTChar" testID="XPT_Characterization" name="ACLRNeg2">
+          <Discriminator id="RGI" />
+        </Result>
+        <Result resID="ACLRPos2_APTChar" testID="XPT_Characterization" name="ACLRPos2">
+          <Discriminator id="RGI" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  <OutputGroupDescriptor_Lin name="IM3 Vs RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="PA State">
+            <Discriminator id="Channel">
+              <Discriminator id="PA Bias" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="NegE-IM3_APTChar" testID="XPT_Characterization" name="IM3_Neg">
+          <Discriminator id="RGI" />
+        </Result>
+        <Result resID="PosE-IM3_APTChar" testID="XPT_Characterization" name="IM3_Pos">
+          <Discriminator id="RGI" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="IM5 Vs RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="PA State">
+            <Discriminator id="Channel">
+              <Discriminator id="PA Bias" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="NegE-IM5_APTChar" testID="XPT_Characterization" name="IM5_Neg">
+          <Discriminator id="RGI" />
+        </Result>
+        <Result resID="PosE-IM5_APTChar" testID="XPT_Characterization" name="IM5_Pos">
+          <Discriminator id="RGI" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="E-UTRA_ACLR Vs RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="PA State">
+            <Discriminator id="Channel">
+              <Discriminator id="PA Bias" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="PosE-UTRA_APTChar" testID="XPT_Characterization" name="E-UTRA_Pos">
+          <Discriminator id="RGI" />
+        </Result>
+        <Result resID="NegE-UTRA_APTChar" testID="XPT_Characterization" name="E-UTRA_Neg">
+          <Discriminator id="RGI" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="APT Pout Char Plots" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="TxPwr Vs RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="PA State">
+            <Discriminator id="Channel">
+              <Discriminator id="PA Bias" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Temperature" />
+        <Result resID="TxPwr_APTPout" testID="XPT_Characterization" name="TxPwr">
+          <Discriminator id="RGI" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="XPT Pin Pout Char Plots" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="RGI Delta Sweep: TxPower vs RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="PA Bias">
+              <Discriminator id="IQ Gain" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Temperature" />
+        <Result resID="TxPower_RgiDeltaSwp" testID="XPT_Characterization">
+          <Discriminator id="RGI" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="RGI Delta Sweep: ACLR vs RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="PA Bias">
+              <Discriminator id="IQ Gain" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Temperature" />
+        <Result resID="AclrNeg1_RgiDeltaSwp" testID="XPT_Characterization" name="ACLRNeg1">
+          <Discriminator id="RGI" />
+        </Result>
+        <Result resID="AclrPos1_RgiDeltaSwp" testID="XPT_Characterization" name="ACLRPos1">
+          <Discriminator id="RGI" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="RGI Determination Sweep: TxPower vs RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="PA Bias">
+              <Discriminator id="IQ Gain" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Temperature" />
+        <Result resID="TxPower_RgiDetSwp" testID="XPT_Characterization">
+          <Discriminator id="RGI" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="RGI Determination Sweep: ACLR vs RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="PA Bias">
+              <Discriminator id="IQ Gain" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Temperature" />
+        <Result resID="AclrNeg1_RgiDetSwp" testID="XPT_Characterization" name="ACLRNeg1">
+          <Discriminator id="RGI" />
+        </Result>
+        <Result resID="AclrPos1_RgiDetSwp" testID="XPT_Characterization" name="ACLRPos1">
+          <Discriminator id="RGI" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="Pin Characterization" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Temperature" />
+        <Result resID="Pin_SPinPoutAlign" testID="XPT_Characterization">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="Pout Characterization" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Temperature" />
+        <Result resID="Pout_SPinPoutAlign" testID="XPT_Characterization">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="Aclr_SPinPoutAlign" testID="XPT_Characterization" axisIndex="2">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="IQ Gain Sweep" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State">
+            <Discriminator id="Temperature" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel" />
+        <Result resID="AclrNeg1_FreqCompSwp" testID="XPT_Characterization" name="ACLRNeg1">
+          <Discriminator id="IQ Gain" />
+        </Result>
+        <Result resID="AclrPos1_FreqCompSwp" testID="XPT_Characterization" name="ACLRPos1">
+          <Discriminator id="IQ Gain" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="XPT Pin Pout Char Tables" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="XPT Pin Measurements Table" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UUT ID" />
+      <IndexedParam index="2" id="Technology" />
+      <IndexedParam index="3" id="Band" />
+      <IndexedParam index="4" id="Channel" />
+      <IndexedParam index="5" id="PA State" />
+      <IndexedParam index="6" id="Therm ADC" />
+      <Result resID="Pin_SPinPoutAlign" testID="XPT_Characterization">
+        <Discriminator id="UUT ID">
+          <Discriminator id="Band">
+            <Discriminator id="PA State">
+              <Discriminator id="Channel">
+                <Discriminator id="Therm ADC" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+    <CondensedSummaryDescriptor name="XPT Pout Measurements Table" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UUT ID" />
+      <IndexedParam index="2" id="Technology" />
+      <IndexedParam index="3" id="Band" />
+      <IndexedParam index="4" id="Channel" />
+      <IndexedParam index="5" id="PA State" />
+      <IndexedParam index="6" id="Therm ADC" />
+      <Result resID="Pout_SPinPoutAlign" testID="XPT_Characterization">
+        <Discriminator id="UUT ID">
+          <Discriminator id="Band">
+            <Discriminator id="PA State">
+              <Discriminator id="Channel">
+                <Discriminator id="Therm ADC" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="Static Pin Pout Char NV Plots" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="Pin Characterization NV Data" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="PA State" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Therm Bin" />
+        <Result resID="Pin_NV" testID="XPT_Process_Char_Measurements" name="Pin_NV">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="Pout Characterization NV Data" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="PA State" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Therm Bin" />
+        <Result resID="Pout_NV" testID="XPT_Process_Char_Measurements" name="Pout_NV">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Static Pin Pout Char NV Tables" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="XPT Static Pin NV Data Table" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UUT ID" />
+      <IndexedParam index="2" id="Technology" />
+      <IndexedParam index="3" id="Band" />
+      <IndexedParam index="4" id="PA State" />
+      <IndexedParam index="5" id="Therm Bin" />
+      <IndexedParam index="6" id="Channel" />
+      <Result resID="Pin_NV" testID="XPT_Process_Char_Measurements">
+        <Discriminator id="Technology">
+          <Discriminator id="Band">
+            <Discriminator id="PA State">
+              <Discriminator id="Therm Bin">
+                <Discriminator id="Channel" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+    <CondensedSummaryDescriptor name="XPT Static Pout NV Data Table" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UUT ID" />
+      <IndexedParam index="2" id="Technology" />
+      <IndexedParam index="3" id="Band" />
+      <IndexedParam index="4" id="PA State" />
+      <IndexedParam index="5" id="Therm Bin" />
+      <IndexedParam index="6" id="Channel" />
+      <Result resID="Pout_NV" testID="XPT_Process_Char_Measurements">
+        <Discriminator id="Technology">
+          <Discriminator id="Band">
+            <Discriminator id="PA State">
+              <Discriminator id="Therm Bin">
+                <Discriminator id="Channel" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="XPT ACLR Delay Char Plots" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="TxPower vs Delay" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" value="!=LTE">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State">
+            <Discriminator id="Channel">
+              <Discriminator id="PA Bias" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <Discriminator id="Technology" value="=LTE">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Bandwidth">
+            <Discriminator id="PA State">
+              <Discriminator id="Channel">
+                <Discriminator id="PA Bias" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Temperature" />
+        <Result resID="TxPower_DelayChar" testID="XPT_Characterization">
+          <Discriminator id="Delay" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="UTRA1 ACLR vs Delay" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" value="!=LTE">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State">
+            <Discriminator id="Channel">
+              <Discriminator id="PA Bias" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <Discriminator id="Technology" value="=LTE">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Bandwidth">
+            <Discriminator id="PA State">
+              <Discriminator id="Channel">
+                <Discriminator id="PA Bias" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Temperature" />
+        <Result resID="AclrNeg1_DelayChar" testID="XPT_Characterization" name="ACLRNeg1">
+          <Discriminator id="Delay" />
+        </Result>
+        <Result resID="AclrPos1_DelayChar" testID="XPT_Characterization" name="ACLRPos1">
+          <Discriminator id="Delay" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="UTRA2 ACLR vs Delay" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" value="!=LTE">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State">
+            <Discriminator id="Channel">
+              <Discriminator id="PA Bias" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <Discriminator id="Technology" value="=LTE">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Bandwidth">
+            <Discriminator id="PA State">
+              <Discriminator id="Channel">
+                <Discriminator id="PA Bias" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Temperature" />
+        <Result resID="AclrNeg2_DelayChar" testID="XPT_Characterization" name="ACLRNeg2">
+          <Discriminator id="Delay" />
+        </Result>
+        <Result resID="AclrPos2_DelayChar" testID="XPT_Characterization" name="ACLRPos2">
+          <Discriminator id="Delay" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="EUTRA ACLR vs Delay" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" value="!=LTE">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State">
+            <Discriminator id="Channel">
+              <Discriminator id="PA Bias" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <Discriminator id="Technology" value="=LTE">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Bandwidth">
+            <Discriminator id="PA State">
+              <Discriminator id="Channel">
+                <Discriminator id="PA Bias" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Temperature" />
+        <Result resID="AclrNegEUtra_DelayChar" testID="XPT_Characterization" name="ACLRNegEutra">
+          <Discriminator id="Delay" />
+        </Result>
+        <Result resID="AclrPosEUtra_DelayChar" testID="XPT_Characterization" name="ACLRPosEutra">
+          <Discriminator id="Delay" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="Delay vs Channel" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" value="!=LTE">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State" />
+        </Discriminator>
+      </Discriminator>
+      <Discriminator id="Technology" value="=LTE">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Bandwidth">
+            <Discriminator id="PA State" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Temperature" />
+        <Result resID="Selected Delay" testID="XPT_Characterization">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="XPT Firmware Delay Char Plots" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="Delay vs Channel" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" value="!=LTE">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State" />
+        </Discriminator>
+        <Discriminator id="Technology" value="=LTE">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="LTE Bandwidth">
+              <Discriminator id="PA State" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Temperature" />
+        <Result resID="Delay_FW" testID="XPT_Characterization">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="XPT Delay Char NV Plots" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="Delay Characterization NV Data" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" value="!=LTE">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State" />
+        </Discriminator>
+        <Discriminator id="Technology" value="=LTE">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="LTE Bandwidth">
+              <Discriminator id="PA State" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Therm Bin" />
+        <Result resID="Delay_Offset" testID="XPT_Process_Char_Measurements" name="Delay Offset">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="XPT Delay Char NV Tables" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="XPT Delay Char NV Table" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UUT ID" />
+      <IndexedParam index="2" id="Technology" />
+      <IndexedParam index="3" id="Band" />
+      <IndexedParam index="4" id="LTE Bandwidth" />
+      <IndexedParam index="5" id="PA State" />
+      <IndexedParam index="6" id="Therm Bin" />
+      <IndexedParam index="7" id="Channel" />
+      <Result resID="Delay_Offset" testID="XPT_Process_Char_Measurements">
+        <Discriminator id="Technology">
+          <Discriminator id="Band">
+            <Discriminator id="LTE Bandwidth">
+              <Discriminator id="PA State">
+                <Discriminator id="Therm Bin">
+                  <Discriminator id="Channel" />
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="FBRX Char RxScale Sweep" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="Power Vs LSE" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="UUT ID">
+        <Discriminator id="Technology">
+          <Discriminator id="Band">
+            <Discriminator id="Channel">
+              <Discriminator id="FBRX Mode">
+                <Discriminator id="FBRX GainState" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Temperature" />
+        <Result resID="RxScaleSweep LSE" testID="XPT_Characterization" name="LSE" sort="true">
+          <Discriminator id="Rx Scale" />
+        </Result>
+        <Result resID="RxScaleSweep FBGain" testID="XPT_Characterization" name="FBGainEst" sort="true">
+          <Discriminator id="Rx Scale" />
+        </Result>
+        <Result resID="RxScaleSweep Residual FBRx DC" testID="XPT_Characterization" name="ResDC" sort="true">
+          <Discriminator id="Rx Scale" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="FBRX Char LSE Verification Sweep" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="Power Vs LSE_FBGain_ResDC" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="UUT ID">
+        <Discriminator id="Technology">
+          <Discriminator id="Band">
+            <Discriminator id="Channel">
+              <Discriminator id="FBRX Mode">
+                <Discriminator id="FBRX GainState" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" min="0" max="20000" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Temperature" />
+        <Result resID="LSE" testID="XPT_Characterization" name="LSE" sort="true">
+          <Discriminator id="Power" />
+        </Result>
+        <Result resID="FBGain" testID="XPT_Characterization" name="FBGainEst" sort="true">
+          <Discriminator id="Power" />
+        </Result>
+        <Result resID="Residual FBRx DC" testID="XPT_Characterization" name="ResDC" sort="true">
+          <Discriminator id="Power" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="LSE_FBGain_Flatness" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="UUT ID">
+        <Discriminator id="Technology">
+          <Discriminator id="Band">
+            <Discriminator id="Channel">
+              <Discriminator id="FBRX Mode">
+                <Discriminator id="FBRX GainState" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" min="-0.5" max="0.5" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Temperature" />
+        <Result resID="FBGainDelta_dB (from Cal point)" testID="XPT_Characterization" name="FBGainDelta" sort="true">
+          <Discriminator id="Power" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="FBRX Char Power Freq Comp" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="Channel Vs Power to Gain Offset" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="UUT ID">
+        <Discriminator id="Technology">
+          <Discriminator id="Band">
+            <Discriminator id="FBRX Mode">
+              <Discriminator id="FBRX GainState" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Temperature" />
+        <Result resID="Power to Gain Offset" testID="XPT_Characterization" name="Power to Gain Offset" sort="true">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="Channel Vs Power" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="UUT ID">
+        <Discriminator id="Technology">
+          <Discriminator id="Band">
+            <Discriminator id="FBRX Mode">
+              <Discriminator id="FBRX GainState" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Temperature" />
+        <Result resID="POWER_FreqComp" testID="XPT_Characterization" name="FBGain Freq Compensation" sort="true">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="FBRX Char LSE And FBGain Freq Comp" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="Channel Vs LSE_FBGain" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="UUT ID">
+        <Discriminator id="Technology">
+          <Discriminator id="Band">
+            <Discriminator id="FBRX Mode">
+              <Discriminator id="FBRX GainState" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Temperature" />
+        <Result resID="FBGain FreqComp" testID="XPT_Characterization" name="FBGain Freq Compensation" sort="true">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="lSE FreqComp" testID="XPT_Characterization" name="LSE Freq Compensation" sort="true">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="FBRX NV Plots" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="FBRX Characterization NV Data" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="UUTID">
+        <Discriminator id="Technology">
+          <Discriminator id="Band">
+            <Discriminator id="FBRXMode">
+              <Discriminator id="FBRXGainState" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Therm Bin" />
+        <Result resID="FBRX_NV" testID="XPT_Process_Char_Measurements" name="FBRX Offset">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="FBRX Process Input Data" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="FBRX Characterization Input Data" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="UUTID">
+        <Discriminator id="Technology">
+          <Discriminator id="Band">
+            <Discriminator id="FBRXMode">
+              <Discriminator id="FBRXGainState" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Therm ADC" />
+        <Result resID="Tx Power" testID="XPT_Process_Char_Measurements" name="FBRX RAW Data">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="FBRX Process Interpolated Data" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="FBRX Characterization Interpolated Data" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="UUTID">
+        <Discriminator id="Technology">
+          <Discriminator id="Band">
+            <Discriminator id="FBRXMode">
+              <Discriminator id="FBRXGainState" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Therm Bin" />
+        <Result resID="TxI Power" testID="XPT_Process_Char_Measurements" name="FBRX RAW Data">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Char Duration Tables" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="Char Duration Measurements Table" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UUT ID" />
+      <IndexedParam index="2" id="Technology" />
+      <IndexedParam index="3" id="Band" />
+      <IndexedParam index="4" id="Char Type" />
+      <Result resID="Char Duration (sec)" testID="XPT_Characterization">
+        <Discriminator id="UUT ID">
+          <Discriminator id="Char Type" />
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="XPT Delay Vs Firmware Delay Char Tables" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="XPT Delay Vs Firmware Delay Char Measurements Table" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UUT ID" />
+      <IndexedParam index="2" id="Technology" />
+      <IndexedParam index="3" id="Band" />
+      <IndexedParam index="4" id="PA State" />
+      <IndexedParam index="5" id="Channel" />
+      <IndexedParam index="6" id="Bandwidth" />
+      <IndexedParam index="7" id="XPT Based Delay" />
+      <IndexedParam index="8" id="Firmware Based Delay" />
+      <Result resID="Delay Error" testID="XPT_Characterization">
+        <Discriminator id="UUT ID">
+          <Discriminator id="Channel">
+            <Discriminator id="Bandwidth" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="AMAM Vs ACLR Based Char Tables" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="AMAM Vs ACLR Based Char Measurements Table" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UUT ID" />
+      <IndexedParam index="2" id="Technology" />
+      <IndexedParam index="3" id="Band" />
+      <IndexedParam index="4" id="PA State" />
+      <IndexedParam index="5" id="Channel" />
+      <IndexedParam index="6" id="AMAM Based Normalized Pin" />
+      <IndexedParam index="7" id="ACLR Based Normalized Pin" />
+      <Result resID="Pin Error" testID="XPT_Characterization">
+        <Discriminator id="UUT ID">
+          <Discriminator id="PA State">
+            <Discriminator id="Channel" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="FBRx Droop Char" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="Power (dBm) vs RB" IsChecked="True" IsForPPTChecked="True" sort="true">
+      <Discriminator id="BW (MHz)">
+        <Discriminator id="Channel">
+          <Discriminator id="Num_RB" value="1" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="Power (dBm)" testID="XPT_Characterization" name="Power (dBm)" sort="true">
+          <Discriminator id="RB position" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="FBGain vs RB" IsChecked="True" IsForPPTChecked="True" sort="true">
+      <Discriminator id="BW (MHz)">
+        <Discriminator id="Channel">
+          <Discriminator id="Num_RB" value="1" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="FBGain" testID="XPT_Characterization" name="FBGain" sort="true">
+          <Discriminator id="RB position" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="PowerToGainOffset vs RB" IsChecked="True" IsForPPTChecked="True" sort="true">
+      <Discriminator id="BW (MHz)">
+        <Discriminator id="Channel">
+          <Discriminator id="Num_RB" value="1" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="Power to Gain Offset" testID="XPT_Characterization" name="PowerToGainOffset" sort="true">
+          <Discriminator id="RB position" />
+        </Result>
+        <Result resID="Power to Gain Offset (Freq Comp Adjusted)" testID="XPT_Characterization" name="PowerToGainOffset(Freq Comp Adjusted)" axisIndex="2" sort="true">
+          <Discriminator id="RB position" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Fast Pin Pout Char Plots" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="Pin vs Channel" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Sub-Band">
+            <Discriminator id="PA State" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="Pin" testID="XPT_Characterization" name="Pin">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="Pout vs Channel" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Sub-Band">
+            <Discriminator id="PA State" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="Tx Power" testID="XPT_Characterization" name="Tx Power">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="ACLR vs Channel (UTRA1 Neg)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Sub-Band">
+            <Discriminator id="PA State" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="ACLR UTRA1 Neg" testID="XPT_Characterization" name="UTRA1 ACLR Neg">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="ACLR vs Channel (UTRA1 Pos)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Sub-Band">
+            <Discriminator id="PA State" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="ACLR UTRA1 Pos" testID="XPT_Characterization" name="UTRA1 ACLR Pos">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="ACLR vs Channel (UTRA2 Neg)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Sub-Band">
+            <Discriminator id="PA State" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="ACLR UTRA2 Neg" testID="XPT_Characterization" name="UTRA2 ACLR Neg">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="ACLR vs Channel (UTRA2 Pos)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Sub-Band">
+            <Discriminator id="PA State" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="ACLR UTRA2 Pos" testID="XPT_Characterization" name="UTRA2 ACLR Pos">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="ACLR vs Channel (E-UTRA Neg for LTE)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" value="LTE">
+        <Discriminator id="Band">
+          <Discriminator id="Sub-Band">
+            <Discriminator id="PA State" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="ACLR EUTRA Neg" testID="XPT_Characterization" name="ACLR Neg">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="ACLR vs Channel (E-UTRA Pos for LTE)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" value="LTE">
+        <Discriminator id="Band">
+          <Discriminator id="Sub-Band">
+            <Discriminator id="PA State" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="ACLR EUTRA Pos" testID="XPT_Characterization" name="E-UTRA ACLR Pos">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Fast Pin Pout Char - Pin Table" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="Pin Table" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="Technology" />
+      <IndexedParam index="2" id="Band" />
+      <IndexedParam index="3" id="Sub Band" />
+      <IndexedParam index="4" id="PA State" />
+      <IndexedParam index="5" id="PA Bias" />
+      <IndexedParam index="6" id="Channel" />
+      <IndexedParam index="7" id="Thermistor ADC" />
+      <IndexedParam index="8" id="RGI" />
+      <Result resID="Pin" testID="XPT_Characterization" name="Pin">
+        <Discriminator id="Technology">
+          <Discriminator id="Band">
+            <Discriminator id="PA State">
+              <Discriminator id="Channel" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="Fast Pin Pout Char - Pout Table" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="Pout Table" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="Technology" />
+      <IndexedParam index="2" id="Band" />
+      <IndexedParam index="3" id="Sub Band" />
+      <IndexedParam index="4" id="PA State" />
+      <IndexedParam index="5" id="PA Bias" />
+      <IndexedParam index="6" id="Channel" />
+      <IndexedParam index="7" id="Thermistor ADC" />
+      <IndexedParam />
+      <Result resID="Tx Power" testID="XPT_Characterization" name="Pout">
+        <Discriminator id="Technology">
+          <Discriminator id="Band">
+            <Discriminator id="PA State">
+              <Discriminator id="Channel" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="Fast Pin Pout Char - ACLR Table" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="ACLR Table" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="Technology" />
+      <IndexedParam index="2" id="Band" />
+      <IndexedParam index="3" id="Sub Band" />
+      <IndexedParam index="4" id="PA State" />
+      <IndexedParam index="5" id="PA Bias" />
+      <IndexedParam index="6" id="Channel" />
+      <IndexedParam index="7" id="Thermistor ADC" />
+      <IndexedParam />
+      <Result resID="ACLR UTRA1 Neg" testID="XPT_Characterization" name="ACLR UTRA1 Neg">
+        <Discriminator id="Technology">
+          <Discriminator id="Band">
+            <Discriminator id="PA State">
+              <Discriminator id="Channel" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="ACLR UTRA1 Pos" testID="XPT_Characterization" name="ACLR UTRA1 Pos">
+        <Discriminator id="Technology">
+          <Discriminator id="Band">
+            <Discriminator id="PA State">
+              <Discriminator id="Channel" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="ACLR UTRA2 Neg" testID="XPT_Characterization" name="ACLR UTRA2 Neg">
+        <Discriminator id="Technology">
+          <Discriminator id="Band">
+            <Discriminator id="PA State">
+              <Discriminator id="Channel" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="ACLR UTRA2 Pos" testID="XPT_Characterization" name="ACLR UTRA2 Pos">
+        <Discriminator id="Technology">
+          <Discriminator id="Band">
+            <Discriminator id="PA State">
+              <Discriminator id="Channel" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="ACLR EUTRA Neg" testID="XPT_Characterization" name="ACLR EUTRA Neg">
+        <Discriminator id="Technology">
+          <Discriminator id="Band">
+            <Discriminator id="PA State">
+              <Discriminator id="Channel" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="ACLR EUTRA Pos" testID="XPT_Characterization" name="ACLR EUTRA Pos">
+        <Discriminator id="Technology">
+          <Discriminator id="Band">
+            <Discriminator id="PA State">
+              <Discriminator id="Channel" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <GroupCharts>false</GroupCharts>
+  <PPTGroupsList />
+  <GlobalParameterList />
+  <ExpressionList />
+  <GlobalExcelDisplayProperties />
+</FormatDescriptor>

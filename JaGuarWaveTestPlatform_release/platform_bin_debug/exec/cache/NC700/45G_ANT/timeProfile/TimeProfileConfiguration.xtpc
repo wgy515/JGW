@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QSEQTimeProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Configurations>
+		<Configuration name="default">
+			<Tech name="LTE" enabled="true">
+				<MatchAttributeSets>
+					<MatchAttributeSet enabled="true" description="Handover Band Configure">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">50</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">50</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,2DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,3DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="2ULCA,2DLCA">100</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>LTE_BAND</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Handover Channel Only Configure">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">30</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">30</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,2DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,3DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="2ULCA,2DLCA">100</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>LTE_OPT_CHANNEL|LTE_DL_CHANNEL|LTE_UL_CHANNEL</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>LTE_BAND</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Change in Bandwidth">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">10</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">10</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,2DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,3DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="2ULCA,2DLCA">100</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>LTE_CH_BANDWIDTH</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>LTE_BAND</ExclusiveAttribute>
+							<ExclusiveAttribute>LTE_OPT_CHANNEL</ExclusiveAttribute>
+							<ExclusiveAttribute>LTE_DL_CHANNEL</ExclusiveAttribute>
+							<ExclusiveAttribute>LTE_UL_CHANNEL</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="UL Power Configure Only">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">10</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">10</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,2DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,3DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="2ULCA,2DLCA">100</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>LTE_UL_POWER</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>LTE_PUSCH_RB_START</ExclusiveAttribute>
+							<ExclusiveAttribute>LTE_PUSCH_RB_NUMBER_OF</ExclusiveAttribute>
+							<ExclusiveAttribute>LTE_MODULATION_TYPE</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="RB or Modulation Configure">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">10</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">10</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,2DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,3DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="2ULCA,2DLCA">100</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>LTE_PUSCH_RB_START|LTE_PUSCH_RB_NUMBER_OF|LTE_MODULATION_TYPE</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Measure All">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">25</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">25</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,2DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,3DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="2ULCA,2DLCA">100</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>LTE_MEAS_UL_POWER</InclusiveAttribute>
+							<InclusiveAttribute>LTE_MEAS_TX_EVM</InclusiveAttribute>
+							<InclusiveAttribute>LTE_MEAS_SEM</InclusiveAttribute>
+							<InclusiveAttribute>LTE_MEAS_OBW</InclusiveAttribute>
+							<InclusiveAttribute>LTE_MEAS_ACLR</InclusiveAttribute>
+							<InclusiveAttribute>LTE_MEAS_TX_SPECFLATNESS</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Measure Modulation">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">20</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">20</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,2DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,3DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="2ULCA,2DLCA">100</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>LTE_MEAS_UL_POWER</InclusiveAttribute>
+							<InclusiveAttribute>LTE_MEAS_TX_EVM</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>LTE_MEAS_SEM</ExclusiveAttribute>
+							<ExclusiveAttribute>LTE_MEAS_OBW</ExclusiveAttribute>
+							<ExclusiveAttribute>LTE_MEAS_ACLR</ExclusiveAttribute>
+							<ExclusiveAttribute>LTE_MEAS_TX_SPECFLATNESS</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Measure Modulation and Spectrum">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">20</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">20</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,2DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,3DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="2ULCA,2DLCA">100</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>LTE_MEAS_UL_POWER</InclusiveAttribute>
+							<InclusiveAttribute>LTE_MEAS_TX_EVM</InclusiveAttribute>
+							<InclusiveAttribute>LTE_MEAS_SEM|LTE_MEAS_OBW|LTE_MEAS_ACLR</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>LTE_MEAS_TX_SPECFLATNESS</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Measure UL Power and IBE">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">20</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">20</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,2DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,3DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="2ULCA,2DLCA">100</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>LTE_MEAS_UL_POWER</InclusiveAttribute>
+							<ExclusiveAttribute>LTE_MEAS_TX_ORIGOFFSET</ExclusiveAttribute>
+							<ExclusiveAttribute>LTE_MEAS_TX_IBE</ExclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>LTE_MEAS_TX_EVM</ExclusiveAttribute>
+							<ExclusiveAttribute>LTE_MEAS_TX_FREQERROR</ExclusiveAttribute>
+							<ExclusiveAttribute>LTE_MEAS_SEM</ExclusiveAttribute>
+							<ExclusiveAttribute>LTE_MEAS_OBW</ExclusiveAttribute>
+							<ExclusiveAttribute>LTE_MEAS_ACLR</ExclusiveAttribute>
+							<ExclusiveAttribute>LTE_MEAS_TX_SPECFLATNESS</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Measure UL Power Measure Only">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">4</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">8</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,2DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,3DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="2ULCA,2DLCA">100</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>LTE_MEAS_UL_POWER</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>LTE_MEAS_TX_EVM</ExclusiveAttribute>
+							<ExclusiveAttribute>LTE_MEAS_TX_FREQERROR</ExclusiveAttribute>
+							<ExclusiveAttribute>LTE_MEAS_SEM</ExclusiveAttribute>
+							<ExclusiveAttribute>LTE_MEAS_OBW</ExclusiveAttribute>
+							<ExclusiveAttribute>LTE_MEAS_ACLR</ExclusiveAttribute>
+							<ExclusiveAttribute>LTE_MEAS_TX_SPECFLATNESS</ExclusiveAttribute>
+							<ExclusiveAttribute>LTE_MEAS_TX_ORIGOFFSET</ExclusiveAttribute>
+							<ExclusiveAttribute>LTE_MEAS_TX_IBE</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Dummy Segment for LTE Rx Trigger Synchronization">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,2DLCA">200</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,3DLCA">200</SegmentDuration_ms>
+							<SegmentDuration_ms techType="2ULCA,2DLCA">200</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>LTE_DUMMY_SEGMENT</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="DL Power Configure">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">10</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">10</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,2DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,3DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="2ULCA,2DLCA">100</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>LTE_DL_POWER</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Rx Level Only">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">20</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">20</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,2DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,3DLCA">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="2ULCA,2DLCA">100</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>LTE_MEAS_RX_LEVEL</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>LTE_MEAS_EST_SEN</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Estimated Sensitivity">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">60</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">60</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,2DLCA">200</SegmentDuration_ms>
+							<SegmentDuration_ms techType="1ULCA,3DLCA">200</SegmentDuration_ms>
+							<SegmentDuration_ms techType="2ULCA,2DLCA">200</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>LTE_MEAS_EST_SEN</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+				</MatchAttributeSets>
+			</Tech>
+			<Tech name="WCDMA" enabled="true">
+				<MatchAttributeSets>
+					<MatchAttributeSet enabled="true" description="Handover Configure">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="RFVFS">50</SegmentDuration_ms>
+							<SegmentDuration_ms techType="NSVFS">300</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>WCDMA_BAND|WCDMA_OPT_CHANNEL|WCDMA_DL_CHANNEL|WCDMA_UL_CHANNEL</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="UL Power Configure Only">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="RFVFS">16</SegmentDuration_ms>
+							<SegmentDuration_ms techType="NSVFS">50</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>WCDMA_RL_POWER</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Measure All">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>40</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>WCDMA_MEAS_UE_POWER</InclusiveAttribute>
+							<InclusiveAttribute>WCDMA_MEAS_EVM</InclusiveAttribute>
+							<InclusiveAttribute>WCDMA_MEAS_MOD</InclusiveAttribute>
+							<InclusiveAttribute>WCDMA_MEAS_ACLR</InclusiveAttribute>
+							<InclusiveAttribute>WCDMA_MEAS_SEM</InclusiveAttribute>
+							<InclusiveAttribute>WCDMA_MEAS_OBW</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Measure Modulation">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>20</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>WCDMA_MEAS_UE_POWER</InclusiveAttribute>
+							<InclusiveAttribute>WCDMA_MEAS_EVM</InclusiveAttribute>
+							<InclusiveAttribute>WCDMA_MEAS_MOD</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>WCDMA_MEAS_ACLR</ExclusiveAttribute>
+							<ExclusiveAttribute>WCDMA_MEAS_SEM</ExclusiveAttribute>
+							<ExclusiveAttribute>WCDMA_MEAS_OBW</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="UL Power Measure Only">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>10</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>WCDMA_MEAS_UE_POWER</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>WCDMA_MEAS_EVM</ExclusiveAttribute>
+							<ExclusiveAttribute>WCDMA_MEAS_MOD</ExclusiveAttribute>
+							<ExclusiveAttribute>WCDMA_MEAS_ACLR</ExclusiveAttribute>
+							<ExclusiveAttribute>WCDMA_MEAS_SEM</ExclusiveAttribute>
+							<ExclusiveAttribute>WCDMA_MEAS_OBW</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="DL Power Configure">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>10</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>WCDMA_FL_POWER</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Rx Level Only">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>10</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>WCDMA_MEAS_RX_LEVEL</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>WCDMA_MEAS_EST_SEN</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Estimated Sensitivity">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>100</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>WCDMA_MEAS_EST_SEN</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Measured Sensitivity">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>220</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>WCDMA_ACTION_BER_STATUS_RESET</InclusiveAttribute>
+							<InclusiveAttribute>WCDMA_MEAS_SE_BER</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+				</MatchAttributeSets>
+			</Tech>
+			<Tech name="CDMA" enabled="true">
+				<MatchAttributeSets>
+					<MatchAttributeSet enabled="true" description="Handover Configure">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="RFVFS">100</SegmentDuration_ms>
+							<SegmentDuration_ms techType="NSVFS">200</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>CDMA_BAND|CDMA_OPT_CHANNEL|CDMA_CHANNEL</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="UL Power Configure Only">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>20</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>CDMA_RL_POWER</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Measure Spectrum">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>20</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>CDMA_MEAS_RL_POWER</InclusiveAttribute>
+							<InclusiveAttribute>CDMA_MEAS_ACPR</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>CDMA_MEAS_EVM</ExclusiveAttribute>
+							<ExclusiveAttribute>CDMA_MEAS_MOD</ExclusiveAttribute>
+							<ExclusiveAttribute>CDMA_MEAS_FREQ_ERROR</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Measure Modulation">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>20</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>CDMA_MEAS_RL_POWER</InclusiveAttribute>
+							<InclusiveAttribute>CDMA_MEAS_RHO</InclusiveAttribute>
+							<InclusiveAttribute>CDMA_MEAS_FREQ_ERROR</InclusiveAttribute>
+							<InclusiveAttribute>CDMA_MEAS_PHASE_ERROR</InclusiveAttribute>
+							<InclusiveAttribute>CDMA_MEAS_MAG_ERROR</InclusiveAttribute>
+							<InclusiveAttribute>CDMA_MEAS_EVM</InclusiveAttribute>
+							<InclusiveAttribute>CDMA_MEAS_MOD</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>CDMA_MEAS_ACPR</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="UL Power Measure Only">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>20</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>CDMA_MEAS_RL_POWER</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>CDMA_MEAS_EVM</ExclusiveAttribute>
+							<InclusiveAttribute>CDMA_MEAS_MOD</InclusiveAttribute>
+							<ExclusiveAttribute>CDMA_MEAS_ACPR</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="DL Power Configure">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>20</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>CDMA_FL_POWER</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Rx Level Only">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>40</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>CDMA_MEAS_RX_LEVEL</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>CDMA_MEAS_EST_SEN</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Estimated Sensitivity">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>100</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>CDMA_MEAS_EST_SEN</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Measured Sensitivity">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>1240</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>CDMA_ACTION_FCH_STATUS_RESET</InclusiveAttribute>
+							<InclusiveAttribute>CDMA_MEAS_SER</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+				</MatchAttributeSets>
+			</Tech>
+			<Tech name="TDSCDMA" enabled="true">
+				<MatchAttributeSets>
+					<MatchAttributeSet enabled="true" description="Handover Configure">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>80</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>TDSCDMA_BAND|TDSCDMA_OPT_CHANNEL|TDSCDMA_CHANNEL</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="UL Power Configure Only">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>50</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>TDSCDMA_UL_POWER_TS1</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Measure All">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>60</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>TDSCDMA_MEAS_UL_POWER</InclusiveAttribute>
+							<InclusiveAttribute>TDSCDMA_MEAS_TX_FREQERROR</InclusiveAttribute>
+							<InclusiveAttribute>TDSCDMA_MEAS_TX_MODULATION_ANALYSIS</InclusiveAttribute>
+							<InclusiveAttribute>TDSCDMA_MEAS_ACLR</InclusiveAttribute>
+							<InclusiveAttribute>TDSCDMA_MEAS_SEM</InclusiveAttribute>
+							<InclusiveAttribute>TDSCDMA_MEAS_OBW</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Measure Modulation">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>60</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>TDSCDMA_MEAS_UL_POWER</InclusiveAttribute>
+							<InclusiveAttribute>TDSCDMA_MEAS_TX_FREQERROR</InclusiveAttribute>
+							<InclusiveAttribute>TDSCDMA_MEAS_TX_MODULATION_ANALYSIS</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>TDSCDMA_MEAS_ACLR</ExclusiveAttribute>
+							<ExclusiveAttribute>TDSCDMA_MEAS_SEM</ExclusiveAttribute>
+							<ExclusiveAttribute>TDSCDMA_MEAS_OBW</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="UL Power Measure Only">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>60</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>TDSCDMA_MEAS_UL_POWER</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>TDSCDMA_MEAS_TX_FREQERROR</ExclusiveAttribute>
+							<InclusiveAttribute>TDSCDMA_MEAS_TX_MODULATION_ANALYSIS</InclusiveAttribute>
+							<ExclusiveAttribute>TDSCDMA_MEAS_ACLR</ExclusiveAttribute>
+							<ExclusiveAttribute>TDSCDMA_MEAS_SEM</ExclusiveAttribute>
+							<ExclusiveAttribute>TDSCDMA_MEAS_OBW</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="DL Power Configure">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>20</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>TDSCDMA_DL_POWER</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Rx Level Only">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>20</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>TDSCDMA_MEAS_RX_LEVEL</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>TDSCDMA_MEAS_EST_SEN</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Estimated Sensitivity">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>370</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>TDSCDMA_MEAS_EST_SEN</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Measured Sensitivity">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>500</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>TDSCDMA_ACTION_BER_RESET</InclusiveAttribute>
+							<InclusiveAttribute>TDSCDMA_MEAS_BER</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+				</MatchAttributeSets>
+			</Tech>
+			<Tech name="EDGE" enabled="true">
+				<MatchAttributeSets>
+					<MatchAttributeSet enabled="true" description="Handover Configure">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>240</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>EDGE_BAND|EDGE_OPT_CHANNEL|EDGE_CHANNEL</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="UL Power Configure Only">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="RFVFS">32</SegmentDuration_ms>
+							<SegmentDuration_ms techType="NSVFS">120</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>EDGE_POWER_LEVEL|EDGE_PCL</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>EDGE_SRB_LOOPBACK_INHIBIT</ExclusiveAttribute>
+							<ExclusiveAttribute>EDGE_SRB_LOOPBACK_FORCE</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Measure All">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="RFVFS">75</SegmentDuration_ms>
+							<SegmentDuration_ms techType="NSVFS">120</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>EDGE_MEAS_MOD</InclusiveAttribute>
+							<InclusiveAttribute>EDGE_MEAS_ORFS_SWITCHING</InclusiveAttribute>
+							<InclusiveAttribute>EDGE_MEAS_ORFS_MODULATION</InclusiveAttribute>
+							<InclusiveAttribute>EDGE_MEAS_BURST_TIMING</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Dummy Segment for EDGE Rx Trigger Synchronization">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="RFVFS">480</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>EDGE_DUMMY_SEGMENT</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="DL Power Configure">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="RFVFS">32</SegmentDuration_ms>
+							<SegmentDuration_ms techType="NSVFS">120</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>EDGE_FL_POWER</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>EDGE_SRB_LOOPBACK_INHIBIT</ExclusiveAttribute>
+							<ExclusiveAttribute>EDGE_SRB_LOOPBACK_FORCE</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Rx Level Only">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="RFVFS">60</SegmentDuration_ms>
+							<SegmentDuration_ms techType="NSVFS">120</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>EDGE_MEAS_RX_LEVEL</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>EDGE_MEAS_EST_SEN</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Estimated Sensitivity">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>720</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>EDGE_MEAS_EST_SEN</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Measured Sensitivity">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms>120</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>EDGE_ACTION_SE_BER_LOGGING_BEGIN</InclusiveAttribute>
+							<InclusiveAttribute>EDGE_MEAS_SE_BER</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+				</MatchAttributeSets>
+			</Tech>
+			<Tech name="NRFR1" enabled="true">
+				<MatchAttributeSets>
+					<MatchAttributeSet enabled="true" description="Handover Band Configure">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">150</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">150</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>NR_BAND</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Handover Channel Only Configure">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">150</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">150</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>NR_OPT_CHANNEL|NR_POINT_A_CHANNEL</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>NR_BAND</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Change in Bandwidth">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">150</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">150</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>NR_CH_BANDWIDTH</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>NR_BAND</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_OPT_CHANNEL</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_POINT_A_CHANNEL</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="UL Power Configure Only">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">20</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">20</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>NR_UL_POWER</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>NR_UL_RB_START</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_UL_RB_NUMBER_OF</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_UL_MODULATION_TYPE</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_RB_ALLOCATION</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="RB or Modulation Configure">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">20</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">20</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>NR_UL_RB_START|NR_UL_RB_NUMBER_OF|NR_UL_MODULATION_TYPE|NR_RB_ALLOCATION</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Measure All">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">30</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">30</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>NR_MEAS_UL_POWER</InclusiveAttribute>
+							<InclusiveAttribute>NR_MEAS_TX_EVM</InclusiveAttribute>
+							<InclusiveAttribute>NR_MEAS_SEM</InclusiveAttribute>
+							<InclusiveAttribute>NR_MEAS_OBW</InclusiveAttribute>
+							<InclusiveAttribute>NR_MEAS_ACLR</InclusiveAttribute>
+							<InclusiveAttribute>NR_MEAS_TX_SPECFLATNESS</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Measure Modulation">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">20</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">20</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>NR_MEAS_UL_POWER</InclusiveAttribute>
+							<InclusiveAttribute>NR_MEAS_TX_EVM</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>NR_MEAS_SEM</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_MEAS_OBW</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_MEAS_ACLR</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_MEAS_TX_SPECFLATNESS</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Measure Modulation and Spectrum">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">30</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">30</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>NR_MEAS_UL_POWER</InclusiveAttribute>
+							<InclusiveAttribute>NR_MEAS_TX_EVM|NR_MEAS_TX_ORIGOFFSET|NR_MEAS_TX_IBE</InclusiveAttribute>
+							<InclusiveAttribute>NR_MEAS_SEM|NR_MEAS_OBW|NR_MEAS_ACLR</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>NR_MEAS_TX_SPECFLATNESS</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Measure UL Power and IBE">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">20</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">20</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>NR_MEAS_UL_POWER</InclusiveAttribute>
+							<ExclusiveAttribute>NR_MEAS_TX_ORIGOFFSET</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_MEAS_TX_IBE</ExclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>NR_MEAS_TX_EVM</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_MEAS_TX_FREQERROR</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_MEAS_SEM</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_MEAS_OBW</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_MEAS_ACLR</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_MEAS_TX_SPECFLATNESS</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Measure UL Power Only">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">10</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">10</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>NR_MEAS_UL_POWER</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>NR_MEAS_TX_EVM</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_MEAS_TX_FREQERROR</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_MEAS_SEM</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_MEAS_OBW</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_MEAS_ACLR</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_MEAS_TX_SPECFLATNESS</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_MEAS_TX_ORIGOFFSET</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_MEAS_TX_IBE</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Measure UL Power and Spectrum">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">30</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">30</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>NR_MEAS_UL_POWER</InclusiveAttribute>
+							<InclusiveAttribute>NR_MEAS_SEM|NR_MEAS_OBW|NR_MEAS_ACLR</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>NR_MEAS_TX_EVM</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_MEAS_TX_FREQERROR</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_MEAS_TX_SPECFLATNESS</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_MEAS_TX_ORIGOFFSET</ExclusiveAttribute>
+							<ExclusiveAttribute>NR_MEAS_TX_IBE</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Dummy Segment for NR Rx Trigger Synchronization">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">150</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">150</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>NR_DUMMY_SEGMENT</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="DL Power Configure">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">20</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">20</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>NR_DL_POWER</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Rx Level Only">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">150</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">150</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>NR_MEAS_RX_LEVEL</InclusiveAttribute>
+						</InclusiveAttributes>
+						<ExclusiveAttributes>
+							<ExclusiveAttribute>NR_MEAS_EST_SEN</ExclusiveAttribute>
+						</ExclusiveAttributes>
+					</MatchAttributeSet>
+					<MatchAttributeSet enabled="true" description="Estimated Sensitivity">
+						<ReplaceSegmentDuration>
+							<SegmentDuration_ms techType="FDD">180</SegmentDuration_ms>
+							<SegmentDuration_ms techType="TDD">180</SegmentDuration_ms>
+						</ReplaceSegmentDuration>
+						<InclusiveAttributes>
+							<InclusiveAttribute>NR_MEAS_EST_SEN</InclusiveAttribute>
+						</InclusiveAttributes>
+					</MatchAttributeSet>
+				</MatchAttributeSets>
+			</Tech>
+		</Configuration>
+	</Configurations>
+</QSEQTimeProfile>

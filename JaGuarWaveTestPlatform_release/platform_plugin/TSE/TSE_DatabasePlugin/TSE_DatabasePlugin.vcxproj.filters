@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="excel">
+      <UniqueIdentifier>{a9d103fa-2ce3-4fa1-8f72-01b0f0235a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mes">
+      <UniqueIdentifier>{6024fc47-933e-4e6d-8664-13ea35287cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sqlite3">
+      <UniqueIdentifier>{b85fb807-9389-4ad9-9c2b-e2d1ebaae3ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bin">
+      <UniqueIdentifier>{f9adf725-eb04-4f68-b13a-ed55ae1bc96a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csv">
+      <UniqueIdentifier>{b1a05051-f545-440d-8cf4-dff35881fc17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="excel\TSE_GetExcelDataToPrimaryKey.h">
+      <Filter>excel</Filter>
+    </ClInclude>
+    <ClInclude Include="excel\TSE_LoadExcelDatabase.h">
+      <Filter>excel</Filter>
+    </ClInclude>
+    <ClInclude Include="excel\CTSE_Excel_Define.h">
+      <Filter>excel</Filter>
+    </ClInclude>
+    <ClInclude Include="excel\CJGW_ExcelLibXL.h">
+      <Filter>excel</Filter>
+    </ClInclude>
+    <ClInclude Include="excel\CJGW_LoadExcelDatabBase.h">
+      <Filter>excel</Filter>
+    </ClInclude>
+    <ClInclude Include="excel\TSE_UpdateExcelDatabase.h">
+      <Filter>excel</Filter>
+    </ClInclude>
+    <ClInclude Include="mes\TSE_MESCheckSNStatus.h">
+      <Filter>mes</Filter>
+    </ClInclude>
+    <ClInclude Include="mes\CJGW_MESRestoreOperateID.hpp">
+      <Filter>mes</Filter>
+    </ClInclude>
+    <ClInclude Include="mes\TSE_MESNextSNStation.h">
+      <Filter>mes</Filter>
+    </ClInclude>
+    <ClInclude Include="mes\TSE_MESGetIMEIInfo.h">
+      <Filter>mes</Filter>
+    </ClInclude>
+    <ClInclude Include="mes\TSE_MESNextIMEIStation.h">
+      <Filter>mes</Filter>
+    </ClInclude>
+    <ClInclude Include="mes\TSE_MESSaveTestRecords.h">
+      <Filter>mes</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3\TSE_GetSQLite3DBToPrimaryKey.h">
+      <Filter>sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3\TSE_UpdateSQLite3DB.h">
+      <Filter>sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="bin\TSE_BuildDeviceInfoBin.h">
+      <Filter>bin</Filter>
+    </ClInclude>
+    <ClInclude Include="bin\JGW_DeviceInfoBuf.h">
+      <Filter>bin</Filter>
+    </ClInclude>
+    <ClInclude Include="bin\TSE_ReadDeviceInfoBin.h">
+      <Filter>bin</Filter>
+    </ClInclude>
+    <ClInclude Include="bin\TSE_SaveDeviceInfoBin.h">
+      <Filter>bin</Filter>
+    </ClInclude>
+    <ClInclude Include="bin\TSE_UpdateDeviceInfoBin.h">
+      <Filter>bin</Filter>
+    </ClInclude>
+    <ClInclude Include="mes\TSE_MESGetSNInfo.h">
+      <Filter>mes</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_SetExcelDataToPrimaryKey.h">
+      <Filter>csv</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_CloseCSVDatabase.h">
+      <Filter>csv</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_GetCSVDataToPrimaryKey.h">
+      <Filter>csv</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_LoadCSVDatabase.h">
+      <Filter>csv</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="excel\TSE_GetExcelDataToPrimaryKey.cpp">
+      <Filter>excel</Filter>
+    </ClCompile>
+    <ClCompile Include="excel\TSE_LoadExcelDatabase.cpp">
+      <Filter>excel</Filter>
+    </ClCompile>
+    <ClCompile Include="excel\CJGW_ExcelLibXL.cpp">
+      <Filter>excel</Filter>
+    </ClCompile>
+    <ClCompile Include="excel\CJGW_LoadExcelDatabBase.cpp">
+      <Filter>excel</Filter>
+    </ClCompile>
+    <ClCompile Include="excel\TSE_UpdateExcelDatabase.cpp">
+      <Filter>excel</Filter>
+    </ClCompile>
+    <ClCompile Include="mes\TSE_MESCheckSNStatus.cpp">
+      <Filter>mes</Filter>
+    </ClCompile>
+    <ClCompile Include="mes\TSE_MESNextSNStation.cpp">
+      <Filter>mes</Filter>
+    </ClCompile>
+    <ClCompile Include="mes\TSE_MESGetIMEIInfo.cpp">
+      <Filter>mes</Filter>
+    </ClCompile>
+    <ClCompile Include="mes\TSE_MESNextIMEIStation.cpp">
+      <Filter>mes</Filter>
+    </ClCompile>
+    <ClCompile Include="mes\TSE_MESSaveTestRecords.cpp">
+      <Filter>mes</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3\TSE_GetSQLite3DBToPrimaryKey.cpp">
+      <Filter>sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3\TSE_UpdateSQLite3DB.cpp">
+      <Filter>sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="bin\TSE_BuildDeviceInfoBin.cpp">
+      <Filter>bin</Filter>
+    </ClCompile>
+    <ClCompile Include="bin\JGW_DeviceInfoBuf.cpp">
+      <Filter>bin</Filter>
+    </ClCompile>
+    <ClCompile Include="bin\TSE_SaveDeviceInfoBin.cpp">
+      <Filter>bin</Filter>
+    </ClCompile>
+    <ClCompile Include="bin\TSE_UpdateDeviceInfoBin.cpp">
+      <Filter>bin</Filter>
+    </ClCompile>
+    <ClCompile Include="bin\TSE_ReadDeviceInfoBin.cpp">
+      <Filter>bin</Filter>
+    </ClCompile>
+    <ClCompile Include="mes\TSE_MESGetSNInfo.cpp">
+      <Filter>mes</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_CloseCSVDatabase.cpp">
+      <Filter>csv</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_GetCSVDataToPrimaryKey.cpp">
+      <Filter>csv</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_LoadCSVDatabase.cpp">
+      <Filter>csv</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_SetExcelDataToPrimaryKey.cpp">
+      <Filter>csv</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

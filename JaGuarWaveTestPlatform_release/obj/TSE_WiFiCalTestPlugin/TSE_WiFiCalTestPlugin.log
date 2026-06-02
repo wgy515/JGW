@@ -1,0 +1,23 @@
+﻿生成启动时间为 2025/8/27 11:25:46。
+     1>项目“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_plugin\TSE\TSE_WiFiCalTestPlugin\TSE_WiFiCalTestPlugin.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\TSE_WiFiCalTestPlugin\TSE_WiFiCalTestPlugin.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+         所有输出均为最新。
+       Link:
+         所有输出均为最新。
+         TSE_WiFiCalTestPlugin.vcxproj -> D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\TSE_WiFiCalTestPlugin.dll
+       PostBuildEvent:
+         copy /y  D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\TSE_WiFiCalTestPlugin.dll 	D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec\TSE_WiFiCalTestPlugin.dll
+         :VCEnd
+         已复制         1 个文件。
+       FinalizeBuildStatus:
+         正在删除文件“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\TSE_WiFiCalTestPlugin\TSE_WiFiCalTestPlugin.unsuccessfulbuild”。
+         正在对“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\TSE_WiFiCalTestPlugin\TSE_WiFiCalTestPlugin.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_plugin\TSE\TSE_WiFiCalTestPlugin\TSE_WiFiCalTestPlugin.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.20

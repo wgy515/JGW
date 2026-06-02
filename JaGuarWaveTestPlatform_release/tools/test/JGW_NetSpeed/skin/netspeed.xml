@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="330,64" caption="0,0,0,75" mininfo="330,64" maxinfo="330,64" showshadow="true" shadowsize="4">
+	<HorizontalLayout name="background" width="840" height="320" bkimage="background_l.bmp" bkcolor="#FFA0A0A4" borderround="10,10">
+	</HorizontalLayout>
+</Window>

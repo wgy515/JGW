@@ -1,0 +1,1188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="RFCAL_QSEQ">
+      <UniqueIdentifier>{e0bba89b-8744-4e67-ba32-4a0f318f97c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LYNX_FTM">
+      <UniqueIdentifier>{e9567ece-f096-4913-ab51-2364f4f0f2b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LYNX_FTM\Json_Class">
+      <UniqueIdentifier>{1a1b1bb9-489a-49dc-9df1-dc7f02c7bead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WINDOW">
+      <UniqueIdentifier>{5ee44751-5c3b-4530-8627-7683ec14dab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FASTMMI">
+      <UniqueIdentifier>{74111214-2cd8-4265-989d-3fa563daeaf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COMMON">
+      <UniqueIdentifier>{68ec8d69-59e5-4e8a-8575-3d04ee46445b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PUMA">
+      <UniqueIdentifier>{4109c8ed-dceb-45f8-861d-ab456383e5e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RFCAL_QSEQ\CPK">
+      <UniqueIdentifier>{792ce422-2714-4d47-9a28-fe202ca0793c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QCOMM">
+      <UniqueIdentifier>{b6a2bbe4-2a90-4821-84d5-a8ea454bcb4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="THROUGHPUT">
+      <UniqueIdentifier>{7031ff93-1a05-4918-8224-948068087615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SSH">
+      <UniqueIdentifier>{29804800-4ea9-46ce-b572-aeb1b4f3cc76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AP_NUMBER">
+      <UniqueIdentifier>{1ff56810-53aa-4130-aaf7-005b8a83e488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{aa768665-edd9-45f8-9616-62a67cea97e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serial">
+      <UniqueIdentifier>{5b30d94e-035f-4b6f-9170-3e82393e6163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WIFI">
+      <UniqueIdentifier>{0c669c6c-b2c6-45eb-bfac-59b1dd8ea0d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ssh_scp">
+      <UniqueIdentifier>{2f9a75e4-0065-44b4-a02d-9c81c976df29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modem">
+      <UniqueIdentifier>{e82ff819-7051-4daa-94e6-3ac96947adc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UC600AA">
+      <UniqueIdentifier>{960e5a6e-47af-49a9-a8eb-d65726f2074b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="http">
+      <UniqueIdentifier>{255231a8-8794-480a-95c5-eae1537a2375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SOCKET">
+      <UniqueIdentifier>{1bac4a7f-f09b-49e5-af5f-2d33c883b167}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RFCAL_QSEQ\TSE_RFCalVFSTest.h">
+      <Filter>RFCAL_QSEQ</Filter>
+    </ClInclude>
+    <ClInclude Include="RFCAL_QSEQ\sti_export_func_decl.h">
+      <Filter>RFCAL_QSEQ</Filter>
+    </ClInclude>
+    <ClInclude Include="RFCAL_QSEQ\TSE_RFCalVFSConfig.h">
+      <Filter>RFCAL_QSEQ</Filter>
+    </ClInclude>
+    <ClInclude Include="RFCAL_QSEQ\TSE_RFCalVFS_Define.h">
+      <Filter>RFCAL_QSEQ</Filter>
+    </ClInclude>
+    <ClInclude Include="RFCAL_QSEQ\TSE_RFQualcommInterface.h">
+      <Filter>RFCAL_QSEQ</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\PacketTranslator.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_DevicesGlobalResource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\TSE_ConnectQcomDiag.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\TSE_DisConnectQocmDiag.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\TSE_ReadQcomNV.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\TSE_SyncQcomNV.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\TSE_WriteQcomNV.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\TSE_FTM_ConnectSocket.h">
+      <Filter>LYNX_FTM</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\TSE_FTM_DisConnectSocket.h">
+      <Filter>LYNX_FTM</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\TSE_FTM_CheckVersion.h">
+      <Filter>LYNX_FTM</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\TSE_FTM_Define.h">
+      <Filter>LYNX_FTM</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\TSE_FTM_JSONCommand.h">
+      <Filter>LYNX_FTM</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\TSE_FTM_CheckKey.h">
+      <Filter>LYNX_FTM</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\CJGW_FTM_KeyEventResponceVoJson.h">
+      <Filter>LYNX_FTM\Json_Class</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\CJGW_FTM_SocketResponceVo.h">
+      <Filter>LYNX_FTM\Json_Class</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\CJGW_FTM_JsonSocket.h">
+      <Filter>LYNX_FTM\Json_Class</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\CJGW_FTM_ClientSocket.h">
+      <Filter>LYNX_FTM\Json_Class</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\TSE_FTM_LcdColorTest.h">
+      <Filter>LYNX_FTM</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\TSE_FTM_LcdBackLightTest.h">
+      <Filter>LYNX_FTM</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\TSE_FTM_CheckMemoryCard.h">
+      <Filter>LYNX_FTM</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\TSE_FTM_CheckSIMDetect.h">
+      <Filter>LYNX_FTM</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\TSE_FTM_TestBase.h">
+      <Filter>LYNX_FTM</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\CJGW_FTM_MemoryCardResponceVoJson.h">
+      <Filter>LYNX_FTM\Json_Class</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\CJGW_FTM_Json.h">
+      <Filter>LYNX_FTM\Json_Class</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\TSE_FTM_CheckBreathingLed.h">
+      <Filter>LYNX_FTM</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\TSE_FTM_CheckLEDRGB.h">
+      <Filter>LYNX_FTM</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_Sleep.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\TSE_FTM_HandoverWiFiMode.h">
+      <Filter>LYNX_FTM</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\TSE_FTM_WiFiScanAP.h">
+      <Filter>LYNX_FTM</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\CJGW_FTM_WiFiAPInfoResponceVo.h">
+      <Filter>LYNX_FTM\Json_Class</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\TSE_FTM_GetEth0IPAddress.h">
+      <Filter>LYNX_FTM</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\CJGW_FTM_QC3InfoResponceVoJson.h">
+      <Filter>LYNX_FTM\Json_Class</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\TSE_FTM_QC3Test.h">
+      <Filter>LYNX_FTM</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_MessageBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\TSE_FTM_MTPTest.h">
+      <Filter>LYNX_FTM</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\TSE_FTM_OTGTest.h">
+      <Filter>LYNX_FTM</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\CJGW_FTM_OTGInfooResponceVoJson.h">
+      <Filter>LYNX_FTM\Json_Class</Filter>
+    </ClInclude>
+    <ClInclude Include="LYNX_FTM\CJGW_FTM_ClientSocketServer.h">
+      <Filter>LYNX_FTM\Json_Class</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\TSE_WriterQcomSN.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\TSE_ReaderQcomSN.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="WINDOW\TSE_InputWindows.h">
+      <Filter>WINDOW</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\TSE_QualcommFlashImageDownload.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\TSE_QualcommQCN.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_ComparisonEnvironment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\TSE_WriteQualcommNumber.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\TSE_ReadQualcommNumber.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="FASTMMI\TSE_FTMExecuteSingleTest.h">
+      <Filter>FASTMMI</Filter>
+    </ClInclude>
+    <ClInclude Include="FASTMMI\TSE_FTMVersionTest.h">
+      <Filter>FASTMMI</Filter>
+    </ClInclude>
+    <ClInclude Include="FASTMMI\TSE_FTMCheckTestResult.h">
+      <Filter>FASTMMI</Filter>
+    </ClInclude>
+    <ClInclude Include="FASTMMI\TSE_FTMExecuteSingleTestResult.h">
+      <Filter>FASTMMI</Filter>
+    </ClInclude>
+    <ClInclude Include="FASTMMI\CTSE_FastMMIDefine.h">
+      <Filter>FASTMMI</Filter>
+    </ClInclude>
+    <ClInclude Include="FASTMMI\TSE_FTMClearTestResultFile.h">
+      <Filter>FASTMMI</Filter>
+    </ClInclude>
+    <ClInclude Include="FASTMMI\TSE_FTMClearAllTestInfo.h">
+      <Filter>FASTMMI</Filter>
+    </ClInclude>
+    <ClInclude Include="COMMON\TSE_ReadEth0Mac.h">
+      <Filter>COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="COMMON\TSE_WriteEth0MacConfig.h">
+      <Filter>COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_ConnectPeraso.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_InitPDBFileToPeraso.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_ReadNumberToPeraso.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_WriteNumberToPeraso.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\CTSE_PUMA_DEFINE.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_DownloadPDBToPeraso.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_DisConnectPeraso.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_ResetPeraso.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_SaveProductScreenLogPeraso.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="RFCAL_QSEQ\CJGW_ParseCPKLogInfo.h">
+      <Filter>RFCAL_QSEQ\CPK</Filter>
+    </ClInclude>
+    <ClInclude Include="RFCAL_QSEQ\CJGW_MESQSEQCpkLog.h">
+      <Filter>RFCAL_QSEQ\CPK</Filter>
+    </ClInclude>
+    <ClInclude Include="RFCAL_QSEQ\CJGW_MES_CPK_LOG_DEFINE.h">
+      <Filter>RFCAL_QSEQ\CPK</Filter>
+    </ClInclude>
+    <ClInclude Include="COMMON\TSE_FTPUpdateFile.h">
+      <Filter>COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="COMMON\CJGW_FtpClient.h">
+      <Filter>COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="THROUGHPUT\TSE_ConnectWiFi.h">
+      <Filter>THROUGHPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="THROUGHPUT\TSE_DisConnectWiFi.h">
+      <Filter>THROUGHPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="COMMON\TSE_SaveTestLog.h">
+      <Filter>COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="THROUGHPUT\TSE_CheckThroughputTestResult.h">
+      <Filter>THROUGHPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="THROUGHPUT\TSE_IperfTest.h">
+      <Filter>THROUGHPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="THROUGHPUT\TSE_ReadLynxAPInfo.h">
+      <Filter>THROUGHPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="COMMON\TSE_CheckUsbInterfaceStatus.h">
+      <Filter>COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_PumaCommand.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="SSH\TSE_ConnectSFTP.h">
+      <Filter>SSH</Filter>
+    </ClInclude>
+    <ClInclude Include="SSH\TSE_ConnectSSH.h">
+      <Filter>SSH</Filter>
+    </ClInclude>
+    <ClInclude Include="SSH\TSE_DisConnectSFTP.h">
+      <Filter>SSH</Filter>
+    </ClInclude>
+    <ClInclude Include="SSH\TSE_DisConnectSSH.h">
+      <Filter>SSH</Filter>
+    </ClInclude>
+    <ClInclude Include="SSH\TSE_ReadWriteSSH.h">
+      <Filter>SSH</Filter>
+    </ClInclude>
+    <ClInclude Include="SSH\TSE_PutFileSFTP.h">
+      <Filter>SSH</Filter>
+    </ClInclude>
+    <ClInclude Include="SSH\TSE_PostHttpReqRsp.h">
+      <Filter>SSH</Filter>
+    </ClInclude>
+    <ClInclude Include="SSH\TSE_APSReadAPInfo.h">
+      <Filter>SSH</Filter>
+    </ClInclude>
+    <ClInclude Include="SSH\TSE_IperfSSHTest.h">
+      <Filter>SSH</Filter>
+    </ClInclude>
+    <ClInclude Include="SSH\TSE_GetFileSFTP.h">
+      <Filter>SSH</Filter>
+    </ClInclude>
+    <ClInclude Include="SSH\TSE_BuildAPBinSFTP.h">
+      <Filter>SSH</Filter>
+    </ClInclude>
+    <ClInclude Include="SSH\TSE_AP_NUMBER_DEFINE.h">
+      <Filter>SSH</Filter>
+    </ClInclude>
+    <ClInclude Include="SSH\TSE_ReadAPBinNumber.h">
+      <Filter>SSH</Filter>
+    </ClInclude>
+    <ClInclude Include="SSH\TSE_ReadAPNumber.h">
+      <Filter>SSH</Filter>
+    </ClInclude>
+    <ClInclude Include="SSH\TSE_ReadPumasSNSSH.h">
+      <Filter>SSH</Filter>
+    </ClInclude>
+    <ClInclude Include="COMMON\TSE_BuildEnvironmentValue.h">
+      <Filter>COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="AP_NUMBER\TSE_BuildAPInfoTxt.h">
+      <Filter>AP_NUMBER</Filter>
+    </ClInclude>
+    <ClInclude Include="AP_NUMBER\TSE_ParseConfigInfo.h">
+      <Filter>AP_NUMBER</Filter>
+    </ClInclude>
+    <ClInclude Include="SSH\TSE_ExecSSH.h">
+      <Filter>SSH</Filter>
+    </ClInclude>
+    <ClInclude Include="AP_NUMBER\TSE_BuildApInfoBinaryTxt.h">
+      <Filter>AP_NUMBER</Filter>
+    </ClInclude>
+    <ClInclude Include="THROUGHPUT\TSE_RemoteConnectPeraso.h">
+      <Filter>THROUGHPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="THROUGHPUT\TSE_RemoteDisConnectPeraso.h">
+      <Filter>THROUGHPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="THROUGHPUT\TSE_RemoteWriteReadPeraso.h">
+      <Filter>THROUGHPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_PearsoRSSITest.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="THROUGHPUT\TSE_PerasoSSHRSSITest.h">
+      <Filter>THROUGHPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="THROUGHPUT\TSE_CheckConnectWiFi.h">
+      <Filter>THROUGHPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="COMMON\TSE_PingTest.h">
+      <Filter>COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="COMMON\TSE_RandomGlobalVariable.h">
+      <Filter>COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_Connect1hotlinkPeraso.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="log\TSE_BuildTestLog.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="Serial\TSE_OpenSerialComPort.h">
+      <Filter>Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_SendPipeCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Serial\TSE_ReadWriteSerialComPort.h">
+      <Filter>Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\TSE_QualcommFlashImageDownloadV2.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="Serial\TSE_CloseSerialComPort.h">
+      <Filter>Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_PerasoDMGTRXTest.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_ConnectDMGPeraso.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_DisConnectDMGPeraso.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\CJGW_DMGRxResult.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="WIFI\TSE_WiFiCalVFSTest.h">
+      <Filter>WIFI</Filter>
+    </ClInclude>
+    <ClInclude Include="COMMON\TSE_CheckFileExist.h">
+      <Filter>COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="ssh_scp\TSE_ConnectSSHSCP.h">
+      <Filter>ssh_scp</Filter>
+    </ClInclude>
+    <ClInclude Include="ssh_scp\TSE_PutFileSSHSCP.h">
+      <Filter>ssh_scp</Filter>
+    </ClInclude>
+    <ClInclude Include="ssh_scp\TSE_GetFileSSHSCP.h">
+      <Filter>ssh_scp</Filter>
+    </ClInclude>
+    <ClInclude Include="ssh_scp\TSE_DisConnectSSHSCP.h">
+      <Filter>ssh_scp</Filter>
+    </ClInclude>
+    <ClInclude Include="COMMON\TSE_CheckAdapterSpeed.h">
+      <Filter>COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_PrintInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Modem\TSE_CloseModemPort.h">
+      <Filter>Modem</Filter>
+    </ClInclude>
+    <ClInclude Include="Modem\TSE_ReadWriteModemPort.h">
+      <Filter>Modem</Filter>
+    </ClInclude>
+    <ClInclude Include="Modem\TSE_OpenModemPort.h">
+      <Filter>Modem</Filter>
+    </ClInclude>
+    <ClInclude Include="COMMON\TSE_BuildString.h">
+      <Filter>COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_SplitString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_CompareStringList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_CompareInt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_CompareFloat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UC600AA\TSE_ReadStringNVX20.h">
+      <Filter>UC600AA</Filter>
+    </ClInclude>
+    <ClInclude Include="UC600AA\TSE_WriteStringNVX20.h">
+      <Filter>UC600AA</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_StringToIEE754Float.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_GetComputerName.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_JsonParse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\TSE_SettingFTM.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="http\TSE_HttpPost.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\TSE_HttpPostUploadFile.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_GetFileName.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\TSE_SettingQualcommMode.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_CheckSocketPortOpen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_PerasoDMGGuCalTest.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_FindString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_RecordTestTimeLog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SSH\TSE_GetPerasoMibSSH.h">
+      <Filter>SSH</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_ConsoleAppOperation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_GetUsbPort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\TSE_QutsStartTcpServer.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\TSE_QutsStopTcpServer.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_FormatMACAddress.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="COMMON\TSE_BuildDateTimeStamp.h">
+      <Filter>COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="SSH\TSE_ConnectSFTPV2.h">
+      <Filter>SSH</Filter>
+    </ClInclude>
+    <ClInclude Include="SSH\TSE_GetFileSFTPV2.h">
+      <Filter>SSH</Filter>
+    </ClInclude>
+    <ClInclude Include="SSH\TSE_PutFileSFTPV2.h">
+      <Filter>SSH</Filter>
+    </ClInclude>
+    <ClInclude Include="SSH\TSE_DisConnectSFTPV2.h">
+      <Filter>SSH</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_GetIPQVersion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_SingleToneTxFormat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_ContinousRxCommandFormat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_ParseContinousRxResult.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_RFConfigFormat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_CheckUsbDeviceExists.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_BuildEnvironmentFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_BuildMESLog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_SaveMESLog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_WriteGuData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="THROUGHPUT\TSE_RemoteShellExecute.h">
+      <Filter>THROUGHPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="THROUGHPUT\TSE_DisConnectWiFiSocket.h">
+      <Filter>THROUGHPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_MicroAmmeterRW.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_CheckMAVoltageCurrentPower.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_SendRecvWindowMessage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SOCKET\TSE_XWGaugeAsyncSocket.h">
+      <Filter>SOCKET</Filter>
+    </ClInclude>
+    <ClInclude Include="SOCKET\TSE_ConnectAsyncSocket.h">
+      <Filter>SOCKET</Filter>
+    </ClInclude>
+    <ClInclude Include="SOCKET\TSE_DisConnectAsyncSocket.h">
+      <Filter>SOCKET</Filter>
+    </ClInclude>
+    <ClInclude Include="SOCKET\TSE_ReadWriteSocket.h">
+      <Filter>SOCKET</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_CopyThirdPartyTestLogs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_BuildTestLogV2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Serial\TSE_LongReadWriteSerialComPort.h">
+      <Filter>Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_SearchStringRegex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RFCAL_QSEQ\TSE_RFCalVFSTest.cpp">
+      <Filter>RFCAL_QSEQ</Filter>
+    </ClCompile>
+    <ClCompile Include="RFCAL_QSEQ\sti_export_func_decl.cpp">
+      <Filter>RFCAL_QSEQ</Filter>
+    </ClCompile>
+    <ClCompile Include="RFCAL_QSEQ\TSE_RFCalVFSConfig.cpp">
+      <Filter>RFCAL_QSEQ</Filter>
+    </ClCompile>
+    <ClCompile Include="RFCAL_QSEQ\TSE_RFQualcommInterface.cpp">
+      <Filter>RFCAL_QSEQ</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\PacketTranslator.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_DevicesGlobalResource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\TSE_ConnectQcomDiag.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\TSE_DisConnectQocmDiag.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\TSE_ReadQcomNV.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\TSE_SyncQcomNV.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\TSE_WriteQcomNV.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\TSE_FTM_DisConnectSocket.cpp">
+      <Filter>LYNX_FTM</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\TSE_FTM_CheckVersion.cpp">
+      <Filter>LYNX_FTM</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\TSE_FTM_JSONCommand.cpp">
+      <Filter>LYNX_FTM</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\TSE_FTM_CheckKey.cpp">
+      <Filter>LYNX_FTM</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\CJGW_FTM_KeyEventResponceVoJson.cpp">
+      <Filter>LYNX_FTM\Json_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\CJGW_FTM_SocketResponceVo.cpp">
+      <Filter>LYNX_FTM\Json_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\CJGW_FTM_JsonSocket.cpp">
+      <Filter>LYNX_FTM\Json_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\CJGW_FTM_ClientSocket.cpp">
+      <Filter>LYNX_FTM\Json_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\TSE_FTM_LcdColorTest.cpp">
+      <Filter>LYNX_FTM</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\TSE_FTM_LcdBackLightTest.cpp">
+      <Filter>LYNX_FTM</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\TSE_FTM_CheckMemoryCard.cpp">
+      <Filter>LYNX_FTM</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\TSE_FTM_CheckSIMDetect.cpp">
+      <Filter>LYNX_FTM</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\TSE_FTM_TestBase.cpp">
+      <Filter>LYNX_FTM</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\CJGW_FTM_MemoryCardResponceVoJson.cpp">
+      <Filter>LYNX_FTM\Json_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\CJGW_FTM_Json.cpp">
+      <Filter>LYNX_FTM\Json_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\TSE_FTM_CheckBreathingLed.cpp">
+      <Filter>LYNX_FTM</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\TSE_FTM_CheckLEDRGB.cpp">
+      <Filter>LYNX_FTM</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_Sleep.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\TSE_FTM_HandoverWiFiMode.cpp">
+      <Filter>LYNX_FTM</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\TSE_FTM_WiFiScanAP.cpp">
+      <Filter>LYNX_FTM</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\CJGW_FTM_WiFiAPInfoResponceVo.cpp">
+      <Filter>LYNX_FTM\Json_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\TSE_FTM_GetEth0IPAddress.cpp">
+      <Filter>LYNX_FTM</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_SendPipeCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\CJGW_FTM_QC3InfoResponceVoJson.cpp">
+      <Filter>LYNX_FTM\Json_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\TSE_FTM_QC3Test.cpp">
+      <Filter>LYNX_FTM</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_MessageBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\TSE_FTM_MTPTest.cpp">
+      <Filter>LYNX_FTM</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\TSE_FTM_OTGTest.cpp">
+      <Filter>LYNX_FTM</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\CJGW_FTM_OTGInfooResponceVoJson.cpp">
+      <Filter>LYNX_FTM\Json_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\TSE_FTM_ConnectSocket.cpp">
+      <Filter>LYNX_FTM</Filter>
+    </ClCompile>
+    <ClCompile Include="LYNX_FTM\CJGW_FTM_ClientSocketServer.cpp">
+      <Filter>LYNX_FTM\Json_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\TSE_WriterQcomSN.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\TSE_ReaderQcomSN.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="WINDOW\TSE_InputWindows.cpp">
+      <Filter>WINDOW</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\TSE_QualcommFlashImageDownload.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\TSE_QualcommQCN.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_ComparisonEnvironment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\TSE_WriteQualcommNumber.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\TSE_ReadQualcommNumber.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="FASTMMI\TSE_FTMExecuteSingleTest.cpp">
+      <Filter>FASTMMI</Filter>
+    </ClCompile>
+    <ClCompile Include="FASTMMI\TSE_FTMVersionTest.cpp">
+      <Filter>FASTMMI</Filter>
+    </ClCompile>
+    <ClCompile Include="FASTMMI\TSE_FTMCheckTestResult.cpp">
+      <Filter>FASTMMI</Filter>
+    </ClCompile>
+    <ClCompile Include="FASTMMI\TSE_FTMExecuteSingleTestResult.cpp">
+      <Filter>FASTMMI</Filter>
+    </ClCompile>
+    <ClCompile Include="FASTMMI\TSE_FTMClearTestResultFile.cpp">
+      <Filter>FASTMMI</Filter>
+    </ClCompile>
+    <ClCompile Include="FASTMMI\TSE_FTMClearAllTestInfo.cpp">
+      <Filter>FASTMMI</Filter>
+    </ClCompile>
+    <ClCompile Include="COMMON\TSE_ReadEth0Mac.cpp">
+      <Filter>COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="COMMON\TSE_WriteEth0MacConfig.cpp">
+      <Filter>COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_ConnectPeraso.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_InitPDBFileToPeraso.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_ReadNumberToPeraso.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_WriteNumberToPeraso.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_DownloadPDBToPeraso.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_DisConnectPeraso.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_ResetPeraso.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_SaveProductScreenLogPeraso.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="RFCAL_QSEQ\CJGW_ParseCPKLogInfo.cpp">
+      <Filter>RFCAL_QSEQ\CPK</Filter>
+    </ClCompile>
+    <ClCompile Include="RFCAL_QSEQ\CJGW_MESQSEQCpkLog.cpp">
+      <Filter>RFCAL_QSEQ\CPK</Filter>
+    </ClCompile>
+    <ClCompile Include="COMMON\TSE_FTPUpdateFile.cpp">
+      <Filter>COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="COMMON\CJGW_FtpClient.cpp">
+      <Filter>COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="THROUGHPUT\TSE_ConnectWiFi.cpp">
+      <Filter>THROUGHPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="THROUGHPUT\TSE_DisConnectWiFi.cpp">
+      <Filter>THROUGHPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="COMMON\TSE_SaveTestLog.cpp">
+      <Filter>COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="THROUGHPUT\TSE_CheckThroughputTestResult.cpp">
+      <Filter>THROUGHPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="THROUGHPUT\TSE_IperfTest.cpp">
+      <Filter>THROUGHPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="THROUGHPUT\TSE_ReadLynxAPInfo.cpp">
+      <Filter>THROUGHPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="COMMON\TSE_CheckUsbInterfaceStatus.cpp">
+      <Filter>COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_PumaCommand.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="SSH\TSE_ConnectSFTP.cpp">
+      <Filter>SSH</Filter>
+    </ClCompile>
+    <ClCompile Include="SSH\TSE_ConnectSSH.cpp">
+      <Filter>SSH</Filter>
+    </ClCompile>
+    <ClCompile Include="SSH\TSE_DisConnectSFTP.cpp">
+      <Filter>SSH</Filter>
+    </ClCompile>
+    <ClCompile Include="SSH\TSE_DisConnectSSH.cpp">
+      <Filter>SSH</Filter>
+    </ClCompile>
+    <ClCompile Include="SSH\TSE_PutFileSFTP.cpp">
+      <Filter>SSH</Filter>
+    </ClCompile>
+    <ClCompile Include="SSH\TSE_ReadWriteSSH.cpp">
+      <Filter>SSH</Filter>
+    </ClCompile>
+    <ClCompile Include="SSH\TSE_PostHttpReqRsp.cpp">
+      <Filter>SSH</Filter>
+    </ClCompile>
+    <ClCompile Include="SSH\TSE_APSReadAPInfo.cpp">
+      <Filter>SSH</Filter>
+    </ClCompile>
+    <ClCompile Include="SSH\TSE_IperfSSHTest.cpp">
+      <Filter>SSH</Filter>
+    </ClCompile>
+    <ClCompile Include="SSH\TSE_GetFileSFTP.cpp">
+      <Filter>SSH</Filter>
+    </ClCompile>
+    <ClCompile Include="SSH\TSE_BuildAPBinSFTP.cpp">
+      <Filter>SSH</Filter>
+    </ClCompile>
+    <ClCompile Include="SSH\TSE_ReadAPBinNumber.cpp">
+      <Filter>SSH</Filter>
+    </ClCompile>
+    <ClCompile Include="SSH\TSE_ReadAPNumber.cpp">
+      <Filter>SSH</Filter>
+    </ClCompile>
+    <ClCompile Include="SSH\TSE_ReadPumasSNSSH.cpp">
+      <Filter>SSH</Filter>
+    </ClCompile>
+    <ClCompile Include="COMMON\TSE_BuildEnvironmentValue.cpp">
+      <Filter>COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="AP_NUMBER\TSE_BuildAPInfoTxt.cpp">
+      <Filter>AP_NUMBER</Filter>
+    </ClCompile>
+    <ClCompile Include="AP_NUMBER\TSE_ParseConfigInfo.cpp">
+      <Filter>AP_NUMBER</Filter>
+    </ClCompile>
+    <ClCompile Include="SSH\TSE_ExecSSH.cpp">
+      <Filter>SSH</Filter>
+    </ClCompile>
+    <ClCompile Include="AP_NUMBER\TSE_BuildApInfoBinaryTxt.cpp">
+      <Filter>AP_NUMBER</Filter>
+    </ClCompile>
+    <ClCompile Include="THROUGHPUT\TSE_RemoteConnectPeraso.cpp">
+      <Filter>THROUGHPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="THROUGHPUT\TSE_RemoteDisConnectPeraso.cpp">
+      <Filter>THROUGHPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="THROUGHPUT\TSE_RemoteWriteReadPeraso.cpp">
+      <Filter>THROUGHPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_PearsoRSSITest.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="THROUGHPUT\TSE_PerasoSSHRSSITest.cpp">
+      <Filter>THROUGHPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="THROUGHPUT\TSE_CheckConnectWiFi.cpp">
+      <Filter>THROUGHPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="COMMON\TSE_PingTest.cpp">
+      <Filter>COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="COMMON\TSE_RandomGlobalVariable.cpp">
+      <Filter>COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_Connect1hotlinkPeraso.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="log\TSE_BuildTestLog.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="Serial\TSE_OpenSerialComPort.cpp">
+      <Filter>Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="Serial\TSE_ReadWriteSerialComPort.cpp">
+      <Filter>Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\TSE_QualcommFlashImageDownloadV2.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="Serial\TSE_CloseSerialComPort.cpp">
+      <Filter>Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_PerasoDMGTRXTest.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_ConnectDMGPeraso.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_DisConnectDMGPeraso.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\CJGW_DMGRxResult.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="WIFI\TSE_WiFiCalVFSTest.cpp">
+      <Filter>WIFI</Filter>
+    </ClCompile>
+    <ClCompile Include="COMMON\TSE_CheckFileExist.cpp">
+      <Filter>COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="ssh_scp\TSE_ConnectSSHSCP.cpp">
+      <Filter>ssh_scp</Filter>
+    </ClCompile>
+    <ClCompile Include="ssh_scp\TSE_DisConnectSSHSCP.cpp">
+      <Filter>ssh_scp</Filter>
+    </ClCompile>
+    <ClCompile Include="ssh_scp\TSE_GetFileSSHSCP.cpp">
+      <Filter>ssh_scp</Filter>
+    </ClCompile>
+    <ClCompile Include="ssh_scp\TSE_PutFileSSHSCP.cpp">
+      <Filter>ssh_scp</Filter>
+    </ClCompile>
+    <ClCompile Include="COMMON\TSE_CheckAdapterSpeed.cpp">
+      <Filter>COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_PrintInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Modem\TSE_ReadWriteModemPort.cpp">
+      <Filter>Modem</Filter>
+    </ClCompile>
+    <ClCompile Include="Modem\TSE_OpenModemPort.cpp">
+      <Filter>Modem</Filter>
+    </ClCompile>
+    <ClCompile Include="Modem\TSE_CloseModemPort.cpp">
+      <Filter>Modem</Filter>
+    </ClCompile>
+    <ClCompile Include="COMMON\TSE_BuildString.cpp">
+      <Filter>COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_SplitString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_CompareStringList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_CompareInt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_CompareFloat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UC600AA\TSE_ReadStringNVX20.cpp">
+      <Filter>UC600AA</Filter>
+    </ClCompile>
+    <ClCompile Include="UC600AA\TSE_WriteStringNVX20.cpp">
+      <Filter>UC600AA</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_StringToIEE754Float.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_GetComputerName.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_JsonParse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\TSE_SettingFTM.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="http\TSE_HttpPost.cpp">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\TSE_HttpPostUploadFile.cpp">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_GetFileName.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\TSE_SettingQualcommMode.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_CheckSocketPortOpen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_PerasoDMGGuCalTest.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_FindString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_RecordTestTimeLog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SSH\TSE_GetPerasoMibSSH.cpp">
+      <Filter>SSH</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_ConsoleAppOperation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_GetUsbPort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\TSE_QutsStartTcpServer.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\TSE_QutsStopTcpServer.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_FormatMACAddress.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="COMMON\TSE_BuildDateTimeStamp.cpp">
+      <Filter>COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="SSH\TSE_ConnectSFTPV2.cpp">
+      <Filter>SSH</Filter>
+    </ClCompile>
+    <ClCompile Include="SSH\TSE_PutFileSFTPV2.cpp">
+      <Filter>SSH</Filter>
+    </ClCompile>
+    <ClCompile Include="SSH\TSE_GetFileSFTPV2.cpp">
+      <Filter>SSH</Filter>
+    </ClCompile>
+    <ClCompile Include="SSH\TSE_DisConnectSFTPV2.cpp">
+      <Filter>SSH</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_GetIPQVersion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_SingleToneTxFormat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_ContinousRxCommandFormat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_ParseContinousRxResult.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_RFConfigFormat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_CheckUsbDeviceExists.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_BuildEnvironmentFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_BuildMESLog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_SaveMESLog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_WriteGuData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="THROUGHPUT\TSE_RemoteShellExecute.cpp">
+      <Filter>THROUGHPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="THROUGHPUT\TSE_DisConnectWiFiSocket.cpp">
+      <Filter>THROUGHPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_MicroAmmeterRW.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_CheckMAVoltageCurrentPower.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_SendRecvWindowMessage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SOCKET\TSE_ConnectAsyncSocket.cpp">
+      <Filter>SOCKET</Filter>
+    </ClCompile>
+    <ClCompile Include="SOCKET\TSE_DisConnectAsyncSocket.cpp">
+      <Filter>SOCKET</Filter>
+    </ClCompile>
+    <ClCompile Include="SOCKET\TSE_XWGaugeAsyncSocket.cpp">
+      <Filter>SOCKET</Filter>
+    </ClCompile>
+    <ClCompile Include="SOCKET\TSE_ReadWriteSocket.cpp">
+      <Filter>SOCKET</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_CopyThirdPartyTestLogs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_BuildTestLogV2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Serial\TSE_LongReadWriteSerialComPort.cpp">
+      <Filter>Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_SearchStringRegex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

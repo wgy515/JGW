@@ -1,0 +1,26 @@
+2021-06-29 14:15:30 [ 1104] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-29 14:15:30 [ 1104] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-29 14:15:30 [ 1104] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-29 14:15:30 [ 1104] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-29 14:15:30 [ 1104] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-29 14:15:39 [ 1104] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-29 14:15:39 [ 1104] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-29 14:15:39 [ 1104] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-29 14:15:39 [ 1104] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-29 14:15:39 [ 1104] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-29 14:15:39 [ 1104] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-29 14:15:39 [ 1104] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-29 14:15:39 [ 1104] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-29 16:34:06 [11760] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-29 16:34:06 [11760] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-29 16:34:06 [11760] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-29 16:34:06 [11760] INFO  : LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-29 16:34:06 [11760] INFO  : CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-29 16:34:53 [11760] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-06-29 16:34:53 [11760] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-06-29 16:34:53 [11760] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-06-29 16:34:53 [11760] INFO  : CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-29 16:34:53 [11760] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-06-29 16:34:53 [11760] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-06-29 16:34:53 [11760] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-29 16:34:53 [11760] INFO  : DestroyClassPtr clsid : ,ptr : 00000000

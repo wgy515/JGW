@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <StationConfigSession>
+	<TesterName>QSEQ_Sample1</TesterName>
+	<TesterType>QSEQ</TesterType>
+	<DomainName>Sample</DomainName>
+  </StationConfigSession>
+  <DeviceConfigSession>
+    <!--Valid tag: DLL, XTT, or absolute path to any directory-->
+	<SequencePathRelativeTo>XTT</SequencePathRelativeTo>
+    <!--valid tag: %DATE_TIME%-->
+    <SequenceLogFileNameTemplate>%SN%_%DATE_TIME%_QSEQ_Log_ConsoleApp.txt</SequenceLogFileNameTemplate>
+    <XMLLogStyleSheet>..\databases\HTML_QDART_Combined.xsl</XMLLogStyleSheet>
+    <!--valid tag: %SN% %DATE_TIME% %DEVICE_GROUP_ID%-->
+    <XMLLogFileNameTemplate>%SN%_%DATE_TIME%_QSEQ_Output_DeviceGroup_%DEVICE_GROUP_ID%</XMLLogFileNameTemplate>
+    <Libraries>
+      <DLL>QSEQ_Utility_Qualcomm.dll</DLL>
+      <DLL>QSEQ_PathLossManager.dll</DLL>
+      <DLL>QSEQ_Algorithm_Qualcomm_RFVFS.dll</DLL>
+      <DLL>QSEQ_Device_Qualcomm_Mobile_RFVFS.dll</DLL>
+      <DLL>QSEQ_Device_Anritsu_MT8820C_RFVFS.dll</DLL>
+    </Libraries>
+    <DeviceGroups>
+      <DeviceGroup ID="1">
+        <Resources>
+          <Resource name ="QSEQ_RESOURCE_PATHLOSSMANAGER" config="..\Databases\calDB_NET.xml"></Resource>
+        </Resources>
+        <!--valid tag: %DATE_TIME% %DEVICE_GROUP_ID%-->
+        <DeviceLogFileNameTemplate>%SN%_%DATE_TIME%_QSEQ_Log_DeviceGroup_1.txt</DeviceLogFileNameTemplate>
+        <Device ID="1" NOTINUSE="false" UUT="True">
+          <Type>QSEQ_DEVICE_QUALCOMM_MOBILE</Type>
+          <ConfigString>CONNECT=QPST:-1:TIMEOUT_SEC:60</ConfigString>
+          <!-- ConfigString Format: "CONNECT=diag_transport_mode:comm_port" -->
+          <!-- where diag_transport_mode = "QPST", "QPHONEMS", or "USER_DEFINED" -->
+          <!-- where comm_port = the COMM port (numeric value) ("-1" for AUTO select or actual COMM port id number -->
+        </Device>
+        <Device ID="2" NOTINUSE="false" UUT="False">
+          <Type>QSEQ_DEVICE_ANRITSU_MT8820C</Type>
+          <ConfigString>GPIB=GPIB0::1::0::INSTR|RF_PORT_ID=MAIN</ConfigString>
+		  <!-- ConfigString Format: device dependent -->
+          <!-- ANRITSU MT8820C Example Format: "CONNECT=equipment_connection_string|RF_PORT_ID=equipment_rf_port" ("|" delimited) -->
+		  <!-- where CONNECT is the protocol being used (i.e. GPIB or VISA)-->
+          <!-- where equipment_connection_string is the NI-488 (GPIB) or VISA standard connection string -->
+          <!-- where RF_PORT_ID = the 8820C RF Port ID string for Tx/Rx port. If support for multiple ports are needed, use the multiplex manager -->
+		  <!-- Optionally there can be a user define DLL for the equipment communication. This is implemented with-->
+		  <!-- USRDLL=[full file path to the DLL]. Example: "GPIB=equipment_connection_string|RF_PORT_IDS=equipment_rf_port(s)|USERDLL=[file path]"-->
+		  <!-- The structure of the DLL functions are defined in equipcommtl_usrdll.h -->
+          <!--
+          <MULTIPLEX_MANAGER_CONFIG_FILE>C:\Program Files (x86)\Qualcomm\QDART\databases\MultiplexManagerConfigFile.xml</MULTIPLEX_MANAGER_CONFIG_FILE>
+          -->
+          <!-- Multiplex Manager configuration when using RF switching -->
+        </Device>
+      </DeviceGroup>
+    </DeviceGroups>
+  </DeviceConfigSession>
+</root>

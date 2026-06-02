@@ -1,0 +1,42 @@
+﻿生成启动时间为 2025/8/27 11:19:33。
+     1>项目“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\library\qrencode\qrencode.vcxproj”在节点 4 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\qrencode\qrencode.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\qrencode\qrencode.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D HAVE_CONFIG_H /D JGW_QRENCODE_LIB_EXPORTS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\qrencode\qrencode.pch" /Fo"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\qrencode\\" /Fd"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\qrencode\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D HAVE_CONFIG_H /D JGW_QRENCODE_LIB_EXPORTS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\qrencode\\" /Fd"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\qrencode\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt bitstream.c mask.c mmask.c mqrspec.c qrencode.c qrinput.c qrspec.c rsecc.c split.c
+         bitstream.c
+         mask.c
+         mmask.c
+         mqrspec.c
+         qrencode.c
+         qrinput.c
+         qrspec.c
+         rsecc.c
+         split.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D HAVE_CONFIG_H /D JGW_QRENCODE_LIB_EXPORTS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\qrencode\\" /Fd"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\qrencode\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CJGW_QRenCode.cpp
+         CJGW_QRenCode.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\core\qrencode.lib" /NOLOGO /LTCG "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\qrencode\bitstream.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\qrencode\CJGW_QRenCode.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\qrencode\mask.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\qrencode\mmask.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\qrencode\mqrspec.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\qrencode\qrencode.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\qrencode\qrinput.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\qrencode\qrspec.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\qrencode\rsecc.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\qrencode\split.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\qrencode\stdafx.obj"
+         qrencode.vcxproj -> D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\core\qrencode.lib
+       FinalizeBuildStatus:
+         正在删除文件“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\qrencode\qrencode.unsuccessfulbuild”。
+         正在对“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\qrencode\qrencode.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\library\qrencode\qrencode.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.04

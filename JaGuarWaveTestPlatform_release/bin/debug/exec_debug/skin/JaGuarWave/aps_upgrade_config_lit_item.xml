@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+    <ListContainerElementEx>
+		<HorizontalLayout inset="5,5,5,5" width="100" bordersize="1" bordercolor="#FF4775CC">
+			<Label text="本地连接 7" font="2" width="80" textcolor="#0000ff" align="center"/>
+		</HorizontalLayout>
+		<HorizontalLayout inset="5,5,5,5" width="0" bordersize="1" bordercolor="#FF4775CC">
+			<Label text="ASIX AX88179 USB 3.0 to Gigabit Ethernet Adapter" font="2" textcolor="#0000ff" align="left"/>
+		</HorizontalLayout>
+		<HorizontalLayout inset="5,0,5,0" width="150" bordersize="1" bordercolor="#FF4775CC">
+			<Edit text="" padding="0,2,0,2" regularcheck="((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])" regulartip="请输入合法IP地址" tooltip="" enabled="true"  textcolor="#FF000000" maxchar="30" align="left" disabledtextcolor="#FFA7A6AA" />
+		</HorizontalLayout>
+		<HorizontalLayout inset="5,2,0,2" width="100" bordersize="1" bordercolor="#FF4775CC">
+			<Button text="设置" enabled="false" font="2" width="40" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;button_nor.bmp&apos;corner=&apos;15,15,15,15&apos;; " hotimage=" file=&apos;button_over.bmp&apos;corner=&apos;5,5,5,5&apos;; " pushedimage=" file=&apos;button_down.bmp&apos;corner=&apos;5,5,5,5&apos;;" focusedimage=" file=&apos;button_over.bmp&apos;corner=&apos;5,5,5,5&apos;; " disabledimage=" file=&apos;disable_btn.png&apos;corner=&apos;5,5,5,5&apos;; " />
+			<Control enabled="true" width="10"/>
+			<Button text="修改" enabled="true" font="2" width="40" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;button_nor.bmp&apos;corner=&apos;15,15,15,15&apos;; " hotimage=" file=&apos;button_over.bmp&apos;corner=&apos;5,5,5,5&apos;; " pushedimage=" file=&apos;button_down.bmp&apos;corner=&apos;5,5,5,5&apos;;" focusedimage=" file=&apos;button_over.bmp&apos;corner=&apos;5,5,5,5&apos;; " disabledimage=" file=&apos;disable_btn.png&apos;corner=&apos;5,5,5,5&apos;; " />
+		</HorizontalLayout>
+	</ListContainerElementEx>
+</Window>

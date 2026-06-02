@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<TSE2>
+	<Environment>
+		<TSE_Environment></TSE_Environment>
+	</Environment>
+	<DLL description="TSE2 DLL">
+		<Library name="" />
+		<Library name="" />
+	</DLL>
+	<SeqUIConfig description="TSE2 UI CONFIG">
+		
+	</SeqUIConfig>
+	<SeqTest>
+		
+	</SeqTest>
+	<SeqTest ErrorRetryCount="3">
+		<RealName paramVal="CTSE_WriteQcomNV" description="写NV号段" />
+		<TestName paramVal="写NV" description="测试名称描述" />
+		<NV_ID paramVal="6858" description="NV 项索引" />
+		<Sub_ID paramVal="0" description="NV数组索引" />
+		<NV_Value paramVal="BYTE:1" description="NV值" />
+	</SeqTest>
+</TSE2>

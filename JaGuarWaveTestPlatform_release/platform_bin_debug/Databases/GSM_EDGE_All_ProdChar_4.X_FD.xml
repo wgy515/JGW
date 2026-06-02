@@ -1,0 +1,3674 @@
+<?xml version="1.0"?>
+<FormatDescriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1">
+  <OutputGroupSet name="Stability Summary" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="Phone Reset Count Statistics" IsChecked="True" IsForPPTChecked="True">
+      <Result resID="General" testID="Phone Reset Count Statistics" name="General">
+        <Discriminator id="TREE_NAME" />
+      </Result>
+      <Result resID="Lost Diag" testID="Phone Reset Count Statistics" name="Lost Diag">
+        <Discriminator id="TREE_NAME" />
+      </Result>
+      <Result resID="General" testID="Phone Reset Count Statistics" name="General">
+        <Discriminator id="TREE_NAME" />
+      </Result>
+      <Result resID="Refresh NV" testID="Phone Reset Count Statistics" name="Refresh NV">
+        <Discriminator id="TREE_NAME" />
+      </Result>
+      <Result resID="Force Registration" testID="Phone Reset Count Statistics" name="Force Registration">
+        <Discriminator id="TREE_NAME" />
+      </Result>
+      <Result resID="Call Failure" testID="Phone Reset Count Statistics" name="Call Failure">
+        <Discriminator id="TREE_NAME" />
+      </Result>
+      <Result resID="Measurement Failure" testID="Phone Reset Count Statistics" name="Measurement Failure">
+        <Discriminator id="TREE_NAME" />
+      </Result>
+      <Result resID="Unknown" testID="Phone Reset Count Statistics" name="Unknown">
+        <Discriminator id="TREE_NAME" />
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM Tx Power Summary" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="Tx Power" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Channel" />
+      <IndexedParam index="3" id="Tx Level" />
+      <IndexedParam index="4" id="Ant_port_State" />
+      <Result resID="avgTxPwr" testID="GSMBurstTiming" name="GSM Tx Power - Callbox">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+                <Discriminator id="Ant_port_State" optional="true" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="avgTxPwr_SelfTest" testID="GSMBurstTiming" name="GSM Tx Power - SelfTest">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+                <Discriminator id="Ant_port_State" optional="true" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="avgTxPwr Delta" testID="GSMBurstTiming" name="GSM Tx Power Delta">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+                <Discriminator id="Ant_port_State" optional="true" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM Mod Analysis" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="GSM Mod Analysis" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="=GSM" visible="false" isString="true" />
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Channel" />
+      <IndexedParam index="3" id="Tx Level" />
+      <IndexedParam index="4" id="Signaling" />
+      <IndexedParam index="5" id="Tx chain" />
+      <IndexedParam index="6" id="Ant_port_State" />
+      <Result resID="avgRMSPhErr" testID="GSMPhaseAndFreqErr" name="RMS Phase Error (deg)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Signaling">
+                <Discriminator id="Tx chain" isString="true" />
+                <Discriminator id="Tx chain" exclude="true">
+                  <Discriminator id="Ant_port_State" optional="true" />
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="maxRMSPhErr" testID="GSMPhaseAndFreqErr" name="Max RMS Phase Error (deg)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Signaling">
+                <Discriminator id="Tx chain" isString="true" />
+                <Discriminator id="Tx chain" exclude="true">
+                  <Discriminator id="Ant_port_State" optional="true" />
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="minPeakPhErr" testID="GSMPhaseAndFreqErr" name="Min Peak Phase Error (deg)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Signaling">
+                <Discriminator id="Tx chain" isString="true" />
+                <Discriminator id="Tx chain" exclude="true">
+                  <Discriminator id="Ant_port_State" optional="true" />
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="maxPeakPhErr" testID="GSMPhaseAndFreqErr" name="Max Peak Phase Error (deg)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Signaling">
+                <Discriminator id="Tx chain" isString="true" />
+                <Discriminator id="Tx chain" exclude="true">
+                  <Discriminator id="Ant_port_State" optional="true" />
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="avgRMSPhErr_SelfTest" testID="GSMPhaseAndFreqErr" name="GSM Avg RMS PhaseError - SelfTest">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Ant_port_State" optional="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="avgRMSPhErr Delta" testID="GSMPhaseAndFreqErr" name="GSM Avg RMS PhaseError Delta">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Ant_port_State" optional="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="minFreqErr" testID="GSMPhaseAndFreqErr" name="Min Freq Error (ppm)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Signaling">
+                <Discriminator id="Tx chain" isString="true" />
+                <Discriminator id="Tx chain" exclude="true">
+                  <Discriminator id="Ant_port_State" optional="true" />
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="maxFreqErr" testID="GSMPhaseAndFreqErr" name="Max Freq Error (ppm)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Signaling">
+                <Discriminator id="Tx chain" isString="true" />
+                <Discriminator id="Tx chain" exclude="true">
+                  <Discriminator id="Ant_port_State" optional="true" />
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM Tx Pwr, Template" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="GSM Tx Pwr, Template" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="=GSM" visible="false" isString="true" />
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Channel" />
+      <IndexedParam index="3" id="Tx Level" />
+      <IndexedParam index="4" id="Signaling" />
+      <IndexedParam index="5" id="Tx chain" />
+      <IndexedParam index="6" id="Ant_port_State" />
+      <Result resID="avgTxPwr" testID="GSMBurstTiming" name="Tx Pwr Lev (dBm)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Signaling">
+                <Discriminator id="Tx chain" isString="true" />
+                <Discriminator id="Tx chain" exclude="true">
+                  <Discriminator id="Ant_port_State" optional="true" />
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="tempJudge" testID="GSMBurstTiming" name="Template (bool)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Signaling">
+                <Discriminator id="Tx chain" isString="true" />
+                <Discriminator id="Tx chain" exclude="true">
+                  <Discriminator id="Ant_port_State" optional="true" />
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM Timing Error" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="Timing Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="=GSM" visible="false" isString="true" />
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Channel" />
+      <IndexedParam index="3" id="Tx Level" />
+      <IndexedParam index="4" id="Signaling" />
+      <IndexedParam index="5" id="Tx chain" />
+      <Result resID="avgTimeAlign" testID="GSMBurstTiming" name="Average Timing Error">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Signaling" value="1">
+                <Discriminator id="Tx chain" isString="true" />
+                <Discriminator id="Tx chain" exclude="true" />
+              </Discriminator>
+              <Discriminator id="Signaling" value="0">
+                <Discriminator id="RF_FTM_NonSig" value="0" />
+                <Discriminator id="RF_FTM_NonSig" value="1" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="maxTimeAlign" testID="GSMBurstTiming" name="Max Timing Error">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Signaling" value="1">
+                <Discriminator id="Tx chain" isString="true" />
+                <Discriminator id="Tx chain" exclude="true" />
+              </Discriminator>
+              <Discriminator id="Signaling" value="0">
+                <Discriminator id="RF_FTM_NonSig" value="0" />
+                <Discriminator id="RF_FTM_NonSig" value="1" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="minTimeAlign" testID="GSMBurstTiming" name="Min Timing Error">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Signaling" value="1">
+                <Discriminator id="Tx chain" isString="true" />
+                <Discriminator id="Tx chain" exclude="true" />
+              </Discriminator>
+              <Discriminator id="Signaling" value="0">
+                <Discriminator id="RF_FTM_NonSig" value="0" />
+                <Discriminator id="RF_FTM_NonSig" value="1" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM ORFS Mod" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="GSM ORFS Mod" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="=GSM" visible="false" isString="true" />
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Channel" />
+      <IndexedParam index="3" id="Tx Level" />
+      <IndexedParam index="4" id="Offset" />
+      <IndexedParam index="5" id="Signaling" />
+      <IndexedParam index="6" id="Tx chain" />
+      <IndexedParam index="7" id="Ant_port_State" />
+      <Result resID="ORFS_Mod" testID="GSMORFSMod" name="ORFS Mod">
+        <Discriminator id="Offset">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="Channel">
+              <Discriminator id="Tx Level">
+                <Discriminator id="Signaling">
+                  <Discriminator id="Tx chain" isString="true" />
+                  <Discriminator id="Tx chain" exclude="true">
+                    <Discriminator id="Ant_port_State" optional="true" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="ORFS_Mod_SelfTest" testID="GSMORFSMod" name="GSM ORFS Mod SelfTest">
+        <Discriminator id="Offset">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="Channel">
+              <Discriminator id="Tx Level">
+                <Discriminator id="Signaling">
+                  <Discriminator id="Tx chain" isString="true" />
+                  <Discriminator id="Tx chain" exclude="true">
+                    <Discriminator id="Ant_port_State" optional="true" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="ORFS_Mod_Delta" testID="GSMORFSMod" name="GSM ORFS Mod Delta">
+        <Discriminator id="Offset">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="Channel">
+              <Discriminator id="Tx Level">
+                <Discriminator id="Signaling">
+                  <Discriminator id="Tx chain" isString="true" />
+                  <Discriminator id="Tx chain" exclude="true">
+                    <Discriminator id="Ant_port_State" optional="true" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM ORFS Sw" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="GSM ORFS Sw" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="=GSM" visible="false" isString="true" />
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Channel" />
+      <IndexedParam index="3" id="Tx Level" />
+      <IndexedParam index="4" id="Offset" />
+      <IndexedParam index="5" id="Signaling" />
+      <IndexedParam index="6" id="Tx chain" />
+      <IndexedParam index="7" id="Ant_port_State" />
+      <Result resID="ORFS_Sw" testID="GSMORFSSw" name="ORFS Sw" sort="true">
+        <Discriminator id="Offset">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="Channel">
+              <Discriminator id="Tx Level">
+                <Discriminator id="Signaling">
+                  <Discriminator id="Tx chain" isString="true" />
+                  <Discriminator id="Tx chain" exclude="true">
+                    <Discriminator id="Ant_port_State" optional="true" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="ORFS_Sw_SelfTest" testID="GSMORFSSw" name="GSM ORFS Sw SelfTest">
+        <Discriminator id="Offset">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="Channel">
+              <Discriminator id="Tx Level">
+                <Discriminator id="Signaling">
+                  <Discriminator id="Tx chain" isString="true" />
+                  <Discriminator id="Tx chain" exclude="true">
+                    <Discriminator id="Ant_port_State" optional="true" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="ORFS_Sw_Delta" testID="GSMORFSSw" name="GSM ORFS Sw Delta">
+        <Discriminator id="Offset">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="Channel">
+              <Discriminator id="Tx Level">
+                <Discriminator id="Signaling">
+                  <Discriminator id="Tx chain" isString="true" />
+                  <Discriminator id="Tx chain" exclude="true">
+                    <Discriminator id="Ant_port_State" optional="true" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM Rx" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="GSM Rx" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="=GSM" visible="false" isString="true" />
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Channel" />
+      <IndexedParam index="3" id="Rx Power" />
+      <IndexedParam index="4" id="Interferer Freq Offset" />
+      <IndexedParam index="5" id="Signaling" />
+      <IndexedParam index="6" id="Tx chain" />
+      <Result resID="Sensitivity" testID="GSMReferenceSensitivitySearch" name="Sensitivity">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Signaling">
+              <Discriminator id="Tx chain" isString="true" />
+              <Discriminator id="Tx chain" exclude="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="FER" testID="GSMReferenceSensitivity" name="Sensitivity (FER)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Signaling">
+              <Discriminator id="Tx chain" isString="true" />
+              <Discriminator id="Tx chain" exclude="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="RBER-Ib" testID="GSMReferenceSensitivity" name="Sensitivity (RBER-Ib)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Signaling">
+              <Discriminator id="Tx chain" isString="true" />
+              <Discriminator id="Tx chain" exclude="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="RBER-II" testID="GSMReferenceSensitivity" name="Sensitivity (RBER-II)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Signaling">
+              <Discriminator id="Tx chain" isString="true" />
+              <Discriminator id="Tx chain" exclude="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="RBER-II" testID="GSMReferenceSensitivity" name="NER (RBER-II)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Rx Power" value="&gt;-90">
+            <Discriminator id="Channel">
+              <Discriminator id="Signaling">
+                <Discriminator id="Tx chain" isString="true" />
+                <Discriminator id="Tx chain" exclude="true" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Lev" testID="ACI_Search" name="ACI Search">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx chain" isString="true" />
+            <Discriminator id="Tx chain" exclude="true" />
+            <Filter id="Interferer Freq Offset" value="=200" />
+            <Filter id="Interferer Freq Offset" value="=-200" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Lev" testID="ACI_Search" name="ACI Search">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx chain" isString="true" />
+            <Discriminator id="Tx chain" exclude="true" />
+            <Filter id="Interferer Freq Offset" value="=400" visible="false" />
+            <Filter id="Interferer Freq Offset" value="=-400" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Lev" testID="Blocking_Search" name="Blocking Search">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx chain" isString="true" />
+            <Discriminator id="Tx chain" exclude="true" />
+            <Filter id="Interferer Freq Offset" value="=600" />
+            <Filter id="Interferer Freq Offset" value="=-600" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Lev" testID="Blocking_Search" name="Blocking Search">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx chain" isString="true" />
+            <Discriminator id="Tx chain" exclude="true" />
+            <Filter id="Interferer Freq Offset" value="=800" />
+            <Filter id="Interferer Freq Offset" value="=-800" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Lev" testID="Blocking_Search" name="Blocking Search">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx chain" isString="true" />
+            <Discriminator id="Tx chain" exclude="true" />
+            <Filter id="Interferer Freq Offset" value="=1600" />
+            <Filter id="Interferer Freq Offset" value="=-1600" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Lev" testID="Blocking_Search" name="Blocking Search">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx chain" isString="true" />
+            <Discriminator id="Tx chain" exclude="true" />
+            <Filter id="Interferer Freq Offset" value="=3000" />
+            <Filter id="Interferer Freq Offset" value="=-3000" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Lev" testID="Blocking_Search" name="Blocking Search">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx chain" isString="true" />
+            <Discriminator id="Tx chain" exclude="true" />
+            <Filter id="Interferer Freq Offset" value="=10000" />
+            <Filter id="Interferer Freq Offset" value="=-10000" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Lev" testID="AMSuppression_Search" name="AM Suppression Search">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx chain" isString="true" />
+            <Discriminator id="Tx chain" exclude="true" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Lev" testID="RxIntermod_Search" name="Rx Intermod Search">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx chain" isString="true" />
+            <Discriminator id="Tx chain" exclude="true" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max CW Jammer Lev" testID="RxIntermod_Search" name="Rx Intermod Search">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx chain" isString="true" />
+            <Discriminator id="Tx chain" exclude="true" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM Cal Ver" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="GSM Cal Ver" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="=GSM" visible="false" isString="true" />
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Tx Level" />
+      <IndexedParam index="3" id="Rx Power" />
+      <IndexedParam index="4" id="Signaling" />
+      <IndexedParam index="5" id="Tx chain" />
+      <IndexedParam index="6" id="Ant_port_State" />
+      <Result resID="Tx Error" testID="RFCalVerification">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level">
+            <Discriminator id="Signaling">
+              <Discriminator id="Tx chain" isString="true" />
+              <Discriminator id="Tx chain" exclude="true">
+                <Discriminator id="Ant_port_State" optional="true" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Rx Error" testID="RFCalVerification">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Rx Power">
+            <Discriminator id="Signaling">
+              <Discriminator id="Tx chain" isString="true" />
+              <Discriminator id="Tx chain" exclude="true">
+                <Discriminator id="Ant_port_State" optional="true" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM Monitor Ver" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="GSM Monitor Ver" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="=GSM" visible="false" isString="true" />
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Tx Level" />
+      <IndexedParam index="3" id="Rx Power" />
+      <IndexedParam index="4" id="Monitor Power" />
+      <IndexedParam index="5" id="Signaling" />
+      <IndexedParam index="6" id="Tx chain" />
+      <Result resID="Monitor Error" testID="RFCalVerification">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Monitor Power">
+            <Discriminator id="Rx Power">
+              <Discriminator id="Signaling">
+                <Discriminator id="Tx chain" isString="true" />
+                <Discriminator id="Tx chain" exclude="true" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Rx Error" testID="RFCalVerification">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Monitor Power">
+            <Discriminator id="Rx Power">
+              <Discriminator id="Signaling">
+                <Discriminator id="Tx chain" isString="true" />
+                <Discriminator id="Tx chain" exclude="true" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE Tx Power Summary" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="Tx Power" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Channel" />
+      <IndexedParam index="3" id="Tx Level" />
+      <IndexedParam index="4" id="Ant_port_State" />
+      <Result resID="avgTxPwr" testID="GSMBurstTiming" name="EDGE Tx Power - Callbox">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+                <Discriminator id="Ant_port_State" optional="true" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="avgTxPwr_SelfTest" testID="GSMBurstTiming" name="EDGE Tx Power - SelfTest">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+                <Discriminator id="Ant_port_State" optional="true" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="avgTxPwr Delta" testID="GSMBurstTiming" name="EDGE Tx Power Delta">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+                <Discriminator id="Ant_port_State" optional="true" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE Mod Analysis" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="EDGE Mod Analysis" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="=EDGE" visible="false" isString="true" />
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Channel" />
+      <IndexedParam index="3" id="Tx Level" />
+      <IndexedParam index="4" id="Coding Scheme" />
+      <IndexedParam index="5" id="Relative Measurement Slot" />
+      <IndexedParam index="6" id="Signaling" />
+      <IndexedParam index="7" id="Tx chain" />
+      <IndexedParam index="8" id="Ant_port_State" />
+      <Result resID="avgRMSPhErr" testID="GSMPhaseAndFreqErr" name="RMS Phase Error (deg)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Relative Measurement Slot">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true">
+                      <Discriminator id="Ant_port_State" optional="true" />
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="maxRMSPhErr" testID="GSMPhaseAndFreqErr" name="RMS Phase Error Max (deg)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Relative Measurement Slot">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true">
+                      <Discriminator id="Ant_port_State" optional="true" />
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="minPeakPhErr" testID="GSMPhaseAndFreqErr" name="Min Peak Phase Error (deg)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Relative Measurement Slot">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true">
+                      <Discriminator id="Ant_port_State" optional="true" />
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="maxPeakPhErr" testID="GSMPhaseAndFreqErr" name="Max Peak Phase Error (deg)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Relative Measurement Slot">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true">
+                      <Discriminator id="Ant_port_State" optional="true" />
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="avgRMSPhErr_SelfTest" testID="GSMPhaseAndFreqErr" name=" Avg RMS PhaseError - SelfTest">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Ant_port_State" optional="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="avgRMSPhErr Delta" testID="GSMPhaseAndFreqErr" name=" Avg RMS PhaseError Delta">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Ant_port_State" optional="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="minFreqErr" testID="GSMPhaseAndFreqErr" name="Min Freq Error (ppm)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Relative Measurement Slot">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true">
+                      <Discriminator id="Ant_port_State" optional="true" />
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="maxFreqErr" testID="GSMPhaseAndFreqErr" name="Max Freq Error (ppm)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Relative Measurement Slot">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true">
+                      <Discriminator id="Ant_port_State" optional="true" />
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="avgEVM" testID="GSMPhaseAndFreqErr" name="EVM (%rms)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Relative Measurement Slot">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true">
+                      <Discriminator id="Ant_port_State" optional="true" />
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="avgEVM_SelfTest" testID="GSMPhaseAndFreqErr" name="EVM SelfTest (%rms)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Relative Measurement Slot">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true">
+                      <Discriminator id="Ant_port_State" optional="true" />
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="avgEVM Delta" testID="GSMPhaseAndFreqErr" name="EVM SelfTest Delta (%rms)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Relative Measurement Slot">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true">
+                      <Discriminator id="Ant_port_State" optional="true" />
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="PeakEVM" testID="GSMPhaseAndFreqErr" name="Peak EVM (%)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Relative Measurement Slot">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true">
+                      <Discriminator id="Ant_port_State" optional="true" />
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="AvgPeakEVM" testID="GSMPhaseAndFreqErr" name="Avg Peak EVM (%)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Relative Measurement Slot">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true">
+                      <Discriminator id="Ant_port_State" optional="true" />
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="avgMagErr" testID="GSMPhaseAndFreqErr" name="Magnitude Error (%)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Relative Measurement Slot">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true">
+                      <Discriminator id="Ant_port_State" optional="true" />
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="avgOrigOffset" testID="GSMPhaseAndFreqErr" name="Origin Offset (dB)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Relative Measurement Slot">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true">
+                      <Discriminator id="Ant_port_State" optional="true" />
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="avgOrigOffset_SelfTest" testID="GSMPhaseAndFreqErr" name="Origin Offset SelfTest (dB)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Relative Measurement Slot">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true">
+                      <Discriminator id="Ant_port_State" optional="true" />
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="avgOrigOffset Delta" testID="GSMPhaseAndFreqErr" name="Origin Offset Delta (dB)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Relative Measurement Slot">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true">
+                      <Discriminator id="Ant_port_State" optional="true" />
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="EVM_95th" testID="GSMPhaseAndFreqErr" name="EVM 95th Percentile (%)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Relative Measurement Slot">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true">
+                      <Discriminator id="Ant_port_State" optional="true" />
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE Tx Pwr, Template" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="EDGE Tx Pwr, Template" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="=EDGE" visible="false" isString="true" />
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Channel" />
+      <IndexedParam index="3" id="Tx Level" />
+      <IndexedParam index="4" id="Coding Scheme" />
+      <IndexedParam index="5" id="Relative Measurement Slot" />
+      <IndexedParam index="6" id="Signaling" />
+      <IndexedParam index="7" id="Tx chain" />
+      <IndexedParam index="8" id="Ant_port_State" />
+      <Result resID="avgTxPwr" testID="GSMBurstTiming" name="Tx Power Level (dBm)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Relative Measurement Slot">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true">
+                      <Discriminator id="Ant_port_State" optional="true" />
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="tempJudge" testID="GSMBurstTiming" name="Tx Burst Template (bool)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Relative Measurement Slot">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true">
+                      <Discriminator id="Ant_port_State" optional="true" />
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE Timing Error" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="EDGE Timing Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="=EDGE" visible="false" isString="true" />
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Channel" />
+      <IndexedParam index="3" id="Tx Level" />
+      <IndexedParam index="4" id="Coding Scheme" />
+      <IndexedParam index="5" id="Relative Measurement Slot" />
+      <IndexedParam index="6" id="Signaling" />
+      <IndexedParam index="7" id="Tx chain" />
+      <Result resID="avgTimeAlign" testID="GSMBurstTiming" name="Average Timing Error">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Relative Measurement Slot">
+                  <Discriminator id="Signaling" value="1">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true" />
+                  </Discriminator>
+                  <Discriminator id="Signaling" value="0">
+                    <Discriminator id="RF_FTM_NonSig" value="0" />
+                    <Discriminator id="RF_FTM_NonSig" value="1" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="maxTimeAlign" testID="GSMBurstTiming" name="Max Timing Error">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Relative Measurement Slot">
+                  <Discriminator id="Signaling" value="1">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true" />
+                  </Discriminator>
+                  <Discriminator id="Signaling" value="0">
+                    <Discriminator id="RF_FTM_NonSig" value="0" />
+                    <Discriminator id="RF_FTM_NonSig" value="1" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="minTimeAlign" testID="GSMBurstTiming" name="Min Timing Error">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Relative Measurement Slot">
+                  <Discriminator id="Signaling" value="1">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true" />
+                  </Discriminator>
+                  <Discriminator id="Signaling" value="0">
+                    <Discriminator id="RF_FTM_NonSig" value="0" />
+                    <Discriminator id="RF_FTM_NonSig" value="1" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE ORFS Mod" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="EDGE ORFS Mod" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="=EDGE" visible="false" isString="true" />
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Channel" />
+      <IndexedParam index="3" id="Tx Level" />
+      <IndexedParam index="4" id="Offset" />
+      <IndexedParam index="5" id="Coding Scheme" />
+      <IndexedParam index="6" id="Relative Measurement Slot" />
+      <IndexedParam index="7" id="Signaling" />
+      <IndexedParam index="8" id="Tx chain" />
+      <IndexedParam index="9" id="Ant_port_State" />
+      <Result resID="ORFS_Mod" testID="GSMORFSMod" name="ORFS Mod">
+        <Discriminator id="Offset">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="Channel">
+              <Discriminator id="Tx Level">
+                <Discriminator id="Coding Scheme" isString="true">
+                  <Discriminator id="Relative Measurement Slot">
+                    <Discriminator id="Signaling">
+                      <Discriminator id="Tx chain" isString="true" />
+                      <Discriminator id="Tx chain" exclude="true">
+                        <Discriminator id="Ant_port_State" optional="true" />
+                      </Discriminator>
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="ORFS_Mod_SelfTest" testID="GSMORFSMod" name=" ORFS Mod SelfTest">
+        <Discriminator id="Offset">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="Channel">
+              <Discriminator id="Tx Level">
+                <Discriminator id="Signaling">
+                  <Discriminator id="Tx chain" isString="true" />
+                  <Discriminator id="Tx chain" exclude="true">
+                    <Discriminator id="Ant_port_State" optional="true" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="ORFS_Mod_Delta" testID="GSMORFSMod" name=" ORFS Mod Delta">
+        <Discriminator id="Offset">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="Channel">
+              <Discriminator id="Tx Level">
+                <Discriminator id="Signaling">
+                  <Discriminator id="Tx chain" isString="true" />
+                  <Discriminator id="Tx chain" exclude="true">
+                    <Discriminator id="Ant_port_State" optional="true" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE ORFS Sw" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="EDGE ORFS Sw" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="=EDGE" visible="false" isString="true" />
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Channel" />
+      <IndexedParam index="3" id="Tx Level" />
+      <IndexedParam index="4" id="Offset" />
+      <IndexedParam index="5" id="Coding Scheme" />
+      <IndexedParam index="6" id="Relative Measurement Slot" />
+      <IndexedParam index="7" id="Signaling" />
+      <IndexedParam index="8" id="Tx chain" />
+      <IndexedParam index="9" id="Ant_port_State" />
+      <Result resID="ORFS_Sw" testID="GSMORFSSw" name="ORFS Sw">
+        <Discriminator id="Offset">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="Channel">
+              <Discriminator id="Tx Level">
+                <Discriminator id="Coding Scheme" isString="true">
+                  <Discriminator id="Relative Measurement Slot">
+                    <Discriminator id="Signaling">
+                      <Discriminator id="Tx chain" isString="true" />
+                      <Discriminator id="Tx chain" exclude="true">
+                        <Discriminator id="Ant_port_State" optional="true" />
+                      </Discriminator>
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="ORFS_Sw_SelfTest" testID="GSMORFSSw" name=" ORFS Sw SelfTest">
+        <Discriminator id="Offset">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="Channel">
+              <Discriminator id="Tx Level">
+                <Discriminator id="Signaling">
+                  <Discriminator id="Tx chain" isString="true" />
+                  <Discriminator id="Tx chain" exclude="true">
+                    <Discriminator id="Ant_port_State" optional="true" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="ORFS_Sw_Delta" testID="GSMORFSSw" name=" ORFS Sw Delta">
+        <Discriminator id="Offset">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="Channel">
+              <Discriminator id="Tx Level">
+                <Discriminator id="Signaling">
+                  <Discriminator id="Tx chain" isString="true" />
+                  <Discriminator id="Tx chain" exclude="true">
+                    <Discriminator id="Ant_port_State" optional="true" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE Rx" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="EDGE Rx" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="=EDGE" visible="false" isString="true" />
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Channel" />
+      <IndexedParam index="3" id="Rx Power" />
+      <IndexedParam index="4" id="Coding Scheme" />
+      <IndexedParam index="5" id="Multi Slot Config" />
+      <IndexedParam index="6" id="Interferer Freq Offset" />
+      <IndexedParam index="7" id="Signaling" />
+      <IndexedParam index="8" id="Tx chain" />
+      <Result resID="Sensitivity" testID="GSMReferenceSensitivitySearch" name="Sensitivity">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Coding Scheme" isString="true">
+              <Discriminator id="Multi Slot Config" isString="true">
+                <Discriminator id="Rx Power" value="&lt;-85">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="BLER" testID="EDGEReferenceSensitivity" name="Sensitivity (BLER)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Coding Scheme" isString="true">
+              <Discriminator id="Multi Slot Config" isString="true">
+                <Discriminator id="Rx Power" value="&lt;-85">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="BER" testID="EDGEReferenceSensitivity" name="Sensitivity (SRB BER)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Coding Scheme" isString="true">
+              <Discriminator id="Multi Slot Config" isString="true">
+                <Discriminator id="Rx Power" value="&lt;-85">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="BLER" testID="EDGEReferenceSensitivity" name="NER (BLER)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Coding Scheme" isString="true">
+              <Discriminator id="Multi Slot Config" isString="true">
+                <Discriminator id="Rx Power" value="&gt;=-85">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="BER" testID="EDGEReferenceSensitivity" name="NER (SRB BER)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Coding Scheme" isString="true">
+              <Discriminator id="Multi Slot Config" isString="true">
+                <Discriminator id="Rx Power" value="&gt;=-85">
+                  <Discriminator id="Signaling">
+                    <Discriminator id="Tx chain" isString="true" />
+                    <Discriminator id="Tx chain" exclude="true" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Lev" testID="ACI_Search" name="ACI Search">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Multi Slot Config" isString="true">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Tx chain" isString="true" />
+                <Discriminator id="Tx chain" exclude="true" />
+                <Filter id="Interferer Freq Offset" value="=200" />
+                <Filter id="Interferer Freq Offset" value="=-200" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Lev" testID="ACI_Search" name="ACI Search">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Multi Slot Config" isString="true">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Tx chain" isString="true" />
+                <Discriminator id="Tx chain" exclude="true" />
+                <Filter id="Interferer Freq Offset" value="=400" visible="false" />
+                <Filter id="Interferer Freq Offset" value="=-400" visible="false" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Lev" testID="Blocking_Search" name="Blocking Search">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Multi Slot Config" isString="true">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Tx chain" isString="true" />
+                <Discriminator id="Tx chain" exclude="true" />
+                <Filter id="Interferer Freq Offset" value="=600" />
+                <Filter id="Interferer Freq Offset" value="=-600" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Lev" testID="Blocking_Search" name="Blocking Search">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Multi Slot Config" isString="true">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Tx chain" isString="true" />
+                <Discriminator id="Tx chain" exclude="true" />
+                <Filter id="Interferer Freq Offset" value="=800" />
+                <Filter id="Interferer Freq Offset" value="=-800" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Lev" testID="Blocking_Search" name="Blocking Search">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Multi Slot Config" isString="true">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Tx chain" isString="true" />
+                <Discriminator id="Tx chain" exclude="true" />
+                <Filter id="Interferer Freq Offset" value="=1600" />
+                <Filter id="Interferer Freq Offset" value="=-1600" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Lev" testID="Blocking_Search" name="Blocking Search">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Multi Slot Config" isString="true">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Tx chain" isString="true" />
+                <Discriminator id="Tx chain" exclude="true" />
+                <Filter id="Interferer Freq Offset" value="=3000" />
+                <Filter id="Interferer Freq Offset" value="=-3000" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Lev" testID="Blocking_Search" name="Blocking Search">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Multi Slot Config" isString="true">
+              <Discriminator id="Coding Scheme" isString="true">
+                <Discriminator id="Tx chain" isString="true" />
+                <Discriminator id="Tx chain" exclude="true" />
+                <Filter id="Interferer Freq Offset" value="=10000" />
+                <Filter id="Interferer Freq Offset" value="=-10000" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Lev" testID="AMSuppression_Search" name="AM Suppression Search">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Multi Slot Config" isString="true">
+              <Discriminator id="Coding Scheme" isString="true" />
+              <Discriminator id="Tx chain" isString="true" />
+              <Discriminator id="Tx chain" exclude="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Lev" testID="RxIntermod_Search" name="Rx Intermod Search">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Multi Slot Config" isString="true">
+              <Discriminator id="Coding Scheme" isString="true" />
+              <Discriminator id="Tx chain" isString="true" />
+              <Discriminator id="Tx chain" exclude="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max CW Jammer Lev" testID="RxIntermod_Search" name="Rx Intermod Search">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Multi Slot Config" isString="true">
+              <Discriminator id="Coding Scheme" isString="true" />
+              <Discriminator id="Tx chain" isString="true" />
+              <Discriminator id="Tx chain" exclude="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE Delay Cal Ver" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="EDGE Delay Cal Ver" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="=EDGE" visible="false" isString="true" />
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Tx Level" />
+      <IndexedParam index="3" id="Signaling" />
+      <Result resID="NV Delay" testID="Edge Delay CalVer">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level">
+            <Discriminator id="Signaling">
+              <Discriminator id="Tx chain" isString="true" />
+              <Discriminator id="Tx chain" exclude="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Best Delay" testID="Edge Delay CalVer">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level">
+            <Discriminator id="Signaling">
+              <Discriminator id="Tx chain" isString="true" />
+              <Discriminator id="Tx chain" exclude="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM RMS Phase Err" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Lin name="GSM Avg RMS Phase Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="avgRMSPhErr" testID="GSMPhaseAndFreqErr" name="GSM Avg RMS PhaseError">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="avgRMSPhErr_SelfTest" testID="GSMPhaseAndFreqErr" name="GSM Avg RMS PhaseError - SelfTest">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="GSM Phase Error Delta" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Tx Level">
+          <Discriminator id="Mode" value="GSM" visible="false" isString="true" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="avgRMSPhErr Delta" testID="GSMPhaseAndFreqErr" name="GSM Avg RMS PhaseError Delta">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="GSM Max RMS Phase Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="maxRMSPhErr" testID="GSMPhaseAndFreqErr">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM Min Peak Phase Err" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="GSM Min Peak Phase Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="minPeakPhErr" testID="GSMPhaseAndFreqErr">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM Max Peak Phase Err" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="GSM Max Peak Phase Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="maxPeakPhErr" testID="GSMPhaseAndFreqErr">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM Min Freq Error" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="GSM Min Freq Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="minFreqErr" testID="GSMPhaseAndFreqErr">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM Max Freq Error" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="GSM Max Freq Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="maxFreqErr" testID="GSMPhaseAndFreqErr" format="0.000">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM Tx Level" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="GSM Tx Power" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="avgTxPwr" testID="GSMBurstTiming" name="Tx Power - Callbox">
+          <Discriminator id="Channel">
+            <Discriminator id="Mode" value="GSM" visible="false" isString="true" />
+          </Discriminator>
+        </Result>
+        <Result resID="avgTxPwr_SelfTest" testID="GSMBurstTiming" name="Tx Power - SelfTest">
+          <Discriminator id="Channel">
+            <Discriminator id="Mode" value="GSM" visible="false" isString="true" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="GSM Tx Power Delta" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="avgTxPwr Delta" testID="GSMBurstTiming" name="Tx Power Delta">
+          <Discriminator id="Channel">
+            <Discriminator id="Mode" value="GSM" visible="false" isString="true" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM ORFS Mod Charts" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="GSM ORFS Mod &lt;=250kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Tx Level" value="=5">
+          <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+            <Discriminator id="Signaling" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="ORFS_Mod" testID="GSMORFSMod" name="ORFS_Mod">
+          <Discriminator id="Offset" value="&lt;=250">
+            <Discriminator id="Offset" value="&gt;=-250" />
+          </Discriminator>
+        </Result>
+        <Result resID="ORFS_Mod_SelfTest" testID="GSMORFSMod" name="ORFS_Mod SelfTest">
+          <Discriminator id="Offset" value="&lt;=250">
+            <Discriminator id="Offset" value="&gt;=-250" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="GSM ORFS Mod Delta &lt;=250kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Tx Level" value="=5">
+          <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+            <Discriminator id="Signaling" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="ORFS_Mod_Delta" testID="GSMORFSMod" name="ORFS_Mod Delta">
+          <Discriminator id="Offset" value="&lt;=250">
+            <Discriminator id="Offset" value="&gt;=-250" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="GSM ORFS Mod &lt;=250kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Tx Level" value="=0">
+          <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+            <Discriminator id="Signaling" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="ORFS_Mod" testID="GSMORFSMod" name="ORFS_Mod">
+          <Discriminator id="Offset" value="&lt;=250">
+            <Discriminator id="Offset" value="&gt;=-250" />
+          </Discriminator>
+        </Result>
+        <Result resID="ORFS_Mod_SelfTest" testID="GSMORFSMod" name="ORFS_Mod SelfTest">
+          <Discriminator id="Offset" value="&lt;=250">
+            <Discriminator id="Offset" value="&gt;=-250" />
+          </Discriminator>
+        </Result>
+        <Result resID="ORFS_Mod_Delta" testID="GSMORFSMod" name="ORFS_Mod Delta">
+          <Discriminator id="Offset" value="&lt;=250">
+            <Discriminator id="Offset" value="&gt;=-250" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="GSM ORFS Mod Delta &lt;=250kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Tx Level" value="=0">
+          <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+            <Discriminator id="Signaling" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="ORFS_Mod_Dela" testID="GSMORFSMod" name="ORFS_Mod Delta">
+          <Discriminator id="Offset" value="&lt;=250">
+            <Discriminator id="Offset" value="&gt;=-250" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="GSM ORFS Mod &gt;=400kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Tx Level" value="=5">
+          <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+            <Discriminator id="Signaling" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="ORFS_Mod" testID="GSMORFSMod" name="ORFS_Mod">
+          <Discriminator id="Offset" value="&gt;250" />
+          <Discriminator id="Offset" value="&lt;-250" />
+        </Result>
+        <Result resID="ORFS_Mod_SelfTest" testID="GSMORFSMod" name="ORFS_Mod SelfTest">
+          <Discriminator id="Offset" value="&gt;250" />
+          <Discriminator id="Offset" value="&lt;-250" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="GSM ORFS Mod Delta &gt;=400kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Tx Level" value="=5">
+          <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+            <Discriminator id="Signaling" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="ORFS_Mod_Delta" testID="GSMORFSMod" name="ORFS_Mod Delta">
+          <Discriminator id="Offset" value="&gt;250" />
+          <Discriminator id="Offset" value="&lt;-250" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="GSM ORFS Mod &gt;=400kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Tx Level" value="=0">
+          <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+            <Discriminator id="Signaling" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="ORFS_Mod" testID="GSMORFSMod" name="ORFS_Mod">
+          <Discriminator id="Offset" value="&gt;250" />
+          <Discriminator id="Offset" value="&lt;-250" />
+        </Result>
+        <Result resID="ORFS_Mod_SelfTest" testID="GSMORFSMod" name="ORFS_Mod SelfTest">
+          <Discriminator id="Offset" value="&gt;250" />
+          <Discriminator id="Offset" value="&lt;-250" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="GSM ORFS Mod Delta &gt;=400kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Tx Level" value="=0">
+          <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+            <Discriminator id="Signaling" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="ORFS_Mod_Delta" testID="GSMORFSMod" name="ORFS_Mod_Delta">
+          <Discriminator id="Offset" value="&gt;250" />
+          <Discriminator id="Offset" value="&lt;-250" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM ORFS MOD vs Ch" IsChecked="True" IsForPPTChecked="True" width="2">
+    <Discriminator id="Mode" value="=GSM" visible="false" isString="true" />
+    <OutputGroupDescriptor_Lin name="ORFS Mod vs Ch" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" visible="false" isString="true">
+        <Discriminator id="Tx Level" value="=0">
+          <Discriminator id="Offset" value="=-400" />
+          <Discriminator id="Offset" value="=400" />
+        </Discriminator>
+        <Discriminator id="Tx Level" value="=5">
+          <Discriminator id="Offset" value="=-400" />
+          <Discriminator id="Offset" value="=400" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="ORFS_Mod" testID="GSMORFSMod">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM ORFS Sw vs Ch" IsChecked="True" IsForPPTChecked="True" width="3">
+    <Discriminator id="Mode" value="=GSM" visible="false" isString="true" />
+    <OutputGroupDescriptor_Lin name="ORFS Sw vs Ch" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" visible="false" isString="true">
+        <Discriminator id="Tx Level" value="=0">
+          <Discriminator id="Offset" value="=-400" />
+          <Discriminator id="Offset" value="=400" />
+        </Discriminator>
+        <Discriminator id="Tx Level" value="=5">
+          <Discriminator id="Offset" value="=-400" />
+          <Discriminator id="Offset" value="=400" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="ORFS_Sw" testID="GSMORFSSw">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM ORFS Sw Charts" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="GSM ORFS Sw" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="=GSM" visible="false" isString="true">
+        <Discriminator id="Signaling">
+          <Discriminator id="Band" value="=GSM850" isString="true">
+            <Discriminator id="Tx Level" value="=5" />
+          </Discriminator>
+          <Discriminator id="Band" value="=EGSM" isString="true">
+            <Discriminator id="Tx Level" value="=5" />
+          </Discriminator>
+          <Discriminator id="Band" value="=DCS" isString="true">
+            <Discriminator id="Tx Level" value="=0" />
+          </Discriminator>
+          <Discriminator id="Band" value="=PCS" isString="true">
+            <Discriminator id="Tx Level" value="=0" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="ORFS_Sw" testID="GSMORFSSw" name="ORFS_Sw">
+          <Discriminator id="Offset" />
+        </Result>
+        <Result resID="ORFS_Sw_SelfTest" testID="GSMORFSSw" name="ORFS_Sw SelfTest">
+          <Discriminator id="Offset" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="GSM ORFS Sw Delta" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="=GSM" visible="false" isString="true">
+        <Discriminator id="Signaling">
+          <Discriminator id="Band" value="=GSM850" isString="true">
+            <Discriminator id="Tx Level" value="=5" />
+          </Discriminator>
+          <Discriminator id="Band" value="=EGSM" isString="true">
+            <Discriminator id="Tx Level" value="=5" />
+          </Discriminator>
+          <Discriminator id="Band" value="=DCS" isString="true">
+            <Discriminator id="Tx Level" value="=0" />
+          </Discriminator>
+          <Discriminator id="Band" value="=PCS" isString="true">
+            <Discriminator id="Tx Level" value="=0" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="ORFS_Sw_Delta" testID="GSMORFSSw" name="ORFS_Sw Delta">
+          <Discriminator id="Offset" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM ORFS MOD Hist" IsChecked="True" IsForPPTChecked="True" width="2">
+    <Discriminator id="Mode" value="=GSM" visible="false" isString="true" />
+    <OutputGroupDescriptor_Hist name="ORFS Mod 400kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Signaling">
+        <Discriminator id="Tx Level" value="5">
+          <Discriminator id="Band" value="=GSM850" />
+          <Discriminator id="Band" value="=EGSM" />
+        </Discriminator>
+        <Discriminator id="Tx Level" value="0">
+          <Discriminator id="Band" value="=DCS" />
+          <Discriminator id="Band" value="=PCS" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" step="0.5" />
+      </OGDisplayProperties>
+      <Result resID="ORFS_Mod" testID="GSMORFSMod" name="ORFS_Mod">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx chain" />
+          <Filter id="Offset" value="400" visible="false" />
+          <Filter id="Offset" value="-400" visible="false" />
+        </Discriminator>
+      </Result>
+    </OutputGroupDescriptor_Hist>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM ORFS Sw Hist" IsChecked="True" IsForPPTChecked="True" width="2">
+    <Discriminator id="Mode" value="=GSM" visible="false" isString="true" />
+    <OutputGroupDescriptor_Hist name="ORFS Sw 400kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Signaling">
+        <Discriminator id="Tx Level" value="5">
+          <Discriminator id="Band" value="=GSM850" />
+          <Discriminator id="Band" value="=EGSM" />
+        </Discriminator>
+        <Discriminator id="Tx Level" value="0">
+          <Discriminator id="Band" value="=DCS" />
+          <Discriminator id="Band" value="=PCS" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" step="0.5" />
+      </OGDisplayProperties>
+      <Result resID="ORFS_Sw" testID="GSMORFSSw" name="ORFS_Sw">
+        <Discriminator id="Band">
+          <Discriminator id="Tx chain" isString="true" />
+          <Filter id="Offset" value="400" visible="false" />
+          <Filter id="Offset" value="-400" visible="false" />
+        </Discriminator>
+      </Result>
+    </OutputGroupDescriptor_Hist>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM Sensitivity" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="GSM Sensitivity" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Mode" value="GSM" visible="false" isString="true" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="Sensitivity" testID="GSMReferenceSensitivitySearch">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="GSM Sensitivity (FER)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true" />
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="FER" testID="GSMReferenceSensitivity">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="GSM Sensitivity (RBER-Ib)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true" />
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="RBER-Ib" testID="GSMReferenceSensitivity">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="GSM Sensitivity (RBER-II)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true" />
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="RBER-II" testID="GSMReferenceSensitivity">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM ACI" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="GSM ACI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Interferer Freq Offset" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="Max Jammer Lev" testID="ACI_Search">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="ACI (FER)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Interferer Freq Offset" />
+      </Discriminator>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="FER" testID="ACI">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="ACI (RBER-Ib)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Interferer Freq Offset" />
+      </Discriminator>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="RBER-Ib" testID="ACI">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="ACI (RBER-II)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Interferer Freq Offset" />
+      </Discriminator>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="RBER-II" testID="ACI">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM Blocking" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="GSM Blocking" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Interferer Freq Offset" value="&lt;3000">
+            <Discriminator id="Interferer Freq Offset" value="&gt;-3000" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="Max Jammer Lev" testID="Blocking_Search">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="GSM Blocking +/-3000kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Filter id="Interferer Freq Offset" value="=3000" visible="false" />
+          <Filter id="Interferer Freq Offset" value="=-3000" visible="false" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="Max Jammer Lev" testID="Blocking_Search">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="GSM Blocking +/-10000kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Filter id="Interferer Freq Offset" value="=10000" visible="false" />
+          <Filter id="Interferer Freq Offset" value="=-10000" visible="false" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="Max Jammer Lev" testID="Blocking_Search">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="GSM Blocking (FER)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Interferer Freq Offset" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="FER" testID="Blocking">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="GSM Blocking (RBER-II)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Interferer Freq Offset" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="RBER-II" testID="Blocking">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM AM Suppression" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="GSM AM Suppression" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+        <Discriminator id="Band" isString="true" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="Max Jammer Lev" testID="AMSuppression_Search">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="AM Suppression (RBER-II)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true" />
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="RBER-II" testID="AMSuppression">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM Rx Intermod" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="GSM RxIntermod : Mod Offset = 1600kHz, CW Offset = 800kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+        <Discriminator id="Band" isString="true" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="Max Jammer Lev" testID="RxIntermod_Search">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="RxIntermod (RBER-II) : Mod Offset = 1600kHz, CW Offset = 800kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+        <Discriminator id="Band" isString="true" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="RBER-II" testID="RxIntermod">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM 850 Harmonics" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="GSM850 : Harmonics" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" value="=GSM850" visible="false" isString="true">
+        <Discriminator id="Tx Level">
+          <Discriminator id="Harmonic" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="Spur Power" testID="GSMSpuriousHarmonics">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="GSM850 : Harmonics : Tx Power" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" value="=GSM850" visible="false" isString="true">
+        <Discriminator id="Tx Level">
+          <Discriminator id="Harmonic" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="avgTxPwr" testID="GSMSpuriousHarmonics" name="Tx Power">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EGSM Harmonics" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="EGSM : Harmonics" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" value="=EGSM" visible="false" isString="true">
+        <Discriminator id="Tx Level">
+          <Discriminator id="Harmonic" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="Spur Power" testID="GSMSpuriousHarmonics">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="EGSM : Harmonics : Tx Power" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" value="=EGSM" visible="false" isString="true">
+        <Discriminator id="Tx Level">
+          <Discriminator id="Harmonic" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="avgTxPwr" testID="GSMSpuriousHarmonics" name="Tx Power">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="DCS Harmonics" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="DCS : Harmonics" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" value="=DCS" visible="false" isString="true">
+        <Discriminator id="Tx Level">
+          <Discriminator id="Harmonic" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="Spur Power" testID="GSMSpuriousHarmonics">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="DCS : Harmonics : Tx Power" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" value="=DCS" visible="false" isString="true">
+        <Discriminator id="Tx Level">
+          <Discriminator id="Harmonic" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="avgTxPwr" testID="GSMSpuriousHarmonics" name="Tx Power">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="PCS Harmonics" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="PCS : Harmonics" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" value="=PCS" visible="false" isString="true">
+        <Discriminator id="Tx Level">
+          <Discriminator id="Harmonic" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="Spur Power" testID="GSMSpuriousHarmonics">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="PCS : Harmonics : Tx Power" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" value="=PCS" visible="false" isString="true">
+        <Discriminator id="Tx Level">
+          <Discriminator id="Harmonic" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="avgTxPwr" testID="GSMSpuriousHarmonics" name="Tx Power">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Tx Cal Ver" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="Tx Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Channel" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="Tx Error" testID="RFCalVerification">
+          <Discriminator id="Tx Level" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Rx Cal Ver" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="Rx Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Channel" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+        <YAxis index="2" min="0" max="6" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="Rx Error" testID="RFCalVerification">
+          <Discriminator id="Rx Power" />
+        </Result>
+        <Result resID="Rx Gain State" testID="RFCalVerification" axisIndex="2">
+          <Discriminator id="Rx Power" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE RMS Phase Err" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Lin name="EDGE Avg RMS Phase Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="avgRMSPhErr" testID="GSMPhaseAndFreqErr">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="EDGE Max RMS Phase Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="maxRMSPhErr" testID="GSMPhaseAndFreqErr">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE Min Peak Phase Err" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="EDGE Min Peak Phase Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="minPeakPhErr" testID="GSMPhaseAndFreqErr">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE Max Peak Phase Err" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="EDGE Max Peak Phase Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="maxPeakPhErr" testID="GSMPhaseAndFreqErr">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE Min Freq Error" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="EDGE Min Freq Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level">
+            <Discriminator id="Coding Scheme" isString="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="minFreqErr" testID="GSMPhaseAndFreqErr">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE Max Freq Error" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="EDGE Max Freq Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level">
+            <Discriminator id="Coding Scheme" isString="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="maxFreqErr" testID="GSMPhaseAndFreqErr" format="0.000">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE EVM" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="EDGE EVM" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level">
+            <Discriminator id="Coding Scheme" isString="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="avgEVM" testID="GSMPhaseAndFreqErr">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="avgEVM_SelfTest" testID="GSMPhaseAndFreqErr" name="EVM - SelfTest">
+          <Discriminator id="Channel">
+            <Discriminator id="Mode" value="EDGE" visible="false" isString="true" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="EDGE EVM Delta" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator name="Band" id="Band">
+        <Discriminator name="Tx Level" id="Tx Level" />
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="avgEVM Delta" testID="GSMPhaseAndFreqErr" name="EDGE EVM Delta">
+          <Discriminator id="Channel">
+            <Discriminator id="Mode" value="EDGE" visible="false" isString="true" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE Peak EVM" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="EDGE Peak EVM" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level">
+            <Discriminator id="Coding Scheme" isString="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="PeakEVM" testID="GSMPhaseAndFreqErr">
+          <Discriminator id="Channel">
+            <Discriminator id="Coding Scheme" isString="true" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE Avg Peak EVM" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="EDGE Peak EVM" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level">
+            <Discriminator id="Coding Scheme" isString="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="AvgPeakEVM" testID="GSMPhaseAndFreqErr">
+          <Discriminator id="Channel">
+            <Discriminator id="Coding Scheme" isString="true" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE Magnitude Error" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="EDGE Magnitude Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level">
+            <Discriminator id="Coding Scheme" isString="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="avgMagErr" testID="GSMPhaseAndFreqErr">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE Origin Offset" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="EDGE Origin Offset" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level">
+            <Discriminator id="Coding Scheme" isString="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="avgOrigOffset" testID="GSMPhaseAndFreqErr">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE EVM 95th Percentile" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="EDGE EVM 95th Percentile" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level">
+            <Discriminator id="Coding Scheme" isString="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="EVM_95th" testID="GSMPhaseAndFreqErr">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE Tx Level" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="EDGE Tx Power" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level">
+            <Discriminator id="Coding Scheme" isString="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="avgTxPwr" testID="GSMBurstTiming">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="avgTxPwr_SelfTest" testID="GSMBurstTiming">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="Tx Pwr Delta" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator name="Band" id="Band">
+        <Discriminator name="Tx Level" id="Tx Level" />
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="avgTxPwr Delta" testID="GSMBurstTiming" name="Tx Power Delta">
+          <Discriminator id="Channel">
+            <Discriminator id="Mode" value="EDGE" visible="false" isString="true" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE ORFS Mod Charts" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="EDGE ORFS Mod &lt;=250kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Tx Level" value="=8">
+          <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+            <Discriminator id="Coding Scheme" isString="true">
+              <Discriminator id="Signaling" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="ORFS_Mod" testID="GSMORFSMod" name="ORFS_Mod">
+          <Discriminator id="Offset" value="&lt;=250">
+            <Discriminator id="Offset" value="&gt;=-250" />
+          </Discriminator>
+        </Result>
+        <Result resID="ORFS_Mod_SelfTest" testID="GSMORFSMod" name="ORFS_Mod SelfTest">
+          <Discriminator id="Offset" value="&lt;=250">
+            <Discriminator id="Offset" value="&gt;=-250" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="EDGE ORFS Mod Delta &lt;=250kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Tx Level" value="=8">
+          <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+            <Discriminator id="Coding Scheme" isString="true">
+              <Discriminator id="Signaling" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="ORFS_Mod_Delta" testID="GSMORFSMod" name="ORFS_Mod Delta">
+          <Discriminator id="Offset" value="&lt;=250">
+            <Discriminator id="Offset" value="&gt;=-250" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="EDGE ORFS Mod &lt;=250kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Tx Level" value="=2">
+          <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+            <Discriminator id="Coding Scheme" isString="true">
+              <Discriminator id="Signaling" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="ORFS_Mod" testID="GSMORFSMod" name="ORFS_Mod">
+          <Discriminator id="Offset" value="&lt;=250">
+            <Discriminator id="Offset" value="&gt;=-250" />
+          </Discriminator>
+        </Result>
+        <Result resID="ORFS_Mod_SelfTest" testID="GSMORFSMod" name="ORFS_Mod SelfTest">
+          <Discriminator id="Offset" value="&lt;=250">
+            <Discriminator id="Offset" value="&gt;=-250" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="EDGE ORFS Mod Delta &lt;=250kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Tx Level" value="=2">
+          <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+            <Discriminator id="Coding Scheme" isString="true">
+              <Discriminator id="Signaling" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="ORFS_Mod_Delta" testID="GSMORFSMod" name="ORFS_Mod Delta">
+          <Discriminator id="Offset" value="&lt;=250">
+            <Discriminator id="Offset" value="&gt;=-250" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="EDGE ORFS Mod &gt;=400kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Tx Level" value="=8">
+          <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+            <Discriminator id="Coding Scheme" isString="true">
+              <Discriminator id="Signaling" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="ORFS_Mod" testID="GSMORFSMod" name="ORFS_Mod">
+          <Discriminator id="Offset" value="&gt;250" />
+          <Discriminator id="Offset" value="&lt;-250" />
+        </Result>
+        <Result resID="ORFS_Mod_SelfTest" testID="GSMORFSMod" name="ORFS_Mod SelfTest">
+          <Discriminator id="Offset" value="&gt;250" />
+          <Discriminator id="Offset" value="&lt;-250" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="EDGE ORFS Mod Delta &gt;=400kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Tx Level" value="=8">
+          <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+            <Discriminator id="Coding Scheme" isString="true">
+              <Discriminator id="Signaling" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="ORFS_Mod_Delta" testID="GSMORFSMod" name="ORFS_Mod Delta">
+          <Discriminator id="Offset" value="&gt;250" />
+          <Discriminator id="Offset" value="&lt;-250" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="EDGE ORFS Mod &gt;=400kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Tx Level" value="=2">
+          <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+            <Discriminator id="Coding Scheme" isString="true">
+              <Discriminator id="Signaling" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel" />
+        <Discriminator id="Tx chain" />
+        <Result resID="ORFS_Mod" testID="GSMORFSMod" name="ORFS_Mod">
+          <Discriminator id="Offset" value="&gt;250" />
+          <Discriminator id="Offset" value="&lt;-250" />
+        </Result>
+        <Result resID="ORFS_Mod_SelfTest" testID="GSMORFSMod" name="ORFS_Mod SelfTest">
+          <Discriminator id="Offset" value="&gt;250" />
+          <Discriminator id="Offset" value="&lt;-250" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="EDGE ORFS Mod Delta &gt;=400kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Tx Level" value="=2">
+          <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+            <Discriminator id="Coding Scheme" isString="true">
+              <Discriminator id="Signaling" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel" />
+        <Discriminator id="Tx chain" />
+        <Result resID="ORFS_Mod_Delta" testID="GSMORFSMod" name="ORFS_Mod Delta">
+          <Discriminator id="Offset" value="&gt;250" />
+          <Discriminator id="Offset" value="&lt;-250" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE ORFS Sw Charts" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="EDGE ORFS Sw" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="=EDGE" visible="false" isString="true">
+        <Discriminator id="Coding Scheme" isString="true">
+          <Discriminator id="Signaling">
+            <Discriminator id="Band" value="=GSM850" isString="true">
+              <Discriminator id="Tx Level" value="=8" />
+            </Discriminator>
+            <Discriminator id="Band" value="=EGSM" isString="true">
+              <Discriminator id="Tx Level" value="=8" />
+            </Discriminator>
+            <Discriminator id="Band" value="=DCS" isString="true">
+              <Discriminator id="Tx Level" value="=2" />
+            </Discriminator>
+            <Discriminator id="Band" value="=PCS" isString="true">
+              <Discriminator id="Tx Level" value="=2" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="ORFS_Sw" testID="GSMORFSSw" name="ORFS_Sw">
+          <Discriminator id="Offset" />
+        </Result>
+        <Result resID="ORFS_Sw_SelfTest" testID="GSMORFSSw" name="ORFS_Sw SelfTest">
+          <Discriminator id="Offset" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="EDGE ORFS Sw Delta" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="=EDGE" visible="false" isString="true">
+        <Discriminator id="Coding Scheme" isString="true">
+          <Discriminator id="Signaling">
+            <Discriminator id="Band" value="=GSM850" isString="true">
+              <Discriminator id="Tx Level" value="=8" />
+            </Discriminator>
+            <Discriminator id="Band" value="=EGSM" isString="true">
+              <Discriminator id="Tx Level" value="=8" />
+            </Discriminator>
+            <Discriminator id="Band" value="=DCS" isString="true">
+              <Discriminator id="Tx Level" value="=2" />
+            </Discriminator>
+            <Discriminator id="Band" value="=PCS" isString="true">
+              <Discriminator id="Tx Level" value="=2" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="ORFS_Sw_Delta" testID="GSMORFSSw" name="ORFS_Sw Delta">
+          <Discriminator id="Offset" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE ORFS MOD vs Ch" IsChecked="True" IsForPPTChecked="True" width="2">
+    <Discriminator id="Mode" value="=EDGE" visible="false" isString="true" />
+    <OutputGroupDescriptor_Lin name="ORFS Mod vs Ch" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" visible="false" isString="true">
+        <Discriminator id="Tx Level" value="=2">
+          <Discriminator id="Offset" value="=-400" />
+          <Discriminator id="Offset" value="=400" />
+        </Discriminator>
+        <Discriminator id="Tx Level" value="=8">
+          <Discriminator id="Offset" value="=-400" />
+          <Discriminator id="Offset" value="=400" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="ORFS_Mod" testID="GSMORFSMod">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE ORFS Sw vs Ch" IsChecked="True" IsForPPTChecked="True" width="3">
+    <Discriminator id="Mode" value="=EDGE" visible="false" isString="true" />
+    <OutputGroupDescriptor_Lin name="ORFS Sw vs Ch" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" visible="false" isString="true">
+        <Discriminator id="Tx Level" value="=2">
+          <Discriminator id="Offset" value="=-400" />
+          <Discriminator id="Offset" value="=400" />
+        </Discriminator>
+        <Discriminator id="Tx Level" value="=8">
+          <Discriminator id="Offset" value="=-400" />
+          <Discriminator id="Offset" value="=400" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="ORFS_Sw" testID="GSMORFSSw">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE ORFS MOD Hist" IsChecked="True" IsForPPTChecked="True" width="2">
+    <Discriminator id="Mode" value="=EDGE" visible="false" isString="true" />
+    <OutputGroupDescriptor_Hist name="EDGE ORFS Mod 400kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Coding Scheme" isString="true">
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx Level" value="8">
+            <Discriminator id="Band" value="=GSM850" />
+            <Discriminator id="Band" value="=EGSM" />
+          </Discriminator>
+          <Discriminator id="Tx Level" value="2">
+            <Discriminator id="Band" value="=DCS" />
+            <Discriminator id="Band" value="=PCS" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" step="0.5" />
+      </OGDisplayProperties>
+      <Result resID="ORFS_Mod" testID="GSMORFSMod" name="ORFS_Mod">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx chain" />
+          <Filter id="Offset" value="400" visible="false" />
+          <Filter id="Offset" value="-400" visible="false" />
+        </Discriminator>
+      </Result>
+    </OutputGroupDescriptor_Hist>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE ORFS Sw Hist" IsChecked="True" IsForPPTChecked="True" width="2">
+    <Discriminator id="Mode" value="=EDGE" visible="false" isString="true" />
+    <OutputGroupDescriptor_Hist name="EDGE ORFS Sw 400kHz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Coding Scheme" isString="true">
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx Level" value="8">
+            <Discriminator id="Band" value="=GSM850" />
+            <Discriminator id="Band" value="=EGSM" />
+          </Discriminator>
+          <Discriminator id="Tx Level" value="2">
+            <Discriminator id="Band" value="=DCS" />
+            <Discriminator id="Band" value="=PCS" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" step="0.5" />
+      </OGDisplayProperties>
+      <Result resID="ORFS_Sw" testID="GSMORFSSw" name="ORFS_Sw">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx chain" />
+          <Filter id="Offset" value="400" visible="false" />
+          <Filter id="Offset" value="-400" visible="false" />
+        </Discriminator>
+      </Result>
+    </OutputGroupDescriptor_Hist>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE Sensitivity (BLER)" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="EDGE Sensitivity (BLER)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Multi Slot Config" isString="true">
+          <Discriminator id="Coding Scheme" isString="true">
+            <Discriminator id="Rx Power" value="&lt;-85" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="BLER" testID="EDGEReferenceSensitivity">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE Sensitivity (SRB BER)" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="EDGE Sensitivity (SRB BER)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Multi Slot Config" isString="true">
+          <Discriminator id="Coding Scheme" isString="true">
+            <Discriminator id="Rx Power" value="&lt;-85" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="BER" testID="EDGEReferenceSensitivity">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE NER (BLER)" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="EDGE NER (BLER)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Multi Slot Config" isString="true">
+          <Discriminator id="Coding Scheme" isString="true">
+            <Discriminator id="Rx Power" value="&gt;=-85" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="BLER" testID="EDGEReferenceSensitivity">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE NER (SRB BER)" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="EDGE NER (SRB BER)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Multi Slot Config" isString="true">
+          <Discriminator id="Coding Scheme" isString="true">
+            <Discriminator id="Rx Power" value="&gt;=-85" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="BER" testID="EDGEReferenceSensitivity">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE Multislot Tx Pwr" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="EDGE Tx Pwr &amp; Template" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="=EDGE" visible="false" isString="true">
+        <Discriminator id="Multi Slot Config">
+          <Discriminator id="Coding Scheme">
+            <Discriminator id="Tx chain" isString="true" />
+            <Discriminator id="Tx chain" exclude="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Channel" />
+      <IndexedParam index="3" id="Tx Level" />
+      <IndexedParam index="4" id="Signaling" />
+      <Result resID="avgTxPwr" testID="GSMBurstTiming" name="Tx Power Level (dBm)">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Tx Level">
+              <Discriminator id="Signaling">
+                <Discriminator id="Tx chain" isString="true" />
+                <Discriminator id="Tx chain" exclude="true" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE Tx Max Pwr Backoff" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="EDGE Tx Level" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="=EDGE" visible="false" isString="true">
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Discriminator id="Coding Scheme" value="MCS-1">
+          <Discriminator id="Band" value="GSM850" isString="true">
+            <Discriminator id="Tx Level" value="=5" />
+          </Discriminator>
+        </Discriminator>
+        <Discriminator id="Coding Scheme" value="MCS-5">
+          <Discriminator id="Band" value="GSM850" isString="true">
+            <Discriminator id="Tx Level" value="=8" />
+          </Discriminator>
+        </Discriminator>
+        <Discriminator id="Coding Scheme" value="MCS-1">
+          <Discriminator id="Band" value="EGSM" isString="true">
+            <Discriminator id="Tx Level" value="=5" />
+          </Discriminator>
+        </Discriminator>
+        <Discriminator id="Coding Scheme" value="MCS-5">
+          <Discriminator id="Band" value="EGSM" isString="true">
+            <Discriminator id="Tx Level" value="=8" />
+          </Discriminator>
+        </Discriminator>
+        <Discriminator id="Coding Scheme" value="MCS-1">
+          <Discriminator id="Band" value="DCS" isString="true">
+            <Discriminator id="Tx Level" value="=0" />
+          </Discriminator>
+        </Discriminator>
+        <Discriminator id="Coding Scheme" value="MCS-5">
+          <Discriminator id="Band" value="DCS" isString="true">
+            <Discriminator id="Tx Level" value="=2" />
+          </Discriminator>
+        </Discriminator>
+        <Discriminator id="Coding Scheme" value="MCS-1">
+          <Discriminator id="Band" value="PCS" isString="true">
+            <Discriminator id="Tx Level" value="=0" />
+          </Discriminator>
+        </Discriminator>
+        <Discriminator id="Coding Scheme" value="MCS-5">
+          <Discriminator id="Band" value="PCS" isString="true">
+            <Discriminator id="Tx Level" value="=2" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Multi Slot Config">
+          <Discriminator id="Coding Scheme">
+            <Discriminator id="Tx chain" isString="true" />
+            <Discriminator id="Tx chain" exclude="true" />
+          </Discriminator>
+        </Discriminator>
+        <Result resID="avgTxPwr" testID="GSMBurstTiming">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE Delay CalVer Sweep" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="EDGE Delay Cal Ver Sweep" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level">
+            <Discriminator id="Signaling" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx chain" isString="true" />
+        <Discriminator id="Tx chain" exclude="true" />
+        <Result resID="orfsMod -400kHz" testID="Edge Delay CalVer">
+          <Discriminator id="Delay Offset from NV" />
+        </Result>
+        <Result resID="orfsMod +400kHz" testID="Edge Delay CalVer">
+          <Discriminator id="Delay Offset from NV" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="RF FTM IQ Capture" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="RF FTM IQ Capture" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="RFMode" />
+      <IndexedParam index="2" id="Channel" />
+      <IndexedParam index="3" id="RX Chain" />
+      <IndexedParam index="4" id="GSM Rx Mode" />
+      <IndexedParam index="5" id="Tx State" />
+      <Result resID="CtoN" testID="FTM_RF_IQ_CAPTURE" name="CNR (dB)">
+        <Discriminator id="RFMode">
+          <Discriminator id="Channel">
+            <Discriminator id="GSM Rx Mode">
+              <Discriminator id="RX Chain" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="I Mean" testID="FTM_RF_IQ_CAPTURE">
+        <Discriminator id="RFMode">
+          <Discriminator id="Channel">
+            <Discriminator id="GSM Rx Mode">
+              <Discriminator id="RX Chain" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Q Mean" testID="FTM_RF_IQ_CAPTURE">
+        <Discriminator id="RFMode">
+          <Discriminator id="Channel">
+            <Discriminator id="GSM Rx Mode">
+              <Discriminator id="RX Chain" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Rx Level" testID="FTM_RF_IQ_CAPTURE" name="Rx Level (dBm)">
+        <Discriminator id="RFMode">
+          <Discriminator id="Channel">
+            <Discriminator id="GSM Rx Mode">
+              <Discriminator id="RX Chain" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+    <OutputGroupDescriptor_Lin name="Algorithm Method Comparison" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="RX Chain" />
+      </Discriminator>
+      <CommonBinResults>
+        <Discriminator id="Estimated Sensitivity Algorithm Method" />
+        <Result resID="Sensitivity" testID="FTM_RF_IQ_CAPTURE">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="Algorithm Method CtoN Delta" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="RX Chain" />
+      </Discriminator>
+      <CommonBinResults>
+        <Filter id="Estimated Sensitivity Algorithm Method" value="PC" />
+        <Result resID="CtoN Algorithm Method Delta" testID="FTM_RF_IQ_CAPTURE">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="CtoN 300-run Variation-Summary" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="C/N Variaton" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" />
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="RX Chain" />
+      <IndexedParam index="3" id="Channel" />
+      <IndexedParam index="4" id="CtoN_Max" />
+      <IndexedParam index="5" id="CtoN_Min" />
+      <Result resID="CtoN_MaxtoMin_Delta" testID="FTM_RF_IQ_CAPTURE" name="C/N Max-to-Min">
+        <Discriminator id="RX Chain">
+          <Discriminator id="Channel" />
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="CtoN 300-run Variation-Plots" IsChecked="True" IsForPPTChecked="True">
+    <OutputGroupDescriptor_Sc name="C/N Varation" IsChecked="True" IsForPPTChecked="True" xName="Run Index" yName="CNR">
+      <Discriminator id="Band">
+        <Discriminator id="Channel" />
+      </Discriminator>
+      <OGDisplayProperties />
+      <Series testID="FTM_RF_IQ_CAPTURE">
+        <Discriminator id="RX Chain" />
+        <DisplayProperties markerOn="false" smooth="true" axisIndex="1" />
+        <IndVar id="Run ID" />
+        <DepVar id="CNR Samples" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="CtoN 300-run Tables" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="C/N 300 Runs" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Channel" />
+      <IndexedParam index="3" id="RX Chain" />
+      <IndexedParam index="4" id="Run ID" />
+      <IndexedParam index="5" id="CNR Samples" />
+      <IndexedParam index="6" id="PhaseDisc Count" />
+      <IndexedParam index="7" id="PhaseDisc Start Idx" />
+      <Result resID="CNR Samples" testID="FTM_RF_IQ_CAPTURE" name="C/N">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="RX Chain">
+              <Discriminator id="Run ID" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM Reference Sensitivity" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="Fast BER" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Tx Level">
+          <Discriminator id="Signaling" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx Level" />
+        <Result resID="Fast BER" testID="GSMReferenceSensitivity">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM Burst Timing" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Lin name="GSM Burst Timing" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="GSM" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="avgTimeAlign" testID="GSMBurstTiming">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE Burst Timing" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Lin name="EDGE Burst Timing" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Mode" value="EDGE" visible="false" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Level" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Signaling">
+          <Discriminator id="Tx chain" isString="true" />
+          <Discriminator id="Tx chain" exclude="true" />
+        </Discriminator>
+        <Result resID="avgTimeAlign" testID="GSMBurstTiming">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM VSWR" IsChecked="True" IsForPPTChecked="True">
+    <OutputGroupDescriptor_Lin name="VSWR Magnitude" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator name="Band" id="Band">
+        <Discriminator name="Tx Level" id="Tx Level" />
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="VSWR Magnitude" testID="GSM VSWR SelfTest" name="VSWR Magnitude - GSM">
+          <Discriminator name="Channel" id="Channel">
+            <Discriminator id="Mode" value="GSM" visible="false" isString="true" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="VSWR Phase" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator name="Band" id="Band">
+        <Discriminator name="Tx Level" id="Tx Level" />
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="VSWR Phase" testID="GSM VSWR SelfTest" name="VSWR Phase - GSM">
+          <Discriminator name="Channel" id="Channel">
+            <Discriminator id="Mode" value="GSM" visible="false" isString="true" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="VSWR Return Loss" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator name="Band" id="Band">
+        <Discriminator name="Tx Level" id="Tx Level" />
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="VSWR ReturnLoss" testID="GSM VSWR SelfTest" name="VSWR Return Loss - GSM">
+          <Discriminator name="Channel" id="Channel">
+            <Discriminator id="Mode" value="GSM" visible="false" isString="true" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EDGE VSWR" IsChecked="True" IsForPPTChecked="True">
+    <OutputGroupDescriptor_Lin name="VSWR Magnitude" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator name="Band" id="Band">
+        <Discriminator name="Tx Level" id="Tx Level" />
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="VSWR Magnitude" testID="GSM VSWR SelfTest" name="VSWR Magnitude - EDGE">
+          <Discriminator name="Channel" id="Channel">
+            <Discriminator id="Mode" value="EDGE" visible="false" isString="true" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="VSWR Phase" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator name="Band" id="Band">
+        <Discriminator name="Tx Level" id="Tx Level" />
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="VSWR Phase" testID="GSM VSWR SelfTest" name="VSWR Phase - EDGE">
+          <Discriminator name="Channel" id="Channel">
+            <Discriminator id="Mode" value="EDGE" visible="false" isString="true" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="VSWR Return Loss" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator name="Band" id="Band">
+        <Discriminator name="Tx Level" id="Tx Level" />
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="VSWR ReturnLoss" testID="GSM VSWR SelfTest" name="VSWR Return Loss - EDGE">
+          <Discriminator name="Channel" id="Channel">
+            <Discriminator id="Mode" value="EDGE" visible="false" isString="true" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <GroupCharts>false</GroupCharts>
+  <PPTGroupsList />
+  <GlobalParameterList />
+  <ExpressionList />
+  <GlobalExcelDisplayProperties />
+</FormatDescriptor>

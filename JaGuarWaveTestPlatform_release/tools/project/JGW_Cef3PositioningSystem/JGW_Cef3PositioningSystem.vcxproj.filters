@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="WMM_2025">
+      <UniqueIdentifier>{58b8e346-c325-47cb-882a-c957645eee98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VincentyGeodesics">
+      <UniqueIdentifier>{844908e5-1b76-493b-98e7-601a78252453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RMQ">
+      <UniqueIdentifier>{c444450e-4c82-4653-81cd-e6417d100b57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="JGW_Cef3PositioningSystem.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JGW_Cef3PositioningSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_Cef3PositioningSystemUDPScokect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_PositioningSystemProtocol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_PositioningSystemMemberVariable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WMM_2025\wmm.h">
+      <Filter>WMM_2025</Filter>
+    </ClInclude>
+    <ClInclude Include="VincentyGeodesics.h">
+      <Filter>VincentyGeodesics</Filter>
+    </ClInclude>
+    <ClInclude Include="RMQ\RabbitMQCHelp.h">
+      <Filter>RMQ</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_PSRabbitMQ.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_Cef3BrowserEventHelp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="latlon_ellipsoidal_vincenty.h">
+      <Filter>VincentyGeodesics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JGW_Cef3PositioningSystem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_Cef3PositioningSystemUDPScokect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_PositioningSystemProtocol.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_PositioningSystemMemberVariable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WMM_2025\wmm.cpp">
+      <Filter>WMM_2025</Filter>
+    </ClCompile>
+    <ClCompile Include="WMM_2025\WMM_COF.cpp">
+      <Filter>WMM_2025</Filter>
+    </ClCompile>
+    <ClCompile Include="VincentyGeodesics.cpp">
+      <Filter>VincentyGeodesics</Filter>
+    </ClCompile>
+    <ClCompile Include="RMQ\RabbitMQCHelp.cpp">
+      <Filter>RMQ</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_PSRabbitMQ.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\platform_library\library\JGW_FoundationFunc\JGW_ApplicationDecrypt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_Cef3BrowserEventHelp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="latlon_ellipsoidal_vincenty.cpp">
+      <Filter>VincentyGeodesics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="JGW_Cef3PositioningSystem.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

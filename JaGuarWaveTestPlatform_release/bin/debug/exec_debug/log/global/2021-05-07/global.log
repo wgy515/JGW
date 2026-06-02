@@ -1,0 +1,27 @@
+2021-05-07 09:24:59 [11716] INFO  : Server Port:3002
+2021-05-07 09:24:58 [13212] INFO  : OnStartUpdateClientThread TaskNumber:DHW212046,IP:㈱2021-05-07 09:25:03 [13740] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-05-07 09:25:03 [13740] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210506\exec\plugin\CWelcomPlugin.dll)
+2021-05-07 09:25:03 [13740] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210506\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-05-07 09:25:06 [13740] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-05-07 09:25:06 [13212] ERROR : ReadSocket Error:由本地系统中止网络连接。
+2021-05-07 09:25:06 [13212] ERROR : ReadSocket Error:由本地系统中止网络连接。
+2021-05-07 09:25:06 [13212] ERROR : 由本地系统中止网络连接。
+2021-05-07 09:25:06 [13740] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-05-07 09:25:06 [13740] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-05-07 09:25:06 [13740] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210506\exec\plugin\CWelcomPlugin.dll
+2021-05-07 09:25:06 [13740] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-05-07 09:25:06 [13740] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-05-07 09:25:06 [13740] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210506\exec\plugin\CWelcomPlugin.dll
+2021-05-07 09:25:06 [13740] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-05-07 09:25:14 [ 1632] INFO  : Curl FTP HELP.DB don't need to download
+2021-05-07 09:25:13 [16812] INFO  : OnStartUpdateClientThread TaskNumber:DHW212046,IP:㈱2021-05-07 09:25:17 [13624] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-05-07 09:25:17 [16812] ERROR : ReadSocket Error:由本地系统中止网络连接。
+2021-05-07 09:25:17 [16812] ERROR : ReadSocket Error:由本地系统中止网络连接。
+2021-05-07 09:25:17 [16812] ERROR : 由本地系统中止网络连接。
+2021-05-07 09:25:18 [13624] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-05-07 09:25:18 [13624] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-05-07 09:25:18 [13624] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210506\exec\plugin\CWelcomPlugin.dll
+2021-05-07 09:25:18 [13624] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-05-07 09:25:18 [13624] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-05-07 09:25:18 [13624] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210506\exec\plugin\CWelcomPlugin.dll
+2021-05-07 09:25:18 [13624] INFO  : DestroyClassPtr clsid : ,ptr : 00000000

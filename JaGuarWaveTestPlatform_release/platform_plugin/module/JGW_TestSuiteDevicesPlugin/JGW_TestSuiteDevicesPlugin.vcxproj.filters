@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="RFCAL_QSEQ">
+      <UniqueIdentifier>{18e60e24-a0fe-425f-b3f9-a5c14c5d0715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QCOMM">
+      <UniqueIdentifier>{b8c96dc6-0c24-4e66-9a2e-2a585ad62b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PUMA">
+      <UniqueIdentifier>{b393545d-74d2-4e0c-a727-53d8d9f0aee3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RFCAL_QSEQ\CJGW_RFCalVFSSuite.h">
+      <Filter>RFCAL_QSEQ</Filter>
+    </ClInclude>
+    <ClInclude Include="RFCAL_QSEQ\sti_export_func_decl.h">
+      <Filter>RFCAL_QSEQ</Filter>
+    </ClInclude>
+    <ClInclude Include="RFCAL_QSEQ\CJGW_RFQualcommInterface.h">
+      <Filter>RFCAL_QSEQ</Filter>
+    </ClInclude>
+    <ClInclude Include="RFCAL_QSEQ\CJGW_RFCalVFSConfig.h">
+      <Filter>RFCAL_QSEQ</Filter>
+    </ClInclude>
+    <ClInclude Include="RFCAL_QSEQ\CJGW_RFCalVFS_Define.h">
+      <Filter>RFCAL_QSEQ</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\CJGW_WriteQcomNV.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\CJGW_ConnectQcomDiag.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\CJGW_ReadQcomNV.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_DevicesGlobalResource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\PacketTranslator.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\CJGW_SyncQcomNV.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="QCOMM\CJGW_DisConnectQocmDiag.h">
+      <Filter>QCOMM</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_PUMA_DownloadPDBFile.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_PUMA_InitPdbDevice.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_PUMA_LoadPDBImage.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_PUMA_OpenDevice.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_PUMA_ResetDevice.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_PUMA_WriteBoardID.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_PUMA_WriteMac.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMA\TSE_PUMA_WriteSerialNumber.h">
+      <Filter>PUMA</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RFCAL_QSEQ\CJGW_RFCalVFSSuite.cpp">
+      <Filter>RFCAL_QSEQ</Filter>
+    </ClCompile>
+    <ClCompile Include="RFCAL_QSEQ\sti_export_func_decl.cpp">
+      <Filter>RFCAL_QSEQ</Filter>
+    </ClCompile>
+    <ClCompile Include="RFCAL_QSEQ\CJGW_RFQualcommInterface.cpp">
+      <Filter>RFCAL_QSEQ</Filter>
+    </ClCompile>
+    <ClCompile Include="RFCAL_QSEQ\CJGW_RFCalVFSConfig.cpp">
+      <Filter>RFCAL_QSEQ</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\CJGW_ConnectQcomDiag.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\CJGW_ReadQcomNV.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\CJGW_WriteQcomNV.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_DevicesGlobalResource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\PacketTranslator.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\CJGW_DisConnectQocmDiag.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="QCOMM\CJGW_SyncQcomNV.cpp">
+      <Filter>QCOMM</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_PUMA_DownloadPDBFile.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_PUMA_InitPdbDevice.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_PUMA_LoadPDBImage.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_PUMA_OpenDevice.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_PUMA_ResetDevice.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_PUMA_WriteBoardID.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_PUMA_WriteMac.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMA\TSE_PUMA_WriteSerialNumber.cpp">
+      <Filter>PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\library\JGW_TestSuiteGlobalResourcesLibrary\CJGW_ExportRegTestSuiteGlobalResFunc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

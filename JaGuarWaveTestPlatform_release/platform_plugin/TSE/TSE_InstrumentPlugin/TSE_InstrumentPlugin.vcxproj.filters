@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="truntable">
+      <UniqueIdentifier>{64f24508-61ee-4c47-84f7-f84dd77025f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_CloseInstrument.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_TSEIntrument.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_OpenInstrumentGPIB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_OpenInstrumentVISA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_WriteInstrumentCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_ReadInstrumentVoltageCurrent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_WriteInstrumentRawCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="truntable\TSE_SettingTruntable.h">
+      <Filter>truntable</Filter>
+    </ClInclude>
+    <ClInclude Include="truntable\TSE_CloseTruntable.h">
+      <Filter>truntable</Filter>
+    </ClInclude>
+    <ClInclude Include="truntable\TSE_OpenTruntable.h">
+      <Filter>truntable</Filter>
+    </ClInclude>
+    <ClInclude Include="truntable\SCLLibHelper.h">
+      <Filter>truntable</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_MultiWriteInstrumentCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_InstrumentCommandGroupConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_FetchResultInstrumentCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_ParseP760RssiTestResult.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_LoadWlanLossConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_GetRFConfigLoss.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_CheckQueryInstrumentCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_InstrumentPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_CloseInstrument.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_TSEIntrument.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_OpenInstrumentGPIB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_OpenInstrumentVISA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_WriteInstrumentCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_ReadInstrumentVoltageCurrent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_WriteInstrumentRawCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="truntable\TSE_CloseTruntable.cpp">
+      <Filter>truntable</Filter>
+    </ClCompile>
+    <ClCompile Include="truntable\TSE_OpenTruntable.cpp">
+      <Filter>truntable</Filter>
+    </ClCompile>
+    <ClCompile Include="truntable\TSE_SettingTruntable.cpp">
+      <Filter>truntable</Filter>
+    </ClCompile>
+    <ClCompile Include="truntable\SCLLibHelper.cpp">
+      <Filter>truntable</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_MultiWriteInstrumentCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_InstrumentCommandGroupConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_FetchResultInstrumentCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_ParseP760RssiTestResult.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_LoadWlanLossConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_GetRFConfigLoss.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_CheckQueryInstrumentCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

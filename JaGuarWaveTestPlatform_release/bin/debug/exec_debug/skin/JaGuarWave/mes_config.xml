@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!--Window sizebox="4,4,6,6" caption="0,0,0,30" mininfo="450,300" roundcorner="3,3,3,3"-->
+<Window  size="600,380" sizebox="4,4,6,6" caption="0,0,0,30"  roundcorner="10,10">
+	<Font name="宋体" size="16" bold="false" italic="false" default="true" />
+	<Default name="CheckBox" value="textcolor=&quot;#FFbac0c5&quot; hottextcolor=&quot;#FF386382&quot; selectedtextcolor=&quot;#FF386382&quot; disabledtextcolor=&quot;#FFbac0c5&quot; textpadding=&quot;20,2,0,0&quot; align=&quot;left&quot; selectedimage=&quot;file=&apos;checked.png&apos; dest=&apos;0,2,16,18&apos;&quot; normalimage=&quot;file=&apos;unchecked.png&apos; dest=&apos;0,2,16,18&apos;&quot;" />
+	<Default name="VScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+    <VerticalLayout enabled="true" width="400" height="400" bkcolor="#ffe4e4e4">
+	    <HorizontalLayout height="30" bkcolor="#ffffffff" bkcolor2="#0000ff">
+				<VerticalLayout padding="5,3,5,2" >
+					<HorizontalLayout >
+					<Label enabled="true" width="30" height="25" bkimage="max.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" valign="center" align="center" />
+					<Label enabled="true" padding="0,2,0,2" name="tipslab" text=" JaGuarWave Factory Test MES Config" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" valign="center" align="left" font="0" />
+					</HorizontalLayout>
+				</VerticalLayout>
+				<VerticalLayout width="110">
+					<!--Button name="minbtn" float="true" pos="0,0,28,19" width="28" height="19" maxheight="19" maxwidth="28"  normalimage="file='btn_mini.png' source='0,0,28,19'" hotimage="file='btn_mini.png' source='28,0,56,19'" pushedimage="file='btn_mini.png' source='56,0,84,19'" />
+					<Button name="maxbtn" float="true" pos="28,0,56,19" width="28" height="19" maxheight="19" maxwidth="28"  normalimage="file='btn_max.png' source='0,0,28,19'" hotimage="file='btn_max.png' source='28,0,56,19'" pushedimage="file='btn_max.png' source='56,0,84,19'"  />
+					<Button name="restorebtn" visible="false" float="true" pos="28,0,56,19" width="28" height="19" maxheight="19" maxwidth="28"  normalimage="file='btn_restore.png' source='0,0,28,19'" hotimage="file='btn_restore.png' source='28,0,56,19'" pushedimage="btn_restore.png' source='56,0,84,19'" /-->
+					<Button name="closebtn" float="true" pos="56,0,95,19" width="39" height="19" maxheight="19" maxwidth="39"  normalimage="file='btn_close.png' source='0,0,39,19'" hotimage="file='btn_close.png' source='39,0,78,19'" pushedimage="file='btn_close.png' source='78,0,117,19'"  />
+				</VerticalLayout>
+		</HorizontalLayout>
+		<HorizontalLayout enabled="true" height="20"/>
+		<HorizontalLayout enabled="true" height="40" padding="20,0,20,0">
+         	<Control enabled="true" width="10"/>
+			<Label text="操作员:" width="80" textcolor="#0000ff"/>
+			<Edit  name="userNameEdt" text="" padding="0,2,0,2" tooltip="0~65536" width="400" enabled="true"  textcolor="#FF000000" maxchar="30" align="left" disabledtextcolor="#FFA7A6AA" />
+			<Control enabled="true" width="10"/>
+		</HorizontalLayout>
+		<HorizontalLayout enabled="true" height="40" padding="20,0,20,0">
+         	<Control enabled="true" width="10"/>
+			<Label text="密码:" width="80" textcolor="#0000ff"/>
+			<Edit  name="userPasswordEdt" password="true" text="" padding="0,2,0,2" tooltip="0~65536" width="400" enabled="true"  textcolor="#FF000000" maxchar="30" align="left" disabledtextcolor="#FFA7A6AA" />
+			<Control enabled="true" width="10"/>
+		</HorizontalLayout>
+		<HorizontalLayout enabled="true" height="40" padding="20,0,0,0">
+         	<Control enabled="true" width="10"/>
+			<Label text="Barcode:" width="80" textcolor="#0000ff"/>
+			<Edit  name="barcodeEdt" text="" padding="0,2,0,2" tooltip="0~65536" width="150" enabled="true"  textcolor="#FF000000" maxchar="30" align="left" disabledtextcolor="#FFA7A6AA" />
+			<Control enabled="true" width="5"/>
+			<Label text="站点:" width="45" textcolor="#0000ff"/>
+			<Combo name="stationCombo" text="请选择站点" tooltip="请选择站点" enabled="true" width="200" height="30" padding="0,5,0,5" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" normalimage="file=&apos;Combo_nor.bmp&apos; corner=&apos;2,2,50,2&apos;" hotimage="file=&apos;Combo_over.bmp&apos; corner=&apos;2,2,50,2&apos;" pushedimage="file=&apos;Combo_over.bmp&apos; corner=&apos;2,2,50,2&apos;" dropboxsize="0,250" itemalign="center" >
+			</Combo>
+			<Control enabled="true" width="5"/>
+			<Combo name="MonoComboBoxUI" text="请选择工单类型" tooltip="请选择工单类型" enabled="true" width="80" height="30" padding="0,5,0,5" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" normalimage="file=&apos;Combo_nor.bmp&apos; corner=&apos;2,2,50,2&apos;" hotimage="file=&apos;Combo_over.bmp&apos; corner=&apos;2,2,50,2&apos;" pushedimage="file=&apos;Combo_over.bmp&apos; corner=&apos;2,2,50,2&apos;" dropboxsize="0,250" itemalign="left" textpadding="10,0,0,0" itemtextpadding="10,0,0,0">
+					<ListLabelElement text="SMT" selected="true"/>
+					<ListLabelElement text="组装" />
+					<ListLabelElement text="包装" />
+			</Combo>
+			<!-- <CheckBox padding="0,8,0,5" name="PackTaskCheckBox" text="包装" enabled="true" width="60" height="25" textcolor="#0000ff" disabledtextcolor="#FFA7A6AA" align="left" /> -->
+		</HorizontalLayout>
+        <HorizontalLayout enabled="true" height="40" padding="20,0,20,0">
+         	<Control enabled="true" width="10"/>
+			<Label text="工单号:" width="80" textcolor="#0000ff"/>
+			<Edit name="workOrderNumberEdt" text="" readonly="false" padding="0,2,0,2" tooltip="0~65536" width="400" enabled="true"  textcolor="#FF000000" maxchar="30" align="left" disabledtextcolor="#FFA7A6AA" />
+			<Control enabled="true" width="10"/>
+		</HorizontalLayout>
+		<HorizontalLayout enabled="true" height="40" padding="20,0,20,0">
+         	<Control enabled="true" width="10"/>
+			<Label text="班次:" width="80" textcolor="#0000ff"/>
+			<Combo name="classCombo" text="请选择班次" tooltip="请选择班次" enabled="true" width="400" height="30" padding="0,5,0,5" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" normalimage="file=&apos;Combo_nor.bmp&apos; corner=&apos;2,2,50,2&apos;" hotimage="file=&apos;Combo_over.bmp&apos; corner=&apos;2,2,50,2&apos;" pushedimage="file=&apos;Combo_over.bmp&apos; corner=&apos;2,2,50,2&apos;" dropboxsize="0,250" itemalign="center" >
+					<ListLabelElement text="白班(310001)" selected="true"/>
+					<ListLabelElement text="晚班(310002)" />
+			</Combo>
+			<Control enabled="true" width="10"/>
+		</HorizontalLayout>
+		<HorizontalLayout enabled="true" height="40" padding="20,0,20,0">
+         	<Control enabled="true"/>
+			<CheckBox padding="0,8,0,5" name="saveAccountCheckBox" text="保存账号" enabled="true" width="140" height="25" textcolor="#0000ff" disabledtextcolor="#FFA7A6AA" align="left" />
+			<Combo name="durationTimeCombo" text="请选择保存账号有效期" tooltip="请选择保存账号有效期" enabled="true" width="200" height="30" padding="0,5,0,5" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" normalimage="file=&apos;Combo_nor.bmp&apos; corner=&apos;2,2,50,2&apos;" hotimage="file=&apos;Combo_over.bmp&apos; corner=&apos;2,2,50,2&apos;" pushedimage="file=&apos;Combo_over.bmp&apos; corner=&apos;2,2,50,2&apos;" dropboxsize="0,250" itemalign="center" >
+					<ListLabelElement text="1小时" selected="true"/>
+					<ListLabelElement text="2小时"/>
+					<ListLabelElement text="4小时"/>
+					<ListLabelElement text="8小时"/>
+					<ListLabelElement text="12小时"/>
+					<ListLabelElement text="24小时"/>
+					<ListLabelElement text="永久"/>
+			</Combo>
+			<Control enabled="true"/>
+		</HorizontalLayout>
+		<HorizontalLayout enabled="true" height="20"/>
+        <HorizontalLayout enabled="true">
+			<Control enabled="true"/>
+			<Button name="mesOkBtn" text="Save" enabled="true" height="38" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;btn_edit_normal.png&apos;corner=&apos;5,5,5,5&apos;; " hotimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " pushedimage=" file=&apos;btn_edit_down.png&apos;corner=&apos;5,5,5,5&apos;;" focusedimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " disabledimage=" file=&apos;disable_btn.png&apos;corner=&apos;5,5,5,5&apos;; " />
+			<Control enabled="true" width="30"/>
+            <Button name="mesCancelBtn" text="Cancel" enabled="true" height="38" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;btn_edit_normal.png&apos;corner=&apos;5,5,5,5&apos;; " hotimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " pushedimage=" file=&apos;btn_edit_down.png&apos;corner=&apos;5,5,5,5&apos;;" focusedimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " disabledimage=" file=&apos;disable_btn.png&apos;corner=&apos;5,5,5,5&apos;; " />
+			<Control enabled="true"/>
+        </HorizontalLayout>
+		<HorizontalLayout enabled="true" height="20"/>
+    </VerticalLayout>
+</Window>

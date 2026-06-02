@@ -1,0 +1,37 @@
+﻿生成启动时间为 2025/8/27 11:25:21。
+     1>项目“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_plugin\module\JGW_DevicePool\JGW_DevicePool.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePool\JGW_DevicePool.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_DevicePool.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\core" /LIBPATH:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\library" /LIBPATH:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core_lib\boost\lib\\" /LIBPATH:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core_lib\usb" /LIBPATH:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core_lib\poco" setupapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePool\JGW_DevicePool.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_DevicePool.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\plugin\JGW_DevicePool.lib" /MACHINE:X86 /DLL "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePool\ComPortSort.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePool\CJGW_DevicePoolThread.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePool\dllmain.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePool\RegDevicePorts.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePool\stdafx.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePool\CJGW_FilteUsbConfig.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePool\CJGW_UsbConfig.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePool\CAutoUsbPort.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePool\UsbInfoQuery.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePool\UsbQueryBase.obj"
+            正在创建库 D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\plugin\JGW_DevicePool.lib 和对象 D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\plugin\JGW_DevicePool.exp
+         正在生成代码
+         已完成代码的生成
+         JGW_DevicePool.vcxproj -> D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_DevicePool.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_DevicePool.dll;#2" /manifest "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePool\JGW_DevicePool.dll.intermediate.manifest"
+       PostBuildEvent:
+         copy /y  D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_DevicePool.dll 	D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec\JGW_DevicePool.dll
+         :VCEnd
+         已复制         1 个文件。
+       FinalizeBuildStatus:
+         正在删除文件“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePool\JGW_DevicePool.unsuccessfulbuild”。
+         正在对“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_DevicePool\JGW_DevicePool.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_plugin\module\JGW_DevicePool\JGW_DevicePool.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.54

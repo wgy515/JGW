@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="550,200" rroundcorner="0,0">
+<Font name="宋体" size="256" bold="true" italic="false" />
+	<HorizontalLayout width="550" height="200">
+		<Label enabled="true" padding="0,2,0,2" name="testStatus" text="PASS" textcolor="0x00ff00" disabledtextcolor="#FFA7A6AA" valign="center" align="center" font="0" />
+	</HorizontalLayout>
+</Window>

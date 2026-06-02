@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="764,200" sizebox="4,4,4,4" caption="0,0,0,30" roundcorner="4,4">
+    <Font name="宋体" size="32" bold="true" italic="false" />
+    <VerticalLayout bkimage="bg_1.png">
+		<HorizontalLayout height="30" bkcolor="#FFFFFFFF" bkcolor2="#000000FF">
+			<VerticalLayout padding="5,3,5,2">
+			</VerticalLayout>
+			<VerticalLayout width="110">
+				<Button name="minTraybtn" float="true" pos="0,0,0,0" width="28" height="19" maxheight="19" maxwidth="28" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;btn_mini.png&apos; source=&apos;0,0,28,19&apos;" hotimage="file=&apos;btn_mini.png&apos; source=&apos;28,0,56,19&apos;" pushedimage="file=&apos;btn_mini.png&apos; source=&apos;56,0,84,19&apos;" />
+				<Button name="maxbtn" float="true" pos="28,0,0,0" width="28" height="19" maxheight="19" maxwidth="28" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;btn_max.png&apos; source=&apos;0,0,28,19&apos;" hotimage="file=&apos;btn_max.png&apos; source=&apos;28,0,56,19&apos;" pushedimage="file=&apos;btn_max.png&apos; source=&apos;56,0,84,19&apos;" />
+				<!--Button name="restorebtn" visible="false" float="true" pos="28,0,0,0" width="28" height="19" maxheight="19" maxwidth="28" align="center" normalimage="file=&apos;btn_restore.png&apos; source=&apos;0,0,28,19&apos;" hotimage="file=&apos;btn_restore.png&apos; source=&apos;28,0,56,19&apos;" pushedimage="btn_restore.png&apos; source=&apos;56,0,84,19&apos;" /-->
+				<Button name="closebtn" float="true" pos="56,0,0,0" width="39" height="19" maxheight="19" maxwidth="39" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;btn_close.png&apos; source=&apos;0,0,39,19&apos;" hotimage="file=&apos;btn_close.png&apos; source=&apos;39,0,78,19&apos;" pushedimage="file=&apos;btn_close.png&apos; source=&apos;78,0,117,19&apos;" />
+			</VerticalLayout>
+		</HorizontalLayout>
+        <Label text="JaGuarWave Automatic Updates Service ..." padding="0,2,0,2" textcolor="#FFFF00" disabledtextcolor="#FFA7A6AA" font="0" align="center" height="100"/>
+		<Control enabled="true" height="10"/>
+		<Progress name="UpdateProgress" enabled="true" padding="20,0,20,0" height="30" bkimage="file=&apos;slider_bg.png&apos; corner=&apos;15,5,15,5&apos;" foreimage="file='progress_fore.png'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="300" value="0" hor="true" />
+    </VerticalLayout>
+</Window>

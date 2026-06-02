@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GlobalEnvironment">
+      <UniqueIdentifier>{e3320745-6b97-437c-8211-d8187caf6356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogService">
+      <UniqueIdentifier>{60fa2adf-849b-49ef-a925-7a5a04ca665e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Listener">
+      <UniqueIdentifier>{4a4db2b6-1872-4729-921f-88d43461ab67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestStatusService">
+      <UniqueIdentifier>{60984bf8-5e00-4c75-a8fd-108febac8506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{3b9d7c23-c469-4591-a4cf-69b24536d3a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{6076ae66-9481-4b95-8451-8f5ff56b5f0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{c5ce176d-518e-4272-bfcd-fa4f34cdb1d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tse2">
+      <UniqueIdentifier>{fc8931e8-6c9b-4592-8aa6-59510d586151}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_GlobalEnvironment.h">
+      <Filter>GlobalEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TSE_SequenceManagerPlugin\TSE_SequenceManageImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TSE_SequenceManagerPlugin\TSE_TestStatusListener.h">
+      <Filter>Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TSE_SequenceManagerPlugin\TSE_LogListener.h">
+      <Filter>Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_SequenceManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_LogServices.h">
+      <Filter>LogService</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_TestStatusService.h">
+      <Filter>TestStatusService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TSE_SequenceManagerPlugin\TSE_Listener.h">
+      <Filter>Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TSE_SequenceManagerPlugin\TSE_GlobalEnvironmentImpl.h">
+      <Filter>GlobalEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_SequenceTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TSE_SequenceManagerPlugin\TSE_LogServicesImpl.h">
+      <Filter>LogService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TSE_SequenceManagerPlugin\TSE_SequenceTestImpl.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TSE_SequenceManagerPlugin\TSE_SequenceManageInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_SequenceManageExport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_SequenceTestConfig.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TSE_SequenceManagerPlugin\TSE_TestStatusServiceImpl.h">
+      <Filter>TestStatusService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TSE_SequenceManagerPlugin\TSE_SequencePocoClassLoader.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TSE_SequenceManagerPlugin\GlobalEnvironmentName_Define.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="tse2\TSE2_SequenceManagerPluginDefine.h">
+      <Filter>tse2</Filter>
+    </ClInclude>
+    <ClInclude Include="tse2\TSE2_SequenceTest.h">
+      <Filter>tse2</Filter>
+    </ClInclude>
+    <ClInclude Include="tse2\TSE2_XmlConfig.h">
+      <Filter>tse2</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_SequenceTestFactory.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_GlobalEnvironment.cpp">
+      <Filter>GlobalEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_SequenceManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_LogServices.cpp">
+      <Filter>LogService</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_TestStatusService.cpp">
+      <Filter>TestStatusService</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_SequenceTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_SequenceManageExport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_SequenceTestConfig.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="tse2\TSE2_SequenceTest.cpp">
+      <Filter>tse2</Filter>
+    </ClCompile>
+    <ClCompile Include="tse2\TSE2_XmlConfig.cpp">
+      <Filter>tse2</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_SequenceTestFactory.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

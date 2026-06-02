@@ -1,0 +1,1261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by Qualcomm (Qualcomm) -->
+<FormatDescriptor>
+	<!-- Condensed Summary -->
+	<OutputGroupSet name="Condensed Summary">
+		<CondensedSummaryDescriptor name="CGPS Summary">
+			<IndexedParam index="1" id="Band"/>
+			<IndexedParam index="2" id="Channel"/>
+			<IndexedParam index="3" id="Phone Call State"/>
+			<!-- 
+			*******************************************************************************
+								Tracking  Sensitivity   T E S T S 
+			*******************************************************************************
+			-->
+			<Result resID="Tracking Sensitivity" testID="CGPS GEN8 Tracking Sensitivity" testName="CGPS GEN8 Tracking Sensitivity" name="Tracking Sensitivity:Sensitivity Point (dBm)">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Call State During SV Acquisition" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Average CNo" testID="CGPS GEN8 Tracking Sensitivity" testName="CGPS GEN8 Tracking Sensitivity" name="Tracking Sensitivity:Average C/No">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Call State During SV Acquisition" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<!-- 
+			*******************************************************************************
+								Acquisition Sensitivity   T E S T S 
+			*******************************************************************************
+			-->
+			<Result resID="GPS Sensitivity" testID="GNSS_Sensitivity" testName="GNSS_Sensitivity" name="Acquisition Sensitivity:Sensitivity Point (dBm)">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Average GPS CNo" testID="GNSS_Sensitivity" testName="GNSS_Sensitivity" name="Acquisition Sensitivity:Average GPS C/No">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<!--
+			*******************************************************************************
+										C/NO T E S T S 
+			*******************************************************************************
+			-->
+			<Result resID="StdDev C/No" testID="C/No" testName="C/No" name="CNO:StdDev C/No">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Max Accel" testID="C/No" testName="C/No" name="CNO:Max Acceleration">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="5 Second Max Avg Accel" testID="C/No" testName="C/No" name="CNO:Max Avg Acceleration">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="12 Second Max Avg Accel" testID="C/No" testName="C/No" name="CNO:Max Avg Acceleration">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="LO Stability" testID="C/No" testName="C/No" name="CNO:LO Stability">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="LO Bias" testID="C/No" testName="C/No" name="CNO:LO Bias">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Processing Loss" testID="C/No" testName="C/No" name="CNO:System Processing Loss">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<!--
+			*******************************************************************************
+										WB Analysis
+			******************************************************************************* 
+			-->
+			<!--			<Result resID="Highest Spur Measured" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:Highest Spur Measured">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>-->
+			<Result resID="Frequency Accuracy" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:Frequency Accuracy">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Image Rejection" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:Image Rejection">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Noise Figure Measured" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:Noise Figure Measured">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<!--			<Result resID="std(I)" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:Standard deviation (I)">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="std(Q)" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:Standard deviation (Q)">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>-->
+			<Result resID="AGC:  I_mean" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:AGC BP Amplitude I mean">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: I_min" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:AGC BP Amplitude I minimum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: I_max" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:AGC BP Amplitude I maximum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: Q_mean" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:AGC BP Amplitude Q mean">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: Q_min" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:AGC BP Amplitude Q minimum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: Q_max" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:AGC BP Amplitude Q maximum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<!--
+			*******************************************************************************
+										NB-60sec Analysis
+			*******************************************************************************
+			-->
+			<Result resID="Delta Frequency between Decim20 and Decim100" testID="Narrowband Spectral Analysis (Special 60sec Capture)" testName="Narrowband Spectral Analysis (Special 60sec Capture)" name="NB60sec:Delta Freq 20-100">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Phase Noise Modulation" testID="Narrowband Spectral Analysis (Special 60sec Capture)" testName="Narrowband Spectral Analysis (Special 60sec Capture)" name="NB60sec: Phase Noise Modulation (deg)">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC:  I_mean" testID="Narrowband Spectral Analysis (Special 60sec Capture)" testName="Narrowband Spectral Analysis (Special 60sec Capture)" name="NB:AGC BP Amplitude I mean">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: I_min" testID="Narrowband Spectral Analysis (Special 60sec Capture)" testName="Narrowband Spectral Analysis (Special 60sec Capture)" name="NB:AGC BP Amplitude I minimum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: I_max" testID="Narrowband Spectral Analysis (Special 60sec Capture)" testName="Narrowband Spectral Analysis (Special 60sec Capture)" name="NB:AGC BP Amplitude I maximum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: Q_mean" testID="Narrowband Spectral Analysis (Special 60sec Capture)" testName="Narrowband Spectral Analysis (Special 60sec Capture)" name="NB:AGC BP Amplitude Q mean">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: Q_min" testID="Narrowband Spectral Analysis (Special 60sec Capture)" testName="Narrowband Spectral Analysis (Special 60sec Capture)" name="NB:AGC BP Amplitude Q minimum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: Q_max" testID="Narrowband Spectral Analysis (Special 60sec Capture)" testName="Narrowband Spectral Analysis (Special 60sec Capture)" name="NB:AGC BP Amplitude Q maximum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<!--
+			*******************************************************************************
+										BER
+			*******************************************************************************
+			-->
+			<Result resID="Measured GPS C/N0" testID="CGPS BER" testName="CGPS BER" name="BER:Measured C/N0">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Final GPS Power" testID="CGPS BER" testName="CGPS BER" name="BER:Final GPS Power">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="# of Bit Errors" testID="CGPS BER" testName="CGPS BER" name="BER:# Bit Errors">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="GPS BER" testID="CGPS BER" testName="CGPS BER" name="BER:GPS BER%">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<!--
+			*******************************************************************************
+										AGC   T E S T S 
+			*******************************************************************************
+			-->
+			<Result resID="I_mean" testID="AGC_Check" testName="AGC_Check" name="AGC:BP Amplitude I mean">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="I_min" testID="AGC_Check" testName="AGC_Check" name="AGC:BP Amplitude I minimum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="I_max" testID="AGC_Check" testName="AGC_Check" name="AGC:BP Amplitude I maximum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Q_mean" testID="AGC_Check" testName="AGC_Check" name="AGC:BP Amplitude Q mean">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Q_min" testID="AGC_Check" testName="AGC_Check" name="AGC:BP Amplitude Q minimum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Q_max" testID="AGC_Check" testName="AGC_Check" name="AGC:BP Amplitude Q maximum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="IQ_disbal" testID="AGC_Check" testName="AGC_Check" name="AGC: IQ Disbalance">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+		</CondensedSummaryDescriptor>
+	</OutputGroupSet>
+	<!-- Extended Summary -->
+	<OutputGroupSet name="Extended Summary">
+		<CondensedSummaryDescriptor name="CGPS Summary - Extended">
+			<IndexedParam index="1" id="Band"/>
+			<IndexedParam index="2" id="Channel"/>
+			<IndexedParam index="3" id="Phone Call State"/>
+			<!-- 
+			*******************************************************************************
+								Tracking  Sensitivity   T E S T S 
+			*******************************************************************************
+			-->
+			<Result resID="Tracking Sensitivity" testID="CGPS GEN8 Tracking Sensitivity" testName="CGPS GEN8 Tracking Sensitivity" name="Tracking Sensitivity:Sensitivity Point (dBm)">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Average CNo" testID="CGPS GEN8 Tracking Sensitivity" testName="CGPS GEN8 Tracking Sensitivity" name="Tracking Sensitivity:Average C/No">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<!-- 
+			*******************************************************************************
+								Acquisition  Sensitivity   T E S T S 
+			*******************************************************************************
+			-->
+			<Result resID="GNSS Sensitivity" testID="GNSS_Sensitivity" testName="GNSS_Sensitivity" name="Acquisition Sensitivity:Sensitivity Point (dBm)">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="GPS Dwells Attempted" testID="GNSS_Sensitivity" testName="GNSS_Sensitivity" name="Acquisition Sensitivity:Dwells Attempted">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Number of Successfull GPS Dwells" testID="GNSS_Sensitivity" testName="GNSS_Sensitivity" name="Acquisition Sensitivity:Successfull Dwells">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Average GPS CNo" testID="GNSS_Sensitivity" testName="GNSS_Sensitivity" name="Acquisition Sensitivity:Average GPS CNo">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<!--
+			*******************************************************************************
+										C/NO T E S T S 
+			*******************************************************************************
+			-->
+			<Result resID="Avg C/No" testID="C/No" testName="C/No" name="CNO:Average C/No">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Min C/No" testID="C/No" testName="C/No" name="CNO:Minimum C/No">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Max C/No" testID="C/No" testName="C/No" name="CNO:Maximum C/No">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="StdDev C/No" testID="C/No" testName="C/No" name="CNO:StdDev C/No">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Avg Speed" testID="C/No" testName="C/No" name="CNO:Average Speed">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Min Speed" testID="C/No" testName="C/No" name="CNO:Minimum Speed">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Max Speed" testID="C/No" testName="C/No" name="CNO:Maximum Speed">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="StdDev Speed" testID="C/No" testName="C/No" name="CNO:StdDev Speed">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Max Accel" testID="C/No" testName="C/No" name="CNO:Max Acceleration">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="5 Second Max Avg Accel" testID="C/No" testName="C/No" name="CNO:Max Avg Acceleration">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="12 Second Max Avg Accel" testID="C/No" testName="C/No" name="CNO:Max Avg Acceleration">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="LO Stability" testID="C/No" testName="C/No" name="CNO:LO Stability">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="LO Bias" testID="C/No" testName="C/No" name="CNO:LO Bias">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Processing Loss" testID="C/No" testName="C/No" name="CNO:System Processing Loss">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<!--	
+			*******************************************************************************
+										WB Analysis
+			******************************************************************************* 
+			-->
+			<!--			<Result resID="Highest Spur Measured" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:Highest Spur Measured">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>-->
+			<Result resID="Frequency Accuracy" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:Frequency Accuracy">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<!--			<Result resID="Image Rejection" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:Image Rejection">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>-->
+			<Result resID="Noise Figure Measured" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:Noise Figure Measured">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="SNR Measured" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:SNR Measured">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="SG Level" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:Signal Power">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<!--			<Result resID="Image Offset" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:Image Offset">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>-->
+			<!--			<Result resID="Image Power" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:Image Power">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>-->
+			<Result resID="Noise Floor" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:Noise Floor">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<!--			<Result resID="mean(I)" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:mean(I)">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>-->
+			<!--			<Result resID="mean(Q)" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:mean(Q)">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>-->
+			<Result resID="std(I)" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:Standard deviation (I)">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="std(Q)" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:Standard deviation (Q)">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC:  I_mean" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:AGC BP Amplitude I mean">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: I_min" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:AGC BP Amplitude I minimum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: I_max" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:AGC BP Amplitude I maximum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: I_stddev" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:AGC BP Amplitude I STD">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: Q_mean" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:AGC BP Amplitude Q mean">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: Q_min" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:AGC BP Amplitude Q minimum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: Q_max" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:AGC BP Amplitude Q maximum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: Q_stddev" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:AGC BP Amplitude Q STD">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: Number of Received Samples" testID="Wideband Spectral Analysis" testName="Wideband Spectral Analysis" name="WB:AGC Number of Received Samples">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<!--
+			*******************************************************************************
+										NB Analysis
+			*******************************************************************************
+			-->
+			<Result resID="Phase Noise Modulation" testID="Narrowband Spectral Analysis" testName="Narrowband Spectral Analysis" name="NB:Phase Noise Modulation">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Peak Energy Frequency Offset" testID="Narrowband Spectral Analysis" testName="Narrowband Spectral Analysis" name="NB:Peak Freq. Offset">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Noise Figure Measured" testID="Narrowband Spectral Analysis" testName="Narrowband Spectral Analysis" name="NB:Noise Figure Measured">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Noise Floor" testID="Narrowband Spectral Analysis" testName="Narrowband Spectral Analysis" name="NB:Noise Floor">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC:  I_mean" testID="Narrowband Spectral Analysis" testName="Narrowband Spectral Analysis" name="NB:AGC BP Amplitude I mean">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: I_min" testID="Narrowband Spectral Analysis" testName="Narrowband Spectral Analysis" name="NB:AGC BP Amplitude I minimum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: I_max" testID="Narrowband Spectral Analysis" testName="Narrowband Spectral Analysis" name="NB:AGC BP Amplitude I maximum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: I_stddev" testID="Narrowband Spectral Analysis" testName="Narrowband Spectral Analysis" name="NB:AGC BP Amplitude I STD">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: Q_mean" testID="Narrowband Spectral Analysis" testName="Narrowband Spectral Analysis" name="NB:AGC BP Amplitude Q mean">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: Q_min" testID="Narrowband Spectral Analysis" testName="Narrowband Spectral Analysis" name="NB:AGC BP Amplitude Q minimum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: Q_max" testID="Narrowband Spectral Analysis" testName="Narrowband Spectral Analysis" name="NB:AGC BP Amplitude Q maximum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: Q_stddev" testID="Narrowband Spectral Analysis" testName="Narrowband Spectral Analysis" name="NB:AGC BP Amplitude Q STD">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: Number of Received Samples" testID="Narrowband Spectral Analysis" testName="Narrowband Spectral Analysis" name="NB:AGC Number of Received Samples">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<!--
+			*******************************************************************************
+										NB-60sec Analysis
+			*******************************************************************************
+			-->
+			<Result resID="Delta Frequency between Decim20 and Decim100" testID="Narrowband Spectral Analysis (Special 60sec Capture)" testName="Narrowband Spectral Analysis (Special 60sec Capture)" name="NB60sec:Delta Freq 20-100">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Phase Noise Modulation" testID="Narrowband Spectral Analysis (Special 60sec Capture)" testName="Narrowband Spectral Analysis (Special 60sec Capture)" name="NB60sec: Phase Noise Modulation (deg)">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Slope" testID="Narrowband Spectral Analysis (Special 60sec Capture)" testName="Narrowband Spectral Analysis (Special 60sec Capture)" name="NB60sec:Slope">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC:  I_mean" testID="Narrowband Spectral Analysis (Special 60sec Capture)" testName="Narrowband Spectral Analysis (Special 60sec Capture)" name="NB:AGC BP Amplitude I mean">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: I_min" testID="Narrowband Spectral Analysis (Special 60sec Capture)" testName="Narrowband Spectral Analysis (Special 60sec Capture)" name="NB:AGC BP Amplitude I minimum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: I_max" testID="Narrowband Spectral Analysis (Special 60sec Capture)" testName="Narrowband Spectral Analysis (Special 60sec Capture)" name="NB:AGC BP Amplitude I maximum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: I_stddev" testID="Narrowband Spectral Analysis (Special 60sec Capture)" testName="Narrowband Spectral Analysis (Special 60sec Capture)" name="NB:AGC BP Amplitude I STD">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: Q_mean" testID="Narrowband Spectral Analysis (Special 60sec Capture)" testName="Narrowband Spectral Analysis (Special 60sec Capture)" name="NB:AGC BP Amplitude Q mean">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: Q_min" testID="Narrowband Spectral Analysis (Special 60sec Capture)" testName="Narrowband Spectral Analysis (Special 60sec Capture)" name="NB:AGC BP Amplitude Q minimum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: Q_max" testID="Narrowband Spectral Analysis (Special 60sec Capture)" testName="Narrowband Spectral Analysis (Special 60sec Capture)" name="NB:AGC BP Amplitude Q maximum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: Q_stddev" testID="Narrowband Spectral Analysis (Special 60sec Capture)" testName="Narrowband Spectral Analysis (Special 60sec Capture)" name="NB:AGC BP Amplitude Q STD">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="AGC: Number of Received Samples" testID="Narrowband Spectral Analysis (Special 60sec Capture)" testName="Narrowband Spectral Analysis (Special 60sec Capture)" name="NB:AGC Number of Received Samples">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<!--
+			*******************************************************************************
+										BER
+			*******************************************************************************
+			-->
+			<Result resID="Measured GPS C/N0" testID="CGPS BER" testName="CGPS BER" name="BER:Measured C/N0">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Final GPS Power" testID="CGPS BER" testName="CGPS BER" name="BER:Final GPS Power">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="# of Bits" testID="CGPS BER" testName="CGPS BER" name="BER:# Bits Measured">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="# of Bit Errors" testID="CGPS BER" testName="CGPS BER" name="BER:# Bit Errors">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="GPS BER" testID="CGPS BER" testName="CGPS BER" name="BER:GPS BER%">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<!--
+			*******************************************************************************
+										AGC   T E S T S 
+			*******************************************************************************
+			-->
+			<Result resID="I_mean" testID="AGC_Check" testName="AGC_Check" name="AGC:BP Amplitude I mean">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="I_min" testID="AGC_Check" testName="AGC_Check" name="AGC:BP Amplitude I minimum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="I_max" testID="AGC_Check" testName="AGC_Check" name="AGC:BP Amplitude I maximum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Q_mean" testID="AGC_Check" testName="AGC_Check" name="AGC:BP Amplitude Q mean">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Q_min" testID="AGC_Check" testName="AGC_Check" name="AGC:BP Amplitude Q minimum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="Q_max" testID="AGC_Check" testName="AGC_Check" name="AGC:BP Amplitude Q maximum">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+			<Result resID="IQ_disbal" testID="AGC_Check" testName="AGC_Check" name="AGC: IQ Disbalance">
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+					</Discriminator>
+				</Discriminator>
+			</Result>
+		</CondensedSummaryDescriptor>
+	</OutputGroupSet>
+	<!-- SBI In band -->
+	<!--
+	<OutputGroupSet name="SBI Dump">
+		<Discriminator id="logical_id"/>
+		<CondensedSummaryDescriptor name="SBI Dump">
+			<IndexedParam index="1" id="reg_address" base="16"/>
+			<IndexedParam index="2" id="Band"/>
+			<Result resID="reg_value" testID="SBI Dump" base="16">
+				<Discriminator id="reg_address">
+					<Discriminator id="Band"/>
+				</Discriminator>
+			</Result>
+		</CondensedSummaryDescriptor>
+	</OutputGroupSet>
+-->
+	<!-- SBI Out of band -->
+	<OutputGroupSet name="SBI Dump">
+		<Discriminator id="logical_id"/>
+		<CondensedSummaryDescriptor name="SBI Dump">
+			<IndexedParam index="1" id="reg_address" base="16"/>
+			<IndexedParam index="2" id="Band"/>
+			<Result resID="reg_value" testID="SBI Dump" base="16">
+				<Discriminator id="reg_address">
+					<Discriminator id="Band"/>
+				</Discriminator>
+			</Result>
+		</CondensedSummaryDescriptor>
+	</OutputGroupSet>
+	<!--End of Summary -->
+	
+	
+	<!-- WB Spectral Analysis-->
+	<OutputGroupSet name="WB" width="3">
+		<OutputGroupDescriptor_Lin name="WB Freq Accuracy">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="Frequency Accuracy" testID="Wideband Spectral Analysis">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+		<!--		<OutputGroupDescriptor_Lin name="WB Image Rejection">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="Image Rejection" testID="Wideband Spectral Analysis">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>-->
+		<OutputGroupDescriptor_Lin name="WB std(I)">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="std(I)" testID="Wideband Spectral Analysis">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+		<OutputGroupDescriptor_Lin name="WB std(Q)">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="std(Q)" testID="Wideband Spectral Analysis">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+		<OutputGroupDescriptor_Lin name="WB NF Measured">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="Noise Figure Measured" testID="Wideband Spectral Analysis">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+		<OutputGroupDescriptor_Lin name="WB SNR Measured (dB)">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="SNR Measured" testID="Wideband Spectral Analysis">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+		<OutputGroupDescriptor_Lin name="WB Noise Floor Measured (dBc)">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="Noise Floor" testID="Wideband Spectral Analysis">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+	</OutputGroupSet>
+	<!-- NB Spectral Analysis-->
+	<OutputGroupSet name="NB" width="3">
+		<OutputGroupDescriptor_Lin name="NB Phase Noise Modulation">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="Phase Noise Modulation" testID="Narrowband Spectral Analysis">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+	</OutputGroupSet>
+	<!-- NB Spectral Analysis 60 sec-->
+	<OutputGroupSet name="NB60sec" width="3">
+		<OutputGroupDescriptor_Lin name="NB60sec Delta Freq Deci20 and 100">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="Delta Frequency between Decim20 and Decim100" testID="Narrowband Spectral Analysis (Special 60sec Capture)">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+		<OutputGroupDescriptor_Lin name="NB60sec Delta Freq Deci1 and 100">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="Delta Frequency between Decim1 and Decim100" testID="Narrowband Spectral Analysis (Special 60sec Capture)">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+		<OutputGroupDescriptor_Lin name="NB60sec Correlation Coef R^2">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="Correlation Coefficient R^2" testID="Narrowband Spectral Analysis (Special 60sec Capture)">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+	</OutputGroupSet>
+	<!-- AGC Check-->
+	<OutputGroupSet name="AGC" width="3">
+		<OutputGroupDescriptor_Lin name="AGC_Check I_mean">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="I_mean" testID="AGC_Check">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+		<OutputGroupDescriptor_Lin name="AGC_Check Q_mean">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="Q_mean" testID="AGC_Check">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+	</OutputGroupSet>
+	<!-- CNO-->
+	<OutputGroupSet name="C/NO" width="3">
+		<OutputGroupDescriptor_Lin name="CNO StdDev C/No">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="StdDev C/No" testID="C/No">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+		<OutputGroupDescriptor_Lin name="CNO Max Accel">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="Max Accel" testID="C/No">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+		<OutputGroupDescriptor_Lin name="CNO LO Stability">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="LO Stability" testID="C/No">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+		<OutputGroupDescriptor_Lin name="CNO LO Bias">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="LO Bias" testID="C/No">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+		<OutputGroupDescriptor_Lin name="CNO Processing Loss">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="Processing Loss" testID="C/No">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+	</OutputGroupSet>
+	<!-- BER-->
+	<OutputGroupSet name="BER" width="3">
+		<OutputGroupDescriptor_Lin name="BER Measured C/N0">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="Measured C/N0" testID="CGPS BER">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+		<OutputGroupDescriptor_Lin name="BER Final GPS Power">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="Final GPS Power" testID="CGPS BER">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+		<OutputGroupDescriptor_Lin name="BER GPS BER">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="GPS BER" testID="CGPS BER">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+		<OutputGroupDescriptor_Lin name="BER # of Bits">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="# of Bits" testID="CGPS BER">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+		<OutputGroupDescriptor_Lin name="BER # of Bit Errors">
+			<Discriminator id="Band" isString="true">
+				<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+			</Discriminator>
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true">
+				</Discriminator>
+				</Discriminator>
+				<Result resID="# of Bit Errors" testID="CGPS BER">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+	</OutputGroupSet>
+	<!-- Tracking Sensitivity -->
+	<OutputGroupSet name="Tracking Sensitivity" width="3">
+		<OutputGroupDescriptor_Lin name="Tracking Sensitivity">
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true"/>
+				</Discriminator>
+				<Result resID="Tracking Sensitivity" testID="CGPS GEN8 Tracking Sensitivity">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+		<OutputGroupDescriptor_Lin name="Average C/No">
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true"/>
+				</Discriminator>
+				<Result resID="Average CNo" testID="CGPS GEN8 Tracking Sensitivity">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+	</OutputGroupSet>
+	<!-- Acqisition Sensitivity -->
+	<OutputGroupSet name="Acquisition Sensitivity" width="3">
+		<OutputGroupDescriptor_Lin name="Acquisition Sensitivity">
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true"/>
+				</Discriminator>
+				<Result resID="GPS Sensitivity" testID="GNSS_Sensitivity">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+		<OutputGroupDescriptor_Lin name="Average GPS C/No">
+			<CommonBinResults>
+				<Discriminator id="Band" isString="true">
+					<Discriminator id="Phone Call State" isString="true"/>
+				</Discriminator>
+				<Result resID="Average GPS CNo" testID="GNSS_Sensitivity">
+					<Discriminator id="Channel"/>
+				</Result>
+			</CommonBinResults>
+		</OutputGroupDescriptor_Lin>
+	</OutputGroupSet>
+</FormatDescriptor>

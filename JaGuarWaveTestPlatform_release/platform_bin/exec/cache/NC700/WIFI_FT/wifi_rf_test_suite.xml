@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Suite>
+    <common>
+		<TSE_SSH_SOURCE_IP>192.168.225.5</TSE_SSH_SOURCE_IP>
+        <TSE_SSH_HOST>192.168.225.1</TSE_SSH_HOST>
+		<TSE_TEST_PROJECT_NAME>WIFI_TEST\</TSE_TEST_PROJECT_NAME>
+		<TSE_TRX_CHAIN>1,1</TSE_TRX_CHAIN>
+		<TSE_INIT_OK_FALG>WLAN_LAN_OK</TSE_INIT_OK_FALG>
+    </common>
+	<SuiteProject ReversedResult="0">
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="检查ADB端口" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb devices |find /V /i &quot;devices&quot;" description="指令"/>
+		<Recv1 paramVal="device" description="接收字符串"/>
+		<SendCounts1 paramVal="300" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+		<RetryCount paramVal="3" description="错误重测次数" />
+    </SuiteProject>
+	<!-- <SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_QutsStartTcpServer" description="连接高通设备" />
+		<TestName paramVal="开启QUTS" description="测试名称描述" />
+		<QutsType paramVal="0" description="Set 0 to indicate diag type"/>
+		<QutsTcpPort paramVal="5000" description="quts tcp port default:5000"/>
+	</SuiteProject> -->
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+		<RealName paramVal="CTSE_CheckFileExist" description="连接高通设备" />
+		<TestName paramVal="检查WLAN是否初始化成功" description="测试名称描述" />
+		<FilePathEnvironment paramVal="TSE_INIT_OK_FALG" description="命令数量" />
+		<CheckTimeOutSec paramVal="30" description="" />
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ConnectQcomDiag" description="连接高通设备" />
+		<TestName paramVal="连接高通端口" description="测试名称描述" />
+		<port paramVal="65535" description=""/>
+		<QMSLLibraryMode paramVal="2" description="1 to use QPST, 0 to use QPHONEMS, 2 to use QUTS"/>
+		<SaveResourceContextEnvironment paramVal="TSE_QUALCOMM_RESOURCECONTEXT" description="Save Connect Resource Environment"/>
+		<TimeOut paramVal="60" description="超时时间设置 以S为单位" />
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />                                    
+        <TestName paramVal="挂载并检查Firmware分区" description="测试名称描述" />
+		<CommandCount paramVal="2" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>
+		<Command1 paramVal="adb shell mount -o remount,rw /firmware" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="1" description="发送次数"/>
+		<TimeOut1 paramVal="10" description="命令超时时间"/>
+		<Command2 paramVal="adb shell &quot;find /firmware -name image&quot;" description="指令"/>
+		<Recv2 paramVal="/firmware/image" description="接收字符串"/>
+		<SendCounts2 paramVal="1" description="发送次数"/>
+		<TimeOut2 paramVal="10" description="命令超时时间"/>
+		<IntervalTimeMS paramVal="1000" description="测试失败后进行下次测试间隔时间"/>
+		<RetryCount paramVal="30" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+		<RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+		<TestName paramVal="ABD获取SMT SN" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+		<Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径" />
+		<Command1 paramVal="adb shell sed -n &quot;/SMT_SN/p&quot; /firmware/factory.conf" description="指令" />
+		<Recv1 paramVal="SMT_SN=" description="接收字符串" />
+		<SendCounts1 paramVal="3" description="发送次数" />
+		<TimeOut1 paramVal="30" description="命令超时时间" />
+		<Environment1 paramVal="TSE_SN_SRC" description="保存环境变量" />
+		<SuiteProject>
+			<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+			<RealName paramVal="CTSE_BuildString" description="连接高通设备" />
+			<TestName paramVal="检查SMT SN规则" description="测试名称描述" />
+			<EraseStringSplit paramVal="SMT_SN=, " description="" />
+			<SrcStringCommand paramVal="$$_TSE_SN_SRC_$$" description="" />
+			<RegexRule paramVal="[0-9A-Za-z]{12,}" description="regex rule" />
+			<SaveEnvironment paramVal="TSE_SMT_SN" description="" />
+		</SuiteProject>
+		<SuiteProject>
+			<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+			<RealName paramVal="CTSE_PrintInfo" description="连接高通设备" />
+			<TestName paramVal="SMT SN" description="测试名称描述" />
+			<EnvPrintCommand paramVal="TSE_BARCODE: $$_TSE_SMT_SN_$$  " description="" />
+		</SuiteProject>
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_MESCheckSNStatus" description="连接高通设备" />
+		<TestName paramVal="检查SN当前状态" description="测试名称描述" />
+		<EnvironmentLen paramVal="14" description="当前环境变量对应的值长度限定" />
+		<SNEnvironment paramVal="TSE_SMT_SN" description="保存到某个环境变量" />
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_MESSaveTestRecords" description="连接高通设备" />
+		<TestName paramVal="更新测试时间" description="测试名称描述" />
+		<StartTestTime paramVal="1" description=""/>
+		<EndTestTime paramVal="0" description=""/>
+		<EnvironmentLen paramVal="14" description="当前环境变量对应的值长度限定" />
+		<IMEISNEnvironment paramVal="TSE_SMT_SN" description="保存到某个环境变量" />
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SetPhoneResource" description="连接高通设备" />
+		<TestName paramVal="设置" description="测试名称描述" />
+		<ResourceContextEnvironment paramVal="TSE_QUALCOMM_RESOURCECONTEXT" description="Save Connect Resource Environment"/>
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" />
+		<RealName paramVal="CTSE_InitializeWlanTester" description="" />
+		<TestName paramVal="初始化仪器配置" description="" />
+		<StationCalFileName paramVal="equip\NC700_WIFI_RF_LOSS.xml" description="Station Cal File name including path" />
+		<TesterConfigFileName paramVal="equip\equipconfig.ini" description="WLAN Tester Config File name including path" />
+		<TxStationCalPathName paramVal="BH0_LP,BH1_LP" description="TX station cal path name" />
+		<RxStationCalPathName paramVal="BH0_LP,BH1_LP" description="RX station cal path name" />
+		<WlanConfigFileName paramVal="cache\NC700\WIFI_FT\wlan_config.xml" description="wlan config file name" />
+		<TRxChainPort paramVal="1,1" description="3,3,3,3 RF Port Index" />
+		<TRxChainPortEnv paramVal="TSE_TRX_CHAIN" description="RF Port Index Environment"/>
+		<RetryCount paramVal="1" description="error retry count"/>
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" />
+		<RealName paramVal="CTSE_DutLog" description="" />
+		<TestName paramVal="开启日志" description="" />
+		<LogOn paramVal="1" description="true:1:false:0" />
+		<FileName paramVal="dutlog.txt" description="Filename for logging" />
+		<RetryCount paramVal="1" description="error retry count"/>
+	</SuiteProject>
+		<SuiteProject>
+		<ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" />
+		<RealName paramVal="CTSE_WlanLoadDut" description="" />
+		<TestName paramVal="加载5G BIN" description="" />
+		<DevDLLName paramVal="qc6390" description="Device dll name (less than 30 charactors)" />
+		<refDesign paramVal="qc6390" description="refDesign" />
+		<eepFName paramVal="C:\Qfigs\boardData\fakeBoardData_AR9900.bin" description="eep file name (less than 50 charactors)" />
+		<iNVMemOption paramVal="5" description="NV memory Option DataNone=0;DataFlash=1;DataEeprom=2;DataOtp=3;DataDontLoad=4;DataFile=5;DataDram=6" />
+		<ssid paramVal="0x40" description="Device ID: 0x3c:QC98xx; 0x3d:AR6004; 0x3e:AR6174" />
+		<RetryCount paramVal="1" description="error retry count"/>
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_WlanSetPhyRFMode" description="连接高通设备" />
+		<TestName paramVal="设置RFMODE" description="测试名称描述" />
+		<mode paramVal="1" description="Mode ID: 0= PhyA only,1 = DBS, 2= SBS,3= PhyB only"/>
+		<PhyID paramVal="0" description="PHY_A0=0;PHY_B=1;PHY_A1=2"/>
+		<WlanInstance paramVal="0" description=""/>
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" />
+		<RealName paramVal="CTSE_QCA639xTxTest" description="" />
+		<TestName paramVal="5G Tx测试" description="" />
+		<PowerLevel paramVal="10" description="Tx power in dBm"/>
+		<ExpectPower paramVal="20" description="Tx Expect power in dBm"/>
+		<Channel paramVal="5210,5530,5690" description="channel split ," />	
+		<ChannelBondingState paramVal="4" description="Channel Bonding State " />
+		<UniversalRateBW paramVal="10" description=""/>
+		<UniversalNSS paramVal="1" description="wlan Universal NSS"/>
+		<UniversalDataRate paramVal="31" description="WLAN Universal Data Rate" />
+		<TxChainMask paramVal="1,2" description="tx chain mask" />
+		<NumAverages paramVal="3" description="Number of averages def:3" />		
+		<EvmLL paramVal="-99" description="Minimum EVM out of all numAverages times requested" />
+		<EvmUL paramVal="-32" description="Maximum EVM out of all numAverages times requested" />
+		<TxTestParamPathName paramVal="COMMON_PARAM" description="tx test param path name" />
+		<TxTestingStandardPathName paramVal="11AX_BW80_MCS11" description="tx Testing Standard path name" />
+		<PhyID paramVal="0" description="PHY_A0=0;PHY_B=1;PHY_A1=2"/>
+		<TestIntervals paramVal="1000" description=""/>
+		<WlanTxEvmTest paramVal="1" description="is test Wlan Tx EvmT est" />
+		<WlanTxVerifyMaskTestSegmentMargins paramVal="1" description="is test Wlan Tx Verify Mask Test Segment Margins"/>
+		<RetryCount paramVal="2" description="error retry count"/>
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" />
+		<RealName paramVal="CTSE_QCA639xRxTest" description="" />
+		<TestName paramVal="5G Rx测试" description="" />
+		<Channel paramVal="5500,5530,5690" description="channel split ," />	
+		<ChannelBondingState paramVal="4" description="Channel Bonding State " />
+		<UniversalRateBW paramVal="10" description=""/>
+		<UniversalNSS paramVal="1" description="wlan Universal NSS"/>
+		<UniversalDataRate paramVal="31" description="WLAN Universal Data Rate" />
+		<ChainMask paramVal="1,2" description="Rx chain mask" />
+		<msecDelaybeforePktSend paramVal="100" description="msec delay between DUT setup done and Packets send"/>
+		<SignalLeveldBm paramVal="-50" description="PER Signal Level dBm" />
+		<PERUL paramVal="10,10" description="PER at Per Power; must define Upper Limit" />
+		<RssiLL paramVal="-99,-99" description="RSSI at Per Power;"/>
+		<PhyID paramVal="0" description="PHY_A0=0;PHY_B=1;PHY_A1=2"/>
+		<LDPC paramVal="1" description="VSG Tx LDPC mode packets"/>
+		<STBC paramVal="0" description="VSG Tx STBC mode packets"/>
+		<rxFilterMode paramVal="0" description="0: promiscuous Mode; 1: filter Mode"/>
+		<vsgGuardInterval paramVal="50" description="VSG guard interval in uSec: 0.0|0.4|0.8|1.6|3.2"/>
+		<RetryCount paramVal="1" description="error retry count"/>
+	</SuiteProject>
+	<!-- <SuiteProject>
+		<ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" />
+		<RealName paramVal="CTSE_QCA639xRxTest" description="" />
+		<TestName paramVal="5G Rx测试" description="" />
+		<Channel paramVal="5210,5530,5690" description="channel split ," />	
+		<ChannelBondingState paramVal="4" description="Channel Bonding State " />
+		<UniversalRateBW paramVal="6" description=""/>
+		<UniversalNSS paramVal="1" description="wlan Universal NSS"/>
+		<UniversalDataRate paramVal="29" description="WLAN Universal Data Rate" />
+		<ChainMask paramVal="1,2" description="Rx chain mask" />
+		<msecDelaybeforePktSend paramVal="100" description="msec delay between DUT setup done and Packets send"/>
+		<SignalLeveldBm paramVal="-50" description="PER Signal Level dBm" />
+		<PERUL paramVal="10,10" description="PER at Per Power; must define Upper Limit" />
+		<RssiLL paramVal="-99,-99" description="RSSI at Per Power;"/>
+		<PhyID paramVal="0" description="PHY_A0=0;PHY_B=1;PHY_A1=2"/>
+		<LDPC paramVal="1" description="VSG Tx LDPC mode packets"/>
+		<STBC paramVal="0" description="VSG Tx STBC mode packets"/>
+		<rxFilterMode paramVal="0" description="0: promiscuous Mode; 1: filter Mode"/>
+		<vsgGuardInterval paramVal="50" description="VSG guard interval in uSec: 0.0|0.4|0.8|1.6|3.2"/>
+		<RetryCount paramVal="1" description="error retry count"/>
+	</SuiteProject> -->
+	
+	<!-- <SuiteProject IsFinalize="1">
+		<ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" />
+		<RealName paramVal="CTSE_DutLog" description="" />
+		<TestName paramVal="关闭日志" description="" />
+		<LogOn paramVal="0" description="true:1:false:0" />
+		<FileName paramVal="dutlog.txt" description="Filename for logging" />
+		<RetryCount paramVal="1" description="error retry count"/>
+	</SuiteProject>
+	<SuiteProject IsFinalize="1">
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_DisConnectQocmDiag" description="连接高通设备" />
+		<TestName paramVal="断开连接" description="测试名称描述" />
+	</SuiteProject> -->
+	<SuiteProject>
+		<RealName paramVal="CTSE_Sleep" description="连接高通设备" />
+		<TestName paramVal="等待" description="测试名称描述" />
+		<SleepMS paramVal="3000" description="Sleep 时间 毫秒" />
+		<RetryCount paramVal="1" description="错误重测次数" />
+	</SuiteProject>
+	
+<!-- 	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_ConnectQcomDiag" description="连接高通设备" />
+		<TestName paramVal="连接高通端口" description="测试名称描述" />
+		<port paramVal="65535" description=""/>
+		<QMSLLibraryMode paramVal="2" description="1 to use QPST, 0 to use QPHONEMS, 2 to use QUTS"/>
+		<SaveResourceContextEnvironment paramVal="TSE_QUALCOMM_RESOURCECONTEXT" description="Save Connect Resource Environment"/>
+		<TimeOut paramVal="60" description="超时时间设置 以S为单位" />
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" />
+		<RealName paramVal="CTSE_DutLog" description="" />
+		<TestName paramVal="开启日志" description="" />
+		<LogOn paramVal="1" description="true:1:false:0" />
+		<FileName paramVal="dutlog.txt" description="Filename for logging" />
+		<RetryCount paramVal="1" description="error retry count"/>
+	</SuiteProject> -->
+	<!-- <SuiteProject>
+		<ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" />
+		<RealName paramVal="CTSE_QCA639xSetUpDutTx" description="" />
+		<TestName paramVal="5G Set Up Dut Tx" description="" />
+		<PowerLevel paramVal="10" description="Tx power in dBm"/>
+		<ExpectPower paramVal="20" description="Tx Expect power in dBm"/>
+		<Channel paramVal="5210" description="channel split ," />	
+		<ChannelBondingState paramVal="4" description="Channel Bonding State " />
+		<UniversalRateBW paramVal="10" description=""/>
+		<UniversalNSS paramVal="1" description="wlan Universal NSS"/>
+		<UniversalDataRate paramVal="31" description="WLAN Universal Data Rate" />
+		<TxChainMask paramVal="1" description="tx chain mask" />
+		<NumAverages paramVal="3" description="Number of averages def:3" />		
+		<EvmLL paramVal="-99" description="Minimum EVM out of all numAverages times requested" />
+		<EvmUL paramVal="-32" description="Maximum EVM out of all numAverages times requested" />
+		<TxTestParamPathName paramVal="COMMON_PARAM" description="tx test param path name" />
+		<TxTestingStandardPathName paramVal="11AX_BW80_MCS11" description="tx Testing Standard path name" />
+		<PhyID paramVal="0" description="PHY_A0=0;PHY_B=1;PHY_A1=2"/>
+		<TestIntervals paramVal="1000" description=""/>
+		<WlanTxEvmTest paramVal="1" description="is test Wlan Tx EvmT est" />
+		<WlanTxVerifyMaskTestSegmentMargins paramVal="1" description="is test Wlan Tx Verify Mask Test Segment Margins"/>
+		<RetryCount paramVal="2" description="error retry count"/>
+	</SuiteProject> -->
+	<!-- <SuiteProject>
+		<ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_AutoDetectChip" description="连接高通设备" />
+		<TestName paramVal="Auto Chip" description="测试名称描述" />
+	</SuiteProject> -->
+	<SuiteProject>
+		<ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_WlanSetPhyRFMode" description="连接高通设备" />
+		<TestName paramVal="设置RFMODE" description="测试名称描述" />
+		<mode paramVal="1" description="Mode ID: 0= PhyA only,1 = DBS, 2= SBS,3= PhyB only"/>
+		<PhyID paramVal="0" description="PHY_A0=0;PHY_B=1;PHY_A1=2"/>
+		<WlanInstance paramVal="0" description=""/>
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" />
+		<RealName paramVal="CTSE_QCA639xTxTest" description="" />
+		<TestName paramVal="2.4G Tx测试" description="" />
+		<PowerLevel paramVal="10" description="Tx power in dBm"/>
+		<ExpectPower paramVal="20" description="Tx Expect power in dBm"/>
+		<PhyID paramVal="1" description="PHY_A0=0;PHY_B=1;PHY_A1=2"/>
+		<Channel paramVal="2412,2442,2472" description="channel split ," />	
+		<ChannelBondingState paramVal="3" description="Channel Bonding State " />
+		<UniversalRateBW paramVal="9" description=""/>
+		<UniversalNSS paramVal="1" description="wlan Universal NSS"/>
+		<UniversalDataRate paramVal="31" description="WLAN Universal Data Rate" />
+		<TxChainMask paramVal="1,2" description="tx chain mask" />
+		<NumAverages paramVal="3" description="Number of averages def:3" />		
+		<EvmLL paramVal="-99" description="Minimum EVM out of all numAverages times requested" />
+		<EvmUL paramVal="-32" description="Maximum EVM out of all numAverages times requested" />
+		<TxTestParamPathName paramVal="COMMON_PARAM_24G" description="tx test param path name" />
+		<TxTestingStandardPathName paramVal="11AX_BW80_MCS11" description="tx Testing Standard path name" />
+		<TestIntervals paramVal="1000" description=""/>
+		<WlanTxEvmTest paramVal="1" description="is test Wlan Tx EvmT est" />
+		<WlanTxVerifyMaskTestSegmentMargins paramVal="1" description="is test Wlan Tx Verify Mask Test Segment Margins"/>
+		<RetryCount paramVal="2" description="error retry count"/>
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" />
+		<RealName paramVal="CTSE_QCA639xRxTest" description="" />
+		<TestName paramVal="2.4G Rx测试" description="" />
+		<Channel paramVal="2412,2442,2472" description="channel split ," />	
+		<ChannelBondingState paramVal="3" description="Channel Bonding State " />
+		<UniversalRateBW paramVal="9" description=""/>
+		<UniversalNSS paramVal="1" description="wlan Universal NSS"/>
+		<UniversalDataRate paramVal="31" description="WLAN Universal Data Rate" />
+		<ChainMask paramVal="1,2" description="Rx chain mask" />
+		<msecDelaybeforePktSend paramVal="100" description="msec delay between DUT setup done and Packets send"/>
+		<SignalLeveldBm paramVal="-50" description="PER Signal Level dBm" />
+		<PERUL paramVal="10,10" description="PER at Per Power; must define Upper Limit" />
+		<RssiLL paramVal="-99,-99" description="RSSI at Per Power;"/>
+		<PhyID paramVal="0" description="PHY_A0=0;PHY_B=1;PHY_A1=2"/>
+		<LDPC paramVal="1" description="VSG Tx LDPC mode packets"/>
+		<STBC paramVal="0" description="VSG Tx STBC mode packets"/>
+		<rxFilterMode paramVal="0" description="0: promiscuous Mode; 1: filter Mode"/>
+		<vsgGuardInterval paramVal="50" description="VSG guard interval in uSec: 0.0|0.4|0.8|1.6|3.2"/>
+		<RetryCount paramVal="1" description="error retry count"/>
+	</SuiteProject>
+	<SuiteProject IsFinalize="1">
+		<ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" />
+		<RealName paramVal="CTSE_DutLog" description="" />
+		<TestName paramVal="关闭日志" description="" />
+		<LogOn paramVal="0" description="true:1:false:0" />
+		<FileName paramVal="dutlog.txt" description="Filename for logging" />
+		<RetryCount paramVal="1" description="error retry count"/>
+	</SuiteProject>
+	<SuiteProject IsFinalize="1">
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_DisConnectQocmDiag" description="连接高通设备" />
+		<TestName paramVal="断开连接" description="测试名称描述" />
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_MESNextSNStation" description="连接高通设备" />
+		<TestName paramVal="PCBASN过站" description="测试名称描述" />
+		<EnvironmentLen paramVal="14" description="当前环境变量对应的值长度限定" />
+		<SNEnvironment paramVal="TSE_SMT_SN" description="保存到某个环境变量" />
+	</SuiteProject>
+	<SuiteProject IsFinalize="1">
+		<ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_MESSaveTestRecords" description="连接高通设备" />
+		<TestName paramVal="保存测试记录" description="测试名称描述" />
+		<StartTestTime paramVal="0" description=""/>
+		<EndTestTime paramVal="1" description=""/>
+		<EnvironmentLen paramVal="14" description="当前环境变量对应的值长度限定" />
+		<IMEISNEnvironment paramVal="TSE_SMT_SN" description="保存到某个环境变量" />
+	</SuiteProject>
+	<!-- channel tx_chain_mask tx_rate -->
+	<!-- <SuiteProject> -->
+		<!-- <ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" /> -->
+		<!-- <RealName paramVal="CTSE_IPQ40xxTxCalTest" description="" /> -->
+		<!-- <TestName paramVal="5G Tx测试" description="" /> -->
+		<!-- <PowerLevel paramVal="14" description="Tx power in dBm"/> -->
+		<!-- <ExpectPower paramVal="14" description="Tx Expect power in dBm"/> -->
+		<!-- <Channel paramVal="5180,5500,5825" description="channel split ," /> -->
+		<!-- <TxChainMask paramVal="1,2" description="tx chain mask" /> -->
+		<!-- <ChannelBondingState paramVal="2" description="Channel Bonding State " /> -->
+		<!-- <Rate paramVal="36" description="Data Rate" /> -->
+		<!-- <NumAverages paramVal="3" description="Number of averages def:3" /> -->
+		<!-- <WlanRate paramVal="39" description="wlan Rate WLAN Mode Enums" /> -->
+		<!-- <EvmLL paramVal="-99" description="Minimum EVM out of all numAverages times requested" /> -->
+		<!-- <EvmUL paramVal="-31" description="Maximum EVM out of all numAverages times requested" /> -->
+		<!-- <TxTestParamPathName paramVal="COMMON_PARAM" description="tx test param path name" /> -->
+		<!-- <TxTestingStandardPathName paramVal="11AC_HT20_MCS8" description="tx Testing Standard path name" /> -->
+		<!-- <WlanTxEvmTest paramVal="1" description="is test Wlan Tx EvmT est" /> -->
+		<!-- <WlanTxVerifyMaskTestSegmentMargins paramVal="1" description="is test Wlan Tx Verify Mask Test Segment Margins"/> -->
+		<!-- <RetryCount paramVal="3" description="error retry count"/> -->
+	<!-- </SuiteProject> -->
+	<!-- <SuiteProject> -->
+		<!-- <ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" /> -->
+		<!-- <RealName paramVal="CTSE_IPQ40xxSetUpRx" description="" /> -->
+		<!-- <TestName paramVal="5G Rx设置" description="" /> -->
+		<!-- <Channel paramVal="5500" description="Rx Channel number" /> -->
+		<!-- <ChannelBondingState paramVal="2" description="Channel Bonding State " /> -->
+		<!-- <RxChainMask paramVal="1" description="rx chain" /> -->
+		<!-- <Rate paramVal="15" description="Rx Data rate" /> -->
+		<!-- <PromiscuousMode paramVal="0" description="0: promiscuous Mode; 1: filter Mode"/> -->
+		<!-- <RetryCount paramVal="1" description="error retry count"/> -->
+		<!-- <Channel2 paramVal="0" description="Rx Channel for 80p80" /> -->
+	<!-- </SuiteProject> -->
+	<!-- <SuiteProject> -->
+		<!-- <ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" /> -->
+		<!-- <RealName paramVal="CTSE_WlanRxCalibrationFWControlled" description="" /> -->
+		<!-- <TestName paramVal="5G Rx校准" description="" /> -->
+		<!-- <RadioId paramVal="77" description="true:1:false:0" /> -->
+		<!-- <ChainToCalibrate paramVal="0,1" description="Chain to calibrate split ," /> -->
+		<!-- <RetryCount paramVal="1" description="error retry count"/> -->
+	<!-- </SuiteProject> -->
+	<!-- <SuiteProject> -->
+		<!-- <ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" /> -->
+		<!-- <RealName paramVal="CTSE_IPQ40xxRxCalTest" description="" /> -->
+		<!-- <TestName paramVal="5G Rx测试" description="" /> -->
+		<!-- <RxChainMask paramVal="1,2" description="rx chain mask" /> -->
+		<!-- <Channel paramVal="5180,5500,5725" description="channel split ," /> -->
+		<!-- <ChannelBondingState paramVal="2" description="Channel Bonding State " /> -->
+		<!-- <Rate paramVal="36" description="Data Rate" /> -->
+		<!-- <PERUL paramVal="10" description="PER at Per Power; must define Upper Limit" /> -->
+		<!-- <RssiLL paramVal="-99" description="RSSI at Per Power;"/> -->
+		<!-- <SignalLeveldBm paramVal="-50" description="PER Signal Level dBm" /> -->
+		<!-- <PacketCount paramVal="200" description="number of packets for PER coarse search loop"/> -->
+		<!-- <RetryCount paramVal="1" description="error retry count"/> -->
+	<!-- </SuiteProject> -->
+	<!-- <SuiteProject> -->
+		<!-- <ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" /> -->
+		<!-- <RealName paramVal="CTSE_WlanSetOtpMAC" description="" /> -->
+		<!-- <TestName paramVal="写入5G MAC" description="" /> -->
+		<!-- <MacAddressEnv paramVal="TSE_5G_OTP_MAC_ADDRESS" description="Mac address environment"/> -->
+	<!-- </SuiteProject> -->
+	<!-- <!-- <SuiteProject> -->
+		<!-- <ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" /> -->
+		<!-- <RealName paramVal="CTSE_WlanMemCommit" description="" /> -->
+		<!-- <TestName paramVal="5G Wlan Mem Commit File" description="Wlan Mem Commit" /> -->
+		<!-- <Template paramVal="0" description="template number-> 0:no template; 20:qc98xx; 21:cus220; 22:cus223; 23:wb342; 24:xb340; 25:cus226; 26:cus226_030; 27:xb141"/> -->
+		<!-- <WriteOption paramVal="5" description="NV memory type -> 0:auto; 1:flash; 2:eeprom; 3:otp; 4:none; 5:file;"/> -->
+		<!-- <MemSize paramVal="0" description="memory size used for NV memory commit-> 0:auto; 1:1024(1k); 2:2048(2k); 3:4096(4k); 4:8192(8k);" /> -->
+		<!-- <Compress paramVal="0" description="compressionthe NV data?"/> -->
+		<!-- <Overwrite paramVal="0" description="overwrite existing data?"/> -->
+		<!-- <Section paramVal="2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1" description="NV memory section that user wants to commit. SECTION_ALL=0;SECTION_ID=1;SECTION_MAC=2;SECTION_CAL2G_OLPC=3;SECTION_CAL5G_OLPC=4;SECTION_CTL2G=5;SECTION_CTL5G=6;SECTION_CONFIG=7;SECTION_CUSTOM=8;SECTION_VIDPID=9;SECTION_SDIOPID=10;SECTION_XTAL=11;SECTION_RXCAL5G=12;SECTION_RXCAL2G=13;SECTION_CAL2G_CLPC=14;SECTION_CAL5G_CLPC=15;SECTION_NONE=-1"/> -->
+	<!-- </SuiteProject> --> -->
+	<!-- <SuiteProject> -->
+		<!-- <ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" /> -->
+		<!-- <RealName paramVal="CTSE_WlanMemCommit" description="" /> -->
+		<!-- <TestName paramVal="保存5G WIFI校准参数" description="Wlan Mem Commit" /> -->
+		<!-- <Template paramVal="0" description="template number-> 0:no template; 20:qc98xx; 21:cus220; 22:cus223; 23:wb342; 24:xb340; 25:cus226; 26:cus226_030; 27:xb141"/> -->
+		<!-- <WriteOption paramVal="1" description="NV memory type -> 0:auto; 1:flash; 2:eeprom; 3:otp; 4:none; 5:file;"/> -->
+		<!-- <MemSize paramVal="0" description="memory size used for NV memory commit-> 0:auto; 1:1024(1k); 2:2048(2k); 3:4096(4k); 4:8192(8k);" /> -->
+		<!-- <Compress paramVal="0" description="compressionthe NV data?"/> -->
+		<!-- <Overwrite paramVal="0" description="overwrite existing data?"/> -->
+		<!-- <Section paramVal="2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1" description="NV memory section that user wants to commit. SECTION_ALL=0;SECTION_ID=1;SECTION_MAC=2;SECTION_CAL2G_OLPC=3;SECTION_CAL5G_OLPC=4;SECTION_CTL2G=5;SECTION_CTL5G=6;SECTION_CONFIG=7;SECTION_CUSTOM=8;SECTION_VIDPID=9;SECTION_SDIOPID=10;SECTION_XTAL=11;SECTION_RXCAL5G=12;SECTION_RXCAL2G=13;SECTION_CAL2G_CLPC=14;SECTION_CAL5G_CLPC=15;SECTION_NONE=-1"/> -->
+	<!-- </SuiteProject> -->
+	<!-- <SuiteProject IsFinalize="1"> -->
+		<!-- <ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" /> -->
+		<!-- <RealName paramVal="CTSE_DutLog" description="" /> -->
+		<!-- <TestName paramVal="关闭日志" description="" /> -->
+		<!-- <LogOn paramVal="0" description="true:1:false:0" /> -->
+		<!-- <FileName paramVal="dutlog.txt" description="Filename for logging" /> -->
+		<!-- <RetryCount paramVal="1" description="error retry count"/> -->
+	<!-- </SuiteProject> -->
+	<!-- <SuiteProject IsFinalize="1"> -->
+		<!-- <ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" /> -->
+		<!-- <RealName paramVal="CTSE_DisconnectDut" description="" /> -->
+		<!-- <TestName paramVal="断开5G WIFI" description="" /> -->
+	<!-- </SuiteProject> -->
+	<!-- <SuiteProject> -->
+		<!-- <ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" /> -->
+		<!-- <RealName paramVal="CTSE_ConnectDutUsingUserTransportDLL" description="" /> -->
+		<!-- <TestName paramVal="连接2.4G WIFI" description="" /> -->
+		<!-- <ReloadUserDefineDll paramVal="0" description="reload user define dll"/> -->
+		<!-- <Type paramVal="1" description="QLIB_TARGET_TYPE_MSM_MDM=0;QLIB_TARGET_TYPE_APQ=1;QLIB_TARGET_TYPE_MAX_INVALID=2"/> -->
+		<!-- <WlanID paramVal="4019" description="" /> -->
+		<!-- <ComPort paramVal="192.168.1.1:2390" description="Com Port number, AUTO for auto detect, 127.0.0.1 for user TransportDLL" /> -->
+		<!-- <UserTransPortDll paramVal="QMSL_WLAN_Transport.dll" description="User Defined Transport DLL name with folder path" /> -->
+		<!-- <RetryCount paramVal="1" description="error retry count"/> -->
+	<!-- </SuiteProject> -->
+	<!-- <SuiteProject IsFinalize="1"> -->
+        	<!-- <RealName paramVal="CTSE_Sleep" description="连接高通设备" /> -->
+        	<!-- <TestName paramVal="等待" description="测试名称描述" /> -->
+		<!-- <SleepMS paramVal="2000" description="Sleep 时间 毫秒" /> -->
+    	<!-- </SuiteProject> -->
+	<!-- <SuiteProject> -->
+		<!-- <ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" /> -->
+		<!-- <RealName paramVal="CTSE_DutLog" description="" /> -->
+		<!-- <TestName paramVal="开启日志" description="" /> -->
+		<!-- <LogOn paramVal="1" description="true:1:false:0" /> -->
+		<!-- <FileName paramVal="dutlog2G.txt" description="Filename for logging" /> -->
+		<!-- <RetryCount paramVal="1" description="error retry count"/> -->
+	<!-- </SuiteProject> -->
+	<!-- <SuiteProject> -->
+		<!-- <ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" /> -->
+		<!-- <RealName paramVal="CTSE_WlanLoadDut" description="" /> -->
+		<!-- <TestName paramVal="加载2.4G BIN" description="" /> -->
+		<!-- <DevDLLName paramVal="ipq4019" description="Device dll name (less than 30 charactors)" /> -->
+		<!-- <refDesign paramVal="ipq4019" description="refDesign" /> -->
+		<!-- <eepFName paramVal="cache\UC600AA\WIF_BT_FT\boardData_1_0_IPQ4019_DK06_2G.bin" description="eep file name (less than 50 charactors)" /> -->
+		<!-- <iNVMemOption paramVal="5" description="NV memory Option DataNone=0;DataFlash=1;DataEeprom=2;DataOtp=3;DataDontLoad=4;DataFile=5;DataDram=6" /> -->
+		<!-- <ssid paramVal="0x40" description="Device ID: 0x3c:QC98xx; 0x3d:AR6004; 0x3e:AR6174" /> -->
+		<!-- <RetryCount paramVal="3" description="error retry count"/> -->
+	<!-- </SuiteProject> -->
+	<!-- <SuiteProject> -->
+		<!-- <ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" /> -->
+		<!-- <RealName paramVal="CTSE_WlanTxCalibrationFWControlled" description="" /> -->
+		<!-- <TestName paramVal="2.4G TX校准" description="" /> -->
+		<!-- <AllChainOn paramVal="1" description="Enable all chains if AllChainOn = true, Disable all chains if AllChainOn = false" /> -->
+		<!-- <DebugInfo paramVal="1" description="Collect debug info if DebugInfo = true, donot collect debug info if DebugInfo = false" /> -->
+		<!-- <MaxIteration paramVal="10,10" description="maximum calibration iteration" /> -->
+		<!-- <NumAverages paramVal="1" description="Number of power averages" /> -->
+		<!-- <VsaAverages paramVal="10" description="power averages vsa count" /> -->
+		<!-- <VsaOnePort paramVal="1" description="Single VSA port if true, Multiple VSA ports if false" /> -->
+		<!-- <RetryCount paramVal="2" description="error retry count"/> -->
+	<!-- </SuiteProject> -->
+	<!-- <SuiteProject> -->
+		<!-- <ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" /> -->
+		<!-- <RealName paramVal="CTSE_IPQ40xxTxCalTest" description="" /> -->
+		<!-- <TestName paramVal="2.4G Tx 测试" description="" /> -->
+		<!-- <PowerLevel paramVal="15" description="Tx power in dBm"/> -->
+		<!-- <ExpectPower paramVal="15" description="Tx Expect power in dBm"/> -->
+		<!-- <Channel paramVal="2412,2442,2472" description="channel split ," /> -->
+		<!-- <TxChainMask paramVal="1,2" description="tx chain mask" /> -->
+		<!-- <ChannelBondingState paramVal="2" description="Channel Bonding State " /> -->
+		<!-- <Rate paramVal="19" description="Data Rate" /> -->
+		<!-- <NumAverages paramVal="3" description="Number of averages def:3" /> -->
+		<!-- <WlanRate paramVal="22" description="wlan Rate WLAN Mode Enums" /> -->
+		<!-- <EvmLL paramVal="-99" description="Minimum EVM out of all numAverages times requested" /> -->
+		<!-- <EvmUL paramVal="-29" description="Maximum EVM out of all numAverages times requested" /> -->
+		<!-- <TxTestParamPathName paramVal="COMMON_PARAM_24G" description="tx test param path name" /> -->
+		<!-- <TxTestingStandardPathName paramVal="11BAN_HT20_MCS8" description="tx Testing Standard path name" /> -->
+		<!-- <WlanTxEvmTest paramVal="1" description="is test Wlan Tx EvmT est" /> -->
+		<!-- <WlanTxVerifyMaskTestSegmentMargins paramVal="1" description="is test Wlan Tx Verify Mask Test Segment Margins"/> -->
+		<!-- <RetryCount paramVal="3" description="error retry count"/> -->
+	<!-- </SuiteProject> -->
+	<!-- <SuiteProject> -->
+		<!-- <ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" /> -->
+		<!-- <RealName paramVal="CTSE_IPQ40xxRxCalTest" description="" /> -->
+		<!-- <TestName paramVal="2.4G Rx 测试" description="" /> -->
+		<!-- <RxChainMask paramVal="1,2" description="rx chain mask" /> -->
+		<!-- <Channel paramVal="2412,2442,2472" description="channel split ," /> -->
+		<!-- <ChannelBondingState paramVal="2" description="Channel Bonding State " /> -->
+		<!-- <Rate paramVal="19" description="Data Rate" /> -->
+		<!-- <PERUL paramVal="10" description="PER at Per Power; must define Upper Limit" /> -->
+		<!-- <RssiLL paramVal="-99" description="RSSI at Per Power;"/> -->
+		<!-- <SignalLeveldBm paramVal="-50" description="PER Signal Level dBm" /> -->
+		<!-- <PacketCount paramVal="200" description="number of packets for PER coarse search loop"/> -->
+		<!-- <RetryCount paramVal="3" description="error retry count"/> -->
+	<!-- </SuiteProject> -->
+	<!-- <SuiteProject> -->
+		<!-- <ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" /> -->
+		<!-- <RealName paramVal="CTSE_WlanSetOtpMAC" description="" /> -->
+		<!-- <TestName paramVal="写入2.4G MAC" description="" /> -->
+		<!-- <MacAddressEnv paramVal="TSE_2G_OTP_MAC_ADDRESS" description="Mac address environment"/> -->
+	<!-- </SuiteProject> -->
+	<!-- <!-- <SuiteProject> -->
+		<!-- <ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" /> -->
+		<!-- <RealName paramVal="CTSE_WlanMemCommit" description="" /> -->
+		<!-- <TestName paramVal="2G Wlan Mem Commit File" description="Wlan Mem Commit" /> -->
+		<!-- <Template paramVal="0" description="template number-> 0:no template; 20:qc98xx; 21:cus220; 22:cus223; 23:wb342; 24:xb340; 25:cus226; 26:cus226_030; 27:xb141"/> -->
+		<!-- <WriteOption paramVal="5" description="NV memory type -> 0:auto; 1:flash; 2:eeprom; 3:otp; 4:none; 5:file;"/> -->
+		<!-- <MemSize paramVal="0" description="memory size used for NV memory commit-> 0:auto; 1:1024(1k); 2:2048(2k); 3:4096(4k); 4:8192(8k);" /> -->
+		<!-- <Compress paramVal="0" description="compressionthe NV data?"/> -->
+		<!-- <Overwrite paramVal="0" description="overwrite existing data?"/> -->
+		<!-- <Section paramVal="2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1" description="NV memory section that user wants to commit. SECTION_ALL=0;SECTION_ID=1;SECTION_MAC=2;SECTION_CAL2G_OLPC=3;SECTION_CAL5G_OLPC=4;SECTION_CTL2G=5;SECTION_CTL5G=6;SECTION_CONFIG=7;SECTION_CUSTOM=8;SECTION_VIDPID=9;SECTION_SDIOPID=10;SECTION_XTAL=11;SECTION_RXCAL5G=12;SECTION_RXCAL2G=13;SECTION_CAL2G_CLPC=14;SECTION_CAL5G_CLPC=15;SECTION_NONE=-1"/> -->
+	<!-- </SuiteProject> --> -->
+	<!-- <SuiteProject> -->
+		<!-- <ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" /> -->
+		<!-- <RealName paramVal="CTSE_WlanMemCommit" description="" /> -->
+		<!-- <TestName paramVal="保存2.4G校准参数" description="Wlan Mem Commit" /> -->
+		<!-- <Template paramVal="0" description="template number-> 0:no template; 20:qc98xx; 21:cus220; 22:cus223; 23:wb342; 24:xb340; 25:cus226; 26:cus226_030; 27:xb141"/> -->
+		<!-- <WriteOption paramVal="1" description="NV memory type -> 0:auto; 1:flash; 2:eeprom; 3:otp; 4:none; 5:file;"/> -->
+		<!-- <MemSize paramVal="0" description="memory size used for NV memory commit-> 0:auto; 1:1024(1k); 2:2048(2k); 3:4096(4k); 4:8192(8k);" /> -->
+		<!-- <Compress paramVal="0" description="compressionthe NV data?"/> -->
+		<!-- <Overwrite paramVal="0" description="overwrite existing data?"/> -->
+		<!-- <Section paramVal="2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1" description="NV memory section that user wants to commit. SECTION_ALL=0;SECTION_ID=1;SECTION_MAC=2;SECTION_CAL2G_OLPC=3;SECTION_CAL5G_OLPC=4;SECTION_CTL2G=5;SECTION_CTL5G=6;SECTION_CONFIG=7;SECTION_CUSTOM=8;SECTION_VIDPID=9;SECTION_SDIOPID=10;SECTION_XTAL=11;SECTION_RXCAL5G=12;SECTION_RXCAL2G=13;SECTION_CAL2G_CLPC=14;SECTION_CAL5G_CLPC=15;SECTION_NONE=-1"/> -->
+	<!-- </SuiteProject> -->
+	<!-- <SuiteProject IsFinalize="1"> -->
+		<!-- <ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" /> -->
+		<!-- <RealName paramVal="CTSE_DutLog" description="" /> -->
+		<!-- <TestName paramVal="关闭日志" description="" /> -->
+		<!-- <LogOn paramVal="0" description="true:1:false:0" /> -->
+		<!-- <FileName paramVal="dutlog.txt" description="Filename for logging" /> -->
+		<!-- <RetryCount paramVal="1" description="error retry count"/> -->
+	<!-- </SuiteProject> -->
+	<!-- <SuiteProject IsFinalize="1"> -->
+		<!-- <ModuleName paramVal="TSE_WiFiCalTestPlugin.dll" description="" /> -->
+		<!-- <RealName paramVal="CTSE_DisconnectDut" description="" /> -->
+		<!-- <TestName paramVal="断开2.4G WIFI" description="" /> -->
+	<!-- </SuiteProject> -->
+	<!-- <SuiteProject IsFinalize="1"> -->
+        <!-- <ModuleName paramVal="TSE_DevicesPlugin.dll" description="" /> -->
+        <!-- <RealName paramVal="CTSE_DisConnectSSH" description="" /> -->
+        <!-- <TestName paramVal="断开IPQ连接" description="" /> -->
+    <!-- </SuiteProject> -->
+	<!-- <SuiteProject> -->
+        <!-- <ModuleName paramVal="TSE_DevicesPlugin.dll" description="" /> -->
+        <!-- <RealName paramVal="CTSE_PostHttpReqRsp" description="" /> -->
+        <!-- <TestName paramVal="恢复出厂设置" description="" /> -->
+		<!-- <SourceAddrEnvironment paramVal="TSE_SSH_SOURCE_IP" description=""/> -->
+		<!-- <Url paramVal="http://192.168.1.1/cgi-bin/leopard.fcgi" description=""/> -->
+		<!-- <Param paramVal="{&quot;requestCode&quot;:904}" description=""/> -->
+		<!-- <ContentType paramVal="application/json" description=""/> -->
+		<!-- <FindResult paramVal="" description="" /> -->
+    <!-- </SuiteProject> -->
+	<!-- <SuiteProject> -->
+        <!-- <RealName paramVal="CTSE_Sleep" description="连接高通设备" /> -->
+        <!-- <TestName paramVal="等待" description="测试名称描述" /> -->
+		<!-- <SleepMS paramVal="2000" description="Sleep 时间 毫秒" /> -->
+    <!-- </SuiteProject> -->
+</Suite>

@@ -1,0 +1,37 @@
+﻿生成启动时间为 2025/8/27 11:19:33。
+     1>项目“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\module\LanguageTranslationPlugin\LanguageTranslationPlugin.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\LanguageTranslationPlugin\LanguageTranslationPlugin.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\LanguageTranslationPlugin\LanguageTranslationPlugin.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LANGUAGETRANSLATIONPLUGIN_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\LanguageTranslationPlugin\LanguageTranslationPlugin.pch" /Fo"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\LanguageTranslationPlugin\\" /Fd"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\LanguageTranslationPlugin\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LANGUAGETRANSLATIONPLUGIN_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\LanguageTranslationPlugin\\" /Fd"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\LanguageTranslationPlugin\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LANGUAGETRANSLATIONPLUGIN_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\LanguageTranslationPlugin\LanguageTranslationPlugin.pch" /Fo"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\LanguageTranslationPlugin\\" /Fd"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\LanguageTranslationPlugin\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt LanguageTranslationEn.cpp LanguageTranslationPlugin_chs.cpp
+         LanguageTranslationEn.cpp
+         LanguageTranslationPlugin_chs.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\LanguageTranslationPlugin.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\LanguageTranslationPlugin\LanguageTranslationPlugin.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\LanguageTranslationPlugin.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\core\LanguageTranslationPlugin.lib" /MACHINE:X86 /DLL "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\LanguageTranslationPlugin\dllmain.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\LanguageTranslationPlugin\LanguageTranslationEn.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\LanguageTranslationPlugin\LanguageTranslationPlugin_chs.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\LanguageTranslationPlugin\stdafx.obj"
+            正在创建库 D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\core\LanguageTranslationPlugin.lib 和对象 D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\core\LanguageTranslationPlugin.exp
+         正在生成代码
+         已完成代码的生成
+         LanguageTranslationPlugin.vcxproj -> D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\LanguageTranslationPlugin.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\LanguageTranslationPlugin.dll;#2" /manifest "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\LanguageTranslationPlugin\LanguageTranslationPlugin.dll.intermediate.manifest"
+       PostBuildEvent:
+         copy /y  D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\LanguageTranslationPlugin.dll 	D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec\LanguageTranslationPlugin.dll
+         :VCEnd
+         已复制         1 个文件。
+       FinalizeBuildStatus:
+         正在删除文件“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\LanguageTranslationPlugin\LanguageTranslationPlugin.unsuccessfulbuild”。
+         正在对“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\LanguageTranslationPlugin\LanguageTranslationPlugin.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\module\LanguageTranslationPlugin\LanguageTranslationPlugin.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.15

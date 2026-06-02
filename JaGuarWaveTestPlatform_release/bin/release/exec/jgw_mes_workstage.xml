@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<jgw>
+	<workstage id="-1" name="" des=""/>
+	<workstage id="001" name="PCBSN粘贴" des="SMT PCBSN粘贴"/>
+	<workstage id="003" name="主板测试软件下载" des="主板测试软件下载"/>
+	<workstage id="011A" name="综测校准&写MAC" des="综测校准&写MAC"/>
+	<workstage id="006" name="主板测试外观检查" des="主板测试外观检查"/>
+	<workstage id="025" name="天线耦合测试" des="天线耦合测试"/>
+	<workstage id="011" name="写IMEI" des="写IMEI"/>
+	<workstage id="012" name="IMEI核对" des="IMEI核对"/>
+	<workstage id="080" name="低频校准综测" des="低频校准综测"/>
+	<workstage id="081" name="高频校准综测" des="高频校准综测"/>
+	<workstage id="082" name="主板MMI测试" des="主板MMI测试"/>
+	<workstage id="083" name="WIFI测试" des="WIFI测试"/>
+	<workstage id="084" name="捷豹耦合测试" des="捷豹耦合测试"/>
+	<workstage id="085" name="捷豹功能测试" des="捷豹功能测试"/>
+	<workstage id="086" name="软件PDB下载" des="软件PDB下载"/>
+	<workstage id="087" name="BB主板功能测试" des="BB主板功能测试"/>
+	<workstage id="088" name="整机功能测试" des="整机功能测试"/>
+	<workstage id="089" name="吞吐率测试" des="吞吐率测试"/>
+	<workstage id="112" name="整机防水测试" des="整机防水测试"/>
+	<workstage id="117" name="OQC恢复出厂设置" des="OQC恢复出厂设置"/>
+</jgw>

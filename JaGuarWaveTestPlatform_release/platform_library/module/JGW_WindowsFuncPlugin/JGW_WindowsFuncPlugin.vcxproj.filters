@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="thread">
+      <UniqueIdentifier>{b5a5989d-0dff-46a9-92b7-abaa6a939f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pipe">
+      <UniqueIdentifier>{b0e2c70e-f521-45da-83f2-93a481c24e9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ini">
+      <UniqueIdentifier>{93a07dd4-fbc8-4599-8797-bb6037128bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usb_communication">
+      <UniqueIdentifier>{725826fe-6686-4198-8bc2-2749d4cb1bd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pdb">
+      <UniqueIdentifier>{d1f3f65b-224c-4891-8445-5db2eb38f494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dongles">
+      <UniqueIdentifier>{ea54447a-04bb-42ce-bc7d-ecc6a2ece941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mtp">
+      <UniqueIdentifier>{5f6f166a-f735-4c7a-bb94-558254fa0779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="download">
+      <UniqueIdentifier>{f216ff05-3cac-479f-b53f-22d61a531390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sqlite">
+      <UniqueIdentifier>{1c91885f-9790-41d4-8e99-55673954a6ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="socket">
+      <UniqueIdentifier>{90a28544-841c-467f-bd1f-ce73819ea49d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="clipboard">
+      <UniqueIdentifier>{91e10aa1-77d0-4a7a-a2cd-610772bec50a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{8cf84672-f539-437d-9747-050b5298f4ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system">
+      <UniqueIdentifier>{fd9e42cc-0149-42af-89af-4087592fba42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crashdump">
+      <UniqueIdentifier>{948c7a7f-c98c-4915-b780-96c96d05b252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ftp">
+      <UniqueIdentifier>{b985d4f1-4e99-4f21-bf6f-3cbc75d73f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="file">
+      <UniqueIdentifier>{e6e83920-445c-49cc-8d8c-4e7007dd5147}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CMessageThread.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\JGW_WindowsFuncPlugin_Define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CJGW_ConfigIni.h">
+      <Filter>ini</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CJGW_CSerialModemPort.h">
+      <Filter>usb_communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CJGW_CSerialPort.h">
+      <Filter>usb_communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CJGW_CSerialComPort.h">
+      <Filter>usb_communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CJGW_DownloadPDBImage.h">
+      <Filter>pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\PerasoDefine.h">
+      <Filter>pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CJGW_CPeekNamePide.h">
+      <Filter>pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CJGW_DonglesComPort.h">
+      <Filter>dongles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CJGW_ProcessPipe.h">
+      <Filter>pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CJGW_MediaTransferProtocol.h">
+      <Filter>mtp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CJGW_DownloadPortSort.h">
+      <Filter>download</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CJGW_SQLite.h">
+      <Filter>sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CJGW_AsyncSocket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CJGW_SyncSocket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CJGW_Clipboard.h">
+      <Filter>clipboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CJGW_ICMPSocket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\ICMPDefine.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CCJGW_PerasoSocImp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CJGW_PerasoSocUsb.h">
+      <Filter>dongles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CJGW_AdapterCommonInfo.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CPUMemDiskStatus.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CCJGW_CPUMemDiskStatusImp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\crashdump.h">
+      <Filter>crashdump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CJGW_PrsDownloadFlash.h">
+      <Filter>pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CJGW_PrsFlashDownloadBase.h">
+      <Filter>pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CJGW_Win32IocpFSWatcher.h">
+      <Filter>file</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\TimeUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_WindowsFuncPlugin\CJGW_SimpleThread.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\CMessageThread.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="ini\CJGW_ConfigIni.cpp">
+      <Filter>ini</Filter>
+    </ClCompile>
+    <ClCompile Include="usb_communication\CJGW_CSerialComPort.cpp">
+      <Filter>usb_communication</Filter>
+    </ClCompile>
+    <ClCompile Include="usb_communication\CJGW_CSerialModemPort.cpp">
+      <Filter>usb_communication</Filter>
+    </ClCompile>
+    <ClCompile Include="usb_communication\CJGW_CSerialPort.cpp">
+      <Filter>usb_communication</Filter>
+    </ClCompile>
+    <ClCompile Include="pdb\CJGW_DownloadPDBImage.cpp">
+      <Filter>pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="pipe\CJGW_CPeekNamePide.cpp">
+      <Filter>pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="dongles\CJGW_DonglesComPort.cpp">
+      <Filter>dongles</Filter>
+    </ClCompile>
+    <ClCompile Include="pipe\CJGW_ProcessPipe.cpp">
+      <Filter>pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="mtp\CJGW_MediaTransferProtocol.cpp">
+      <Filter>mtp</Filter>
+    </ClCompile>
+    <ClCompile Include="download\CJGW_DownloadPortSort.cpp">
+      <Filter>download</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite\CJGW_SQLite.cpp">
+      <Filter>sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\CJGW_AsyncSocket.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\CJGW_SyncSocket.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_Clipboard.cpp">
+      <Filter>clipboard</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\CJGW_ICMPSocket.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="dongles\CJGW_PerasoSocUsb.cpp">
+      <Filter>dongles</Filter>
+    </ClCompile>
+    <ClCompile Include="net\CJGW_AdapterCommonInfo.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="system\CPUMemDiskStatus.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="crashdump\crashdump.cpp">
+      <Filter>crashdump</Filter>
+    </ClCompile>
+    <ClCompile Include="pdb\CJGW_PrsDownloadFlash.cpp">
+      <Filter>pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="file\CJGW_Win32IocpFSWatcher.cpp">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_SimpleThread.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

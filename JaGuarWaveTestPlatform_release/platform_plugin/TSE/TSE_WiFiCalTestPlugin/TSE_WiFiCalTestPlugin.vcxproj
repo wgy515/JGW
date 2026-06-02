@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F7BF0E04-DB5E-4C5C-BC87-72333A6ACD2A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TSE_WiFiCalTestPlugin</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\debug\exec_debug\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\release\exec_release\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;TSE_WIFICALTESTPLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)platform_core\include;$(SolutionDir)platform_plugin\include;$(SolutionDir)platform_library\include;$(SolutionDir)platform_app\include;$(SolutionDir)platform_library\include\JGW_QMSLFuncPlugin</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)platform_core_lib\boost\lib;$(SolutionDir)lib\library;$(SolutionDir)platform_core_lib\poco;$(SolutionDir)lib\core;$(SolutionDir)lib\plugin;$(SolutionDir)platform_core_lib\libssh2;$(SolutionDir)platform_core_lib\qualcomm;$(SolutionDir)platform_core_lib\libxl</AdditionalLibraryDirectories>
+      <AdditionalDependencies>QMSL_MSVC10R.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>JGW_Device_WCNTester_CommonSCPIWLAN_d.dll</DelayLoadDLLs>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y  $(SolutionDir)bin\debug\exec_debug\$(TargetName)$(TargetExt) 	$(SolutionDir)bin\debug\exec\$(TargetName)$(TargetExt)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;TSE_WIFICALTESTPLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)platform_core\include;$(SolutionDir)platform_plugin\include;$(SolutionDir)platform_library\include;$(SolutionDir)platform_app\include;$(SolutionDir)platform_library\include\JGW_QMSLFuncPlugin</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)platform_core_lib\boost\lib;$(SolutionDir)lib\library;$(SolutionDir)platform_core_lib\poco;$(SolutionDir)lib\core;$(SolutionDir)lib\plugin;$(SolutionDir)platform_core_lib\libssh2;$(SolutionDir)platform_core_lib\qualcomm;$(SolutionDir)platform_core_lib\libxl</AdditionalLibraryDirectories>
+      <AdditionalDependencies>QMSL_MSVC10R.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>JGW_Device_WCNTester_CommonSCPIWLAN.dll</DelayLoadDLLs>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y  $(SolutionDir)bin\release\exec_release\$(TargetName)$(TargetExt) 	$(SolutionDir)bin\release\exec\$(TargetName)$(TargetExt)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CCJGW_WlanTestDevToolDefine.h" />
+    <ClInclude Include="CJGW_CMW500Equip.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="CJGW_DutTxDetailSettings.h" />
+    <ClInclude Include="CJGW_EquipBase.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="CJGW_ExcelLibXL.h" />
+    <ClInclude Include="CJGW_IPQ807xPhone.h" />
+    <ClInclude Include="CJGW_IPQ807xTestDataDefine.h" />
+    <ClInclude Include="CJGW_WiFiTestResultRecord.h" />
+    <ClInclude Include="CJGW_WlanConfigFile.h" />
+    <ClInclude Include="CJGW_WlanDutWrapper.h" />
+    <ClInclude Include="CJGW_WlanExcelTemplateConfig.h" />
+    <ClInclude Include="CJGW_WlanInstrumentConfig.h" />
+    <ClInclude Include="JGW_IPQ40xxGuTestData.h" />
+    <ClInclude Include="JGW_Phone.h" />
+    <ClInclude Include="JGW_WiFiLossConfig.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TSE_AutoDetectChip.h" />
+    <ClInclude Include="TSE_ClearWiFiTestRecord.h" />
+    <ClInclude Include="TSE_ConnectDutUsingUserTransportDLL.h" />
+    <ClInclude Include="TSE_DisconnectDut.h" />
+    <ClInclude Include="TSE_DutLog.h" />
+    <ClInclude Include="TSE_GPSTest.h" />
+    <ClInclude Include="TSE_InitializeWlanTester.h" />
+    <ClInclude Include="TSE_InitWiFiTestRecord.h" />
+    <ClInclude Include="TSE_IPQ40xxGuLossCal.h" />
+    <ClInclude Include="TSE_IPQ40xxRxCalTest.h" />
+    <ClInclude Include="TSE_IPQ40xxSetUpRx.h" />
+    <ClInclude Include="TSE_IPQ40xxTxCalTest.h" />
+    <ClInclude Include="TSE_IPQ807xBoardDataGetSize.h" />
+    <ClInclude Include="TSE_IPQ807xConnectDut.h" />
+    <ClInclude Include="TSE_IPQ807xRxTest.h" />
+    <ClInclude Include="TSE_IPQ807xTxTest.h" />
+    <ClInclude Include="TSE_IPQ807xWlanNoiseFloorCalGenBDF.h" />
+    <ClInclude Include="TSE_IPQ807xWlanRxCalibrationFWControlled2.h" />
+    <ClInclude Include="TSE_IPQ807xWlanSaveBDF2.h" />
+    <ClInclude Include="TSE_IPQ807xWlanSetDutTxMacAddressBssId.h" />
+    <ClInclude Include="TSE_IPQ807xWlanTxCalibrationFWControlled2.h" />
+    <ClInclude Include="TSE_IPQ807xWlanXtalCalInit2.h" />
+    <ClInclude Include="TSE_IPQ807xConnectDutUsingQUTS.h" />
+    <ClInclude Include="TSE_IPQ807xDefine.h" />
+    <ClInclude Include="TSE_IPQ807xDisConnectDut.h" />
+    <ClInclude Include="TSE_IPQ807xWlanSetInstance.h" />
+    <ClInclude Include="TSE_IPQ807xWlanSetLocalMac.h" />
+    <ClInclude Include="TSE_IPQ807xWlanXtalCalibration2.h" />
+    <ClInclude Include="TSE_ParseWiFiTestLog.h" />
+    <ClInclude Include="TSE_QCA639xRxTest.h" />
+    <ClInclude Include="TSE_QCA639xSetUpDutTx.h" />
+    <ClInclude Include="TSE_QCA639xTxTest.h" />
+    <ClInclude Include="TSE_SaveWiFiTestRecord.h" />
+    <ClInclude Include="TSE_SetPhoneResource.h" />
+    <ClInclude Include="TSE_SetUpDutTxDetails.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="TSE_TxTurnOff.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="TSE_WlanLoadDut.h" />
+    <ClInclude Include="TSE_WlanMemCommit.h" />
+    <ClInclude Include="TSE_WlanRxCalibrationFWControlled.h" />
+    <ClInclude Include="TSE_WlanSetOtpMAC.h" />
+    <ClInclude Include="TSE_WlanSetPhyRFMode.h" />
+    <ClInclude Include="TSE_WlanTxCalibrationFWControlled.h" />
+    <ClInclude Include="TSE_WlanTxEvmTest.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="TSE_WlanTxVerifyPowerTest.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="TSE_WlanXtalCalibration.h" />
+    <ClInclude Include="TSE_WlanXtalCalInit.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CJGW_CMW500Equip.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="CJGW_DutTxDetailSettings.cpp" />
+    <ClCompile Include="CJGW_EquipBase.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="CJGW_ExcelLibXL.cpp" />
+    <ClCompile Include="CJGW_IPQ807xPhone.cpp" />
+    <ClCompile Include="CJGW_WiFiTestResultRecord.cpp" />
+    <ClCompile Include="CJGW_WlanConfigFile.cpp" />
+    <ClCompile Include="CJGW_WlanDutWrapper.cpp" />
+    <ClCompile Include="CJGW_WlanExcelTemplateConfig.cpp" />
+    <ClCompile Include="CJGW_WlanInstrumentConfig.cpp" />
+    <ClCompile Include="dllmain.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="JGW_IPQ40xxGuTestData.cpp" />
+    <ClCompile Include="JGW_Phone.cpp" />
+    <ClCompile Include="JGW_WiFiLossConfig.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TSE_AutoDetectChip.cpp" />
+    <ClCompile Include="TSE_ClearWiFiTestRecord.cpp" />
+    <ClCompile Include="TSE_ConnectDutUsingUserTransportDLL.cpp" />
+    <ClCompile Include="TSE_DisconnectDut.cpp" />
+    <ClCompile Include="TSE_DutLog.cpp" />
+    <ClCompile Include="TSE_GPSTest.cpp" />
+    <ClCompile Include="TSE_InitializeWlanTester.cpp" />
+    <ClCompile Include="TSE_InitWiFiTestRecord.cpp" />
+    <ClCompile Include="TSE_IPQ40xxGuLossCal.cpp" />
+    <ClCompile Include="TSE_IPQ40xxRxCalTest.cpp" />
+    <ClCompile Include="TSE_IPQ40xxSetUpRx.cpp" />
+    <ClCompile Include="TSE_IPQ40xxTxCalTest.cpp" />
+    <ClCompile Include="TSE_IPQ807xBoardDataGetSize.cpp" />
+    <ClCompile Include="TSE_IPQ807xConnectDut.cpp" />
+    <ClCompile Include="TSE_IPQ807xRxTest.cpp" />
+    <ClCompile Include="TSE_IPQ807xTxTest.cpp" />
+    <ClCompile Include="TSE_IPQ807xWlanNoiseFloorCalGenBDF.cpp" />
+    <ClCompile Include="TSE_IPQ807xWlanRxCalibrationFWControlled2.cpp" />
+    <ClCompile Include="TSE_IPQ807xWlanSaveBDF2.cpp" />
+    <ClCompile Include="TSE_IPQ807xWlanSetDutTxMacAddressBssId.cpp" />
+    <ClCompile Include="TSE_IPQ807xWlanTxCalibrationFWControlled2.cpp" />
+    <ClCompile Include="TSE_IPQ807xWlanXtalCalInit2.cpp" />
+    <ClCompile Include="TSE_IPQ807xConnectDutUsingQUTS.cpp" />
+    <ClCompile Include="TSE_IPQ807xDisConnectDut.cpp" />
+    <ClCompile Include="TSE_IPQ807xWlanSetInstance.cpp" />
+    <ClCompile Include="TSE_IPQ807xWlanSetLocalMac.cpp" />
+    <ClCompile Include="TSE_IPQ807xWlanXtalCalibration2.cpp" />
+    <ClCompile Include="TSE_ParseWiFiTestLog.cpp" />
+    <ClCompile Include="TSE_QCA639xRxTest.cpp" />
+    <ClCompile Include="TSE_QCA639xSetUpDutTx.cpp" />
+    <ClCompile Include="TSE_QCA639xTxTest.cpp" />
+    <ClCompile Include="TSE_SaveWiFiTestRecord.cpp" />
+    <ClCompile Include="TSE_SetPhoneResource.cpp" />
+    <ClCompile Include="TSE_SetUpDutTxDetails.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="TSE_TxTurnOff.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="TSE_WlanLoadDut.cpp" />
+    <ClCompile Include="TSE_WlanMemCommit.cpp" />
+    <ClCompile Include="TSE_WlanRxCalibrationFWControlled.cpp" />
+    <ClCompile Include="TSE_WlanSetOtpMAC.cpp" />
+    <ClCompile Include="TSE_WlanSetPhyRFMode.cpp" />
+    <ClCompile Include="TSE_WlanTxCalibrationFWControlled.cpp" />
+    <ClCompile Include="TSE_WlanTxEvmTest.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="TSE_WlanTxVerifyPowerTest.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="TSE_WlanXtalCalibration.cpp" />
+    <ClCompile Include="TSE_WlanXtalCalInit.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

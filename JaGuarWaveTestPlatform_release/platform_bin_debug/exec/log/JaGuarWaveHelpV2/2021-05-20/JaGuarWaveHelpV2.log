@@ -1,0 +1,5 @@
+2021-05-20 17:16:54 INFO  - Server Port:3002
+2021-05-20 17:21:57 INFO  - FTP Host:192.168.8.10,UserName:jiebuser,Port:26
+2021-05-20 17:21:57 INFO  - FTP File Path:/JaGuarWaveTestPlatform_Log//upload.ini,Save File Path:C:\JGWStart\JaGuarWaveTestPlatform_V20210506\exec\upload.ini
+2021-05-20 17:21:57 INFO  - Curl FTP Download Msg:
+2021-05-20 17:21:57 INFO  - Package Log File Fail(TestLog),Update File Is Empty

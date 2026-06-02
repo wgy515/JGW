@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <DUT>
+	<!--reserved-->
+	<OPTIONAL></OPTIONAL>
+  </DUT>
+  <FIXTURE Enable="True">
+	<ID>0</ID>
+	<!--reserved-->
+	<OPTIONAL></OPTIONAL>
+  </FIXTURE>
+  <XY_TABLE Enable="True">
+	<PORT>8</PORT>
+	<!--	DEFAULT_16 = 16, MED_4 = 4, FAST_2 = 2,   HIGHEST_1 = 1-->
+	<XY_SPEED>4</XY_SPEED>
+	<!--	Enable Z actuator speed up-->
+	<Z_SPEED_UP>False</Z_SPEED_UP>
+	<!--	1 = Cradle with combined side lever and locking
+			2 = Cradle has separate side lever and locking-->
+	<CRADLE_TYPE>2</CRADLE_TYPE>
+	<!--reserved-->
+	<OPTIONAL></OPTIONAL>
+  </XY_TABLE>
+</root>

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ftp">
+      <UniqueIdentifier>{1df758a0-98d1-4a13-bc83-2af596b8b3a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{009eab10-6e57-42c9-bff9-485ce4d0279d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{af08b771-322e-4224-a563-bad9bd7597fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoftwareUpdateThread">
+      <UniqueIdentifier>{356f5118-5798-4fc6-9f24-e5b80962a440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="upload">
+      <UniqueIdentifier>{acfc2204-7f78-4c8a-9d1d-7c6aa932c36e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="JaGuarWaveHelpV2.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\platform_skin\JaGuarWaveHelp.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CJaGuarWaveHelpDlgV2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="json\CJGW_FTM_Json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\CJGW_HelpReqBaseJson.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\CJGW_HelpReqDownloadJson.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_FtpClient.h">
+      <Filter>ftp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JaGuarWaveHelpV2\CJGW_HelpUpdateDefine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_UploadThread.h">
+      <Filter>upload</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_UpdateServiceThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_HelpSqlite3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_SoftwareDownloadThreadV2.h">
+      <Filter>SoftwareUpdateThread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JaGuarWaveHelpV2\CJaGuarWaveHelpV2Define.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CJaGuarWaveHelpDlgV2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\platform_library\library\JGW_FoundationFunc\JGW_ApplicationDecrypt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="json\CJGW_FTM_Json.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\CJGW_HelpReqBaseJson.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\CJGW_HelpReqDownloadJson.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_FtpClient.cpp">
+      <Filter>ftp</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_UploadThread.cpp">
+      <Filter>upload</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_UpdateServiceThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_HelpSqlite3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_SoftwareDownloadThreadV2.cpp">
+      <Filter>SoftwareUpdateThread</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="JaGuarWaveHelpV2.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

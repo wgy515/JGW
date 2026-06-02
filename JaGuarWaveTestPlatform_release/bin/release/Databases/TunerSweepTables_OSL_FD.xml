@@ -1,0 +1,836 @@
+<?xml version="1.0"?>
+<FormatDescriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1">
+  <OutputGroupSet name="CDMA Detector Vals" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="Overall Results" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UserInteraction" />
+      <IndexedParam index="2" id="CDMA Band" />
+      <IndexedParam index="3" id="CDMA Channel" />
+      <IndexedParam index="4" id="RxChain" />
+      <IndexedParam index="5" id="Mode" />
+      <IndexedParam index="6" id="State" />
+      <IndexedParam index="7" id="Detector1" />
+      <IndexedParam index="8" id="Detector2" />
+      <IndexedParam index="9" id="Detector3" />
+      <IndexedParam index="10" id="Detector4" />
+      <IndexedParam index="11" id="Log Index" />
+      <IndexedParam index="12" id="RUN_ID" />
+      <IndexedParam index="13" id="Switch Config" />
+      <IndexedParam index="14" id="Capacitor1 TuneCode" />
+      <IndexedParam index="15" id="Capacitor2 TuneCode" />
+      <IndexedParam index="16" id="CS1_Setting" />
+      <IndexedParam index="17" id="CS2_Setting" />
+      <IndexedParam index="" />
+      <Result resID="Detector4" testID="TunerScenario">
+        <Discriminator id="UserInteraction">
+          <Discriminator id="CDMA Band">
+            <Discriminator id="CDMA Channel">
+              <Discriminator id="RxChain">
+                <Discriminator id="Mode">
+                  <Discriminator id="State">
+                    <Discriminator id="Log Index">
+                      <Discriminator id="RUN_ID">
+                        <Discriminator id="Switch Config">
+                          <Discriminator id="Capacitor1 TuneCode">
+                            <Discriminator id="Capacitor2 TuneCode" />
+                          </Discriminator>
+                        </Discriminator>
+                      </Discriminator>
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+    <CondensedSummaryDescriptor name="Overall Results - MultiByte" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UserInteraction" />
+      <IndexedParam index="2" id="CDMA Band" />
+      <IndexedParam index="3" id="CDMA Channel" />
+      <IndexedParam index="4" id="RxChain" />
+      <IndexedParam index="5" id="Aperture Scenario" />
+      <IndexedParam index="6" id="Impedance Scenario" />
+      <IndexedParam index="7" id="Antenna Number" />
+      <IndexedParam index="8" id="Path ID" />
+      <IndexedParam index="9" id="Device State" />
+      <IndexedParam index="10" id="Detector1" />
+      <IndexedParam index="11" id="Detector2" />
+      <IndexedParam index="12" id="Detector3" />
+      <IndexedParam index="13" id="Detector4" />
+      <IndexedParam index="14" id="Log Index" />
+      <IndexedParam index="15" id="RUN_ID" />
+      <IndexedParam index="16" id="Tunecode" />
+      <IndexedParam index="17" id="Tunecode Size" />
+      <IndexedParam index="18" id="ImpTunecode0" />
+      <IndexedParam index="19" id="ImpTunecode1" />
+      <IndexedParam index="20" id="ImpTunecode2" />
+      <IndexedParam index="21" id="ImpTunecode3" />
+      <IndexedParam index="22" id="ImpTunecode4" />
+      <IndexedParam index="23" id="ImpTunecode5" />
+      <IndexedParam index="24" id="ImpTunecode6" />
+      <IndexedParam index="25" id="ImpTunecode7" />
+      <IndexedParam index="26" id="Tuner Instance0" />
+      <IndexedParam index="27" id="Tuner Instance1" />
+      <IndexedParam index="28" id="Tuner Instance2" />
+      <IndexedParam index="29" id="Tuner Instance3" />
+      <IndexedParam index="30" id="Tuner Instance4" />
+      <IndexedParam index="31" id="Tuner Instance5" />
+      <IndexedParam index="32" id="Tuner Instance6" />
+      <IndexedParam index="33" id="Tuner Instance7" />
+      <Result resID="Detector4" testID="TunerScenario">
+        <Discriminator id="UserInteraction">
+          <Discriminator id="CDMA Band">
+            <Discriminator id="CDMA Channel">
+              <Discriminator id="RxChain">
+                <Discriminator id="Aperture Scenario">
+                  <Discriminator id="Impedance Scenario">
+                    <Discriminator id="Antenna Number">
+                      <Discriminator id="Device State">
+                        <Discriminator id="Log Index">
+                          <Discriminator id="RUN_ID">
+                            <Discriminator id="Tunecode Size">
+                              <Discriminator id="Tunecode" />
+                            </Discriminator>
+                          </Discriminator>
+                        </Discriminator>
+                      </Discriminator>
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM Detector Vals" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="Overall Results" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UserInteraction" />
+      <IndexedParam index="2" id="GSM Band" />
+      <IndexedParam index="3" id="GSM Channel" />
+      <IndexedParam index="4" id="RxChain" />
+      <IndexedParam index="5" id="Mode" />
+      <IndexedParam index="6" id="State" />
+      <IndexedParam index="7" id="Detector1" />
+      <IndexedParam index="8" id="Detector2" />
+      <IndexedParam index="9" id="Detector3" />
+      <IndexedParam index="10" id="Detector4" />
+      <IndexedParam index="11" id="Log Index" />
+      <IndexedParam index="12" id="RUN_ID" />
+      <IndexedParam index="13" id="Switch Config" />
+      <IndexedParam index="14" id="Capacitor1 TuneCode" />
+      <IndexedParam index="15" id="Capacitor2 TuneCode" />
+      <IndexedParam index="16" id="CS1_Setting" />
+      <IndexedParam index="17" id="CS2_Setting" />
+      <Result resID="Detector4" testID="TunerScenario">
+        <Discriminator id="UserInteraction">
+          <Discriminator id="GSM Band">
+            <Discriminator id="GSM Channel">
+              <Discriminator id="RxChain">
+                <Discriminator id="Mode">
+                  <Discriminator id="State">
+                    <Discriminator id="Log Index">
+                      <Discriminator id="RUN_ID">
+                        <Discriminator id="Switch Config">
+                          <Discriminator id="Capacitor1 TuneCode">
+                            <Discriminator id="Capacitor2 TuneCode" />
+                          </Discriminator>
+                        </Discriminator>
+                      </Discriminator>
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+    <CondensedSummaryDescriptor name="Overall Results - MultiByte" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UserInteraction" />
+      <IndexedParam index="2" id="GSM Band" />
+      <IndexedParam index="3" id="GSM Channel" />
+      <IndexedParam index="4" id="RxChain" />
+      <IndexedParam index="5" id="Aperture Scenario" />
+      <IndexedParam index="6" id="Impedance Scenario" />
+      <IndexedParam index="7" id="Antenna Number" />
+      <IndexedParam index="8" id="Path ID" />
+      <IndexedParam index="9" id="Device State" />
+      <IndexedParam index="10" id="Detector1" />
+      <IndexedParam index="11" id="Detector2" />
+      <IndexedParam index="12" id="Detector3" />
+      <IndexedParam index="13" id="Detector4" />
+      <IndexedParam index="14" id="Log Index" />
+      <IndexedParam index="15" id="RUN_ID" />
+      <IndexedParam index="16" id="Tunecode" />
+      <IndexedParam index="17" id="Tunecode Size" />
+      <IndexedParam index="18" id="ImpTunecode0" />
+      <IndexedParam index="19" id="ImpTunecode1" />
+      <IndexedParam index="20" id="ImpTunecode2" />
+      <IndexedParam index="21" id="ImpTunecode3" />
+      <IndexedParam index="22" id="ImpTunecode4" />
+      <IndexedParam index="23" id="ImpTunecode5" />
+      <IndexedParam index="24" id="ImpTunecode6" />
+      <IndexedParam index="25" id="ImpTunecode7" />
+      <IndexedParam index="26" id="Tuner Instance0" />
+      <IndexedParam index="27" id="Tuner Instance1" />
+      <IndexedParam index="28" id="Tuner Instance2" />
+      <IndexedParam index="29" id="Tuner Instance3" />
+      <IndexedParam index="30" id="Tuner Instance4" />
+      <IndexedParam index="31" id="Tuner Instance5" />
+      <IndexedParam index="32" id="Tuner Instance6" />
+      <IndexedParam index="33" id="Tuner Instance7" />
+      <Result resID="Detector4" testID="TunerScenario">
+        <Discriminator id="UserInteraction">
+          <Discriminator id="GSM Band">
+            <Discriminator id="GSM Channel">
+              <Discriminator id="RxChain">
+                <Discriminator id="Aperture Scenario">
+                  <Discriminator id="Impedance Scenario">
+                    <Discriminator id="Antenna Number">
+                      <Discriminator id="Device State">
+                        <Discriminator id="Log Index">
+                          <Discriminator id="RUN_ID">
+                            <Discriminator id="Tunecode Size">
+                              <Discriminator id="Tunecode" />
+                            </Discriminator>
+                          </Discriminator>
+                        </Discriminator>
+                      </Discriminator>
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="LTE Detector Vals" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="Overall Results" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UserInteraction" />
+      <IndexedParam index="2" id="LTE Band" />
+      <IndexedParam index="3" id="LTE Channel" />
+      <IndexedParam index="4" id="RxChain" />
+      <IndexedParam index="5" id="Mode" />
+      <IndexedParam index="6" id="State" />
+      <IndexedParam index="7" id="Detector1" />
+      <IndexedParam index="8" id="Detector2" />
+      <IndexedParam index="9" id="Detector3" />
+      <IndexedParam index="10" id="Detector4" />
+      <IndexedParam index="11" id="Log Index" />
+      <IndexedParam index="12" id="RUN_ID" />
+      <IndexedParam index="13" id="Switch Config" />
+      <IndexedParam index="14" id="Capacitor1 TuneCode" />
+      <IndexedParam index="15" id="Capacitor2 TuneCode" />
+      <IndexedParam index="16" id="CS1_Setting" />
+      <IndexedParam index="17" id="CS2_Setting" />
+      <Result resID="Detector4" testID="TunerScenario">
+        <Discriminator id="UserInteraction">
+          <Discriminator id="LTE Band">
+            <Discriminator id="LTE Channel">
+              <Discriminator id="RxChain">
+                <Discriminator id="Mode">
+                  <Discriminator id="State">
+                    <Discriminator id="Log Index">
+                      <Discriminator id="RUN_ID">
+                        <Discriminator id="Switch Config">
+                          <Discriminator id="Capacitor1 TuneCode">
+                            <Discriminator id="Capacitor2 TuneCode" />
+                          </Discriminator>
+                        </Discriminator>
+                      </Discriminator>
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+    <CondensedSummaryDescriptor name="Overall Results - MultiByte" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UserInteraction" />
+      <IndexedParam index="2" id="LTE Band" />
+      <IndexedParam index="3" id="LTE Channel" />
+      <IndexedParam index="4" id="RxChain" />
+      <IndexedParam index="5" id="Aperture Scenario" />
+      <IndexedParam index="6" id="Impedance Scenario" />
+      <IndexedParam index="7" id="Antenna Number" />
+      <IndexedParam index="8" id="Path ID" />
+      <IndexedParam index="9" id="Device State" />
+      <IndexedParam index="10" id="Detector1" />
+      <IndexedParam index="11" id="Detector2" />
+      <IndexedParam index="12" id="Detector3" />
+      <IndexedParam index="13" id="Detector4" />
+      <IndexedParam index="14" id="Log Index" />
+      <IndexedParam index="15" id="RUN_ID" />
+      <IndexedParam index="16" id="Tunecode" />
+      <IndexedParam index="17" id="Tunecode Size" />
+      <IndexedParam index="18" id="ImpTunecode0" />
+      <IndexedParam index="19" id="ImpTunecode1" />
+      <IndexedParam index="20" id="ImpTunecode2" />
+      <IndexedParam index="21" id="ImpTunecode3" />
+      <IndexedParam index="22" id="ImpTunecode4" />
+      <IndexedParam index="23" id="ImpTunecode5" />
+      <IndexedParam index="24" id="ImpTunecode6" />
+      <IndexedParam index="25" id="ImpTunecode7" />
+      <IndexedParam index="26" id="Tuner Instance0" />
+      <IndexedParam index="27" id="Tuner Instance1" />
+      <IndexedParam index="28" id="Tuner Instance2" />
+      <IndexedParam index="29" id="Tuner Instance3" />
+      <IndexedParam index="30" id="Tuner Instance4" />
+      <IndexedParam index="31" id="Tuner Instance5" />
+      <IndexedParam index="32" id="Tuner Instance6" />
+      <IndexedParam index="33" id="Tuner Instance7" />
+      <Result resID="Detector4" testID="TunerScenario">
+        <Discriminator id="UserInteraction">
+          <Discriminator id="LTE Band">
+            <Discriminator id="LTE Channel">
+              <Discriminator id="RxChain">
+                <Discriminator id="Aperture Scenario">
+                  <Discriminator id="Impedance Scenario">
+                    <Discriminator id="Antenna Number">
+                      <Discriminator id="Device State">
+                        <Discriminator id="Log Index">
+                          <Discriminator id="RUN_ID">
+                            <Discriminator id="Tunecode Size">
+                              <Discriminator id="Tunecode" />
+                            </Discriminator>
+                          </Discriminator>
+                        </Discriminator>
+                      </Discriminator>
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="LTECA Detector Vals" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="Overall Results" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UserInteraction" />
+      <IndexedParam index="2" id="LTE Band" />
+      <IndexedParam index="3" id="LTE Channel" />
+      <IndexedParam index="4" id="RxChain" />
+      <IndexedParam index="5" id="SCC1 Band" />
+      <IndexedParam index="6" id="SCC1 DL Channel" />
+      <IndexedParam index="7" id="Mode" />
+      <IndexedParam index="8" id="State" />
+      <IndexedParam index="9" id="Detector1" />
+      <IndexedParam index="10" id="Detector2" />
+      <IndexedParam index="11" id="Detector3" />
+      <IndexedParam index="12" id="Detector4" />
+      <IndexedParam index="13" id="Log Index" />
+      <IndexedParam index="14" id="RUN_ID" />
+      <IndexedParam index="15" id="Switch Config" />
+      <IndexedParam index="16" id="Capacitor1 TuneCode" />
+      <IndexedParam index="17" id="Capacitor2 TuneCode" />
+      <IndexedParam index="18" id="CS1_Setting" />
+      <IndexedParam index="19" id="CS2_Setting" />
+      <Result resID="Detector4" testID="TunerScenario">
+        <Discriminator id="UserInteraction">
+          <Discriminator id="LTE Band">
+            <Discriminator id="LTE Channel">
+              <Discriminator id="RxChain">
+                <Discriminator id="SCC1 Band">
+                  <Discriminator id="SCC1 DL Channel">
+                    <Discriminator id="Mode">
+                      <Discriminator id="State">
+                        <Discriminator id="Log Index">
+                          <Discriminator id="RUN_ID">
+                            <Discriminator id="Switch Config">
+                              <Discriminator id="Capacitor1 TuneCode">
+                                <Discriminator id="Capacitor2 TuneCode" />
+                              </Discriminator>
+                            </Discriminator>
+                          </Discriminator>
+                        </Discriminator>
+                      </Discriminator>
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+    <CondensedSummaryDescriptor name="Overall Results - MultiByte" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UserInteraction" />
+      <IndexedParam index="2" id="LTE Band" />
+      <IndexedParam index="3" id="LTE Channel" />
+      <IndexedParam index="4" id="RxChain" />
+      <IndexedParam index="5" id="SCC1 Band" />
+      <IndexedParam index="6" id="SCC1 DL Channel" />
+      <IndexedParam index="7" id="Aperture Scenario" />
+      <IndexedParam index="8" id="Impedance Scenario" />
+      <IndexedParam index="9" id="Antenna Number" />
+      <IndexedParam index="10" id="Path ID" />
+      <IndexedParam index="11" id="Device State" />
+      <IndexedParam index="12" id="Detector1" />
+      <IndexedParam index="13" id="Detector2" />
+      <IndexedParam index="14" id="Detector3" />
+      <IndexedParam index="15" id="Detector4" />
+      <IndexedParam index="16" id="Log Index" />
+      <IndexedParam index="17" id="RUN_ID" />
+      <IndexedParam index="18" id="Tunecode" />
+      <IndexedParam index="19" id="Tunecode Size" />
+      <IndexedParam index="20" id="ImpTunecode0" />
+      <IndexedParam index="21" id="ImpTunecode1" />
+      <IndexedParam index="22" id="ImpTunecode2" />
+      <IndexedParam index="23" id="ImpTunecode3" />
+      <IndexedParam index="24" id="ImpTunecode4" />
+      <IndexedParam index="25" id="ImpTunecode5" />
+      <IndexedParam index="26" id="ImpTunecode6" />
+      <IndexedParam index="27" id="ImpTunecode7" />
+      <IndexedParam index="28" id="Tuner Instance0" />
+      <IndexedParam index="29" id="Tuner Instance1" />
+      <IndexedParam index="30" id="Tuner Instance2" />
+      <IndexedParam index="31" id="Tuner Instance3" />
+      <IndexedParam index="32" id="Tuner Instance4" />
+      <IndexedParam index="33" id="Tuner Instance5" />
+      <IndexedParam index="34" id="Tuner Instance6" />
+      <IndexedParam index="35" id="Tuner Instance7" />
+      <Result resID="Detector4" testID="TunerScenario">
+        <Discriminator id="UserInteraction">
+          <Discriminator id="LTE Band">
+            <Discriminator id="LTE Channel">
+              <Discriminator id="SCC1 Band">
+                <Discriminator id="SCC1 DL Channel">
+                  <Discriminator id="RxChain">
+                    <Discriminator id="Aperture Scenario">
+                      <Discriminator id="Impedance Scenario">
+                        <Discriminator id="Antenna Number">
+                          <Discriminator id="Device State">
+                            <Discriminator id="Log Index">
+                              <Discriminator id="RUN_ID">
+                                <Discriminator id="Tunecode Size">
+                                  <Discriminator id="Tunecode" />
+                                </Discriminator>
+                              </Discriminator>
+                            </Discriminator>
+                          </Discriminator>
+                        </Discriminator>
+                      </Discriminator>
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="LTE3DLCA Detector Vals" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="Overall Results" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UserInteraction" />
+      <IndexedParam index="2" id="LTE Band" />
+      <IndexedParam index="3" id="LTE Channel" />
+      <IndexedParam index="4" id="RxChain" />
+      <IndexedParam index="5" id="SCC1 Band" />
+      <IndexedParam index="6" id="SCC1 DL Channel" />
+      <IndexedParam index="7" id="SCC2 Band" />
+      <IndexedParam index="8" id="SCC2 DL Channel" />
+      <IndexedParam index="9" id="Mode" />
+      <IndexedParam index="10" id="State" />
+      <IndexedParam index="11" id="Detector1" />
+      <IndexedParam index="12" id="Detector2" />
+      <IndexedParam index="13" id="Detector3" />
+      <IndexedParam index="14" id="Detector4" />
+      <IndexedParam index="15" id="Log Index" />
+      <IndexedParam index="16" id="RUN_ID" />
+      <IndexedParam index="17" id="Switch Config" />
+      <IndexedParam index="18" id="Capacitor1 TuneCode" />
+      <IndexedParam index="19" id="Capacitor2 TuneCode" />
+      <IndexedParam index="20" id="CS1_Setting" />
+      <IndexedParam index="21" id="CS2_Setting" />
+      <Result resID="Detector4" testID="TunerScenario">
+        <Discriminator id="UserInteraction">
+          <Discriminator id="LTE Band">
+            <Discriminator id="LTE Channel">
+              <Discriminator id="RxChain">
+                <Discriminator id="SCC1 Band">
+                  <Discriminator id="SCC1 DL Channel">
+                    <Discriminator id="SCC2 Band">
+                      <Discriminator id="SCC2 DL Channel">
+                        <Discriminator id="Mode">
+                          <Discriminator id="State">
+                            <Discriminator id="Log Index">
+                              <Discriminator id="RUN_ID">
+                                <Discriminator id="Switch Config">
+                                  <Discriminator id="Capacitor1 TuneCode">
+                                    <Discriminator id="Capacitor2 TuneCode" />
+                                  </Discriminator>
+                                </Discriminator>
+                              </Discriminator>
+                            </Discriminator>
+                          </Discriminator>
+                        </Discriminator>
+                      </Discriminator>
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+    <CondensedSummaryDescriptor name="Overall Results - MultiByte" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UserInteraction" />
+      <IndexedParam index="2" id="LTE Band" />
+      <IndexedParam index="3" id="LTE Channel" />
+      <IndexedParam index="4" id="RxChain" />
+      <IndexedParam index="5" id="SCC1 Band" />
+      <IndexedParam index="6" id="SCC1 DL Channel" />
+      <IndexedParam index="7" id="SCC2 Band" />
+      <IndexedParam index="8" id="SCC2 DL Channel" />
+      <IndexedParam index="9" id="Aperture Scenario" />
+      <IndexedParam index="10" id="Impedance Scenario" />
+      <IndexedParam index="11" id="Antenna Number" />
+      <IndexedParam index="12" id="Path ID" />
+      <IndexedParam index="13" id="Device State" />
+      <IndexedParam index="14" id="Detector1" />
+      <IndexedParam index="15" id="Detector2" />
+      <IndexedParam index="16" id="Detector3" />
+      <IndexedParam index="17" id="Detector4" />
+      <IndexedParam index="18" id="Log Index" />
+      <IndexedParam index="19" id="RUN_ID" />
+      <IndexedParam index="20" id="Tunecode" />
+      <IndexedParam index="21" id="Tunecode Size" />
+      <IndexedParam index="22" id="Tunecode0" />
+      <IndexedParam index="23" id="ImpTunecode1" />
+      <IndexedParam index="24" id="ImpTunecode2" />
+      <IndexedParam index="25" id="ImpTunecode3" />
+      <IndexedParam index="26" id="ImpTunecode4" />
+      <IndexedParam index="27" id="ImpTunecode5" />
+      <IndexedParam index="28" id="ImpTunecode6" />
+      <IndexedParam index="29" id="ImpTunecode7" />
+      <IndexedParam index="30" id="Tuner Instance0" />
+      <IndexedParam index="31" id="Tuner Instance1" />
+      <IndexedParam index="32" id="Tuner Instance2" />
+      <IndexedParam index="33" id="Tuner Instance3" />
+      <IndexedParam index="34" id="Tuner Instance4" />
+      <IndexedParam index="35" id="Tuner Instance5" />
+      <IndexedParam index="36" id="Tuner Instance6" />
+      <IndexedParam index="37" id="Tuner Instance7" />
+      <Result resID="Detector4" testID="TunerScenario">
+        <Discriminator id="UserInteraction">
+          <Discriminator id="LTE Band">
+            <Discriminator id="LTE Channel">
+              <Discriminator id="RxChain">
+                <Discriminator id="SCC1 Band">
+                  <Discriminator id="SCC1 DL Channel">
+                    <Discriminator id="SCC2 Band">
+                      <Discriminator id="SCC2 DL Channel">
+                        <Discriminator id="Aperture Scenario">
+                          <Discriminator id="Impedance Scenario">
+                            <Discriminator id="Antenna Number">
+                              <Discriminator id="Device State">
+                                <Discriminator id="Log Index">
+                                  <Discriminator id="RUN_ID">
+                                    <Discriminator id="Tunecode Size">
+                                      <Discriminator id="Tunecode" />
+                                    </Discriminator>
+                                  </Discriminator>
+                                </Discriminator>
+                              </Discriminator>
+                            </Discriminator>
+                          </Discriminator>
+                        </Discriminator>
+                      </Discriminator>
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="TDSCDMA Detector Vals" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="Overall Results" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UserInteraction" />
+      <IndexedParam index="2" id="TDSCDMA Band" />
+      <IndexedParam index="3" id="TDSCDMA Channel" />
+      <IndexedParam index="4" id="RxChain" />
+      <IndexedParam index="5" id="Mode" />
+      <IndexedParam index="6" id="State" />
+      <IndexedParam index="7" id="Detector1" />
+      <IndexedParam index="8" id="Detector2" />
+      <IndexedParam index="9" id="Detector3" />
+      <IndexedParam index="10" id="Detector4" />
+      <IndexedParam index="11" id="Log Index" />
+      <IndexedParam index="12" id="RUN_ID" />
+      <IndexedParam index="13" id="Switch Config" />
+      <IndexedParam index="14" id="Capacitor1 TuneCode" />
+      <IndexedParam index="15" id="Capacitor2 TuneCode" />
+      <IndexedParam index="16" id="CS1_Setting" />
+      <IndexedParam index="17" id="CS2_Setting" />
+      <Result resID="Detector4" testID="TunerScenario">
+        <Discriminator id="UserInteraction">
+          <Discriminator id="TDSCDMA Band">
+            <Discriminator id="TDSCDMA Channel">
+              <Discriminator id="RxChain">
+                <Discriminator id="Mode">
+                  <Discriminator id="State">
+                    <Discriminator id="Log Index">
+                      <Discriminator id="RUN_ID">
+                        <Discriminator id="Switch Config">
+                          <Discriminator id="Capacitor1 TuneCode">
+                            <Discriminator id="Capacitor2 TuneCode" />
+                          </Discriminator>
+                        </Discriminator>
+                      </Discriminator>
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+    <CondensedSummaryDescriptor name="Overall Results - MultiByte" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UserInteraction" />
+      <IndexedParam index="2" id="TDSCDMA Band" />
+      <IndexedParam index="3" id="TDSCDMA Channel" />
+      <IndexedParam index="4" id="RxChain" />
+      <IndexedParam index="5" id="Aperture Scenario" />
+      <IndexedParam index="6" id="Impedance Scenario" />
+      <IndexedParam index="7" id="Antenna Number" />
+      <IndexedParam index="8" id="Path ID" />
+      <IndexedParam index="9" id="Device State" />
+      <IndexedParam index="10" id="Detector1" />
+      <IndexedParam index="11" id="Detector2" />
+      <IndexedParam index="12" id="Detector3" />
+      <IndexedParam index="13" id="Detector4" />
+      <IndexedParam index="14" id="Log Index" />
+      <IndexedParam index="15" id="RUN_ID" />
+      <IndexedParam index="16" id="Tunecode" />
+      <IndexedParam index="17" id="Tunecode Size" />
+      <IndexedParam index="18" id="ImpTunecode0" />
+      <IndexedParam index="19" id="ImpTunecode1" />
+      <IndexedParam index="20" id="ImpTunecode2" />
+      <IndexedParam index="21" id="ImpTunecode3" />
+      <IndexedParam index="22" id="ImpTunecode4" />
+      <IndexedParam index="23" id="ImpTunecode5" />
+      <IndexedParam index="24" id="ImpTunecode6" />
+      <IndexedParam index="25" id="ImpTunecode7" />
+      <IndexedParam index="26" id="Tuner Instance0" />
+      <IndexedParam index="27" id="Tuner Instance1" />
+      <IndexedParam index="28" id="Tuner Instance2" />
+      <IndexedParam index="29" id="Tuner Instance3" />
+      <IndexedParam index="30" id="Tuner Instance4" />
+      <IndexedParam index="31" id="Tuner Instance5" />
+      <IndexedParam index="32" id="Tuner Instance6" />
+      <IndexedParam index="33" id="Tuner Instance7" />
+      <Result resID="Detector4" testID="TunerScenario">
+        <Discriminator id="UserInteraction">
+          <Discriminator id="TDSCDMA Band">
+            <Discriminator id="TDSCDMA Channel">
+              <Discriminator id="RxChain">
+                <Discriminator id="Aperture Scenario">
+                  <Discriminator id="Impedance Scenario">
+                    <Discriminator id="Antenna Number">
+                      <Discriminator id="Device State">
+                        <Discriminator id="Log Index">
+                          <Discriminator id="RUN_ID">
+                            <Discriminator id="Tunecode Size">
+                              <Discriminator id="Tunecode" />
+                            </Discriminator>
+                          </Discriminator>
+                        </Discriminator>
+                      </Discriminator>
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA Detector Vals" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="Overall Results" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UserInteraction" />
+      <IndexedParam index="2" id="WCDMA Band" />
+      <IndexedParam index="3" id="WCDMA Channel" />
+      <IndexedParam index="4" id="RxChain" />
+      <IndexedParam index="5" id="Mode" />
+      <IndexedParam index="6" id="State" />
+      <IndexedParam index="7" id="Detector1" />
+      <IndexedParam index="8" id="Detector2" />
+      <IndexedParam index="9" id="Detector3" />
+      <IndexedParam index="10" id="Detector4" />
+      <IndexedParam index="11" id="Log Index" />
+      <IndexedParam index="12" id="RUN_ID" />
+      <IndexedParam index="13" id="Switch Config" />
+      <IndexedParam index="14" id="Capacitor1 TuneCode" />
+      <IndexedParam index="15" id="Capacitor2 TuneCode" />
+      <IndexedParam index="16" id="CS1_Setting" />
+      <IndexedParam index="17" id="CS2_Setting" />
+      <Result resID="Detector4" testID="TunerScenario">
+        <Discriminator id="WCDMA Band">
+          <Discriminator id="WCDMA Channel">
+            <Discriminator id="RxChain">
+              <Discriminator id="Mode">
+                <Discriminator id="State">
+                  <Discriminator id="UserInteraction">
+                    <Discriminator id="Log Index">
+                      <Discriminator id="RUN_ID">
+                        <Discriminator id="Switch Config">
+                          <Discriminator id="Capacitor1 TuneCode">
+                            <Discriminator id="Capacitor2 TuneCode" />
+                          </Discriminator>
+                        </Discriminator>
+                      </Discriminator>
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+    <CondensedSummaryDescriptor name="Overall Results - MultiByte" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="UserInteraction" />
+      <IndexedParam index="2" id="WCDMA Band" />
+      <IndexedParam index="3" id="WCDMA Channel" />
+      <IndexedParam index="4" id="RxChain" />
+      <IndexedParam index="5" id="Aperture Scenario" />
+      <IndexedParam index="6" id="Impedance Scenario" />
+      <IndexedParam index="7" id="Antenna Number" />
+      <IndexedParam index="8" id="Path ID" />
+      <IndexedParam index="9" id="Device State" />
+      <IndexedParam index="10" id="Detector1" />
+      <IndexedParam index="11" id="Detector2" />
+      <IndexedParam index="12" id="Detector3" />
+      <IndexedParam index="13" id="Detector4" />
+      <IndexedParam index="14" id="Log Index" />
+      <IndexedParam index="15" id="RUN_ID" />
+      <IndexedParam index="16" id="Tunecode" />
+      <IndexedParam index="17" id="Tunecode Size" />
+      <IndexedParam index="18" id="ImpTunecode0" />
+      <IndexedParam index="19" id="ImpTunecode1" />
+      <IndexedParam index="20" id="ImpTunecode2" />
+      <IndexedParam index="21" id="ImpTunecode3" />
+      <IndexedParam index="22" id="ImpTunecode4" />
+      <IndexedParam index="23" id="ImpTunecode5" />
+      <IndexedParam index="24" id="ImpTunecode6" />
+      <IndexedParam index="25" id="ImpTunecode7" />
+      <IndexedParam index="26" id="Tuner Instance0" />
+      <IndexedParam index="27" id="Tuner Instance1" />
+      <IndexedParam index="28" id="Tuner Instance2" />
+      <IndexedParam index="29" id="Tuner Instance3" />
+      <IndexedParam index="30" id="Tuner Instance4" />
+      <IndexedParam index="31" id="Tuner Instance5" />
+      <IndexedParam index="32" id="Tuner Instance6" />
+      <IndexedParam index="33" id="Tuner Instance7" />
+      <Result resID="Detector4" testID="TunerScenario">
+        <Discriminator id="WCDMA Band">
+          <Discriminator id="WCDMA Channel">
+            <Discriminator id="RxChain">
+              <Discriminator id="UserInteraction">
+                <Discriminator id="Aperture Scenario">
+                  <Discriminator id="Impedance Scenario">
+                    <Discriminator id="Antenna Number">
+                      <Discriminator id="Device State">
+                        <Discriminator id="Log Index">
+                          <Discriminator id="RUN_ID">
+                            <Discriminator id="Tunecode Size">
+                              <Discriminator id="Tunecode" />
+                            </Discriminator>
+                          </Discriminator>
+                        </Discriminator>
+                      </Discriminator>
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="Tunecode List" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="Overall Results" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="Mode" />
+      <IndexedParam index="2" id="State" />
+      <IndexedParam index="3" id="Switch Config" />
+      <IndexedParam index="4" id="Capacitor1 TuneCode" />
+      <IndexedParam index="5" id="Capacitor2 TuneCode" />
+      <IndexedParam index="6" id="Tuner_ID" />
+      <IndexedParam index="7" id="CS1_Setting" />
+      <IndexedParam index="8" id="CS2_Setting" />
+      <Result resID="CS1_Setting" testID="TunerScenario">
+        <Discriminator id="Mode">
+          <Discriminator id="State">
+            <Discriminator id="Switch Config">
+              <Discriminator id="Capacitor1 TuneCode">
+                <Discriminator id="Capacitor2 TuneCode">
+                  <Discriminator id="Tuner_ID">
+                    <Discriminator id="CS1_Setting">
+                      <Discriminator id="CS2_Setting" />
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+    <CondensedSummaryDescriptor name="Overall Results - MultiByte" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="Antenna Number" />
+      <IndexedParam index="2" id="Aperture Scenario" />
+      <IndexedParam index="3" id="Impedance Scenario" />
+      <IndexedParam index="4" id="Tunecode" />
+      <IndexedParam index="5" id="Tunecode Size" />
+      <IndexedParam index="6" id="ImpTunecode0" />
+      <IndexedParam index="7" id="ImpTunecode1" />
+      <IndexedParam index="8" id="ImpTunecode2" />
+      <IndexedParam index="9" id="ImpTunecode3" />
+      <IndexedParam index="10" id="ImpTunecode4" />
+      <IndexedParam index="11" id="ImpTunecode5" />
+      <IndexedParam index="12" id="ImpTunecode6" />
+      <IndexedParam index="13" id="ImpTunecode7" />
+      <IndexedParam index="14" id="Tuner Instance0" />
+      <IndexedParam index="15" id="Tuner Instance1" />
+      <IndexedParam index="16" id="Tuner Instance2" />
+      <IndexedParam index="17" id="Tuner Instance3" />
+      <IndexedParam index="18" id="Tuner Instance4" />
+      <IndexedParam index="19" id="Tuner Instance5" />
+      <IndexedParam index="20" id="Tuner Instance6" />
+      <IndexedParam index="21" id="Tuner Instance7" />
+      <Result resID="Tunecode" testID="TunerScenario">
+        <Discriminator id="Antenna Number">
+          <Discriminator id="Aperture Scenario">
+            <Discriminator id="Impedance Scenario">
+              <Discriminator id="Tunecode Size">
+                <Discriminator id="Tunecode" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <GroupCharts>false</GroupCharts>
+  <PPTGroupsList />
+  <GlobalParameterList />
+  <ExpressionList />
+  <GlobalExcelDisplayProperties />
+</FormatDescriptor>

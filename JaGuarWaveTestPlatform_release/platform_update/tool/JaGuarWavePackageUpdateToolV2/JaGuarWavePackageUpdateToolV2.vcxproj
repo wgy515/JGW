@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8BF4B055-38EF-4795-BB5F-17CF69443186}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>JaGuarWavePackageUpdateToolV2</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\debug\exec_debug\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\</IntDir>
+    <TargetName>$(ProjectName)_d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\</IntDir>
+    <TargetName>$(ProjectName)</TargetName>
+    <OutDir>$(SolutionDir)bin\release\exec_release\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)platform_ui\include;$(SolutionDir)platform_library\include;$(SolutionDir)platform_core\include;$(SolutionDir)platform_plugin\include;$(SolutionDir)\platform_update\include\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\ui;$(SolutionDir)lib\library;$(SolutionDir)lib\core;$(SolutionDir)platform_core_lib\boost\lib;$(SolutionDir)lib\plugin;$(SolutionDir)platform_core_lib\poco</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)platform_ui\include;$(SolutionDir)platform_library\include;$(SolutionDir)platform_core\include;$(SolutionDir)platform_plugin\include;$(SolutionDir)\platform_update\include\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\ui;$(SolutionDir)lib\library;$(SolutionDir)lib\core;$(SolutionDir)platform_core_lib\boost\lib;$(SolutionDir)lib\plugin;$(SolutionDir)platform_core_lib\poco</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\..\platform_skin\JaGuarWavePackageUpdateToolV2.zip" />
+    <None Include="JaGuarWavePackageUpdateToolV2.ico" />
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CJaGuarWavePackageUpdateToolDlgV2.h" />
+    <ClInclude Include="CJGWHelpConfigDlg.h" />
+    <ClInclude Include="CJGW_HelpOTADlg.h" />
+    <ClInclude Include="CJGW_HelpProjectDlg.h" />
+    <ClInclude Include="CJGW_HelpTaskDlg.h" />
+    <ClInclude Include="CJGW_OTASQLite.h" />
+    <ClInclude Include="CJGW_ConfigSQLite.h" />
+    <ClInclude Include="CJGW_InstallVersionSQLite.h" />
+    <ClInclude Include="CJGW_PackageConfigCommonFunc.h" />
+    <ClInclude Include="CJGW_ProjectSQLite.h" />
+    <ClInclude Include="CJGW_TaskConfigSQLite.h" />
+    <ClInclude Include="CJGW_TaskSQLite.h" />
+    <ClInclude Include="CJGW_UpdateThread.h" />
+    <ClInclude Include="HelpPackageUIInterface.h" />
+    <ClInclude Include="JGWPackageUpdateDefine.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\platform_library\library\JGW_FoundationFunc\JGW_ApplicationDecrypt.cpp" />
+    <ClCompile Include="CJaGuarWavePackageUpdateToolDlgV2.cpp" />
+    <ClCompile Include="CJGWHelpConfigDlg.cpp" />
+    <ClCompile Include="CJGW_HelpOTADlg.cpp" />
+    <ClCompile Include="CJGW_HelpProjectDlg.cpp" />
+    <ClCompile Include="CJGW_HelpTaskDlg.cpp" />
+    <ClCompile Include="CJGW_OTASQLite.cpp" />
+    <ClCompile Include="CJGW_ConfigSQLite.cpp" />
+    <ClCompile Include="CJGW_InstallVersionSQLite.cpp" />
+    <ClCompile Include="CJGW_PackageConfigCommonFunc.cpp" />
+    <ClCompile Include="CJGW_ProjectSQLite.cpp" />
+    <ClCompile Include="CJGW_TaskConfigSQLite.cpp" />
+    <ClCompile Include="CJGW_TaskSQLite.cpp" />
+    <ClCompile Include="CJGW_UpdateThread.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="JaGuarWavePackageUpdateToolV2.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

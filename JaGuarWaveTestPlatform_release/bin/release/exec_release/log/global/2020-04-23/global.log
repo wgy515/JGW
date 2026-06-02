@@ -1,0 +1,49 @@
+2020-04-23 15:38:56 [ 4436] INFO  : CJGW_CSerialModemPort::OpenPort Port:\\.\COM8
+2020-04-23 15:39:03 [ 4436] INFO  : SerialComPort Send : mib q b 12-1-1-d
+2020-04-23 15:39:03 [ 4436] INFO  : ReadATAsyncModem:
+D4
+>
+2020-04-23 15:39:04 [ 4436] INFO  : SerialComPort Send : mib q b 12-1-1-d
+2020-04-23 15:39:04 [ 4436] INFO  : ReadATAsyncModem:
+D4
+>
+2020-04-23 15:39:05 [ 4436] INFO  : SerialComPort Send : mib q b 12-1-1-d
+2020-04-23 15:39:05 [ 4436] INFO  : ReadATAsyncModem:
+D4
+>
+2020-04-23 15:39:06 [ 4436] INFO  : SerialComPort Send : mib q b 12-1-1-d
+2020-04-23 15:39:06 [ 4436] INFO  : ReadATAsyncModem:
+D4
+>
+2020-04-23 15:39:07 [ 4436] INFO  : SerialComPort Send : mib q b 12-1-1-d
+2020-04-23 15:39:07 [ 4436] INFO  : ReadATAsyncModem:
+D4
+>
+2020-04-23 15:39:08 [ 4436] INFO  : SerialComPort Send : mib q b 12-1-1-d
+2020-04-23 15:39:08 [ 4436] INFO  : ReadATAsyncModem:
+D4
+>
+2020-04-23 15:39:09 [ 4436] INFO  : SerialComPort Send : mib q b 12-1-1-d
+2020-04-23 15:39:09 [ 4436] INFO  : ReadATAsyncModem:
+D4
+>
+2020-04-23 15:39:10 [ 4436] INFO  : SerialComPort Send : mib q b 12-1-1-d
+2020-04-23 15:39:10 [ 4436] INFO  : ReadATAsyncModem:
+D4
+>
+2020-04-23 15:39:11 [ 4436] INFO  : SerialComPort Send : mib q b 12-1-1-d
+2020-04-23 15:39:11 [ 4436] INFO  : ReadATAsyncModem:
+D4
+>
+2020-04-23 15:39:11 [ 4436] INFO  : SerialComPort Send : mib q b 12-1-1-d
+2020-04-23 15:39:11 [ 4436] INFO  : ReadATAsyncModem:
+D4
+>
+2020-04-23 15:39:11 [ 4436] INFO  : SerialComPort Send : mib q b 12-1-1-d
+2020-04-23 15:39:11 [ 4436] INFO  : ReadATAsyncModem:
+D4
+>
+2020-04-23 15:39:11 [ 4436] INFO  : SerialComPort Send : mib q b 12-1-1-d
+2020-04-23 15:39:11 [ 4436] INFO  : ReadATAsyncModem:
+D4
+>

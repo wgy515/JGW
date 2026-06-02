@@ -1,0 +1,34 @@
+stty -F /dev/ttyS1 115200 crtscts -echo -onlcr
+cat /dev/ttyS1 &
+echo 1 > /sys/devices/platform/soc/soc\:odm/soc\:odm\:mcu_ctrl/turn_on
+echo 1 > /sys/devices/platform/soc/soc\:odm/soc\:odm\:mcu_ctrl/reset
+echo 1 > /sys/devices/platform/soc/soc\:odm/soc\:odm\:mcu_ctrl/long_wake_out
+echo -ne "at+sm=lock\r\n" > /dev/ttyS1
+
+
+L0A
+005F00000001006464
+L0A005F000000010064640000141E000000170013000F000A000000C40000000000080005180064000E650000BE1E000000170013000F000A000000C4000000000008000518006400B7650000671F000000170013000F000A000000C40000000000080005180064009C6300004C1D000000170013000F000A000000C400000000000800051700640000640000B01D000000170013000F000A000000C400000000000800051700640063640000131E000000170013000F000A000000C4000000000008000517006400DE0D02004A15010000170013000F000A000000C4000000000008000500016400740E0200E015010000170013000F000A000000C4000000000008000500016400090F02007516010000170013000F000A000000C40000000000080005000164008A0C0200F613010000170013000F000A000000C40000000000080005FF006400
+
+
+
+echo -ne "at+cfun=0\r\n" > /dev/ttyS1
+echo -ne "at*mcaldev=1\r\n" > /dev/ttyS1
+echo -ne "at*mcal=\"NRF\",57,7,8,\"LA0140100FF0000C4\"\r\n" > /dev/ttyS1
+echo -ne "at*mcal=\"NRF\",58,8,4,\"L38000000\"\r\n" > /dev/ttyS1
+
+echo -ne "at*mcal=\"NRF\",4,1,1,\"L01\"\r\n" > /dev/ttyS1
+echo -ne "at*mcaldev=0\r\n" > /dev/ttyS1
+
+
+
+
+
+
+echo -ne "at+cfun=0\r\n" > /dev/ttyS1
+echo -ne "at*mcaldev=1\r\n" > /dev/ttyS1
+echo -ne "at*mcal=\"NRF\",2,22,8,\"LA0140100FF0000C4\"\r\n" > /dev/ttyS1
+echo -ne "at*mcal=\"NRF\",3,23,4,\"L38000000\"\r\n" > /dev/ttyS1
+
+echo -ne "at*mcal=\"NRF\",4,1,1,\"L01\"\r\n" > /dev/ttyS1
+echo -ne "at*mcaldev=0\r\n" > /dev/ttyS1

@@ -1,0 +1,21 @@
+#pragma once
+#include <TSE_FoundationLib/TSE_TestBase.h>
+namespace JGW
+{
+    class CTSE_APSReadAPInfo : public CTSE_TestBase
+    {
+    public:
+        CTSE_APSReadAPInfo(void);
+        ~CTSE_APSReadAPInfo(void);
+    private:
+        const wchar_t* TSE_GetParamDescription();
+
+        bool TSE_AddParam(const wchar_t* strParamName,const wchar_t* strParamValue);
+
+        bool TSE_Run();
+    private:
+        std::wstring mstrSoftAPResultEnvironment;
+        std::wstring mstrSSIDEnvironment;
+        std::wstring mstrPasswordEnvironment;
+    };
+}

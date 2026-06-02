@@ -1,0 +1,25 @@
+libssh2编译
+
+
+1.去官网下载libssh2的源代码包，本文档采用的是1.6.0；解压至本机硬盘；
+
+
+2.编辑libssh2根目录下win32\config.mk文件，指定openssl以及zlib的相关信息；
+
+
+3.在libssh2根目录下执行nmake -f NMakefile；
+
+
+4.执行成功后在libssh2根目录下生成libssh2.lib和libssh2.dll，同样的将其拷贝到所需目录下；
+
+linux下进行libssh2编译时，如果需要调试信息，即debug版本时，需要在执行configure时加上--enable-debug的选项
+
+
+CPPFLAGS=$(CPPFLAGS) /DLIBSSH2_OPENSSL /DLIBSSH2_WIN32 /D_WINDLL /I$(OPENSSLINC)
+!if "$(OPENSSLINC)" == ""
+OPENSSLINC=..\openssl-0.9.8zc\inc32
+!endif
+
+!if "$(OPENSSLLIB)" == ""
+OPENSSLLIB=..\openssl-0.9.8zc\out32dll
+!endif

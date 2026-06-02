@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+    <ListContainerElementEx>
+		<HorizontalLayout inset="5,5,5,5">
+			<Edit text="LTE_B1" bordersize="1" height="30" bordercolor="#FF4775CC"  textpadding="5,5,5,5" align="center" tooltip="不允许修改,修改也无效 O(∩_∩)O哈哈~" enabled="false"/>
+		</HorizontalLayout>
+		<HorizontalLayout inset="5,5,5,5">
+			<Edit text="19300" bordersize="1" height="30" bordercolor="#FF4775CC"  textpadding="5,5,5,5" tooltip="请输入当前频段上行信道 已','隔开"/>
+		</HorizontalLayout>
+		<HorizontalLayout inset="5,5,5,5">
+			<Edit text="1" bordersize="1" height="30" bordercolor="#FF4775CC"  textpadding="5,5,5,5" tooltip="请输入测试端口,1表示CMW500最下面的RF口(RFAC),2 中间(RFAO),3 最上面(RFBC)" align="center"/>
+		</HorizontalLayout>
+		<HorizontalLayout inset="5,5,5,5">
+			<Edit text="1" bordersize="1" height="30" bordercolor="#FF4775CC"  textpadding="5,5,5,5" tooltip="请输入测试端口,1表示CMW500最下面的RF口(RFAC),2 中间(RFAO),3 最上面(RFBC)" align="center"/>
+		</HorizontalLayout>
+		<HorizontalLayout inset="5,5,5,5">
+			<Edit text="1.00,1.00,1.00" bordersize="1" height="30" bordercolor="#FF4775CC" textpadding="5,5,5,5" tooltip="线损依次对应信道,已','隔开"/>
+		</HorizontalLayout>
+	</ListContainerElementEx>
+</Window>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MULTI_DUT_CONFIG>
+    <MULTIPLEXERS>
+      <MULTIPLEXER ID="1">
+	    <!-- Set the RoutingConfiguration string property.
+		   * 
+		   *		For example:
+		   *		
+		   *		RoutingConfiguration = "1,1,1;1,2,2" where
+	  	   *		
+	 	   *		";" delimits the groups of channel lists required to select different DUTs
+		   *			For example:
+		   *			"1,1,1" = Routing information set for DUT 1
+		   *			"1,2,2" = Routing information set for DUT 2
+		   *		
+		   *		"," delimits the fields 	
+         *     
+         *      This set of information contains the 
+         *           i. Slot Address
+         *          ii. Input Port Value
+         *         iii. Output Port Value
+         *      corresponding to each DUT.
+		 -->
+        <ROUTING_CONFIG DESCRIPTION="CONNECT Antenna to Slot1" PORTS="WCDMA_TX0,WCDMA_RX0,CDMA_TX0,CDMA_RX0,LTE_TX0,LTE_RX0,GSM_TX0,GSM_RX0,TDSCDMA_TX0,TDSCDMA_RX0"
+						CALDB_TX_PATH_ID="5" 
+						CALDB_RX_PATH_ID="4" 
+						CALDB_TX_CONFIG_NAME="DONTCARE" 
+						CALDB_RX_CONFIG_NAME="DONTCARE" >1,1,1;1,2,2</ROUTING_CONFIG>
+		<ROUTING_CONFIG DESCRIPTION="CONNECT Antenna to Slot1" PORTS="LTE_TX0,LTE_RX1"
+						CALDB_TX_PATH_ID="5" 
+						CALDB_RX_PATH_ID="4" 
+						CALDB_TX_CONFIG_NAME="DONTCARE" 
+						CALDB_RX_CONFIG_NAME="DONTCARE" >1,1,3;1,2,4</ROUTING_CONFIG>
+        <DRIVER_DLL>C:\Program Files (x86)\Qualcomm\qdart\bin\MCI_Starpoint_SP9010.dll</DRIVER_DLL>
+        <BUS_CONFIG>TCPIP0::192.168.1.1::inst0::INSTR</BUS_CONFIG>
+        <SIMULATION_MODE>NO</SIMULATION_MODE>
+      </MULTIPLEXER>
+    </MULTIPLEXERS>
+   <GROUPS>
+		<GROUP ID = "1">
+			<DUT ID = "1">
+				<MULTIPLEXER_IDS>1</MULTIPLEXER_IDS>
+				<MULTIPLEXER_PATHS>1</MULTIPLEXER_PATHS>
+			</DUT>
+			<DUT ID = "2">
+				<MULTIPLEXER_IDS>1</MULTIPLEXER_IDS>
+				<MULTIPLEXER_PATHS>2</MULTIPLEXER_PATHS>
+			</DUT>
+		</GROUP>
+	</GROUPS>
+  </MULTI_DUT_CONFIG>
+</root>

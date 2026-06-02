@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QSEQConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Products>
+		<Product name="SDX55_HWID549_SDR865_GLOBAL_H250_MTP">
+			<LTECarrierAggregation>
+				<Aggregation dlCarriers="2" ulCarriers="1" enabled="false" txSelfTestCapable="false" rxSelfTestCapable="false">
+					<Bands enabled="true" label="LTE_Rx_default">
+						<Band number="2" dlbwClass="C" ulActive="true" ulbwClass="A" dlMaxAnt="2" ulMaxAnt="1" />
+					</Bands>								
+					<Bands enabled="true" label="LTE_Rx_default">
+						<Band number="3" dlbwClass="C" ulActive="true" ulbwClass="A" dlMaxAnt="2" ulMaxAnt="1" />
+					</Bands>					
+					<Bands enabled="true" label="LTE_Rx_default">
+						<Band number="4" dlbwClass="C" ulActive="true" ulbwClass="A" dlMaxAnt="2" ulMaxAnt="1" />
+					</Bands>										
+					<Bands enabled="true" label="LTE_Rx_default">
+						<Band number="7" dlbwClass="C" ulActive="true" ulbwClass="A" dlMaxAnt="2" ulMaxAnt="1" />
+					</Bands>						
+					<Bands enabled="true" label="LTE_Rx_default">
+						<Band number="38" dlbwClass="C" ulActive="true" ulbwClass="A" dlMaxAnt="2" ulMaxAnt="1" />
+					</Bands>					
+					<Bands enabled="true" label="LTE_Rx_default">
+						<Band number="39" dlbwClass="C" ulActive="true" ulbwClass="A" dlMaxAnt="2" ulMaxAnt="1" />
+					</Bands>
+					<Bands enabled="true" label="LTE_Rx_default">
+						<Band number="40" dlbwClass="C" ulActive="true" ulbwClass="A" dlMaxAnt="2" ulMaxAnt="1" />
+					</Bands>					
+					<Bands enabled="true" label="LTE_Rx_default">
+						<Band number="41" dlbwClass="C" ulActive="true" ulbwClass="A" dlMaxAnt="2" ulMaxAnt="1" />
+					</Bands>
+					<Bands enabled="true" label="LTE_Rx_default">
+						<Band number="66" dlbwClass="C" ulActive="true" ulbwClass="A" dlMaxAnt="2" ulMaxAnt="1" />
+					</Bands>						
+				</Aggregation>
+				<Aggregation dlCarriers="3" ulCarriers="1" enabled="false" txSelfTestCapable="false" rxSelfTestCapable="false">
+					<Bands enabled="true" label="LTE_Rx_default">
+						<Band number="40" dlbwClass="D" ulActive="true" ulbwClass="A" dlMaxAnt="2" ulMaxAnt="1" />
+					</Bands>
+					<Bands enabled="true" label="LTE_Rx_default">
+						<Band number="41" dlbwClass="D" ulActive="true" ulbwClass="A" dlMaxAnt="2" ulMaxAnt="1" />
+					</Bands>
+				</Aggregation>
+				<Aggregation dlCarriers="5" ulCarriers="1" enabled="false" txSelfTestCapable="false" rxSelfTestCapable="false">
+					<Bands enabled="true" label="LTE_Rx_default">
+						<Band number="1" dlbwClass="A" ulActive="true" ulbwClass="A" dlMaxAnt="4" ulMaxAnt="1" />
+						<Band number="3" dlbwClass="C" ulActive="false" ulbwClass="x" dlMaxAnt="4" ulMaxAnt="1" />
+						<Band number="7" dlbwClass="C" ulActive="false" ulbwClass="x" dlMaxAnt="4" ulMaxAnt="1" />
+					</Bands>
+				</Aggregation>
+				<Aggregation dlCarriers="6" ulCarriers="1" enabled="false" txSelfTestCapable="false" rxSelfTestCapable="false">
+					<Bands enabled="true" label="LTE_Rx_default">
+						<Band number="3" dlbwClass="C" ulActive="true" ulbwClass="A" dlMaxAnt="2" ulMaxAnt="1" />
+						<Band number="7" dlbwClass="C" ulActive="false" ulbwClass="x" dlMaxAnt="2" ulMaxAnt="1" />
+						<Band number="1" dlbwClass="A" ulActive="false" ulbwClass="x" dlMaxAnt="2" ulMaxAnt="1" />
+						<Band number="28" dlbwClass="A" ulActive="false" ulbwClass="x" dlMaxAnt="2" ulMaxAnt="1" />
+					</Bands>
+				</Aggregation>				
+				<Aggregation dlCarriers="2" ulCarriers="2" enabled="false" txSelfTestCapable="false" rxSelfTestCapable="false">
+					<Bands enabled="true" label="LTE_Tx_default">
+						<Band number="2" dlbwClass="C" ulActive="true" ulbwClass="C" dlMaxAnt="2" ulMaxAnt="1" />
+					</Bands>
+					<Bands enabled="true" label="LTE_Tx_default">
+						<Band number="3" dlbwClass="C" ulActive="true" ulbwClass="C" dlMaxAnt="2" ulMaxAnt="1" />
+					</Bands>
+					<Bands enabled="true" label="LTE_Tx_default">
+						<Band number="4" dlbwClass="C" ulActive="true" ulbwClass="C" dlMaxAnt="2" ulMaxAnt="1" />
+					</Bands>
+					<Bands enabled="true" label="LTE_Tx_default">
+						<Band number="7" dlbwClass="C" ulActive="true" ulbwClass="C" dlMaxAnt="2" ulMaxAnt="1" />
+					</Bands>					
+					<Bands enabled="true" label="LTE_Tx_default">
+						<Band number="38" dlbwClass="C" ulActive="true" ulbwClass="C" dlMaxAnt="2" ulMaxAnt="1" />
+					</Bands>
+					<Bands enabled="true" label="LTE_Tx_default">
+						<Band number="39" dlbwClass="C" ulActive="true" ulbwClass="C" dlMaxAnt="2" ulMaxAnt="1" />
+					</Bands>
+					<Bands enabled="true" label="LTE_Tx_default">
+						<Band number="40" dlbwClass="C" ulActive="true" ulbwClass="C" dlMaxAnt="2" ulMaxAnt="1" />
+					</Bands>
+					<Bands enabled="true" label="LTE_Tx_default">
+						<Band number="41" dlbwClass="C" ulActive="true" ulbwClass="C" dlMaxAnt="2" ulMaxAnt="1" />
+					</Bands>
+				</Aggregation>
+			</LTECarrierAggregation>
+			<!--Single Carrier, Final test bands settings entry-->
+			<!--comment add by zhucheng-->
+			<SingleCarrier>
+				<Tech name="LTE" enabled="true" txSelfTestCapable="true" rxSelfTestCapable="false">
+					<Band number="1" enabled="true" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="2" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="3" enabled="true" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="4" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="5" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="7" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="8" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="11" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="12" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="13" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="14" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="17" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="18" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="19" enabled="true" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="20" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="21" enabled="true" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="25" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="26" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="28" SubBand="A" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+						<UlChannelRange>27210,27409</UlChannelRange>
+					</Band>
+					<Band number="28" SubBand="B" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+						<UlChannelRange>27410,27659</UlChannelRange>
+					</Band>
+					<Band number="29" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>false</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="30" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="32" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>false</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="34" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="38" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="39" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="40" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="41" SubBand="A" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+						<UlChannelRange>39650,40990</UlChannelRange>
+					</Band>
+					<Band number="41" SubBand="B" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+						<UlChannelRange>40991,41589</UlChannelRange>
+					</Band>
+					<Band number="42" enabled="true" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<!--Add LTE BC43-->
+					<!--Add by zhucheng-->
+					<Band number="43" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="46" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>false</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="48" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="66" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="67" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+					<Band number="71" enabled="false" label="LTE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+						<LTE-CAT-M1>false</LTE-CAT-M1>
+					</Band>
+				</Tech>
+				<Tech name="CDMA" enabled="false" txSelfTestCapable="true" rxSelfTestCapable="false">
+					<Band number="0" enabled="true" label="CDMA_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<TX0>true</TX0>
+					</Band>
+					<Band number="1" enabled="true" label="CDMA_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<TX0>true</TX0>
+					</Band>
+					<Band number="10" enabled="true" label="CDMA_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<TX0>true</TX0>
+					</Band>
+				</Tech>
+				<Tech name="WCDMA" enabled="true" txSelfTestCapable="true" rxSelfTestCapable="false">
+				    <!--switch-->
+					<!--comment add by zhucheng-->
+					<Band number="1" enabled="true" label="WCDMA_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<TX0>true</TX0>
+					</Band>
+					<Band number="2" enabled="true" label="WCDMA_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<TX0>true</TX0>
+					</Band>
+					<Band number="3" enabled="true" label="WCDMA_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<TX0>true</TX0>
+					</Band>
+					<Band number="4" enabled="true" label="WCDMA_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<TX0>true</TX0>
+					</Band>
+					<Band number="5" enabled="true" label="WCDMA_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<TX0>true</TX0>
+					</Band>
+					<Band number="8" enabled="true" label="WCDMA_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<TX0>true</TX0>
+					</Band>
+				</Tech>
+				<Tech name="TDSCDMA" enabled="false" txSelfTestCapable="true" rxSelfTestCapable="false">
+					<Band number="34" enabled="true" label="TDSCDMA_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<TX0>true</TX0>
+					</Band>
+					<Band number="39" enabled="true" label="TDSCDMA_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<TX0>true</TX0>
+					</Band>
+				</Tech> 
+				<Tech name="EDGE" enabled="false" txSelfTestCapable="true" rxSelfTestCapable="false">
+					<Band number="850" enabled="true" label="EDGE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<TX0>true</TX0>
+					</Band>
+					<Band number="900" enabled="true" label="EDGE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<TX0>true</TX0>
+					</Band>
+					<Band number="1800" enabled="true" label="EDGE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<TX0>true</TX0>
+					</Band>
+					<Band number="1900" enabled="true" label="EDGE_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<TX0>true</TX0>
+					</Band>
+				</Tech>
+				<Tech name="NRFR1" enabled="true" txSelfTestCapable="true" rxSelfTestCapable="false">
+					<Band number="1" enabled="false" label="SUB6_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+					</Band>
+					<Band number="2" enabled="false" label="SUB6_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+					</Band>
+					<Band number="3" enabled="false" label="SUB6_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+					</Band>
+					<Band number="5" enabled="false" label="SUB6_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+					</Band>
+					<Band number="7" enabled="false" label="SUB6_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+					</Band>
+					<Band number="8" enabled="false" label="SUB6_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+					</Band>
+					<Band number="12" enabled="false" label="SUB6_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+					</Band>
+					<Band number="20" enabled="false" label="SUB6_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+					</Band>
+					<Band number="25" enabled="false" label="SUB6_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+					</Band>
+					<Band number="28" SubBand="A" enabled="false" label="SUB6_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<UlChannelRange>140600,145600</UlChannelRange>
+						<PowerClass>0</PowerClass>
+					</Band>
+					<Band number="28" SubBand="B" enabled="false" label="SUB6_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<UlChannelRange>145600,149600</UlChannelRange>
+						<PowerClass>0</PowerClass>
+					</Band>
+					<!--Add nr38-->
+					<!--Add by zhucheng-->
+					<Band number="38" enabled="false" label="SUB6_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+					</Band>
+					<Band number="40" enabled="false" label="SUB6_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+					</Band>
+					<Band number="41" enabled="false" label="SUB6_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>true</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+					</Band>
+					<Band number="48" enabled="false" label="SUB6_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+					</Band>
+					<Band number="66" enabled="false" label="SUB6_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+					</Band>
+					<Band number="71" enabled="false" label="SUB6_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+					</Band>
+					<Band number="77" enabled="false" label="SUB6_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>false</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+					</Band>
+					<Band number="78" enabled="true" label="SUB6_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>true</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+					</Band>
+					<Band number="79" enabled="true" label="SUB6_default">
+						<RX0>true</RX0>
+						<RX1>true</RX1>
+						<HORXD>true</HORXD>
+						<TX0>true</TX0>
+						<PowerClass>0</PowerClass>
+					</Band>
+				</Tech>
+			</SingleCarrier>
+		</Product>
+	</Products>
+</QSEQConfig>

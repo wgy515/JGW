@@ -1,0 +1,5 @@
+Sun Mar 30 12:41:31 2025 kern.info kernel: [ 2366.688734]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+Sun Mar 30 12:41:34 2025 kern.info kernel: [ 2368.881877]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+Sun Mar 30 12:41:34 2025 kern.info kernel: [ 2369.500948]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s
+Sun Mar 30 12:41:35 2025 kern.info kernel: [ 2370.225273]  DRIVER_LOG[ALWAYS-OSIF]-[Private_PrintRxPerformanceJob:494]: local mac:  7c:6c:f0:af:ff:36  Payload Rx: 0 Mbits/s      MSDU processing: 0 Mbits/s      Indicated Rx: 0 Mbits/s
+Sun Mar 30 12:41:35 2025 kern.info kernel: [ 2370.690353]  DRIVER_LOG[ALWAYS-CORE]-[Private_CurrentTxPerformance:1053]: Tx local mac: 7c:6c:f0:af:ff:36      Number of packets:       2      current tx performance:       0 Mbits/s

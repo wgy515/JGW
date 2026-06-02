@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="loss">
+      <UniqueIdentifier>{a5a99f1f-116a-4205-a1b2-05e0d9823cb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="equip">
+      <UniqueIdentifier>{580965cb-5902-4d7a-8a40-49a4ccd1c373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ipq40xx">
+      <UniqueIdentifier>{c7d56ab6-0449-40c9-b47a-4e07364c45ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ipq40xx\LoadDuts">
+      <UniqueIdentifier>{5e4d2632-0dd6-43af-93ae-f5e041a71da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ipq40xx\Calibration">
+      <UniqueIdentifier>{6ab585c7-d1e8-4e62-a628-4b28de7bb1be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ipq40xx\TxTest">
+      <UniqueIdentifier>{5a952445-6c99-4817-ac49-dc78e0ecea1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ipq40xx\RxTest">
+      <UniqueIdentifier>{3a71b200-e279-487c-bee7-f64a54be3a8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ipq40xx\SaveCalMacData">
+      <UniqueIdentifier>{7b89e3ec-0606-46b8-86a2-fd2446f9b426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="phone">
+      <UniqueIdentifier>{5ae59353-222f-4535-ad4f-bd3a050a5f37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ipq40xx\RxCalibration">
+      <UniqueIdentifier>{fd9febf9-1b22-4d08-8b94-4d19e48b126b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gps">
+      <UniqueIdentifier>{1f7abecf-4590-4164-9656-e27c23d31d84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gu">
+      <UniqueIdentifier>{2f20b537-4b99-428a-adc5-2ccd7eaf0915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nc700">
+      <UniqueIdentifier>{96934bd1-d82c-46f3-9182-6e9c5096d77b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ipq807x">
+      <UniqueIdentifier>{7b76b708-ae05-430f-a620-d2592cb42705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ipq807x\InitializeDUT">
+      <UniqueIdentifier>{6d2ced33-9b5d-4b14-a734-79a20e579d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ipq807x\Calibration">
+      <UniqueIdentifier>{58ec6cdc-c020-4d13-8bed-e10d6ea08f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ipq807x\RxCalibration">
+      <UniqueIdentifier>{9a64569c-696c-49b9-961d-fbdd2340eec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ipq807x\BDF">
+      <UniqueIdentifier>{3bdd1309-5c97-4889-bc12-703f2385e4b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ipq807x\TxTest">
+      <UniqueIdentifier>{13046ec3-6870-4597-a9cb-6e4476cb1ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ipq807x\RxTest">
+      <UniqueIdentifier>{07cf9979-ec02-4d7b-93fc-637ca8df67b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testresult">
+      <UniqueIdentifier>{cbff3ba3-88e7-4d19-a120-c521272751ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_SetUpDutTxDetails.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_DutTxDetailSettings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_WlanTxVerifyPowerTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_WlanTxEvmTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_TxTurnOff.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JGW_WiFiLossConfig.h">
+      <Filter>loss</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_EquipBase.h">
+      <Filter>equip</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_CMW500Equip.h">
+      <Filter>equip</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_WlanLoadDut.h">
+      <Filter>ipq40xx\LoadDuts</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_ConnectDutUsingUserTransportDLL.h">
+      <Filter>ipq40xx\LoadDuts</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_DutLog.h">
+      <Filter>ipq40xx\LoadDuts</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_WlanXtalCalInit.h">
+      <Filter>ipq40xx\Calibration</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_WlanXtalCalibration.h">
+      <Filter>ipq40xx\Calibration</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_WlanTxCalibrationFWControlled.h">
+      <Filter>ipq40xx\Calibration</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_IPQ40xxTxCalTest.h">
+      <Filter>ipq40xx\TxTest</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_IPQ40xxRxCalTest.h">
+      <Filter>ipq40xx\RxTest</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_WlanMemCommit.h">
+      <Filter>ipq40xx\SaveCalMacData</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_DisconnectDut.h">
+      <Filter>ipq40xx\LoadDuts</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_WlanSetOtpMAC.h">
+      <Filter>ipq40xx\SaveCalMacData</Filter>
+    </ClInclude>
+    <ClInclude Include="JGW_Phone.h">
+      <Filter>phone</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_InitializeWlanTester.h">
+      <Filter>equip</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_WlanInstrumentConfig.h">
+      <Filter>equip</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_WlanDutWrapper.h">
+      <Filter>equip</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_IPQ40xxSetUpRx.h">
+      <Filter>ipq40xx\RxCalibration</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_WlanRxCalibrationFWControlled.h">
+      <Filter>ipq40xx\RxCalibration</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_WlanConfigFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_GPSTest.h">
+      <Filter>gps</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_IPQ40xxGuLossCal.h">
+      <Filter>gu</Filter>
+    </ClInclude>
+    <ClInclude Include="JGW_IPQ40xxGuTestData.h">
+      <Filter>gu</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_QCA639xTxTest.h">
+      <Filter>nc700</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_SetPhoneResource.h">
+      <Filter>nc700</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_WlanSetPhyRFMode.h">
+      <Filter>nc700</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_AutoDetectChip.h">
+      <Filter>nc700</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_QCA639xRxTest.h">
+      <Filter>nc700</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_QCA639xSetUpDutTx.h">
+      <Filter>nc700</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_IPQ807xConnectDutUsingQUTS.h">
+      <Filter>ipq807x\InitializeDUT</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_IPQ807xDefine.h">
+      <Filter>ipq807x</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_IPQ807xPhone.h">
+      <Filter>ipq807x</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_IPQ807xDisConnectDut.h">
+      <Filter>ipq807x\InitializeDUT</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_IPQ807xWlanSetInstance.h">
+      <Filter>ipq807x\InitializeDUT</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_IPQ807xWlanSetLocalMac.h">
+      <Filter>ipq807x\InitializeDUT</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_IPQ807xWlanXtalCalibration2.h">
+      <Filter>ipq807x\Calibration</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_IPQ807xWlanXtalCalInit2.h">
+      <Filter>ipq807x\Calibration</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_IPQ807xWlanTxCalibrationFWControlled2.h">
+      <Filter>ipq807x\Calibration</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_IPQ807xWlanRxCalibrationFWControlled2.h">
+      <Filter>ipq807x\RxCalibration</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_IPQ807xWlanNoiseFloorCalGenBDF.h">
+      <Filter>ipq807x\Calibration</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_IPQ807xBoardDataGetSize.h">
+      <Filter>ipq807x\BDF</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_IPQ807xWlanSaveBDF2.h">
+      <Filter>ipq807x\BDF</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_IPQ807xWlanSetDutTxMacAddressBssId.h">
+      <Filter>ipq807x\InitializeDUT</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_IPQ807xConnectDut.h">
+      <Filter>ipq807x\InitializeDUT</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_IPQ807xTxTest.h">
+      <Filter>ipq807x\TxTest</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_IPQ807xRxTest.h">
+      <Filter>ipq807x\RxTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_IPQ807xTestDataDefine.h">
+      <Filter>ipq807x</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_WiFiTestResultRecord.h">
+      <Filter>testresult</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_ClearWiFiTestRecord.h">
+      <Filter>testresult</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_InitWiFiTestRecord.h">
+      <Filter>testresult</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_SaveWiFiTestRecord.h">
+      <Filter>testresult</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_ExcelLibXL.h">
+      <Filter>testresult</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_WlanExcelTemplateConfig.h">
+      <Filter>testresult</Filter>
+    </ClInclude>
+    <ClInclude Include="CCJGW_WlanTestDevToolDefine.h">
+      <Filter>testresult</Filter>
+    </ClInclude>
+    <ClInclude Include="TSE_ParseWiFiTestLog.h">
+      <Filter>testresult</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_SetUpDutTxDetails.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_DutTxDetailSettings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_WlanTxVerifyPowerTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_WlanTxEvmTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_TxTurnOff.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JGW_WiFiLossConfig.cpp">
+      <Filter>loss</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_EquipBase.cpp">
+      <Filter>equip</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_CMW500Equip.cpp">
+      <Filter>equip</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_ConnectDutUsingUserTransportDLL.cpp">
+      <Filter>ipq40xx\LoadDuts</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_DutLog.cpp">
+      <Filter>ipq40xx\LoadDuts</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_WlanLoadDut.cpp">
+      <Filter>ipq40xx\LoadDuts</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_WlanXtalCalInit.cpp">
+      <Filter>ipq40xx\Calibration</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_WlanXtalCalibration.cpp">
+      <Filter>ipq40xx\Calibration</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_WlanTxCalibrationFWControlled.cpp">
+      <Filter>ipq40xx\Calibration</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_IPQ40xxTxCalTest.cpp">
+      <Filter>ipq40xx\TxTest</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_IPQ40xxRxCalTest.cpp">
+      <Filter>ipq40xx\RxTest</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_WlanMemCommit.cpp">
+      <Filter>ipq40xx\SaveCalMacData</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_DisconnectDut.cpp">
+      <Filter>ipq40xx\LoadDuts</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_WlanSetOtpMAC.cpp">
+      <Filter>ipq40xx\SaveCalMacData</Filter>
+    </ClCompile>
+    <ClCompile Include="JGW_Phone.cpp">
+      <Filter>phone</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_InitializeWlanTester.cpp">
+      <Filter>equip</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_WlanInstrumentConfig.cpp">
+      <Filter>equip</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_WlanDutWrapper.cpp">
+      <Filter>equip</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_IPQ40xxSetUpRx.cpp">
+      <Filter>ipq40xx\RxCalibration</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_WlanRxCalibrationFWControlled.cpp">
+      <Filter>ipq40xx\RxCalibration</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_WlanConfigFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_GPSTest.cpp">
+      <Filter>gps</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_IPQ40xxGuLossCal.cpp">
+      <Filter>gu</Filter>
+    </ClCompile>
+    <ClCompile Include="JGW_IPQ40xxGuTestData.cpp">
+      <Filter>gu</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_QCA639xTxTest.cpp">
+      <Filter>nc700</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_SetPhoneResource.cpp">
+      <Filter>nc700</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_WlanSetPhyRFMode.cpp">
+      <Filter>nc700</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_AutoDetectChip.cpp">
+      <Filter>nc700</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_QCA639xRxTest.cpp">
+      <Filter>nc700</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_QCA639xSetUpDutTx.cpp">
+      <Filter>nc700</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_IPQ807xConnectDutUsingQUTS.cpp">
+      <Filter>ipq807x\InitializeDUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_IPQ807xPhone.cpp">
+      <Filter>ipq807x</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_IPQ807xDisConnectDut.cpp">
+      <Filter>ipq807x\InitializeDUT</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_IPQ807xWlanSetInstance.cpp">
+      <Filter>ipq807x\InitializeDUT</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_IPQ807xWlanSetLocalMac.cpp">
+      <Filter>ipq807x\InitializeDUT</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_IPQ807xWlanXtalCalInit2.cpp">
+      <Filter>ipq807x\Calibration</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_IPQ807xWlanXtalCalibration2.cpp">
+      <Filter>ipq807x\Calibration</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_IPQ807xWlanTxCalibrationFWControlled2.cpp">
+      <Filter>ipq807x\Calibration</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_IPQ807xWlanRxCalibrationFWControlled2.cpp">
+      <Filter>ipq807x\RxCalibration</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_IPQ807xWlanNoiseFloorCalGenBDF.cpp">
+      <Filter>ipq807x\Calibration</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_IPQ807xWlanSaveBDF2.cpp">
+      <Filter>ipq807x\BDF</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_IPQ807xBoardDataGetSize.cpp">
+      <Filter>ipq807x\BDF</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_IPQ807xWlanSetDutTxMacAddressBssId.cpp">
+      <Filter>ipq807x\InitializeDUT</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_IPQ807xConnectDut.cpp">
+      <Filter>ipq807x\InitializeDUT</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_IPQ807xRxTest.cpp">
+      <Filter>ipq807x\RxTest</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_IPQ807xTxTest.cpp">
+      <Filter>ipq807x\TxTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_WiFiTestResultRecord.cpp">
+      <Filter>testresult</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_ClearWiFiTestRecord.cpp">
+      <Filter>testresult</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_InitWiFiTestRecord.cpp">
+      <Filter>testresult</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_SaveWiFiTestRecord.cpp">
+      <Filter>testresult</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_ExcelLibXL.cpp">
+      <Filter>testresult</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_WlanExcelTemplateConfig.cpp">
+      <Filter>testresult</Filter>
+    </ClCompile>
+    <ClCompile Include="TSE_ParseWiFiTestLog.cpp">
+      <Filter>testresult</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

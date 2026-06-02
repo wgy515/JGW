@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Browser">
+      <UniqueIdentifier>{ee946282-51b2-44c4-8d88-05f3fe47eb3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{66f4afd1-4817-4587-8e92-177a1011d8a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom">
+      <UniqueIdentifier>{61a34acd-e496-4d7c-a263-67af1bea58d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_Cef3BrowserApp.h">
+      <Filter>Browser</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_Cef3ClientHandler.h">
+      <Filter>Browser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_Cef3Plugin\CJGW_Cef3RendererApp.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_Cef3Plugin\JGW_Cef3PluginExport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomMenuHandler.h">
+      <Filter>Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomDisplayHandler.h">
+      <Filter>Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomDownloadHandler.h">
+      <Filter>Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomDragHandler.h">
+      <Filter>Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomResourceRequestHandler.h">
+      <Filter>Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomFocusHandler.h">
+      <Filter>Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomKeyboardHandler.h">
+      <Filter>Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomLifeSpanHandler.h">
+      <Filter>Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomLoadHandler.h">
+      <Filter>Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomRequestHandler.h">
+      <Filter>Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="JGW_ZipResResourceProvider.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JGW_Cef3MessageRouterHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_Cef3V8ExtensionHandler.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_ReflectCef3V8Handler.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_Cef3BrowserApp.cpp">
+      <Filter>Browser</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_Cef3RendererApp.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_Cef3ClientHandler.cpp">
+      <Filter>Browser</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomMenuHandler.cpp">
+      <Filter>Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomDisplayHandler.cpp">
+      <Filter>Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomDownloadHandler.cpp">
+      <Filter>Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomDragHandler.cpp">
+      <Filter>Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomFocusHandler.cpp">
+      <Filter>Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomResourceRequestHandler.cpp">
+      <Filter>Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomKeyboardHandler.cpp">
+      <Filter>Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomLifeSpanHandler.cpp">
+      <Filter>Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomLoadHandler.cpp">
+      <Filter>Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomRequestHandler.cpp">
+      <Filter>Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="JGW_ZipResResourceProvider.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JGW_Cef3MessageRouterHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_Cef3V8ExtensionHandler.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_ReflectCef3V8Handler.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

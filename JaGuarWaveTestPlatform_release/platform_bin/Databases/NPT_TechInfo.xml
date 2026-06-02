@@ -1,0 +1,3385 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by Qualcomm (Qualcomm) -->
+<ArrayOfTechInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<TechInfo>
+		<Alias>LTE</Alias>
+		<NameOnNode>LTE</NameOnNode>
+		<CompatibleVictims>
+			<string>LTE</string>
+			<string>WCDMA</string>
+			<string>CDMA</string>		
+			<string>GLONASS</string>
+			<string>GPS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>BT</string>
+			<string>WLAN</string>
+			<string>FM</string>
+			<string>GSM</string>
+			<string>AUDIO</string>
+			<string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>34 LTE_B1</Band>
+				<Chans>SSS(18000,18599,3)</Chans>
+				<Bandwidths>			        
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>43 LTE_B2</Band>
+				<Chans>SSS(18600,19199,3)</Chans>
+				<Bandwidths>
+			        <string>0 1P4MHz</string>
+			        <string>1 3MHz</string>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>44 LTE_B3</Band>
+				<Chans>SSS(19200,19949,3)</Chans>
+				<Bandwidths>
+			        <string>0 1P4MHz</string>
+			        <string>1 3MHz</string>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>42 LTE_B4</Band>
+				<Chans>SSS(19950,20399,3)</Chans>
+				<Bandwidths>
+			        <string>0 1P4MHz</string>
+			        <string>1 3MHz</string>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>45 LTE_B5</Band>
+				<Chans>SSS(20400,20649,3)</Chans>
+				<Bandwidths>
+			        <string>0 1P4MHz</string>
+			        <string>1 3MHz</string>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>46 LTE_B6</Band>
+				<Chans>SSS(20650,20749,3)</Chans>
+				<Bandwidths>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>35 LTE_B7</Band>
+				<Chans>SSS(20750,21449,3)</Chans>
+				<Bandwidths>			        
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>47 LTE_B8</Band>
+				<Chans>SSS(21450,21799,3)</Chans>
+				<Bandwidths>
+			        <string>0 1P4MHz</string>
+			        <string>1 3MHz</string>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+		        </Bandwidths>
+			</BandToChans>								
+			<BandToChans>
+				<Band>48 LTE_B9</Band>
+				<Chans>SSS(21800,22149,3)</Chans>
+				<Bandwidths>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>49 LTE_B10</Band>
+				<Chans>SSS(22150,22749,3)</Chans>
+				<Bandwidths>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>41 LTE_B11</Band>
+				<Chans>SSS(22750,22999,3)</Chans>
+				<Bandwidths>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>50 LTE_B12</Band>
+				<Chans>SSS(23000,23179,3)</Chans>
+				<Bandwidths>
+			        <string>0 1P4MHz</string>
+			        <string>1 3MHz</string>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>36 LTE_B13</Band>
+				<Chans>SSS(23180,23279,3)</Chans>
+				<Bandwidths>			        
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>			        
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>51 LTE_B14</Band>
+				<Chans>SSS(23280,23379,3)</Chans>
+				<Bandwidths>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>37 LTE_B17</Band>
+				<Chans>SSS(23730,23849,3)</Chans>
+				<Bandwidths>			        
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>			        
+		        </Bandwidths>
+			</BandToChans>	
+			<BandToChans>
+				<Band>54 LTE_B18</Band>
+				<Chans>SSS(23850,23999,3)</Chans>
+				<Bandwidths>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>55 LTE_B19</Band>
+				<Chans>SSS(24000,24149,3)</Chans>
+				<Bandwidths>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>56 LTE_B20</Band>
+				<Chans>SSS(24150,24449,3)</Chans>
+				<Bandwidths>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>57 LTE_B21</Band>
+				<Chans>SSS(24450,24599,3)</Chans>
+				<Bandwidths>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>58 LTE_B22</Band>
+				<Chans>SSS(24600,25399,3)</Chans>
+				<Bandwidths>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>59 LTE_B23</Band>
+				<Chans>SSS(25500,25699,3)</Chans>
+				<Bandwidths>
+			        <string>0 1P4MHz</string>
+			        <string>1 3MHz</string>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>60 LTE_B24</Band>
+				<Chans>SSS(25700,26039,3)</Chans>
+				<Bandwidths>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>61 LTE_B25</Band>
+				<Chans>SSS(26040,26689,3)</Chans>
+				<Bandwidths>
+			        <string>0 1P4MHz</string>
+			        <string>1 3MHz</string>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>62 LTE_B26</Band>
+				<Chans>SSS(26690,27039,3)</Chans>
+				<Bandwidths>
+			        <string>0 1P4MHz</string>
+			        <string>1 3MHz</string>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>63 LTE_B27</Band>
+				<Chans>SSS(27040,27209,3)</Chans>
+				<Bandwidths>
+			        <string>0 1P4MHz</string>
+			        <string>1 3MHz</string>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>64 LTE_B28</Band>
+				<Chans>SSS(27210,27659,3)</Chans>
+				<Bandwidths>
+			        <string>1 3MHz</string>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>65 LTE_B29</Band>
+				<Chans>SSS(9660,9769,3)</Chans>
+				<Bandwidths>
+			        <string>0 1P4MHz</string>
+			        <string>1 3MHz</string>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>66 LTE_B30</Band>
+				<Chans>SSS(27660,27759,3)</Chans>
+				<Bandwidths>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>67 LTE_B31</Band>
+				<Chans>SSS(27760,27809,3)</Chans>
+				<Bandwidths>
+			        <string>0 1P4MHz</string>
+			        <string>1 3MHz</string>
+			        <string>2 5MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>68 LTE_B32</Band>
+				<Chans>SSS(9920,10359,3)</Chans>
+				<Bandwidths>
+			        <string>0 1P4MHz</string>
+			        <string>1 3MHz</string>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>69 LTE_B33</Band>
+				<Chans>SSS(36000,36199,3)</Chans>
+				<Bandwidths>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>70 LTE_B34</Band>
+				<Chans>SSS(36200,36349,3)</Chans>
+				<Bandwidths>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>71 LTE_B35</Band>
+				<Chans>SSS(36350,36949,3)</Chans>
+				<Bandwidths>
+			        <string>0 1P4MHz</string>
+			        <string>1 3MHz</string>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>72 LTE_B36</Band>
+				<Chans>SSS(37250,37549,3)</Chans>
+				<Bandwidths>
+			        <string>0 1P4MHz</string>
+			        <string>1 3MHz</string>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>73 LTE_B37</Band>
+				<Chans>SSS(37550,37749,3)</Chans>
+				<Bandwidths>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>38 LTE_B38</Band>
+				<Chans>SSS(37750,38249,3)</Chans>
+				<Bandwidths>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>			
+			<BandToChans>
+				<Band>74 LTE_B39</Band>
+				<Chans>SSS(38250,38649,3)</Chans>
+				<Bandwidths>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>39 LTE_B40</Band>
+				<Chans>SSS(38650,39649,3)</Chans>
+				<Bandwidths>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>76 LTE_B41</Band>
+				<Chans>SSS(39650,41589,5)</Chans>
+				<Bandwidths>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>77 LTE_B42</Band>
+				<Chans>SSS(41590,43589,5)</Chans>
+				<Bandwidths>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>88 LTE_B43</Band>
+				<Chans>SSS(43590,45589,5)</Chans>
+				<Bandwidths>
+					<string>2 5MHz</string>
+					<string>3 10MHz</string>
+					<string>4 15MHz</string>
+					<string>5 20MHz</string>
+				</Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>79 LTE_B45</Band>
+				<Chans>SSS(46590,46789,5)</Chans>
+				<Bandwidths>
+					<string>2 5MHz</string>
+					<string>3 10MHz</string>
+					<string>4 15MHz</string>
+					<string>5 20MHz</string>
+				</Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>89 LTE_B46</Band>
+				<Chans>SSS(46790,54539,5)</Chans>
+				<Bandwidths>
+					<string>2 5MHz</string>
+					<string>3 10MHz</string>
+					<string>4 15MHz</string>
+					<string>5 20MHz</string>
+				</Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>95 LTE_B47</Band>
+				<Chans>SSS(54540,55239,5)</Chans>
+				<Bandwidths>
+					<string>3 10MHz</string>
+					<string>5 20MHz</string>
+				</Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>96 LTE_B48</Band>
+				<Chans>SSS(55240,56739,5)</Chans>
+				<Bandwidths>
+					<string>2 5MHz</string>
+					<string>3 10MHz</string>
+					<string>4 15MHz</string>
+					<string>5 20MHz</string>
+				</Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>97 LTE_B71</Band>
+				<Chans>SSS(133122,133471,5)</Chans>
+				<Bandwidths>
+					<string>2 5MHz</string>
+					<string>3 10MHz</string>
+					<string>4 15MHz</string>
+					<string>5 20MHz</string>
+				</Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>83 LTE_B66</Band>
+				<Chans>SSS(131972,132671,3)</Chans>
+				<Bandwidths>
+			        <string>0 1P4MHz</string>
+			        <string>1 3MHz</string>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>80 LTE_B250</Band>
+				<Chans>SSS(253644,255143,3)</Chans>
+				<Bandwidths>
+			        <string>0 1P4MHz</string>
+			        <string>1 3MHz</string>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>80 LTE_B252</Band>
+				<Chans>SSS(255242,256046,3)</Chans>
+				<Bandwidths>
+			        <string>0 1P4MHz</string>
+			        <string>1 3MHz</string>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>
+			<BandToChans>
+				<Band>82 LTE_B255</Band>
+				<Chans>SSS(261092,261896,3)</Chans>
+				<Bandwidths>
+			        <string>0 1P4MHz</string>
+			        <string>1 3MHz</string>
+			        <string>2 5MHz</string>
+			        <string>3 10MHz</string>
+			        <string>4 15MHz</string>
+			        <string>5 20MHz</string>
+		        </Bandwidths>
+			</BandToChans>			
+		</BandAndChannels>				
+		<ActiveSlots/>
+		<ConnectivityIDs/>
+		<PollTypes/>
+		<ParamsWhenAggressor/>
+		<ParamsWhenVictim>
+		  <Parameter>
+              <Name>Jammer Freq Offset</Name>
+			  <Value>0.2</Value>		  
+		  </Parameter>
+		  <Parameter>
+              <Name>FTM TX Measure</Name>
+			  <Value>0</Value>		  
+		  </Parameter>
+		</ParamsWhenVictim>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>		 
+		</MultiAggressorRoles>
+		<MaxPower>
+		 <string>23</string>		 
+		</MaxPower>
+		<VisibleOnGUI>
+		 <string>true</string>		 
+		</VisibleOnGUI>
+		<TxSupportedOnGUI>
+		 <string>true</string>		 
+		</TxSupportedOnGUI>
+	</TechInfo>
+	<TechInfo>
+		<Alias>WCDMA</Alias>
+		<NameOnNode>WCDMA</NameOnNode>
+		<CompatibleVictims>
+			<string>GSM</string>
+            <string>GLONASS</string>
+			<string>WCDMA</string>
+			<string>CDMA</string>
+			<string>GPS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>BT</string>
+			<string>WLAN</string>
+            <string>FM</string>		
+			<string>AUDIO</string>
+			<string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>9 WCDMA_IMT(BC1)</Band>
+				<Chans>SSS(9612,9888,5)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>16 WCDMA_1900B(BC2)</Band>
+				<Chans>SSS(9262,9538,5),12,37,62,87,112,137,162,187,212,237,262,287</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>25 WCDMA_1800(BC3)</Band>
+				<Chans>SSS(937,1288,5)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>28 WCDMA_(BC4)</Band>
+				<Chans>SSS(1312,1513,5),1662,1687,1712,1737,1762,1787,1812,1837,1862</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>22 WCDMA_800_Gen(BC5)</Band>
+				<Chans>SSS(4132,4233,5),782,787,807,812,837,862</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>22 WCDMA_(BC6)</Band>
+				<Chans>SSS(4162,4188,5),812,837</Chans>
+			</BandToChans>			
+			<BandToChans>
+				<Band>29 WCDMA_(BC8)</Band>
+				<Chans>SSS(2712,2863,5)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>31 WCDMA_(BC9)</Band>
+				<Chans>SSS(8762,8912,5)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>40 WCDMA_1500(BC11)</Band>
+				<Chans>SSS(3487,3562,5)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>75 WCDMA_(BC19)</Band>
+				<Chans>SSS(312,363,5),387,412,437</Chans>
+			</BandToChans>
+		</BandAndChannels>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>		 
+		</MultiAggressorRoles>
+		<MaxPower>
+		 <string>23</string>		 
+		</MaxPower>
+		<VisibleOnGUI>
+		 <string>true</string>		 
+		</VisibleOnGUI>
+		<TxSupportedOnGUI>
+		 <string>true</string>		 
+		</TxSupportedOnGUI>
+		<ParamsWhenVictim>
+		  <Parameter>
+              <Name>Jammer Freq Offset</Name>
+			  <Value>0.2</Value>		  
+		  </Parameter>
+		  <Parameter>
+              <Name>FTM TX Measure</Name>
+			  <Value>0</Value>		  
+		  </Parameter>
+		</ParamsWhenVictim>
+	</TechInfo>
+	<TechInfo>
+		<Alias>GSM</Alias>
+		<NameOnNode>GSM</NameOnNode>
+		<CompatibleVictims>
+			<string>GSM</string>
+			<string>WCDMA</string>
+			<string>CDMA</string>
+			<string>TDSCDMA</string>
+            <string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>GPS</string>
+			<string>BT</string>
+			<string>WLAN</string>
+			<string>LTE</string>
+            <string>FM</string>				
+			<string>AUDIO</string>
+			<string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>
+		</CompatibleVictims>
+		<BandAndChannels>
+		    <BandToChans>
+				<Band>18 GSM_850</Band>
+				<Chans>SSS(128,251,1)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>10 GSM_900</Band>
+				<Chans>SSS(975,1023,1),SSS(0,124,1)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>11 GSM_1800</Band>
+				<Chans>SSS(512,885,1)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>12 GSM_1900</Band>
+				<Chans>SSS(512,810,1)</Chans>
+			</BandToChans>			
+		</BandAndChannels>
+		<Bandwidths/>
+		<ActiveSlots>
+			<string>1</string>
+			<string>2</string>
+			<string>3</string>
+			<string>4</string>
+			<string>5</string>
+			<string>6</string>
+			<string>7</string>
+		</ActiveSlots>
+		<ParamsWhenAggressor>
+			<Parameter>
+				<Name>Tx Power</Name>
+				<Value>30</Value>
+			</Parameter>	
+		</ParamsWhenAggressor>
+		<ParamsWhenVictim>
+			<Parameter>
+				<Name>Victim Tx Power</Name>
+				<Value>30</Value>
+			</Parameter>
+            <Parameter>
+                <Name>Jammer Freq Offset</Name>
+			    <Value>0.2</Value>		  
+		    </Parameter>	
+            <Parameter>
+              <Name>FTM TX Measure</Name>
+			  <Value>0</Value>		  
+		  </Parameter>			
+		</ParamsWhenVictim>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>		 
+		</MultiAggressorRoles>
+		<MaxPower>
+		 <string>30</string>		 
+		</MaxPower>
+		<VisibleOnGUI>
+		 <string>true</string>		 
+		</VisibleOnGUI>
+		<TxSupportedOnGUI>
+		 <string>true</string>		 
+		</TxSupportedOnGUI>
+		<SupportedVictimChainsOnGUI>
+		 <string>0</string>
+		 <string>2</string>
+		</SupportedVictimChainsOnGUI>
+	</TechInfo>
+	<TechInfo>
+		<Alias>CDMA</Alias>
+		<NameOnNode>CDMA</NameOnNode>
+		<CompatibleVictims>
+			<string>LTE</string>
+			<string>WCDMA</string>
+			<string>CDMA</string>
+			<string>GSM</string>
+            <string>GLONASS</string>
+			<string>GPS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>BT</string>
+			<string>WLAN</string>
+            <string>FM</string>					
+			<string>AUDIO</string>
+			<string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>5 CDMA_800</Band>
+				<Chans>SSS(991,1023,5),SSS(1024,1323,5),SSS(1,799,5)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>6 CDMA_1900</Band>
+				<Chans>SSS(0,1199,5)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>8 CDMA_1800</Band>
+				<Chans>SSS(0,599,5)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>14 J_CDMA</Band>
+				<Chans>SSS(1,799,5),SSS(801,1039,5),SSS(1041,1199,5),SSS(1201,16001,5)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>17 CDMA_450</Band>
+				<Chans>SSS(1,400,5),SSS(472,871,5),SSS(1039,1473,5),SSS(1536,1715,5),SSS(1792,2016,5)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>19 CDMA_IMT</Band>
+				<Chans>SSS(0,1199,5)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>26 CDMA_1900_EXT</Band>
+				<Chans>SSS(0,1299,5)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>27 CDMA_450_EXT</Band>
+				<Chans>SSS(1,400,5),SSS(539,871,5),SSS(1536,1715,5)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>32 CDMA_BC15</Band>
+				<Chans>SSS(0,899,5)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>33 CDMA_800_SEC</Band>
+				<Chans>SSS(0,919,5)</Chans>
+			</BandToChans>
+		</BandAndChannels>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>		 
+		</MultiAggressorRoles>
+		<ParamsWhenAggressor>
+			<Parameter>
+				<Name>Tx Power</Name>
+				<Value>24</Value>
+			</Parameter>	
+		</ParamsWhenAggressor>
+		<ParamsWhenVictim>
+			<Parameter>
+				<Name>Victim Tx Power</Name>
+				<Value>24</Value>
+			</Parameter>
+            <Parameter>
+              <Name>Jammer Freq Offset</Name>
+			  <Value>0.2</Value>		  
+		  </Parameter>	
+          <Parameter>
+              <Name>FTM TX Measure</Name>
+			  <Value>0</Value>		  
+		  </Parameter>		  
+		</ParamsWhenVictim>
+		<MaxPower>
+		 <string>24</string>		 
+		</MaxPower>
+		<VisibleOnGUI>
+		 <string>true</string>		 
+		</VisibleOnGUI>
+		<TxSupportedOnGUI>
+		 <string>true</string>		 
+		</TxSupportedOnGUI>
+	</TechInfo>
+	<TechInfo>
+		<Alias>TDSCDMA</Alias>
+		<NameOnNode>TDSCDMA</NameOnNode>
+		<CompatibleVictims>
+			<string>WCDMA</string>
+			<string>CDMA</string>
+			<string>GSM</string>
+			<string>FM</string>
+			<string>WLAN</string>
+			<string>BT</string>
+			<string>GPS</string>
+			<string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>AUDIO</string>
+			<string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>90 TDSCDMA_B34</Band>
+				<Chans>SSS(10054,10121,2)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>91 TDSCDMA_B39</Band>
+				<Chans>SSS(9404,9596,2)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>92 TDSCDMA_B40</Band>
+				<Chans>SSS(11504,11996,2)</Chans>
+			</BandToChans>
+		</BandAndChannels>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>		 
+		</MultiAggressorRoles>
+		<ParamsWhenAggressor>
+			<Parameter>
+				<Name>Tx Power</Name>
+				<Value>24</Value>
+			</Parameter>	
+		</ParamsWhenAggressor>
+		<ParamsWhenVictim>
+			<Parameter>
+				<Name>Victim Tx Power</Name>
+				<Value>24</Value>
+			</Parameter>
+            <Parameter>
+              <Name>Jammer Freq Offset</Name>
+			  <Value>0.2</Value>		  
+		    </Parameter>
+            <Parameter>
+              <Name>FTM TX Measure</Name>
+			  <Value>0</Value>		  
+		  </Parameter>			
+		</ParamsWhenVictim>
+		<MaxPower>
+		 <string>24</string>		 
+		</MaxPower>
+		<VisibleOnGUI>
+		 <string>true</string>		 
+		</VisibleOnGUI>
+		<TxSupportedOnGUI>
+		 <string>false</string>		 
+		</TxSupportedOnGUI>
+	</TechInfo>
+	<TechInfo>
+		<Alias>WLAN</Alias>
+		<NameOnNode>WLAN</NameOnNode>
+		<CompatibleVictims>
+			<string>CDMA</string>
+			<string>GPS</string>
+			<string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>GSM</string>
+			<string>LTE</string>
+			<string>WCDMA</string>
+            <string>FM</string>
+            <string>TDSCDMA</string>				
+			<string>AUDIO</string>
+			<string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>100 2400MHz</Band>
+				<Chans>SSS(1,14,4)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>101 5000MHz Low</Band>
+				<Chans>SSS(36,64,4)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>101 5000MHz Mid</Band>
+				<Chans>SSS(100,140,4)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>101 5000MHz Hi</Band>
+				<Chans>SSS(149,165,4)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>101 5000MHz 11p</Band>
+				<Chans>SSS(172,184,4)</Chans>
+			</BandToChans>
+		</BandAndChannels>
+		<Bandwidths/>
+		<ActiveSlots/>
+		<ConnectivityIDs>
+			<string>1 WCN36xx</string>			
+			<string>2 QCA61xx</string>
+			<string>3 WCN39xx</string>
+            <string>3 WCN39xxOnSDM845</string>			
+		</ConnectivityIDs>
+		<PollTypes/>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>
+		 <string>Agg3</string>
+		</MultiAggressorRoles>
+		<ParamsWhenAggressor>
+		  <Parameter>
+			  <Name>Tx Power</Name>
+			  <Value>18</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Aggressor ADB pre Ref Command Sequence</Name>
+			  <Value>/c adb root &amp;&amp; adb wait-for-device#/c adb root &amp;&amp; adb wait-for-device#36xx /c adb shell insmod /system/lib/modules/wlan.ko con_mode=5#61xx /c adb shell insmod /system/lib/modules/wlan.ko con_mode=5#61xx /c adb shell ftmdaemon -n#36xx /c adb shell ptt_socket_app -v -d -f#39xx /c adb shell rmmod wlan#39xx /c adb shell insmod /system/lib/modules/wlan.ko#39xx /c adb shell insmod /vendor/lib/modules/qca_cld3_wlan.ko#39xx /c adb shell insmod /vendor/lib/modules/qca_cld3/qca_cld3_wlan.ko#39xx /c adb shell ifconfig wlan0 up#39xx /c adb shell "echo 5 > /sys/module/wlan/parameters/con_mode"#39xx /c adb shell ftmdaemon -n -dd</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Aggressor ADB FTM Daemon Check Command Sequence</Name>
+			  <Value>36xx cmd.exe /c adb shell ps ptt | findstr "ptt_socket_app" &amp;&amp; Echo conditiontrue#36xx cmd.exe /c adb shell lsmod | findstr "wlan" &amp;&amp; Echo conditiontrue#61xx cmd.exe /c adb shell ps ftmdaemon | findstr "ftmdaemon" &amp;&amp; Echo conditiontrue#61xx cmd.exe /c adb shell lsmod | findstr "wlan" &amp;&amp; Echo conditiontrue#39xx cmd.exe /c adb shell lsmod | findstr "wlan" &amp;&amp; Echo conditiontrue#39xx cmd.exe /c adb shell pidof ftmdaemon | findstr "1 2 3 4 5 6 7 8 9 0" &amp;&amp; ECHO conditiontrue</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>eepFName</Name>
+			  <Value>C:\Qualcomm\WCN\ProdTests\refDesigns\boardData\fakeBoardData_AR6320.bin</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>On Device init command sequence</Name>
+			  <Value>#39xx insmod /system/lib/modules/wlan.ko#39xx insmod /vendor/lib/modules/qca_cld3_wlan.ko#39xx insmod /vendor/lib/modules/qca_cld3/qca_cld3_wlan.ko#39xx ifconfig wlan0 up#39xx echo 5 > /sys/module/wlan/parameters/con_mode</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>On Device myftm arguments</Name>
+			  <Value>-J -I 0 -M 1 -r 15 -c 0 -p 18 -a 3</Value>
+		  </Parameter>
+		</ParamsWhenAggressor>
+		<ParamsWhenVictim>
+		  <Parameter>
+			  <Name>Victim ADB pre Ref Command Sequence</Name>
+			  <Value>/c adb root &amp;&amp; adb wait-for-device#/c adb root &amp;&amp; adb wait-for-device#36xx /c adb shell insmod /system/lib/modules/wlan.ko con_mode=5#61xx /c adb shell insmod /system/lib/modules/wlan.ko con_mode=5#61xx /c adb shell ftmdaemon -n#36xx /c adb shell ptt_socket_app -v -d -f#39xx /c adb shell rmmod wlan#39xx /c adb shell insmod /system/lib/modules/wlan.ko#39xx /c adb shell insmod /vendor/lib/modules/qca_cld3_wlan.ko#39xx /c adb shell insmod /vendor/lib/modules/qca_cld3/qca_cld3_wlan.ko#39xx /c adb shell ifconfig wlan0 up#39xx /c adb shell "echo 5 > /sys/module/wlan/parameters/con_mode"#39xx /c adb shell ftmdaemon -n -dd</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Victim ADB FTM Daemon Check Command Sequence</Name>
+			  <Value>36xx cmd.exe /c adb shell ps ptt | findstr "ptt_socket_app" &amp;&amp; Echo conditiontrue#36xx cmd.exe /c adb shell lsmod | findstr "wlan" &amp;&amp; Echo conditiontrue#61xx cmd.exe /c adb shell ps ftmdaemon | findstr "ftmdaemon" &amp;&amp; Echo conditiontrue#61xx cmd.exe /c adb shell lsmod | findstr "wlan" &amp;&amp; Echo conditiontrue#39xx cmd.exe /c adb shell lsmod | findstr "wlan" &amp;&amp; Echo conditiontrue#39xx cmd.exe /c adb shell pidof ftmdaemon | findstr "1 2 3 4 5 6 7 8 9 0" &amp;&amp; Echo conditiontrue</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>On Device init command sequence</Name>
+			  <Value>#39xx insmod /system/lib/modules/wlan.ko#39xx insmod /vendor/lib/modules/qca_cld3_wlan.ko#39xx insmod /vendor/lib/modules/qca_cld3/qca_cld3_wlan.ko#39xx ifconfig wlan0 up#39xx echo 5 > /sys/module/wlan/parameters/con_mode</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>eepFName</Name>
+			  <Value>C:\Qualcomm\WCN\ProdTests\refDesigns\boardData\fakeBoardData_AR6320.bin</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Number of Measurements</Name>
+			  <Value>5</Value>
+		  </Parameter>
+		  <Parameter>		  
+		      <Name>WCN3990 2G Rx Gain Index</Name>
+			  <Value>28</Value>
+			  <CompatibleConnID>WCN39xx</CompatibleConnID>
+		  </Parameter>
+		  <Parameter>		  
+		      <Name>WCN3990 5G Rx Gain Index</Name>
+			  <Value>40</Value>
+			  <CompatibleConnID>WCN39xx</CompatibleConnID>
+		  </Parameter>
+		  <Parameter>		  
+		      <Name>Victim1 2G xLNA State</Name>
+			  <Value>0</Value>
+			  <CompatibleConnID>WCN39xx</CompatibleConnID>
+		  </Parameter>
+		  <Parameter>		  
+		      <Name>Victim1 5G xLNA State</Name>
+			  <Value>1</Value>
+			  <CompatibleConnID>WCN39xx</CompatibleConnID>
+		  </Parameter>
+          <Parameter>		  
+		      <Name>WCN3990 2G Rx Gain Index</Name>
+			  <Value>1</Value>
+			  <CompatibleConnID>WCN39xxOnSDM845</CompatibleConnID>
+		  </Parameter>
+		  <Parameter>		  
+		      <Name>WCN3990 5G Rx Gain Index</Name>
+			  <Value>7</Value>
+			  <CompatibleConnID>WCN39xxOnSDM845</CompatibleConnID>
+		  </Parameter>
+		  <Parameter>		  
+		      <Name>Victim1 2G xLNA State</Name>
+			  <Value>0</Value>
+			  <CompatibleConnID>WCN39xxOnSDM845</CompatibleConnID>
+		  </Parameter>
+		  <Parameter>		  
+		      <Name>Victim1 5G xLNA State</Name>
+			  <Value>1</Value>
+			  <CompatibleConnID>WCN39xxOnSDM845</CompatibleConnID>
+		  </Parameter>
+		</ParamsWhenVictim>
+		<MaxPower>
+		 <string>18</string>		 
+		</MaxPower>		
+		<VisibleOnGUI>
+		 <string>true</string>		 
+		</VisibleOnGUI>
+	</TechInfo>
+	<TechInfo>
+		<Alias>WLAN_DBS</Alias>
+		<NameOnNode>WLAN</NameOnNode>
+		<CompatibleVictims>
+			<string>CDMA</string>
+			<string>GPS</string>
+			<string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>GSM</string>
+			<string>LTE</string>
+			<string>WCDMA</string>
+            <string>FM</string>
+            <string>TDSCDMA</string>				
+			<string>AUDIO</string>
+			<string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>
+		</CompatibleVictims>
+		<BandAndChannels>	
+            <BandToChans>
+				<Band>101 5000MHz Low + 2.4GHz</Band>
+				<Chans>SSS(36,64,4)</Chans>
+			</BandToChans>		
+		</BandAndChannels>
+		<Bandwidths/>
+		<ActiveSlots/>
+		<ConnectivityIDs>			
+			<string>3 WCN39xx</string>
+            <string>3 WCN39xxOnSDM845</string>			
+		</ConnectivityIDs>
+		<PollTypes/>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>
+		 <string>Agg3</string>
+		</MultiAggressorRoles>
+		<ParamsWhenAggressor>
+		  <Parameter>
+			  <Name>Tx Power</Name>
+			  <Value>18</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Aggressor ADB pre Ref Command Sequence</Name>
+			  <Value>/c adb root &amp;&amp; adb wait-for-device#/c adb root &amp;&amp; adb wait-for-device#36xx /c adb shell insmod /system/lib/modules/wlan.ko con_mode=5#61xx /c adb shell insmod /system/lib/modules/wlan.ko con_mode=5#61xx /c adb shell ftmdaemon -n#36xx /c adb shell ptt_socket_app -v -d -f#39xx /c adb shell rmmod wlan#39xx /c adb shell insmod /system/lib/modules/wlan.ko#39xx /c adb shell insmod /vendor/lib/modules/qca_cld3_wlan.ko#39xx /c adb shell insmod /vendor/lib/modules/qca_cld3/qca_cld3_wlan.ko#39xx /c adb shell ifconfig wlan0 up#39xx /c adb shell "echo 5 > /sys/module/wlan/parameters/con_mode"#39xx /c adb shell ftmdaemon -n -dd</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Aggressor ADB FTM Daemon Check Command Sequence</Name>
+			  <Value>36xx cmd.exe /c adb shell ps ptt | findstr "ptt_socket_app" &amp;&amp; Echo conditiontrue#36xx cmd.exe /c adb shell lsmod | findstr "wlan" &amp;&amp; Echo conditiontrue#61xx cmd.exe /c adb shell ps ftmdaemon | findstr "ftmdaemon" &amp;&amp; Echo conditiontrue#61xx cmd.exe /c adb shell lsmod | findstr "wlan" &amp;&amp; Echo conditiontrue#39xx cmd.exe /c adb shell lsmod | findstr "wlan" &amp;&amp; Echo conditiontrue#39xx cmd.exe /c adb shell pidof ftmdaemon | findstr "1 2 3 4 5 6 7 8 9 0" &amp;&amp; ECHO conditiontrue</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Aggressor Set PHY RF Mode</Name>
+			  <Value>1 DBS</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>On Device init command sequence</Name>
+			  <Value>#39xx insmod /system/lib/modules/wlan.ko#39xx insmod /vendor/lib/modules/qca_cld3_wlan.ko#39xx insmod /vendor/lib/modules/qca_cld3/qca_cld3_wlan.ko#39xx ifconfig wlan0 up#39xx echo 5 > /sys/module/wlan/parameters/con_mode</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Aggressor RF Mode</Name>
+			  <Value>101 5000MHz Low</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Aggressor WLAN mode</Name>
+			  <Value>3 11ac</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Aggressor WLAN preamble</Name>
+			  <Value>2 PREAMBLE_MIXED_11N</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Aggressor Set PHY Id</Name>
+			  <Value>0 A</Value>
+		  </Parameter>		  
+		  <Parameter>
+			  <Name>WLAN txChainMask</Name>
+			  <Value>2 WLAN_CHAIN_2</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Aggressor WLAN rate</Name>
+			  <Value>28 RATE_AC_MCS_0_20</Value>
+		  </Parameter>		  
+		  <Parameter>
+			  <Name>Aggressor WLAN mode TX2</Name>
+			  <Value>3 11ac</Value>
+		  </Parameter>
+		   <Parameter>
+			  <Name>Aggressor WLAN preamble TX2</Name>
+			  <Value>2 PREAMBLE_MIXED_11N</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Aggressor RF Mode TX2</Name>
+			  <Value>100 2300MHz</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Aggressor Set PHY Id TX2</Name>
+			  <Value>1 B</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Aggressor WLAN rate TX2</Name>
+			  <Value>28 RATE_AC_MCS_0_20</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>WLAN txChainMask TX2</Name>
+			  <Value>1 WLAN_CHAIN_1</Value>
+		  </Parameter>		  
+		   <Parameter>
+			  <Name>Aggressor Channel List TX2</Name>
+			  <Value>SSS(1,14,4)</Value>
+		  </Parameter>		  		  
+		  <Parameter>
+			  <Name>On Device myftm arguments</Name>
+			  <Value>-J -I 0 -a 2 -X 11:12:13:14:15:16 -Y 21:22:23:24:25:26 -N 31:32:33:34:35:36</Value> <!-- 5GHz Channel arguments-->
+		  </Parameter>
+		  <Parameter>
+			  <Name>On Device myftm arguments TX2</Name>
+			  <Value>-J -I 1 -a 1 -X 51:52:53:54:55:56 -Y 61:62:63:64:65:66 -N 71:72:73:74:75:76</Value> <!-- 2.4GHz Channel arguments-->
+		  </Parameter>		  
+		</ParamsWhenAggressor>
+		<ParamsWhenVictim>
+		</ParamsWhenVictim>
+		<MaxPower>
+		 <string>18</string>		 
+		</MaxPower>		
+		<VisibleOnGUI>
+		 <string>false</string>		 
+		</VisibleOnGUI>
+	</TechInfo>
+	<TechInfo>
+		<Alias>BT</Alias>
+		<NameOnNode>BT</NameOnNode>
+		<CompatibleVictims>
+			<string>CDMA</string>
+			<string>GPS</string>
+			<string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>GSM</string>
+			<string>LTE</string>
+			<string>WCDMA</string>
+            <string>FM</string>
+			<string>TDSCDMA</string>
+			<string>AUDIO</string>
+			<string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>13 2400MHz</Band>
+				<Chans>SSS(0,78,1)</Chans>
+			</BandToChans>
+		</BandAndChannels>
+		<ConnectivityIDs>
+			<string>1 WCN36xx</string>
+			<string>2 WCN61xx</string>
+			<string>3 WCN39xx</string>
+		</ConnectivityIDs>
+		<ParamsWhenAggressor>
+		  <Parameter>
+			  <Name>Tx Power</Name>
+			  <Value>9</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Aggressor ADB pre Ref Command Sequence</Name>
+			  <Value>/c adb root &amp;&amp; adb wait-for-device#/c adb root &amp;&amp; adb wait-for-device#36xx /c adb shell ftmdaemon -n#61xx /c adb shell ftmdaemon -n#39xx /c adb shell ftmdaemon -n</Value>
+		  </Parameter>
+		</ParamsWhenAggressor>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>
+         <string>Agg3</string>		 
+		</MultiAggressorRoles>
+		<ParamsWhenVictim>
+		  <Parameter>
+			  <Name>Victim ADB pre Ref Command Sequence</Name>
+			  <Value>/c adb root &amp;&amp; adb wait-for-device#/c adb root &amp;&amp; adb wait-for-device#36xx /c adb shell ftmdaemon -n#61xx /c adb shell ftmdaemon -n#39xx /c adb shell ftmdaemon -n</Value>
+		  </Parameter>
+		</ParamsWhenVictim>
+		<MaxPower>
+		 <string>9</string>		 
+		</MaxPower>
+		<VisibleOnGUI>
+		 <string>true</string>		 
+		</VisibleOnGUI>
+	</TechInfo>
+	<TechInfo>
+		<Alias>NFC</Alias>
+		<NameOnNode>NFC</NameOnNode>
+		<CompatibleVictims>
+			<string>CDMA</string>
+			<string>GPS</string>
+			<string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>GSM</string>
+			<string>LTE</string>
+			<string>WCDMA</string>
+			<string>BT</string>
+			<string>WLAN</string>
+            <string>FM</string>
+			<string>TDSCDMA</string>
+			<string>AUDIO</string>
+			<string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 NFC</Band>
+				<Chans></Chans>
+			</BandToChans>
+		</BandAndChannels>
+		<PollTypes>
+			<string>0 POLL A</string>
+			<string>1 POLL B</string>
+			<string>2 POLL F</string>
+			<string>3 POLL ALL</string>
+			<string>4 CW</string>
+		</PollTypes>
+		<MultiAggressorRoles>		 
+		 <string>Agg2</string>
+		 <string>Agg3</string>
+		</MultiAggressorRoles>
+		<ParamsWhenAggressor>		  
+		  <Parameter>
+			  <Name>Aggressor ADB pre Ref Command Sequence</Name>
+			  <Value>/c adb root &amp;&amp; adb wait-for-device#/c adb root &amp;&amp; adb wait-for-device#/c adb shell ftmdaemon -n</Value>
+		  </Parameter>
+		</ParamsWhenAggressor>
+		<VisibleOnGUI>
+		 <string>false</string>		 
+		</VisibleOnGUI>
+	</TechInfo>
+	<TechInfo>
+		<Alias>GPS</Alias>
+		<NameOnNode>GPS</NameOnNode>
+		<CompatibleVictims />
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 GPS</Band>
+				<Chans>SSS(0,0,1)</Chans>
+			</BandToChans>
+		</BandAndChannels>
+		<ParamsWhenVictim><!--enter only enums/integers for values. 0 for false and 1 for true -->
+		  <Parameter>
+			  <Name>Constellation Type</Name>
+			  <Value>0</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Collect Mode</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Test Equipment Automation type</Name>
+			  <Value>0</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>GLO hardware channel to be used</Name>
+			  <Value>1</Value>			  
+		  </Parameter>
+		  <Parameter>
+			  <Name>Signal Generator Offset</Name>
+			  <Value>100</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Signal Generator Level</Name>
+			  <Value>-120</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>kilo samples</Name>
+			  <Value>256</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Number of Incoherent Integrations</Name>
+			  <Value>10</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Auto-switch GNSS Ext LNA mode</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Disable Auto OTFSA?</Name>
+			  <Value>0</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Generate FFT bin files</Name>
+			  <Value>0</Value>
+		  </Parameter>		  
+		</ParamsWhenVictim>
+		<VisibleOnGUI>
+		 <string>true</string>		 
+		</VisibleOnGUI>
+	</TechInfo>
+	<TechInfo>
+		<Alias>GLONASS</Alias>
+		<NameOnNode>GPS</NameOnNode>
+		<CompatibleVictims />
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 GPS (GLONASS)</Band>
+				<Chans>SSS(-7,6,1)</Chans>
+			</BandToChans>
+		</BandAndChannels>
+		<ParamsWhenVictim>
+		  <Parameter>		      
+			  <Name>Constellation Type</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Collect Mode</Name>
+			  <Value>3</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Test Equipment Automation type</Name>
+			  <Value>0</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>GLO hardware channel to be used</Name>
+			  <Value>1</Value>
+		  </Parameter>
+          <Parameter>
+			  <Name>Signal Generator Offset</Name>
+			  <Value>50</Value>
+		  </Parameter>		  
+		  <Parameter>
+		      <Name>Signal Generator Level</Name>
+			  <Value>-120</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>kilo samples</Name>
+			  <Value>256</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Number of Incoherent Integrations</Name>
+			  <Value>10</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Auto-switch GNSS Ext LNA mode</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Disable Auto OTFSA?</Name>
+			  <Value>0</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Generate FFT bin files</Name>
+			  <Value>0</Value>
+		  </Parameter>	
+		</ParamsWhenVictim>
+		<VisibleOnGUI>
+		 <string>true</string>		 
+		</VisibleOnGUI>
+	</TechInfo>
+    <TechInfo>
+		<Alias>BDS(BEIDOU)</Alias>
+		<NameOnNode>GPS</NameOnNode>
+		<CompatibleVictims />
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 GPS (BDS)</Band>
+				<Chans>SSS(0,0,1)</Chans>
+			</BandToChans>
+		</BandAndChannels>
+		<ParamsWhenVictim>
+		  <Parameter>		      
+			  <Name>Constellation Type</Name>
+			  <Value>2</Value>
+		  </Parameter>		
+          <Parameter>
+			  <Name>Collect Mode</Name>
+			  <Value>17</Value>
+		  </Parameter>		  
+		  <Parameter>
+			  <Name>Test Equipment Automation type</Name>
+			  <Value>0</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Signal Generator Offset</Name>
+			  <Value>200</Value>
+		  </Parameter>
+          <Parameter>
+		      <Name>Signal Generator Level</Name>
+			  <Value>-120</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>kilo samples</Name>
+			  <Value>256</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Number of Incoherent Integrations</Name>
+			  <Value>10</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Auto-switch GNSS Ext LNA mode</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Disable Auto OTFSA?</Name>
+			  <Value>0</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Generate FFT bin files</Name>
+			  <Value>0</Value>
+		  </Parameter>			  
+		</ParamsWhenVictim>
+		<VisibleOnGUI>
+		 <string>true</string>		 
+		</VisibleOnGUI>
+	</TechInfo>
+    <TechInfo>
+		<Alias>GPS_NBIQ</Alias>
+		<NameOnNode>GPS</NameOnNode>
+		<CompatibleVictims />
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 GPSNBIQ</Band>
+				<Chans>SSS(0,0,1)</Chans>
+			</BandToChans>
+		</BandAndChannels>
+		<ParamsWhenVictim><!--enter only enums/integers for values. 0 for false and 1 for true -->
+		  <Parameter>
+			  <Name>Constellation Type</Name>
+			  <Value>0</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Collect Mode</Name>
+			  <Value>5</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Test Equipment Automation type</Name>
+			  <Value>0</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>GLO hardware channel to be used</Name>
+			  <Value>1</Value>			  
+		  </Parameter>
+		  <Parameter>
+			  <Name>Signal Generator Offset</Name>
+			  <Value>100</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Signal Generator Level</Name>
+			  <Value>-110</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>kilo samples</Name>
+			  <Value>60</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>IQ Capture Timeout</Name>
+			  <Value>60000</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Logging rate of RF status log</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Number of Incoherent Integrations</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Auto-switch GNSS Ext LNA mode</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Disable Auto OTFSA?</Name>
+			  <Value>0</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Generate FFT bin files</Name>
+			  <Value>0</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Generate IQ text files</Name>
+			  <Value>0</Value>
+		  </Parameter>
+		</ParamsWhenVictim>
+		<VisibleOnGUI>
+		 <string>false</string>		 
+		</VisibleOnGUI>
+	</TechInfo>	
+	<TechInfo>
+		<Alias>GNSS_ADCIQ</Alias>
+		<NameOnNode>GPS</NameOnNode>
+		<CompatibleVictims />
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 GPSADCIQ</Band>
+				<Chans>SSS(0,0,1)</Chans>
+			</BandToChans>
+		</BandAndChannels>
+		<ParamsWhenVictim><!--enter only enums/integers for values. 0 for false and 1 for true -->
+		  <Parameter>
+			  <Name>Constellation Type</Name>
+			  <Value>0</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Collect Mode</Name>
+			  <Value>16</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Test Equipment Automation type</Name>
+			  <Value>0</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>GLO hardware channel to be used</Name>
+			  <Value>1</Value>			  
+		  </Parameter>
+		  <Parameter>
+			  <Name>Signal Generator Offset</Name>
+			  <Value>100</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Signal Generator Level</Name>
+			  <Value>-120</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>kilo samples</Name>
+			  <Value>256</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>IQ Capture Timeout</Name>
+			  <Value>25000</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Logging rate of RF status log</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Number of Incoherent Integrations</Name>
+			  <Value>20</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Auto-switch GNSS Ext LNA mode</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Disable Auto OTFSA?</Name>
+			  <Value>0</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Generate FFT bin files</Name>
+			  <Value>0</Value>
+		  </Parameter>
+          <Parameter>
+		      <Name>Generate IQ text files</Name>
+			  <Value>0</Value>
+		  </Parameter>		  
+		</ParamsWhenVictim>
+		<VisibleOnGUI>
+		 <string>false</string>		 
+		</VisibleOnGUI>
+	</TechInfo>
+	<TechInfo>
+		<Alias>GALILEO</Alias>
+		<NameOnNode>GPS</NameOnNode>
+		<CompatibleVictims />
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 GAL</Band>
+				<Chans>SSS(0,0,1)</Chans>
+			</BandToChans>
+		</BandAndChannels>
+		<ParamsWhenVictim><!--enter only enums/integers for values. 0 for false and 1 for true -->
+		  <Parameter>
+			  <Name>Constellation Type</Name>
+			  <Value>3</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Collect Mode</Name>
+			  <Value>18</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Test Equipment Automation type</Name>
+			  <Value>0</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>GLO hardware channel to be used</Name>
+			  <Value>1</Value>			  
+		  </Parameter>
+		  <Parameter>
+			  <Name>Signal Generator Offset</Name>
+			  <Value>764</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Signal Generator Level</Name>
+			  <Value>-120</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>kilo samples</Name>
+			  <Value>256</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Number of Incoherent Integrations</Name>
+			  <Value>10</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Auto-switch GNSS Ext LNA mode</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Disable Auto OTFSA?</Name>
+			  <Value>0</Value>
+		  </Parameter>
+		  <Parameter>
+		      <Name>Generate FFT bin files</Name>
+			  <Value>0</Value>
+		  </Parameter>		  
+		</ParamsWhenVictim>
+		<VisibleOnGUI>
+		 <string>true</string>		 
+		</VisibleOnGUI>
+	</TechInfo>
+	<TechInfo>
+		<Alias>Audio Playback</Alias>
+		<NameOnNode>MM</NameOnNode>
+		<CompatibleVictims>
+			<string>CDMA</string>
+			<string>GPS</string>
+			<string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>GSM</string>
+			<string>LTE</string>
+			<string>WCDMA</string>
+			<string>WLAN</string>
+			<string>BT</string>
+            <string>FM</string>
+			<string>TDSCDMA</string>
+            <string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>			
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 Audio Playback</Band>
+				<Chans></Chans>
+			</BandToChans>            			
+		</BandAndChannels>
+		<Bandwidths/>
+		<ActiveSlots/>
+		<ConnectivityIDs/>
+		<PollTypes/>
+		<ParamsWhenAggressor>	
+          <Parameter>
+            <Name>Multimedia Test Type</Name>
+            <Value>0</Value>  <!-- 0 for NATIVE + shell command sequence On Device AGGRESSOR,  USE 2 for AGGRESSOR On Device SHELL COMMAND-->
+          </Parameter>		
+		  <Parameter>
+			  <Name>Create Config file</Name>
+			  <Value>0 Disable</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file path</Name>
+			  <Value>C:\Qualcomm\QDART\NPTConfig\</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file name</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file text</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Command prefix</Name>
+			  <Value>cmd.exe /c</Value>			  
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre Ref Command Sequence</Name>
+			  <Value>adb wait-for-device#
+adb root &amp;&amp; adb wait-for-device#
+adb remount#
+adb push C:\Qualcomm\QDART\NPTConfig\sample.mp3  /sdcard/sample.mp3#
+adb shell am force-stop com.android.music#
+adb shell am kill-all#
+adb shell input keyevent 4#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; adb shell input keyevent 26#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; Echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED FOR AUDIO AGGRESSOR. PLEASE MANUALLY TURN IT OFF</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre NPT Command Sequence</Name>
+			  <Value>adb shell am start -a android.intent.action.VIEW -d "file:///sdcard/sample.mp3" -t "audio/*" -n "com.android.music/.AudioPreview"</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM post NPT Command Sequence</Name>
+			  <Value>adb shell am force-stop com.android.music#
+adb shell am kill-all#
+adb shell input keyevent 4 &amp;&amp; adb shell input keyevent 4#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; adb shell input keyevent 26#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; Echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED FOR AUDIO AGGRESSOR. PLEASE MANUALLY TURN IT OFF</Value>
+		  </Parameter>		    
+		  <Parameter>
+			  <Name>Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>
+          <Parameter>
+            <Name>On Device pre Ref Shell Command Sequence</Name>
+            <Value>dumpsys power | grep "mWakefulness=Awake" &amp;&amp; input keyevent 26#
+			dumpsys power | grep "mWakefulness=Awake" &amp;&amp; echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+          </Parameter>
+          <Parameter>
+            <Name>On Device pre NPT Shell Command Sequence</Name>
+            <Value>dumpsys power | grep "mWakefulness=Awake" || input keyevent 26 #
+                   dumpsys window | grep "mDreamingLockscreen=true" &amp;&amp; input keyevent 82#
+			  settings put system screen_off_timeout 86400000#
+			  dumpsys power | grep "mWakefulness=Awake" || echo ERROR: AUTOMATION TO TURN ON DISPLAY FAILED. PLEASE MANUALLY TURN IT ON AND SET TIMEOUT TO MAX#
+			  dumpsys window | grep "mDreamingLockscreen=false" || echo ERROR: AUTOMATION TO UNLOCK THE DISPLAY FAILED. PLEASE MANUALLY SET THE SECURITY TO 'NONE'</Value>
+          </Parameter>
+          <Parameter>
+            <Name>On Device post NPT Shell Command Sequence</Name>
+            <Value>settings put system screen_off_timeout 60000#
+			  dumpsys power | grep "mWakefulness=Awake" &amp;&amp; input keyevent 26#
+			  </Value>
+          </Parameter>				  
+		  <Parameter>
+			  <Name>On Device Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>On Device MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>		
+		</ParamsWhenAggressor>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>
+		 <string>Agg3</string>
+		</MultiAggressorRoles>
+		<AggDependencyFile>		 	 
+		</AggDependencyFile>
+		<ParamsWhenVictim/>
+		<VisibleOnGUI>
+		 <string>false</string>		 
+		</VisibleOnGUI>
+	</TechInfo>
+    <TechInfo>
+		<Alias>Video Playback</Alias>
+		<NameOnNode>MM</NameOnNode>
+		<CompatibleVictims>
+			<string>CDMA</string>
+			<string>GPS</string>
+			<string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>GSM</string>
+			<string>LTE</string>
+			<string>WCDMA</string>
+			<string>WLAN</string>
+			<string>BT</string>
+            <string>FM</string>
+			<string>TDSCDMA</string>		
+            <string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>			
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 Video Playback</Band>
+				<Chans></Chans>
+			</BandToChans>
+		</BandAndChannels>
+		<Bandwidths/>
+		<ActiveSlots/>
+		<ConnectivityIDs/>
+		<PollTypes/>
+		<ParamsWhenAggressor>
+		  <Parameter>
+            <Name>Multimedia Test Type</Name>
+            <Value>0</Value>  <!-- 0 for NATIVE + shell command sequence On Device AGGRESSOR,  USE 2 for AGGRESSOR On Device SHELL COMMAND-->
+          </Parameter>	
+		  <Parameter>
+			  <Name>Create Config file</Name>
+			  <Value>0 Disable</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file path</Name>
+			  <Value>C:\Qualcomm\QDART\NPTConfig\</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file name</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file text</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Command prefix</Name>
+			  <Value>cmd.exe /c</Value>			  
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre Ref Command Sequence</Name>
+			  <Value>adb wait-for-device#
+adb root &amp;&amp; adb wait-for-device#
+adb remount#
+adb push C:\Qualcomm\QDART\NPTConfig\sample.3gp  /sdcard/sample.3gp#
+adb shell am force-stop com.android.gallery3d#
+adb shell am kill-all#
+adb shell input keyevent 4#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; adb shell input keyevent 26#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; Echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre NPT Command Sequence</Name>
+			  <Value>(adb shell dumpsys power | findstr "mWakefulness=Awake" || adb shell input keyevent 26) &amp; (adb shell dumpsys window | findstr "mDreamingLockscreen=true" &amp;&amp; adb shell input keyevent 82)#
+adb shell settings put system screen_off_timeout 86400000#
+adb shell dumpsys power | findstr "mWakefulness=Awake" || Echo ERROR: AUTOMATION TO TURN ON DISPLAY FAILED. PLEASE MANUALLY TURN IT ON AND SET TIMEOUT TO MAX#
+adb shell dumpsys window | findstr "mDreamingLockscreen=false" || Echo ERROR: AUTOMATION TO UNLOCK THE DISPLAY FAILED. PLEASE MANUALLY SET THE SECURITY TO 'NONE'#
+adb shell am start -a android.intent.action.VIEW -d "file:///sdcard/sample.3gp" -t "video/*" -n "com.android.gallery3d/.app.MovieActivity"</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM post NPT Command Sequence</Name>
+			  <Value>adb shell input keyevent 23#
+adb shell input keyevent 4#
+adb shell settings put system screen_off_timeout 60000#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; adb shell input keyevent 26#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; Echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>		
+		  <Parameter>
+            <Name>On Device pre Ref Shell Command Sequence</Name>
+            <Value>dumpsys power | grep "mWakefulness=Awake" &amp;&amp; input keyevent 26#
+			dumpsys power | grep "mWakefulness=Awake" &amp;&amp; echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+          </Parameter>
+          <Parameter>
+            <Name>On Device pre NPT Shell Command Sequence</Name>
+            <Value>dumpsys power | grep "mWakefulness=Awake" || input keyevent 26 #
+                   dumpsys window | grep "mDreamingLockscreen=true" &amp;&amp; input keyevent 82#
+			  settings put system screen_off_timeout 86400000#
+			  dumpsys power | grep "mWakefulness=Awake" || echo ERROR: AUTOMATION TO TURN ON DISPLAY FAILED. PLEASE MANUALLY TURN IT ON AND SET TIMEOUT TO MAX#
+			  dumpsys window | grep "mDreamingLockscreen=false" || echo ERROR: AUTOMATION TO UNLOCK THE DISPLAY FAILED. PLEASE MANUALLY SET THE SECURITY TO 'NONE'</Value>
+          </Parameter>
+          <Parameter>
+            <Name>On Device post NPT Shell Command Sequence</Name>
+            <Value>settings put system screen_off_timeout 60000#
+			  dumpsys power | grep "mWakefulness=Awake" &amp;&amp; input keyevent 26#
+			  </Value>
+          </Parameter>				  
+		  <Parameter>
+			  <Name>On Device Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>On Device MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>		
+		</ParamsWhenAggressor>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>
+		 <string>Agg3</string>
+		</MultiAggressorRoles>
+		<AggDependencyFile>		 		 
+		</AggDependencyFile>
+		<ParamsWhenVictim/>
+		<VisibleOnGUI>
+		 <string>false</string>		 
+		</VisibleOnGUI>
+	</TechInfo>
+    <TechInfo>
+		<Alias>Video Playback MSM8998</Alias>
+		<NameOnNode>MM</NameOnNode>
+		<CompatibleVictims>
+			<string>CDMA</string>
+			<string>GPS</string>
+			<string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>GSM</string>
+			<string>LTE</string>
+			<string>WCDMA</string>
+			<string>WLAN</string>
+			<string>BT</string>
+            <string>FM</string>
+			<string>TDSCDMA</string>		
+            <string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>			
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 Video Playback MSM8998</Band>
+				<Chans></Chans>
+			</BandToChans>		
+		</BandAndChannels>
+		<Bandwidths/>
+		<ActiveSlots/>
+		<ConnectivityIDs/>
+		<PollTypes/>
+		<ParamsWhenAggressor>
+		  <Parameter>
+			  <Name>Create Config file</Name>
+			  <Value>0 Disable</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file path</Name>
+			  <Value>C:\Qualcomm\QDART\NPTConfig\</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file name</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file text</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Command prefix</Name>
+			  <Value>cmd.exe /c</Value>			  
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre Ref Command Sequence</Name>
+			  <Value>adb wait-for-device#
+adb root &amp;&amp; adb wait-for-device#
+adb remount#
+adb shell "mkdir /sdcard/movies/testvideo"#
+adb push C:\Qualcomm\QDART\NPTConfig\sample.3gp  /sdcard/movies/testvideo/sample.3gp#
+adb shell "chmod 755 /sdcard/movies/testvideo/*"#
+adb shell am force-stop org.codeaurora.gallery#
+adb shell am kill-all#
+adb shell input keyevent 4#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; adb shell input keyevent 26#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; Echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre NPT Command Sequence</Name>
+			  <Value>(adb shell dumpsys power | findstr "mWakefulness=Awake" || adb shell input keyevent 26) &amp; (adb shell dumpsys window | findstr "mDreamingLockscreen=true" &amp;&amp; adb shell input keyevent 82)#
+adb shell settings put system screen_off_timeout 86400000#
+adb shell dumpsys power | findstr "mWakefulness=Awake" || Echo ERROR: AUTOMATION TO TURN ON DISPLAY FAILED. PLEASE MANUALLY TURN IT ON AND SET TIMEOUT TO MAX#
+adb shell dumpsys window | findstr "mDreamingLockscreen=false" || Echo ERROR: AUTOMATION TO UNLOCK THE DISPLAY FAILED. PLEASE MANUALLY SET THE SECURITY TO 'NONE'#
+adb shell am start -a android.intent.action.VIEW -d "file:///sdcard/movies/testvideo/sample.3gp" -t "video/*" -n "org.codeaurora.gallery/com.android.gallery3d.app.MovieActivity"</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM post NPT Command Sequence</Name>
+			  <Value>adb shell input keyevent 23#
+adb shell input keyevent 4#
+adb shell settings put system screen_off_timeout 60000#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; adb shell input keyevent 26#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; Echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>		
+		</ParamsWhenAggressor>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>
+		 <string>Agg3</string>
+		</MultiAggressorRoles>
+		<AggDependencyFile>		 		 
+		</AggDependencyFile>
+		<ParamsWhenVictim/>
+		<VisibleOnGUI>
+		 <string>false</string>		 
+		</VisibleOnGUI>
+	</TechInfo>    
+    <TechInfo>
+		<Alias>Still Camera-Back</Alias>
+		<NameOnNode>MM</NameOnNode>
+		<CompatibleVictims>
+			<string>CDMA</string>
+			<string>GPS</string>
+			<string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>GSM</string>
+			<string>LTE</string>
+			<string>WCDMA</string>
+			<string>WLAN</string>
+			<string>BT</string>
+            <string>FM</string>
+			<string>TDSCDMA</string>
+			<string>AUDIO</string>
+			<string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 Still Camera-Back</Band>
+				<Chans></Chans>
+			</BandToChans>		
+		</BandAndChannels>
+		<Bandwidths/>
+		<ActiveSlots/>
+		<ConnectivityIDs/>
+		<PollTypes/>
+		<ParamsWhenAggressor>
+		  <Parameter>
+            <Name>Multimedia Test Type</Name>
+            <Value>0</Value>  <!-- 0 for NATIVE + shell command sequence On Device AGGRESSOR,  USE 2 for AGGRESSOR On Device SHELL COMMAND-->
+          </Parameter>	
+		  <Parameter>
+			  <Name>Create Config file</Name>
+			  <Value>0 Disable</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file path</Name>
+			  <Value>C:\Qualcomm\QDART\NPTConfig\</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file name</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file text</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Command prefix</Name>
+			  <Value>cmd.exe /c</Value>			  
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre Ref Command Sequence</Name>
+			  <Value>adb wait-for-device#
+adb root &amp;&amp; adb wait-for-device#
+adb shell input keyevent 4#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; adb shell input keyevent 26#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; Echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre NPT Command Sequence</Name>
+			  <Value>(adb shell dumpsys power | findstr "mWakefulness=Awake" || adb shell input keyevent 26) &amp; (adb shell dumpsys window | findstr "mDreamingLockscreen=true" &amp;&amp; adb shell input keyevent 82)#
+adb shell settings put system screen_off_timeout 86400000#
+adb shell dumpsys power | findstr "mWakefulness=Awake" || Echo ERROR: AUTOMATION TO TURN ON DISPLAY FAILED. PLEASE MANUALLY TURN IT ON AND SET TIMEOUT TO MAX#
+adb shell dumpsys window | findstr "mDreamingLockscreen=false" || Echo ERROR: AUTOMATION TO UNLOCK THE DISPLAY FAILED. PLEASE MANUALLY SET THE SECURITY TO 'NONE'#
+adb shell pm list packages | findstr "org.codeaurora.snapcam" &amp;&amp; adb shell am start -a android.media.action.IMAGE_CAPTURE --ei android.intent.extras.CAMERA_FACING 0 -n org.codeaurora.snapcam/com.android.camera.CameraActivity || adb shell am start -a android.media.action.IMAGE_CAPTURE --ei android.intent.extras.CAMERA_FACING 0</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM post NPT Command Sequence</Name>
+			  <Value>adb shell input keyevent 4#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; adb shell input keyevent 26#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; Echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF#
+adb shell settings put system screen_off_timeout 60000</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>		
+		  <Parameter>
+            <Name>On Device pre Ref Shell Command Sequence</Name>
+            <Value>dumpsys power | grep "mWakefulness=Awake" &amp;&amp; input keyevent 26#
+			dumpsys power | grep "mWakefulness=Awake" &amp;&amp; echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+          </Parameter>
+          <Parameter>
+            <Name>On Device pre NPT Shell Command Sequence</Name>
+            <Value>dumpsys power | grep "mWakefulness=Awake" || input keyevent 26 #
+                   dumpsys window | grep "mDreamingLockscreen=true" &amp;&amp; input keyevent 82#
+			  settings put system screen_off_timeout 86400000#
+			  dumpsys power | grep "mWakefulness=Awake" || echo ERROR: AUTOMATION TO TURN ON DISPLAY FAILED. PLEASE MANUALLY TURN IT ON AND SET TIMEOUT TO MAX#
+			  dumpsys window | grep "mDreamingLockscreen=false" || echo ERROR: AUTOMATION TO UNLOCK THE DISPLAY FAILED. PLEASE MANUALLY SET THE SECURITY TO 'NONE'</Value>
+          </Parameter>
+          <Parameter>
+            <Name>On Device post NPT Shell Command Sequence</Name>
+            <Value>settings put system screen_off_timeout 60000#
+			  dumpsys power | grep "mWakefulness=Awake" &amp;&amp; input keyevent 26#
+			  </Value>
+          </Parameter>				  
+		  <Parameter>
+			  <Name>On Device Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>On Device MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>		
+		</ParamsWhenAggressor>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>
+		 <string>Agg3</string>
+		</MultiAggressorRoles>
+		<ParamsWhenVictim/>
+		<VisibleOnGUI>
+		 <string>false</string>		 
+		</VisibleOnGUI>
+	</TechInfo>
+	<TechInfo>
+		<Alias>Still Camera-Front</Alias>
+		<NameOnNode>MM</NameOnNode>
+		<CompatibleVictims>
+			<string>CDMA</string>
+			<string>GPS</string>
+			<string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>GSM</string>
+			<string>LTE</string>
+			<string>WCDMA</string>
+			<string>WLAN</string>
+			<string>BT</string>
+            <string>FM</string>
+			<string>TDSCDMA</string>
+			<string>AUDIO</string>
+			<string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 Still Camera-Front</Band>
+				<Chans></Chans>
+			</BandToChans>		
+		</BandAndChannels>
+		<Bandwidths/>
+		<ActiveSlots/>
+		<ConnectivityIDs/>
+		<PollTypes/>
+		<ParamsWhenAggressor>
+		  <Parameter>
+            <Name>Multimedia Test Type</Name>
+            <Value>0</Value>  <!-- 0 for NATIVE + shell command sequence On Device AGGRESSOR,  USE 2 for AGGRESSOR On Device SHELL COMMAND-->
+          </Parameter>	
+		  <Parameter>
+			  <Name>Create Config file</Name>
+			  <Value>0 Disable</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file path</Name>
+			  <Value>C:\Qualcomm\QDART\NPTConfig\</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file name</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file text</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Command prefix</Name>
+			  <Value>cmd.exe /c</Value>			  
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre Ref Command Sequence</Name>
+			  <Value>adb wait-for-device#
+adb root &amp;&amp; adb wait-for-device#
+adb shell input keyevent 4#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; adb shell input keyevent 26#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; Echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre NPT Command Sequence</Name>
+			  <Value>(adb shell dumpsys power | findstr "mWakefulness=Awake" || adb shell input keyevent 26) &amp; (adb shell dumpsys window | findstr "mDreamingLockscreen=true" &amp;&amp; adb shell input keyevent 82)#
+adb shell settings put system screen_off_timeout 86400000#adb shell dumpsys power | findstr "mWakefulness=Awake" || Echo ERROR: AUTOMATION TO TURN ON DISPLAY FAILED. PLEASE MANUALLY TURN IT ON AND SET TIMEOUT TO MAX#
+adb shell dumpsys window | findstr "mDreamingLockscreen=false" || Echo ERROR: AUTOMATION TO UNLOCK THE DISPLAY FAILED. PLEASE MANUALLY SET THE SECURITY TO 'NONE'#
+adb shell pm list packages | findstr "org.codeaurora.snapcam" &amp;&amp; adb shell am start -a android.media.action.IMAGE_CAPTURE --ei android.intent.extras.CAMERA_FACING 1 -n org.codeaurora.snapcam/com.android.camera.CameraActivity || adb shell am start -a android.media.action.IMAGE_CAPTURE --ei android.intent.extras.CAMERA_FACING 1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM post NPT Command Sequence</Name>
+			  <Value>adb shell input keyevent 4#
+adb shell settings put system screen_off_timeout 60000#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; adb shell input keyevent 26#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; Echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>		
+		  <Parameter>
+            <Name>On Device pre Ref Shell Command Sequence</Name>
+            <Value>dumpsys power | grep "mWakefulness=Awake" &amp;&amp; input keyevent 26#
+			dumpsys power | grep "mWakefulness=Awake" &amp;&amp; echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+          </Parameter>
+          <Parameter>
+            <Name>On Device pre NPT Shell Command Sequence</Name>
+            <Value>dumpsys power | grep "mWakefulness=Awake" || input keyevent 26 #
+                   dumpsys window | grep "mDreamingLockscreen=true" &amp;&amp; input keyevent 82#
+			  settings put system screen_off_timeout 86400000#
+			  dumpsys power | grep "mWakefulness=Awake" || echo ERROR: AUTOMATION TO TURN ON DISPLAY FAILED. PLEASE MANUALLY TURN IT ON AND SET TIMEOUT TO MAX#
+			  dumpsys window | grep "mDreamingLockscreen=false" || echo ERROR: AUTOMATION TO UNLOCK THE DISPLAY FAILED. PLEASE MANUALLY SET THE SECURITY TO 'NONE'</Value>
+          </Parameter>
+          <Parameter>
+            <Name>On Device post NPT Shell Command Sequence</Name>
+            <Value>settings put system screen_off_timeout 60000#
+			  dumpsys power | grep "mWakefulness=Awake" &amp;&amp; input keyevent 26#
+			  </Value>
+          </Parameter>				  
+		  <Parameter>
+			  <Name>On Device Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>On Device MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>		
+		</ParamsWhenAggressor>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>
+		 <string>Agg3</string>
+		</MultiAggressorRoles>
+		<ParamsWhenVictim/>
+		<VisibleOnGUI>
+		 <string>false</string>		 
+		</VisibleOnGUI>
+	</TechInfo>
+	<TechInfo>
+		<Alias>Flashlight-Front</Alias>
+		<NameOnNode>MM</NameOnNode>
+		<CompatibleVictims>
+			<string>CDMA</string>
+			<string>GPS</string>
+			<string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>GSM</string>
+			<string>LTE</string>
+			<string>WCDMA</string>
+			<string>WLAN</string>
+			<string>BT</string>
+            <string>FM</string>
+			<string>TDSCDMA</string>
+			<string>AUDIO</string>
+			<string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 Flashlight-Front</Band>
+				<Chans></Chans>
+			</BandToChans>			
+		</BandAndChannels>
+		<Bandwidths/>
+		<ActiveSlots/>
+		<ConnectivityIDs/>
+		<PollTypes/>
+		<ParamsWhenAggressor>
+		  <Parameter>
+            <Name>Multimedia Test Type</Name>
+            <Value>0</Value>  <!-- 0 for NATIVE + shell command sequence On Device AGGRESSOR,  USE 2 for AGGRESSOR On Device SHELL COMMAND-->
+          </Parameter>	
+		  <Parameter>
+			  <Name>Create Config file</Name>
+			  <Value>0 Disable</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file path</Name>
+			  <Value>C:\Qualcomm\QDART\NPTConfig\</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file name</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file text</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Command prefix</Name>
+			  <Value>cmd.exe /c</Value>			  
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre Ref Command Sequence</Name>
+			  <Value>adb wait-for-device#
+adb root &amp;&amp; adb wait-for-device#
+adb shell input keyevent 4#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; adb shell input keyevent 26#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; Echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre NPT Command Sequence</Name>
+			  <Value>adb shell am broadcast -a com.qualcomm.qti.npt.FLASHLIGHT --es ORIENTATION "FRONT" --ez TOGGLE "true" --user 0</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM post NPT Command Sequence</Name>
+			  <Value>adb shell am broadcast -a com.qualcomm.qti.npt.FLASHLIGHT --es ORIENTATION "FRONT" --ez TOGGLE "false" --user 0</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>
+		  <Parameter>
+            <Name>Multimedia Test Type</Name>
+            <Value>0</Value>  <!-- 0 for NATIVE + Shell Commands for On Device AGGRESSOR, USE 2 for AGGRESSOR On Device SHELL COMMAND only-->
+          </Parameter>
+          <Parameter>
+            <Name>On Device pre Ref Shell Command Sequence</Name>
+            <Value>dumpsys power | grep "mWakefulness=Awake" &amp;&amp; input keyevent 26#
+			dumpsys power | grep "mWakefulness=Awake" &amp;&amp; echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+          </Parameter>
+          <Parameter>
+            <Name>On Device pre NPT Shell Command Sequence</Name>
+            <Value></Value>
+          </Parameter>
+          <Parameter>
+            <Name>On Device post NPT Shell Command Sequence</Name>
+            <Value></Value>
+          </Parameter>				  
+		  <Parameter>
+			  <Name>On Device Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>On Device MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>		
+		</ParamsWhenAggressor>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>
+		 <string>Agg3</string>
+		</MultiAggressorRoles>
+		<ParamsWhenVictim/>
+		<VisibleOnGUI>
+		 <string>false</string>		 
+		</VisibleOnGUI>
+	</TechInfo>
+		<TechInfo>
+		<Alias>Vibration</Alias>
+		<NameOnNode>MM</NameOnNode>
+		<CompatibleVictims>
+			<string>CDMA</string>
+			<string>GPS</string>
+			<string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>GSM</string>
+			<string>LTE</string>
+			<string>WCDMA</string>
+			<string>WLAN</string>
+			<string>BT</string>
+            <string>FM</string>
+			<string>TDSCDMA</string>
+			<string>AUDIO</string>
+			<string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 Vibration</Band>
+				<Chans></Chans>
+			</BandToChans>			
+		</BandAndChannels>
+		<Bandwidths/>
+		<ActiveSlots/>
+		<ConnectivityIDs/>
+		<PollTypes/>
+		<ParamsWhenAggressor>
+		  <Parameter>
+            <Name>Multimedia Test Type</Name>
+            <Value>0</Value>  <!-- 0 for NATIVE + shell command sequence On Device AGGRESSOR,  USE 2 for AGGRESSOR On Device SHELL COMMAND-->
+          </Parameter>	
+		  <Parameter>
+			  <Name>Create Config file</Name>
+			  <Value>0 Disable</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file path</Name>
+			  <Value>C:\Qualcomm\QDART\NPTConfig\</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file name</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file text</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Command prefix</Name>
+			  <Value>cmd.exe /c</Value>			  
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre Ref Command Sequence</Name>
+			  <Value>adb wait-for-device#
+adb root &amp;&amp; adb wait-for-device#
+adb shell input keyevent 4#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; adb shell input keyevent 26#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; Echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre NPT Command Sequence</Name>
+			  <Value>adb shell am broadcast -a com.qualcomm.qti.npt.VIBRATE --ez TOGGLE "true" --user 0</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM post NPT Command Sequence</Name>
+			  <Value>adb shell am broadcast -a com.qualcomm.qti.npt.VIBRATE --ez TOGGLE "false" --user 0</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>
+		  <Parameter>
+            <Name>Multimedia Test Type</Name>
+            <Value>0</Value>  <!-- 0 for NATIVE + Shell Commands for On Device AGGRESSOR, USE 2 for AGGRESSOR On Device SHELL COMMAND only-->
+          </Parameter>
+          <Parameter>
+            <Name>On Device pre Ref Shell Command Sequence</Name>
+            <Value>dumpsys power | grep "mWakefulness=Awake" &amp;&amp; input keyevent 26#
+			dumpsys power | grep "mWakefulness=Awake" &amp;&amp; echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+          </Parameter>
+          <Parameter>
+            <Name>On Device pre NPT Shell Command Sequence</Name>
+            <Value></Value>
+          </Parameter>
+          <Parameter>
+            <Name>On Device post NPT Shell Command Sequence</Name>
+            <Value></Value>
+          </Parameter>				  
+		  <Parameter>
+			  <Name>On Device Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>On Device MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>		
+		</ParamsWhenAggressor>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>
+		 <string>Agg3</string>
+		</MultiAggressorRoles>
+		<ParamsWhenVictim/>
+		<VisibleOnGUI>
+		 <string>false</string>		 
+		</VisibleOnGUI>
+	</TechInfo>
+	<TechInfo>
+		<Alias>Flashlight-Back</Alias>
+		<NameOnNode>MM</NameOnNode>
+		<CompatibleVictims>
+			<string>CDMA</string>
+			<string>GPS</string>
+			<string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>GSM</string>
+			<string>LTE</string>
+			<string>WCDMA</string>
+			<string>WLAN</string>
+			<string>BT</string>
+            <string>FM</string>
+			<string>TDSCDMA</string>
+			<string>AUDIO</string>
+			<string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 Flashlight-Back</Band>
+				<Chans></Chans>
+			</BandToChans>			
+		</BandAndChannels>
+		<Bandwidths/>
+		<ActiveSlots/>
+		<ConnectivityIDs/>
+		<PollTypes/>
+		<ParamsWhenAggressor>
+		  <Parameter>
+            <Name>Multimedia Test Type</Name>
+            <Value>0</Value>  <!-- 0 for NATIVE + shell command sequence On Device AGGRESSOR,  USE 2 for AGGRESSOR On Device SHELL COMMAND-->
+          </Parameter>	
+		  <Parameter>
+			  <Name>Create Config file</Name>
+			  <Value>0 Disable</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file path</Name>
+			  <Value>C:\Qualcomm\QDART\NPTConfig\</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file name</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file text</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Command prefix</Name>
+			  <Value>cmd.exe /c</Value>			  
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre Ref Command Sequence</Name>
+			  <Value>adb wait-for-device#
+adb root &amp;&amp; adb wait-for-device#
+adb shell input keyevent 4#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; adb shell input keyevent 26#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; Echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre NPT Command Sequence</Name>
+			  <Value>adb shell am broadcast -a com.qualcomm.qti.npt.FLASHLIGHT --es ORIENTATION "BACK" --ez TOGGLE "true" --user 0</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM post NPT Command Sequence</Name>
+			  <Value>adb shell am broadcast -a com.qualcomm.qti.npt.FLASHLIGHT --es ORIENTATION "BACK" --ez TOGGLE "false" --user 0</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>
+		  <Parameter>
+            <Name>Multimedia Test Type</Name>
+            <Value>0</Value>  <!-- 0 for NATIVE + Shell Commands for On Device AGGRESSOR, USE 2 for AGGRESSOR On Device SHELL COMMAND only-->
+          </Parameter>
+          <Parameter>
+            <Name>On Device pre Ref Shell Command Sequence</Name>
+            <Value>dumpsys power | grep "mWakefulness=Awake" &amp;&amp; input keyevent 26#
+			dumpsys power | grep "mWakefulness=Awake" &amp;&amp; echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+          </Parameter>
+          <Parameter>
+            <Name>On Device pre NPT Shell Command Sequence</Name>
+            <Value></Value>
+          </Parameter>
+          <Parameter>
+            <Name>On Device post NPT Shell Command Sequence</Name>
+            <Value></Value>
+          </Parameter>				  
+		  <Parameter>
+			  <Name>On Device Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>On Device MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>		
+		</ParamsWhenAggressor>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>
+		 <string>Agg3</string>
+		</MultiAggressorRoles>
+		<ParamsWhenVictim/>
+		<VisibleOnGUI>
+		 <string>false</string>		 
+		</VisibleOnGUI>
+	</TechInfo>
+    <TechInfo>
+		<Alias>Video Camera</Alias>
+		<NameOnNode>MM</NameOnNode>
+		<CompatibleVictims>
+			<string>CDMA</string>
+			<string>GPS</string>
+			<string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>GSM</string>
+			<string>LTE</string>
+			<string>WCDMA</string>
+			<string>WLAN</string>
+			<string>BT</string>
+            <string>FM</string>
+			<string>TDSCDMA</string>
+			<string>AUDIO</string>
+			<string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 Video Camera</Band>
+				<Chans></Chans>
+			</BandToChans>		
+		</BandAndChannels>
+		<Bandwidths/>
+		<ActiveSlots/>
+		<ConnectivityIDs/>
+		<PollTypes/>
+		<ParamsWhenAggressor>
+		  <Parameter>
+			  <Name>Create Config file</Name>
+			  <Value>0 Disable</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file path</Name>
+			  <Value>C:\Qualcomm\QDART\NPTConfig\</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file name</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file text</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Command prefix</Name>
+			  <Value>cmd.exe /c</Value>			  
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre Ref Command Sequence</Name>
+			  <Value>adb wait-for-device#
+adb root &amp;&amp; adb wait-for-device#
+adb shell input keyevent 4#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; adb shell input keyevent 26#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; Echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre NPT Command Sequence</Name>
+			  <Value>(adb shell dumpsys power | findstr "mWakefulness=Awake" || adb shell input keyevent 26) &amp; (adb shell dumpsys window | findstr "mDreamingLockscreen=true" &amp;&amp; adb shell input keyevent 82)#
+adb shell settings put system screen_off_timeout 86400000#
+adb shell dumpsys power | findstr "mWakefulness=Awake" || Echo ERROR: AUTOMATION TO TURN ON DISPLAY FAILED. PLEASE MANUALLY TURN IT ON AND SET TIMEOUT TO MAX#
+adb shell dumpsys window | findstr "mDreamingLockscreen=false" || Echo ERROR: AUTOMATION TO UNLOCK THE DISPLAY FAILED. PLEASE MANUALLY SET THE SECURITY TO 'NONE'#
+adb shell pm list packages | findstr "org.codeaurora.snapcam" &amp;&amp; adb shell am start -a android.media.action.VIDEO_CAPTURE --ei android.intent.extras.CAMERA_FACING 0 -n org.codeaurora.snapcam/com.android.camera.CameraActivity || adb shell am start -a android.media.action.VIDEO_CAPTURE --ei android.intent.extras.CAMERA_FACING 0#
+adb shell sleep 4#
+adb shell input keyevent 27</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM post NPT Command Sequence</Name>
+			  <Value>adb shell input keyevent 4#
+adb shell settings put system screen_off_timeout 60000#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; adb shell input keyevent 26#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; Echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>				  		
+		</ParamsWhenAggressor>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>
+		 <string>Agg3</string>
+		</MultiAggressorRoles>
+		<ParamsWhenVictim/>
+		<VisibleOnGUI>
+		 <string>false</string>		 
+		</VisibleOnGUI>
+	</TechInfo>
+    <TechInfo>
+		<Alias>Audio Capture</Alias>
+		<NameOnNode>MM</NameOnNode>
+		<CompatibleVictims>
+			<string>CDMA</string>
+			<string>GPS</string>
+			<string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>GSM</string>
+			<string>LTE</string>
+			<string>WCDMA</string>
+			<string>WLAN</string>
+			<string>BT</string>
+            <string>FM</string>
+			<string>TDSCDMA</string>	
+            <string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>			
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 Audio Capture</Band>
+				<Chans></Chans>
+			</BandToChans>		
+		</BandAndChannels>
+		<Bandwidths/>
+		<ActiveSlots/>
+		<ConnectivityIDs/>
+		<PollTypes/>
+		<ParamsWhenAggressor>
+		  <Parameter>
+            <Name>Multimedia Test Type</Name>
+            <Value>0</Value>  <!-- 0 for NATIVE + shell command sequence On Device AGGRESSOR,  USE 2 for AGGRESSOR On Device SHELL COMMAND-->
+          </Parameter>	
+		  <Parameter>
+			  <Name>Create Config file</Name>
+			  <Value>0 Disable</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file path</Name>
+			  <Value>C:\Qualcomm\QDART\NPTConfig\</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file name</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file text</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Command prefix</Name>
+			  <Value>cmd.exe /c</Value>			  
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre Ref Command Sequence</Name>
+			  <Value>adb wait-for-device#
+adb root &amp;&amp; adb wait-for-device#
+adb shell am force-stop com.android.soundrecorder#
+adb shell am kill-all#
+adb shell input keyevent 4#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; adb shell input keyevent 26#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; Echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre NPT Command Sequence</Name>
+			  <Value>(adb shell dumpsys power | findstr "mWakefulness=Awake" || adb shell input keyevent 26) &amp; (adb shell dumpsys window | findstr "mDreamingLockscreen=true" &amp;&amp; adb shell input keyevent 82)#
+adb shell settings put system screen_off_timeout 86400000#
+adb shell dumpsys power | findstr "mWakefulness=Awake" || Echo ERROR: AUTOMATION TO TURN ON DISPLAY FAILED. PLEASE MANUALLY TURN IT ON AND SET TIMEOUT TO MAX#
+adb shell dumpsys window | findstr "mDreamingLockscreen=false" || Echo ERROR: AUTOMATION TO UNLOCK THE DISPLAY FAILED. PLEASE MANUALLY SET THE SECURITY TO 'NONE'#
+adb shell am start -n com.android.soundrecorder/.SoundRecorder#
+adb shell sleep 4#
+adb shell input keyevent 21#
+adb shell input keyevent 66</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM post NPT Command Sequence</Name>
+			  <Value>adb shell am force-stop com.android.soundrecorder#
+adb shell am kill-all#
+adb shell input keyevent 3#
+adb shell settings put system screen_off_timeout 60000#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; adb shell input keyevent 26#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; Echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>		
+		  <Parameter>
+            <Name>On Device pre Ref Shell Command Sequence</Name>
+            <Value>dumpsys power | grep "mWakefulness=Awake" &amp;&amp; input keyevent 26#
+			dumpsys power | grep "mWakefulness=Awake" &amp;&amp; echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+          </Parameter>
+          <Parameter>
+            <Name>On Device pre NPT Shell Command Sequence</Name>
+            <Value></Value>
+          </Parameter>
+          <Parameter>
+            <Name>On Device post NPT Shell Command Sequence</Name>
+            <Value></Value>
+          </Parameter>				  
+		  <Parameter>
+			  <Name>On Device Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>On Device MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>		
+		</ParamsWhenAggressor>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>
+		 <string>Agg3</string>
+		</MultiAggressorRoles>
+		<ParamsWhenVictim/>
+		<VisibleOnGUI>
+		 <string>false</string>		 
+		</VisibleOnGUI>
+	</TechInfo>	
+	<TechInfo>
+		<Alias>Manual_Prompted</Alias>
+		<NameOnNode>MM</NameOnNode>
+		<CompatibleVictims>
+			<string>CDMA</string>
+			<string>GPS</string>
+			<string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>GSM</string>
+			<string>LTE</string>
+			<string>WCDMA</string>
+			<string>WLAN</string>
+			<string>BT</string>
+            <string>FM</string>
+			<string>TDSCDMA</string>
+			<string>AUDIO</string>
+			<string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 Prompted</Band>
+				<Chans></Chans>
+			</BandToChans>		
+		</BandAndChannels>
+		<Bandwidths/>
+		<ActiveSlots/>
+		<ConnectivityIDs/>
+		<PollTypes/>
+		<ParamsWhenAggressor>
+		  <Parameter>
+			  <Name>Multimedia Test Type</Name>
+			  <Value>1 Prompted</Value>
+		  </Parameter>		  	  
+		</ParamsWhenAggressor>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>
+		 <string>Agg3</string>
+		</MultiAggressorRoles>
+		<ParamsWhenVictim/>
+		<VisibleOnGUI>
+		 <string>false</string>		 
+		</VisibleOnGUI>
+	</TechInfo>
+	<TechInfo>
+		<Alias>FM</Alias>
+		<NameOnNode>FM</NameOnNode>
+		<CompatibleVictims>
+			<string>CDMA</string>
+			<string>GPS</string>
+			<string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>GSM</string>
+			<string>LTE</string>
+			<string>WCDMA</string>
+			<string>WLAN</string>
+			<string>BT</string>
+            <string>TDSCDMA</string>
+			<string>AUDIO</string>
+			<string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>115 US_EUROPE</Band>
+				<Chans>SSS(87500,107900,150)</Chans>
+			</BandToChans>
+            <BandToChans>
+				<Band>116 JAPAN</Band>
+				<Chans>SSS(76000,90000,150)</Chans>
+			</BandToChans>
+            <BandToChans>
+				<Band>117 JAPAN_WIDE</Band>
+				<Chans>SSS(76000,107900,150)</Chans>
+			</BandToChans>
+			<BandToChans>
+				<Band>118 USER_DEFINED</Band>
+				<Chans>SSS(76000,107900,150)</Chans>
+			</BandToChans>            			
+		</BandAndChannels>
+		<Bandwidths/>
+		<ActiveSlots/>
+		<ConnectivityIDs>
+			<string>1 WCN36xx</string>			
+			<string>2 QCA61xx</string>
+			<string>3 WCN39xx</string>
+		</ConnectivityIDs>
+		<PollTypes/>
+		<ParamsWhenAggressor>		  
+		  <Parameter>
+			  <Name>Aggressor ADB pre Ref Command Sequence</Name>
+			  <Value>/c adb wait-for-device#/c adb root &amp;&amp; adb wait-for-device#/c adb shell ftmdaemon -n</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Aggressor ADB FTM Daemon Check Command Sequence</Name>
+			  <Value>cmd.exe /c adb shell ps | findstr "ftmdaemon" &amp;&amp; Echo conditiontrue</Value>
+		  </Parameter>
+		</ParamsWhenAggressor>
+        <MultiAggressorRoles>
+		 <string>Agg2</string>
+		 <string>Agg3</string>
+		</MultiAggressorRoles>		
+		<ParamsWhenVictim>
+		  <Parameter>
+			  <Name>Victim ADB pre Ref Command Sequence</Name>
+			  <Value>/c adb wait-for-device#/c adb root &amp;&amp; adb wait-for-device#/c adb shell ftmdaemon -n</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Victim ADB FTM Daemon Check Command Sequence</Name>
+			  <Value>cmd.exe /c adb shell ps | findstr "ftmdaemon" &amp;&amp; Echo conditiontrue</Value>
+		  </Parameter>
+		</ParamsWhenVictim>
+		<VisibleOnGUI>
+		 <string>true</string>		 
+		</VisibleOnGUI>
+	</TechInfo>
+	<TechInfo>
+		<Alias>LookBusy</Alias>
+		<NameOnNode>MM</NameOnNode>
+		<CompatibleVictims>
+			<string>CDMA</string>
+			<string>GPS</string>
+			<string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>GSM</string>
+			<string>LTE</string>
+			<string>WCDMA</string>
+			<string>WLAN</string>
+			<string>BT</string>
+            <string>FM</string>
+			<string>TDSCDMA</string>
+			<string>AUDIO</string>
+			<string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 LookBusy</Band>
+				<Chans></Chans>
+			</BandToChans>		
+		</BandAndChannels>
+		<Bandwidths/>
+		<ActiveSlots/>
+		<ConnectivityIDs/>
+		<PollTypes/>
+		<ParamsWhenAggressor>
+		  <Parameter>
+			  <Name>Create Config file</Name>
+			  <Value>0 Disable</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file path</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file name</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file text</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Command prefix</Name>
+			  <Value>cmd.exe /c</Value>			  
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre Ref Command Sequence</Name>
+			  <Value>adb wait-for-device#
+adb root &amp;&amp; adb wait-for-device#
+adb remount#
+adb push C:\Qualcomm\QDART\NPTConfig\lookbusy /data/local/lookbusy#
+adb shell chmod 777 /data/local/lookbusy#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; adb shell input keyevent 26#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; Echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre NPT Command Sequence</Name>
+			  <Value>async_cmd start adb shell /data/local/lookbusy -c 90</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM post NPT Command Sequence</Name>
+			  <Value>adb shell kill -9 $(pidof lookbusy)</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>		
+		</ParamsWhenAggressor>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>
+		 <string>Agg3</string>
+		</MultiAggressorRoles>
+		<AggDependencyFile>
+		 <string>C:\Qualcomm\QDART\NPTConfig\lookbusy</string>		 
+		</AggDependencyFile>
+		<ParamsWhenVictim/>
+		<VisibleOnGUI>
+		 <string>false</string>		 
+		</VisibleOnGUI>
+	</TechInfo>
+	<TechInfo>
+		<Alias>LookBusy_VaryingLoad</Alias>
+		<NameOnNode>MM</NameOnNode>
+		<CompatibleVictims>
+			<string>CDMA</string>
+			<string>GPS</string>
+			<string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>GSM</string>
+			<string>LTE</string>
+			<string>WCDMA</string>
+			<string>WLAN</string>
+			<string>BT</string>
+            <string>FM</string>
+			<string>TDSCDMA</string>
+			<string>AUDIO</string>
+			<string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 LookBusy_VaryingLoad</Band>
+				<Chans></Chans>
+			</BandToChans>		
+		</BandAndChannels>
+		<Bandwidths/>
+		<ActiveSlots/>
+		<ConnectivityIDs/>
+		<PollTypes/>
+		<ParamsWhenAggressor>
+		  <Parameter>
+			  <Name>Create Config file</Name>
+			  <Value>0 Disable</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file path</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file name</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file text</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Command prefix</Name>
+			  <Value>cmd.exe /c</Value>			  
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre Ref Command Sequence</Name>
+			  <Value>adb wait-for-device#
+adb root &amp;&amp; adb wait-for-device#
+adb remount#
+adb push C:\Qualcomm\QDART\NPTConfig\lookbusy /data/local/lookbusy#
+adb shell chmod 777 /data/local/lookbusy#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; adb shell input keyevent 26#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; Echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre NPT Command Sequence</Name>
+			  <Value>async_cmd start adb shell /data/local/lookbusy -r curve -c 20-99 -P 30 -p 15</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM post NPT Command Sequence</Name>
+			  <Value>adb shell kill -9 $(pidof lookbusy)</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>		
+		</ParamsWhenAggressor>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>
+		 <string>Agg3</string>
+		</MultiAggressorRoles>
+		<AggDependencyFile>
+		 <string>C:\Qualcomm\QDART\NPTConfig\lookbusy</string>		 
+		</AggDependencyFile>
+		<ParamsWhenVictim/>
+		<VisibleOnGUI>
+		 <string>false</string>		 
+		</VisibleOnGUI>
+	</TechInfo>    
+    <TechInfo>
+		<Alias>SLEEP-AWAKE</Alias>
+		<NameOnNode>MM</NameOnNode>
+		<CompatibleVictims>
+			<string>CDMA</string>
+			<string>GPS</string>
+			<string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>GSM</string>
+			<string>LTE</string>
+			<string>WCDMA</string>
+			<string>WLAN</string>
+			<string>BT</string>
+            <string>FM</string>
+			<string>TDSCDMA</string>
+			<string>AUDIO</string>
+			<string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 SLEEP-AWAKE</Band>
+				<Chans></Chans>
+			</BandToChans>		
+		</BandAndChannels>
+		<Bandwidths/>
+		<ActiveSlots/>
+		<ConnectivityIDs/>
+		<PollTypes/>
+		<ParamsWhenAggressor>
+		  <Parameter>
+            <Name>Multimedia Test Type</Name>
+            <Value>2</Value>  <!-- 0 for NATIVE + shell command sequence On Device AGGRESSOR,  USE 2 for AGGRESSOR On Device SHELL COMMAND-->
+          </Parameter>	
+		  <Parameter>
+			  <Name>Create Config file</Name>
+			  <Value>0 Disable</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file path</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file name</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file text</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Command prefix</Name>
+			  <Value>cmd.exe /c</Value>			  
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre Ref Command Sequence</Name>
+			  <Value>adb wait-for-device#
+adb root &amp;&amp; adb wait-for-device#
+(adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; adb shell input keyevent 26)#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; Echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre NPT Command Sequence</Name>
+			  <Value>(adb shell dumpsys power | findstr "mWakefulness=Awake" || adb shell input keyevent 26) &amp; (adb shell dumpsys window | findstr "mDreamingLockscreen=true" &amp;&amp; adb shell input keyevent 82)#
+adb shell settings put system screen_off_timeout 86400000#
+adb shell dumpsys power | findstr "mWakefulness=Awake" || Echo ERROR: AUTOMATION TO TURN ON DISPLAY FAILED. PLEASE MANUALLY TURN IT ON AND SET TIMEOUT TO MAX#
+adb shell dumpsys window | findstr "mDreamingLockscreen=false" || Echo ERROR: AUTOMATION TO UNLOCK THE DISPLAY FAILED. PLEASE MANUALLY SET THE SECURITY TO 'NONE'</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM post NPT Command Sequence</Name>
+			  <Value>adb shell settings put system screen_off_timeout 60000#
+adb shell input keyevent 4#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; adb shell input keyevent 26#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; Echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>
+          <Parameter>
+            <Name>On Device pre Ref Shell Command Sequence</Name>
+            <Value>dumpsys power | grep "mWakefulness=Awake" &amp;&amp; input keyevent 26#
+			dumpsys power | grep "mWakefulness=Awake" &amp;&amp; echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF</Value>
+          </Parameter>
+          <Parameter>
+            <Name>On Device pre NPT Shell Command Sequence</Name>
+            <Value>dumpsys power | grep "mWakefulness=Awake" || input keyevent 26 #
+                   dumpsys window | grep "mDreamingLockscreen=true" &amp;&amp; input keyevent 82#
+			  settings put system screen_off_timeout 86400000#
+			  dumpsys power | grep "mWakefulness=Awake" || echo ERROR: AUTOMATION TO TURN ON DISPLAY FAILED. PLEASE MANUALLY TURN IT ON AND SET TIMEOUT TO MAX#
+			  dumpsys window | grep "mDreamingLockscreen=false" || echo ERROR: AUTOMATION TO UNLOCK THE DISPLAY FAILED. PLEASE MANUALLY SET THE SECURITY TO 'NONE'</Value>
+          </Parameter>
+          <Parameter>
+            <Name>On Device post NPT Shell Command Sequence</Name>
+            <Value>settings put system screen_off_timeout 60000#
+			  dumpsys power | grep "mWakefulness=Awake" &amp;&amp; input keyevent 26#
+			  </Value>
+          </Parameter>				  
+		  <Parameter>
+			  <Name>On Device Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>On Device MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>		  
+		</ParamsWhenAggressor>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>
+		 <string>Agg3</string>
+		</MultiAggressorRoles>
+		<ParamsWhenVictim/>
+		<VisibleOnGUI>
+		 <string>false</string>		 
+		</VisibleOnGUI>
+	</TechInfo>		
+	<TechInfo>
+		<Alias>USBCHARGING</Alias>
+		<NameOnNode>MM</NameOnNode>
+		<CompatibleVictims>
+			<string>CDMA</string>
+			<string>GPS</string>
+			<string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>GSM</string>
+			<string>LTE</string>
+			<string>WCDMA</string>
+			<string>WLAN</string>
+			<string>BT</string>
+            <string>FM</string>
+			<string>TDSCDMA</string>
+			<string>AUDIO</string>
+			<string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 USBCHARGING</Band>
+				<Chans></Chans>
+			</BandToChans>		
+		</BandAndChannels>
+		<Bandwidths/>
+		<ActiveSlots/>
+		<ConnectivityIDs/>
+		<PollTypes/>
+		<ParamsWhenAggressor>
+		  <Parameter>
+			  <Name>Create Config file</Name>
+			  <Value>0 Disable</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file path</Name>
+			  <Value>C:\Qualcomm\QDART\NPTConfig\</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file name</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Config file text</Name>
+			  <Value></Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Command prefix</Name>
+			  <Value>cmd.exe /c</Value>			  
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre Ref Command Sequence</Name>
+			  <Value>Echo PRE REF#
+adb wait-for-device#
+adb root &amp;&amp; adb wait-for-device#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; adb shell input keyevent 26#
+adb shell dumpsys power | findstr "mWakefulness=Awake" &amp;&amp; Echo ERROR: AUTOMATION TO TURN OFF DISPLAY FAILED. PLEASE MANUALLY TURN IT OFF#
+adb shell setprop persist.usb.chgdisabled 1#
+adb shell cat /sys/class/power_supply/battery/uevent | findstr "POWER_SUPPLY_CAPACITY"#
+adb shell cat /sys/class/power_supply/battery/uevent | findstr "POWER_SUPPLY_VOLTAGE_NOW"</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM pre NPT Command Sequence</Name>
+			  <Value>Echo PRE NPT#
+adb shell cat /sys/class/power_supply/battery/uevent | findstr "POWER_SUPPLY_CAPACITY"#
+adb shell cat /sys/class/power_supply/battery/uevent | findstr "POWER_SUPPLY_VOLTAGE_NOW"#
+adb shell setprop persist.usb.chgdisabled 0</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM post NPT Command Sequence</Name>
+			  <Value>Echo POST NPT#
+adb shell cat /sys/class/power_supply/battery/uevent | findstr "POWER_SUPPLY_CAPACITY"#
+adb shell cat /sys/class/power_supply/battery/uevent | findstr "POWER_SUPPLY_VOLTAGE_NOW"</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>		
+		</ParamsWhenAggressor>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>
+		 <string>Agg3</string>
+		</MultiAggressorRoles>
+		<ParamsWhenVictim/>
+		<VisibleOnGUI>
+		 <string>false</string>		 
+		</VisibleOnGUI>
+	</TechInfo>
+	<TechInfo>
+		<Alias>MMCustomTemplate_OnDeviceNPT</Alias>
+		<NameOnNode>MM</NameOnNode>
+		<CompatibleVictims>
+			<string>CDMA</string>
+			<string>GPS</string>
+			<string>GLONASS</string>
+			<string>BDS(BEIDOU)</string>
+			<string>GALILEO</string>
+			<string>GSM</string>
+			<string>LTE</string>
+			<string>WCDMA</string>
+			<string>WLAN</string>
+			<string>BT</string>
+            <string>FM</string>
+			<string>TDSCDMA</string>
+			<string>AUDIO</string>
+			<string>GNSS_ADCIQ</string>
+			<string>GPS_NBIQ</string>
+		</CompatibleVictims>
+		<BandAndChannels>
+			<BandToChans>
+				<Band>0 OnDeviceNPT_Template</Band>
+				<Chans></Chans>
+			</BandToChans>		
+		</BandAndChannels>
+		<Bandwidths/>
+		<ActiveSlots/>
+		<ConnectivityIDs/>
+		<PollTypes/>
+		<ParamsWhenAggressor>
+		  <Parameter>
+            <Name>Multimedia Test Type</Name>
+            <Value>2</Value>  <!-- 0 for NATIVE On Device AGGRESSOR And Shell Commands, USE 2 for AGGRESSOR On Device SHELL COMMAND only-->
+          </Parameter>          		  		  		
+		  <Parameter>
+            <Name>On Device pre Ref Shell Command Sequence</Name>
+            <Value>COMMAND1#
+			  COMMAND2#
+			  COMMAND3#</Value>
+          </Parameter>
+          <Parameter>
+            <Name>On Device pre NPT Shell Command Sequence</Name>
+            <Value>COMMAND1#
+			  COMMAND2#
+			  COMMAND3#</Value>
+          </Parameter>
+          <Parameter>
+            <Name>On Device post NPT Shell Command Sequence</Name>
+            <Value>COMMAND1#
+			  COMMAND2#
+			  COMMAND3#
+			  </Value>
+          </Parameter>				  
+		  <Parameter>
+			  <Name>On Device Error Check</Name>
+			  <Value>1</Value>
+		  </Parameter>
+		  <Parameter>
+			  <Name>On Device MM Error token list</Name>
+			  <Value>ERROR#NOT RECOGNIZED#NO SUCH FILE OR DIRECTORY</Value>
+		  </Parameter>		
+		</ParamsWhenAggressor>
+		<MultiAggressorRoles>
+		 <string>Agg2</string>
+		 <string>Agg3</string>
+		</MultiAggressorRoles>
+		<ParamsWhenVictim/>
+		<VisibleOnGUI>
+		 <string>false</string>		 
+		</VisibleOnGUI>
+	</TechInfo>
+</ArrayOfTechInfo>

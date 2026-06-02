@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Config>
+	<CommandGroup name="init">
+		<Command input="*RST;*CLS;*OPC?;:SYST:ERR?;" find_output="1;0" timeout_sec="1"/>
+		<Command input="CONFigure:BASE:FDCorrection:CTABle:DELete:ALL" find_output="" timeout_sec="1"/>
+		<!-- <Command input="" find_output="" timeout_sec="1"/>
+		<Command input="" find_output="" timeout_sec="1"/>
+		<Command input="" find_output="" timeout_sec="1"/>
+		<Command input="" find_output="" timeout_sec="1"/>
+		
+		<Command input="" find_output="" timeout_sec="1"/>
+		<Command input="" find_output="" timeout_sec="1"/>
+		<Command input="" find_output="" timeout_sec="1"/>
+		<Command input="" find_output="" timeout_sec="1"/> -->
+		
+	</CommandGroup>
+	<CommandGroup name="tx_b23_init">
+		<Command input="*CLS;*OPC?;:SYST:ERR?;" find_output="1;0" timeout_sec="1"/>
+		<Command input="ROUTe:GPRF:MEAS:SCENario:SALone RFAC, RX1" find_output="" timeout_sec="1"/>
+		<Command input="CONFigure:GPRF:MEAS:RFSettings:EATTenuation $$_TxLoss_$$;*OPC?" find_output="1" timeout_sec="1"/>
+		<Command input="CONFigure:GPRF:MEAS:RFSettings:FREQuency $$_TxFreq_$$MHZ;*OPC?" find_output="1" timeout_sec="1"/>
+		<Command input="CONFigure:GPRF:MEAS:RFSettings:ENPower $$_Power_$$;*OPC?" find_output="1" timeout_sec="1"/>
+		<Command input="CONFigure:GPRF:MEAS:RFSettings:UMARgin 5" find_output="" timeout_sec="1"/>
+		<Command input="CONFigure:GPRF:MEAS:RFSettings:MLOFfset 2" find_output="" timeout_sec="1"/>
+		<Command input="TRIGger:GPRF:MEAS:POWer:SOURce 'Free Run'" find_output="" timeout_sec="1"/>
+		<Command input="TRIGger:GPRF:MEAS:POWer:SLOPe REDGe" find_output="" timeout_sec="1"/>
+		<Command input="TRIGger:GPRF:MEAS:POWer:THReshold -25" find_output="" timeout_sec="1"/>
+		<Command input="TRIGger:GPRF:MEAS:POWer:OFFSet 50E-6" find_output="" timeout_sec="1"/>
+		<Command input="TRIGger:GPRF:MEAS:POWer:TOUT 2" find_output="" timeout_sec="1"/>
+		<Command input="TRIGger:GPRF:MEAS:POWer:MGAP 0.0001" find_output="" timeout_sec="1"/>
+		<Command input="TRIGger:GPRF:MEAS:POWer:MODE ONCE" find_output="" timeout_sec="1"/>
+		<Command input="CONFigure:GPRF:MEAS:POWer:REPetition SINGleshot " find_output="" timeout_sec="1"/>
+		<Command input="INIT:GPRF:MEAS:POWer" find_output="" timeout_sec="1"/>
+		<Command input="FETCh:GPRF:MEAS:POWer:STATe:ALL?" find_output="RDY" timeout_sec="1"/>
+	</CommandGroup>
+	<CommandGroup name="tx_b23_query">
+		<Command input="FETCh:GPRF:MEAS:POWer:AVERage?" find_output="" timeout_sec="1"/>
+	</CommandGroup>
+	<CommandGroup name="tx_b23_exit">
+		<Command input="STOP:GPRF:MEAS:POWer" find_output="" timeout_sec="1"/>
+		<Command input="ABORt:GPRF:MEAS:POWer" find_output="" timeout_sec="1"/>
+	</CommandGroup>
+	
+	<CommandGroup name="tx_b24_init">
+		<Command input="ROUTe:​NIOT:​MEAS:​SCENario:​SALone RFAC, RX1" find_output="" timeout_sec="1"/>
+		<Command input="CONFigure:​NIOT:​MEAS:​RFSettings:​EATTenuation $$_TxLoss_$$" find_output="" timeout_sec="1"/>
+		<Command input="CONFigure:​NIOT:​MEAS:​BAND $$_Band_$$" find_output="" timeout_sec="1"/>
+		<Command input="CONFigure:​NIOT:​MEAS:​RFSettings:​FREQuency $$_TxFreq_$$MHZ" find_output="" timeout_sec="1"/>
+		<Command input="CONFigure:​NIOT:​MEAS:​RFSettings:​ENPower $$_Power_$$" find_output="" timeout_sec="1"/>
+		<Command input="CONFigure:NIOT:MEAS:REPetition SINGleshot " find_output="" timeout_sec="1"/>
+		<Command input="CONFigure:NIOT:MEAS:RFSettings:UMARgin 5" find_output="" timeout_sec="1"/>
+		<Command input="CONFigure:NIOT:MEAS:RFSettings:MLOFfset 2" find_output="" timeout_sec="1"/>
+		<Command input="TRIGger:NIOT:MEAS:MEValuation:SOURce 'Free Run'" find_output="" timeout_sec="1"/>
+		<Command input="TRIGger:NIOT:MEAS:MEValuation:THReshold -25" find_output="" timeout_sec="1"/>
+		<Command input="TRIGger:NIOT:MEAS:MEValuation:TOUT 2" find_output="" timeout_sec="1"/>
+		<Command input="TRIGger:NIOT:MEAS:MEValuation:MGAP 0.0001" find_output="" timeout_sec="1"/>
+		
+		<Command input="INIT:NIOT:MEAS:MEValuation" find_output="" timeout_sec="1"/>
+		<Command input="FETCh:NIOT:MEAS:MEValuation:STATe:ALL? " find_output="RDY" timeout_sec="1"/>
+	</CommandGroup>
+		<CommandGroup name="tx_b24_query"><!-- <12_TXpower> User equipment powerRange:  -100 dBm  to  55 dBm Default unit:  dBm  -->
+		<Command input="FETCh:NIOT:MEAS:MEValuation:MODulation:AVERage?" find_output="" timeout_sec="1"/>
+	</CommandGroup>
+	<CommandGroup name="tx_b24_exit">
+		<Command input="STOP:NIOT:MEAS:MEValuation" find_output="" timeout_sec="1"/>
+		<Command input="ABORt:NIOT:MEAS:MEValuation" find_output="" timeout_sec="1"/>
+	</CommandGroup>
+	
+	
+	<CommandGroup name="rx_init">
+		<Command input="*CLS;*OPC?;:SYST:ERR?;" find_output="1;0" timeout_sec="1"/>
+		<Command input="SOURce:GPRF:GEN:STATe OFF; *OPC?" find_output="" timeout_sec="1"/>
+		<Command input="ROUTe:GPRF:GEN:SCENario:SALone RFAC, TX1" find_output="" timeout_sec="1"/>
+		<Command input="SOURce:GPRF:GEN:RFSettings:EATTenuation $$_RxLoss_$$" find_output="" timeout_sec="1"/>
+		<Command input="SOURce:GPRF:GEN:RFSettings:FREQuency $$_RxFreq_$$MHZ" find_output="" timeout_sec="1"/>
+		<Command input="SOURce:GPRF:GEN:RFSettings:LEVel $$_RxLevel_$$" find_output="" timeout_sec="1"/>
+		<Command input="SOURce:GPRF:GEN:RFSettings:PEPower?" find_output="" timeout_sec="1"/>
+		<Command input="SOURce:GPRF:GEN:BBMode CW" find_output="" timeout_sec="1"/>
+		<Command input="SOURce:GPRF:GEN:ARB:REPetition CONTinuous " find_output="" timeout_sec="1"/>
+		<!-- <Command input="SOURce:GPRF:GEN:ARB:FOFFset 50kHz" find_output="" timeout_sec="1"/> -->
+		<Command input="SOURce:GPRF:GEN:DTONe:OFRequency1 50kHz" find_output="" timeout_sec="1"/>
+		<Command input="SOURce:GPRF:GEN:STATe ON; *OPC?" find_output="" timeout_sec="1"/>
+		<Command input="SOURce:GPRF:GEN:STATe?" find_output="ON" timeout_sec="1"/>
+	</CommandGroup>
+	<CommandGroup name="rx_exit">
+		<Command input="SOURce:GPRF:GEN:STATe OFF; *OPC?" find_output="" timeout_sec="1"/>
+		<Command input="SOURce:GPRF:GEN:STATe?" find_output="OFF" timeout_sec="1"/>
+	</CommandGroup>
+</Config>

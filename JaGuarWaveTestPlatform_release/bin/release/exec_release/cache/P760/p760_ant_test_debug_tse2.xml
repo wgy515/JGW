@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JGW>
+    <GlobalVariables>
+		<TSE_BARCODE>12345678912345</TSE_BARCODE>
+        <CHANNEL_B23>25500,25600,25699</CHANNEL_B23>
+        <CHANNEL_B24>25700,25870,26039</CHANNEL_B24>
+        <CHANNEL_B255>70646,70816,70985</CHANNEL_B255>
+        <CHANNEL_B256>70986,71136,71285</CHANNEL_B256>
+		<FREQ_B23_24>2010,1643.5</FREQ_B23_24>
+		<TSE_CPK_FILE_PATH>C:\TINNO_PTP\exec\TestLog\GU\027_12345678912345_20221012105522_PASS.txt</TSE_CPK_FILE_PATH>
+		<TSE_FTP_DIR>TESTFILE\%ComputerName%\</TSE_FTP_DIR>
+        <!-- <FREQ_B23_24>2000,2010,2019.9,1627,1643.5,1660.9</FREQ_B23_24> -->
+        <CHANNEL_B23_24>2000:25500,2010:25600,2019.9:25699,1627:25700,1643.5:25870,1660.9:26039</CHANNEL_B23_24>
+        <Band_B23_24>2000:23,2010:23,2019.9:23,1627:24,1643.5:24,1660.9:24</Band_B23_24>
+        <!-- <LOSS_B23_24>2000:1,2010:1,2019.9:1,1627:1,1643.5:1,1660.9:1</LOSS_B23_24> -->
+        <RSSI_B23_24>2000:-60~-57,2010:-60~-57,2019.9:-60~-57,1627:-60~-57,1643.5:-60~-57,1660.9:-60~-57</RSSI_B23_24>
+        <POWER_B23_24>2000:-99~99,2010:-99~99,2019.9:-99~99,1627:-99~99,1643.5:-99~99,1660.9:-99~99</POWER_B23_24>
+        <!-- <FREQ_B255_256>1525,1542,1558.9,2170,2185,2199.5</FREQ_B255_256> -->
+		<FREQ_B255_256>1542,2185</FREQ_B255_256>
+		<CHANNEL_B255_256>1525:70646,1542:70816,1558.9:70985,2170:70986,2185:71136,2199.5:71285</CHANNEL_B255_256>
+        <Band_B255_256>1525:255,1542:255,1558.9:255,2170:256,2185:256,2199.5:256</Band_B255_256>
+        <!-- <LOSS_B255_256>1525:1,1542:1,1558.9:1,2170:1,2185:1,2199.5:1</LOSS_B255_256> -->
+		<RX_POWER_B255_256>1525:-60,1542:-60,1558.9:-60,2170:-60,2185:-60,2199.5:-60</RX_POWER_B255_256>
+        <!-- <RSSI_B255_256>1525:-60~-57,1542:-60~-57,1558.9:-60~-57,2170:-60~-57,2185:-60~-57,2199.5:-60~-57</RSSI_B255_256> -->
+		<RSSI_B255_256>1525:-120~-57,1542:-120~-57,1558.9:-120~-57,2170:-120~-57,2185:-120~-57,2199.5:-120~-57</RSSI_B255_256>
+		<TSE_GLOBAL_ENVIRONMENT_CONFIG_FILE_PATH>config\P760\p760_ant_test_tse2.xml</TSE_GLOBAL_ENVIRONMENT_CONFIG_FILE_PATH>
+		<TSE_INSTRUMENT_CONFIG_PATH>cache\P760\p760_instrument.xml</TSE_INSTRUMENT_CONFIG_PATH>
+		<TSE_GU_TEST_DATA_FILE_PATH>TestLog\GU\GuTestData.txt</TSE_GU_TEST_DATA_FILE_PATH>
+		<TSE_GU_LOSS>1</TSE_GU_LOSS>
+
+        <TSE_GPIB_TYPE>0</TSE_GPIB_TYPE>
+        <TSE_GPIB_INTERFACE>0</TSE_GPIB_INTERFACE>
+        <TSE_GPIB_PRIMARY_ADDR>20</TSE_GPIB_PRIMARY_ADDR>
+        <TSE_GPIB_SEC_ADDR>0</TSE_GPIB_SEC_ADDR>
+    </GlobalVariables>
+    <UIConfigTest>
+        <Test>
+            <ModuleName paramVal="TSE_ConfigUIPlugin.dll" description="" />
+            <RealName paramVal="CTSE_BaseConfig" description="" />
+            <TestName paramVal="Test Config" description="" />
+            <ConfigCount paramVal="5" description="" />
+            <LabelName1 paramVal="GPIB类型：" description="" />
+            <EditValueEnvironment1 paramVal="TSE_GPIB_TYPE" description="" />
+            <LabelName2 paramVal="GPIB接口：" description="" />
+            <EditValueEnvironment2 paramVal="TSE_GPIB_INTERFACE" description="" />
+            <LabelName3 paramVal="GPIB地址" description="" />
+            <EditValueEnvironment3 paramVal="TSE_GPIB_PRIMARY_ADDR" description="" />
+            <LabelName4 paramVal="TX B23/B24" description="" />
+            <EditValueEnvironment4 paramVal="FREQ_B23_24" description="" />
+            <LabelName5 paramVal="金机起始线损" description="" />
+            <EditValueEnvironment5 paramVal="TSE_GU_LOSS" description="" />
+			<RetryCount paramVal="1" description=""/>
+        </Test>
+    </UIConfigTest>
+    <RootTest>
+		<Test>
+            <ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+            <RealName paramVal="CTSE_CheckUsbDeviceExists" description="" />
+            <TestName paramVal="检查ADB端口是否存在" description="" />
+            <UsbVid paramVal="0E8D" description="" />
+            <UsbPid paramVal="201C" description="" />
+            <UsbServiceName paramVal="WINUSB" description="" />
+			<RegKeys paramVal="FriendlyName" description=""/>
+			<FindRegValues paramVal="BM1S1B" description=""/>
+            <CheckTimeOut paramVal="1" description="" />
+        </Test>
+        <Test>
+            <ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+            <RealName paramVal="CTSE_SendPipeCommand" description="" />
+            <TestName paramVal="Init ADB" description="" />
+            <CommandCount paramVal="3" description="" />
+            <Application paramVal="cmd.exe" description="" />
+            <CommandLine paramVal="" description="" />
+            <Command1 paramVal="adb get-state" description="" />
+            <Recv1 paramVal="device" description="" />
+            <SendCounts1 paramVal="200" description="" />
+            <TimeOut1 paramVal="30" description="" />
+            <Command2 paramVal="adb root" description="" />
+            <Recv2 paramVal="" description="" />
+            <SendCounts2 paramVal="10" description="" />
+            <TimeOut2 paramVal="10" description="" />
+            <Command3 paramVal="adb get-state" description="" />
+            <Recv3 paramVal="device" description="" />
+            <SendCounts3 paramVal="10" description="" />
+            <TimeOut3 paramVal="10" description="" />
+			<Command4 paramVal="adb shell" description="" />
+            <Recv4 paramVal="#" description="" />
+            <SendCounts4 paramVal="10" description="" />
+            <TimeOut4 paramVal="10" description="" />
+        </Test>
+		<Test>
+            <ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+            <RealName paramVal="CTSE_SendPipeCommand" description="" />
+            <TestName paramVal="Get Barcode" description="" />
+            <CommandCount paramVal="1" description="" />
+            <Application paramVal="cmd.exe" description="" />
+            <CommandLine paramVal="" description="" />
+            <Command1 paramVal="adb shell getprop vendor.gsm.serial" description="" />
+            <Recv1 paramVal="" description="" />
+            <SendCounts1 paramVal="3" description="" />
+			<Environment1 paramVal="TSE_SRC_BARCODE" description=""/>
+            <TimeOut1 paramVal="10" description="" />
+			<RetryCount paramVal="3" description=""/>
+			<!-- <Test>
+				<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+				<RealName paramVal="CTSE_BuildString" description="" />
+				<TestName paramVal="Format Barcode" description="" />
+				<EraseStringSplit paramVal="adb shell getprop vendor.gsm.serial,\\r,\\n" description="" />
+				<SrcStringCommand paramVal="$$_TSE_SRC_BARCODE_FORMAT_$$" description=""/>
+				<RegexRule paramVal="" description="regex rule" />
+				<SaveEnvironment paramVal="TSE_SRC_BARCODE" description=""/>
+			</Test> -->
+			<Test>
+				<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+				<RealName paramVal="CTSE_BuildEnvironmentValue" description="" />
+				<TestName paramVal="Build Barcode" description="" />
+				<BuildEnvironmentName paramVal="TSE_BARCODE_RESULT" description="" />
+				<SrcEnvironmentValue paramVal="$$_TSE_SRC_BARCODE_$$" description="" />
+				<SrcFormat paramVal="0,14" description="" />
+			</Test>
+			<Test>
+				<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+				<RealName paramVal="CTSE_BuildString" description="" />
+				<TestName paramVal="检查Barcode有效性" description="" />
+				<EraseStringSplit paramVal="\\r,\\n, " description="" />
+				<SrcStringCommand paramVal="$$_TSE_BARCODE_RESULT_$$" description=""/>
+				<RegexRule paramVal="[0-9A-Za-z]{14}" description="regex rule" />
+				<SaveEnvironment paramVal="TSE_BARCODE" description=""/>
+			</Test>
+			<Test>
+				<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+				<RealName paramVal="CTSE_PrintInfo" description="" />
+				<TestName paramVal="Barcode" description="" />
+				<EnvPrintCommand paramVal="TSE_BARCODE: $$_TSE_BARCODE_$$  " description="" />
+			</Test>
+        </Test>
+		<Test IsFinalize="1">
+			<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+			<RealName paramVal="CTSE_FTPUpdateFile" description="" />
+			<TestName paramVal="CPK文件上传" description="" />
+			<FTPListName paramVal="CPK" description="jgw_mes_config.data FTP List" />
+			<FTPUploadDirEnvironment paramVal="TSE_FTP_DIR" description="%TASK% ,%OPERATEID%,%SN%,%ComputerName%"/>
+			<UploadFileEnvironment paramVal="TSE_CPK_FILE_PATH" description="" />
+			<SNEnvironment paramVal="TSE_BARCODE" description="" />
+		</Test>
+    </RootTest>
+</JGW>

@@ -1,0 +1,185 @@
+2021-06-23 09:33:33 INFO  - LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-23 09:33:33 INFO  - CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-23 09:33:33 INFO  - LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-23 09:33:33 INFO  - LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-23 09:33:33 INFO  - CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-23 09:33:37 INFO  - CCJGWMainDlg::CloseSubPluginView
+2021-06-23 09:33:37 INFO  - CCJGWUIEvent::CloseSubPluginView
+2021-06-23 09:33:37 INFO  - CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-23 09:33:37 INFO  - CCJGWMainDlg::DestroySubPlugin
+2021-06-23 09:33:37 INFO  - CCJGWUIEvent::DestroySubPlugin
+2021-06-23 09:33:37 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-23 09:33:37 INFO  - DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-23 09:33:37 INFO  - CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-23 09:33:37 INFO  - LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-23 09:33:37 INFO  - LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-23 09:33:38 INFO  - CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-23 09:38:52 ERROR - error: no devices/emulators found
+2021-06-23 09:38:52 ERROR - error: no devices/emulators found
+2021-06-23 09:38:52 ERROR - error: no devices/emulators found
+2021-06-23 09:38:52 ERROR - error: no devices/emulators found
+2021-06-23 09:38:52 ERROR - error: no devices/emulators found
+2021-06-23 09:38:52 ERROR - error: no devices/emulators found
+2021-06-23 09:38:52 ERROR - error: no devices/emulators found
+2021-06-23 09:38:52 ERROR - error: no devices/emulators found
+2021-06-23 09:38:53 ERROR - error: no devices/emulators found
+2021-06-23 09:38:53 ERROR - error: no devices/emulators found
+2021-06-23 09:38:53 ERROR - error: no devices/emulators found
+2021-06-23 09:38:53 ERROR - error: no devices/emulators found
+2021-06-23 09:38:53 ERROR - error: no devices/emulators found
+2021-06-23 09:38:53 ERROR - error: no devices/emulators found
+2021-06-23 09:38:53 ERROR - error: no devices/emulators found
+2021-06-23 09:38:54 ERROR - error: no devices/emulators found
+2021-06-23 09:38:54 ERROR - error: no devices/emulators found
+2021-06-23 09:38:54 ERROR - error: no devices/emulators found
+2021-06-23 09:38:54 ERROR - error: no devices/emulators found
+2021-06-23 09:38:54 ERROR - error: no devices/emulators found
+2021-06-23 09:38:54 ERROR - error: no devices/emulators found
+2021-06-23 09:38:55 ERROR - error: no devices/emulators found
+2021-06-23 09:38:55 ERROR - error: no devices/emulators found
+2021-06-23 09:38:55 ERROR - error: no devices/emulators found
+2021-06-23 09:38:55 ERROR - error: no devices/emulators found
+2021-06-23 09:38:55 ERROR - error: no devices/emulators found
+2021-06-23 09:38:55 ERROR - error: no devices/emulators found
+2021-06-23 09:38:55 ERROR - error: no devices/emulators found
+2021-06-23 09:38:55 ERROR - error: no devices/emulators found
+2021-06-23 09:38:55 ERROR - error: no devices/emulators found
+2021-06-23 09:38:56 ERROR - error: no devices/emulators found
+2021-06-23 09:38:56 ERROR - error: no devices/emulators found
+2021-06-23 09:38:56 ERROR - error: no devices/emulators found
+2021-06-23 09:38:56 ERROR - error: no devices/emulators found
+2021-06-23 09:38:56 ERROR - error: no devices/emulators found
+2021-06-23 09:38:56 ERROR - error: no devices/emulators found
+2021-06-23 09:38:57 ERROR - error: no devices/emulators found
+2021-06-23 09:38:57 ERROR - error: no devices/emulators found
+2021-06-23 09:38:57 ERROR - error: no devices/emulators found
+2021-06-23 09:38:57 ERROR - error: no devices/emulators found
+2021-06-23 09:38:57 ERROR - error: no devices/emulators found
+2021-06-23 09:38:57 ERROR - error: no devices/emulators found
+2021-06-23 09:38:57 ERROR - error: no devices/emulators found
+2021-06-23 09:38:58 ERROR - error: no devices/emulators found
+2021-06-23 09:38:58 ERROR - error: no devices/emulators found
+2021-06-23 09:38:58 ERROR - error: no devices/emulators found
+2021-06-23 09:38:58 ERROR - error: no devices/emulators found
+2021-06-23 09:38:58 ERROR - error: no devices/emulators found
+2021-06-23 09:38:58 ERROR - error: no devices/emulators found
+2021-06-23 09:38:58 ERROR - error: no devices/emulators found
+2021-06-23 09:38:58 ERROR - error: no devices/emulators found
+2021-06-23 09:38:59 ERROR - error: no devices/emulators found
+2021-06-23 09:38:59 ERROR - error: no devices/emulators found
+2021-06-23 09:38:59 ERROR - error: no devices/emulators found
+2021-06-23 09:38:59 ERROR - error: no devices/emulators found
+2021-06-23 09:38:59 ERROR - error: no devices/emulators found
+2021-06-23 09:38:59 ERROR - error: no devices/emulators found
+2021-06-23 09:39:00 ERROR - error: no devices/emulators found
+2021-06-23 09:39:00 ERROR - error: no devices/emulators found
+2021-06-23 09:39:00 ERROR - error: no devices/emulators found
+2021-06-23 09:39:00 ERROR - error: no devices/emulators found
+2021-06-23 09:39:00 ERROR - error: no devices/emulators found
+2021-06-23 09:39:00 ERROR - error: no devices/emulators found
+2021-06-23 09:39:00 ERROR - error: no devices/emulators found
+2021-06-23 09:39:00 ERROR - error: no devices/emulators found
+2021-06-23 09:39:01 ERROR - error: no devices/emulators found
+2021-06-23 09:39:01 ERROR - error: no devices/emulators found
+2021-06-23 09:39:01 ERROR - error: no devices/emulators found
+2021-06-23 09:39:01 ERROR - error: no devices/emulators found
+2021-06-23 09:39:01 ERROR - error: no devices/emulators found
+2021-06-23 09:39:01 ERROR - error: no devices/emulators found
+2021-06-23 09:39:01 ERROR - error: no devices/emulators found
+2021-06-23 09:39:02 ERROR - error: no devices/emulators found
+2021-06-23 09:39:02 ERROR - error: no devices/emulators found
+2021-06-23 09:39:02 ERROR - error: no devices/emulators found
+2021-06-23 09:39:02 ERROR - error: no devices/emulators found
+2021-06-23 09:39:02 ERROR - error: no devices/emulators found
+2021-06-23 09:39:02 ERROR - error: no devices/emulators found
+2021-06-23 09:39:02 ERROR - error: no devices/emulators found
+2021-06-23 09:39:03 ERROR - error: no devices/emulators found
+2021-06-23 09:39:03 ERROR - error: no devices/emulators found
+2021-06-23 09:39:03 ERROR - error: no devices/emulators found
+2021-06-23 09:39:03 ERROR - error: no devices/emulators found
+2021-06-23 09:39:03 ERROR - error: no devices/emulators found
+2021-06-23 09:39:03 ERROR - error: no devices/emulators found
+2021-06-23 09:39:03 ERROR - error: no devices/emulators found
+2021-06-23 09:39:03 ERROR - error: no devices/emulators found
+2021-06-23 09:39:04 ERROR - error: no devices/emulators found
+2021-06-23 09:39:04 ERROR - error: no devices/emulators found
+2021-06-23 09:39:04 ERROR - error: no devices/emulators found
+2021-06-23 09:39:04 ERROR - error: no devices/emulators found
+2021-06-23 09:39:04 ERROR - error: no devices/emulators found
+2021-06-23 09:39:04 ERROR - error: no devices/emulators found
+2021-06-23 09:39:05 ERROR - error: no devices/emulators found
+2021-06-23 09:39:05 ERROR - error: no devices/emulators found
+2021-06-23 09:39:05 ERROR - error: no devices/emulators found
+2021-06-23 09:39:05 ERROR - error: no devices/emulators found
+2021-06-23 09:39:05 ERROR - error: no devices/emulators found
+2021-06-23 09:39:05 ERROR - error: no devices/emulators found
+2021-06-23 09:39:05 ERROR - error: no devices/emulators found
+2021-06-23 09:39:05 ERROR - error: no devices/emulators found
+2021-06-23 09:39:06 ERROR - error: no devices/emulators found
+2021-06-23 09:39:06 ERROR - error: no devices/emulators found
+2021-06-23 09:39:06 ERROR - error: no devices/emulators found
+2021-06-23 09:39:06 ERROR - error: no devices/emulators found
+2021-06-23 09:39:14 ERROR - Start Test Error : Test tree is not valid!
+2021-06-23 09:39:14 ERROR - Send Start Test  Msg Fail!!!
+2021-06-23 09:39:14 ERROR - Check the QSPR installation environment QSPR Path:C:\Program Files (x86)\Qualcomm\QDART\bin\QSPR.exe
+Send TSE Control Reg Msg
+Start Recv TSE Control Msg
+Launching QSPR...
+QSPRExecutablePath: C:\Program Files (x86)\Qualcomm\QDART\bin\QSPR.exe
+TestPlanFilePath: D:\tmp\NC700\exec\cache\NC700\WIFI_ANT\NC700_TEST_LAN.cxtt
+Launching QSPR complete.
+Test tree is not valid!
+
+2021-06-23 09:39:27 ERROR - Not Recv Global Variable  Result Fail !!!
+2021-06-23 09:39:27 ERROR - Send Global Variable Msg Fail!!!
+2021-06-23 09:39:27 ERROR - Get Msg Exception : 已添加了具有相同键的项。
+
+2021-06-23 09:39:40 ERROR - Not Recv Global Variable  Result Fail !!!
+2021-06-23 09:39:40 ERROR - Send Global Variable Msg Fail!!!
+2021-06-23 09:39:40 ERROR - Get Msg Exception : 已添加了具有相同键的项。
+
+2021-06-23 09:44:41 INFO  - CCJGWMainDlg::OnCloseWindow
+2021-06-23 09:44:41 INFO  - CCJGWMainDlg::CloseSubPluginView
+2021-06-23 09:44:41 INFO  - CCJGWUIEvent::CloseSubPluginView
+2021-06-23 09:44:41 INFO  - CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-23 09:44:41 INFO  - CCJGWMainDlg::DestroySubPlugin
+2021-06-23 09:44:41 INFO  - CCJGWUIEvent::DestroySubPlugin
+2021-06-23 09:44:41 INFO  - DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0329BF00
+2021-06-23 09:44:41 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-23 09:44:46 INFO  - LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-06-23 09:44:46 INFO  - CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\JGW_DevicePool.dll)
+2021-06-23 09:44:47 INFO  - LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-06-23 09:44:47 INFO  - LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll)
+2021-06-23 09:44:47 INFO  - CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-06-23 09:44:48 INFO  - CCJGWMainDlg::CloseSubPluginView
+2021-06-23 09:44:48 INFO  - CCJGWUIEvent::CloseSubPluginView
+2021-06-23 09:44:48 INFO  - CloseSubPluginView : D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-23 09:44:48 INFO  - CCJGWMainDlg::DestroySubPlugin
+2021-06-23 09:44:48 INFO  - CCJGWUIEvent::DestroySubPlugin
+2021-06-23 09:44:48 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CWelcomPlugin.dll
+2021-06-23 09:44:48 INFO  - DestroyClassPtr clsid : ,ptr : 00000000
+2021-06-23 09:44:48 INFO  - CreateSubWndImpl : D:\tmp\NC700\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-06-23 09:44:48 INFO  - LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-06-23 09:44:48 INFO  - LoadSubWndPlugin loadLibrary(path:D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-06-23 09:44:48 INFO  - CreateSubWndImpl : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-06-23 09:44:48 ERROR - Bind(127.0.0.1:3003) Error:Address already in use: 127.0.0.1:3003
+2021-06-23 09:45:08 ERROR - Check the QSPR installation environment QSPR Path:C:\Program Files (x86)\Qualcomm\QDART\bin\QSPR.exe
+Send TSE Control Reg Msg
+Start Recv TSE Control Msg
+Launching QSPR...
+QSPRExecutablePath: C:\Program Files (x86)\Qualcomm\QDART\bin\QSPR.exe
+TestPlanFilePath: D:\tmp\NC700\exec\cache\NC700\WIFI_ANT\NC700_TEST_LAN.cxtt
+Launching QSPR complete.
+
+2021-06-23 09:45:25 ERROR - Not Start Test Result Fail !!!
+2021-06-23 09:45:25 ERROR - Send Start Test  Msg Fail!!!
+2021-06-23 09:45:25 ERROR - Get Msg Exception : 未将对象引用设置到对象的实例。
+
+2021-06-23 09:46:30 INFO  - CCJGWMainDlg::OnCloseWindow
+2021-06-23 09:46:30 INFO  - CCJGWMainDlg::CloseSubPluginView
+2021-06-23 09:46:30 INFO  - CCJGWUIEvent::CloseSubPluginView
+2021-06-23 09:46:30 INFO  - CloseSubPluginView : D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll
+2021-06-23 09:46:31 INFO  - CCJGWMainDlg::DestroySubPlugin
+2021-06-23 09:46:31 INFO  - CCJGWUIEvent::DestroySubPlugin
+2021-06-23 09:46:31 INFO  - DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 036CC050
+2021-06-23 09:46:31 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary D:\tmp\NC700\exec\plugin\CTSEThroughTestPlugin.dll

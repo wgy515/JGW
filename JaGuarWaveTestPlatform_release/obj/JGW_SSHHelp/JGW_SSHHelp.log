@@ -1,0 +1,36 @@
+﻿生成启动时间为 2021/7/30 11:29:01。
+     1>项目“F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\tools\test\JGW_SSHHelp\JGW_SSHHelp.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_SSHHelp\JGW_SSHHelp.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_library\include" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D JGW_SSHHELP_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_SSHHelp\JGW_SSHHelp.pch" /Fo"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_SSHHelp\\" /Fd"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_SSHHelp\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_library\include" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D JGW_SSHHELP_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_SSHHelp\JGW_SSHHelp.pch" /Fo"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_SSHHelp\\" /Fd"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_SSHHelp\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CJGW_AsyncSocket.cpp CJGW_SSHShell.cpp CJGW_SecureShellInit.cpp CJGW_SyncSocket.cpp JGW_SSHHelp.cpp
+         CJGW_AsyncSocket.cpp
+         CJGW_SSHShell.cpp
+         CJGW_SecureShellInit.cpp
+         CJGW_SyncSocket.cpp
+         JGW_SSHHelp.cpp
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_SSHHelp.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core_lib\libssh2" /LIBPATH:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\library" libssh2.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_SSHHelp\JGW_SSHHelp.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_SSHHelp.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_SSHHelp.lib" /MACHINE:X86 /DLL "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_SSHHelp\CJGW_AsyncSocket.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_SSHHelp\CJGW_SecureShellInit.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_SSHHelp\CJGW_SSHShell.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_SSHHelp\CJGW_SyncSocket.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_SSHHelp\dllmain.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_SSHHelp\JGW_SSHHelp.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_SSHHelp\stdafx.obj"
+            正在创建库 F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_SSHHelp.lib 和对象 F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_SSHHelp.exp
+         正在生成代码
+         已完成代码的生成
+         JGW_SSHHelp.vcxproj -> F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_SSHHelp.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_SSHHelp.dll;#2" /manifest "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_SSHHelp\JGW_SSHHelp.dll.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_SSHHelp\JGW_SSHHelp.unsuccessfulbuild”。
+         正在对“F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_SSHHelp\JGW_SSHHelp.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\tools\test\JGW_SSHHelp\JGW_SSHHelp.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.91

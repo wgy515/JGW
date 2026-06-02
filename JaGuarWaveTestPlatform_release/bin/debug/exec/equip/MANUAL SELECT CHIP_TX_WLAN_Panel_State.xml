@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="qrct4">
+  <Panel name="TX_MANUAL_SELECT_0">
+    <UIData name="2" value="3" />
+    <UIData name="3" value="36" />
+    <UIData name="5" value="3" />
+    <UIData name="6" value="15" />
+    <UIData name="7" value="5" />
+    <UIData name="8" value="72" />
+    <UIData name="9" value="0" />
+    <UIData name="10" value="0" />
+    <UIData name="11" value="1" />
+    <UIData name="12" value="10" />
+    <UIData name="13" value="0" />
+    <UIData name="14" value="0" />
+    <UIData name="15" value="1" />
+    <UIData name="16" value="0" />
+    <UIData name="17" value="1500" />
+    <UIData name="18" value="0" />
+    <UIData name="19" value="1" />
+    <UIData name="20" value="1" />
+    <UIData name="21" value="0" />
+    <UIData name="22" value="0" />
+    <UIData name="23" value="1" />
+    <UIData name="24" value="0" />
+    <UIData name="25" value="20" />
+    <UIData name="26" value="0" />
+    <UIData name="27" value="7" />
+  </Panel>
+</PanelCollection>

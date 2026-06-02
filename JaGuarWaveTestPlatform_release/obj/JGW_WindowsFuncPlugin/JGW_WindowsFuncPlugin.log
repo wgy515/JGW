@@ -1,0 +1,82 @@
+﻿生成启动时间为 2025/8/27 11:20:21。
+     1>项目“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_library\module\JGW_WindowsFuncPlugin\JGW_WindowsFuncPlugin.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\JGW_WindowsFuncPlugin.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\JGW_WindowsFuncPlugin.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_library\include" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D JGW_WINDOWSFUNCPLUGIN_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\JGW_WindowsFuncPlugin.pch" /Fo"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\\" /Fd"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_library\include" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D JGW_WINDOWSFUNCPLUGIN_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\JGW_WindowsFuncPlugin.pch" /Fo"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\\" /Fd"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CJGW_Clipboard.cpp CJGW_SimpleThread.cpp crashdump\crashdump.cpp dongles\CJGW_DonglesComPort.cpp dongles\CJGW_PerasoSocUsb.cpp download\CJGW_DownloadPortSort.cpp file\CJGW_Win32IocpFSWatcher.cpp ini\CJGW_ConfigIni.cpp mtp\CJGW_MediaTransferProtocol.cpp net\CJGW_AdapterCommonInfo.cpp pdb\CJGW_DownloadPDBImage.cpp pdb\CJGW_PrsDownloadFlash.cpp pipe\CJGW_CPeekNamePide.cpp pipe\CJGW_ProcessPipe.cpp socket\CJGW_AsyncSocket.cpp socket\CJGW_ICMPSocket.cpp socket\CJGW_SyncSocket.cpp sqlite\CJGW_SQLite.cpp system\CPUMemDiskStatus.cpp thread\CMessageThread.cpp TimeUtils.cpp usb_communication\CJGW_CSerialComPort.cpp usb_communication\CJGW_CSerialModemPort.cpp usb_communication\CJGW_CSerialPort.cpp
+         CJGW_Clipboard.cpp
+         CJGW_SimpleThread.cpp
+         crashdump.cpp
+         CJGW_DonglesComPort.cpp
+         CJGW_PerasoSocUsb.cpp
+         CJGW_DownloadPortSort.cpp
+         CJGW_Win32IocpFSWatcher.cpp
+         CJGW_ConfigIni.cpp
+         CJGW_MediaTransferProtocol.cpp
+         CJGW_AdapterCommonInfo.cpp
+         CJGW_DownloadPDBImage.cpp
+         CJGW_PrsDownloadFlash.cpp
+         CJGW_CPeekNamePide.cpp
+         CJGW_ProcessPipe.cpp
+         CJGW_AsyncSocket.cpp
+         CJGW_ICMPSocket.cpp
+         CJGW_SyncSocket.cpp
+         CJGW_SQLite.cpp
+         CPUMemDiskStatus.cpp
+         CMessageThread.cpp
+         正在编译...
+         TimeUtils.cpp
+         CJGW_CSerialComPort.cpp
+         CJGW_CSerialModemPort.cpp
+         CJGW_CSerialPort.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_library\include" /I"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D JGW_WINDOWSFUNCPLUGIN_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\\" /Fd"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_WindowsFuncPlugin.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core_lib\boost\lib" /LIBPATH:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\core" /LIBPATH:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\library" ws2_32.lib IPHlpApi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\JGW_WindowsFuncPlugin.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_WindowsFuncPlugin.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\library\JGW_WindowsFuncPlugin.lib" /MACHINE:X86 /DLL "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\CJGW_Clipboard.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\CJGW_SimpleThread.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\crashdump.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\dllmain.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\CJGW_DonglesComPort.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\CJGW_PerasoSocUsb.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\CJGW_DownloadPortSort.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\CJGW_Win32IocpFSWatcher.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\CJGW_ConfigIni.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\CJGW_MediaTransferProtocol.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\CJGW_AdapterCommonInfo.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\CJGW_DownloadPDBImage.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\CJGW_PrsDownloadFlash.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\CJGW_CPeekNamePide.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\CJGW_ProcessPipe.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\CJGW_AsyncSocket.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\CJGW_ICMPSocket.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\CJGW_SyncSocket.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\CJGW_SQLite.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\stdafx.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\CPUMemDiskStatus.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\CMessageThread.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\TimeUtils.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\CJGW_CSerialComPort.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\CJGW_CSerialModemPort.obj"
+         "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\CJGW_CSerialPort.obj"
+            正在创建库 D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\library\JGW_WindowsFuncPlugin.lib 和对象 D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\library\JGW_WindowsFuncPlugin.exp
+         正在生成代码
+         已完成代码的生成
+         JGW_WindowsFuncPlugin.vcxproj -> D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_WindowsFuncPlugin.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_WindowsFuncPlugin.dll;#2" /manifest "D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\JGW_WindowsFuncPlugin.dll.intermediate.manifest"
+       PostBuildEvent:
+         copy /y  D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JGW_WindowsFuncPlugin.dll 	D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec\JGW_WindowsFuncPlugin.dll
+         :VCEnd
+         已复制         1 个文件。
+       FinalizeBuildStatus:
+         正在删除文件“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\JGW_WindowsFuncPlugin.unsuccessfulbuild”。
+         正在对“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JGW_WindowsFuncPlugin\JGW_WindowsFuncPlugin.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_library\module\JGW_WindowsFuncPlugin\JGW_WindowsFuncPlugin.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:16.41

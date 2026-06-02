@@ -1,0 +1,25 @@
+#pragma once
+#include <TSE_FoundationLib/TSE_TestBase.h>
+#include "PacketTranslator.h"
+namespace JGW
+{
+    class CTSE_WriteQcomNV:public CTSE_TestBase
+    {
+    public:
+        CTSE_WriteQcomNV(void);
+    private:
+        const wchar_t* TSE_GetParamDescription();
+        bool TSE_AddParam(const wchar_t* strParamName,const wchar_t* strParamValue);
+        bool TSE_Run();
+    private:
+        CPacketTranslator mPacketFormatter;
+        unsigned char* mpData;
+        unsigned long mPacketLen;
+        unsigned short mitemID;
+        unsigned short miSub_ID;
+        bool mbOpenDMSSSecurityPlan;
+        std::string mstrSPC;
+    };
+}
+
+

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DefaultListener">
+      <UniqueIdentifier>{86434c87-c95e-471a-abe4-cbeb4dd492cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{0a7d4d97-14cc-4d0a-9cac-9f1ef46067b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{94583933-e8b4-4b14-927a-651b5e806eb6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CSTSE_FoundationLib\CSTSE_ServerBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CSTSE_FoundationLib\CSTSE_Crypto.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CSTSE_FoundationLib\CSTSE_ClientBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSTSE_CryptoDefault.h">
+      <Filter>DefaultListener</Filter>
+    </ClInclude>
+    <ClInclude Include="CSTSE_CryptoEmpty.h">
+      <Filter>DefaultListener</Filter>
+    </ClInclude>
+    <ClInclude Include="CSTSE_LogListenerEmpty.h">
+      <Filter>DefaultListener</Filter>
+    </ClInclude>
+    <ClInclude Include="CSTSE_TestStatusListenerEmpty.h">
+      <Filter>DefaultListener</Filter>
+    </ClInclude>
+    <ClInclude Include="CSTSE_InitCommandParamJson.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="CSTSE_GetTSEInfoJson.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="CSTSE_RsponseTSEInfoJson.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="CSTSE_EnverionmentJson.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="CSTSE_RspEnverionmentJson.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="CSTSE_TSETestJson.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="CSTSE_RspTSETestJson.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CSTSE_FoundationLib\CSTSE_ActionDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSTSE_TestLogJson.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="CSTSE_TestStatusChangeJson.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="CSTSE_TestIndexChangeJson.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CSTSE_FoundationLib\CSTSE_ResponseBaseJson.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CSTSE_FoundationLib\CSTSE_BaseJson.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSTSE_ServerBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSTSE_ClientBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSTSE_CryptoDefault.cpp">
+      <Filter>DefaultListener</Filter>
+    </ClCompile>
+    <ClCompile Include="CSTSE_CryptoEmpty.cpp">
+      <Filter>DefaultListener</Filter>
+    </ClCompile>
+    <ClCompile Include="CSTSE_LogListenerEmpty.cpp">
+      <Filter>DefaultListener</Filter>
+    </ClCompile>
+    <ClCompile Include="CSTSE_TestStatusListenerEmpty.cpp">
+      <Filter>DefaultListener</Filter>
+    </ClCompile>
+    <ClCompile Include="CSTSE_InitCommandParamJson.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="CSTSE_GetTSEInfoJson.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="CSTSE_ResponseBaseJson.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="CSTSE_RsponseTSEInfoJson.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="CSTSE_EnverionmentJson.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="CSTSE_RspEnverionmentJson.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="CSTSE_TSETestJson.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="CSTSE_RspTSETestJson.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="CSTSE_BaseJson.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="CSTSE_TestLogJson.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="CSTSE_TestStatusChangeJson.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="CSTSE_TestIndexChangeJson.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

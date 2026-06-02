@@ -1,0 +1,3906 @@
+<STYLE TYPE="text/css" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      tbody tr:first-child td:first-child {
+          position: sticky;
+          left: 0;
+          z-index: 1;
+          border-right: 1px;
+      }
+      
+      tbody tr:not(:nth-child(1)) td:first-child {
+          position: sticky;
+          left: 0;
+          z-index: 1;
+          background-color: white;
+          border-right: 1px;
+      }
+      
+      tbody tr:first-child td {
+          position: sticky;
+          top: 0;
+      }
+      
+      tbody tr:first-child td:first-child {
+          z-index: 2;
+      }    
+      body {
+      font-family: Sans-Serif;
+      }
+      table { empty-cells:show; border-collapse:collapse; border-style: solid; border-color: gray; font-size: 10pt;}
+      #ttfmt { border-style: none; font-size: 8pt;}
+      th,td {
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 1px;
+      padding-bottom: 1px;
+    </STYLE>
+<HR COLOR="#6699CC" SIZE="10" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><big><b>Test Report:  QSEQ</b></big></big></big><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big xmlns:msxsl="urn:schemas-microsoft-com:xslt"><b>UUT ID:  NA</b></big><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big xmlns:msxsl="urn:schemas-microsoft-com:xslt"><b>Status:  PASS</b></big><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><b xmlns:msxsl="urn:schemas-microsoft-com:xslt">Date:  07/02/2021</b><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><a name="TOC" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></a><HR COLOR="#6699CC" SIZE="2" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>Table of Contents</b></big></big><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<table border="1">
+<tr>
+<td bgcolor="#CCCCCC"><b>Test Name</b></td>
+<td bgcolor="#CCCCCC"><b>Status</b></td>
+<td bgcolor="#CCCCCC"><b>Duration (s)</b></td>
+</tr>
+<tr>
+<td><a href="
+                        #1">CheckPhoneCommAndPhoneMode</a></td>
+<td bgcolor="#00CC00">PASS</td>
+<td>0.00</td>
+</tr>
+<tr>
+<td><a href="
+                        #2">LTE Command Execution Time</a></td>
+<td bgcolor="#00CC00">PASS</td>
+<td>0.00</td>
+</tr>
+<tr>
+<td><a href="
+                        #3">LTE_MaxPower</a></td>
+<td bgcolor="#00CC00">PASS</td>
+<td>0.00</td>
+</tr>
+<tr>
+<td><a href="
+                        #4">LTE_TxQuality</a></td>
+<td bgcolor="#00CC00">PASS</td>
+<td>0.00</td>
+</tr>
+<tr>
+<td><a href="
+                        #5">LTE_OccupiedBandwidth</a></td>
+<td bgcolor="#00CC00">PASS</td>
+<td>0.00</td>
+</tr>
+<tr>
+<td><a href="
+                        #6">LTE_SpectrumEmissionMask</a></td>
+<td bgcolor="#00CC00">PASS</td>
+<td>0.00</td>
+</tr>
+<tr>
+<td><a href="
+                        #7">LTE_ACLR</a></td>
+<td bgcolor="#00CC00">PASS</td>
+<td>0.00</td>
+</tr>
+<tr>
+<td><a href="
+                        #8">LTE_TxPower</a></td>
+<td bgcolor="#00CC00">PASS</td>
+<td>0.00</td>
+</tr>
+<tr>
+<td><a href="
+                        #9">LTE_RFCalVerification_Rx0</a></td>
+<td bgcolor="#00CC00">PASS</td>
+<td>0.00</td>
+</tr>
+<tr>
+<td><a href="
+                        #10">LTE_RFCalVerification_Rx1</a></td>
+<td bgcolor="#00CC00">PASS</td>
+<td>0.00</td>
+</tr>
+<tr>
+<td><a href="
+                        #11">LTE_EstimatedSensitivity_Rx0</a></td>
+<td bgcolor="#00CC00">PASS</td>
+<td>0.00</td>
+</tr>
+<tr>
+<td><a href="
+                        #12">LTE_EstimatedSensitivity_Rx1</a></td>
+<td bgcolor="#00CC00">PASS</td>
+<td>0.00</td>
+</tr>
+<tr>
+<td><a href="
+                        #13">Test Time</a></td>
+<td bgcolor="#00CC00">PASS</td>
+<td>NaN</td>
+</tr>
+</table>
+</UL>
+<table id="ttfmt" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<tr>
+<td>
+<UL><b>Additional Test Run Data</b><UL>
+<LI>Test Time...<UL>
+<LI>Start Time:  17:29:16</LI>
+<LI>Stop Time:  17:29:23</LI>
+<LI>Duration:  00:00:07 0ms</LI>
+</UL>
+</LI>
+</UL>
+<UL>
+<LI><span>UUT Information...</span><UL>
+<LI>UUT ID:  NA</LI>
+<LI>UUT Type:  NA</LI>
+<LI>SW Build ID:  MPSS.HI.2.0.3-00217-SDX55_CPEALL_PACK-1</LI>
+</UL>
+</LI>
+</UL>
+<UL>
+<LI><span>XTT Information...</span><UL>
+<LI>XTT :  C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\cache\NC700\45G_RF\NC700_0_2_6_7_RF.xtt</LI>
+</UL>
+</LI>
+</UL>
+<UL>
+<LI><span>Test Station Information...</span><UL>
+<LI>Name:  QSEQ_Sample1</LI>
+<LI>Type:  QSEQ</LI>
+<LI><span>Equipment Configuration...</span><UL>
+<LI>CALL_PROCESSOR1:  CMW</LI>
+</UL>
+</LI>
+<LI><span>PC Configuration...</span><UL>
+<LI>DeviceConfig:  C:\JGWStart\Databases\QSEQ_DeviceConfig_CMW100_Sample.xml</LI>
+<LI>HOSTNAME:  C0500</LI>
+<LI>QSPR ver:  5.0-00198</LI>
+<LI>QLIB Lib Mode:  QUTS.External ver 1.40.2.3</LI>
+<LI>QMSL ver:  QLIB V6.1.440</LI>
+<LI>QC USB ver:  2,1,3,8</LI>
+</UL>
+</LI>
+<LI><span>Software Configuration...</span><UL>
+<LI>QSEQ_CORE_DLL.dll:  2.0.147.0</LI>
+<LI>QSEQ_PathLossManager.dll:  2.0.147.0</LI>
+<LI>QSEQ_Utility_Qualcomm.dll:  2.0.147.0</LI>
+<LI>QSEQ_Algorithm_Qualcomm_NSVFS.dll:  2.0.147.0</LI>
+<LI>QSEQ_Device_Qualcomm_Mobile.dll:  2.0.147.0</LI>
+<LI>QSEQ_Device_RohdeSchwarz_CMW500.dll:  2.0.147.0</LI>
+<LI>QSEQ_Algorithm_Qualcomm_RFVFS.dll:  2.0.147.0</LI>
+<LI>QSEQ_Device_Qualcomm_Mobile_RFVFS.dll:  2.0.147.0</LI>
+<LI>QSEQ_Device_RohdeSchwarz_CMW500_RFVFS.dll:  2.0.147.0</LI>
+</UL>
+</LI>
+</UL>
+</LI>
+</UL>
+</UL>
+</td>
+</tr>
+</table><a name="1" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></a><HR COLOR="#6699CC" SIZE="2" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>CheckPhoneCommAndPhoneMode</b></big></big><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>Status:  </b></big><big><b><span style="color:#00CC00">PASS</span></b></big></UL>
+<UL xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<table border="1">
+<tr>
+<td bgcolor="#FFFFCC" align="center"><b>CommPort ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>DiagTransportMode ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>Success ()</b></td>
+<td bgcolor="#EEEEE0" align="center"><b>Time (s)</b></td>
+</tr>
+<tr>
+<td align="center">-1</td>
+<td align="center">QUTS</td>
+<td align="center">1</td>
+<td><span style="color:white">-</span></td>
+</tr>
+</table>
+</UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<table border="1">
+<tr>
+<td bgcolor="#EEEEE0" align="center"><b>Time (s)</b></td>
+</tr>
+</table>
+</UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+          Duration: 0.00 (s)
+          <br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><a href="#TOC" xmlns:msxsl="urn:schemas-microsoft-com:xslt">Back to top
+          </a><a name="2" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></a><HR COLOR="#6699CC" SIZE="2" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>LTE Command Execution Time</b></big></big><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>Status:  </b></big><big><b><span style="color:#00CC00">PASS</span></b></big></UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><b xmlns:msxsl="urn:schemas-microsoft-com:xslt">CommandTestTimes</b><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<table border="1">
+<tr>
+<td bgcolor="#FFFFCC" align="center"><b>SegmentID ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Description(Band_Channel_StartRB@NumRB_ModSch_RMC_TxPower_RxPower_Chain)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>SegmentDuration (ms)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Total Execution Time (ms)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Test Time Delta (ms)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>Test Time Delta Min</b></td>
+<td bgcolor="#6699CC" align="center"><b>Commands ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>Type ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>Execution Time (ms)</b></td>
+<td bgcolor="#EEEEE0" align="center"><b>Time (s)</b></td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">B1_18550_50@0_QPSK_PUSCH_-25.0_-120.0_DUAL</td>
+<td align="center">Start_Call</td>
+<td align="center">20.51</td>
+<td align="center">N/A</td>
+<td align="center">-</td>
+<td align="center">Radio_Configure</td>
+<td align="center">Configure</td>
+<td align="center">0.05</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Rx_Measure</td>
+<td align="center">Rx_Freq_Error</td>
+<td align="center">20.11</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.34</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">B1_18550_50@0_QPSK_PUSCH_24.0_-120.0_DUAL</td>
+<td align="center">10</td>
+<td align="center">0.01</td>
+<td align="center">9.98</td>
+<td align="center">0.00</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.01</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">B1_18550_50@0_QPSK_PUSCH_0.0_-120.0_DUAL</td>
+<td align="center">10</td>
+<td align="center">0.02</td>
+<td align="center">9.98</td>
+<td align="center">0.00</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.02</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">B1_18550_50@0_QPSK_PUSCH_24.0_-120.0_DUAL</td>
+<td align="center">10</td>
+<td align="center">0.02</td>
+<td align="center">9.98</td>
+<td align="center">0.00</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.02</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td align="center">B1_18550_50@0_QPSK_PUSCH_-36.8_-120.0_DUAL</td>
+<td align="center">10</td>
+<td align="center">0.02</td>
+<td align="center">9.98</td>
+<td align="center">0.00</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.02</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td align="center">B1_18300_50@0_QPSK_PUSCH_-36.8_-120.0_DUAL</td>
+<td align="center">50</td>
+<td align="center">41.54</td>
+<td align="center">8.46</td>
+<td align="center">0.00</td>
+<td align="center">Radio_Configure</td>
+<td align="center">Configure</td>
+<td align="center">21.08</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Rx_Measure</td>
+<td align="center">Rx_Freq_Error</td>
+<td align="center">20.11</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.34</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">16</td>
+<td align="center">B1_18300_50@0_QPSK_PUSCH_24.0_-75.0_DUAL</td>
+<td align="center">10</td>
+<td align="center">0.02</td>
+<td align="center">9.98</td>
+<td align="center">0.00</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.02</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td align="center">B1_18300_50@0_QPSK_PUSCH_24.0_-75.0_DUAL</td>
+<td align="center">20</td>
+<td align="center">14.49</td>
+<td align="center">5.51</td>
+<td align="center">0.00</td>
+<td align="center">Rx_Measure</td>
+<td align="center">Rx_Level</td>
+<td align="center">14.49</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">19</td>
+<td align="center">B1_18300_50@0_QPSK_PUSCH_24.0_-71.0_DUAL</td>
+<td align="center">60</td>
+<td align="center">44.76</td>
+<td align="center">15.24</td>
+<td align="center">0.00</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.02</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Rx_Measure</td>
+<td align="center">Est_Sen</td>
+<td align="center">44.74</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">20</td>
+<td align="center">B1_18050_50@0_QPSK_PUSCH_24.0_-71.0_DUAL</td>
+<td align="center">50</td>
+<td align="center">41.40</td>
+<td align="center">8.60</td>
+<td align="center">0.00</td>
+<td align="center">Radio_Configure</td>
+<td align="center">Configure</td>
+<td align="center">21.04</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Rx_Measure</td>
+<td align="center">Rx_Freq_Error</td>
+<td align="center">20.02</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.34</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">21</td>
+<td align="center">B1_18050_1@0_QPSK_PUSCH_24.0_-71.0_DUAL</td>
+<td align="center">10</td>
+<td align="center">3.27</td>
+<td align="center">6.73</td>
+<td align="center">0.00</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">3.27</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">23</td>
+<td align="center">B1_18050_1@0_QPSK_PUSCH_0.0_-71.0_DUAL</td>
+<td align="center">10</td>
+<td align="center">0.02</td>
+<td align="center">9.98</td>
+<td align="center">0.00</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.02</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">25</td>
+<td align="center">B3_19900_50@0_QPSK_PUSCH_0.0_-71.0_DUAL</td>
+<td align="center">50</td>
+<td align="center">41.52</td>
+<td align="center">8.48</td>
+<td align="center">0.00</td>
+<td align="center">Radio_Configure</td>
+<td align="center">Configure</td>
+<td align="center">21.10</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Rx_Measure</td>
+<td align="center">Rx_Freq_Error</td>
+<td align="center">20.08</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.34</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">26</td>
+<td align="center">B3_19900_50@0_QPSK_PUSCH_24.0_-120.0_DUAL</td>
+<td align="center">10</td>
+<td align="center">0.02</td>
+<td align="center">9.98</td>
+<td align="center">0.00</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.02</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">28</td>
+<td align="center">B3_19900_50@0_QPSK_PUSCH_-36.8_-120.0_DUAL</td>
+<td align="center">10</td>
+<td align="center">0.02</td>
+<td align="center">9.98</td>
+<td align="center">0.00</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.02</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">30</td>
+<td align="center">B3_19575_50@0_QPSK_PUSCH_-36.8_-120.0_DUAL</td>
+<td align="center">50</td>
+<td align="center">41.41</td>
+<td align="center">8.59</td>
+<td align="center">0.00</td>
+<td align="center">Radio_Configure</td>
+<td align="center">Configure</td>
+<td align="center">21.03</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Rx_Measure</td>
+<td align="center">Rx_Freq_Error</td>
+<td align="center">20.03</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.34</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">31</td>
+<td align="center">B3_19575_50@0_QPSK_PUSCH_24.0_-75.0_DUAL</td>
+<td align="center">10</td>
+<td align="center">0.02</td>
+<td align="center">9.98</td>
+<td align="center">0.00</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.02</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">32</td>
+<td align="center">B3_19575_50@0_QPSK_PUSCH_24.0_-75.0_DUAL</td>
+<td align="center">20</td>
+<td align="center">14.49</td>
+<td align="center">5.51</td>
+<td align="center">0.00</td>
+<td align="center">Rx_Measure</td>
+<td align="center">Rx_Level</td>
+<td align="center">14.49</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">34</td>
+<td align="center">B3_19575_50@0_QPSK_PUSCH_24.0_-71.0_DUAL</td>
+<td align="center">60</td>
+<td align="center">44.60</td>
+<td align="center">15.40</td>
+<td align="center">0.00</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.02</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Rx_Measure</td>
+<td align="center">Est_Sen</td>
+<td align="center">44.58</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">35</td>
+<td align="center">B3_19250_50@0_QPSK_PUSCH_24.0_-71.0_DUAL</td>
+<td align="center">50</td>
+<td align="center">41.51</td>
+<td align="center">8.49</td>
+<td align="center">0.00</td>
+<td align="center">Radio_Configure</td>
+<td align="center">Configure</td>
+<td align="center">21.11</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Rx_Measure</td>
+<td align="center">Rx_Freq_Error</td>
+<td align="center">20.06</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.34</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">36</td>
+<td align="center">B3_19250_1@0_QPSK_PUSCH_24.0_-71.0_DUAL</td>
+<td align="center">10</td>
+<td align="center">3.27</td>
+<td align="center">6.73</td>
+<td align="center">0.00</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">3.27</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">38</td>
+<td align="center">B3_19250_1@0_QPSK_PUSCH_0.0_-71.0_DUAL</td>
+<td align="center">10</td>
+<td align="center">0.02</td>
+<td align="center">9.98</td>
+<td align="center">0.00</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.02</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">39</td>
+<td align="center">B3_19250_1@0_QPSK_PUSCH_0.0_-71.0_DUAL</td>
+<td align="center">End_Call</td>
+<td align="center">12.34</td>
+<td align="center">N/A</td>
+<td align="center">-</td>
+<td align="center">Radio_Configure</td>
+<td align="center">Drop_Radio</td>
+<td align="center">12.34</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">B19_24100_50@0_QPSK_PUSCH_-25.0_-120.0_DUAL</td>
+<td align="center">Start_Call</td>
+<td align="center">20.51</td>
+<td align="center">N/A</td>
+<td align="center">-</td>
+<td align="center">Radio_Configure</td>
+<td align="center">Configure</td>
+<td align="center">0.05</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Rx_Measure</td>
+<td align="center">Rx_Freq_Error</td>
+<td align="center">20.12</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.34</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">B19_24100_50@0_QPSK_PUSCH_24.0_-120.0_DUAL</td>
+<td align="center">10</td>
+<td align="center">0.02</td>
+<td align="center">9.98</td>
+<td align="center">0.00</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.02</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">B19_24100_50@0_QPSK_PUSCH_0.0_-120.0_DUAL</td>
+<td align="center">10</td>
+<td align="center">0.02</td>
+<td align="center">9.98</td>
+<td align="center">0.00</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.02</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">B19_24100_50@0_QPSK_PUSCH_24.0_-120.0_DUAL</td>
+<td align="center">10</td>
+<td align="center">0.02</td>
+<td align="center">9.98</td>
+<td align="center">0.00</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.02</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td align="center">B19_24100_50@0_QPSK_PUSCH_-36.8_-120.0_DUAL</td>
+<td align="center">10</td>
+<td align="center">0.02</td>
+<td align="center">9.98</td>
+<td align="center">0.00</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.02</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td align="center">B19_24075_50@0_QPSK_PUSCH_-36.8_-120.0_DUAL</td>
+<td align="center">50</td>
+<td align="center">41.40</td>
+<td align="center">8.60</td>
+<td align="center">0.00</td>
+<td align="center">Radio_Configure</td>
+<td align="center">Configure</td>
+<td align="center">21.02</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Rx_Measure</td>
+<td align="center">Rx_Freq_Error</td>
+<td align="center">20.04</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.34</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">16</td>
+<td align="center">B19_24075_50@0_QPSK_PUSCH_24.0_-75.0_DUAL</td>
+<td align="center">10</td>
+<td align="center">0.02</td>
+<td align="center">9.98</td>
+<td align="center">0.00</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.02</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td align="center">B19_24075_50@0_QPSK_PUSCH_24.0_-75.0_DUAL</td>
+<td align="center">20</td>
+<td align="center">14.49</td>
+<td align="center">5.51</td>
+<td align="center">0.00</td>
+<td align="center">Rx_Measure</td>
+<td align="center">Rx_Level</td>
+<td align="center">14.49</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">19</td>
+<td align="center">B19_24075_25@25_QPSK_PUSCH_24.0_-71.0_DUAL</td>
+<td align="center">60</td>
+<td align="center">48.18</td>
+<td align="center">11.82</td>
+<td align="center">0.00</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">3.29</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Rx_Measure</td>
+<td align="center">Est_Sen</td>
+<td align="center">44.90</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">20</td>
+<td align="center">B19_24050_50@0_QPSK_PUSCH_24.0_-71.0_DUAL</td>
+<td align="center">50</td>
+<td align="center">41.41</td>
+<td align="center">8.59</td>
+<td align="center">0.00</td>
+<td align="center">Radio_Configure</td>
+<td align="center">Configure</td>
+<td align="center">20.96</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Rx_Measure</td>
+<td align="center">Rx_Freq_Error</td>
+<td align="center">20.10</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.34</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">21</td>
+<td align="center">B19_24050_1@0_QPSK_PUSCH_24.0_-71.0_DUAL</td>
+<td align="center">10</td>
+<td align="center">3.27</td>
+<td align="center">6.73</td>
+<td align="center">0.00</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">3.27</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">23</td>
+<td align="center">B19_24050_1@0_QPSK_PUSCH_0.0_-71.0_DUAL</td>
+<td align="center">10</td>
+<td align="center">0.02</td>
+<td align="center">9.98</td>
+<td align="center">0.00</td>
+<td align="center">Tx_Control</td>
+<td align="center">Tx_On</td>
+<td align="center">0.02</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">24</td>
+<td align="center">B19_24050_1@0_QPSK_PUSCH_0.0_-71.0_DUAL</td>
+<td align="center">End_Call</td>
+<td align="center">12.30</td>
+<td align="center">N/A</td>
+<td align="center">-</td>
+<td align="center">Radio_Configure</td>
+<td align="center">Drop_Radio</td>
+<td align="center">12.30</td>
+<td><span style="color:white">-</span></td>
+</tr>
+</table>
+</UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+          Duration: 0.00 (s)
+          <br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><a href="#TOC" xmlns:msxsl="urn:schemas-microsoft-com:xslt">Back to top
+          </a><a name="3" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></a><HR COLOR="#6699CC" SIZE="2" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>LTE_MaxPower</b></big></big><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>Status:  </b></big><big><b><span style="color:#00CC00">PASS</span></b></big></UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><b xmlns:msxsl="urn:schemas-microsoft-com:xslt">LTE_MaxPower</b><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<table border="1">
+<tr>
+<td bgcolor="#FFFFCC" align="center"><b>SegmentID ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Device ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Call_Mode ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Segment Duration (ms)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Band ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Channel ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ch_BW (MHz)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Mod ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>TestRef ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>NS_Val ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>RMC_Type ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Burst Enabled_ ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Duty Cycle_ (%)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Burst Pattern_ ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Start_RB ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Num_RB ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>MCS ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Device Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>SigPath Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>AntPath Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>AntNum Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>PLL ID Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ant Number Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ant_port_State ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ior (dBm)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Tx_Pwr (dBm)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>TxPower Ref (dBm)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>totalMPR (dB)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>LTE_targetPowerClass ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>Meas_Count ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>Integrity ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>AvgTxPwr (dBm)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>AvgTxPwr Min</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>AvgTxPwr Max</b></td>
+<td bgcolor="#6699CC" align="center"><b>MinTxPwr (dBm)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>MinTxPwr Min</b></td>
+<td bgcolor="#6699CC" align="center"><b>MaxTxPwr (dBm)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>MaxTxPwr Max</b></td>
+<td bgcolor="#EEEEE0" align="center"><b>Time (s)</b></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">1</td>
+<td align="center">18550</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.2.3</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">16</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">1.00</td>
+<td align="center">No Change</td>
+<td align="center">3</td>
+<td align="center">OK</td>
+<td align="center">22.01</td>
+<td align="center">19.00</td>
+<td align="center">25.00</td>
+<td align="center">22.01</td>
+<td align="center">19.00</td>
+<td align="center">22.02</td>
+<td align="center">25.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">22</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">20</td>
+<td align="center">1</td>
+<td align="center">18050</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.2.3</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">16</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-71.00</td>
+<td align="center">23.00</td>
+<td align="center">24.00</td>
+<td align="center">0.00</td>
+<td align="center">No Change</td>
+<td align="center">3</td>
+<td align="center">OK</td>
+<td align="center">23.37</td>
+<td align="center">20.00</td>
+<td align="center">26.00</td>
+<td align="center">23.37</td>
+<td align="center">20.00</td>
+<td align="center">23.38</td>
+<td align="center">26.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">27</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">3</td>
+<td align="center">19900</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.2.3</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">77</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">1.00</td>
+<td align="center">No Change</td>
+<td align="center">3</td>
+<td align="center">OK</td>
+<td align="center">22.00</td>
+<td align="center">19.00</td>
+<td align="center">25.00</td>
+<td align="center">22.00</td>
+<td align="center">19.00</td>
+<td align="center">22.02</td>
+<td align="center">25.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">37</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">20</td>
+<td align="center">3</td>
+<td align="center">19250</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.2.3</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">77</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-71.00</td>
+<td align="center">23.00</td>
+<td align="center">24.00</td>
+<td align="center">0.00</td>
+<td align="center">No Change</td>
+<td align="center">3</td>
+<td align="center">OK</td>
+<td align="center">22.88</td>
+<td align="center">20.00</td>
+<td align="center">26.00</td>
+<td align="center">22.88</td>
+<td align="center">20.00</td>
+<td align="center">23.14</td>
+<td align="center">26.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">19</td>
+<td align="center">24100</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.2.3</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">117</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">1.00</td>
+<td align="center">No Change</td>
+<td align="center">3</td>
+<td align="center">OK</td>
+<td align="center">21.03</td>
+<td align="center">19.00</td>
+<td align="center">25.00</td>
+<td align="center">21.03</td>
+<td align="center">19.00</td>
+<td align="center">21.05</td>
+<td align="center">25.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">22</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">20</td>
+<td align="center">19</td>
+<td align="center">24050</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.2.3</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">117</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-71.00</td>
+<td align="center">23.00</td>
+<td align="center">24.00</td>
+<td align="center">0.00</td>
+<td align="center">No Change</td>
+<td align="center">3</td>
+<td align="center">OK</td>
+<td align="center">22.13</td>
+<td align="center">20.00</td>
+<td align="center">26.00</td>
+<td align="center">22.13</td>
+<td align="center">20.00</td>
+<td align="center">22.23</td>
+<td align="center">26.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+</table>
+</UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+          Duration: 0.00 (s)
+          <br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><a href="#TOC" xmlns:msxsl="urn:schemas-microsoft-com:xslt">Back to top
+          </a><a name="4" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></a><HR COLOR="#6699CC" SIZE="2" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>LTE_TxQuality</b></big></big><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>Status:  </b></big><big><b><span style="color:#00CC00">PASS</span></b></big></UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><b xmlns:msxsl="urn:schemas-microsoft-com:xslt">LTE_TxQuality</b><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<table border="1">
+<tr>
+<td bgcolor="#FFFFCC" align="center"><b>SegmentID ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Device ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Call_Mode ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Segment Duration (ms)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Band ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Channel ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ch_BW (MHz)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Mod ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>TestRef ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>NS_Val ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>RMC_Type ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Burst Enabled_ ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Duty Cycle_ (%)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Burst Pattern_ ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Start_RB ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Num_RB ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>MCS ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Device Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>SigPath Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>AntPath Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>AntNum Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>PLL ID Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ant Number Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ant_port_State ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ior (dBm)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Tx_Pwr (dBm)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>TxPower Ref (dBm)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Meas_Count ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>Integrity ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>AvgTxPwr (dBm)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>AvgTxPwr Min</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>AvgTxPwr Max</b></td>
+<td bgcolor="#EEEEE0" align="center"><b>Time (s)</b></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">1</td>
+<td align="center">18550</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.5</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">16</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">3</td>
+<td align="center">OK</td>
+<td align="center">22.01</td>
+<td align="center">19.00</td>
+<td align="center">25.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">20</td>
+<td align="center">1</td>
+<td align="center">18550</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.5</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">16</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">-36.80</td>
+<td align="center">-36.80</td>
+<td align="center">3</td>
+<td align="center">OK</td>
+<td align="center">-37.02</td>
+<td align="center">-39.80</td>
+<td align="center">-33.80</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">27</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">3</td>
+<td align="center">19900</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.5</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">77</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">3</td>
+<td align="center">OK</td>
+<td align="center">22.00</td>
+<td align="center">19.00</td>
+<td align="center">25.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">29</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">20</td>
+<td align="center">3</td>
+<td align="center">19900</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.5</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">77</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">-36.80</td>
+<td align="center">-36.80</td>
+<td align="center">3</td>
+<td align="center">OK</td>
+<td align="center">-37.42</td>
+<td align="center">-39.80</td>
+<td align="center">-33.80</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">19</td>
+<td align="center">24100</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.5</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">117</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">3</td>
+<td align="center">OK</td>
+<td align="center">21.03</td>
+<td align="center">19.00</td>
+<td align="center">25.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">20</td>
+<td align="center">19</td>
+<td align="center">24100</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.5</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">117</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">-36.80</td>
+<td align="center">-36.80</td>
+<td align="center">3</td>
+<td align="center">OK</td>
+<td align="center">-37.75</td>
+<td align="center">-39.80</td>
+<td align="center">-33.80</td>
+<td><span style="color:white">-</span></td>
+</tr>
+</table>
+</UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><b xmlns:msxsl="urn:schemas-microsoft-com:xslt">Freq Error</b><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<table border="1">
+<tr>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Desc ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>OriginalFreqErr (ppm)</b></td>
+<td bgcolor="#6699CC" align="center"><b>OriginalFreqErrHz (Hz)</b></td>
+<td bgcolor="#6699CC" align="center"><b>AvgFreqErr (ppm)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>AvgFreqErr Min</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>AvgFreqErr Max</b></td>
+<td bgcolor="#6699CC" align="center"><b>ExtremeFreqErr (ppm)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>ExtremeFreqErr Min</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>ExtremeFreqErr Max</b></td>
+<td bgcolor="#EEEEE0" align="center"><b>Time (s)</b></td>
+</tr>
+<tr>
+<td align="center">18550_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">3.906122</td>
+<td align="center">6699.000</td>
+<td align="center">-0.0144</td>
+<td align="center">-0.1000</td>
+<td align="center">0.1000</td>
+<td align="center">-0.0163</td>
+<td align="center">-0.1000</td>
+<td align="center">0.1000</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">18550_50@0_-36.8dBm_QPSK_PUSCH</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">-0.1000</td>
+<td align="center">0.1000</td>
+<td align="center"></td>
+<td align="center">-0.1000</td>
+<td align="center">0.1000</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">19900_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">3.906122</td>
+<td align="center">6699.000</td>
+<td align="center">0.0004</td>
+<td align="center">-0.1000</td>
+<td align="center">0.1000</td>
+<td align="center">0.0008</td>
+<td align="center">-0.1000</td>
+<td align="center">0.1000</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">19900_50@0_-36.8dBm_QPSK_PUSCH</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">-0.1000</td>
+<td align="center">0.1000</td>
+<td align="center"></td>
+<td align="center">-0.1000</td>
+<td align="center">0.1000</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">24100_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">3.970060</td>
+<td align="center">3315.000</td>
+<td align="center">0.0096</td>
+<td align="center">-0.1000</td>
+<td align="center">0.1000</td>
+<td align="center">0.0099</td>
+<td align="center">-0.1000</td>
+<td align="center">0.1000</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">24100_50@0_-36.8dBm_QPSK_PUSCH</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">-0.1000</td>
+<td align="center">0.1000</td>
+<td align="center"></td>
+<td align="center">-0.1000</td>
+<td align="center">0.1000</td>
+<td><span style="color:white">-</span></td>
+</tr>
+</table>
+</UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><b xmlns:msxsl="urn:schemas-microsoft-com:xslt">EVM</b><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<table border="1">
+<tr>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Desc ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>AvgEVM (%)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>AvgEVM Max</b></td>
+<td bgcolor="#6699CC" align="center"><b>MaxEVM (%)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>MaxEVM Max</b></td>
+<td bgcolor="#6699CC" align="center"><b>AvgEVM_DMRS (%)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>AvgEVM_DMRS Max</b></td>
+<td bgcolor="#6699CC" align="center"><b>MaxEVM_DMRS (%)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>MaxEVM_DMRS Max</b></td>
+<td bgcolor="#EEEEE0" align="center"><b>Time (s)</b></td>
+</tr>
+<tr>
+<td align="center">18550_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">2.18</td>
+<td align="center">17.50</td>
+<td align="center">2.21</td>
+<td align="center">17.50</td>
+<td align="center">1.71</td>
+<td align="center">17.50</td>
+<td align="center">1.88</td>
+<td align="center">17.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">18550_50@0_-36.8dBm_QPSK_PUSCH</td>
+<td align="center">2.43</td>
+<td align="center">17.50</td>
+<td align="center">2.45</td>
+<td align="center">17.50</td>
+<td align="center">1.85</td>
+<td align="center">17.50</td>
+<td align="center">1.99</td>
+<td align="center">17.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">19900_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">2.85</td>
+<td align="center">17.50</td>
+<td align="center">2.86</td>
+<td align="center">17.50</td>
+<td align="center">2.42</td>
+<td align="center">17.50</td>
+<td align="center">2.68</td>
+<td align="center">17.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">19900_50@0_-36.8dBm_QPSK_PUSCH</td>
+<td align="center">2.76</td>
+<td align="center">17.50</td>
+<td align="center">2.80</td>
+<td align="center">17.50</td>
+<td align="center">2.21</td>
+<td align="center">17.50</td>
+<td align="center">2.48</td>
+<td align="center">17.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">24100_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">2.39</td>
+<td align="center">17.50</td>
+<td align="center">2.41</td>
+<td align="center">17.50</td>
+<td align="center">1.87</td>
+<td align="center">17.50</td>
+<td align="center">1.95</td>
+<td align="center">17.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">24100_50@0_-36.8dBm_QPSK_PUSCH</td>
+<td align="center">2.33</td>
+<td align="center">17.50</td>
+<td align="center">2.34</td>
+<td align="center">17.50</td>
+<td align="center">1.79</td>
+<td align="center">17.50</td>
+<td align="center">1.86</td>
+<td align="center">17.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+</table>
+</UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><b xmlns:msxsl="urn:schemas-microsoft-com:xslt">Origin Offset</b><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<table border="1">
+<tr>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Desc ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>_AvgOrigOffset_ (dBc)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>_AvgOrigOffset_ Max</b></td>
+<td bgcolor="#6699CC" align="center"><b>_MaxOrigOffset_ (dBc)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>_MaxOrigOffset_ Max</b></td>
+<td bgcolor="#EEEEE0" align="center"><b>Time (s)</b></td>
+</tr>
+<tr>
+<td align="center">18550_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center"></td>
+<td align="center">-24.20</td>
+<td align="center"></td>
+<td align="center">-24.20</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">18550_50@0_-36.8dBm_QPSK_PUSCH</td>
+<td align="center"></td>
+<td align="center">-24.20</td>
+<td align="center"></td>
+<td align="center">-24.20</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">19900_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center"></td>
+<td align="center">-24.20</td>
+<td align="center"></td>
+<td align="center">-24.20</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">19900_50@0_-36.8dBm_QPSK_PUSCH</td>
+<td align="center"></td>
+<td align="center">-24.20</td>
+<td align="center"></td>
+<td align="center">-24.20</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">24100_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center"></td>
+<td align="center">-24.20</td>
+<td align="center"></td>
+<td align="center">-24.20</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">24100_50@0_-36.8dBm_QPSK_PUSCH</td>
+<td align="center"></td>
+<td align="center">-24.20</td>
+<td align="center"></td>
+<td align="center">-24.20</td>
+<td><span style="color:white">-</span></td>
+</tr>
+</table>
+</UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><b xmlns:msxsl="urn:schemas-microsoft-com:xslt">Spectrum Flatness</b><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<table border="1">
+<tr>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Desc ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>Spec Flat R1 (dB p-p)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>Spec Flat R1 Max</b></td>
+<td bgcolor="#6699CC" align="center"><b>Spec Flat R2 (dB p-p)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>Spec Flat R2 Max</b></td>
+<td bgcolor="#6699CC" align="center"><b>Spec Flat R12 (dB)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>Spec Flat R12 Max</b></td>
+<td bgcolor="#6699CC" align="center"><b>Spec Flat R21 (dB)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>Spec Flat R21 Max</b></td>
+<td bgcolor="#EEEEE0" align="center"><b>Time (s)</b></td>
+</tr>
+<tr>
+<td align="center">18550_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">0.94</td>
+<td align="center">4.00</td>
+<td align="center">0.79</td>
+<td align="center">8.00</td>
+<td align="center">0.62</td>
+<td align="center">5.00</td>
+<td align="center">1.11</td>
+<td align="center">7.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">18550_50@0_-36.8dBm_QPSK_PUSCH</td>
+<td align="center"></td>
+<td align="center">4.00</td>
+<td align="center"></td>
+<td align="center">8.00</td>
+<td align="center"></td>
+<td align="center">5.00</td>
+<td align="center"></td>
+<td align="center">7.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">19900_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">1.22</td>
+<td align="center">4.00</td>
+<td align="center">1.14</td>
+<td align="center">8.00</td>
+<td align="center">0.68</td>
+<td align="center">5.00</td>
+<td align="center">1.68</td>
+<td align="center">7.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">19900_50@0_-36.8dBm_QPSK_PUSCH</td>
+<td align="center"></td>
+<td align="center">4.00</td>
+<td align="center"></td>
+<td align="center">8.00</td>
+<td align="center"></td>
+<td align="center">5.00</td>
+<td align="center"></td>
+<td align="center">7.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">24100_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">0.84</td>
+<td align="center">4.00</td>
+<td align="center">1.13</td>
+<td align="center">8.00</td>
+<td align="center">0.17</td>
+<td align="center">5.00</td>
+<td align="center">1.81</td>
+<td align="center">7.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">24100_50@0_-36.8dBm_QPSK_PUSCH</td>
+<td align="center"></td>
+<td align="center">4.00</td>
+<td align="center"></td>
+<td align="center">8.00</td>
+<td align="center"></td>
+<td align="center">5.00</td>
+<td align="center"></td>
+<td align="center">7.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+</table>
+</UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><b xmlns:msxsl="urn:schemas-microsoft-com:xslt">Inband Emissions</b><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<table border="1">
+<tr>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Desc ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>_IBE_Worst_Margin_ (dB)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>_IBE_Worst_Margin_ Min</b></td>
+<td bgcolor="#EEEEE0" align="center"><b>Time (s)</b></td>
+</tr>
+<tr>
+<td align="center">18550_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center"></td>
+<td align="center">0.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">18550_50@0_-36.8dBm_QPSK_PUSCH</td>
+<td align="center"></td>
+<td align="center">0.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">19900_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center"></td>
+<td align="center">0.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">19900_50@0_-36.8dBm_QPSK_PUSCH</td>
+<td align="center"></td>
+<td align="center">0.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">24100_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center"></td>
+<td align="center">0.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">24100_50@0_-36.8dBm_QPSK_PUSCH</td>
+<td align="center"></td>
+<td align="center">0.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+</table>
+</UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+          Duration: 0.00 (s)
+          <br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><a href="#TOC" xmlns:msxsl="urn:schemas-microsoft-com:xslt">Back to top
+          </a><a name="5" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></a><HR COLOR="#6699CC" SIZE="2" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>LTE_OccupiedBandwidth</b></big></big><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>Status:  </b></big><big><b><span style="color:#00CC00">PASS</span></b></big></UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><b xmlns:msxsl="urn:schemas-microsoft-com:xslt">OBW</b><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<table border="1">
+<tr>
+<td bgcolor="#FFFFCC" align="center"><b>SegmentID ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Device ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Call_Mode ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Segment Duration (ms)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Band ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Channel ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ch_BW (MHz)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Mod ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>TestRef ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>NS_Val ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>RMC_Type ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Burst Enabled_ ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Duty Cycle_ (%)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Burst Pattern_ ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Start_RB ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Num_RB ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>MCS ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Device Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>SigPath Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>AntPath Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>AntNum Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>PLL ID Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ant Number Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ant_port_State ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ior (dBm)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Tx_Pwr (dBm)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>TxPower Ref (dBm)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Meas_Count ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>Integrity ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>MaxOccupiedBW (MHz)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>MaxOccupiedBW Max</b></td>
+<td bgcolor="#6699CC" align="center"><b>AvgTxPwr (dBm)</b></td>
+<td bgcolor="#EEEEE0" align="center"><b>Time (s)</b></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">1</td>
+<td align="center">18550</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.6.1</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">16</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">1</td>
+<td align="center">OK</td>
+<td align="center">8.91</td>
+<td align="center">10.00</td>
+<td align="center">22.01</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">27</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">3</td>
+<td align="center">19900</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.6.1</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">77</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">1</td>
+<td align="center">OK</td>
+<td align="center">8.91</td>
+<td align="center">10.00</td>
+<td align="center">22.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">19</td>
+<td align="center">24100</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.6.1</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">117</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">1</td>
+<td align="center">OK</td>
+<td align="center">8.93</td>
+<td align="center">10.00</td>
+<td align="center">21.03</td>
+<td><span style="color:white">-</span></td>
+</tr>
+</table>
+</UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+          Duration: 0.00 (s)
+          <br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><a href="#TOC" xmlns:msxsl="urn:schemas-microsoft-com:xslt">Back to top
+          </a><a name="6" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></a><HR COLOR="#6699CC" SIZE="2" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>LTE_SpectrumEmissionMask</b></big></big><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>Status:  </b></big><big><b><span style="color:#00CC00">PASS</span></b></big></UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><b xmlns:msxsl="urn:schemas-microsoft-com:xslt">SEM</b><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<table border="1">
+<tr>
+<td bgcolor="#FFFFCC" align="center"><b>SegmentID ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Device ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Call_Mode ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Segment Duration (ms)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Band ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Channel ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ch_BW (MHz)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Mod ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>TestRef ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>NS_Val ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>RMC_Type ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Burst Enabled_ ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Duty Cycle_ (%)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Burst Pattern_ ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Start_RB ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Num_RB ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>MCS ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Device Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>SigPath Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>AntPath Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>AntNum Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>PLL ID Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ant Number Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ant_port_State ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ior (dBm)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Tx_Pwr (dBm)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>TxPower Ref (dBm)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Meas_Count ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>Integrity ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>AvgTxPwr (dBm)</b></td>
+<td bgcolor="#EEEEE0" align="center"><b>Time (s)</b></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">1</td>
+<td align="center">18550</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.6.2.1</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">16</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">1</td>
+<td align="center">OK</td>
+<td align="center">22.01</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">27</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">3</td>
+<td align="center">19900</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.6.2.1</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">77</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">1</td>
+<td align="center">OK</td>
+<td align="center">22.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">19</td>
+<td align="center">24100</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.6.2.1</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">117</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">1</td>
+<td align="center">OK</td>
+<td align="center">21.03</td>
+<td><span style="color:white">-</span></td>
+</tr>
+</table>
+</UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><b xmlns:msxsl="urn:schemas-microsoft-com:xslt">SEM_Detail</b><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<table border="1">
+<tr>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Desc ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>NS_Val ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Mask Area ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>OOB Start Frequency (MHz)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>OOB Stop Frequency (MHz)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>MeasBW (MHz)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Meas_CC ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>OOB Power (dBm)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>OOB Power Max</b></td>
+<td bgcolor="#EEEEE0" align="center"><b>Time (s)</b></td>
+</tr>
+<tr>
+<td align="center">18550_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">-4</td>
+<td align="center">-15.00</td>
+<td align="center">-10.00</td>
+<td align="center">1.00</td>
+<td align="center">PCC</td>
+<td align="center">-33.81</td>
+<td align="center">-23.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">18550_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">-3</td>
+<td align="center">-10.00</td>
+<td align="center">-5.00</td>
+<td align="center">1.00</td>
+<td align="center">PCC</td>
+<td align="center">-22.36</td>
+<td align="center">-11.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">18550_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">-2</td>
+<td align="center">-5.00</td>
+<td align="center">-1.00</td>
+<td align="center">1.00</td>
+<td align="center">PCC</td>
+<td align="center">-29.15</td>
+<td align="center">-8.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">18550_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">-1</td>
+<td align="center">-1.00</td>
+<td align="center">0.00</td>
+<td align="center">0.03</td>
+<td align="center">PCC</td>
+<td align="center">-37.25</td>
+<td align="center">-16.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">18550_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">1</td>
+<td align="center">0.00</td>
+<td align="center">1.00</td>
+<td align="center">0.03</td>
+<td align="center">PCC</td>
+<td align="center">-37.53</td>
+<td align="center">-16.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">18550_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">2</td>
+<td align="center">1.00</td>
+<td align="center">5.00</td>
+<td align="center">1.00</td>
+<td align="center">PCC</td>
+<td align="center">-30.17</td>
+<td align="center">-8.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">18550_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">3</td>
+<td align="center">5.00</td>
+<td align="center">10.00</td>
+<td align="center">1.00</td>
+<td align="center">PCC</td>
+<td align="center">-22.81</td>
+<td align="center">-11.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">18550_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">4</td>
+<td align="center">10.00</td>
+<td align="center">15.00</td>
+<td align="center">1.00</td>
+<td align="center">PCC</td>
+<td align="center">-33.47</td>
+<td align="center">-23.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">19900_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">-4</td>
+<td align="center">-15.00</td>
+<td align="center">-10.00</td>
+<td align="center">1.00</td>
+<td align="center">PCC</td>
+<td align="center">-34.52</td>
+<td align="center">-23.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">19900_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">-3</td>
+<td align="center">-10.00</td>
+<td align="center">-5.00</td>
+<td align="center">1.00</td>
+<td align="center">PCC</td>
+<td align="center">-22.68</td>
+<td align="center">-11.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">19900_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">-2</td>
+<td align="center">-5.00</td>
+<td align="center">-1.00</td>
+<td align="center">1.00</td>
+<td align="center">PCC</td>
+<td align="center">-24.61</td>
+<td align="center">-8.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">19900_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">-1</td>
+<td align="center">-1.00</td>
+<td align="center">0.00</td>
+<td align="center">0.03</td>
+<td align="center">PCC</td>
+<td align="center">-34.05</td>
+<td align="center">-16.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">19900_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">1</td>
+<td align="center">0.00</td>
+<td align="center">1.00</td>
+<td align="center">0.03</td>
+<td align="center">PCC</td>
+<td align="center">-35.20</td>
+<td align="center">-16.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">19900_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">2</td>
+<td align="center">1.00</td>
+<td align="center">5.00</td>
+<td align="center">1.00</td>
+<td align="center">PCC</td>
+<td align="center">-22.60</td>
+<td align="center">-8.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">19900_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">3</td>
+<td align="center">5.00</td>
+<td align="center">10.00</td>
+<td align="center">1.00</td>
+<td align="center">PCC</td>
+<td align="center">-24.73</td>
+<td align="center">-11.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">19900_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">4</td>
+<td align="center">10.00</td>
+<td align="center">15.00</td>
+<td align="center">1.00</td>
+<td align="center">PCC</td>
+<td align="center">-36.54</td>
+<td align="center">-23.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">24100_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">-4</td>
+<td align="center">-15.00</td>
+<td align="center">-10.00</td>
+<td align="center">1.00</td>
+<td align="center">PCC</td>
+<td align="center">-29.87</td>
+<td align="center">-23.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">24100_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">-3</td>
+<td align="center">-10.00</td>
+<td align="center">-5.00</td>
+<td align="center">1.00</td>
+<td align="center">PCC</td>
+<td align="center">-17.87</td>
+<td align="center">-11.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">24100_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">-2</td>
+<td align="center">-5.00</td>
+<td align="center">-1.00</td>
+<td align="center">1.00</td>
+<td align="center">PCC</td>
+<td align="center">-24.80</td>
+<td align="center">-8.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">24100_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">-1</td>
+<td align="center">-1.00</td>
+<td align="center">0.00</td>
+<td align="center">0.03</td>
+<td align="center">PCC</td>
+<td align="center">-37.78</td>
+<td align="center">-16.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">24100_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">1</td>
+<td align="center">0.00</td>
+<td align="center">1.00</td>
+<td align="center">0.03</td>
+<td align="center">PCC</td>
+<td align="center">-38.27</td>
+<td align="center">-16.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">24100_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">2</td>
+<td align="center">1.00</td>
+<td align="center">5.00</td>
+<td align="center">1.00</td>
+<td align="center">PCC</td>
+<td align="center">-25.40</td>
+<td align="center">-8.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">24100_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">3</td>
+<td align="center">5.00</td>
+<td align="center">10.00</td>
+<td align="center">1.00</td>
+<td align="center">PCC</td>
+<td align="center">-26.08</td>
+<td align="center">-11.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">24100_50@0_22.0dBm_QPSK_PUSCH</td>
+<td align="center">NS_01</td>
+<td align="center">4</td>
+<td align="center">10.00</td>
+<td align="center">15.00</td>
+<td align="center">1.00</td>
+<td align="center">PCC</td>
+<td align="center">-37.95</td>
+<td align="center">-23.50</td>
+<td><span style="color:white">-</span></td>
+</tr>
+</table>
+</UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+          Duration: 0.00 (s)
+          <br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><a href="#TOC" xmlns:msxsl="urn:schemas-microsoft-com:xslt">Back to top
+          </a><a name="7" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></a><HR COLOR="#6699CC" SIZE="2" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>LTE_ACLR</b></big></big><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>Status:  </b></big><big><b><span style="color:#00CC00">PASS</span></b></big></UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><b xmlns:msxsl="urn:schemas-microsoft-com:xslt">UTRA ACLR</b><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<table border="1">
+<tr>
+<td bgcolor="#FFFFCC" align="center"><b>SegmentID ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Device ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Call_Mode ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Segment Duration (ms)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Band ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Channel ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ch_BW (MHz)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Mod ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>TestRef ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>NS_Val ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>RMC_Type ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Burst Enabled_ ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Duty Cycle_ (%)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Burst Pattern_ ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Start_RB ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Num_RB ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>MCS ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Device Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>SigPath Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>AntPath Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>AntNum Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>PLL ID Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ant Number Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ant_port_State ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ior (dBm)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Tx_Pwr (dBm)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>TxPower Ref (dBm)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Offset ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>Meas_Count ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>Integrity ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>UTRA ACLR (dB)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>UTRA ACLR Min</b></td>
+<td bgcolor="#6699CC" align="center"><b>UTRA ACLR Extreme (dB)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>UTRA ACLR Extreme Min</b></td>
+<td bgcolor="#6699CC" align="center"><b>E-UTRA_ACLR ()</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>E-UTRA_ACLR Min</b></td>
+<td bgcolor="#6699CC" align="center"><b>E-UTRA_ACLR_Extreme ()</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>E-UTRA_ACLR_Extreme Min</b></td>
+<td bgcolor="#6699CC" align="center"><b>AvgTxPwr (dBm)</b></td>
+<td bgcolor="#EEEEE0" align="center"><b>Time (s)</b></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">1</td>
+<td align="center">18550</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.6.2.3</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">16</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">-2</td>
+<td align="center">1</td>
+<td align="center">OK</td>
+<td align="center">49.69</td>
+<td align="center">35.20</td>
+<td align="center">49.69</td>
+<td align="center">35.20</td>
+<td align="center">-</td>
+<td align="center"></td>
+<td align="center">-</td>
+<td align="center"></td>
+<td align="center">22.01</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">1</td>
+<td align="center">18550</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.6.2.3</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">16</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">-1</td>
+<td align="center">1</td>
+<td align="center">OK</td>
+<td align="center">46.93</td>
+<td align="center">32.20</td>
+<td align="center">46.93</td>
+<td align="center">32.20</td>
+<td align="center">44.53</td>
+<td align="center">29.20</td>
+<td align="center">44.53</td>
+<td align="center">29.20</td>
+<td align="center">22.01</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">1</td>
+<td align="center">18550</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.6.2.3</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">16</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">OK</td>
+<td align="center">48.10</td>
+<td align="center">32.20</td>
+<td align="center">48.10</td>
+<td align="center">32.20</td>
+<td align="center">45.40</td>
+<td align="center">29.20</td>
+<td align="center">45.40</td>
+<td align="center">29.20</td>
+<td align="center">22.01</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">1</td>
+<td align="center">18550</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.6.2.3</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">16</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">2</td>
+<td align="center">1</td>
+<td align="center">OK</td>
+<td align="center">50.22</td>
+<td align="center">35.20</td>
+<td align="center">50.22</td>
+<td align="center">35.20</td>
+<td align="center">-</td>
+<td align="center"></td>
+<td align="center">-</td>
+<td align="center"></td>
+<td align="center">22.01</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">27</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">3</td>
+<td align="center">19900</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.6.2.3</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">77</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">-2</td>
+<td align="center">1</td>
+<td align="center">OK</td>
+<td align="center">49.41</td>
+<td align="center">35.20</td>
+<td align="center">49.41</td>
+<td align="center">35.20</td>
+<td align="center">-</td>
+<td align="center"></td>
+<td align="center">-</td>
+<td align="center"></td>
+<td align="center">22.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">27</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">3</td>
+<td align="center">19900</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.6.2.3</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">77</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">-1</td>
+<td align="center">1</td>
+<td align="center">OK</td>
+<td align="center">44.01</td>
+<td align="center">32.20</td>
+<td align="center">44.01</td>
+<td align="center">32.20</td>
+<td align="center">42.46</td>
+<td align="center">29.20</td>
+<td align="center">42.46</td>
+<td align="center">29.20</td>
+<td align="center">22.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">27</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">3</td>
+<td align="center">19900</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.6.2.3</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">77</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">OK</td>
+<td align="center">40.53</td>
+<td align="center">32.20</td>
+<td align="center">40.53</td>
+<td align="center">32.20</td>
+<td align="center">38.91</td>
+<td align="center">29.20</td>
+<td align="center">38.91</td>
+<td align="center">29.20</td>
+<td align="center">22.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">27</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">3</td>
+<td align="center">19900</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.6.2.3</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">77</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">2</td>
+<td align="center">1</td>
+<td align="center">OK</td>
+<td align="center">47.51</td>
+<td align="center">35.20</td>
+<td align="center">47.51</td>
+<td align="center">35.20</td>
+<td align="center">-</td>
+<td align="center"></td>
+<td align="center">-</td>
+<td align="center"></td>
+<td align="center">22.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">19</td>
+<td align="center">24100</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.6.2.3</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">117</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">-2</td>
+<td align="center">1</td>
+<td align="center">OK</td>
+<td align="center">43.15</td>
+<td align="center">35.20</td>
+<td align="center">43.15</td>
+<td align="center">35.20</td>
+<td align="center">-</td>
+<td align="center"></td>
+<td align="center">-</td>
+<td align="center"></td>
+<td align="center">21.03</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">19</td>
+<td align="center">24100</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.6.2.3</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">117</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">-1</td>
+<td align="center">1</td>
+<td align="center">OK</td>
+<td align="center">42.18</td>
+<td align="center">32.20</td>
+<td align="center">42.18</td>
+<td align="center">32.20</td>
+<td align="center">38.95</td>
+<td align="center">29.20</td>
+<td align="center">38.95</td>
+<td align="center">29.20</td>
+<td align="center">21.03</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">19</td>
+<td align="center">24100</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.6.2.3</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">117</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">OK</td>
+<td align="center">42.53</td>
+<td align="center">32.20</td>
+<td align="center">42.53</td>
+<td align="center">32.20</td>
+<td align="center">40.36</td>
+<td align="center">29.20</td>
+<td align="center">40.36</td>
+<td align="center">29.20</td>
+<td align="center">21.03</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">25</td>
+<td align="center">19</td>
+<td align="center">24100</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">3GPP 36.521 6.6.2.3</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">117</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">22.00</td>
+<td align="center">24.00</td>
+<td align="center">2</td>
+<td align="center">1</td>
+<td align="center">OK</td>
+<td align="center">46.71</td>
+<td align="center">35.20</td>
+<td align="center">46.71</td>
+<td align="center">35.20</td>
+<td align="center">-</td>
+<td align="center"></td>
+<td align="center">-</td>
+<td align="center"></td>
+<td align="center">21.03</td>
+<td><span style="color:white">-</span></td>
+</tr>
+</table>
+</UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+          Duration: 0.00 (s)
+          <br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><a href="#TOC" xmlns:msxsl="urn:schemas-microsoft-com:xslt">Back to top
+          </a><a name="8" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></a><HR COLOR="#6699CC" SIZE="2" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>LTE_TxPower</b></big></big><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>Status:  </b></big><big><b><span style="color:#00CC00">PASS</span></b></big></UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><b xmlns:msxsl="urn:schemas-microsoft-com:xslt">LTE_TxPower</b><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<table border="1">
+<tr>
+<td bgcolor="#FFFFCC" align="center"><b>SegmentID ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Device ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Call_Mode ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Segment Duration (ms)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Band ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Channel ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ch_BW (MHz)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Mod ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>TestRef ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>NS_Val ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>RMC_Type ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Burst Enabled_ ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Duty Cycle_ (%)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Burst Pattern_ ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Start_RB ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Num_RB ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>MCS ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Device Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>SigPath Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>AntPath Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>AntNum Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>PLL ID Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ant Number Tx ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ant_port_State ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ior (dBm)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Tx_Pwr (dBm)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>TxPower Ref (dBm)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>totalMPR (dB)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>LTE_targetPowerClass ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>Meas_Count ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>Integrity ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>TxError (dB)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>TxError Min</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>TxError Max</b></td>
+<td bgcolor="#6699CC" align="center"><b>AvgTxPwr (dBm)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>AvgTxPwr Min</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>AvgTxPwr Max</b></td>
+<td bgcolor="#EEEEE0" align="center"><b>Time (s)</b></td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">20</td>
+<td align="center">1</td>
+<td align="center">18550</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">n/a</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">16</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">-36.80</td>
+<td align="center">-36.80</td>
+<td align="center">0.00</td>
+<td align="center">No Change</td>
+<td align="center">3</td>
+<td align="center">OK</td>
+<td align="center">-0.22</td>
+<td align="center">-3.0</td>
+<td align="center">3.0</td>
+<td align="center">-37.02</td>
+<td align="center">-39.80</td>
+<td align="center">-33.80</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">29</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">20</td>
+<td align="center">3</td>
+<td align="center">19900</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">n/a</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">77</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">-36.80</td>
+<td align="center">-36.80</td>
+<td align="center">0.00</td>
+<td align="center">No Change</td>
+<td align="center">3</td>
+<td align="center">OK</td>
+<td align="center">-0.62</td>
+<td align="center">-3.0</td>
+<td align="center">3.0</td>
+<td align="center">-37.42</td>
+<td align="center">-39.80</td>
+<td align="center">-33.80</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td align="center">Equip</td>
+<td align="center">FTM RF</td>
+<td align="center">20</td>
+<td align="center">19</td>
+<td align="center">24100</td>
+<td align="center">10.00</td>
+<td align="center">QPSK</td>
+<td align="center">n/a</td>
+<td align="center">NS_01</td>
+<td align="center">PUSCH</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">1</td>
+<td align="center">18</td>
+<td align="center">117</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">-120.00</td>
+<td align="center">-36.80</td>
+<td align="center">-36.80</td>
+<td align="center">0.00</td>
+<td align="center">No Change</td>
+<td align="center">3</td>
+<td align="center">OK</td>
+<td align="center">-0.95</td>
+<td align="center">-3.0</td>
+<td align="center">3.0</td>
+<td align="center">-37.75</td>
+<td align="center">-39.80</td>
+<td align="center">-33.80</td>
+<td><span style="color:white">-</span></td>
+</tr>
+</table>
+</UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+          Duration: 0.00 (s)
+          <br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><a href="#TOC" xmlns:msxsl="urn:schemas-microsoft-com:xslt">Back to top
+          </a><a name="9" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></a><HR COLOR="#6699CC" SIZE="2" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>LTE_RFCalVerification_Rx0</b></big></big><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>Status:  </b></big><big><b><span style="color:#00CC00">PASS</span></b></big></UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><b xmlns:msxsl="urn:schemas-microsoft-com:xslt">LTE_RFCalVerification</b><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<table border="1">
+<tr>
+<td bgcolor="#FFFFCC" align="center"><b>SegmentID ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Device ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Call_Mode ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Segment Duration (ms)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Band ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Channel ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ch_BW (MHz)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Burst Enabled_ ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Duty Cycle_ (%)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Burst Pattern_ ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>TestRef ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Rx Meas Mode ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>DL_Mod ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Start_RB ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Num_RB ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>CA Enabled ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Device Rx0 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>SigPath Rx0 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>AntPath Rx0 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>AntNum Rx0 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>PLL ID Rx0 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ant Number0 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ant_port_State ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Num Rx Chains ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ior (dBm)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Tx_Pwr (dBm)</b></td>
+<td bgcolor="#6699CC" align="center"><b>RxDir ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>RX Chain ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>RxError0 (dB)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>RxError0 Min</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>RxError0 Max</b></td>
+<td bgcolor="#6699CC" align="center"><b>RxAGC0 (dBm)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>RxAGC0 Min</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>RxAGC0 Max</b></td>
+<td bgcolor="#6699CC" align="center"><b>LNA0 ()</b></td>
+<td bgcolor="#EEEEE0" align="center"><b>Time (s)</b></td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td align="center">Mobile</td>
+<td align="center">FTM RF</td>
+<td align="center">20</td>
+<td align="center">1</td>
+<td align="center">18300</td>
+<td align="center">10.00</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">n/a</td>
+<td align="center">Disable FTM Logs</td>
+<td align="center">QPSK</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">0</td>
+<td align="center">6</td>
+<td align="center">4</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">2</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">2</td>
+<td align="center">-75.00</td>
+<td align="center">24.00</td>
+<td align="center">1</td>
+<td align="center">DUAL</td>
+<td align="center">0.40</td>
+<td align="center">-3.00</td>
+<td align="center">3.00</td>
+<td align="center">-74.60</td>
+<td align="center">-78.00</td>
+<td align="center">-72.00</td>
+<td align="center">0</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">32</td>
+<td align="center">Mobile</td>
+<td align="center">FTM RF</td>
+<td align="center">20</td>
+<td align="center">3</td>
+<td align="center">19575</td>
+<td align="center">10.00</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">n/a</td>
+<td align="center">Disable FTM Logs</td>
+<td align="center">QPSK</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">0</td>
+<td align="center">6</td>
+<td align="center">62</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">2</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">2</td>
+<td align="center">-75.00</td>
+<td align="center">24.00</td>
+<td align="center">1</td>
+<td align="center">DUAL</td>
+<td align="center">-0.10</td>
+<td align="center">-3.00</td>
+<td align="center">3.00</td>
+<td align="center">-75.10</td>
+<td align="center">-78.00</td>
+<td align="center">-72.00</td>
+<td align="center">0</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td align="center">Mobile</td>
+<td align="center">FTM RF</td>
+<td align="center">20</td>
+<td align="center">19</td>
+<td align="center">24075</td>
+<td align="center">10.00</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">n/a</td>
+<td align="center">Disable FTM Logs</td>
+<td align="center">QPSK</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">0</td>
+<td align="center">2</td>
+<td align="center">111</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">2</td>
+<td align="center">-75.00</td>
+<td align="center">24.00</td>
+<td align="center">1</td>
+<td align="center">DUAL</td>
+<td align="center">-0.70</td>
+<td align="center">-3.00</td>
+<td align="center">3.00</td>
+<td align="center">-75.70</td>
+<td align="center">-78.00</td>
+<td align="center">-72.00</td>
+<td align="center">0</td>
+<td><span style="color:white">-</span></td>
+</tr>
+</table>
+</UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+          Duration: 0.00 (s)
+          <br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><a href="#TOC" xmlns:msxsl="urn:schemas-microsoft-com:xslt">Back to top
+          </a><a name="10" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></a><HR COLOR="#6699CC" SIZE="2" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>LTE_RFCalVerification_Rx1</b></big></big><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>Status:  </b></big><big><b><span style="color:#00CC00">PASS</span></b></big></UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><b xmlns:msxsl="urn:schemas-microsoft-com:xslt">LTE_RFCalVerification</b><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<table border="1">
+<tr>
+<td bgcolor="#FFFFCC" align="center"><b>SegmentID ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Device ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Call_Mode ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Segment Duration (ms)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Band ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Channel ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ch_BW (MHz)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Burst Enabled_ ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Duty Cycle_ (%)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Burst Pattern_ ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>TestRef ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Rx Meas Mode ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>DL_Mod ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Start_RB ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Num_RB ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>CA Enabled ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Device Rx1 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>SigPath Rx1 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>AntPath Rx1 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>AntNum Rx1 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>PLL ID Rx1 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ant Number1 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ant_port_State ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Num Rx Chains ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ior (dBm)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Tx_Pwr (dBm)</b></td>
+<td bgcolor="#6699CC" align="center"><b>RxDir ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>RX Chain ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>RxError1 (dB)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>RxError1 Min</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>RxError1 Max</b></td>
+<td bgcolor="#6699CC" align="center"><b>RxAGC1 (dBm)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>RxAGC1 Min</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>RxAGC1 Max</b></td>
+<td bgcolor="#6699CC" align="center"><b>LNA1 ()</b></td>
+<td bgcolor="#EEEEE0" align="center"><b>Time (s)</b></td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td align="center">Mobile</td>
+<td align="center">FTM RF</td>
+<td align="center">20</td>
+<td align="center">1</td>
+<td align="center">18300</td>
+<td align="center">10.00</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">n/a</td>
+<td align="center">Disable FTM Logs</td>
+<td align="center">QPSK</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">0</td>
+<td align="center">7</td>
+<td align="center">5</td>
+<td align="center">9</td>
+<td align="center">2</td>
+<td align="center">2</td>
+<td align="center">2</td>
+<td align="center">0</td>
+<td align="center">2</td>
+<td align="center">-75.00</td>
+<td align="center">24.00</td>
+<td align="center">1</td>
+<td align="center">DUAL</td>
+<td align="center">0.70</td>
+<td align="center">-3.00</td>
+<td align="center">3.00</td>
+<td align="center">-74.30</td>
+<td align="center">-78.00</td>
+<td align="center">-72.00</td>
+<td align="center">0</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">32</td>
+<td align="center">Mobile</td>
+<td align="center">FTM RF</td>
+<td align="center">20</td>
+<td align="center">3</td>
+<td align="center">19575</td>
+<td align="center">10.00</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">n/a</td>
+<td align="center">Disable FTM Logs</td>
+<td align="center">QPSK</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">0</td>
+<td align="center">7</td>
+<td align="center">63</td>
+<td align="center">9</td>
+<td align="center">2</td>
+<td align="center">2</td>
+<td align="center">2</td>
+<td align="center">0</td>
+<td align="center">2</td>
+<td align="center">-75.00</td>
+<td align="center">24.00</td>
+<td align="center">1</td>
+<td align="center">DUAL</td>
+<td align="center">-1.40</td>
+<td align="center">-3.00</td>
+<td align="center">3.00</td>
+<td align="center">-76.40</td>
+<td align="center">-78.00</td>
+<td align="center">-72.00</td>
+<td align="center">0</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td align="center">Mobile</td>
+<td align="center">FTM RF</td>
+<td align="center">20</td>
+<td align="center">19</td>
+<td align="center">24075</td>
+<td align="center">10.00</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">n/a</td>
+<td align="center">Disable FTM Logs</td>
+<td align="center">QPSK</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">0</td>
+<td align="center">3</td>
+<td align="center">112</td>
+<td align="center">2</td>
+<td align="center">2</td>
+<td align="center">0</td>
+<td align="center">2</td>
+<td align="center">0</td>
+<td align="center">2</td>
+<td align="center">-75.00</td>
+<td align="center">24.00</td>
+<td align="center">1</td>
+<td align="center">DUAL</td>
+<td align="center">-1.00</td>
+<td align="center">-3.00</td>
+<td align="center">3.00</td>
+<td align="center">-76.00</td>
+<td align="center">-78.00</td>
+<td align="center">-72.00</td>
+<td align="center">0</td>
+<td><span style="color:white">-</span></td>
+</tr>
+</table>
+</UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+          Duration: 0.00 (s)
+          <br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><a href="#TOC" xmlns:msxsl="urn:schemas-microsoft-com:xslt">Back to top
+          </a><a name="11" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></a><HR COLOR="#6699CC" SIZE="2" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>LTE_EstimatedSensitivity_Rx0</b></big></big><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>Status:  </b></big><big><b><span style="color:#00CC00">PASS</span></b></big></UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><b xmlns:msxsl="urn:schemas-microsoft-com:xslt">LTE_EstimatedSensitivity</b><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<table border="1">
+<tr>
+<td bgcolor="#FFFFCC" align="center"><b>SegmentID ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Device ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Call_Mode ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Segment Duration (ms)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Band ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Channel ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ch_BW (MHz)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Burst Enabled_ ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Duty Cycle_ (%)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Burst Pattern_ ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>TestRef ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Rx Meas Mode ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>DL_Mod ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Start_RB ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Num_RB ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>CA Enabled ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Measurement Mode ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>CW DL offset (KHz)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>IQ Capture Size ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Averages ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Technology</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>RX Chain ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Device Rx0 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>SigPath Rx0 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>AntPath Rx0 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>AntNum Rx0 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>PLL ID Rx0 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ant Number0 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ant_port_State ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Num Rx Chains ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ior (dBm)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Tx_Pwr (dBm)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Rx Level (dBm)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>Rx Level Min</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>Rx Level Max</b></td>
+<td bgcolor="#6699CC" align="center"><b>LNA State ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>CtoN  (dB)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>CtoN  Min</b></td>
+<td bgcolor="#6699CC" align="center"><b>CtoN_Max (dB)</b></td>
+<td bgcolor="#6699CC" align="center"><b>CtoN_Min (dB)</b></td>
+<td bgcolor="#6699CC" align="center"><b>CtoN_MaxtoMin_Delta (dB)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>CtoN_MaxtoMin_Delta Max</b></td>
+<td bgcolor="#6699CC" align="center"><b>CtoN Std Dev (dB)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Sensitivity (dBm)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>Sensitivity Max</b></td>
+<td bgcolor="#6699CC" align="center"><b>Sensitivity_Min (dBm)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Sensitivity_Max (dBm)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Sensitivity_MaxtoMin_Delta  (dB)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Freq Err (kHz)</b></td>
+<td bgcolor="#EEEEE0" align="center"><b>Time (s)</b></td>
+</tr>
+<tr>
+<td align="center">19</td>
+<td align="center">Mobile</td>
+<td align="center">FTM RF</td>
+<td align="center">60</td>
+<td align="center">1</td>
+<td align="center">18300</td>
+<td align="center">10.00</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">n/a</td>
+<td align="center">Disable FTM Logs</td>
+<td align="center">QPSK</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">0</td>
+<td align="center">1-tone</td>
+<td align="center">2000.00</td>
+<td align="center">4096</td>
+<td align="center">7</td>
+<td align="center">LTE</td>
+<td align="center">PRIM</td>
+<td align="center">6</td>
+<td align="center">4</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">2</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">2</td>
+<td align="center">-71.00</td>
+<td align="center">24.00</td>
+<td align="center">-70.80</td>
+<td align="center">-74.00</td>
+<td align="center">-68.00</td>
+<td align="center">0</td>
+<td align="center">27.49</td>
+<td align="center">20.00</td>
+<td align="center">27.58</td>
+<td align="center">27.28</td>
+<td align="center">0.30</td>
+<td align="center">5.00</td>
+<td align="center">0.03</td>
+<td align="center">-99.49</td>
+<td align="center">-97.00</td>
+<td align="center">-99.58</td>
+<td align="center">-99.28</td>
+<td align="center">0.00</td>
+<td align="center">1997.99</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">34</td>
+<td align="center">Mobile</td>
+<td align="center">FTM RF</td>
+<td align="center">60</td>
+<td align="center">3</td>
+<td align="center">19575</td>
+<td align="center">10.00</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">n/a</td>
+<td align="center">Disable FTM Logs</td>
+<td align="center">QPSK</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">0</td>
+<td align="center">1-tone</td>
+<td align="center">2000.00</td>
+<td align="center">4096</td>
+<td align="center">7</td>
+<td align="center">LTE</td>
+<td align="center">PRIM</td>
+<td align="center">6</td>
+<td align="center">62</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">2</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">2</td>
+<td align="center">-71.00</td>
+<td align="center">24.00</td>
+<td align="center">-71.10</td>
+<td align="center">-74.00</td>
+<td align="center">-68.00</td>
+<td align="center">0</td>
+<td align="center">26.00</td>
+<td align="center">20.00</td>
+<td align="center">26.25</td>
+<td align="center">25.51</td>
+<td align="center">0.74</td>
+<td align="center">5.00</td>
+<td align="center">0.08</td>
+<td align="center">-98.00</td>
+<td align="center">-90.30</td>
+<td align="center">-98.25</td>
+<td align="center">-97.51</td>
+<td align="center">0.00</td>
+<td align="center">1997.99</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">19</td>
+<td align="center">Mobile</td>
+<td align="center">FTM RF</td>
+<td align="center">60</td>
+<td align="center">19</td>
+<td align="center">24075</td>
+<td align="center">10.00</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">n/a</td>
+<td align="center">Disable FTM Logs</td>
+<td align="center">QPSK</td>
+<td align="center">25</td>
+<td align="center">25</td>
+<td align="center">0</td>
+<td align="center">1-tone</td>
+<td align="center">2000.00</td>
+<td align="center">4096</td>
+<td align="center">7</td>
+<td align="center">LTE</td>
+<td align="center">PRIM</td>
+<td align="center">2</td>
+<td align="center">111</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">2</td>
+<td align="center">-71.00</td>
+<td align="center">24.00</td>
+<td align="center">-72.00</td>
+<td align="center">-74.00</td>
+<td align="center">-68.00</td>
+<td align="center">0</td>
+<td align="center">27.23</td>
+<td align="center">20.00</td>
+<td align="center">27.69</td>
+<td align="center">25.41</td>
+<td align="center">2.28</td>
+<td align="center">5.00</td>
+<td align="center">0.28</td>
+<td align="center">-99.23</td>
+<td align="center">-97.00</td>
+<td align="center">-99.69</td>
+<td align="center">-97.41</td>
+<td align="center">0.00</td>
+<td align="center">1998.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+</table>
+</UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+          Duration: 0.00 (s)
+          <br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><a href="#TOC" xmlns:msxsl="urn:schemas-microsoft-com:xslt">Back to top
+          </a><a name="12" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></a><HR COLOR="#6699CC" SIZE="2" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>LTE_EstimatedSensitivity_Rx1</b></big></big><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>Status:  </b></big><big><b><span style="color:#00CC00">PASS</span></b></big></UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><b xmlns:msxsl="urn:schemas-microsoft-com:xslt">LTE_EstimatedSensitivity</b><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<table border="1">
+<tr>
+<td bgcolor="#FFFFCC" align="center"><b>SegmentID ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Device ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Call_Mode ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Segment Duration (ms)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Band ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Channel ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ch_BW (MHz)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Burst Enabled_ ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Duty Cycle_ (%)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>_Burst Pattern_ ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>TestRef ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Rx Meas Mode ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>DL_Mod ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Start_RB ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>UL_Num_RB ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>CA Enabled ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Measurement Mode ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>CW DL offset (KHz)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>IQ Capture Size ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Averages ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Technology</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>RX Chain ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Device Rx1 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>SigPath Rx1 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>AntPath Rx1 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>AntNum Rx1 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>PLL ID Rx1 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ant Number1 ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ant_port_State ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Num Rx Chains ()</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Ior (dBm)</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Tx_Pwr (dBm)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Rx Level (dBm)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>Rx Level Min</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>Rx Level Max</b></td>
+<td bgcolor="#6699CC" align="center"><b>LNA State ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>CtoN  (dB)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>CtoN  Min</b></td>
+<td bgcolor="#6699CC" align="center"><b>CtoN_Max (dB)</b></td>
+<td bgcolor="#6699CC" align="center"><b>CtoN_Min (dB)</b></td>
+<td bgcolor="#6699CC" align="center"><b>CtoN_MaxtoMin_Delta (dB)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>CtoN_MaxtoMin_Delta Max</b></td>
+<td bgcolor="#6699CC" align="center"><b>CtoN Std Dev (dB)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Sensitivity (dBm)</b></td>
+<td bgcolor="#CCCCCC" align="center"><b>Sensitivity Max</b></td>
+<td bgcolor="#6699CC" align="center"><b>Sensitivity_Min (dBm)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Sensitivity_Max (dBm)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Sensitivity_MaxtoMin_Delta  (dB)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Freq Err (kHz)</b></td>
+<td bgcolor="#EEEEE0" align="center"><b>Time (s)</b></td>
+</tr>
+<tr>
+<td align="center">19</td>
+<td align="center">Mobile</td>
+<td align="center">FTM RF</td>
+<td align="center">60</td>
+<td align="center">1</td>
+<td align="center">18300</td>
+<td align="center">10.00</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">n/a</td>
+<td align="center">Disable FTM Logs</td>
+<td align="center">QPSK</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">0</td>
+<td align="center">1-tone</td>
+<td align="center">2000.00</td>
+<td align="center">4096</td>
+<td align="center">7</td>
+<td align="center">LTE</td>
+<td align="center">DIV</td>
+<td align="center">7</td>
+<td align="center">5</td>
+<td align="center">9</td>
+<td align="center">2</td>
+<td align="center">2</td>
+<td align="center">2</td>
+<td align="center">0</td>
+<td align="center">2</td>
+<td align="center">-71.00</td>
+<td align="center">24.00</td>
+<td align="center">-70.30</td>
+<td align="center">-74.00</td>
+<td align="center">-68.00</td>
+<td align="center">0</td>
+<td align="center">27.49</td>
+<td align="center">20.00</td>
+<td align="center">27.56</td>
+<td align="center">27.38</td>
+<td align="center">0.18</td>
+<td align="center">5.00</td>
+<td align="center">0.02</td>
+<td align="center">-99.49</td>
+<td align="center">-97.00</td>
+<td align="center">-99.56</td>
+<td align="center">-99.38</td>
+<td align="center">0.00</td>
+<td align="center">1997.99</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">34</td>
+<td align="center">Mobile</td>
+<td align="center">FTM RF</td>
+<td align="center">60</td>
+<td align="center">3</td>
+<td align="center">19575</td>
+<td align="center">10.00</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">n/a</td>
+<td align="center">Disable FTM Logs</td>
+<td align="center">QPSK</td>
+<td align="center">0</td>
+<td align="center">50</td>
+<td align="center">0</td>
+<td align="center">1-tone</td>
+<td align="center">2000.00</td>
+<td align="center">4096</td>
+<td align="center">7</td>
+<td align="center">LTE</td>
+<td align="center">DIV</td>
+<td align="center">7</td>
+<td align="center">63</td>
+<td align="center">9</td>
+<td align="center">2</td>
+<td align="center">2</td>
+<td align="center">2</td>
+<td align="center">0</td>
+<td align="center">2</td>
+<td align="center">-71.00</td>
+<td align="center">24.00</td>
+<td align="center">-72.70</td>
+<td align="center">-74.00</td>
+<td align="center">-68.00</td>
+<td align="center">0</td>
+<td align="center">24.99</td>
+<td align="center">20.00</td>
+<td align="center">25.12</td>
+<td align="center">24.87</td>
+<td align="center">0.25</td>
+<td align="center">5.00</td>
+<td align="center">0.03</td>
+<td align="center">-96.99</td>
+<td align="center">-90.30</td>
+<td align="center">-97.12</td>
+<td align="center">-96.87</td>
+<td align="center">0.00</td>
+<td align="center">1997.99</td>
+<td><span style="color:white">-</span></td>
+</tr>
+<tr>
+<td align="center">19</td>
+<td align="center">Mobile</td>
+<td align="center">FTM RF</td>
+<td align="center">60</td>
+<td align="center">19</td>
+<td align="center">24075</td>
+<td align="center">10.00</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">N/A</td>
+<td align="center">n/a</td>
+<td align="center">Disable FTM Logs</td>
+<td align="center">QPSK</td>
+<td align="center">25</td>
+<td align="center">25</td>
+<td align="center">0</td>
+<td align="center">1-tone</td>
+<td align="center">2000.00</td>
+<td align="center">4096</td>
+<td align="center">7</td>
+<td align="center">LTE</td>
+<td align="center">DIV</td>
+<td align="center">3</td>
+<td align="center">112</td>
+<td align="center">2</td>
+<td align="center">2</td>
+<td align="center">0</td>
+<td align="center">2</td>
+<td align="center">0</td>
+<td align="center">2</td>
+<td align="center">-71.00</td>
+<td align="center">24.00</td>
+<td align="center">-72.20</td>
+<td align="center">-74.00</td>
+<td align="center">-68.00</td>
+<td align="center">0</td>
+<td align="center">27.97</td>
+<td align="center">20.00</td>
+<td align="center">28.35</td>
+<td align="center">27.66</td>
+<td align="center">0.69</td>
+<td align="center">5.00</td>
+<td align="center">0.10</td>
+<td align="center">-99.97</td>
+<td align="center">-97.00</td>
+<td align="center">-100.35</td>
+<td align="center">-99.66</td>
+<td align="center">0.00</td>
+<td align="center">1998.00</td>
+<td><span style="color:white">-</span></td>
+</tr>
+</table>
+</UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+          Duration: 0.00 (s)
+          <br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><a href="#TOC" xmlns:msxsl="urn:schemas-microsoft-com:xslt">Back to top
+          </a><a name="13" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></a><HR COLOR="#6699CC" SIZE="2" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big xmlns:msxsl="urn:schemas-microsoft-com:xslt"><big><b>Test Time</b></big></big><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><b xmlns:msxsl="urn:schemas-microsoft-com:xslt">Test Time by Technology (All Nodes)</b><UL xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<table border="1">
+<tr>
+<td bgcolor="#FFFFCC" align="center"><b>Technology</b></td>
+<td bgcolor="#FFFFCC" align="center"><b>Num Bands ()</b></td>
+<td bgcolor="#6699CC" align="center"><b>Total Test Time per Tech (ms)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Total Test Time per Band (ms)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Initialize Time per Band (ms)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Presequence Time per Band (ms)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Configure Time per Band (ms)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Execute Time per Band (ms)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Collect Time per Band (ms)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Process Time per Band (ms)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Report Time per Band (ms)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Postsequence Time per Band (ms)</b></td>
+<td bgcolor="#6699CC" align="center"><b>Shutdown Time per Band (ms)</b></td>
+<td bgcolor="#EEEEE0" align="center"><b>Time (s)</b></td>
+</tr>
+<tr>
+<td align="center">LTE</td>
+<td align="center">3</td>
+<td align="center">7157</td>
+<td align="center">2385</td>
+<td align="center">130</td>
+<td align="center">765</td>
+<td align="center">724</td>
+<td align="center">687</td>
+<td align="center">52</td>
+<td align="center">0</td>
+<td align="center">15</td>
+<td align="center">10</td>
+<td align="center">10</td>
+<td><span style="color:white">-</span></td>
+</tr>
+</table>
+</UL><br xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+          Duration: NaN (s)
+          <br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><br xmlns:msxsl="urn:schemas-microsoft-com:xslt"><a href="#TOC" xmlns:msxsl="urn:schemas-microsoft-com:xslt">Back to top
+          </a><HR COLOR="#6699CC" SIZE="2" xmlns:msxsl="urn:schemas-microsoft-com:xslt">

@@ -1,0 +1,99 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 10.00.40219.01 (83a9e1da).
+//
+// d:\git_code\ftm-tools\jaguarwavetestplatform_release\obj\tse_devicesplugin\qspr3xttparse.tli
+//
+// Wrapper implementations for Win32 type library QSPR3xttParse.tlb
+// compiler-generated file created 08/27/25 at 10:10:00 - DO NOT EDIT!
+
+#pragma once
+
+//
+// dispinterface _QSPR3XTT wrapper method implementations
+//
+
+inline VARIANT_BOOL _QSPR3XTT::LoadRFCalXTT ( _bstr_t path ) {
+    VARIANT_BOOL _result = 0;
+    _com_dispatch_method(this, 0x1, DISPATCH_METHOD, VT_BOOL, (void*)&_result, 
+        L"\x0008", (BSTR)path);
+    return _result;
+}
+
+inline long _QSPR3XTT::GetNumOfTests ( ) {
+    long _result = 0;
+    _com_dispatch_method(this, 0x2, DISPATCH_METHOD, VT_I4, (void*)&_result, NULL);
+    return _result;
+}
+
+inline _bstr_t _QSPR3XTT::GetTestName ( long testIndex ) {
+    BSTR _result = 0;
+    _com_dispatch_method(this, 0x3, DISPATCH_METHOD, VT_BSTR, (void*)&_result, 
+        L"\x0003", testIndex);
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t _QSPR3XTT::GetRealName ( long testIndex ) {
+    BSTR _result = 0;
+    _com_dispatch_method(this, 0x4, DISPATCH_METHOD, VT_BSTR, (void*)&_result, 
+        L"\x0003", testIndex);
+    return _bstr_t(_result, false);
+}
+
+inline long _QSPR3XTT::GetNumOfTestParameter ( long testIndex ) {
+    long _result = 0;
+    _com_dispatch_method(this, 0x5, DISPATCH_METHOD, VT_I4, (void*)&_result, 
+        L"\x0003", testIndex);
+    return _result;
+}
+
+inline _bstr_t _QSPR3XTT::GetTestParameterName ( long testIndex, long ParameterIndex ) {
+    BSTR _result = 0;
+    _com_dispatch_method(this, 0x6, DISPATCH_METHOD, VT_BSTR, (void*)&_result, 
+        L"\x0003\x0003", testIndex, ParameterIndex);
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t _QSPR3XTT::GetTestParameterValue ( long testIndex, long ParameterIndex ) {
+    BSTR _result = 0;
+    _com_dispatch_method(this, 0x7, DISPATCH_METHOD, VT_BSTR, (void*)&_result, 
+        L"\x0003\x0003", testIndex, ParameterIndex);
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT _QSPR3XTT::CreateINI ( _bstr_t INIpath ) {
+    return _com_dispatch_method(this, 0x8, DISPATCH_METHOD, VT_EMPTY, NULL, 
+        L"\x0008", (BSTR)INIpath);
+}
+
+inline VARIANT_BOOL _QSPR3XTT::LoadQSPRTreeFile ( _bstr_t path ) {
+    VARIANT_BOOL _result = 0;
+    _com_dispatch_method(this, 0x9, DISPATCH_METHOD, VT_BOOL, (void*)&_result, 
+        L"\x0008", (BSTR)path);
+    return _result;
+}
+
+inline HRESULT _QSPR3XTT::GetTestInfo ( long testIndex, BSTR * testname, BSTR * realname, long * numParams ) {
+    return _com_dispatch_method(this, 0xa, DISPATCH_METHOD, VT_EMPTY, NULL, 
+        L"\x0003\x4008\x4008\x4003", testIndex, testname, realname, numParams);
+}
+
+inline HRESULT _QSPR3XTT::GetTestParameterInfo ( long testIndex, long ParameterIndex, BSTR * parameterName, BSTR * parameterValue, BSTR * unit, BSTR * upperlimit, BSTR * lowerlimit, BSTR * DataType, BSTR * paramMode ) {
+    return _com_dispatch_method(this, 0xb, DISPATCH_METHOD, VT_EMPTY, NULL, 
+        L"\x0003\x0003\x4008\x4008\x4008\x4008\x4008\x4008\x4008", testIndex, ParameterIndex, parameterName, parameterValue, unit, upperlimit, lowerlimit, DataType, paramMode);
+}
+
+inline HRESULT _QSPR3XTT::GeneratePublicPrivateRSAKeys ( _bstr_t seed, BSTR * publicKey, BSTR * privateKey ) {
+    return _com_dispatch_method(this, 0xc, DISPATCH_METHOD, VT_EMPTY, NULL, 
+        L"\x0008\x4008\x4008", (BSTR)seed, publicKey, privateKey);
+}
+
+inline HRESULT _QSPR3XTT::DigSignQSPRTreeFile ( _bstr_t inFile, _bstr_t outFile, _bstr_t privateKey ) {
+    return _com_dispatch_method(this, 0xd, DISPATCH_METHOD, VT_EMPTY, NULL, 
+        L"\x0008\x0008\x0008", (BSTR)inFile, (BSTR)outFile, (BSTR)privateKey);
+}
+
+inline VARIANT_BOOL _QSPR3XTT::LoadSignedQSPRTreeFile ( _bstr_t path, _bstr_t publicKey ) {
+    VARIANT_BOOL _result = 0;
+    _com_dispatch_method(this, 0xe, DISPATCH_METHOD, VT_BOOL, (void*)&_result, 
+        L"\x0008\x0008", (BSTR)path, (BSTR)publicKey);
+    return _result;
+}

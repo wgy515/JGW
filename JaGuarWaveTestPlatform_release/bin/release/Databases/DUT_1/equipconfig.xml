@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EquipmentSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Equipment identifier="Call_Processor1" name="CMW500" type="CP" visa="TCPIP0::192.168.133.22::inst0::INSTR" />
+  <Equipment identifier="Signal_Generator4" name="CMW" type="DSG" visa="TCPIP0::192.168.133.22::inst0::INSTR" />
+  <!-- Comment: Replace above equipment to match your configuration
+Default WWAN call box
+<Equipment identifier="Signal_Generator4" name="E5515" type="DSG" pad="1"/>
+<Equipment identifier="Call_Processor1" name="HP 8960" type="CP" pad="1"/>
+
+<Equipment identifier="Signal_Generator4" name="MT8820" type="DSG" pad="14"  />
+<Equipment identifier="Call_Processor1" name="Anritsu MT8820" type="CP" pad="14"  />
+
+<Equipment identifier="Signal_Generator4" name="CMU" type="DSG" pad="26" sad="96" />
+<Equipment identifier="Call_Processor1" name="CMU" type="CP" pad="26" sad="96" />
+
+
+<Equipment identifier="Call_Processor1" name="CMW500" type="CP" pad="1"  />
+
+
+<Equipment identifier="Call_Processor1" name="CMW500" type="CP" ip="192.168.0.100"  />
+
+
+<Equipment identifier="Call_Processor1" name="Anritsu MT8870a" type="CP" pad="1"  />
+
+<Equipment identifier="Signal_Generator4" name="AGILENTEXT" type="DSG" pad="1"/>
+<Equipment identifier="Call_Processor1" name="agilent ext" type="CP" pad="1"/>
+
+
+<Equipment identifier="Call_Processor1" name="starpoint 6010" type="CP" pad="1"/>
+
+Default power supply for UUT
+<Equipment identifier="Power_Supply1" name="SCPI Power Supply" type="PS" pad="5"/>
+<Equipment identifier="Power_Supply1" name="Keithley 2304" type="PS" pad="5"/>
+<Equipment identifier="Power_Supply1" name="Philips 2811" type="PS" pad="5"/>
+
+Default GPSOne equipment
+<Equipment identifier="GPS_Emulator1" name="GSS4100" type="GPS" pad="2"/>
+<Equipment identifier="GPS_Emulator1" name="GSS6100" type="GPS" pad="2"/>
+<Equipment identifier="GPS_Emulator1" name="GSS6300" type="GPS" pad="2"/>
+<Equipment identifier="Universal_Counter1" name="Agilent 53132A" type="UC" pad="3"/>
+
+
+Default CW generator for GPS
+<Equipment identifier="Signal_Generator1" name="IFR 20XX" type="ASG" pad="5"/>
+<Equipment identifier="Signal_Generator1" name="IFR 2026A" type="ASG" pad="5"/>
+<Equipment identifier="Signal_Generator1" name="IFR 2026B" type="ASG" pad="5"/>
+<Equipment identifier="Signal_Generator1" name="RS SMIQ" type="ASG" pad="5"/>
+<Equipment identifier="Signal_Generator1" name="Agilent PSG" type="ASG" pad="5"/>
+<Equipment identifier="Signal_Generator1" name="SMA" type="ASG" pad="5"/>
+
+Default Equipment for BMS
+<Equipment identifier="Battery_Analyzer1" name="Keithley 2306" type="PS" pad="5"/>
+<Equipment identifier="Battery_Analyzer1" name="Agilent N6705B" type="PS" pad="5"/>
+Default Temperature Chamber for BMS
+<Equipment identifier="Temperature_Chamber1" name="CSZ SERIES F4 CONTROLLER" type="TC" pad="1"/>
+<Equipment identifier="Temperature_Chamber1" name="CSZ SERIES DEMENSIONII CONTROLLER" type="TC" pad="1"/>
+<Equipment identifier="Temperature_Chamber1" name="TENNEY 942 SERIES CONTROLLER" type="TC" pad="1"/>
+<Equipment identifier="Temperature_Chamber1" name="SIGMA C3_C5 CONTROLLER" type="TC" pad="1"/>
+<Equipment identifier="Temperature_Chamber1" name="TE115 F4 Controller" type="TC" pad="1"/>
+<Equipment identifier="Temperature_Chamber1" name="ESPEC" type="TC" pad="1"/>
+<Equipment identifier="Temperature_Chamber1" name="TPO4300" type="TC" pad="1"/>
+<Equipment identifier="Temperature_Chamber1" name="THERMOTRON3X00" type="TC" pad="1"/>
+Default Equipment/Jammer for Femto
+<Equipment identifier="Femto_Uplink_Generator" name="Anritsu MS2830" type="CP" pad="1"/>
+<Equipment identifier="Femto_Downlink_Analyzer" name="Anritsu MS2830" type="CP" pad="1"/>
+<Equipment identifier="Call_Processor1" name="Anritsu MS2830" type="CP" pad="1"/>
+<Equipment identifier="Femto_Uplink_Generator" name="Agilent EXG" type="CP" pad="1"/>
+<Equipment identifier="Femto_Downlink_Analyzer" name="Agilent EXA" type="CP" pad="1"/>
+<Equipment identifier="Call_Processor1" name="Agilent EXG" type="CP" pad="1"/>
+<Equipment identifier="Signal_Generator1" name="Agilent PSG" type="ASG" pad="5"/>
+<Equipment identifier="Signal_Generator2" name="RS SMJ" type="DSG" pad="28"/>
+
+Default Power Meter for Station Calibration
+<Equipment identifier="Power_Meter1" name="Gigatronics 8540C" type="PM" pad="99"/>
+End Comment -->
+</EquipmentSet>

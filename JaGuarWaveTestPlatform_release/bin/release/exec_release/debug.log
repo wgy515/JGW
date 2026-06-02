@@ -1,0 +1,3 @@
+[0626/102324.203:ERROR:context.cc(178)] The root_cache_path directory (cef_temp\CefLocalRootStorage) is not an absolute path. Defaulting to empty.
+[0626/102324.204:ERROR:context.cc(178)] The cache_path directory (cef_temp\CefLocalStorage) is not an absolute path. Defaulting to empty.
+[0626/102324.204:ERROR:context.cc(235)] The cache_path is invalid. Defaulting to in-memory storage.

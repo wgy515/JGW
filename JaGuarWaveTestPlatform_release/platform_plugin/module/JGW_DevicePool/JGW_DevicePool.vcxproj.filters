@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{5a944a95-61a3-4f3c-bc24-47c17f79a439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usb_config">
+      <UniqueIdentifier>{e15bc5cc-a5cd-4ac7-be91-0c1c47a6e8cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usb_host">
+      <UniqueIdentifier>{d65739f2-5613-40a4-bd35-d1c681a4ae5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usb">
+      <UniqueIdentifier>{d935e6ff-170c-470f-b2d3-ff7a5551e5a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_DevicePool\Auto_ID_Usb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_DevicePool\CDevicePool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_DevicePool\DevicePoolImpl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\JGW_DevicePool\DevicePortDefine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="usb_config\usb_config_define.h">
+      <Filter>usb_config</Filter>
+    </ClInclude>
+    <ClInclude Include="ComPortSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RegDevicePorts.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="usb_host\AutoUsbDefine.h">
+      <Filter>usb_host</Filter>
+    </ClInclude>
+    <ClInclude Include="usb_host\CAutoUsbPort.h">
+      <Filter>usb_host</Filter>
+    </ClInclude>
+    <ClInclude Include="usb_host\UsbInfoQuery.h">
+      <Filter>usb_host</Filter>
+    </ClInclude>
+    <ClInclude Include="usb_host\UsbQueryBase.h">
+      <Filter>usb_host</Filter>
+    </ClInclude>
+    <ClInclude Include="usb\usb100.h">
+      <Filter>usb</Filter>
+    </ClInclude>
+    <ClInclude Include="usb\usbdesc.h">
+      <Filter>usb</Filter>
+    </ClInclude>
+    <ClInclude Include="usb\usbdi.h">
+      <Filter>usb</Filter>
+    </ClInclude>
+    <ClInclude Include="usb\usbioctl.h">
+      <Filter>usb</Filter>
+    </ClInclude>
+    <ClInclude Include="usb\vndrlist.h">
+      <Filter>usb</Filter>
+    </ClInclude>
+    <ClInclude Include="usb_config\CJGW_FilteUsbConfig.h">
+      <Filter>usb_config</Filter>
+    </ClInclude>
+    <ClInclude Include="usb_config\CJGW_UsbConfig.h">
+      <Filter>usb_config</Filter>
+    </ClInclude>
+    <ClInclude Include="CJGW_DevicePoolThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ComPortSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RegDevicePorts.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="usb_host\CAutoUsbPort.cpp">
+      <Filter>usb_host</Filter>
+    </ClCompile>
+    <ClCompile Include="usb_host\UsbInfoQuery.cpp">
+      <Filter>usb_host</Filter>
+    </ClCompile>
+    <ClCompile Include="usb_host\UsbQueryBase.cpp">
+      <Filter>usb_host</Filter>
+    </ClCompile>
+    <ClCompile Include="usb_config\CJGW_FilteUsbConfig.cpp">
+      <Filter>usb_config</Filter>
+    </ClCompile>
+    <ClCompile Include="usb_config\CJGW_UsbConfig.cpp">
+      <Filter>usb_config</Filter>
+    </ClCompile>
+    <ClCompile Include="CJGW_DevicePoolThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

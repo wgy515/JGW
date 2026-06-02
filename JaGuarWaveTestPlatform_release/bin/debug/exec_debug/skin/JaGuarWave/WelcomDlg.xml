@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+    <Container enabled="true">
+        <Text text="JaGuarWave ProductTest Tools Platform" float="true" pos="30,67,0,0" enabled="true" width="999" height="70" textpadding="10,15,2,10" textcolor="#000080FF" disabledtextcolor="#FFA7A6AA" font="5" align="wrap" />
+        <!--Text float="true" pos="35,75,0,0" enabled="true" width="240" height="63" bkimage="company2.png" textpadding="2,0,2,0" align="wrap" /-->
+    </Container>
+</Window>

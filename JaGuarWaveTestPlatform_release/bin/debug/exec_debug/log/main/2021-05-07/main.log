@@ -1,0 +1,30 @@
+2021-05-07 09:25:02 INFO  - LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210506\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-05-07 09:25:02 INFO  - CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210506\exec\JGW_DevicePool.dll)
+2021-05-07 09:25:03 INFO  - LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-05-07 09:25:03 INFO  - LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210506\exec\plugin\CWelcomPlugin.dll)
+2021-05-07 09:25:03 INFO  - CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210506\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-05-07 09:25:06 INFO  - CCJGWMainDlg::OnCloseWindow
+2021-05-07 09:25:06 ERROR - ReadSocket Error:由本地系统中止网络连接。
+2021-05-07 09:25:06 ERROR - 由本地系统中止网络连接。
+2021-05-07 09:25:06 INFO  - CCJGWMainDlg::CloseSubPluginView
+2021-05-07 09:25:06 INFO  - CCJGWUIEvent::CloseSubPluginView
+2021-05-07 09:25:06 INFO  - CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210506\exec\plugin\CWelcomPlugin.dll
+2021-05-07 09:25:06 INFO  - CCJGWMainDlg::DestroySubPlugin
+2021-05-07 09:25:06 INFO  - CCJGWUIEvent::DestroySubPlugin
+2021-05-07 09:25:06 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210506\exec\plugin\CWelcomPlugin.dll
+2021-05-07 09:25:06 INFO  - DestroyClassPtr clsid : ,ptr : 00000000
+2021-05-07 09:25:14 INFO  - LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210506\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-05-07 09:25:14 INFO  - CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210506\exec\JGW_DevicePool.dll)
+2021-05-07 09:25:14 INFO  - LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-05-07 09:25:14 INFO  - LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210506\exec\plugin\CWelcomPlugin.dll)
+2021-05-07 09:25:14 INFO  - CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210506\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-05-07 09:25:17 INFO  - CCJGWMainDlg::OnCloseWindow
+2021-05-07 09:25:17 ERROR - ReadSocket Error:由本地系统中止网络连接。
+2021-05-07 09:25:17 ERROR - 由本地系统中止网络连接。
+2021-05-07 09:25:18 INFO  - CCJGWMainDlg::CloseSubPluginView
+2021-05-07 09:25:18 INFO  - CCJGWUIEvent::CloseSubPluginView
+2021-05-07 09:25:18 INFO  - CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210506\exec\plugin\CWelcomPlugin.dll
+2021-05-07 09:25:18 INFO  - CCJGWMainDlg::DestroySubPlugin
+2021-05-07 09:25:18 INFO  - CCJGWUIEvent::DestroySubPlugin
+2021-05-07 09:25:18 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210506\exec\plugin\CWelcomPlugin.dll
+2021-05-07 09:25:18 INFO  - DestroyClassPtr clsid : ,ptr : 00000000

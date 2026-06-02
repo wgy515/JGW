@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+    <ListContainerElementEx>
+		<HorizontalLayout inset="5,5,5,5" width="60" bordersize="1" bordercolor="#FF4775CC">
+			<Label text="" width="80" textcolor="#0000ff" align="left"/>
+		</HorizontalLayout>
+		<HorizontalLayout inset="5,5,5,5" width="0" bordersize="1" bordercolor="#FF4775CC">
+			<Button text="" enabled="true" height="30" textcolor="#FF000000" textpadding="5,5,0,0" disabledtextcolor="#FFA7A6AA" align="left" normalimage="file=&apos;button_normal.png&apos; corner=&apos;5,5,5,5&apos;" hotimage="file=&apos;button_hover.png&apos; corner=&apos;5,5,5,5&apos;" pushedimage="file=&apos;button_pushed.png&apos; corner=&apos;5,5,5,5&apos;" focusedimage="file=&apos;button_hover.png&apos; corner=&apos;5,5,5,5&apos;" disabledimage="file=&apos;disable_btn.png&apos;corner=&apos;5,5,5,5&apos;" />
+		</HorizontalLayout>
+		<HorizontalLayout inset="5,5,5,5" width="0" bordersize="1" bordercolor="#FF4775CC">
+			<Label text="" textcolor="#0000ff" align="left"/>
+		</HorizontalLayout>
+		<HorizontalLayout inset="5,5,5,5" width="80" bordersize="1" bordercolor="#FF4775CC">
+			<Label text="---" width="80" textcolor="#0000ff" align="left"/>
+		</HorizontalLayout>
+		<HorizontalLayout inset="5,5,5,5" width="40" bordersize="1" bordercolor="#FF4775CC">
+			<Label text="-" width="80" textcolor="#0000ff" align="left"/>
+		</HorizontalLayout>
+	</ListContainerElementEx>
+</Window>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by Nancy Martin (QUALCOMM INC) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="QRCTCustomAPIPage" type="QRCTCustomAPIPage"/>
+	<xs:complexType name="QRCTCustomAPIPage">
+		<xs:sequence>
+			<xs:element name="APIs" type="ArrayOfChoice6"/>
+		</xs:sequence>
+		<xs:attribute name="MenuItemName" type="xs:string"/>
+		<xs:attribute name="WindowTitle" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfChoice6">
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="StatusLogAPI" type="QRCTStatusLogAPI" nillable="true"/>
+			<xs:element name="FTMLogAPI" type="QRCTFtmLogAPI" nillable="true"/>
+			<xs:element name="SendSyncAPI" type="QRCTSendSyncAPI" nillable="true"/>
+			<xs:element name="QMSLFuncAPI" type="QRCTCustomTestAPI" nillable="true"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="QRCTStatusLogAPI" mixed="false">
+		<xs:complexContent mixed="false">
+			<xs:extension base="QRCTCustomAPI">
+				<xs:sequence>
+					<xs:element name="StandardLeftAxis" type="ftmLogChartAxis"/>
+					<xs:element name="StandardRightAxis" type="ftmLogChartAxis"/>
+					<xs:element name="OptionalLeftAxis" type="ftmLogChartAxis"/>
+					<xs:element name="OptionalRightAxis" type="ftmLogChartAxis"/>
+					<xs:element name="StatusLogItem" type="QRCTStatusLogItem" maxOccurs="unbounded"/>
+				</xs:sequence>
+				<xs:attribute name="maxChartNumber" type="xs:int" use="required"/>
+				<xs:attribute name="timerInterval" type="xs:int" use="required"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="QRCTCustomAPI">
+		<xs:attribute name="apiTitle" type="xs:string" use="required"/>
+		<xs:attribute name="AttachDirection" type="QRCTCUSTOMAPIPOSITION" use="required"/>
+	</xs:complexType>
+	<xs:simpleType name="QRCTCUSTOMAPIPOSITION">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ATTACH_LEFT"/>
+			<xs:enumeration value="ATTACH_RIGHT"/>
+			<xs:enumeration value="ATTACH_BOTTOM"/>
+			<xs:enumeration value="ATTACH_TOP"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="QRCTSendSyncAPI" mixed="false">
+		<xs:complexContent mixed="false">
+			<xs:extension base="QRCTCustomAPI">
+				<xs:sequence>
+					<xs:element name="controls" type="ArrayOfChoice3"/>
+					<xs:element name="SendSyncAction" type="QRCTSendSyncAction" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfChoice3">
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="CheckBox" type="QRCTCheckBox" nillable="true"/>
+			<xs:element name="CheckedListBox" type="QRCTCheckedListBox" nillable="true"/>
+			<xs:element name="Button" type="QRCTButton" nillable="true"/>
+			<xs:element name="TextBox" type="QRCTTextBox" nillable="true"/>
+			<xs:element name="ComboBox" type="QRCTComboBox" nillable="true"/>
+			<xs:element name="GroupBox" type="QRCTGroupBox" nillable="true"/>
+			<xs:element name="Label" type="QRCTLabel" nillable="true"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="QRCTCheckBox" mixed="false">
+		<xs:complexContent mixed="false">
+			<xs:extension base="QRCTCustomControl">
+				<xs:attribute name="Text" type="xs:string" use="required"/>
+				<xs:attribute name="Checked" type="xs:boolean" use="required"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="QRCTCustomControl">
+		<xs:attribute name="CtrlID" type="xs:string" use="required"/>
+		<xs:attribute name="X" type="xs:int" use="required"/>
+		<xs:attribute name="Y" type="xs:int" use="required"/>
+		<xs:attribute name="Width" type="xs:int" use="optional"/>
+		<xs:attribute name="Height" type="xs:int" use="optional"/>
+		<xs:attribute name="ToolTip" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="QRCTCheckedListBox" mixed="false">
+		<xs:complexContent mixed="false">
+			<xs:extension base="QRCTCustomControl">
+				<xs:sequence>
+					<xs:element name="Items" type="ArrayOfCFtmCheckedListItem"/>
+				</xs:sequence>
+				<xs:attribute name="Label" type="xs:string"/>
+				<xs:attribute name="LabelWidth" type="xs:int" use="optional"/>
+				<xs:attribute name="LabelHeight" type="xs:int" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfCFtmCheckedListItem">
+		<xs:sequence>
+			<xs:element name="CFtmCheckedListItem" type="CFtmCheckedListItem" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CFtmCheckedListItem">
+		<xs:attribute name="ItemName" type="xs:string" use="required"/>
+		<xs:attribute name="CheckedDefault" type="xs:boolean" use="required"/>
+		<xs:attribute name="ItemValue" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="QRCTButton" mixed="false">
+		<xs:complexContent mixed="false">
+			<xs:extension base="QRCTCustomControl">
+				<xs:attribute name="Text" type="xs:string" use="required"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="QRCTComboBox" mixed="false">
+		<xs:complexContent mixed="false">
+			<xs:extension base="QRCTCustomControl">
+				<xs:sequence>
+					<xs:element name="Items" type="ArrayOfCFtmComboItem"/>
+				</xs:sequence>
+				<xs:attribute name="Label" type="xs:string"/>
+				<xs:attribute name="LabelWidth" type="xs:int" use="optional"/>
+				<xs:attribute name="LabelHeight" type="xs:int" use="optional"/>
+				<xs:attribute name="DropDownWidth" type="xs:int" use="required"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="QRCTGroupBox" mixed="false">
+		<xs:complexContent mixed="false">
+			<xs:extension base="QRCTCustomControl">
+				<xs:sequence>
+					<xs:element name="Controls" type="ArrayOfChoice3"/>
+				</xs:sequence>
+				<xs:attribute name="Text" type="xs:string" use="required"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="QRCTLabel" mixed="false">
+		<xs:complexContent mixed="false">
+			<xs:extension base="QRCTCustomControl">
+				<xs:attribute name="Text" type="xs:string" use="required"/>
+				<xs:attribute name="MaxSizeX" type="xs:int" use="optional"/>
+				<xs:attribute name="MaxSizeY" type="xs:int" use="optional"/>
+				<xs:attribute name="AutoSize" type="xs:boolean" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfCFtmComboItem">
+		<xs:sequence>
+			<xs:element name="CFtmComboItem" type="CFtmComboItem" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CFtmComboItem">
+		<xs:attribute name="displayMember" type="xs:string" use="required"/>
+		<xs:attribute name="valueMember" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="QRCTTextBox" mixed="false">
+		<xs:complexContent mixed="false">
+			<xs:extension base="QRCTCustomControl">
+				<xs:attribute name="Label" type="xs:string" use="required"/>
+				<xs:attribute name="LabelWidth" type="xs:int" use="optional"/>
+				<xs:attribute name="LabelHeight" type="xs:int" use="optional"/>
+				<xs:attribute name="ReadOnly" type="xs:boolean" use="optional"/>
+				<xs:attribute name="Text" type="xs:string"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="QRCTSendSyncAction">
+		<xs:sequence>
+			<xs:element name="inputs" type="ArrayOfChoice4"/>
+			<xs:element name="outputs" type="ArrayOfChoice5" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="CtrlID" type="xs:string" use="required"/>
+		<xs:attribute name="packetLength" type="xs:unsignedInt" use="required"/>
+		<xs:attribute name="msTimeOut" type="xs:unsignedInt" use="required"/>
+		<xs:attribute name="TestBriefDesp" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfChoice4">
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="ControlInput" type="QRCTAPICtrlInput" nillable="true"/>
+			<xs:element name="DataInput" type="QRCTAPIDataInput" nillable="true"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="QRCTAPICtrlInput" mixed="false">
+		<xs:complexContent mixed="false">
+			<xs:extension base="QRCTAPIInput">
+				<xs:attribute name="CtrlID" type="xs:string" use="required"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="QRCTAPIInput">
+		<xs:attribute name="size" type="FTMDATASIZE" use="required"/>
+	</xs:complexType>
+	<xs:simpleType name="FTMDATASIZE">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="FTM_SHORT"/>
+			<xs:enumeration value="FTM_UCHAR"/>
+			<xs:enumeration value="FTM_UINT"/>
+			<xs:enumeration value="FTM_INT"/>
+			<xs:enumeration value="FTM_USHORT"/>
+			<xs:enumeration value="FTM_ULONG"/>
+			<xs:enumeration value="FTM_LONG"/>
+			<xs:enumeration value="FTM_DOUBLE"/>
+			<xs:enumeration value="FTM_10BITSIGNED"/>
+			<xs:enumeration value="FTM_15BITSIGNED"/>
+			<xs:enumeration value="FTM_STRING"/>
+			<xs:enumeration value="FTM_UCHAR_HEX"/>
+			<xs:enumeration value="FTM_USHORT_HEX"/>
+			<xs:enumeration value="FTM_ULONG_HEX"/>
+			<xs:enumeration value="FTM_UINT_HEX"/>
+			<xs:enumeration value="FTM_CHAR"/>
+			<xs:enumeration value="FTM_INT64"/>
+			<xs:enumeration value="FTM_UINT64"/>
+			<xs:enumeration value="FTM_UINT64_HEX"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="QRCTAPIDataInput" mixed="false">
+		<xs:complexContent mixed="false">
+			<xs:extension base="QRCTAPIInput">
+				<xs:attribute name="data" type="xs:string" use="required"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfChoice5">
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="BitsCtrlOutput" type="QRCTAPIStreamBitsOut" nillable="true"/>
+			<xs:element name="ByteCtrlOutput" type="QRCTAPIStreamByteOut" nillable="true"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="QRCTAPIStreamBitsOut" mixed="false">
+		<xs:complexContent mixed="false">
+			<xs:extension base="QRCTAPIOutput">
+				<xs:attribute name="byteOffset" type="xs:short" use="required"/>
+				<xs:attribute name="bitOffset" type="xs:short" use="required"/>
+				<xs:attribute name="bitsLength" type="xs:short" use="required"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="QRCTAPIOutput">
+		<xs:attribute name="CtrlID" type="xs:string" use="required"/>
+		<xs:attribute name="size" type="FTMDATASIZE" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="QRCTAPIStreamByteOut" mixed="false">
+		<xs:complexContent mixed="false">
+			<xs:extension base="QRCTAPIOutput">
+				<xs:attribute name="offset" type="xs:short" use="required"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="QRCTCustomTestAPI" mixed="false">
+		<xs:complexContent mixed="false">
+			<xs:extension base="QRCTCustomAPI">
+				<xs:sequence>
+					<xs:element name="controls" type="ArrayOfChoice1"/>
+					<xs:element name="QMSLFuncAction" type="QRCTCustomAPIAction" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfChoice1">
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="ComboBox" type="QRCTComboBox" nillable="true"/>
+			<xs:element name="CheckedListBox" type="QRCTCheckedListBox" nillable="true"/>
+			<xs:element name="Button" type="QRCTButton" nillable="true"/>
+			<xs:element name="TextBox" type="QRCTTextBox" nillable="true"/>
+			<xs:element name="CheckBox" type="QRCTCheckBox" nillable="true"/>
+			<xs:element name="GroupBox" type="QRCTGroupBox" nillable="true"/>
+			<xs:element name="Label" type="QRCTLabel" nillable="true"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="QRCTCustomAPIAction">
+		<xs:sequence>
+			<xs:element name="inputs" type="ArrayOfChoice2" minOccurs="0"/>
+			<xs:element name="outputs" type="ArrayOfQRCTAPIOutput" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="QMSLFuncName" type="xs:string" use="required"/>
+		<xs:attribute name="CtrlID" type="xs:string" use="required"/>
+		<xs:attribute name="TestBriefDesp" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfChoice2">
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="ControlInput" type="QRCTAPICtrlInput" nillable="true"/>
+			<xs:element name="DataInput" type="QRCTAPIDataInput" nillable="true"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfQRCTAPIOutput">
+		<xs:sequence>
+			<xs:element name="ControlOutput" type="QRCTAPIOutput" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="QRCTFtmLogAPI" mixed="false">
+		<xs:complexContent mixed="false">
+			<xs:extension base="QRCTCustomAPI">
+				<xs:sequence>
+					<xs:element name="Condition" type="QRCTFtmLogCondition" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="StandardLeftAxis" type="ftmLogChartAxis"/>
+					<xs:element name="StandardRightAxis" type="ftmLogChartAxis"/>
+					<xs:element name="OptionalLeftAxis" type="ftmLogChartAxis"/>
+					<xs:element name="OptionalRightAxis" type="ftmLogChartAxis"/>
+					<xs:element name="LogField" type="QRCTFtmLogField" maxOccurs="unbounded"/>
+				</xs:sequence>
+				<xs:attribute name="logCode" type="xs:string" use="required"/>
+				<xs:attribute name="logID" type="xs:string" use="required"/>
+				<xs:attribute name="maxChartNumber" type="xs:int" use="required"/>
+				<xs:attribute name="timerInterval" type="xs:int" use="required"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="QRCTFtmLogCondition">
+		<xs:attribute name="size" type="FTMDATASIZE" use="required"/>
+		<xs:attribute name="offset" type="xs:unsignedInt" use="required"/>
+		<xs:attribute name="validValue" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="ftmLogChartAxis">
+		<xs:attribute name="Min" type="xs:double" use="required"/>
+		<xs:attribute name="Max" type="xs:double" use="required"/>
+		<xs:attribute name="Increment" type="xs:double" use="required"/>
+		<xs:attribute name="StartPos" type="xs:int" use="required"/>
+		<xs:attribute name="StopPos" type="xs:int" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="QRCTFtmLogField">
+		<xs:attribute name="title" type="xs:string" use="required"/>
+		<xs:attribute name="size" type="FTMDATASIZE" use="required"/>
+		<xs:attribute name="offset" type="xs:unsignedInt" use="required"/>
+		<xs:attribute name="chartChoice" type="FTM_LOG_FIELD_CHART_CHOICE" use="required"/>
+		<xs:attribute name="asStairs" type="xs:boolean" use="required"/>
+	</xs:complexType>
+	<xs:simpleType name="FTM_LOG_FIELD_CHART_CHOICE">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="DATAGRID_ONLY"/>
+			<xs:enumeration value="STANDARD_LEFT_AXIS"/>
+			<xs:enumeration value="STANDARD_RIGHT_AXIS"/>
+			<xs:enumeration value="OPTIONAL_LEFT_AXIS"/>
+			<xs:enumeration value="OPTIONAL_RIGHT_AXIS"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="QRCTStatusLogItem">
+		<xs:sequence>
+			<xs:element name="inputs" type="ArrayOfQRCTAPIDataInput" minOccurs="0"/>
+			<xs:element name="outputs" type="ArrayOfQRCTAPIChartData" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="QMSLFuncName" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfQRCTAPIDataInput">
+		<xs:sequence>
+			<xs:element name="DataInput" type="QRCTAPIDataInput" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfQRCTAPIChartData">
+		<xs:sequence>
+			<xs:element name="ChartOutput" type="QRCTAPIChartData" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="QRCTAPIChartData">
+		<xs:attribute name="title" type="xs:string" use="required"/>
+		<xs:attribute name="size" type="FTMDATASIZE" use="required"/>
+		<xs:attribute name="chartChoice" type="FTM_LOG_FIELD_CHART_CHOICE" use="required"/>
+		<xs:attribute name="asStairs" type="xs:boolean" use="required"/>
+	</xs:complexType>
+</xs:schema>

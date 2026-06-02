@@ -1,0 +1,911 @@
+2025-04-15 17:40:18 INFO  - Start Throughput Test...
+2025-04-15 17:40:18 INFO  - Check SSH (192.168.1.2) Internet connection ..
+2025-04-15 17:40:18 INFO  - Check SSH (192.168.1.2) Internet connection ..
+2025-04-15 17:40:18 INFO  - ping 192.168.1.2 52 bytes from 192.168.1.2: icmp_seq=1 ttl=64 time=2.236 ms
+2025-04-15 17:40:19 INFO  - ping 192.168.1.2 52 bytes from 192.168.1.2: icmp_seq=2 ttl=64 time=2.406 ms
+2025-04-15 17:40:20 INFO  - Connecting to the SSH(192.168.1.2) Service
+2025-04-15 17:40:20 INFO  - Connecting to the SSH(192.168.1.2) Service
+2025-04-15 17:40:20 ERROR - Authentication methods: publickey,password
+2025-04-15 17:40:23 INFO  - Start cat /proc/kmsg log
+2025-04-15 17:40:24 INFO  - Start logread -f log
+2025-04-15 17:40:25 INFO  - Enable the SSH(192.168.1.2) service thread to read the 11AD connection status every 500 millisecond
+2025-04-15 17:40:25 INFO  - Enable the SSH(192.168.1.2) service thread to read the 11AD connection status every 500 millisecond
+2025-04-15 17:40:25 INFO  - Stop Iperf3 Client
+2025-04-15 17:40:25 INFO  - Stop Iperf3 Client
+2025-04-15 17:40:25 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -68,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4802,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:25 INFO  - 1,-62,9,12,47
+2025-04-15 17:40:25 INFO  - Start Iperf3 Client
+2025-04-15 17:40:26 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -68,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4803,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+[1]-  Terminated                 cat /proc/kmsg 1>/root/1744710018_kmsg.log
+2025-04-15 17:40:26 INFO  - 1,-62,9,12,47
+2025-04-15 17:40:27 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -68,
+		"local_rssi": -63,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4804,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+[2]+  Done                       logread -f 1>/root/1744710018_logread.log
+2025-04-15 17:40:27 INFO  - 1,-63,9,12,47
+2025-04-15 17:40:28 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -69,
+		"local_rssi": -63,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4804,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:28 INFO  - 1,-63,9,12,47
+2025-04-15 17:40:28 INFO  - Start Iperf3 Client
+2025-04-15 17:40:29 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -59,
+		"beacon_rssi": -68,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4805,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:29 INFO  - 1,-62,9,12,47
+2025-04-15 17:40:30 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -59,
+		"beacon_rssi": -68,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4806,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:30 INFO  - 1,-62,9,12,47
+2025-04-15 17:40:31 INFO  - Start Iperf3 Client
+2025-04-15 17:40:31 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -68,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4807,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:31 INFO  - 1,-62,9,12,47
+2025-04-15 17:40:31 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -68,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4808,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:31 INFO  - 1,-62,9,12,47
+2025-04-15 17:40:32 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -68,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4809,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:32 INFO  - 1,-62,9,12,47
+2025-04-15 17:40:33 INFO  - Start Iperf3 Client
+2025-04-15 17:40:33 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -67,
+		"local_rssi": -63,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4810,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:33 INFO  - 1,-63,9,12,47
+2025-04-15 17:40:34 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -68,
+		"local_rssi": -63,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4811,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:34 INFO  - 1,-63,9,12,47
+2025-04-15 17:40:35 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -68,
+		"local_rssi": -61,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4812,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:35 INFO  - 1,-61,9,12,47
+2025-04-15 17:40:36 INFO  - Start Iperf3 Client
+2025-04-15 17:40:36 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -68,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4813,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:36 INFO  - 1,-62,9,12,47
+2025-04-15 17:40:37 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -69,
+		"local_rssi": -61,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4814,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:37 INFO  - 1,-61,9,12,47
+2025-04-15 17:40:38 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -68,
+		"local_rssi": -63,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4814,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:38 INFO  - 1,-63,9,12,47
+2025-04-15 17:40:38 INFO  - Start Iperf3 Client
+2025-04-15 17:40:39 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -68,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4815,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:39 INFO  - 1,-62,9,12,47
+2025-04-15 17:40:40 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -59,
+		"beacon_rssi": -68,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4816,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:40 INFO  - 1,-62,9,12,47
+2025-04-15 17:40:40 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -68,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4817,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:40 INFO  - 1,-62,9,12,47
+2025-04-15 17:40:41 INFO  - Start Iperf3 Client
+2025-04-15 17:40:41 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -59,
+		"beacon_rssi": -68,
+		"local_rssi": -63,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4818,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:41 INFO  - 1,-63,9,12,47
+2025-04-15 17:40:42 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -69,
+		"local_rssi": -61,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4819,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:42 INFO  - 1,-61,9,12,47
+2025-04-15 17:40:43 INFO  - Start Iperf3 Client
+2025-04-15 17:40:43 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -68,
+		"local_rssi": -63,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4820,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:43 INFO  - 1,-63,9,12,47
+2025-04-15 17:40:44 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -68,
+		"local_rssi": -63,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4821,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:44 INFO  - 1,-63,9,12,47
+2025-04-15 17:40:45 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -68,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4822,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:45 INFO  - 1,-62,9,12,47
+2025-04-15 17:40:46 INFO  - Start Iperf3 Client
+2025-04-15 17:40:46 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -59,
+		"beacon_rssi": -67,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4823,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:46 INFO  - 1,-62,9,12,47
+2025-04-15 17:40:47 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -68,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4823,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:47 INFO  - 1,-62,9,12,47
+2025-04-15 17:40:48 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -68,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4824,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:48 INFO  - 1,-62,9,12,47
+2025-04-15 17:40:48 INFO  - Start Iperf3 Client
+2025-04-15 17:40:49 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -67,
+		"local_rssi": -61,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4825,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:49 INFO  - 1,-61,9,12,47
+2025-04-15 17:40:49 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -69,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4826,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:49 INFO  - 1,-62,9,12,47
+2025-04-15 17:40:50 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -69,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4827,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:50 INFO  - 1,-62,9,12,47
+2025-04-15 17:40:51 INFO  - Start Iperf3 Client
+2025-04-15 17:40:51 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -67,
+		"local_rssi": -61,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4828,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:51 INFO  - 1,-61,9,12,47
+2025-04-15 17:40:52 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -66,
+		"local_rssi": -63,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4829,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:52 INFO  - 1,-63,9,12,47
+2025-04-15 17:40:53 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -68,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4830,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:53 INFO  - 1,-62,9,12,47
+2025-04-15 17:40:53 INFO  - Start Iperf3 Client
+2025-04-15 17:40:54 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -68,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4831,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:54 INFO  - 1,-62,9,12,47
+2025-04-15 17:40:55 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -68,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4832,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:55 INFO  - 1,-62,9,12,47
+2025-04-15 17:40:56 INFO  - Start Iperf3 Client
+2025-04-15 17:40:56 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -69,
+		"local_rssi": -63,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4832,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:56 INFO  - 1,-63,9,12,47
+2025-04-15 17:40:57 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -68,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4833,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:57 INFO  - 1,-62,9,12,47
+2025-04-15 17:40:58 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -57,
+		"beacon_rssi": -68,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4834,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:58 INFO  - 1,-62,9,12,47
+2025-04-15 17:40:58 INFO  - Start Iperf3 Client
+2025-04-15 17:40:58 INFO  - {
+	"station-1": {
+		"ssid": "doppler_test",
+		"peer_mac": " 7C 6C F0 AF FF 36 ",
+		"beamforming_rssi": -62,
+		"remote_rssi": -59,
+		"beacon_rssi": -69,
+		"local_rssi": -62,
+		"average_rssi": -62,
+		"tx_sector": 12,
+		"rx_sector": 47,
+		"current_mcs": 9,
+		"max_mcs": 12,
+		"min_mcs": 1,
+		"distance": 7,
+		"snr": 6,
+		"associated_time": 4835,
+		"center_frequency": 69120,
+		"bandwidth": 2160,
+		"channel": 6
+	}
+}
+2025-04-15 17:40:58 INFO  - 1,-62,9,12,47
+2025-04-15 17:41:00 INFO  - Stop Throughput Test Thread
+2025-04-15 17:41:00 INFO  - Stop Throughput Test...
+2025-04-15 17:41:01 INFO  - Connecting to the SCP(192.168.1.2) Service
+2025-04-15 17:41:01 INFO  - proc/kmsg log : G:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec\log\ThroughputTestTool2\2025-04-15\h17_m40_s18_0/1744710018_kmsg.log
+2025-04-15 17:41:01 INFO  - logread log : G:\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec\log\ThroughputTestTool2\2025-04-15\h17_m40_s18_0/1744710018_logread.log
+2025-04-15 17:41:07 INFO  - Stop Throughput Test Thread
+2025-04-15 17:41:07 INFO  - Stop Throughput Test...

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="600,80" bktrans="true">
+    <Font name="宋体" size="32" bold="true" italic="false" />
+    <HorizontalLayout width="550" height="200">
+        <Label name="mesTipInfoLab" text="正在开启MES服务应用程序,请等待..." padding="0,2,0,2" textcolor="#00FF0000" disabledtextcolor="#FFA7A6AA" font="0" align="center" />
+    </HorizontalLayout>
+</Window>

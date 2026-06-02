@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,600" sizebox="4,4,6,6" caption="0,0,0,30" roundcorner="10,10">
+    <Font name="宋体" size="14" bold="false" italic="false" default="true" />
+    <Font name="宋体" size="16" bold="false" italic="false" />
+    <Font name="宋体" size="12" bold="false" italic="false" />
+    <Font name="宋体" size="10" bold="false" italic="false" />
+    <Default name="CheckBox" value="textcolor=&quot;#FFbac0c5&quot; hottextcolor=&quot;#FF386382&quot; selectedtextcolor=&quot;#FF386382&quot; disabledtextcolor=&quot;#FFbac0c5&quot; textpadding=&quot;20,2,0,0&quot; align=&quot;left&quot; selectedimage=&quot;file=&apos;checked.png&apos; dest=&apos;0,2,16,18&apos;&quot; normalimage=&quot;file=&apos;unchecked.png&apos; dest=&apos;0,2,16,18&apos;&quot;" />
+    <VerticalLayout width="400" height="400" bkcolor="#FFE4E4E4">
+        <HorizontalLayout height="30" bkcolor="#FFFFFFFF" bkcolor2="#000000FF">
+            <VerticalLayout padding="5,3,5,2">
+                <HorizontalLayout>
+                    <Label width="30" height="25" bkimage="max.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                    <Label name="tipslab" text=" JaGuarWave CPE Download Config" padding="0,2,0,2" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" />
+                </HorizontalLayout>
+            </VerticalLayout>
+            <VerticalLayout width="110">
+                <Button name="closebtn" float="true" pos="56,0,0,0" width="39" height="19" maxheight="19" maxwidth="39" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;btn_close.png&apos; source=&apos;0,0,39,19&apos;" hotimage="file=&apos;btn_close.png&apos; source=&apos;39,0,78,19&apos;" pushedimage="file=&apos;btn_close.png&apos; source=&apos;78,0,117,19&apos;" />
+            </VerticalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout height="10" />
+        <HorizontalLayout padding="0,0,0,20">
+            <VerticalLayout padding="5,3,5,2">
+                <HorizontalLayout height="30">
+                    <Control width="10" />
+                    <!-- <Label text="CPE IP:" width="80" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+                    <Edit name="CPEHostIPAddrEdt" text="192.168.1.3" tooltip="CPE设备IP地址" width="150" padding="0,2,0,2" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" maxchar="30" />
+                    <Control width="10" /> -->
+                    <Label text="TFTPD IP:" width="80" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+                    <Edit name="TftpdIpAddrEdt" text="192.168.1.2" tooltip="TFTPD 服务器IP地址（默认是当前主机电脑做TFTPD服务器）" width="150" padding="0,2,0,2" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" maxchar="30" />
+                    <Control width="10" />
+                </HorizontalLayout>
+				<HorizontalLayout height="90" padding="10,5,10,5">
+					<Label text="Config:" width="80" align="top" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+					<RichEdit name="DownloadFileParamEdt" font="6" text="" tipvalue="example:TSE_SAHARA_FIREHOSE_IMAGE_PARAM=xx,TZ_MBN=xx,DEVCFG_MBN,RPM_MBN,BOOT_MBN,CDT_DDR4"  enabled="true" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"  maxchar="9000"  align="left" vscrollbar="true" hscrollbar="false" multiline="true" autohscroll="false" autovscroll="true" readonly="false"/>
+				</HorizontalLayout>
+				<!-- <HorizontalLayout height="30">
+					<Control width="10" />
+                    <Label text="SBL:" width="35" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+                    <Edit name="SblEdt" text="sbl1_flashless.mbn" tooltip="sbl 下载文件名称（默认：sbl1_flashless.mbn）" padding="0,2,0,2" bkcolor="#FFFFFFFF" textpadding="4,3,4,3"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" maxchar="30" />
+					<Control width="10" />
+					<Label text="CDT:" width="35" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+                    <Edit name="CdtEdt" text="cdt-AP-HK09_512M16_DDR4.bin" tooltip="cdt 下载文件名称（默认：cdt-AP-HK09_512M16_DDR4.bin）" padding="0,2,0,2" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" maxchar="30" />
+				</HorizontalLayout>
+				<HorizontalLayout height="30">
+					<Control width="10" />
+					<Label text="TZ:" width="35" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+                    <Edit name="TzEdt" text="tz.mbn" tooltip="tz 下载文件名称（默认：tz.mbn）" padding="0,2,0,2" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" maxchar="30" />
+					<Control width="10" />
+					<Label text="DEV:" width="35" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+                    <Edit name="DevEdt" text="devcfg_noac.mbn" tooltip="devcfg 下载文件名称（默认：devcfg_noac.mbn）" padding="0,2,0,2" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" maxchar="30" />
+				</HorizontalLayout>
+				<HorizontalLayout height="30">
+					<Control width="10" />
+					<Label text="RPM:" width="35" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+                    <Edit name="RpmEdt" text="rpm.mbn" tooltip="rpm 下载文件名称（默认：rpm.mbn）" padding="0,2,0,2" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" maxchar="30" />
+					<Control width="10" />
+					<Label text="BOOT:" width="35" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+                    <Edit name="BootEdt" text="openwrt-ipq807x-u-boot.mbn" tooltip="boot 下载文件名称（默认：openwrt-ipq807x-u-boot.mbn）" padding="0,2,0,2" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" maxchar="30" />
+				</HorizontalLayout> -->
+                <HorizontalLayout padding="10,0,0,0">
+                    <ListTestCtrl bkcolor="#FFFFFFFF" enabled="true" headerbkimage="file=&apos;list_header_bg.png&apos;" hscrollbar="true" itembkcolor="#FFE2DDDF" itemdisabledbkcolor="#FFFFFFFF" itemdisabledtextcolor="#FFCCCCCC" itemhotbkcolor="#FFE9F5FF" itemhottextcolor="#FF000000" itemlinecolor="#FF00FFFF" itemselectedtextcolor="#FF000000" itemtextcolor="#FF000000" itemtextpadding="10,0,0,0" menu="true" name="DomainList" vscrollbar="true" />
+                </HorizontalLayout>
+            </VerticalLayout>
+			
+            <VerticalLayout width="140">
+                <Button name="SaveBtn" text="Save" width="120" height="30" padding="5,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;btn_edit_normal.png&apos;corner=&apos;5,5,5,5&apos;; " hotimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " pushedimage=" file=&apos;btn_edit_down.png&apos;corner=&apos;5,5,5,5&apos;;" focusedimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " disabledimage=" file=&apos;disable_btn.png&apos;corner=&apos;5,5,5,5&apos;; " />
+                <Button name="CancelBtn" text="Cancel" width="120" height="30" padding="5,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;btn_edit_normal.png&apos;corner=&apos;5,5,5,5&apos;; " hotimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " pushedimage=" file=&apos;btn_edit_down.png&apos;corner=&apos;5,5,5,5&apos;;" focusedimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " disabledimage=" file=&apos;disable_btn.png&apos;corner=&apos;5,5,5,5&apos;; " />
+				<Button name="ClearAllSortBtn" text="清空排序" width="120" height="30" padding="5,60,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;btn_edit_normal.png&apos;corner=&apos;5,5,5,5&apos;; " hotimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " pushedimage=" file=&apos;btn_edit_down.png&apos;corner=&apos;5,5,5,5&apos;;" focusedimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " disabledimage=" file=&apos;disable_btn.png&apos;corner=&apos;5,5,5,5&apos;; " />
+				<Button name="CancelSortBtn" text="取消排序" width="120" height="30" padding="5,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;btn_edit_normal.png&apos;corner=&apos;5,5,5,5&apos;; " hotimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " pushedimage=" file=&apos;btn_edit_down.png&apos;corner=&apos;5,5,5,5&apos;;" focusedimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " disabledimage=" file=&apos;disable_btn.png&apos;corner=&apos;5,5,5,5&apos;; " />
+				<HorizontalLayout height="30" padding="0,60,0,0">
+					<Control width="5" />
+					<Label text="下载时间:" width="70" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+                    <Edit name="DownloadTimeEdt" text="100" tooltip="下载时间秒为单位" padding="0,2,0,2" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" maxchar="3" />
+					<Control width="5" />
+				</HorizontalLayout>
+				<HorizontalLayout height="30" >
+					<Control width="5" />
+					<Label text="超时时间:" width="70" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+                    <Edit name="DownloadTimeOutEdt" text="200" tooltip="下载超时时间秒为单位" padding="0,2,0,2" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" maxchar="3" />
+					<Control width="5" />
+				</HorizontalLayout>
+				<!-- <HorizontalLayout height="20">
+					<Control width="5" />
+                    <Label text="SBL:" width="25" font="3" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+                    <Edit name="CPEHostIPAddrEdt" text="sbl1_flashless.mbn" tooltip="CPE设备IP地址" padding="0,2,0,2" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" font="3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" maxchar="30" />
+				</HorizontalLayout>
+				<HorizontalLayout height="20">
+					<Control width="5" />
+                    <Label text="CDT:" width="25" font="3" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+                    <Edit name="CPEHostIPAddrEdt" text="cdt-AP-HK09_512M16_DDR4.bin" tooltip="CPE设备IP地址" padding="0,2,0,2" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" font="3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" maxchar="30" />
+				</HorizontalLayout> -->
+				<!-- <HorizontalLayout height="20">
+					<Control width="5" />
+                    <Label text="TZ:" width="25" font="3" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+                    <Edit name="CPEHostIPAddrEdt" text="tz.mbn" tooltip="CPE设备IP地址" padding="0,2,0,2" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" font="3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" maxchar="30" />
+				</HorizontalLayout>
+				<HorizontalLayout height="20">
+					<Control width="5" />
+                    <Label text="DEV:" width="25" font="3" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+                    <Edit name="CPEHostIPAddrEdt" text="devcfg_noac.mbn" tooltip="CPE设备IP地址" padding="0,2,0,2" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" font="3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" maxchar="30" />
+				</HorizontalLayout> -->
+				<!-- <HorizontalLayout height="20">
+					<Control width="5" />
+                    <Label text="RPM:" width="25" font="3" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+                    <Edit name="CPEHostIPAddrEdt" text="rpm.mbn" tooltip="CPE设备IP地址" padding="0,2,0,2" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" font="3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" maxchar="30" />
+				</HorizontalLayout>
+				<HorizontalLayout height="20">
+					<Control width="5" />
+                    <Label text="BOOT:" width="25" font="3" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+                    <Edit name="CPEHostIPAddrEdt" text="openwrt-ipq807x-u-boot.mbn" tooltip="CPE设备IP地址" padding="0,2,0,2" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" font="3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" maxchar="30" />
+				</HorizontalLayout> -->
+            </VerticalLayout>
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JGW>
+    <GlobalVariables>
+		<TSE_BARCODE>12345678912345</TSE_BARCODE>
+        <CHANNEL_B23>25500,25600,25699</CHANNEL_B23>
+        <CHANNEL_B24>25700,25870,26039</CHANNEL_B24>
+        <CHANNEL_B255>228737,228906,229075</CHANNEL_B255>
+        <CHANNEL_B256>229077,229226,229375</CHANNEL_B256>
+		<FREQ_B23_24>2010,1643.5</FREQ_B23_24>
+		<TSE_FTP_DIR>TESTFILE\%ComputerName%\</TSE_FTP_DIR>
+        <!-- <FREQ_B23_24>2000,2010,2019.9,1627,1643.5,1660.9</FREQ_B23_24> -->
+        <CHANNEL_B23_24>2000:25500,2010:25600,2019.9:25699,1627:25700,1643.5:25870,1660.9:26039</CHANNEL_B23_24>
+        <Band_B23_24>2000:23,2010:23,2019.9:23,1627:24,1643.5:24,1660.9:24</Band_B23_24>
+
+        <RSSI_B23_24>2000:-60~-57,2010:-60~-57,2019.9:-60~-57,1627:-60~-57,1643.5:-60~-57,1660.9:-60~-57</RSSI_B23_24>
+        <POWER_B23_24>2000:-99~99,2010:-99~99,2019.9:-99~99,1627:-99~99,1643.5:-99~99,1660.9:-99~99</POWER_B23_24>
+        <!-- <FREQ_B255_256>1525,1542,1558.9,2170,2185,2199.5</FREQ_B255_256> -->
+		<FREQ_B255_256>1542,2185</FREQ_B255_256>
+		<CHANNEL_B255_256>1525.1:228737,1542:228906,1558.9:229075,2170.1.1:229077,2185:229226,2199.9:229375</CHANNEL_B255_256>
+        <Band_B255_256>1525.1:255,1542:255,1558.9:255,2170.1:256,2185:256,2199.9:256</Band_B255_256>
+		<RX_POWER_B255_256>1525.1:-60,1542:-60,1558.9:-60,2170.1:-60,2185:-60,2199.9:-60</RX_POWER_B255_256>
+		<RSSI_B255_256>1525.1:-120~-20,1542:-120~-20,1558.9:-120~-20,2170.1:-120~-20,2185:-120~-20,2199.9:-120~-20</RSSI_B255_256>
+		<TSE_GLOBAL_ENVIRONMENT_CONFIG_FILE_PATH>config\P760\p760_ant_test_tse2.xml</TSE_GLOBAL_ENVIRONMENT_CONFIG_FILE_PATH>
+		<TSE_INSTRUMENT_CONFIG_PATH>cache\P760\p760_instrument.xml</TSE_INSTRUMENT_CONFIG_PATH>
+		<TSE_GU_TEST_DATA_FILE_PATH>TestLog\GU\GuTestData.txt</TSE_GU_TEST_DATA_FILE_PATH>
+		<TSE_GU_LOSS>1</TSE_GU_LOSS>
+
+        <TSE_GPIB_TYPE>0</TSE_GPIB_TYPE>
+        <TSE_GPIB_INTERFACE>0</TSE_GPIB_INTERFACE>
+        <TSE_GPIB_PRIMARY_ADDR>20</TSE_GPIB_PRIMARY_ADDR>
+        <TSE_GPIB_SEC_ADDR>0</TSE_GPIB_SEC_ADDR>
+    </GlobalVariables>
+    <UIConfigTest>
+        <Test>
+            <ModuleName paramVal="TSE_ConfigUIPlugin.dll" description="" />
+            <RealName paramVal="CTSE_BaseConfig" description="" />
+            <TestName paramVal="Test Config" description="" />
+            <ConfigCount paramVal="5" description="" />
+            <LabelName1 paramVal="GPIB类型：" description="" />
+            <EditValueEnvironment1 paramVal="TSE_GPIB_TYPE" description="" />
+            <LabelName2 paramVal="GPIB接口：" description="" />
+            <EditValueEnvironment2 paramVal="TSE_GPIB_INTERFACE" description="" />
+            <LabelName3 paramVal="GPIB地址" description="" />
+            <EditValueEnvironment3 paramVal="TSE_GPIB_PRIMARY_ADDR" description="" />
+            <LabelName4 paramVal="TX B23/B24" description="" />
+            <EditValueEnvironment4 paramVal="FREQ_B23_24" description="" />
+            <LabelName5 paramVal="金机起始线损" description="" />
+            <EditValueEnvironment5 paramVal="TSE_GU_LOSS" description="" />
+			<RetryCount paramVal="1" description=""/>
+        </Test>
+    </UIConfigTest>
+    <RootTest>
+		<Test>
+            <ModuleName paramVal="TSE_InstrumentPlugin.dll" description="" />
+            <RealName paramVal="CTSE_LoadWlanLossConfig" description="" />
+            <TestName paramVal="Load Loss" description="" />
+            <WlanLossPath paramVal="equip\StationCalDataFile_WLAN_GU_Loss.xml" description="" />
+			<LossInstanceEnvionment paramVal="TSE_P760_LOSS_CONFIG" description="" />
+        </Test>
+		<Test>
+            <ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+            <RealName paramVal="CTSE_WriteGuData" description="" />
+            <TestName paramVal="Write GU Data" description="" />
+			<WriteDataCommand paramVal="" description=""/>
+			<GuDataFilePathEnvionment paramVal="TSE_GU_TEST_DATA_FILE_PATH" description="" />
+        </Test>
+        <Test>
+            <ModuleName paramVal="TSE_InstrumentPlugin.dll" description="" />
+            <RealName paramVal="CTSE_OpenInstrumentGPIB" description="" />
+            <TestName paramVal="连接仪器" description="" />
+            <NIGPIBTypeEnvionment paramVal="TSE_GPIB_TYPE" description="" />
+            <GpibInterfaceEnvionment paramVal="TSE_GPIB_INTERFACE" description="" />
+            <PrimaryAddressEnvionment paramVal="TSE_GPIB_PRIMARY_ADDR" description="" />
+            <SecAddressEnvionment paramVal="TSE_GPIB_SEC_ADDR" description="" />
+            <InstrumentEnvironment paramVal="TSE_INSTRUMENT" description="" />
+        </Test>
+		<Test>
+            <ModuleName paramVal="TSE_InstrumentPlugin.dll" description="" />
+            <RealName paramVal="CTSE_GetRFConfigLoss" description="" />
+            <TestName paramVal="Get Loss" description="" />
+			<FreqsEnvionment paramVal="FREQ_B23_24" description=""/>
+			<SaveFreqsLossEnvionment paramVal="LOSS_B23_24" description=""/>
+            <LossInstanceEnvionment paramVal="TSE_P760_LOSS_CONFIG" description="" />
+        </Test>
+		<Test>
+            <ModuleName paramVal="TSE_InstrumentPlugin.dll" description="" />
+            <RealName paramVal="CTSE_GetRFConfigLoss" description="" />
+            <TestName paramVal="Get Loss" description="" />
+			<FreqsEnvionment paramVal="FREQ_B255_256" description=""/>
+			<SaveFreqsLossEnvionment paramVal="LOSS_B255_256" description=""/>
+            <LossInstanceEnvionment paramVal="TSE_P760_LOSS_CONFIG" description="" />
+        </Test>
+        <Test>
+            <ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+            <RealName paramVal="CTSE_RFConfigFormat" description="" />
+            <TestName paramVal="格式化B23/24测试信息" description="" />
+            <PrimaryKeyEnvironment paramVal="FREQ_B23_24" description="" />
+            <SecondKeyEnvironment paramVal="LOSS_B23_24,Band_B23_24,POWER_B23_24,CHANNEL_B23_24" description="" />
+            <SaveSecondKeyEnvironment paramVal="TSE_LOSS_B23_24,TSE_Band_B23_24,TSE_POWER_B23_24,TSE_CHANNEL_B23_24" description="" />
+        </Test>
+		<Test>
+            <ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+            <RealName paramVal="CTSE_SendPipeCommand" description="" />
+            <TestName paramVal="kill adb server" description="" />
+            <CommandCount paramVal="2" description="" />
+            <Application paramVal="cmd.exe" description="" />
+            <CommandLine paramVal="" description="" />
+            <Command1 paramVal="adb kill-server" description="" />
+            <Recv1 paramVal="" description="" />
+            <SendCounts1 paramVal="1" description="" />
+            <TimeOut1 paramVal="10" description="" />
+            <Command2 paramVal="adb devices" description="" />
+            <Recv2 paramVal="" description="" />
+            <SendCounts2 paramVal="1" description="" />
+            <TimeOut2 paramVal="10" description="" />
+        </Test>
+		<Test>
+            <ModuleName paramVal="TSE_InstrumentPlugin.dll" description="" />
+            <RealName paramVal="CTSE_MultiWriteInstrumentCommand" description="" />
+            <TestName paramVal="初始化仪器" description="" />
+            <InstrumentEnvironment paramVal="TSE_INSTRUMENT" description="" />
+            <InstrumentConfigFilePathEnvironment paramVal="TSE_INSTRUMENT_CONFIG_PATH" description="" />
+            <CommandGroupName paramVal="init" description="" />
+        </Test>
+		<Test>
+            <ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+            <RealName paramVal="CTSE_CheckUsbDeviceExists" description="" />
+            <TestName paramVal="检查ADB端口是否存在" description="" />
+            <UsbVid paramVal="0E8D" description="" />
+            <UsbPid paramVal="201C" description="" />
+            <UsbServiceName paramVal="WINUSB" description="" />
+			<RegKeys paramVal="FriendlyName" description=""/>
+			<FindRegValues paramVal="BM1S1B" description=""/>
+            <CheckTimeOut paramVal="60" description="" />
+        </Test>
+        <Test>
+            <ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+            <RealName paramVal="CTSE_SendPipeCommand" description="" />
+            <TestName paramVal="Init ADB" description="" />
+            <CommandCount paramVal="3" description="" />
+            <Application paramVal="cmd.exe" description="" />
+            <CommandLine paramVal="" description="" />
+            <Command1 paramVal="adb get-state" description="" />
+            <Recv1 paramVal="device" description="" />
+            <SendCounts1 paramVal="200" description="" />
+            <TimeOut1 paramVal="30" description="" />
+            <Command2 paramVal="adb root" description="" />
+            <Recv2 paramVal="" description="" />
+            <SendCounts2 paramVal="10" description="" />
+            <TimeOut2 paramVal="10" description="" />
+            <Command3 paramVal="adb get-state" description="" />
+            <Recv3 paramVal="device" description="" />
+            <SendCounts3 paramVal="10" description="" />
+            <TimeOut3 paramVal="10" description="" />
+			<Command4 paramVal="adb shell" description="" />
+            <Recv4 paramVal="#" description="" />
+            <SendCounts4 paramVal="10" description="" />
+            <TimeOut4 paramVal="10" description="" />
+        </Test>
+		<Test>
+			<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+			<RealName paramVal="CTSE_ConsoleAppOperation" description="" />
+			<TestName paramVal="Modem启动唤醒" description="" />
+			<CommandCount paramVal="12" description="" />
+			<ConsoleAppPath paramVal="cmd.exe" description="" />
+			<ProcessPipeEnvironment paramVal="TSE_ADB_SHELL_CONSOLE" description=""/>
+			
+			<Command1 paramVal="exit" description=""/>
+			<FindOk1 paramVal="" description=""/>
+			<ErrorReTestCount1 paramVal="1" description=""/>
+			<TimeOut1 paramVal="1" description=""/>
+			<ErrorTestIntervalMSec1 paramVal="1000" description=""/>
+			
+			<Command2 paramVal="exit" description=""/>
+			<FindOk2 paramVal="" description=""/>
+			<ErrorReTestCount2 paramVal="1" description=""/>
+			<TimeOut2 paramVal="1" description=""/>
+			<ErrorTestIntervalMSec2 paramVal="1000" description=""/>
+			
+			<Command3 paramVal="adb shell" description=""/>
+			<FindOk3 paramVal="#" description=""/>
+			<ErrorReTestCount1 paramVal="1" description=""/>
+			<WaitCommandEnd5 paramVal="1" description="wait command end"/>
+			<TimeOut3 paramVal="30" description=""/>
+			<ErrorTestIntervalMSec3 paramVal="1000" description=""/>
+			
+			<Command4 paramVal="stty -F /dev/ttyS1 115200 crtscts -echo -onlcr" description=""/>
+			<FindOk4 paramVal="" description=""/>
+			<ErrorReTestCount4 paramVal="3" description=""/>
+			<TimeOut4 paramVal="1" description=""/>
+			<ErrorTestIntervalMSec4 paramVal="1000" description=""/>
+			
+			<Command5 paramVal="cat /dev/ttyS1 &amp;" description=""/>
+			<FindOk5 paramVal="[" description=""/>
+			<ErrorReTestCount5 paramVal="3" description=""/>
+			<WaitCommandEnd5 paramVal="1" description="wait command end"/>
+			<TimeOut5 paramVal="3" description=""/>
+			<ErrorTestIntervalMSec5 paramVal="1000" description=""/>
+			
+			<Command6 paramVal="echo 1 > /sys/devices/platform/soc/soc\:odm/soc\:odm\:mcu_ctrl/turn_on" description=""/>
+			<FindOk6 paramVal="" description=""/>
+			<ErrorReTestCount6 paramVal="1" description=""/>
+			<WaitCommandEnd6 paramVal="1" description="wait command end"/>
+			<TimeOut6 paramVal="3" description=""/>
+			<ErrorTestIntervalMSec6 paramVal="1000" description=""/>
+			
+			<Command7 paramVal="sleep 1" description=""/>
+			<FindOk7 paramVal="" description=""/>
+			<ErrorReTestCount7 paramVal="4" description=""/>
+			<WaitCommandEnd7 paramVal="1" description="wait command end"/>
+			<TimeOut7 paramVal="20" description=""/>
+			<ErrorTestIntervalMSec7 paramVal="1000" description=""/>
+			
+			<Command8 paramVal="echo 1 > /sys/devices/platform/soc/soc\:odm/soc\:odm\:mcu_ctrl/reset" description=""/>
+			<FindOk8 paramVal="*MATREADY: 1" description=""/>
+			<ErrorReTestCount8 paramVal="5" description=""/>
+			<WaitCommandEnd8 paramVal="0" description="wait command end"/>
+			<TimeOut8 paramVal="30" description=""/>
+			<ErrorTestIntervalMSec8 paramVal="1000" description=""/>
+			
+			<Command9 paramVal="echo -ne &quot;\r\n&quot;" description=""/>
+			<FindOk9 paramVal="" description=""/>
+			<ErrorReTestCount9 paramVal="6" description=""/>
+			<WaitCommandEnd9 paramVal="1" description="wait command end"/>
+			<TimeOut9 paramVal="10" description=""/>
+			<ErrorTestIntervalMSec9 paramVal="1000" description=""/>
+		
+			<Command10 paramVal="echo 1 > /sys/devices/platform/soc/soc\:odm/soc\:odm\:mcu_ctrl/long_wake_out" description=""/>
+			<FindOk10 paramVal="" description=""/>
+			<ErrorReTestCount10 paramVal="2" description=""/>
+			<WaitCommandEnd10 paramVal="1" description="wait command end"/>
+			<TimeOut10 paramVal="6" description=""/>
+			<ErrorTestIntervalMSec10 paramVal="1000" description=""/>
+			
+			<Command11 paramVal="echo -ne &quot;at+sm=lock\r\n&quot; > /dev/ttyS1" description=""/>
+			<FindOk11 paramVal="OK" description=""/>
+			<ErrorReTestCount11 paramVal="10" description=""/>
+			<WaitCommandEnd11 paramVal="0" description="wait command end"/>
+			<TimeOut11 paramVal="10" description=""/>
+			<ErrorTestIntervalMSec11 paramVal="1000" description=""/>
+			
+			<Command12 paramVal="echo -ne &quot;\r\n&quot;" description=""/>
+			<FindOk12 paramVal="" description=""/>
+			<ErrorReTestCount12 paramVal="6" description=""/>
+			<WaitCommandEnd12 paramVal="1" description="wait command end"/>
+			<TimeOut12 paramVal="10" description=""/>
+			<ErrorTestIntervalMSec12 paramVal="1000" description=""/>
+
+			<RetryCount paramVal="2" description="错误重测次数" />
+		</Test>
+        
+        <FolderTest>
+            <ModuleName paramVal="TSE_DevicesPlugin.dll" description="Module Name" />
+            <RealName paramVal="TSE_LOOP" description="real name" />
+            <TestName paramVal="B23_24_TX_LOOP" description="test name" />
+            <ParamCount paramVal="0" description="" />
+            <ParamHeaderEnvionment paramVal="FREQ_B23_24,TSE_CHANNEL_B23_24,TSE_Band_B23_24,TSE_LOSS_B23_24,TSE_POWER_B23_24" description="" />
+            <ParamHeader paramVal="TxFreq,TxChannel,Band,TxLoss,PowerRange" description="Wait time in milliseconds" />
+            <ParamHeaderShow paramVal="_B$$_Band_$$_Ch$$_TxChannel_$$" description="Wait time in milliseconds" />
+			<Test>
+				<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+				<RealName paramVal="CTSE_ConsoleAppOperation" description="" />
+				<TestName paramVal="Init Tx" description="" />
+				<CommandCount paramVal="4" description="" />
+				<ConsoleAppPath paramVal="cmd.exe" description="" />
+				<ProcessPipeEnvironment paramVal="TSE_ADB_SHELL_CONSOLE" description=""/>
+				
+				<Command1 paramVal="echo -ne &quot;at+cfun=0\r\n&quot; &gt; /dev/ttyS1" description=""/>
+				<FindOk1 paramVal="OK" description=""/>
+				<ErrorReTestCount1 paramVal="5" description=""/>
+				<TimeOut1 paramVal="10" description=""/>
+				<ErrorTestIntervalMSec1 paramVal="1000" description=""/>
+				
+				<Command2 paramVal="echo -ne &quot;\r\n&quot;" description=""/>
+				<FindOk2 paramVal="" description=""/>
+				<ErrorReTestCount2 paramVal="6" description=""/>
+				<WaitCommandEnd2 paramVal="1" description="wait command end"/>
+				<TimeOut2 paramVal="10" description=""/>
+				<ErrorTestIntervalMSec2 paramVal="1000" description=""/>
+				
+				<Command3 paramVal="echo -ne &quot;at*mcaldev=1\r\n&quot; &gt; /dev/ttyS1" description=""/>
+				<FindOk3 paramVal="OK" description=""/>
+				<ErrorReTestCount3 paramVal="5" description=""/>
+				<TimeOut3 paramVal="10" description=""/>
+				<ErrorTestIntervalMSec3 paramVal="1000" description=""/>
+				
+				<Command4 paramVal="echo -ne &quot;\r\n&quot;" description=""/>
+				<FindOk4 paramVal="" description=""/>
+				<ErrorReTestCount4 paramVal="6" description=""/>
+				<WaitCommandEnd4 paramVal="1" description="wait command end"/>
+				<TimeOut4 paramVal="10" description=""/>
+				<ErrorTestIntervalMSec4 paramVal="1000" description=""/>
+			</Test>
+            <Test>
+                <ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+                <RealName paramVal="CTSE_SingleToneTxFormat" description="" />
+                <TestName paramVal="Get Single Tone Tx Command" description="" />
+                <TxPower paramVal="23" description="" />
+                <TxChannel paramVal="25500" description="" />
+                <SaveSingleToneTxEnvironment paramVal="TSE_CHANNEL" description="超时" />
+            </Test>
+			<Test>
+				<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+				<RealName paramVal="CTSE_ConsoleAppOperation" description="" />
+				<TestName paramVal="Send Tx Command" description="" />
+				<CommandCount paramVal="2" description="" />
+				<ConsoleAppPath paramVal="cmd.exe" description="" />
+				<ProcessPipeEnvironment paramVal="TSE_ADB_SHELL_CONSOLE" description=""/>
+				
+				<Command1 paramVal="echo -ne &quot;at*mcal=\&quot;NRF\&quot;,2,21,8,\&quot;$$_TSE_CHANNEL_$$\&quot;\r\n&quot; &gt; /dev/ttyS1" description=""/>
+				<FindOk1 paramVal="*MCAL:" description=""/>
+				<ErrorReTestCount1 paramVal="5" description=""/>
+				<TimeOut1 paramVal="10" description=""/>
+				<ErrorTestIntervalMSec1 paramVal="1000" description=""/>
+				
+				<Command2 paramVal="echo -ne &quot;\r\n&quot;" description=""/>
+				<FindOk2 paramVal="" description=""/>
+				<ErrorReTestCount2 paramVal="6" description=""/>
+				<WaitCommandEnd2 paramVal="1" description="wait command end"/>
+				<TimeOut2 paramVal="10" description=""/>
+				<ErrorTestIntervalMSec2 paramVal="1000" description=""/>
+			</Test>
+			<Test>
+                <ModuleName paramVal="TSE_InstrumentPlugin.dll" description="" />
+                <RealName paramVal="CTSE_MultiWriteInstrumentCommand" description="" />
+                <TestName paramVal="Init Tx Test Instrument" description="" />
+                <InstrumentEnvironment paramVal="TSE_INSTRUMENT" description="" />
+                <InstrumentConfigFilePathEnvironment paramVal="TSE_INSTRUMENT_CONFIG_PATH" description="" />
+                <CommandGroupName paramVal="tx_b23_init" description="" />
+                <TxFreq paramVal="2000" description="" />
+                <Band paramVal="23" description="" />
+                <TxLoss paramVal="1" description="" />
+                <Power paramVal="30" description="" />
+            </Test>
+			<Test>
+                <ModuleName paramVal="TSE_InstrumentPlugin.dll" description="" />
+                <RealName paramVal="CTSE_FetchResultInstrumentCommand" description="" />
+                <TestName paramVal="Read Tx Power" description="" />
+                <InstrumentEnvironment paramVal="TSE_INSTRUMENT" description="" />
+                <FetchInstrumentCommand paramVal="FETCh:GPRF:MEAS:POWer:AVERage?" description="" />
+                <TestRangeParamNames paramVal="PowerRange" description="" />
+				<TxFreq paramVal="" description=""/>
+				<TxChannel paramVal="" description=""/>
+				<Band paramVal="" description=""/>
+				<ShowTestResultForamts paramVal="B$$_Band_$$\tCh$$_TxChannel_$$\tTxPower" description=""/>
+				<TestResultIndexs paramVal="1" description=""/>
+				<SaveTestResultEnvironments paramVal="TSE_$$_Band_$$_$$_TxChannel_$$_TX_POWER" description=""/>
+				<FetchResultOkRegExp paramVal="." description=""/>
+				<MESLogPathEnvionment paramVal="" description="" />
+				<MESLogAppName paramVal="NTN^BAND$$_Band_$$^Channel=$$_TxChannel_$$" description=""/>
+				<MESLogKeyNames paramVal="Avg_Power" description=""/>
+				<RetryCount paramVal="3" description=""/>
+            </Test>
+			<Test>
+				<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+				<RealName paramVal="CTSE_WriteGuData" description="" />
+				<TestName paramVal="Write GU Data" description="" />
+				<WriteDataCommand paramVal=",1^##_TxFreq_##^$$_TSE_##_Band_##_##_TxChannel_##_TX_POWER_$$" description=""/>
+				<GuDataFilePathEnvionment paramVal="TSE_GU_TEST_DATA_FILE_PATH" description="" />
+				<TxFreq paramVal="" description=""/>
+				<TxChannel paramVal="" description=""/>
+				<Band paramVal="" description=""/>
+			</Test>
+            <Test IsFinalize="1">
+                <ModuleName paramVal="TSE_InstrumentPlugin.dll" description="" />
+                <RealName paramVal="CTSE_MultiWriteInstrumentCommand" description="" />
+                <TestName paramVal="Uninit Instrument" description="" />
+                <InstrumentEnvironment paramVal="TSE_INSTRUMENT" description="" />
+                <InstrumentConfigFilePathEnvironment paramVal="TSE_INSTRUMENT_CONFIG_PATH" description="" />
+                <CommandGroupName paramVal="tx_b23_exit" description="" />
+            </Test>
+			<Test>
+				<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+				<RealName paramVal="CTSE_ConsoleAppOperation" description="" />
+				<TestName paramVal="Stop Tx Command" description="" />
+				<CommandCount paramVal="4" description="" />
+				<ConsoleAppPath paramVal="cmd.exe" description="" />
+				<ProcessPipeEnvironment paramVal="TSE_ADB_SHELL_CONSOLE" description=""/>
+				
+				<Command1 paramVal="echo -ne &quot;at*mcal=\&quot;NRF\&quot;,3,1,1,\&quot;L01\&quot;\r\n&quot; &gt; /dev/ttyS1" description=""/>
+				<FindOk1 paramVal="*MCAL:" description=""/>
+				<ErrorReTestCount1 paramVal="5" description=""/>
+				<TimeOut1 paramVal="10" description=""/>
+				<ErrorTestIntervalMSec1 paramVal="1000" description=""/>
+				
+				<Command2 paramVal="echo -ne &quot;\r\n&quot;" description=""/>
+				<FindOk2 paramVal="" description=""/>
+				<ErrorReTestCount2 paramVal="6" description=""/>
+				<WaitCommandEnd2 paramVal="1" description="wait command end"/>
+				<TimeOut2 paramVal="10" description=""/>
+				<ErrorTestIntervalMSec2 paramVal="1000" description=""/>
+				
+				<Command3 paramVal="echo -ne &quot;at*mcaldev=0\r\n&quot; &gt; /dev/ttyS1" description=""/>
+				<FindOk3 paramVal="OK" description=""/>
+				<ErrorReTestCount3 paramVal="5" description=""/>
+				<TimeOut3 paramVal="10" description=""/>
+				<ErrorTestIntervalMSec3 paramVal="1000" description=""/>
+				
+				<Command4 paramVal="echo -ne &quot;\r\n&quot;" description=""/>
+				<FindOk4 paramVal="" description=""/>
+				<ErrorReTestCount4 paramVal="6" description=""/>
+				<WaitCommandEnd4 paramVal="1" description="wait command end"/>
+				<TimeOut4 paramVal="10" description=""/>
+				<ErrorTestIntervalMSec4 paramVal="1000" description=""/>
+			</Test>
+        </FolderTest>
+		<Test>
+			<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+			<RealName paramVal="CTSE_ConsoleAppOperation" description="" />
+			<TestName paramVal="Init Tx" description="" />
+			<CommandCount paramVal="4" description="" />
+			<ConsoleAppPath paramVal="cmd.exe" description="" />
+			<ProcessPipeEnvironment paramVal="TSE_ADB_SHELL_CONSOLE" description=""/>
+			
+			<Command1 paramVal="echo -ne &quot;at+cfun=0\r\n&quot; &gt; /dev/ttyS1" description=""/>
+			<FindOk1 paramVal="OK" description=""/>
+			<ErrorReTestCount1 paramVal="5" description=""/>
+			<TimeOut1 paramVal="10" description=""/>
+			<ErrorTestIntervalMSec1 paramVal="1000" description=""/>
+			
+			<Command2 paramVal="echo -ne &quot;\r\n&quot;" description=""/>
+			<FindOk2 paramVal="" description=""/>
+			<ErrorReTestCount2 paramVal="6" description=""/>
+			<WaitCommandEnd2 paramVal="1" description="wait command end"/>
+			<TimeOut2 paramVal="10" description=""/>
+			<ErrorTestIntervalMSec2 paramVal="1000" description=""/>
+			
+			<Command3 paramVal="echo -ne &quot;at*mcaldev=1\r\n&quot; &gt; /dev/ttyS1" description=""/>
+			<FindOk3 paramVal="OK" description=""/>
+			<ErrorReTestCount3 paramVal="5" description=""/>
+			<TimeOut3 paramVal="10" description=""/>
+			<ErrorTestIntervalMSec3 paramVal="1000" description=""/>
+			
+			<Command4 paramVal="echo -ne &quot;\r\n&quot;" description=""/>
+			<FindOk4 paramVal="" description=""/>
+			<ErrorReTestCount4 paramVal="6" description=""/>
+			<WaitCommandEnd4 paramVal="1" description="wait command end"/>
+			<TimeOut4 paramVal="10" description=""/>
+			<ErrorTestIntervalMSec4 paramVal="1000" description=""/>
+		</Test>
+		<Test>
+            <ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+            <RealName paramVal="CTSE_RFConfigFormat" description="" />
+            <TestName paramVal="格式化B255/256测试信息" description="" />
+            <PrimaryKeyEnvironment paramVal="FREQ_B255_256" description="" />
+            <SecondKeyEnvironment paramVal="CHANNEL_B255_256,Band_B255_256,LOSS_B255_256,RX_POWER_B255_256,RSSI_B255_256" description="" />
+            <SaveSecondKeyEnvironment paramVal="TSE_CHANNEL_B255_256,TSE_Band_B255_256,TSE_LOSS_B255_256,TSE_RX_POWER_B255_256,TSE_RSSI_B255_256" description="" />
+        </Test>
+		<FolderTest>
+			<ModuleName paramVal="TSE_DevicesPlugin.dll" description="Module Name" />
+			<RealName paramVal="TSE_LOOP" description="real name" />
+			<TestName paramVal="B255_256_RX_LOOP" description="test name" />
+			<ParamCount paramVal="0" description=""/>
+			<ParamHeaderEnvionment paramVal="FREQ_B255_256,TSE_Band_B255_256,TSE_CHANNEL_B255_256,TSE_LOSS_B255_256,TSE_RSSI_B255_256,TSE_RX_POWER_B255_256" description="" />
+			<ParamHeader paramVal="RxFreq,Band,RxChannel,RxLoss,RssiRange,RxPower" description="Wait time in milliseconds"/>
+			<ParamHeaderShow paramVal="_B$$_Band_$$_Ch$$_RxChannel_$$_$$_RxPower_$$" description="Wait time in milliseconds" />
+			<Test>
+				<ModuleName paramVal="TSE_InstrumentPlugin.dll" description="" />
+				<RealName paramVal="CTSE_MultiWriteInstrumentCommand" description="" />
+				<TestName paramVal="Init Rx Test Instrument" description="" />
+				<InstrumentEnvironment paramVal="TSE_INSTRUMENT" description="" />
+				<InstrumentConfigFilePathEnvironment paramVal="TSE_INSTRUMENT_CONFIG_PATH" description="" />
+				<CommandGroupName paramVal="rx_init" description="" />
+				<RxFreq paramVal="0" description=""/>
+				<RxLevel paramVal="-60" description=""/>
+				<RxLoss paramVal="1" description=""/>
+			</Test>
+			<Test>
+				<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+				<RealName paramVal="CTSE_ContinousRxCommandFormat" description="" />
+				<TestName paramVal="Get Continous Rx Command" description="" />
+				<RxPower paramVal="-60" description="" />
+				<RxChannel paramVal="70816" description="" />
+				<SaveContinousRxCommandEnvironment paramVal="TSE_CONTINOUS_RX_COMMAND" description="超时" />
+			</Test>
+			<Test>
+				<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+				<RealName paramVal="CTSE_ConsoleAppOperation" description="" />
+				<TestName paramVal="Send Rx Command" description="" />
+				<CommandCount paramVal="2" description="" />
+				<ConsoleAppPath paramVal="cmd.exe" description="" />
+				<ProcessPipeEnvironment paramVal="TSE_ADB_SHELL_CONSOLE" description=""/>
+				
+				<Command1 paramVal="echo -ne &quot;at*mcal=\&quot;NRF\&quot;,2,22,8,\&quot;$$_TSE_CONTINOUS_RX_COMMAND_$$\&quot;\r\n&quot; &gt; /dev/ttyS1" description=""/>
+				<FindOk1 paramVal="OK" description=""/>
+				<ErrorReTestCount1 paramVal="5" description=""/>
+				<TimeOut1 paramVal="10" description=""/>
+				<ErrorTestIntervalMSec1 paramVal="1000" description=""/>
+				
+				<Command2 paramVal="echo -ne &quot;\r\n&quot;" description=""/>
+				<FindOk2 paramVal="" description=""/>
+				<ErrorReTestCount2 paramVal="6" description=""/>
+				<WaitCommandEnd2 paramVal="1" description="wait command end"/>
+				<TimeOut2 paramVal="10" description=""/>
+				<ErrorTestIntervalMSec2 paramVal="1000" description=""/>
+			</Test>
+			<Test>
+				<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+				<RealName paramVal="CTSE_ConsoleAppOperation" description="" />
+				<TestName paramVal="Read RSSI" description="" />
+				<CommandCount paramVal="2" description="" />
+				<ConsoleAppPath paramVal="cmd.exe" description="" />
+				<ProcessPipeEnvironment paramVal="TSE_ADB_SHELL_CONSOLE" description=""/>
+				
+				<Command1 paramVal="echo -ne &quot;at*mcal=\&quot;NRF\&quot;,3,23,4,\&quot;L38000000\&quot;\r\n&quot; &gt; /dev/ttyS1" description=""/>
+				<FindOk1 paramVal="OK" description=""/>
+				<ErrorReTestCount1 paramVal="5" description=""/>
+				<TimeOut1 paramVal="10" description=""/>
+				<ErrorTestIntervalMSec1 paramVal="1000" description=""/>
+				<ResultEnvironment1 paramVal="TSE_RSSI_RESULT" description=""/>
+				
+				<Command2 paramVal="echo -ne &quot;\r\n&quot;" description=""/>
+				<FindOk2 paramVal="" description=""/>
+				<ErrorReTestCount2 paramVal="6" description=""/>
+				<WaitCommandEnd2 paramVal="1" description="wait command end"/>
+				<TimeOut2 paramVal="10" description=""/>
+				<ErrorTestIntervalMSec2 paramVal="1000" description=""/>
+				<RetryCount paramVal="3" description=""/>
+				<Test>
+					<ModuleName paramVal="TSE_InstrumentPlugin.dll" description="" />
+					<RealName paramVal="CTSE_ParseP760RssiTestResult" description="" />
+					<TestName paramVal="Parse rssi" description="" />
+					<RssiRangeParamName paramVal="RssiRange" description="" />
+					<RxFreq paramVal="" description=""/>
+					<RxChannel paramVal="" description=""/>
+					<Band paramVal="" description=""/>
+					<ShowTestResultForamt paramVal="B$$_Band_$$\tCh$$_RxChannel_$$\tRssi" description=""/>
+					<RssiTestResultEnvironment paramVal="TSE_RSSI_RESULT" description=""/>
+					<SaveTestResultEnvironment paramVal="TSE_$$_Band_$$_$$_RxChannel_$$_RSSI" description=""/>
+					
+					<MESLogPathEnvionment paramVal="TSE_SRC_MES_LOG_PATH" description="" />
+					<MESLogAppName paramVal="NTN^BAND$$_Band_$$^Channel=$$_RxChannel_$$" description=""/>
+					<MESLogKeyName paramVal="RSSI" description=""/>
+				</Test>
+			</Test>
+			<Test>
+				<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+				<RealName paramVal="CTSE_WriteGuData" description="" />
+				<TestName paramVal="Write GU Data" description="" />
+				<WriteDataCommand paramVal=",1^##_RxFreq_##^$$_TSE_##_Band_##_##_RxChannel_##_RSSI_$$" description=""/>
+				<GuDataFilePathEnvionment paramVal="TSE_GU_TEST_DATA_FILE_PATH" description="" />
+				<TxFreq paramVal="" description=""/>
+				<TxChannel paramVal="" description=""/>
+				<Band paramVal="" description=""/>
+			</Test>
+			<Test IsFinalize="1">
+				<ModuleName paramVal="TSE_InstrumentPlugin.dll" description="" />
+				<RealName paramVal="CTSE_MultiWriteInstrumentCommand" description="" />
+				<TestName paramVal="Uninit Instrument" description="" />
+				<InstrumentEnvironment paramVal="TSE_INSTRUMENT" description="" />
+				<InstrumentConfigFilePathEnvironment paramVal="TSE_INSTRUMENT_CONFIG_PATH" description="" />
+				<CommandGroupName paramVal="rx_exit" description="" />
+			</Test>
+			<Test>
+				<ModuleName paramVal="TSE_DevicesPlugin.dll" description="" />
+				<RealName paramVal="CTSE_ConsoleAppOperation" description="" />
+				<TestName paramVal="Stop Rx Command" description="" />
+				<CommandCount paramVal="2" description="" />
+				<ConsoleAppPath paramVal="cmd.exe" description="" />
+				<ProcessPipeEnvironment paramVal="TSE_ADB_SHELL_CONSOLE" description=""/>
+				
+				<Command1 paramVal="echo -ne &quot;at*mcal=\&quot;NRF\&quot;,4,1,1,\&quot;L01\&quot;\r\n&quot; &gt; /dev/ttyS1" description=""/>
+				<FindOk1 paramVal="OK" description=""/>
+				<ErrorReTestCount1 paramVal="5" description=""/>
+				<TimeOut1 paramVal="10" description=""/>
+				<ErrorTestIntervalMSec1 paramVal="1000" description=""/>
+				
+				<Command2 paramVal="echo -ne &quot;\r\n&quot;" description=""/>
+				<FindOk2 paramVal="" description=""/>
+				<ErrorReTestCount2 paramVal="6" description=""/>
+				<WaitCommandEnd2 paramVal="1" description="wait command end"/>
+				<TimeOut2 paramVal="10" description=""/>
+				<ErrorTestIntervalMSec2 paramVal="1000" description=""/>
+				
+				<Command3 paramVal="echo -ne &quot;at*mcaldev=0\r\n&quot; &gt; /dev/ttyS1" description=""/>
+				<FindOk3 paramVal="OK" description=""/>
+				<ErrorReTestCount3 paramVal="5" description=""/>
+				<TimeOut3 paramVal="10" description=""/>
+				<ErrorTestIntervalMSec3 paramVal="1000" description=""/>
+				
+				<Command4 paramVal="echo -ne &quot;\r\n&quot;" description=""/>
+				<FindOk4 paramVal="" description=""/>
+				<ErrorReTestCount4 paramVal="6" description=""/>
+				<WaitCommandEnd4 paramVal="1" description="wait command end"/>
+				<TimeOut4 paramVal="10" description=""/>
+				<ErrorTestIntervalMSec4 paramVal="1000" description=""/>
+			</Test>
+		</FolderTest>
+    </RootTest>
+</JGW>

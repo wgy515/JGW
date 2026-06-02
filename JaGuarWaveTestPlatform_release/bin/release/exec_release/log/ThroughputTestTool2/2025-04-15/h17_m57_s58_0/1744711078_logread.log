@@ -1,0 +1,1 @@
+Sun Mar 30 12:00:00 2025 cron.err crond[1248]: USER root pid 9610 cmd /usr/sbin/logrotate /etc/logrotate.conf

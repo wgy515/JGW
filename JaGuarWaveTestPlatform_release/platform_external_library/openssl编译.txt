@@ -1,0 +1,11 @@
+32位编译
+1、下载perl https://www.activestate.com/activeperl/downloads，安装vs2010
+2、perl Configure VC-WIN32
+3、ms\do_ms.bat
+4、nmake -f ms\ntdll.mak 
+
+64位编译
+1、下载perl https://www.activestate.com/activeperl/downloads，安装vs2010
+2、perl Configured VC-WIN64A
+3、ms\do_win64a.bat
+4、nmake -f ms\ntdll.mak

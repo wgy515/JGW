@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="400,400">
+    <VerticalLayout enabled="true" width="400" height="400" bkcolor="#FFE6E6E6">
+        <Label text="GPS配置" float="true" pos="103,11,0,0" enabled="true" width="150" height="34" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        <Label text="测试端口" float="true" pos="60,70,0,0" enabled="true" width="90" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Label text="测试频率" float="true" pos="60,120,0,0" enabled="true" width="90" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Label text="小区功率" float="true" pos="60,170,0,0" enabled="true" width="90" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Label text="SNR" float="true" pos="60,220,0,0" enabled="true" width="90" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Edit name="minsnredt" text="30" float="true" pos="170,220,0,0" enabled="true" width="60" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Label text="~" float="true" pos="235,220,0,0" enabled="true" width="38" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        <Edit name="maxsnredt" text="36" float="true" pos="280,220,0,0" enabled="true" width="60" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Label text="测试线损" float="true" pos="60,270,0,0" enabled="true" width="90" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Edit name="lossedt" text="1.00" float="true" pos="170,270,0,0" enabled="true" width="110" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Edit name="poweredt" text="-130" float="true" pos="170,170,0,0" enabled="true" width="110" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Edit name="fredt" text="1575.42" float="true" pos="170,120,0,0" enabled="true" width="110" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Edit name="portedt" text="1" float="true" pos="170,70,0,0" enabled="true" width="110" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+		 <Button name="savebtn" text="SAVE" float="true" pos="60,320,0,0" enabled="true" width="100" height="60" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;button_nor_show.png&apos;corner=&apos;5,5,5,5&apos;; " hotimage=" file=&apos;button_nor_show.png&apos;corner=&apos;5,5,5,5&apos;; " pushedimage=" file=&apos;button_down.bmp&apos;corner=&apos;5,5,5,5&apos;;" focusedimage=" file=&apos;Button_Hot.png&apos;corner=&apos;5,5,5,5&apos;; " disabledimage=" file=&apos;disable_btn.png&apos;corner=&apos;5,5,5,5&apos;; " />
+        <Button name="cancelbtn" text="CANCEL" float="true" pos="220,320,0,0" enabled="true" width="100" height="60" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;button_nor_show.png&apos;corner=&apos;5,5,5,5&apos;; " hotimage=" file=&apos;button_nor_show.png&apos;corner=&apos;5,5,5,5&apos;; " pushedimage=" file=&apos;button_down.bmp&apos;corner=&apos;5,5,5,5&apos;;" focusedimage=" file=&apos;Button_Hot.png&apos;corner=&apos;5,5,5,5&apos;; " disabledimage=" file=&apos;disable_btn.png&apos;corner=&apos;5,5,5,5&apos;; " />
+    </VerticalLayout>
+</Window>

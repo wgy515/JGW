@@ -1,0 +1,2080 @@
+<?xml version="1.0"?>
+<FormatDescriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1">
+  <OutputGroupSet name="Stability Summary" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="Phone Reset Count Statistics" IsChecked="True" IsForPPTChecked="True">
+      <Result resID="General" testID="Phone Reset Count Statistics" name="General">
+        <Discriminator id="TREE_NAME" />
+      </Result>
+      <Result resID="Lost Diag" testID="Phone Reset Count Statistics" name="Lost Diag">
+        <Discriminator id="TREE_NAME" />
+      </Result>
+      <Result resID="General" testID="Phone Reset Count Statistics" name="General">
+        <Discriminator id="TREE_NAME" />
+      </Result>
+      <Result resID="Refresh NV" testID="Phone Reset Count Statistics" name="Refresh NV">
+        <Discriminator id="TREE_NAME" />
+      </Result>
+      <Result resID="Force Registration" testID="Phone Reset Count Statistics" name="Force Registration">
+        <Discriminator id="TREE_NAME" />
+      </Result>
+      <Result resID="Call Failure" testID="Phone Reset Count Statistics" name="Call Failure">
+        <Discriminator id="TREE_NAME" />
+      </Result>
+      <Result resID="Measurement Failure" testID="Phone Reset Count Statistics" name="Measurement Failure">
+        <Discriminator id="TREE_NAME" />
+      </Result>
+      <Result resID="Unknown" testID="Phone Reset Count Statistics" name="Unknown">
+        <Discriminator id="TREE_NAME" />
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="Condensed Summary" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="WCDMA Summary" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Channel" />
+      <IndexedParam index="3" id="Target Tx Power" />
+      <IndexedParam index="4" id="BST Power" />
+      <IndexedParam index="5" id="Diversity Test" />
+      <Result resID="Tx Power" testID="WCDMA_MaxOutputPower" testName="Max Power" name="Max Power (dBm)">
+        <Discriminator id="Band" />
+      </Result>
+	  <Result resID="Tx Power_SelfTest" testID="WCDMA_MaxOutputPower" testName="Max Power" name="Max Power SelfTest (dBm)">
+        <Discriminator id="Band" />
+      </Result>
+	  <Result resID="Tx Power Delta" testID="WCDMA_MaxOutputPower" testName="Max Power" name="Max Power Delta (dBm)">
+        <Discriminator id="Band" />
+      </Result>
+      <Result resID="Min Freq Err" testID="WCDMA_FrequencyError" testName="Freq Error" name="Min Freq Error (ppm)">
+        <Discriminator id="Band" />
+      </Result>
+      <Result resID="Freq Err" testID="WCDMA_FrequencyError" testName="Freq Error" name="Avg Freq Error (ppm)">
+        <Discriminator id="Band" />
+      </Result>
+      <Result resID="Max Freq Err" testID="WCDMA_FrequencyError" testName="Freq Error" name="Max Freq Error (ppm)">
+        <Discriminator id="Band" />
+      </Result>
+      <Result resID="Tx Power" testID="WCDMA_MinOutputPower" testName="Min Power" name="Min Power (dBm)">
+        <Discriminator id="Band" />
+      </Result>
+      <Result resID="Margin" testID="WCDMA_SpectrumEmissionMask" name="SEM Margin +/-8.5MHz (dB)">
+        <Discriminator id="Target Tx Power" visible="false">
+          <Discriminator id="Band" />
+          <Filter id="Freq Range" value="=-8.5" visible="false" />
+          <Filter id="Freq Range" value="=8.5" visible="false" />
+        </Discriminator>
+      </Result>
+      <Result resID="Margin" testID="WCDMA_SpectrumEmissionMask" name="SEM Margin +/-7.5MHz (dB)">
+        <Discriminator id="Target Tx Power" visible="false">
+          <Discriminator id="Band" />
+          <Filter id="Freq Range" value="=-7.5" visible="false" />
+          <Filter id="Freq Range" value="=7.5" visible="false" />
+        </Discriminator>
+      </Result>
+      <Result resID="Margin" testID="WCDMA_SpectrumEmissionMask" name="SEM Margin +/-3.5MHz (dB)">
+        <Discriminator id="Target Tx Power" visible="false">
+          <Discriminator id="Band" />
+          <Filter id="Freq Range" value="=-3.5" visible="false" />
+          <Filter id="Freq Range" value="=3.5" visible="false" />
+        </Discriminator>
+      </Result>
+      <Result resID="Margin" testID="WCDMA_SpectrumEmissionMask" name="SEM Margin +/-2.5MHz (dB)">
+        <Discriminator id="Target Tx Power" visible="false">
+          <Discriminator id="Band" />
+          <Filter id="Freq Range" value="=-2.5" visible="false" />
+          <Filter id="Freq Range" value="=2.5" visible="false" />
+        </Discriminator>
+      </Result>
+      <Result resID="ACLR" testID="WCDMA_ACLR" name="ACLR +/-10MHz (dB)">
+        <Discriminator id="Band">
+          <Discriminator id="Target Tx Power" visible="false">
+            <Filter id="Offset" value="=10" visible="false" />
+            <Filter id="Offset" value="=-10" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="ACLR" testID="WCDMA_ACLR" name="ACLR +/-5MHz (dB)">
+        <Discriminator id="Band">
+          <Discriminator id="Target Tx Power" visible="false">
+            <Filter id="Offset" value="=5" visible="false" />
+            <Filter id="Offset" value="=-5" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+	  <Result resID="ACLR_SelfTest" testID="WCDMA_ACLR" name="ACLR SelfTest +/-10MHz (dB)">
+        <Discriminator id="Band">
+          <Discriminator id="Target Tx Power" visible="false">
+            <Filter id="Offset" value="=10" visible="false" />
+            <Filter id="Offset" value="=-10" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="ACLR_SelfTest" testID="WCDMA_ACLR" name="ACLR SelfTest +/-5MHz (dB)">
+        <Discriminator id="Band">
+          <Discriminator id="Target Tx Power" visible="false">
+            <Filter id="Offset" value="=5" visible="false" />
+            <Filter id="Offset" value="=-5" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+	  <Result resID="ACLR Delta" testID="WCDMA_ACLR" name="ACLR SelfTest Delta +/-10MHz (dB)">
+        <Discriminator id="Band">
+          <Discriminator id="Target Tx Power" visible="false">
+            <Filter id="Offset" value="=10" visible="false" />
+            <Filter id="Offset" value="=-10" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="ACLR Delta" testID="WCDMA_ACLR" name="ACLR Delta +/-5MHz (dB)">
+        <Discriminator id="Band">
+          <Discriminator id="Target Tx Power" visible="false">
+            <Filter id="Offset" value="=5" visible="false" />
+            <Filter id="Offset" value="=-5" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="EVM" testID="WCDMA_ModulationAnalysis" testName="Modulation Analysis" name="EVM (%rms)">
+        <Discriminator id="Band">
+          <Discriminator id="Target Tx Power" visible="false" />
+        </Discriminator>
+      </Result>
+	  <Result resID="EVM_SelfTest" testID="WCDMA_ModulationAnalysis" testName="Modulation Analysis" name="EVM SelfTest (%rms)">
+        <Discriminator id="Band">
+          <Discriminator id="Target Tx Power" visible="false" />
+        </Discriminator>
+      </Result>
+	  <Result resID="EVM Delta" testID="WCDMA_ModulationAnalysis" testName="Modulation Analysis" name="EVM Delta (%rms)">
+        <Discriminator id="Band">
+          <Discriminator id="Target Tx Power" visible="false" />
+        </Discriminator>
+      </Result>
+      <Result resID="Max EVM" testID="WCDMA_ModulationAnalysis" testName="Modulation Analysis" name="Max EVM (%rms)">
+        <Discriminator id="Band">
+          <Discriminator id="Target Tx Power" visible="false" />
+        </Discriminator>
+      </Result>
+      <Result resID="Origin Offset" testID="WCDMA_ModulationAnalysis" testName="Modulation Analysis" name="Origin Offset">
+        <Discriminator id="Band">
+          <Discriminator id="Target Tx Power" visible="false" />
+        </Discriminator>
+      </Result>
+      <Result resID="Time Err" testID="WCDMA_TimingError" testName="WCDMA_TimingError" name="Timing Error (chips)">
+        <Discriminator id="Band">
+          <Discriminator id="Target Tx Power" visible="false" />
+        </Discriminator>
+      </Result>
+      <Result resID="PCDE" testID="WCDMA_PCDE" testName="WCDMA_PCDE" name="PCDE (dB)">
+        <Discriminator id="Band">
+          <Discriminator id="Target Tx Power" visible="false" />
+        </Discriminator>
+      </Result>
+      <Result resID="PCDE" testID="WCDMA_PCDE" testName="WCDMA_PCDE" name="PCDE (dB)">
+        <Discriminator id="Band">
+          <Discriminator id="Target Tx Power" visible="false" />
+        </Discriminator>
+      </Result>
+      <Result resID="Avg On Pwr" testID="WCDMA_TxOnOffPower" testName="WCDMA_TxOnOffPower" name="Tx On/Off On Pwr">
+        <Discriminator id="Band">
+          <Discriminator id="Pream Pwr Expected" />
+        </Discriminator>
+      </Result>
+      <Result resID="Judgement" testID="WCDMA_TxOnOffPower" testName="WCDMA_TxOnOffPower" name="Tx On/Off Template">
+        <Discriminator id="Band" />
+      </Result>
+      <Result resID="EVM" testID="WCDMA_TxOnOffPower" testName="WCDMA_TxOnOffPower" name="RACH EVM">
+        <Discriminator id="Band">
+          <Discriminator id="Pream Pwr Expected" value="&gt;=-20" />
+        </Discriminator>
+      </Result>
+      <Result resID="Pream Pwr Err" testID="WCDMA_UplinkOLPC" testName="WCDMA_UplinkOLPC" name="OLPC Error">
+        <Discriminator id="Band">
+          <Discriminator id="Target Tx Power" />
+        </Discriminator>
+      </Result>
+      <Result resID="1 Slot Delta" testID="WCDMA_UplinkILPC" name="ILPC Step B">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="ILPC Step" value="=1" visible="false">
+              <Filter id="Slot Power" value="&gt;-50" visible="false">
+                <Filter id="Transition Slot" value="=1" visible="false" />
+              </Filter>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="1 Slot Delta" testID="WCDMA_UplinkILPC" name="ILPC Step C">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="ILPC Step" value="=2" visible="false">
+              <Filter id="Slot Power" value="&gt;-50" visible="false">
+                <Filter id="Transition Slot" value="=1" visible="false" />
+              </Filter>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="1 Slot Delta" testID="WCDMA_UplinkILPC" name="ILPC Step E">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="ILPC Step" value="=4" visible="false">
+              <Filter id="Slot Power" value="&gt;-50" visible="false" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="1 Slot Delta" testID="WCDMA_UplinkILPC" name="ILPC Step F">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="ILPC Step" value="=5" visible="false">
+              <Filter id="Slot Power" value="&gt;-50" visible="false" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="1 Slot Delta" testID="WCDMA_UplinkILPC" name="ILPC Step G">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="ILPC Step" value="=6" visible="false">
+              <Filter id="Slot Power" value="&gt;-50" visible="false" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="1 Slot Delta" testID="WCDMA_UplinkILPC" name="ILPC Step H">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="ILPC Step" value="=7" visible="false">
+              <Filter id="Slot Power" value="&gt;-50" visible="false" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Rx Error" testID="WCDMA_RFCalVerification" testName="WCDMA_RFCalVerification" name="Rx Cal Ver">
+        <Discriminator id="Band">
+          <Filter id="BST Power" value="&gt;=-95">
+            <Discriminator id="Diversity Test" />
+          </Filter>
+        </Discriminator>
+      </Result>
+      <Result resID="Tx Error" testID="WCDMA_RFCalVerification" testName="WCDMA_RFCalVerification" name="Tx Cal Ver">
+        <Discriminator id="Band" />
+      </Result>
+      <Result resID="Sensitivity" testID="WCDMA_Sensitivity_Search" testName="Sensitivity" name="Sensitivity (dBm)">
+        <Discriminator id="Band">
+          <Discriminator id="Diversity Test" />
+        </Discriminator>
+      </Result>
+      <Result resID="BER" testID="WCDMA_Sensitivity" testName="Max Input Level" name="Max Input Level (BER)" format="0.0000">
+        <Discriminator id="Band">
+          <Discriminator id="Diversity Test">
+            <Filter id="BST Power" value="&gt;-40" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Level Found" testID="WCDMA_ACS_Search" name="ACS Search (dBm)">
+        <Discriminator id="Band">
+          <Discriminator id="Diversity Test">
+            <Discriminator id="BST Power" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Level Found" testID="WCDMA_InBandBlocking_Search" name="Blocking +/-10MHz (dBm)">
+        <Discriminator id="Band">
+          <Discriminator id="Diversity Test">
+            <Filter id="Interferer Frequency Offset" value="=-10" visible="false" />
+            <Filter id="Interferer Frequency Offset" value="=10" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Level Found" testID="WCDMA_InBandBlocking_Search" name="Blocking +/-15MHz (dBm)">
+        <Discriminator id="Band">
+          <Discriminator id="Diversity Test">
+            <Filter id="Interferer Frequency Offset" value="=-15" visible="false" />
+            <Filter id="Interferer Frequency Offset" value="=15" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Level Found" testID="WCDMA_NarrowBandBlocking_Search" name="Narrowband Blocking Search (dBm)">
+        <Discriminator id="Band">
+          <Discriminator id="Diversity Test" />
+        </Discriminator>
+      </Result>
+      <Result resID="Max CW Jammer Level Found" testID="WCDMA_RxIntermod_Search" name="Rx Intermod Search (dBm)">
+        <Discriminator id="Band">
+          <Discriminator id="Diversity Test" />
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Level Found" testID="WCDMA_RxIntermod_Search" name="Rx Intermod Search (dBm)">
+        <Discriminator id="Band">
+          <Discriminator id="Diversity Test" />
+        </Discriminator>
+      </Result>
+      <Result resID="Max Jammer Level Found" testID="WCDMA_NarrowBandIntermod_Search" name="Narrowband Intermod Search (dBm)">
+        <Discriminator id="Band">
+          <Discriminator id="Diversity Test" />
+        </Discriminator>
+      </Result>
+      <Result resID="BER" testID="WCDMA_Sensitivity" name="Sensitivity (BER)" format="0.0000">
+        <Discriminator id="Band">
+          <Filter id="BST Power" value="&lt;-80" visible="false">
+            <Discriminator id="Diversity Test" />
+          </Filter>
+        </Discriminator>
+      </Result>
+      <Result resID="BER" testID="WCDMA_ACS" name="ACS (BER)" format="0.0000">
+        <Discriminator id="Band">
+          <Discriminator id="Diversity Test">
+            <Discriminator id="Interferer Power" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="BER" testID="WCDMA_InBandBlocking" name="Blocking +/-10MHz (BER)" format="0.0000">
+        <Discriminator id="Band">
+          <Discriminator id="Diversity Test">
+            <Discriminator id="Interferer Power">
+              <Filter id="Interferer Frequency Offset" value="=-10" visible="false" />
+              <Filter id="Interferer Frequency Offset" value="=10" visible="false" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="BER" testID="WCDMA_InBandBlocking" name="Blocking +/-15MHz (BER)" format="0.0000">
+        <Discriminator id="Band">
+          <Discriminator id="Diversity Test">
+            <Discriminator id="Interferer Power">
+              <Filter id="Interferer Frequency Offset" value="=-15" visible="false" />
+              <Filter id="Interferer Frequency Offset" value="=15" visible="false" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="BER" testID="WCDMA_NarrowBandBlocking" name="NB Blocking (BER)" format="0.0000">
+        <Discriminator id="Band">
+          <Discriminator id="Diversity Test">
+            <Discriminator id="Interferer Power" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="BER" testID="WCDMA_RxIntermod" name="Rx Intermod (BER)" format="0.0000">
+        <Discriminator id="Band">
+          <Discriminator id="Diversity Test">
+            <Discriminator id="Interferer Power" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="BER" testID="WCDMA_NarrowBandIntermod" name="Narrowband Intermod  (BER)" format="0.0000">
+        <Discriminator id="Band">
+          <Discriminator id="Diversity Test">
+            <Discriminator id="Interferer Power" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Initial Tx Power" testID="WCDMA_PowerSettingInULCM" name="Compressed Mode Pattern A Up - Initial Power">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="ILPC Step" value="=10" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="1 Slot Delta" testID="WCDMA_PowerSettingInULCM" name="Compressed Mode Pattern A Up - 1 slot delta">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="ILPC Step" value="=10" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="7 Slot Delta" testID="WCDMA_PowerSettingInULCM" name="Compressed Mode Pattern A Up - 7 slot delta">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="ILPC Step" value="=10" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Power Over Gap" testID="WCDMA_PowerSettingInULCM" name="Compressed Mode Pattern A Up - gap delta">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="ILPC Step" value="=10" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Initial Tx Power" testID="WCDMA_PowerSettingInULCM" name="Compressed Mode Pattern A Down - Initial Power">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="ILPC Step" value="=11" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="1 Slot Delta" testID="WCDMA_PowerSettingInULCM" name="Compressed Mode Pattern A Down - 1 slot delta">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="ILPC Step" value="=11" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="7 Slot Delta" testID="WCDMA_PowerSettingInULCM" name="Compressed Mode Pattern A Down - 7 slot delta">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="ILPC Step" value="=11" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Power Over Gap" testID="WCDMA_PowerSettingInULCM" name="Compressed Mode Pattern A Down - gap delta">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="ILPC Step" value="=11" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Initial Tx Power" testID="WCDMA_PowerSettingInULCM" name="Compressed Mode Pattern B - Initial Power">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="ILPC Step" value="=12" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="PreFrameBoundary Delta Power" testID="WCDMA_PowerSettingInULCM" name="Compressed Mode Pattern B - PreFB delta">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="ILPC Step" value="=12" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="PostFrameBoundary Delta Power" testID="WCDMA_PowerSettingInULCM" name="Compressed Mode Pattern B - PostFB delta">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="ILPC Step" value="=12" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Power Over Gap" testID="WCDMA_PowerSettingInULCM" name="Compressed Mode Pattern B - gap delta">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="ILPC Step" value="=12" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="Rx Screen - Expanded" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="Rx Screen - Expanded" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Channel" />
+      <IndexedParam index="3" id="Target Tx Power" />
+      <IndexedParam index="4" id="BST Power" />
+      <IndexedParam index="5" id="Interferer Power" />
+      <IndexedParam index="6" id="Mod Interferer Power" />
+      <Result resID="BER" testID="WCDMA_Sensitivity" name="Sensitivity (BER)" format="0.0000">
+        <Discriminator id="Diversity Test">
+          <Discriminator id="Band">
+            <Discriminator id="BST Power" value="&lt;-80" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="BER" testID="WCDMA_ACS" name="ACS (BER)" format="0.0000">
+        <Discriminator id="Diversity Test">
+          <Discriminator id="Band">
+            <Discriminator id="Channel">
+              <Discriminator id="Interferer Power" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="BER" testID="WCDMA_InBandBlocking" name="Blocking +/-10MHz (BER)" format="0.0000">
+        <Discriminator id="Diversity Test">
+          <Discriminator id="Band">
+            <Discriminator id="Channel">
+              <Discriminator id="Interferer Power">
+                <Filter id="Interferer Frequency Offset" value="=-10" visible="false" />
+                <Filter id="Interferer Frequency Offset" value="=10" visible="false" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="BER" testID="WCDMA_InBandBlocking" name="Blocking +/-15MHz (BER)" format="0.0000">
+        <Discriminator id="Diversity Test">
+          <Discriminator id="Band">
+            <Discriminator id="Channel">
+              <Discriminator id="Interferer Power">
+                <Filter id="Interferer Frequency Offset" value="=-15" visible="false" />
+                <Filter id="Interferer Frequency Offset" value="=15" visible="false" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="BER" testID="WCDMA_NarrowBandBlocking" name="NB Blocking (BER)" format="0.0000">
+        <Discriminator id="Diversity Test">
+          <Discriminator id="Band">
+            <Discriminator id="Channel">
+              <Discriminator id="Mod Interferer Power" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="BER" testID="WCDMA_RxIntermod" name="Rx Intermod (BER)" format="0.0000">
+        <Discriminator id="Diversity Test">
+          <Discriminator id="Band">
+            <Discriminator id="Channel">
+              <Discriminator id="Interferer Power" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="BER" testID="WCDMA_NarrowBandIntermod" name="Narrowband Intermod  (BER)" format="0.0000">
+        <Discriminator id="Diversity Test">
+          <Discriminator id="Band">
+            <Discriminator id="Channel">
+              <Discriminator id="Mod Interferer Power" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA Max Power" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="WCDMA Max Power" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" />
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Tx Power" testID="WCDMA_MaxOutputPower" name="Max Power(dBm)">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="Tx Power_SelfTest" testID="WCDMA_MaxOutputPower" name="Max Power SelfTest(dBm)">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+	<OutputGroupDescriptor_Lin name="WCDMA Max Power Delta" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" />
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+	  <CommonBinResults>
+		<Result resID="Tx Power Delta" testID="WCDMA_MaxOutputPower" name="Max Power Delta(dBm)">
+			<Discriminator id="Channel" />
+		</Result>
+      </CommonBinResults>
+	</OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA Freq Error" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="WCDMA Min Freq Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Target Tx Power" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="-1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Min Freq Err" testID="WCDMA_FrequencyError">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="WCDMA Freq Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Target Tx Power" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="-1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Freq Err" testID="WCDMA_FrequencyError">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="WCDMA Max Freq Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Target Tx Power" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="-1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Max Freq Err" testID="WCDMA_FrequencyError">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA Min Power" IsChecked="True" IsForPPTChecked="True">
+    <OutputGroupDescriptor_Lin name="WCDMA Min Power" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" />
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Tx Power" testID="WCDMA_MinOutputPower">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA SEM" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="WCDMA SEM" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Target Tx Power">
+          <Discriminator id="Channel" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Margin" testID="WCDMA_SpectrumEmissionMask">
+          <Discriminator id="Freq Range" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA ACLR" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="WCDMA ACLR" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Channel">
+          <Discriminator id="Target Tx Power" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="ACLR" testID="WCDMA_ACLR">
+          <Discriminator id="Offset" />
+        </Result>
+        <Result resID="ACLR_SelfTest" testID="WCDMA_ACLR">
+          <Discriminator id="Offset" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+	<OutputGroupDescriptor_Lin name="WCDMA ACLR Delta" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Channel">
+          <Discriminator id="Target Tx Power" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="ACLR Delta" testID="WCDMA_ACLR">
+          <Discriminator id="Offset" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA EVM" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="WCDMA EVM" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Target Tx Power" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="EVM" testID="WCDMA_ModulationAnalysis">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="EVM_SelfTest" testID="WCDMA_ModulationAnalysis">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+	<OutputGroupDescriptor_Lin name="WCDMA EVM Delta" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Target Tx Power" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="EVM Delta" testID="WCDMA_ModulationAnalysis">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA Max EVM" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="WCDMA Max EVM" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Target Tx Power" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Max EVM" testID="WCDMA_ModulationAnalysis">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA Origin Offset" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="WCDMA Origin Offset" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Target Tx Power" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Origin Offset" testID="WCDMA_ModulationAnalysis">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA Timing Error" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="WCDMA Timing Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Target Tx Power" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Time Err" testID="WCDMA_TimingError">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="WCDMA Timing Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Target Tx Power" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Max Time Err" testID="WCDMA_TimingError">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="WCDMA Timing Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Target Tx Power" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Min Time Err" testID="WCDMA_TimingError">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="PCDE" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Lin name="PCDE" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Target Tx Power" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="PCDE" testID="WCDMA_PCDE">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA Tx On Off" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="WCDMA Tx Off Pwr" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Pream Pwr Expected" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Leading Avg Off Pwr" testID="WCDMA_TxOnOffPower">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="Trailing Avg Off Pwr" testID="WCDMA_TxOnOffPower">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="WCDMA Tx On Pwr" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Pream Pwr Expected" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Avg On Pwr" testID="WCDMA_TxOnOffPower">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="WCDMA Tx On/Off Template" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Pream Pwr Expected" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" min="0" max="2" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Judgement" testID="WCDMA_TxOnOffPower">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA Tx On Off Detail" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Sc name="WCDMA Tx Off Pwr - Rise" IsChecked="True" IsForPPTChecked="True" xName="Time (us)" yName="Tx Power">
+      <Discriminator id="Band">
+        <Discriminator id="BST Power">
+          <Discriminator id="Channel">
+            <Filter id="Time" value="&lt;533.333" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" min="-650" max="550" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_TxOnOffPower">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Time" />
+        <DepVar id="Tx Power" />
+      </Series>
+      <Series testID="WCDMA_TxOnOffPower">
+        <DisplayProperties color="0xFF0000" markerOn="false" weight="3" cycleColors="true" axisIndex="1" />
+        <IndVar id="Time" />
+        <DepVar id="Max Tx Power" />
+      </Series>
+      <Series testID="WCDMA_TxOnOffPower">
+        <DisplayProperties color="0xFF0000" markerOn="false" weight="3" cycleColors="true" axisIndex="1" />
+        <IndVar id="Time" />
+        <DepVar id="Min Tx Power" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="WCDMA Tx Off Pwr - Fall" IsChecked="True" IsForPPTChecked="True" xName="Time (us)" yName="Tx Power">
+      <Discriminator id="Band">
+        <Discriminator id="BST Power">
+          <Discriminator id="Channel">
+            <Filter id="Time" value="&gt;=533.333" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" min="525" max="1675" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_TxOnOffPower">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Time" />
+        <DepVar id="Tx Power" />
+      </Series>
+      <Series testID="WCDMA_TxOnOffPower">
+        <DisplayProperties color="0xFF0000" markerOn="false" weight="3" cycleColors="true" axisIndex="1" />
+        <IndVar id="Time" />
+        <DepVar id="Max Tx Power" />
+      </Series>
+      <Series testID="WCDMA_TxOnOffPower">
+        <DisplayProperties color="0xFF0000" markerOn="false" weight="3" cycleColors="true" axisIndex="1" />
+        <IndVar id="Time" />
+        <DepVar id="Min Tx Power" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA RACH EVM" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="WCDMA RACH EVM" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Pream Pwr Expected" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="EVM" testID="WCDMA_TxOnOffPower">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA OLPC Absolute" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Lin name="WCDMA OLPC" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Channel">
+          <Discriminator id="BST Power">
+            <Discriminator id="Voltage" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="Pream Pwr" testID="WCDMA_UplinkOLPC">
+          <Discriminator id="Pream Pwr Expected" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA OLPC Error" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Lin name="WCDMA OLPC Error" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Channel">
+          <Discriminator id="BST Power">
+            <Discriminator id="Voltage" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Pream Pwr Err" testID="WCDMA_UplinkOLPC">
+          <Discriminator id="Pream Pwr Expected" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA Sensitivity" IsChecked="True" IsForPPTChecked="True">
+    <OutputGroupDescriptor_Lin name="WCDMA Sensitivity" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Diversity Test" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Sensitivity" testID="WCDMA_Sensitivity_Search">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="WCDMA Sensitivity : BER" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Diversity Test" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="-3" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="BER" testID="WCDMA_Sensitivity" format="0.0000">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA Max Input Level" IsChecked="True" IsForPPTChecked="True">
+    <OutputGroupDescriptor_Lin name="WCDMA Max Input Level" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Diversity Test">
+          <Discriminator id="BST Power" value="&gt;-35" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="-3" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="BER" testID="WCDMA_Sensitivity" format="0.0000">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA ACS" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="WCDMA ACS" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Interferer Frequency Offset">
+          <Discriminator id="BST Power">
+            <Discriminator id="Diversity Test" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Max Jammer Level Found" testID="WCDMA_ACS_Search">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="WCDMA ACS : BER" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Interferer Frequency Offset">
+          <Discriminator id="Diversity Test">
+            <Discriminator id="Interferer Power" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="-3" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="BER" testID="WCDMA_ACS" format="0.0000">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA In Band Blocking" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="WCDMA In Band Blocking" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Interferer Frequency Offset">
+          <Discriminator id="Diversity Test" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Max Jammer Level Found" testID="WCDMA_InBandBlocking_Search">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="WCDMA In Band Blocking : BER" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Interferer Frequency Offset">
+          <Discriminator id="Diversity Test">
+            <Discriminator id="Interferer Power" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="-3" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="BER" testID="WCDMA_InBandBlocking" format="0.0000">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA NB Blocking" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="WCDMA Narrow Band Blocking" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Interferer Frequency Offset">
+          <Discriminator id="Diversity Test" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Max Jammer Level Found" testID="WCDMA_NarrowBandBlocking_Search">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="WCDMA Narrow Band Blocking : BER" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Interferer Frequency Offset">
+          <Discriminator id="Diversity Test">
+            <Discriminator id="Interferer Power" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="-3" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="BER" testID="WCDMA_NarrowBandBlocking" format="0.0000">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA Rx Intermod" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="WCDMA Rx Intermod" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="CW Interferer Frequency Offset">
+          <Discriminator id="Mod Interferer Frequency Offset">
+            <Discriminator id="Diversity Test" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Max CW Jammer Level Found" testID="WCDMA_RxIntermod_Search">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA Rx Intermod" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="WCDMA Rx Intermod" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Interferer Frequency Offset">
+          <Discriminator id="Interferer2 Frequency Offset">
+            <Discriminator id="Diversity Test" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Max Jammer Level Found" testID="WCDMA_RxIntermod_Search">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="WCDMA Rx Intermod : BER" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Interferer Frequency Offset">
+          <Discriminator id="Interferer2 Frequency Offset">
+            <Discriminator id="Diversity Test">
+              <Discriminator id="Interferer Power" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="-3" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="BER" testID="WCDMA_RxIntermod" format="0.0000">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA NB Rx Intermod" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="WCDMA Narrow Band Rx Intermod" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="CW Interferer Frequency Offset">
+          <Discriminator id="Mod Interferer Frequency Offset">
+            <Discriminator id="Diversity Test" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Max CW Jammer Level Found" testID="WCDMA_NarrowBandIntermod_Search">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="WCDMA Narrow Band Rx Intermod" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Interferer Frequency Offset">
+          <Discriminator id="Interferer2 Frequency Offset">
+            <Discriminator id="Diversity Test" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Max Jammer Level Found" testID="WCDMA_NarrowBandIntermod_Search">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="WCDMA Narrow Band Rx Intermod : BER" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Interferer Frequency Offset">
+          <Discriminator id="Interferer2 Frequency Offset">
+            <Discriminator id="Diversity Test">
+              <Discriminator id="Interferer Power" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="-3" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="BER" testID="WCDMA_NarrowBandIntermod" format="0.0000">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Tx Spurious" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="Tx Spurious Emissions (PHS)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" />
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Spur Power" testID="WCDMA_SpuriousEmissions">
+          <Filter id="Spur Freq" value="&gt;1914">
+            <Filter id="Spur Freq" value="&lt;1916" />
+          </Filter>
+        </Result>
+      </CommonBinResults>
+      <CommonBinResults>
+        <Result resID="Spur Power" testID="WCDMA_SpuriousEmissions">
+          <Filter id="Spur Freq" value="&gt;1916">
+            <Filter id="Spur Freq" value="&lt;1920" />
+          </Filter>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="Tx Spurious Emissions (PHS)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" />
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Spur Power" testID="WCDMA_SpuriousEmissions">
+          <Filter id="Spur Freq" value="&gt;1920">
+            <Filter id="Spur Freq" value="&lt;1980" />
+          </Filter>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA FTM Tx Power" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="WCDMA FTM Tx Power" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" />
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Tx Power" testID="WCDMA_FTM_TxPower">
+          <Discriminator id="Channel">
+            <Discriminator id="PDM" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="ILPC Step A" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Sc name="Step A: Absolute Power" IsChecked="True" IsForPPTChecked="True" xName="Slot Number" yName="Tx Power">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" maxScaleRes="0" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=0" visible="false" />
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Slot" />
+        <DepVar id="Slot Power" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="ILPC Step B" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Sc name="Step B: Absolute Power" IsChecked="True" IsForPPTChecked="True" xName="Slot Number" yName="Tx Power">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" maxScaleRes="0" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=1" visible="false" />
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Slot" />
+        <DepVar id="Slot Power" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="Step B: 1 Slot Delta" IsChecked="True" IsForPPTChecked="True" xName="Slot Number" yName="+1 Slot Delta">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" maxScaleRes="0" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=1" visible="false" />
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Slot" />
+        <DepVar id="1 Slot Delta" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="Step B: 10 Group Delta" IsChecked="True" IsForPPTChecked="True" xName="Slot Number" yName="+10 Group Delta">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" maxScaleRes="0" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=1" visible="false" />
+        <DisplayProperties color="0x0000FF" markerOn="true" cycleColors="true" axisIndex="1" />
+        <IndVar id="Slot Power" />
+        <DepVar id="10 Slot Delta" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="ILPC Step C" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Sc name="Step C: Absolute Power" IsChecked="True" IsForPPTChecked="True" xName="Slot Number" yName="Tx Power">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" maxScaleRes="0" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=2" visible="false" />
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Slot" />
+        <DepVar id="Slot Power" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="Step C: 1 Slot Delta" IsChecked="True" IsForPPTChecked="True" xName="Slot Number" yName="+1 Slot Delta">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" maxScaleRes="0" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=2" visible="false" />
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Slot" />
+        <DepVar id="1 Slot Delta" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="Step C: 10 Group Delta" IsChecked="True" IsForPPTChecked="True" xName="Slot Number" yName="+10 Group Delta">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" maxScaleRes="0" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=2" visible="false" />
+        <DisplayProperties color="0x0000FF" markerOn="true" cycleColors="true" axisIndex="1" />
+        <IndVar id="Slot Power" />
+        <DepVar id="10 Slot Delta" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="ILPC Step E" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Sc name="Step E: Absolute Power" IsChecked="True" IsForPPTChecked="True" xName="Slot Number" yName="Tx Power">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" maxScaleRes="0" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=4" visible="false" />
+        <DisplayProperties color="0x0000FF" markerOn="false" axisIndex="1" />
+        <IndVar id="Slot" />
+        <DepVar id="Slot Power" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="Step E: 1 Slot Delta" IsChecked="True" IsForPPTChecked="True" xName="Tx Power" yName="+1 Slot Delta">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" maxScaleRes="0" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=4" visible="false" />
+        <DisplayProperties color="0x0000FF" markerOn="false" axisIndex="1" />
+        <IndVar id="Slot Power" />
+        <DepVar id="1 Slot Delta" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="Step E: 10 Slot Delta" IsChecked="True" IsForPPTChecked="True" xName="Tx Power" yName="+10 Slot Delta">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" maxScaleRes="0" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=4" visible="false">
+          <Filter id="Slot Power" value="&gt;-40" visible="false" />
+        </Filter>
+        <DisplayProperties color="0x0000FF" markerOn="false" axisIndex="1" />
+        <IndVar id="Slot Power" />
+        <DepVar id="10 Slot Delta" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="ILPC Step F" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Sc name="Step F: Absolute Power" IsChecked="True" IsForPPTChecked="True" xName="Slot Number" yName="Tx Power">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" maxScaleRes="0" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=5" visible="false" />
+        <DisplayProperties color="0x0000FF" markerOn="false" axisIndex="1" />
+        <IndVar id="Slot" />
+        <DepVar id="Slot Power" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="Step F: 1 Slot Delta" IsChecked="True" IsForPPTChecked="True" xName="Tx Power" yName="+1 Slot Delta">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" maxScaleRes="0" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=5" visible="false" />
+        <DisplayProperties color="0x0000FF" markerOn="false" axisIndex="1" />
+        <IndVar id="Slot Power" />
+        <DepVar id="1 Slot Delta" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="Step F: 10 Slot Delta" IsChecked="True" IsForPPTChecked="True" xName="Tx Power" yName="+10 Slot Delta">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" maxScaleRes="0" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=5" visible="false" />
+        <DisplayProperties color="0x0000FF" markerOn="false" axisIndex="1" />
+        <IndVar id="Slot Power" />
+        <DepVar id="10 Slot Delta" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="ILPC Step G" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Sc name="Step G: Absolute Power" IsChecked="True" IsForPPTChecked="True" xName="Slot Number" yName="Tx Power">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" maxScaleRes="0" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=6" visible="false" />
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Slot" />
+        <DepVar id="Slot Power" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="Step G: 1 Slot Delta" IsChecked="True" IsForPPTChecked="True" xName="Tx Power" yName="+1 Slot Delta">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" maxScaleRes="0" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=6" visible="false" />
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Slot Power" />
+        <DepVar id="1 Slot Delta" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="Step G: 10 Slot Delta" IsChecked="True" IsForPPTChecked="True" xName="Tx Power" yName="+10 Slot Delta">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" maxScaleRes="0" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=6" visible="false" />
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Slot Power" />
+        <DepVar id="10 Slot Delta" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="ILPC Step H" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Sc name="Step H: Absolute Power" IsChecked="True" IsForPPTChecked="True" xName="Slot Number" yName="Tx Power">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" maxScaleRes="0" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=7" visible="false" />
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Slot" />
+        <DepVar id="Slot Power" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="Step H: 1 Slot Delta" IsChecked="True" IsForPPTChecked="True" xName="Tx Power" yName="+1 Slot Delta">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" maxScaleRes="0" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=7" visible="false" />
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Slot Power" />
+        <DepVar id="1 Slot Delta" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="Step H: 10 Slot Delta" IsChecked="True" IsForPPTChecked="True" xName="Tx Power" yName="+10 Slot Delta">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" maxScaleRes="0" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=7" visible="false" />
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Slot Power" />
+        <DepVar id="10 Slot Delta" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="WCDMA EPV Meas" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Sc name="Absolute Power Measurement" IsChecked="True" IsForPPTChecked="True" xName="Meas. Index" yName="Measured Tx Power (dBm)">
+      <Discriminator id="Band">
+        <Discriminator id="Channel" />
+      </Discriminator>
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" maxScaleRes="0" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_EPV" groupByTC="true">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Meas_Index" />
+        <DepVar id="Tx Power" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="TxPwr Error Trace" IsChecked="True" IsForPPTChecked="True" xName="Meas. Index" yName="Tx Error (dB)">
+      <Discriminator id="Band">
+        <Discriminator id="Channel" />
+      </Discriminator>
+      <OGDisplayProperties legendPosition="0">
+        <XAxis index="1" maxScaleRes="0" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_EPV" groupByTC="true">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Meas_Index" />
+        <DepVar id="Tx Error" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="Power Delta Trace" IsChecked="True" IsForPPTChecked="True" xName="Meas. Index" yName="Power Delta (dB)">
+      <Discriminator id="Band">
+        <Discriminator id="Channel" />
+      </Discriminator>
+      <Series testID="WCDMA_EPV" groupByTC="true">
+        <DisplayProperties markerOn="false" axisIndex="1" />
+        <IndVar id="Meas_Index" />
+        <DepVar id="Tx Power Delta" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="Cal Ver" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Sc name="Rx RF performance" IsChecked="True" IsForPPTChecked="True" xName="Rx Power (dBm)" yName="Rx Error (dB)" secYName="LNA">
+      <Discriminator id="Band">
+        <Discriminator id="Channel">
+          <Discriminator id="Diversity Test" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_RFCalVerification">
+        <Discriminator id="Rx Direction" value="!=0" />
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="BST Power" />
+        <DepVar id="Rx Error" />
+      </Series>
+      <Series testID="WCDMA_RFCalVerification">
+        <Discriminator id="Rx Direction" value="!=0" />
+        <DisplayProperties color="0x0000FF" markerOn="false" weight="3" cycleColors="true" axisIndex="2" />
+        <IndVar id="BST Power" />
+        <DepVar id="LNA" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="Tx RF performance" IsChecked="True" IsForPPTChecked="True" xName="Tx Power (dBm)" yName="Tx Error (dB)" secYName="PA">
+      <Discriminator id="Band">
+        <Discriminator id="Channel">
+          <Discriminator id="Diversity Test" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_RFCalVerification">
+        <Discriminator id="Tx Direction" value="!=0" />
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Tx Power" />
+        <DepVar id="Tx Error" />
+      </Series>
+      <Series testID="WCDMA_RFCalVerification">
+        <Discriminator id="Tx Direction" value="!=0" />
+        <DisplayProperties color="0x0000FF" markerOn="false" weight="3" cycleColors="true" axisIndex="2" />
+        <IndVar id="Tx Power" />
+        <DepVar id="PA" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="Current Performance" IsChecked="True" IsForPPTChecked="True" xName="Tx Power (dBm)" yName="Current (mA)" secYName="PA">
+      <Discriminator id="Band">
+        <Discriminator id="Channel">
+          <Discriminator id="Diversity Test" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_RFCalVerification">
+        <Discriminator id="Tx Direction" value="!=0" />
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Tx Power" />
+        <DepVar id="Current" />
+      </Series>
+      <Series testID="WCDMA_RFCalVerification">
+        <Discriminator id="Tx Direction" value="!=0" />
+        <DisplayProperties color="0x0000FF" markerOn="false" weight="3" cycleColors="true" axisIndex="2" />
+        <IndVar id="Tx Power" />
+        <DepVar id="PA" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="Current Analysis" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="Measured Current Vs Channel" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" />
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="2" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Current" testID="WCDMA_CurrentAnalysis">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="PhaseDisc Step E" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Sc name="Step E: EVM" IsChecked="True" IsForPPTChecked="True" xName="Tx Power" yName="EVM">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=4" />
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Slot Power" />
+        <DepVar id="EVM" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="Step E: Freq Err" IsChecked="True" IsForPPTChecked="True" xName="Tx Power" yName="Freq Err">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <YAxis index="1" maxScaleRes="-1" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=4">
+          <Filter id="Slot Power" value="&gt;-50" />
+        </Filter>
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Slot Power" />
+        <DepVar id="Freq Err" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="Step E: Phase Disc" IsChecked="True" IsForPPTChecked="True" xName="Tx Power" yName="Phase Disc">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=4">
+          <Filter id="Slot Power" value="&gt;-50" />
+        </Filter>
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Slot Power" />
+        <DepVar id="Phase Disc" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="PhaseDisc Step F" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Sc name="Step F: EVM" IsChecked="True" IsForPPTChecked="True" xName="Tx Power" yName="EVM">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=5" />
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Slot Power" />
+        <DepVar id="EVM" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="Step F: Freq Err" IsChecked="True" IsForPPTChecked="True" xName="Tx Power" yName="Freq Err">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <YAxis index="1" maxScaleRes="-1" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=5">
+          <Filter id="Slot Power" value="&gt;-50" />
+        </Filter>
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Slot Power" />
+        <DepVar id="Freq Err" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="Step F: Phase Disc" IsChecked="True" IsForPPTChecked="True" xName="Tx Power" yName="Phase Disc">
+      <Discriminator id="Channel" />
+      <OGDisplayProperties legendPosition="0">
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WCDMA_UplinkILPC">
+        <Filter id="ILPC Step" value="=5">
+          <Filter id="Slot Power" value="&gt;-50" />
+        </Filter>
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Slot Power" />
+        <DepVar id="Phase Disc" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="Call Summary" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="Call/Handover Summary" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Channel" />
+      <IndexedParam index="3" id="Target Tx Power" />
+      <IndexedParam index="4" id="Signaling Mode" />
+      <IndexedParam index="5" id="Channel Coding" />
+      <Result resID="Call Up" testID="WCDMA_MakeSureCallUp" name="Call Up">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="Signaling Mode" isString="true">
+              <Discriminator id="Channel Coding" isString="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Call Up" testID="WCDMA_Handover" name="Call Up (Handover)">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="Signaling Mode" isString="true">
+              <Discriminator id="Channel Coding" isString="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Handover Success" testID="WCDMA_Handover" testName="WCDMA_MakeSureCallUp" name="Handover">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="Signaling Mode" isString="true">
+              <Discriminator id="Channel Coding" isString="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="Compressed Mode Pattern A Up" IsChecked="True" IsForPPTChecked="indeterminate" width="3" chartsPerSlide="4">
+    <OutputGroupDescriptor_Lin name="WCDMA : Initial Tx Power" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Channel" />
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="ILPC Step" value="10" />
+        <Result resID="Initial Tx Power" testID="WCDMA_PowerSettingInULCM">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="WCDMA : 1 Slot Delta" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Channel" />
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="ILPC Step" value="10" />
+        <Result resID="1 Slot Delta" testID="WCDMA_PowerSettingInULCM">
+          <Discriminator id="Slot" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="WCDMA : 7 Slot Delta" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Channel" />
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="ILPC Step" value="10" />
+        <Result resID="7 Slot Delta" testID="WCDMA_PowerSettingInULCM">
+          <Discriminator id="Slot" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="WCDMA : Power Over Gap" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Channel" />
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="ILPC Step" value="10" />
+        <Result resID="Power Over Gap" testID="WCDMA_PowerSettingInULCM">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Compressed Mode Pattern A Down" IsChecked="True" IsForPPTChecked="indeterminate" width="3" chartsPerSlide="4">
+    <OutputGroupDescriptor_Lin name="WCDMA : Initial Tx Power" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Channel" />
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="ILPC Step" value="11" />
+        <Result resID="Initial Tx Power" testID="WCDMA_PowerSettingInULCM">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="WCDMA : 1 Slot Delta" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Channel" />
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="ILPC Step" value="11" />
+        <Result resID="1 Slot Delta" testID="WCDMA_PowerSettingInULCM">
+          <Discriminator id="Slot" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="WCDMA : 7 Slot Delta" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Channel" />
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="ILPC Step" value="11" />
+        <Result resID="7 Slot Delta" testID="WCDMA_PowerSettingInULCM">
+          <Discriminator id="Slot" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="WCDMA : Power Over Gap" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Channel" />
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="ILPC Step" value="11" />
+        <Result resID="Power Over Gap" testID="WCDMA_PowerSettingInULCM">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Compressed Mode Pattern B" IsChecked="True" IsForPPTChecked="indeterminate" width="3" chartsPerSlide="4">
+    <OutputGroupDescriptor_Lin name="WCDMA : Initial Tx Power" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Channel" />
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="ILPC Step" value="12" />
+        <Result resID="Initial Tx Power" testID="WCDMA_PowerSettingInULCM">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="WCDMA : PreFB Delta" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Channel" />
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="ILPC Step" value="12" />
+        <Result resID="PreFrameBoundary Delta Power" testID="WCDMA_PowerSettingInULCM">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="WCDMA : PostFB Delta" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Channel" />
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="ILPC Step" value="12" />
+        <Result resID="PostFrameBoundary Delta Power" testID="WCDMA_PowerSettingInULCM">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="WCDMA : Power Over Gap" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band">
+        <Discriminator id="Channel" />
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="ILPC Step" value="12" />
+        <Result resID="Power Over Gap" testID="WCDMA_PowerSettingInULCM">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="EVM vs Exp Pwr" IsChecked="True" IsForPPTChecked="True">
+    <OutputGroupDescriptor_Lin name="EVM vs Ex Pwr" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator name="Band" id="Band" isString="true">
+        <Discriminator name="Channel" id="Channel" />
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="EVM" testID="WCDMA_ModulationAnalysis" name="EVM (callbox)" sort="true">
+          <Discriminator name="Target Tx Power" id="Target Tx Power" />
+        </Result>
+        <Result resID="EVM_SelfTest" testID="WCDMA_ModulationAnalysis" name="EVM (selftest)" sort="true">
+          <Discriminator name="Target Tx Power" id="Target Tx Power" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="EVM Delta" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator name="Band" id="Band">
+        <Discriminator name="Channel" id="Channel" />
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="EVM Delta" testID="WCDMA_ModulationAnalysis" name="EVM Delta" sort="true">
+          <Discriminator name="Target Tx Power" id="Target Tx Power" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Pwr vs Exp Pwr (EVM)" IsChecked="True" IsForPPTChecked="True">
+    <OutputGroupDescriptor_Lin name="Pwr vs Exp Pwr (EVM)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator name="Band" id="Band" isString="true">
+        <Discriminator name="Channel" id="Channel" isString="true" />
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="Tx Power" testID="WCDMA_ModulationAnalysis" name="Power (callbox)" sort="true">
+          <Discriminator name="Target Tx Power" id="Target Tx Power" />
+        </Result>
+        <Result resID="Tx Power_SelfTest" testID="WCDMA_ModulationAnalysis" name="Power (selftest)" sort="true">
+          <Discriminator name="Target Tx Power" id="Target Tx Power" isString="true" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Pwr vs Exp Pwr (ACLR)" IsChecked="True" IsForPPTChecked="True">
+    <OutputGroupDescriptor_Lin name="Pwr vs Exp Pwr (ACLR)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator name="Band" id="Band" isString="true">
+        <Discriminator name="Channel" id="Channel" isString="true" />
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="Tx Power" testID="WCDMA_ACLR" name="Pwr (callbox)" sort="true">
+          <Discriminator name="Target Tx Power" id="Target Tx Power" />
+        </Result>
+        <Result resID="Tx Power_SelfTest" testID="WCDMA_ACLR" name="Pwr (selftest)" sort="true">
+          <Discriminator name="Target Tx Power" id="Target Tx Power" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="ACLR vs Exp Pwr" IsChecked="True" IsForPPTChecked="True">
+    <OutputGroupDescriptor_Lin name="ACLR vs Exp Power" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator name="Band" id="Band" isString="true">
+        <Discriminator name="Channel" id="Channel">
+          <Discriminator name="Offset" id="Offset" />
+        </Discriminator>
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="ACLR" testID="WCDMA_ACLR" name="ACLR (callbox)" sort="true">
+          <Discriminator name="Target Tx Power" id="Target Tx Power" />
+        </Result>
+        <Result resID="ACLR_SelfTest" testID="WCDMA_ACLR" name="ACLR (selftest)">
+          <Discriminator name="Target Tx Power" id="Target Tx Power" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="ACLR Delta vs Exp Power" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator name="Band" id="Band">
+        <Discriminator name="Channel" id="Channel">
+          <Discriminator name="Offset" id="Offset" />
+        </Discriminator>
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="ACLR Delta" testID="WCDMA_ACLR" name="ACLR delta" sort="true">
+          <Discriminator id="Target Tx Power" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Pwr vs Exp Pwr" IsChecked="True" IsForPPTChecked="True">
+    <OutputGroupDescriptor_Lin name="Pwr vs Exp Pwr (MaxPwr)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator name="Band" id="Band">
+        <Discriminator name="Channel" id="Channel" />
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="Tx Power" testID="WCDMA_MaxOutputPower" name="Pwr (callbox)" sort="true">
+          <Discriminator name="Target Tx Power" id="Target Tx Power" />
+        </Result>
+        <Result resID="Tx Power_SelfTest" testID="WCDMA_MaxOutputPower" name="Pwr (selftest)" sort="true">
+          <Discriminator name="Target Tx Power" id="Target Tx Power" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="Tx Power Delta" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator name="Band" id="Band">
+        <Discriminator name="Channel" id="Channel" />
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="Tx Power Delta" testID="WCDMA_MaxOutputPower" name="Pwr Delta" sort="true">
+          <Discriminator name="Target Tx Power" id="Target Tx Power" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="VSWR vs Exp Pwr" IsChecked="True" IsForPPTChecked="True">
+    <OutputGroupDescriptor_Lin name="VSWR vs Exp Pwr" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator name="Band" id="Band" isString="true">
+        <Discriminator name="Channel" id="Channel" isString="true" />
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="VSWR Magnitude" testID="WCDMA_VSWR SelfTest" name="VSWR Magnitude">
+          <Discriminator name="Target Tx Power" id="Target Tx Power" />
+        </Result>
+        <Result resID="VSWR Phase" testID="WCDMA_VSWR SelfTest" name="VSWR Phase" axisIndex="2">
+          <Discriminator id="Target Tx Power" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="CtoN 300-run Variation-Summary" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="C/N Variaton" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" />
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="RX Chain" />
+      <IndexedParam index="3" id="Channel" />
+      <IndexedParam index="4" id="CtoN_Max" />
+      <IndexedParam index="5" id="CtoN_Min" />
+      <Result resID="CtoN_MaxtoMin_Delta" testID="FTM_RF_IQ_CAPTURE" name="C/N Max-to-Min">
+        <Discriminator id="RX Chain">
+          <Discriminator id="Channel" />
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="CtoN 300-run Variation-Plots" IsChecked="True" IsForPPTChecked="True">
+    <OutputGroupDescriptor_Sc name="C/N Varation" IsChecked="True" IsForPPTChecked="True" xName="Run Index" yName="CNR">
+      <Discriminator id="Band">
+        <Discriminator id="Channel" />
+      </Discriminator>
+      <OGDisplayProperties />
+      <Series testID="FTM_RF_IQ_CAPTURE">
+        <Discriminator id="RX Chain" />
+        <DisplayProperties markerOn="false" smooth="true" axisIndex="1" />
+        <IndVar id="Run ID" />
+        <DepVar id="CNR Samples" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="CtoN 300-run Tables" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="C/N 300 Runs" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Channel" />
+      <IndexedParam index="3" id="RX Chain" />
+      <IndexedParam index="4" id="Run ID" />
+      <IndexedParam index="5" id="CNR Samples" />
+      <IndexedParam index="6" id="PhaseDisc Count" />
+      <IndexedParam index="7" id="PhaseDisc Start Idx" />
+      <Result resID="CNR Samples" testID="FTM_RF_IQ_CAPTURE" name="C/N">
+        <Discriminator id="Band">
+          <Discriminator id="Channel">
+            <Discriminator id="RX Chain">
+              <Discriminator id="Run ID" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <GroupCharts>false</GroupCharts>
+  <PPTGroupsList />
+  <GlobalParameterList />
+  <ExpressionList />
+  <GlobalExcelDisplayProperties />
+</FormatDescriptor>

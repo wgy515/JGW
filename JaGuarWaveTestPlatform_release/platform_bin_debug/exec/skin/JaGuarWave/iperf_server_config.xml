@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!--Window sizebox="4,4,6,6" caption="0,0,0,30" mininfo="450,300" roundcorner="3,3,3,3"-->
+<Window  size="600,260" sizebox="4,4,6,6" caption="0,0,0,30"  roundcorner="10,10">
+	<Font name="宋体" size="16" bold="false" italic="false" default="true" />
+	<Default name="CheckBox" value="textcolor=&quot;#FFbac0c5&quot; hottextcolor=&quot;#FF386382&quot; selectedtextcolor=&quot;#FF386382&quot; disabledtextcolor=&quot;#FFbac0c5&quot; textpadding=&quot;20,2,0,0&quot; align=&quot;left&quot; selectedimage=&quot;file=&apos;checked.png&apos; dest=&apos;0,2,16,18&apos;&quot; normalimage=&quot;file=&apos;unchecked.png&apos; dest=&apos;0,2,16,18&apos;&quot;" />
+    <VerticalLayout enabled="true" width="400" height="400" bkcolor="#ffe4e4e4">
+	    <HorizontalLayout height="30" bkcolor="#ffffffff" bkcolor2="#0000ff">
+			<VerticalLayout padding="5,3,5,2" >
+				<HorizontalLayout >
+				<Label enabled="true" width="30" height="25" bkimage="max.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" valign="center" align="center" />
+				<Label enabled="true" padding="0,2,0,2" name="tipslab" text=" JaGuarWave Iperf Server Config" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" valign="center" align="left" font="0" />
+				</HorizontalLayout>
+			</VerticalLayout>
+			<VerticalLayout width="110">
+				<Button name="closebtn" float="true" pos="56,0,95,19" width="39" height="19" maxheight="19" maxwidth="39"  normalimage="file='btn_close.png' source='0,0,39,19'" hotimage="file='btn_close.png' source='39,0,78,19'" pushedimage="file='btn_close.png' source='78,0,117,19'"  />
+			</VerticalLayout>
+		</HorizontalLayout>
+		<HorizontalLayout enabled="true" height="20"/>
+		<HorizontalLayout enabled="true" height="40" padding="20,0,20,0">
+         	<Control enabled="true" width="10"/>
+			<Label text="Path:" width="80" textcolor="#0000ff"/>
+			<Edit  name="iperfFilePathEdt" readonly="true" text="" padding="0,2,0,2" tooltip="0~65536" width="400" enabled="true"  textcolor="#FF000000" maxchar="30" align="left" disabledtextcolor="#FFA7A6AA" />
+			<Control enabled="true" width="10"/>
+			<Button name="iperfFilePathBtn" padding="0,10,0,5" text="..." enabled="true" width="45" height="25" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;btn_edit_normal.png&apos;corner=&apos;5,5,5,5&apos;; " hotimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " pushedimage=" file=&apos;btn_edit_down.png&apos;corner=&apos;5,5,5,5&apos;;" focusedimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " disabledimage=" file=&apos;disable_btn.png&apos;corner=&apos;5,5,5,5&apos;; " />
+			<Control enabled="true" width="10"/>
+		</HorizontalLayout>
+		<HorizontalLayout enabled="true" height="40" padding="20,0,20,0">
+         	<Control enabled="true" width="10"/>
+			<Label text="IP:" width="80" textcolor="#0000ff"/>
+			<Edit  name="ipAddressEdt" text="" padding="0,2,0,2" tooltip="0~65536" width="400" enabled="true"  textcolor="#FF000000" maxchar="30" align="left" disabledtextcolor="#FFA7A6AA" />
+			<Control enabled="true" width="10"/>
+		</HorizontalLayout>
+		<HorizontalLayout enabled="true" height="40" padding="20,0,20,0">
+         	<Control enabled="true" width="10"/>
+			<Label text="Param :" width="80" textcolor="#0000ff"/>
+			<Edit  name="extraParameterEdt" text="" padding="0,2,0,2" tooltip="0~65536" width="400" enabled="true"  textcolor="#FF000000" maxchar="30" align="left" disabledtextcolor="#FFA7A6AA" />
+			<Control enabled="true" width="10"/>
+		</HorizontalLayout>
+		<HorizontalLayout enabled="true" height="20"/>
+        <HorizontalLayout enabled="true">
+			<Control enabled="true"/>
+			<Control enabled="true"/>
+			<Control enabled="true" width="30"/>
+            <Button name="StartBtn" text="Start" enabled="true" height="38" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;btn_edit_normal.png&apos;corner=&apos;5,5,5,5&apos;; " hotimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " pushedimage=" file=&apos;btn_edit_down.png&apos;corner=&apos;5,5,5,5&apos;;" focusedimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " disabledimage=" file=&apos;disable_btn.png&apos;corner=&apos;5,5,5,5&apos;; " />
+			<Control enabled="true"/>
+        </HorizontalLayout>
+		<HorizontalLayout enabled="true" height="20"/>
+    </VerticalLayout>
+</Window>

@@ -1,0 +1,25 @@
+<QRCTCustomAPIPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\schema\qrctCustomApiSchema.xsd" WindowTitle="RL Log">  
+	<APIs>
+	
+	<FTMLogAPI logCode="0x117C" AttachDirection="ATTACH_LEFT" maxChartNumber="250" logID="0x0021"  apiTitle="Tuner RL Log" timerInterval="600">	
+		<StandardLeftAxis Increment="100" StopPos="100" Min="0" StartPos="0" Max="4000"/>
+		<StandardRightAxis Increment="0.1" StopPos="100" Min="0" StartPos="0" Max="250"/>
+		<OptionalLeftAxis Increment="0" StopPos="0" Min="0" StartPos="0" Max="0"/>
+		<OptionalRightAxis Increment="0" StopPos="0" Min="0" StartPos="0" Max="0"/>	
+		<!--Payload-->
+		<!--System Info-->
+		<LogField chartChoice="DATAGRID_ONLY" asStairs="false" size="FTM_ULONG" offset="14" title="Mode"/>
+		<LogField chartChoice="DATAGRID_ONLY" asStairs="false" size="FTM_UCHAR" offset="38" title="Band Enum"/>
+		<LogField chartChoice="DATAGRID_ONLY" asStairs="false" size="FTM_USHORT" offset="34" title="Channel"/>
+		<LogField chartChoice="DATAGRID_ONLY" asStairs="false" size="FTM_UCHAR" offset="41" title="RL Status"/>	
+		<LogField chartChoice="DATAGRID_ONLY" asStairs="false" size="FTM_UCHAR" offset="40" title="CA Enabled"/>
+		<LogField chartChoice="DATAGRID_ONLY" asStairs="false" size="FTM_USHORT" offset="36" title="Tx Pwr dBm*10"/>
+		<LogField chartChoice="DATAGRID_ONLY" asStairs="false" size="FTM_UCHAR" offset="39" title="Scenario"/>
+		<LogField chartChoice="DATAGRID_ONLY" asStairs="false" size="FTM_ULONG" offset="26" title="Tune Code"/>
+		
+		<!--RL data-->
+		<LogField chartChoice="STANDARD_RIGHT_AXIS" asStairs="true" size="FTM_USHORT" offset="58" title="Return Loss dB*10" />				
+	</FTMLogAPI>
+	
+	</APIs>
+</QRCTCustomAPIPage>

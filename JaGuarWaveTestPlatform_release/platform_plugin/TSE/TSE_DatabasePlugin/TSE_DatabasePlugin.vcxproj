@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2E294D71-0913-4C14-9710-3E774052ACF2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TSE_DatabasePlugin</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\debug\exec_debug\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\release\exec_release\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;TSE_DATABASEPLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)platform_core\include;$(SolutionDir)platform_plugin\include;$(SolutionDir)platform_library\include;$(SolutionDir)platform_app\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)platform_core_lib\boost\lib;$(SolutionDir)lib\library;$(SolutionDir)platform_core_lib\poco;$(SolutionDir)lib\core;$(SolutionDir)lib\plugin;$(SolutionDir)platform_core_lib\libxl</AdditionalLibraryDirectories>
+      <DelayLoadDLLs>libxl.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y  $(SolutionDir)bin\debug\exec_debug\$(TargetName)$(TargetExt) 	$(SolutionDir)bin\debug\exec\$(TargetName)$(TargetExt)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;TSE_DATABASEPLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)platform_core\include;$(SolutionDir)platform_plugin\include;$(SolutionDir)platform_library\include;$(SolutionDir)platform_app\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)platform_core_lib\boost\lib;$(SolutionDir)lib\library;$(SolutionDir)platform_core_lib\poco;$(SolutionDir)lib\core;$(SolutionDir)lib\plugin;$(SolutionDir)platform_core_lib\libxl</AdditionalLibraryDirectories>
+      <DelayLoadDLLs>libxl.dll</DelayLoadDLLs>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y  $(SolutionDir)bin\release\exec_release\$(TargetName)$(TargetExt) 	$(SolutionDir)bin\release\exec\$(TargetName)$(TargetExt)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bin\JGW_DeviceInfoBuf.h" />
+    <ClInclude Include="bin\TSE_BuildDeviceInfoBin.h" />
+    <ClInclude Include="bin\TSE_ReadDeviceInfoBin.h" />
+    <ClInclude Include="bin\TSE_SaveDeviceInfoBin.h" />
+    <ClInclude Include="bin\TSE_UpdateDeviceInfoBin.h" />
+    <ClInclude Include="excel\CJGW_ExcelLibXL.h" />
+    <ClInclude Include="excel\CJGW_LoadExcelDatabBase.h" />
+    <ClInclude Include="excel\CTSE_Excel_Define.h" />
+    <ClInclude Include="excel\TSE_GetExcelDataToPrimaryKey.h" />
+    <ClInclude Include="excel\TSE_LoadExcelDatabase.h" />
+    <ClInclude Include="excel\TSE_UpdateExcelDatabase.h" />
+    <ClInclude Include="mes\CJGW_MESRestoreOperateID.hpp" />
+    <ClInclude Include="mes\TSE_MESCheckSNStatus.h" />
+    <ClInclude Include="mes\TSE_MESGetIMEIInfo.h" />
+    <ClInclude Include="mes\TSE_MESGetSNInfo.h" />
+    <ClInclude Include="mes\TSE_MESNextIMEIStation.h" />
+    <ClInclude Include="mes\TSE_MESNextSNStation.h" />
+    <ClInclude Include="mes\TSE_MESSaveTestRecords.h" />
+    <ClInclude Include="sqlite3\TSE_GetSQLite3DBToPrimaryKey.h" />
+    <ClInclude Include="sqlite3\TSE_UpdateSQLite3DB.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TSE_CloseCSVDatabase.h" />
+    <ClInclude Include="TSE_GetCSVDataToPrimaryKey.h" />
+    <ClInclude Include="TSE_LoadCSVDatabase.h" />
+    <ClInclude Include="TSE_SetExcelDataToPrimaryKey.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bin\JGW_DeviceInfoBuf.cpp" />
+    <ClCompile Include="bin\TSE_BuildDeviceInfoBin.cpp" />
+    <ClCompile Include="bin\TSE_ReadDeviceInfoBin.cpp" />
+    <ClCompile Include="bin\TSE_SaveDeviceInfoBin.cpp" />
+    <ClCompile Include="bin\TSE_UpdateDeviceInfoBin.cpp" />
+    <ClCompile Include="dllmain.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="excel\CJGW_ExcelLibXL.cpp" />
+    <ClCompile Include="excel\CJGW_LoadExcelDatabBase.cpp" />
+    <ClCompile Include="excel\TSE_GetExcelDataToPrimaryKey.cpp" />
+    <ClCompile Include="excel\TSE_LoadExcelDatabase.cpp" />
+    <ClCompile Include="excel\TSE_UpdateExcelDatabase.cpp" />
+    <ClCompile Include="mes\TSE_MESCheckSNStatus.cpp" />
+    <ClCompile Include="mes\TSE_MESGetIMEIInfo.cpp" />
+    <ClCompile Include="mes\TSE_MESGetSNInfo.cpp" />
+    <ClCompile Include="mes\TSE_MESNextIMEIStation.cpp" />
+    <ClCompile Include="mes\TSE_MESNextSNStation.cpp" />
+    <ClCompile Include="mes\TSE_MESSaveTestRecords.cpp" />
+    <ClCompile Include="sqlite3\TSE_GetSQLite3DBToPrimaryKey.cpp" />
+    <ClCompile Include="sqlite3\TSE_UpdateSQLite3DB.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TSE_CloseCSVDatabase.cpp" />
+    <ClCompile Include="TSE_GetCSVDataToPrimaryKey.cpp" />
+    <ClCompile Include="TSE_LoadCSVDatabase.cpp" />
+    <ClCompile Include="TSE_SetExcelDataToPrimaryKey.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

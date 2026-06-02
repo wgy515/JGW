@@ -1,0 +1,24 @@
+2022-07-08 17:03:09 INFO  - LoadSubWndPlugin loadLibrary(path:F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec\plugin\JGW_UiLibViewResolver.dll)
+2022-07-08 17:03:09 INFO  - CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec\JGW_DevicePool.dll)
+2022-07-08 17:03:10 INFO  - LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2022-07-08 17:03:10 INFO  - LoadSubWndPlugin loadLibrary(path:F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec\plugin\CWelcomPlugin.dll)
+2022-07-08 17:03:10 INFO  - CreateSubWndImpl : F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2022-07-08 17:03:11 INFO  - CCJGWMainDlg::CloseSubPluginView
+2022-07-08 17:03:11 INFO  - CCJGWUIEvent::CloseSubPluginView
+2022-07-08 17:03:11 INFO  - CloseSubPluginView : F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec\plugin\CWelcomPlugin.dll
+2022-07-08 17:03:11 INFO  - CCJGWMainDlg::DestroySubPlugin
+2022-07-08 17:03:11 INFO  - CCJGWUIEvent::DestroySubPlugin
+2022-07-08 17:03:11 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec\plugin\CWelcomPlugin.dll
+2022-07-08 17:03:11 INFO  - DestroyClassPtr clsid : ,ptr : 00000000
+2022-07-08 17:03:11 INFO  - CreateSubWndImpl : F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2022-07-08 17:03:11 INFO  - LoadSubPluginSubWndImpl : CRFCalVerTestPlugin.dll
+2022-07-08 17:03:11 INFO  - LoadSubWndPlugin loadLibrary(path:F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec\plugin\CRFCalVerTestPlugin.dll)
+2022-07-08 17:03:11 INFO  - CreateSubWndImpl : F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec\plugin\CRFCalVerTestPlugin.dll,clsid: JGW::CCRFCalVerTestView
+2022-07-08 17:03:12 INFO  - CCJGWMainDlg::OnCloseWindow
+2022-07-08 17:03:12 INFO  - CCJGWMainDlg::CloseSubPluginView
+2022-07-08 17:03:12 INFO  - CCJGWUIEvent::CloseSubPluginView
+2022-07-08 17:03:12 INFO  - CloseSubPluginView : F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec\plugin\CRFCalVerTestPlugin.dll
+2022-07-08 17:03:12 INFO  - CCJGWMainDlg::DestroySubPlugin
+2022-07-08 17:03:12 INFO  - CCJGWUIEvent::DestroySubPlugin
+2022-07-08 17:03:12 INFO  - DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 0330BBB0
+2022-07-08 17:03:12 INFO  - CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec\plugin\CRFCalVerTestPlugin.dll

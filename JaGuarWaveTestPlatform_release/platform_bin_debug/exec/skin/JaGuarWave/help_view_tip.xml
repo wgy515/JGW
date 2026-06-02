@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="300,150">
+    <Font name="宋体" size="18" bold="true" italic="false" />
+	<Font name="宋体" size="10" bold="false" italic="false" />
+	<Font name="宋体" size="12" bold="false" italic="false" />
+    <VerticalLayout bkcolor="#FFE6E6E6">
+		<HorizontalLayout height="30" bkcolor="#FFFFFFFF" bkcolor2="#000000FF">
+			<VerticalLayout padding="5,3,5,2">
+				<HorizontalLayout>
+					<Label width="30" height="25" bkimage="max.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+					<Label name="tipslab" text=" 检测到工具版本有更新" padding="0,2,0,2" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" />
+				</HorizontalLayout>
+			</VerticalLayout>
+		</HorizontalLayout>
+		<HorizontalLayout padding="5,5,5,5">
+			<RichEdit name="logEdt" text="点击立即更新，将关闭工具平台，启动更新服务。点击稍后更新，将等待5分钟后，在提示更新信息" tipvalue=""  enabled="true"  bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"  maxchar="9000"  align="left" vscrollbar="true" font="2" hscrollbar="false" multiline="true" autohscroll="false" autovscroll="true" readonly="true"/>
+		</HorizontalLayout>
+		<HorizontalLayout height="30">
+			<Control />
+			<Button name="updateNowBtn" text="立即更新" width="80" padding="5,3,5,2" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;btn_edit_normal.png&apos;corner=&apos;5,5,5,5&apos;; " hotimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " pushedimage=" file=&apos;btn_edit_down.png&apos;corner=&apos;5,5,5,5&apos;;" focusedimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " disabledimage=" file=&apos;btn_edit_disable.png&apos;corner=&apos;5,5,5,5&apos;; " font="2"/>
+			<Control />
+			<Button name="updateLaterBtn" text="稍后更新" width="80" padding="5,3,5,2" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;btn_edit_normal.png&apos;corner=&apos;5,5,5,5&apos;; " hotimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " pushedimage=" file=&apos;btn_edit_down.png&apos;corner=&apos;5,5,5,5&apos;;" focusedimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " disabledimage=" file=&apos;btn_edit_disable.png&apos;corner=&apos;5,5,5,5&apos;; " font="2"/>
+			<Control />
+		</HorizontalLayout>
+    </VerticalLayout>
+</Window>

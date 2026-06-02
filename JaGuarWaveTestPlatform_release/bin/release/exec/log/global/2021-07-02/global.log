@@ -1,0 +1,667 @@
+2021-07-02 09:21:32 [18544] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-07-02 09:21:32 [18544] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\JGW_DevicePool.dll)
+2021-07-02 09:21:32 [18544] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-07-02 09:21:32 [18544] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll)
+2021-07-02 09:21:32 [18544] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-07-02 09:21:34 [18544] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 09:21:34 [18544] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 09:21:34 [18544] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 09:21:35 [18544] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 09:21:35 [18544] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 09:21:35 [18544] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 09:21:35 [18544] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-07-02 09:21:35 [18544] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 09:21:35 [18544] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 09:21:35 [18544] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 09:21:35 [18544] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 09:25:13 [16388] ERROR : Not Find Xtt File(C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\cache\NC700\4_5G_RF_Test\SIM8200G_V2.01.xtt) Fail !!!
+2021-07-02 09:25:13 [16388] ERROR : Load Xtt Msg Fail!!!
+2021-07-02 09:25:19 [16388] ERROR : Not Find Xtt File(C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\cache\NC700\4_5G_RF_Test\SIM8200G_V2.01.xtt) Fail !!!
+2021-07-02 09:25:19 [16388] ERROR : Load Xtt Msg Fail!!!
+2021-07-02 09:25:25 [16388] ERROR : Not Find Xtt File(C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\cache\NC700\4_5G_RF_Test\SIM8200G_V2.01.xtt) Fail !!!
+2021-07-02 09:25:25 [16388] ERROR : Load Xtt Msg Fail!!!
+2021-07-02 09:26:03 [18544] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 09:26:03 [18544] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 09:26:03 [18544] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 09:26:03 [18544] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 09:26:03 [18544] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 09:26:03 [18544] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 03008860
+2021-07-02 09:26:03 [18544] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 09:26:03 [18544] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 09:26:03 [18544] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 09:26:03 [18544] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 09:26:03 [18544] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 09:33:15 [18544] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-07-02 09:33:15 [18544] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 09:33:15 [18544] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 09:33:15 [18544] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 09:33:16 [18544] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 09:33:16 [18544] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 09:33:16 [18544] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 030085C0
+2021-07-02 09:33:16 [18544] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 09:56:25 [22356] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-07-02 09:56:25 [22356] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\JGW_DevicePool.dll)
+2021-07-02 09:56:25 [22356] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-07-02 09:56:25 [22356] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll)
+2021-07-02 09:56:25 [22356] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-07-02 09:58:12 [22356] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 09:58:12 [22356] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 09:58:12 [22356] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 09:58:13 [22356] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 09:58:13 [22356] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 09:58:13 [22356] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 09:58:13 [22356] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-07-02 09:58:13 [22356] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 09:58:13 [22356] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 09:58:13 [22356] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 09:58:13 [22356] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 09:59:32 [22356] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-07-02 09:59:32 [22356] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 09:59:32 [22356] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 09:59:32 [22356] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 09:59:32 [22356] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 09:59:32 [22356] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 09:59:32 [22356] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 038D8EF0
+2021-07-02 09:59:32 [22356] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 10:07:43 [21152] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-07-02 10:07:43 [21152] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\JGW_DevicePool.dll)
+2021-07-02 10:07:43 [21152] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-07-02 10:07:43 [21152] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll)
+2021-07-02 10:07:43 [21152] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-07-02 10:07:45 [21152] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 10:07:45 [21152] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 10:07:45 [21152] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 10:07:46 [21152] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 10:07:46 [21152] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 10:07:46 [21152] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 10:07:46 [21152] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-07-02 10:07:46 [21152] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 10:07:46 [21152] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 10:07:46 [21152] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 10:07:46 [21152] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 10:41:06 [21152] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-07-02 10:41:06 [21152] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 10:41:06 [21152] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 10:41:06 [21152] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 10:41:06 [21152] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 10:41:06 [21152] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 10:41:06 [21152] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 03758860
+2021-07-02 10:41:06 [21152] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 10:48:30 [ 4440] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-07-02 10:48:30 [ 4440] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\JGW_DevicePool.dll)
+2021-07-02 10:48:31 [ 4440] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-07-02 10:48:31 [ 4440] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll)
+2021-07-02 10:48:31 [ 4440] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-07-02 10:48:32 [ 4440] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 10:48:32 [ 4440] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 10:48:32 [ 4440] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 10:48:32 [ 4440] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 10:48:32 [ 4440] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 10:48:32 [ 4440] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 10:48:32 [ 4440] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-07-02 10:48:32 [ 4440] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 10:48:32 [ 4440] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 10:48:32 [ 4440] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 10:48:33 [ 4440] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 10:49:21 [23268] ERROR : 获取输入框内容失败
+
+2021-07-02 10:50:41 [ 4440] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-07-02 10:50:41 [ 4440] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 10:50:41 [ 4440] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 10:50:41 [ 4440] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 10:50:41 [ 4440] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 10:50:41 [ 4440] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 10:50:41 [ 4440] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 02E18B00
+2021-07-02 10:50:41 [ 4440] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 10:53:48 [17488] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-07-02 10:53:48 [17488] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\JGW_DevicePool.dll)
+2021-07-02 10:53:48 [17488] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-07-02 10:53:48 [17488] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll)
+2021-07-02 10:53:48 [17488] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-07-02 10:53:54 [17488] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 10:53:54 [17488] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 10:53:54 [17488] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 10:53:54 [17488] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 10:53:54 [17488] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 10:53:54 [17488] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 10:53:54 [17488] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-07-02 10:53:54 [17488] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 10:53:54 [17488] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 10:53:54 [17488] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 10:53:54 [17488] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 11:08:39 [17488] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-07-02 11:08:39 [17488] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 11:08:39 [17488] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 11:08:39 [17488] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 11:08:39 [17488] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 11:08:39 [17488] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 11:08:39 [17488] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 039B8BA8
+2021-07-02 11:08:39 [17488] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 11:09:06 [17912] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-07-02 11:09:06 [17912] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\JGW_DevicePool.dll)
+2021-07-02 11:09:06 [17912] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-07-02 11:09:06 [17912] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll)
+2021-07-02 11:09:06 [17912] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-07-02 11:09:08 [17912] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 11:09:08 [17912] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 11:09:08 [17912] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 11:09:08 [17912] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 11:09:08 [17912] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 11:09:08 [17912] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 11:09:08 [17912] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-07-02 11:09:08 [17912] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 11:09:08 [17912] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 11:09:08 [17912] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 11:09:08 [17912] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 11:16:45 [17912] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-07-02 11:16:45 [17912] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 11:16:45 [17912] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 11:16:45 [17912] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 11:16:45 [17912] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 11:16:45 [17912] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 11:16:45 [17912] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 038D85C0
+2021-07-02 11:16:45 [17912] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 11:17:03 [ 5452] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-07-02 11:17:03 [ 5452] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\JGW_DevicePool.dll)
+2021-07-02 11:17:03 [ 5452] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-07-02 11:17:03 [ 5452] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll)
+2021-07-02 11:17:03 [ 5452] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-07-02 11:17:05 [ 5452] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 11:17:05 [ 5452] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 11:17:05 [ 5452] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 11:17:05 [ 5452] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 11:17:05 [ 5452] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 11:17:05 [ 5452] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 11:17:05 [ 5452] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-07-02 11:17:05 [ 5452] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 11:17:05 [ 5452] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 11:17:05 [ 5452] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 11:17:05 [ 5452] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 11:40:58 [12888] ERROR : 
+2021-07-02 11:46:26 [ 5452] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 11:46:26 [ 5452] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 11:46:26 [ 5452] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 11:46:27 [ 5452] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 11:46:27 [ 5452] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 11:46:27 [ 5452] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 030F90E8
+2021-07-02 11:46:27 [ 5452] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 11:46:27 [ 5452] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 11:46:27 [ 5452] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 11:46:27 [ 5452] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 11:46:27 [ 5452] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 13:55:05 [ 5452] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-07-02 13:55:05 [ 5452] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 13:55:05 [ 5452] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 13:55:05 [ 5452] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 13:55:05 [ 5452] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 13:55:05 [ 5452] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 13:55:05 [ 5452] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 030F94D8
+2021-07-02 13:55:05 [ 5452] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 14:06:59 [22548] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-07-02 14:06:59 [22548] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\JGW_DevicePool.dll)
+2021-07-02 14:06:59 [22548] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-07-02 14:06:59 [22548] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll)
+2021-07-02 14:06:59 [22548] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-07-02 14:07:00 [22548] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 14:07:00 [22548] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 14:07:00 [22548] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 14:07:01 [22548] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 14:07:01 [22548] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 14:07:01 [22548] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 14:07:01 [22548] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-07-02 14:07:01 [22548] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 14:07:01 [22548] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 14:07:01 [22548] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 14:07:01 [22548] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 14:15:24 [23632] ERROR : 获取输入框内容失败
+
+2021-07-02 14:16:36 [22548] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-07-02 14:16:36 [22548] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 14:16:36 [22548] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 14:16:36 [22548] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 14:16:36 [22548] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 14:16:36 [22548] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 14:16:36 [22548] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 03A085C0
+2021-07-02 14:16:36 [22548] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 14:16:51 [23472] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-07-02 14:16:51 [23472] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\JGW_DevicePool.dll)
+2021-07-02 14:16:51 [23472] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-07-02 14:16:51 [23472] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll)
+2021-07-02 14:16:51 [23472] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-07-02 14:16:52 [23472] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 14:16:52 [23472] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 14:16:52 [23472] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 14:16:53 [23472] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 14:16:53 [23472] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 14:16:53 [23472] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 14:16:53 [23472] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-07-02 14:16:53 [23472] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 14:16:53 [23472] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 14:16:53 [23472] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 14:16:53 [23472] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 14:18:08 [13892] ERROR : 获取输入框内容失败
+
+2021-07-02 14:18:57 [23472] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-07-02 14:18:57 [23472] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 14:18:57 [23472] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 14:18:57 [23472] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 14:18:57 [23472] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 14:18:57 [23472] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 14:18:57 [23472] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 03058B00
+2021-07-02 14:18:57 [23472] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 14:38:25 [22060] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-07-02 14:38:25 [22060] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\JGW_DevicePool.dll)
+2021-07-02 14:38:25 [22060] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-07-02 14:38:25 [22060] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll)
+2021-07-02 14:38:25 [22060] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-07-02 14:38:29 [22060] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 14:38:29 [22060] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 14:38:29 [22060] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 14:38:30 [22060] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 14:38:30 [22060] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 14:38:30 [22060] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 14:38:30 [22060] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-07-02 14:38:30 [22060] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 14:38:30 [22060] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 14:38:30 [22060] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 14:38:30 [22060] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 14:38:30 [24280] ERROR : Config Not Exist(XML:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\cache\NC700\4_5G_RF_Test\rf_ant_test.xml)
+
+2021-07-02 14:38:31 [22060] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 14:38:31 [22060] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 14:38:31 [22060] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 14:39:05 [22060] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-07-02 14:39:05 [22060] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 14:39:05 [22060] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 14:39:05 [22060] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 14:39:05 [22060] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 14:39:05 [22060] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 03509238
+2021-07-02 14:39:05 [22060] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 14:39:27 [23560] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-07-02 14:39:27 [23560] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\JGW_DevicePool.dll)
+2021-07-02 14:39:27 [23560] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-07-02 14:39:27 [23560] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll)
+2021-07-02 14:39:27 [23560] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-07-02 14:39:33 [23560] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 14:39:33 [23560] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 14:39:33 [23560] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 14:39:33 [23560] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 14:39:33 [23560] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 14:39:33 [23560] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 14:39:33 [23560] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-07-02 14:39:33 [23560] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 14:39:33 [23560] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 14:39:33 [23560] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 14:39:33 [23560] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 14:41:53 [23560] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 14:41:53 [23560] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 14:41:53 [23560] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 14:41:53 [23560] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 14:41:53 [23560] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 14:41:53 [23560] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 032989C0
+2021-07-02 14:41:53 [23560] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 14:41:53 [23560] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 14:41:53 [23560] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 14:41:53 [23560] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 14:41:53 [23560] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 14:42:09 [23560] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 14:42:09 [23560] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 14:42:09 [23560] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 14:42:09 [23560] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 14:42:09 [23560] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 14:42:09 [23560] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 032989C0
+2021-07-02 14:42:09 [23560] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 14:42:09 [23560] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 14:42:09 [23560] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 14:42:09 [23560] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 14:42:09 [23560] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 14:42:20 [15012] ERROR : PING: timeout. General failure.
+2021-07-02 14:42:21 [15012] ERROR : The router can't forward!
+2021-07-02 14:42:24 [15012] ERROR : PING: timeout. General failure.
+2021-07-02 14:42:25 [15012] ERROR : The router can't forward!
+2021-07-02 14:42:28 [15012] ERROR : PING: timeout. General failure.
+2021-07-02 14:42:29 [15012] ERROR : The router can't forward!
+2021-07-02 14:42:31 [15012] ERROR : The router can't forward!
+2021-07-02 14:42:33 [15012] ERROR : PING: timeout. General failure.
+2021-07-02 14:42:35 [15012] ERROR : PING: timeout. General failure.
+2021-07-02 14:42:37 [15012] ERROR : PING: timeout. General failure.
+2021-07-02 14:42:39 [15012] ERROR : PING: timeout. General failure.
+2021-07-02 14:42:41 [15012] ERROR : PING: timeout. General failure.
+2021-07-02 14:42:43 [15012] ERROR : PING: timeout. General failure.
+2021-07-02 14:42:45 [15012] ERROR : PING: timeout. General failure.
+2021-07-02 14:42:47 [15012] ERROR : PING: timeout. General failure.
+2021-07-02 14:42:49 [15012] ERROR : PING: timeout. General failure.
+2021-07-02 14:42:54 [15012] ERROR : connect socket failed: 0
+2021-07-02 14:45:23 [23560] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-07-02 14:45:23 [23560] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 14:45:23 [23560] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 14:45:23 [23560] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 14:45:23 [23560] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 14:45:23 [23560] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 14:45:23 [23560] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 032989C0
+2021-07-02 14:45:23 [23560] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 14:45:58 [20388] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-07-02 14:45:58 [20388] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\JGW_DevicePool.dll)
+2021-07-02 14:45:59 [20388] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-07-02 14:45:59 [20388] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll)
+2021-07-02 14:45:59 [20388] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-07-02 14:46:02 [20388] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 14:46:02 [20388] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 14:46:02 [20388] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 14:46:03 [20388] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 14:46:03 [20388] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 14:46:03 [20388] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 14:46:03 [20388] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-07-02 14:46:03 [20388] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 14:46:03 [20388] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 14:46:03 [20388] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 14:46:03 [20388] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 14:46:15 [20388] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-07-02 14:46:15 [20388] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 14:46:15 [20388] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 14:46:15 [20388] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 14:46:15 [20388] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 14:46:15 [20388] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 14:46:15 [20388] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 032C8678
+2021-07-02 14:46:15 [20388] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 14:46:22 [19712] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-07-02 14:46:22 [19712] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\JGW_DevicePool.dll)
+2021-07-02 14:46:23 [19712] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-07-02 14:46:23 [19712] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll)
+2021-07-02 14:46:23 [19712] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-07-02 14:46:24 [19712] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 14:46:24 [19712] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 14:46:24 [19712] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 14:46:24 [19712] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 14:46:24 [19712] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 14:46:24 [19712] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 14:46:24 [19712] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-07-02 14:46:24 [19712] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 14:46:24 [19712] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 14:46:24 [19712] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 14:46:24 [19712] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 14:46:26 [  148] ERROR : PING: timeout. General failure.
+2021-07-02 14:46:28 [  148] ERROR : PING: timeout. General failure.
+2021-07-02 14:46:30 [  148] ERROR : PING: timeout. General failure.
+2021-07-02 14:46:32 [  148] ERROR : PING: timeout. General failure.
+2021-07-02 14:46:34 [  148] ERROR : PING: timeout. General failure.
+2021-07-02 14:46:36 [  148] ERROR : PING: timeout. General failure.
+2021-07-02 14:46:38 [  148] ERROR : PING: timeout. General failure.
+2021-07-02 14:46:40 [  148] ERROR : PING: timeout. General failure.
+2021-07-02 14:46:42 [  148] ERROR : PING: timeout. General failure.
+2021-07-02 14:46:44 [  148] ERROR : PING: timeout. General failure.
+2021-07-02 14:46:46 [  148] ERROR : PING: timeout. General failure.
+2021-07-02 14:46:48 [  148] ERROR : PING: timeout. General failure.
+2021-07-02 14:46:50 [  148] ERROR : PING: timeout. General failure.
+2021-07-02 14:46:56 [  148] ERROR : connect socket failed: 0
+2021-07-02 14:46:58 [  148] ERROR : connect socket failed: 0
+2021-07-02 14:47:01 [  148] ERROR : connect socket failed: 0
+2021-07-02 14:47:03 [  148] ERROR : connect socket failed: 0
+2021-07-02 14:47:05 [  148] ERROR : connect socket failed: 0
+2021-07-02 14:47:54 [19712] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-07-02 14:47:54 [19712] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 14:47:54 [19712] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 14:47:54 [19712] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 14:47:54 [19712] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 14:47:54 [19712] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 14:47:54 [19712] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 030A89C0
+2021-07-02 14:47:54 [19712] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 14:48:40 [ 2672] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-07-02 14:48:40 [ 2672] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\JGW_DevicePool.dll)
+2021-07-02 14:48:40 [ 2672] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-07-02 14:48:40 [ 2672] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll)
+2021-07-02 14:48:40 [ 2672] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-07-02 14:48:41 [ 2672] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 14:48:41 [ 2672] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 14:48:41 [ 2672] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 14:48:41 [ 2672] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 14:48:41 [ 2672] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 14:48:41 [ 2672] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 14:48:41 [ 2672] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-07-02 14:48:41 [ 2672] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 14:48:41 [ 2672] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 14:48:41 [ 2672] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 14:48:41 [ 2672] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 14:48:50 [11676] ERROR : PING: timeout. General failure.
+2021-07-02 14:48:52 [11676] ERROR : PING: timeout. General failure.
+2021-07-02 14:48:54 [11676] ERROR : PING: timeout. General failure.
+2021-07-02 14:48:56 [11676] ERROR : PING: timeout. General failure.
+2021-07-02 14:48:58 [11676] ERROR : PING: timeout. General failure.
+2021-07-02 14:48:59 [11676] ERROR : The router can't forward!
+2021-07-02 14:49:02 [11676] ERROR : PING: timeout. General failure.
+2021-07-02 14:49:04 [11676] ERROR : PING: timeout. General failure.
+2021-07-02 14:49:06 [11676] ERROR : PING: timeout. General failure.
+2021-07-02 14:49:08 [11676] ERROR : PING: timeout. General failure.
+2021-07-02 14:49:10 [11676] ERROR : PING: timeout. General failure.
+2021-07-02 14:49:12 [11676] ERROR : PING: timeout. General failure.
+2021-07-02 14:49:14 [11676] ERROR : PING: timeout. General failure.
+2021-07-02 14:49:16 [11676] ERROR : PING: timeout. General failure.
+2021-07-02 14:49:18 [11676] ERROR : PING: timeout. General failure.
+2021-07-02 14:49:23 [11676] ERROR : connect socket failed: 0
+2021-07-02 14:49:26 [11676] ERROR : connect socket failed: 0
+2021-07-02 14:49:28 [11676] ERROR : connect socket failed: 0
+2021-07-02 14:49:30 [11676] ERROR : connect socket failed: 0
+2021-07-02 14:50:54 [ 2672] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-07-02 14:50:54 [ 2672] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 14:50:54 [ 2672] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 14:50:54 [ 2672] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 14:50:54 [ 2672] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 14:50:54 [ 2672] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 14:50:54 [ 2672] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 03418DB0
+2021-07-02 14:50:54 [ 2672] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 14:55:15 [20784] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-07-02 14:55:15 [20784] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\JGW_DevicePool.dll)
+2021-07-02 14:55:15 [20784] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-07-02 14:55:15 [20784] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll)
+2021-07-02 14:55:15 [20784] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-07-02 14:55:20 [20784] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 14:55:20 [20784] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 14:55:20 [20784] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 14:55:20 [20784] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 14:55:20 [20784] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 14:55:20 [20784] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 14:55:20 [20784] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-07-02 14:55:20 [20784] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 14:55:20 [20784] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 14:55:20 [20784] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 14:55:20 [20784] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 14:55:21 [13616] ERROR : Bind(127.0.0.1:3003) Error:Address already in use: 127.0.0.1:3003
+2021-07-02 15:03:40 [13616] ERROR : 获取输入框内容失败
+
+2021-07-02 15:04:18 [13616] ERROR : 获取输入框内容失败
+
+2021-07-02 15:12:20 [20784] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 15:12:20 [20784] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 15:12:20 [20784] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 15:12:21 [20784] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 15:12:21 [20784] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 15:12:21 [20784] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 03989050
+2021-07-02 15:12:21 [20784] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 15:12:21 [20784] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 15:12:21 [20784] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 15:12:21 [20784] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 15:12:21 [20784] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 15:12:22 [20784] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-07-02 15:12:22 [20784] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 15:12:22 [20784] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 15:12:22 [20784] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 15:12:22 [20784] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 15:12:22 [20784] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 15:12:22 [20784] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 03989248
+2021-07-02 15:12:22 [20784] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 15:12:29 [23628] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-07-02 15:12:29 [23628] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\JGW_DevicePool.dll)
+2021-07-02 15:12:30 [23628] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-07-02 15:12:30 [23628] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll)
+2021-07-02 15:12:30 [23628] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-07-02 15:12:31 [23628] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 15:12:31 [23628] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 15:12:31 [23628] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 15:12:31 [23628] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 15:12:31 [23628] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 15:12:31 [23628] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 15:12:31 [23628] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-07-02 15:12:31 [23628] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 15:12:31 [23628] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 15:12:31 [23628] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 15:12:31 [23628] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 15:13:09 [23732] ERROR : 
+2021-07-02 15:13:39 [23732] ERROR : 
+2021-07-02 15:14:48 [23732] ERROR : 获取输入框内容失败
+
+2021-07-02 15:15:33 [23628] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 15:15:33 [23628] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 15:15:33 [23628] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 15:15:33 [23628] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 15:15:33 [23628] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 15:15:33 [23628] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 02F18E58
+2021-07-02 15:15:33 [23628] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 15:15:33 [23628] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 15:15:33 [23628] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 15:15:33 [23628] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 15:15:33 [23628] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 15:16:08 [23628] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 15:16:08 [23628] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 15:16:08 [23628] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 15:16:08 [23628] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 15:16:08 [23628] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 15:16:08 [23628] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 02F18E58
+2021-07-02 15:16:08 [23628] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 15:16:08 [23628] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 15:16:08 [23628] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 15:16:08 [23628] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 15:16:08 [23628] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 15:16:24 [21540] ERROR : PING: timeout. General failure.
+2021-07-02 15:16:26 [21540] ERROR : PING: timeout. General failure.
+2021-07-02 15:16:28 [21540] ERROR : PING: timeout. General failure.
+2021-07-02 15:16:30 [21540] ERROR : PING: timeout. General failure.
+2021-07-02 15:16:32 [21540] ERROR : PING: timeout. General failure.
+2021-07-02 15:16:34 [21540] ERROR : The router can't forward!
+2021-07-02 15:16:36 [21540] ERROR : PING: timeout. General failure.
+2021-07-02 15:16:38 [21540] ERROR : PING: timeout. General failure.
+2021-07-02 15:16:40 [21540] ERROR : PING: timeout. General failure.
+2021-07-02 15:16:42 [21540] ERROR : PING: timeout. General failure.
+2021-07-02 15:16:44 [21540] ERROR : PING: timeout. General failure.
+2021-07-02 15:16:46 [21540] ERROR : PING: timeout. General failure.
+2021-07-02 15:16:48 [21540] ERROR : PING: timeout. General failure.
+2021-07-02 15:16:50 [21540] ERROR : PING: timeout. General failure.
+2021-07-02 15:16:52 [21540] ERROR : PING: timeout. General failure.
+2021-07-02 15:16:54 [21540] ERROR : PING: timeout. General failure.
+2021-07-02 15:16:59 [21540] ERROR : connect socket failed: 0
+2021-07-02 15:17:02 [21540] ERROR : connect socket failed: 0
+2021-07-02 15:17:41 [23628] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-07-02 15:17:41 [23628] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 15:17:41 [23628] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 15:17:41 [23628] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 15:17:41 [23628] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 15:17:41 [23628] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 15:17:41 [23628] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 02F19440
+2021-07-02 15:17:41 [23628] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 15:18:56 [ 2768] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-07-02 15:18:56 [ 2768] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\JGW_DevicePool.dll)
+2021-07-02 15:18:56 [ 2768] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-07-02 15:18:56 [ 2768] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll)
+2021-07-02 15:18:56 [ 2768] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-07-02 15:27:18 [ 2768] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 15:27:18 [ 2768] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 15:27:18 [ 2768] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 15:27:18 [ 2768] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 15:27:18 [ 2768] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 15:27:18 [ 2768] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 15:27:18 [ 2768] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-07-02 15:27:18 [ 2768] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 15:27:18 [ 2768] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-07-02 15:27:18 [ 2768] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-07-02 15:27:18 [ 2768] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-07-02 15:27:18 [ 2768] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-07-02 15:27:18 [ 2768] INFO  : NETCARD Remove NetCard Msg Window:5574132
+2021-07-02 15:27:18 [ 2768] INFO  : Remove NetCard Device Msg Window:5574132
+2021-07-02 15:27:18 [ 2768] INFO  : NETCARD Reg NetCard Msg Window: 5574132,IP:192.168.225.
+2021-07-02 15:27:18 [24568] INFO  : ReportNetCardThread PostMessage 5574132 - Realtek USB FE Family Controller
+2021-07-02 15:27:34 [ 2768] INFO  : NETCARD Remove NetCard Msg Window:5574132
+2021-07-02 15:27:34 [ 2768] INFO  : Remove NetCard Device Msg Window:5574132
+2021-07-02 15:27:34 [ 2768] INFO  : NETCARD Reg NetCard Msg Window: 5574132,IP:192.168.225.
+2021-07-02 15:28:24 [24568] INFO  : ReportNetCardThread PostMessage 5574132 - Realtek USB FE Family Controller
+2021-07-02 15:28:25 [21124] ERROR : PING: timeout. General failure.
+2021-07-02 15:28:25 [21124] ERROR : OnUpgradeThread Ping 192.168.225.1 Source 192.168.225.5 Fail
+2021-07-02 15:28:27 [21124] ERROR : PING: timeout. General failure.
+2021-07-02 15:28:27 [21124] ERROR : OnUpgradeThread Ping 192.168.225.1 Source 192.168.225.5 Fail
+2021-07-02 15:28:27 [21124] ERROR : The router can't forward!
+2021-07-02 15:28:27 [21124] ERROR : OnUpgradeThread Ping 192.168.225.1 Source 192.168.225.5 Fail
+2021-07-02 15:28:28 [21124] ERROR : PING: timeout. General failure.
+2021-07-02 15:28:28 [21124] ERROR : OnUpgradeThread Ping 192.168.225.1 Source 192.168.225.5 Fail
+2021-07-02 15:28:29 [21124] ERROR : PING: timeout. General failure.
+2021-07-02 15:28:29 [21124] ERROR : OnUpgradeThread Ping 192.168.225.1 Source 192.168.225.5 Fail
+2021-07-02 15:28:30 [21124] ERROR : The router can't forward!
+2021-07-02 15:28:30 [21124] ERROR : OnUpgradeThread Ping 192.168.225.1 Source 192.168.225.5 Fail
+2021-07-02 15:29:12 [24568] INFO  : ReportNetCardThread PostMessage 5574132 - Realtek USB FE Family Controller
+2021-07-02 15:30:37 [24568] INFO  : ReportNetCardThread PostMessage 5574132 - Realtek USB FE Family Controller
+2021-07-02 15:31:54 [24568] INFO  : ReportNetCardThread PostMessage 5574132 - Realtek USB FE Family Controller
+2021-07-02 15:32:10 [ 2768] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 15:32:10 [ 2768] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 15:32:10 [ 2768] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-07-02 15:32:10 [ 2768] INFO  : NETCARD Remove NetCard Msg Window:5574132
+2021-07-02 15:32:10 [ 2768] INFO  : Remove NetCard Device Msg Window:5574132
+2021-07-02 15:32:10 [ 2768] INFO  : NETCARD Close NetCard Thread
+2021-07-02 15:32:10 [ 2768] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 15:32:10 [ 2768] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 15:32:10 [ 2768] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 02EF8B10
+2021-07-02 15:32:10 [ 2768] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-07-02 15:32:10 [ 2768] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 15:32:10 [ 2768] INFO  : LoadSubPluginSubWndImpl : CTSEMultipleTestPlugin.dll
+2021-07-02 15:32:10 [ 2768] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEMultipleTestPlugin.dll)
+2021-07-02 15:32:11 [ 2768] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEMultipleTestPlugin.dll,clsid: JGW::CCTSEMultipleTestPluginDlg
+2021-07-02 15:32:11 [ 2768] INFO  : NETCARD Start NetCard Thread Interval Time MS: 500
+2021-07-02 15:32:11 [ 2768] INFO  : NETCARD Remove NetCard Msg Window:5574132
+2021-07-02 15:32:11 [ 2768] INFO  : Remove NetCard Device Msg Window:5574132
+2021-07-02 15:32:11 [ 2768] INFO  : NETCARD Reg NetCard Msg Window: 5574132,IP:192.168.225.
+2021-07-02 15:32:11 [16820] INFO  : ReportNetCardThread PostMessage 5574132 - Realtek USB FE Family Controller
+2021-07-02 15:36:57 [ 2768] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-07-02 15:36:57 [ 2768] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 15:36:57 [ 2768] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 15:36:57 [ 2768] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-07-02 15:36:57 [ 2768] INFO  : NETCARD Remove NetCard Msg Window:5574132
+2021-07-02 15:36:57 [ 2768] INFO  : Remove NetCard Device Msg Window:5574132
+2021-07-02 15:36:57 [ 2768] INFO  : NETCARD Close NetCard Thread
+2021-07-02 15:36:58 [ 2768] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 15:36:58 [ 2768] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 15:36:58 [ 2768] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 02EF8DB0
+2021-07-02 15:36:58 [ 2768] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEMultipleTestPlugin.dll
+2021-07-02 17:26:48 [23548] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-07-02 17:26:48 [23548] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\JGW_DevicePool.dll)
+2021-07-02 17:26:49 [23548] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-07-02 17:26:49 [23548] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll)
+2021-07-02 17:26:49 [23548] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-07-02 17:27:45 [23548] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 17:27:45 [23548] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 17:27:45 [23548] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 17:27:45 [23548] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 17:27:45 [23548] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 17:27:45 [23548] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-02 17:27:45 [23548] INFO  : DestroyClassPtr clsid : ,ptr : 00000000
+2021-07-02 17:27:45 [23548] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll,clsid: JGW::CCJGWUiLibPluginViewResolver
+2021-07-02 17:27:45 [23548] INFO  : LoadSubPluginSubWndImpl : CTSEThroughTestPlugin.dll
+2021-07-02 17:27:45 [23548] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll)
+2021-07-02 17:27:45 [23548] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll,clsid: JGW::CCTSEThroughTestDlg
+2021-07-02 17:28:18 [21368] ERROR : 
+2021-07-02 17:32:37 [23548] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-07-02 17:32:37 [23548] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-02 17:32:37 [23548] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-02 17:32:37 [23548] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 17:32:37 [23548] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-02 17:32:37 [23548] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-02 17:32:37 [23548] INFO  : DestroyClassPtr clsid : JGW::CCJGWUiLibPluginViewResolver,ptr : 02CC9440
+2021-07-02 17:32:37 [23548] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CTSEThroughTestPlugin.dll
+2021-07-02 19:15:03 [16076] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\JGW_UiLibViewResolver.dll)
+2021-07-02 19:15:03 [16076] INFO  : CCJGW_PocoClassLoader::LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\JGW_DevicePool.dll)
+2021-07-02 19:15:03 [16076] INFO  : LoadSubPluginSubWndImpl : CWelcomPlugin.dll
+2021-07-02 19:15:03 [16076] INFO  : LoadSubWndPlugin loadLibrary(path:C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll)
+2021-07-02 19:15:03 [16076] INFO  : CreateSubWndImpl : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll,clsid: JGW::CCWelcomViewDlg
+2021-07-03 14:00:19 [16076] INFO  : CCJGWMainDlg::OnCloseWindow
+2021-07-03 14:00:19 [16076] INFO  : CCJGWMainDlg::CloseSubPluginView
+2021-07-03 14:00:19 [16076] INFO  : CCJGWUIEvent::CloseSubPluginView
+2021-07-03 14:00:19 [16076] INFO  : CloseSubPluginView : C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-03 14:00:19 [16076] INFO  : CCJGWMainDlg::DestroySubPlugin
+2021-07-03 14:00:19 [16076] INFO  : CCJGWUIEvent::DestroySubPlugin
+2021-07-03 14:00:19 [16076] INFO  : CJGWLoadSubPlugin::FreeSubPlugin:unloadlibrary C:\JGWStart\JaGuarWaveTestPlatform_V20210701\exec\plugin\CWelcomPlugin.dll
+2021-07-03 14:00:19 [16076] INFO  : DestroyClassPtr clsid : ,ptr : 00000000

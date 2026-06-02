@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+	<Font name="宋体" size="16" bold="false" default="true" />
+	<Font name="宋体" size="12" bold="false"/>
+	<Font name="宋体" size="48" bold="true" italic="false" />
+	<Font name="宋体" size="18" bold="true" italic="false" />
+	<Font name="宋体" size="24" bold="false"/>
+	<Font name="宋体" size="36" bold="false"/>
+	<Font name="宋体" size="14" bold="false"/>
+	<Font name="宋体" size="96" bold="false"/>
+	<Font name="宋体" size="16" bold="false"/>
+	<Font name="宋体" size="15" bold="false"/>
+	<Font name="宋体" size="13" bold="false"/>
+	<Font name="宋体" size="11" bold="false"/>
+	<Font name="宋体" size="10" bold="false"/>
+	<Default name="CheckBox" value="textcolor=&quot;#FFbac0c5&quot; hottextcolor=&quot;#FF386382&quot; selectedtextcolor=&quot;#FF386382&quot; disabledtextcolor=&quot;#FFbac0c5&quot; textpadding=&quot;20,2,0,0&quot; align=&quot;left&quot; selectedimage=&quot;file=&apos;checked.png&apos; dest=&apos;0,2,16,18&apos;&quot; normalimage=&quot;file=&apos;unchecked.png&apos; dest=&apos;0,2,16,18&apos;&quot; font=&quot;10&quot;" />
+    <VerticalLayout  enabled="true" bkcolor="#ffe5e5e5">
+        <HorizontalLayout bordersize="1" enabled="true"  bordercolor="#00C0C0C0" height="40" inset="5,5,5,5">
+			<Label text="Image: "  enabled="true" width="60" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="wrap" />
+            <Label name="downPathLabel" text="" enabled="true" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" endellipsis="true" />
+			<Button name="chooseBtn" text="..." enabled="true" font="6" width="80" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;button_over.bmp&apos;corner='5,5,5,5'; " hotimage=" file=&apos;button_nor.bmp&apos;corner='5,5,5,5'; " pushedimage=" file=&apos;button_over.png&apos;corner='5,5,5,5';" focusedimage=" file=&apos;button_nor.bmp&apos;corner='5,5,5,5'; " disabledimage=" file=&apos;disable_btn.png&apos;corner='5,5,5,5'; "/>
+			<Control enabled="true" width="5"/>
+            <!-- <Button name="clearBtn" text="清空排序" font="10" enabled="true" width="80" textcolor="#ffff00" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;button_nor_show.png&apos;corner='5,5,5,5'; " hotimage=" file=&apos;button_nor_show.png&apos;corner='5,5,5,5'; " pushedimage=" file=&apos;button_down.bmp&apos;corner='5,5,5,5';" focusedimage=" file=&apos;Button_Hot.png&apos;corner='5,5,5,5'; " disabledimage=" file=&apos;disable_btn.png&apos;corner='5,5,5,5'; "tooltip="清空端口排序,当前排序索引和下载线程被清空,只能在没有线程下载的清空下点击此按钮" />
+			<Control enabled="true" width="5"/> -->
+			<Button name="configBtn" text="Config" font="10" enabled="true" width="80" textcolor="#ffff00" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;button_nor_show.png&apos;corner='5,5,5,5'; " hotimage=" file=&apos;button_nor_show.png&apos;corner='5,5,5,5'; " pushedimage=" file=&apos;button_down.bmp&apos;corner='5,5,5,5';" focusedimage=" file=&apos;Button_Hot.png&apos;corner='5,5,5,5'; " disabledimage=" file=&apos;disable_btn.png&apos;corner='5,5,5,5'; " tooltip="" />
+			<!--Control enabled="true" width="5"/>
+			<CheckBox name="validateImageComCheckBox" font="10" padding="2,3,2,2" text="Validate FW"  enabled="true" width="100" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" tooltip="下载失败的设备或者重新下载设备需要勾选此按钮(设备将自动切换到下载模式)" />
+			<Control enabled="true" width="5"/>
+			<CheckBox name="autoSwitchComCheckBox" font="10" padding="2,3,2,2" text="自动切换到下载端口"  enabled="true" width="140" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" tooltip="下载失败的设备或者重新下载设备需要勾选此按钮(设备将自动切换到下载模式)" />	
+			<Control enabled="true" width="5"/>
+			<CheckBox name="FormatPDBComCheckBox" padding="2,3,2,2" text="全擦"  enabled="true" width="50" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" font="10" tooltip="将清空PDB分区信息(包括SN/MAC)，请谨慎使用" /-->			
+        </HorizontalLayout>
+		<VerticalLayout name="MainMultipleVerticalLayout" bordersize="1" enabled="true">
+			<HorizontalLayout enabled="true" bordersize="2" bordercolor="#ffffff" padding="5,5,5,5">
+				<VerticalLayout inset="5,5,5,5">
+					<HorizontalLayout height="30">
+						<Edit bkcolor="#ffa4a0a0" readonly="true" name="indexText1" padding="0,2,0,2" text="1" align="center" width="30" enabled="true" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+						<Control enabled="true" width="5"/>
+						<Progress name="DownLoadProgress1" padding="0,2,0,2" enabled="true" height="26" bkimage="file=&apos;slider_bg.png&apos; corner=&apos;15,5,15,5&apos;" foreimage="file='progress_fore.png'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="300" value="100" hor="true" />
+						<Control enabled="true" width="5"/>
+						<Button name="configLanBtn" text="Start" padding="0,2,0,2" font="10" width="60" enabled="true" textcolor="#ffff00" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;button_nor_show.png&apos;corner='5,5,5,5'; " hotimage=" file=&apos;button_nor_show.png&apos;corner='5,5,5,5'; " pushedimage=" file=&apos;button_down.bmp&apos;corner='5,5,5,5';" focusedimage=" file=&apos;Button_Hot.png&apos;corner='5,5,5,5'; " disabledimage=" file=&apos;disable_btn.png&apos;corner='5,5,5,5'; " tooltip="" />
+					</HorizontalLayout>
+					<HorizontalLayout height="42" >
+						<Label text="IDEL" name="statusText1" enabled="true" minwidth="90" bkcolor="#ffffffa0"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="centerwrap" />
+					</HorizontalLayout>
+					<HorizontalLayout>
+						<RichEdit name="logedt" text="" tipvalue=""  enabled="true"  bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"  maxchar="9000"  align="left" vscrollbar="true" hscrollbar="false" multiline="true" autohscroll="false" autovscroll="true"/>
+					</HorizontalLayout>
+				</VerticalLayout>
+				<VerticalLayout inset="5,5,5,5">
+				<HorizontalLayout height="30">
+					<Edit bkcolor="#ffa4a0a0" readonly="true" name="indexText1" padding="0,2,0,2" text="2" align="center" width="30" enabled="true" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+					<Control enabled="true" width="5"/>
+					<Progress name="DownLoadProgress1" padding="0,2,0,2" enabled="true" height="26" bkimage="file=&apos;slider_bg.png&apos; corner=&apos;15,5,15,5&apos;" foreimage="file='progress_fore.png'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="300" value="200" hor="true"/>
+				</HorizontalLayout>
+				<HorizontalLayout height="42" >
+					<Label text="BUSY" name="statusText1" enabled="true" minwidth="90" bkcolor="#ffa0c0ff"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="centerwrap" />
+				</HorizontalLayout>
+				<HorizontalLayout>
+					<RichEdit name="logedt" text="" tipvalue=""  enabled="true"  bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"  maxchar="9000"  align="left" vscrollbar="true" hscrollbar="false" multiline="true" autohscroll="false" autovscroll="true"/>
+				</HorizontalLayout>
+			</VerticalLayout>
+			</HorizontalLayout>
+			<HorizontalLayout enabled="true" bordersize="2" bordercolor="#ffffff" padding="5,5,5,5">
+				<VerticalLayout inset="5,5,5,5">
+					<HorizontalLayout height="30">
+						<Edit bkcolor="#ffa4a0a0" readonly="true" name="indexText1" padding="0,2,0,2" text="1" align="center" width="30" enabled="true" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+						<Control enabled="true" width="5"/>
+						<Progress name="DownLoadProgress1" padding="0,2,0,2" enabled="true" height="26" bkimage="file=&apos;slider_bg.png&apos; corner=&apos;15,5,15,5&apos;" foreimage="file='progress_fore.png'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="300" value="100" hor="true" />
+					</HorizontalLayout>
+					<HorizontalLayout height="42" >
+						<Label text="PASS" name="statusText1" enabled="true" minwidth="90" bkcolor="#ff00ff00"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="centerwrap" />
+					</HorizontalLayout>
+					<HorizontalLayout>
+						<RichEdit name="logedt" text="" tipvalue=""  enabled="true"  bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"  maxchar="9000"  align="left" vscrollbar="true" hscrollbar="false" multiline="true" autohscroll="false" autovscroll="true"/>
+					</HorizontalLayout>
+				</VerticalLayout>
+				<VerticalLayout inset="5,5,5,5">
+					<HorizontalLayout height="30">
+						<Edit bkcolor="#ffa4a0a0" readonly="true" name="indexText1" padding="0,2,0,2" text="2" align="center" width="30" enabled="true" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+						<Control enabled="true" width="5"/>
+						<Progress name="DownLoadProgress1" padding="0,2,0,2" enabled="true" height="26" bkimage="file=&apos;slider_bg.png&apos; corner=&apos;15,5,15,5&apos;" foreimage="file='progress_fore_read.png'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="300" value="100" hor="true" />
+					</HorizontalLayout>
+					<HorizontalLayout height="42" >
+						<Label text="FAIL" name="statusText1" enabled="true" minwidth="90" bkcolor="#ffff0000"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="centerwrap" />
+					</HorizontalLayout>
+					<HorizontalLayout>
+						<RichEdit name="logedt" text="" tipvalue=""  enabled="true"  bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"  maxchar="9000"  align="left" vscrollbar="true" hscrollbar="false" multiline="true" autohscroll="false" autovscroll="true"/>
+					</HorizontalLayout>
+				</VerticalLayout>
+			</HorizontalLayout>
+		</VerticalLayout>
+		<!-- <HorizontalLayout enabled="true" bordersize="2" bordercolor="#ffffff" padding="5,5,5,5">
+			<VerticalLayout inset="5,5,5,5">
+				<HorizontalLayout height="30">
+					<Edit bkcolor="#ffa4a0a0" readonly="true" name="indexText1" padding="0,2,0,2" text="1" align="center" width="30" enabled="true" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+					<Control enabled="true" width="5"/>
+					<Progress name="DownLoadProgress1" padding="0,2,0,2" enabled="true" height="26" bkimage="file=&apos;slider_bg.png&apos; corner=&apos;15,5,15,5&apos;" foreimage="file='progress_fore.png'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="300" value="100" hor="true" />
+				</HorizontalLayout>
+				<HorizontalLayout height="42" >
+					<Label text="IDEL" name="statusText1" enabled="true" minwidth="90" bkcolor="#FF008080"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="centerwrap" />
+				</HorizontalLayout>
+				<HorizontalLayout>
+					<RichEdit name="logedt" text="" tipvalue=""  enabled="true"  bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"  maxchar="9000"  align="left" vscrollbar="true" hscrollbar="false" multiline="true" autohscroll="false" autovscroll="true"/>
+				</HorizontalLayout>
+			</VerticalLayout>
+			<VerticalLayout inset="5,5,5,5">
+				<HorizontalLayout height="30">
+					<Edit bkcolor="#ffa4a0a0" readonly="true" name="indexText1" padding="0,2,0,2" text="2" align="center" width="30" enabled="true" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+					<Control enabled="true" width="5"/>
+					<Progress name="DownLoadProgress1" padding="0,2,0,2" enabled="true" height="26" bkimage="file=&apos;slider_bg.png&apos; corner=&apos;15,5,15,5&apos;" foreimage="file='progress_fore.png'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="300" value="0" hor="true" />
+				</HorizontalLayout>
+				<HorizontalLayout height="42" >
+					<Label text="IDEL" name="statusText1" enabled="true" minwidth="90" bkcolor="#FF008080"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="centerwrap" />
+				</HorizontalLayout>
+				<HorizontalLayout>
+					<RichEdit name="logedt" text="" tipvalue=""  enabled="true"  bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"  maxchar="9000"  align="left" vscrollbar="true" hscrollbar="false" multiline="true" autohscroll="false" autovscroll="true"/>
+				</HorizontalLayout>
+			</VerticalLayout>
+
+			<VerticalLayout inset="5,5,5,5">
+				<HorizontalLayout height="30">
+					<Edit bkcolor="#ffa4a0a0" readonly="true" name="indexText1" padding="0,2,0,2" text="3" align="center" width="30" enabled="true" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+					<Control enabled="true" width="5"/>
+					<Progress name="DownLoadProgress1" padding="0,2,0,2" enabled="true" height="26" bkimage="file=&apos;slider_bg.png&apos; corner=&apos;15,5,15,5&apos;" foreimage="file='progress_fore.png'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="300" value="0" hor="true" />
+				</HorizontalLayout>
+				<HorizontalLayout height="42" >
+					<Label text="IDEL" name="statusText1" enabled="true" minwidth="90" bkcolor="#FF008080"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="centerwrap" />
+				</HorizontalLayout>
+				<HorizontalLayout>
+					<RichEdit name="logedt" text="" tipvalue=""  enabled="true"  bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"  maxchar="9000"  align="left" vscrollbar="true" hscrollbar="false" multiline="true" autohscroll="false" autovscroll="true"/>
+				</HorizontalLayout>
+			</VerticalLayout>
+	
+			<VerticalLayout inset="5,5,5,5">
+				<HorizontalLayout height="30">
+					<Edit bkcolor="#ffa4a0a0" readonly="true" name="indexText1" padding="0,2,0,2" text="4" align="center" width="30" enabled="true" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+					<Control enabled="true" width="5"/>
+					<Progress name="DownLoadProgress1" padding="0,2,0,2" enabled="true" height="26" bkimage="file=&apos;slider_bg.png&apos; corner=&apos;15,5,15,5&apos;" foreimage="file='progress_fore.png'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="300" value="0" hor="true" />
+				</HorizontalLayout>
+				<HorizontalLayout height="42" >
+					<Label text="IDEL" name="statusText1" enabled="true" minwidth="90" bkcolor="#FF008080"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="centerwrap" />
+				</HorizontalLayout>
+				<HorizontalLayout>
+					<RichEdit name="logedt" text="" tipvalue=""  enabled="true"  bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"  maxchar="9000"  align="left" vscrollbar="true" hscrollbar="false" multiline="true" autohscroll="false" autovscroll="true"/>
+				</HorizontalLayout>
+			</VerticalLayout>
+		</HorizontalLayout>
+		<HorizontalLayout enabled="true" bordersize="2" bordercolor="#ffffff" padding="5,5,5,5">
+			<VerticalLayout inset="5,5,5,5">
+				<HorizontalLayout height="30">
+					<Edit bkcolor="#ffa4a0a0" readonly="true" name="indexText1" padding="0,2,0,2" text="1" align="center" width="30" enabled="true" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+					<Control enabled="true" width="5"/>
+					<Progress name="DownLoadProgress1" padding="0,2,0,2" enabled="true" height="26" bkimage="file=&apos;slider_bg.png&apos; corner=&apos;15,5,15,5&apos;" foreimage="file='progress_fore.png'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="300" value="0" hor="true" />
+				</HorizontalLayout>
+				<HorizontalLayout height="42" >
+					<Label text="IDEL" name="statusText1" enabled="true" minwidth="90" bkcolor="#FF008080"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="centerwrap" />
+				</HorizontalLayout>
+				<HorizontalLayout>
+					<RichEdit name="logedt" text="" tipvalue=""  enabled="true"  bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"  maxchar="9000"  align="left" vscrollbar="true" hscrollbar="false" multiline="true" autohscroll="false" autovscroll="true"/>
+				</HorizontalLayout>
+			</VerticalLayout>
+			<VerticalLayout inset="5,5,5,5">
+				<HorizontalLayout height="30">
+					<Edit bkcolor="#ffa4a0a0" readonly="true" name="indexText1" padding="0,2,0,2" text="2" align="center" width="30" enabled="true" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+					<Control enabled="true" width="5"/>
+					<Progress name="DownLoadProgress1" padding="0,2,0,2" enabled="true" height="26" bkimage="file=&apos;slider_bg.png&apos; corner=&apos;15,5,15,5&apos;" foreimage="file='progress_fore.png'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="300" value="0" hor="true" />
+				</HorizontalLayout>
+				<HorizontalLayout height="42" >
+					<Label text="IDEL" name="statusText1" enabled="true" minwidth="90" bkcolor="#FF008080"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="centerwrap" />
+				</HorizontalLayout>
+				<HorizontalLayout>
+					<RichEdit name="logedt" text="" tipvalue=""  enabled="true"  bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"  maxchar="9000"  align="left" vscrollbar="true" hscrollbar="false" multiline="true" autohscroll="false" autovscroll="true"/>
+				</HorizontalLayout>
+			</VerticalLayout>
+
+			<VerticalLayout inset="5,5,5,5">
+				<HorizontalLayout height="30">
+					<Edit bkcolor="#ffa4a0a0" readonly="true" name="indexText1" padding="0,2,0,2" text="3" align="center" width="30" enabled="true" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+					<Control enabled="true" width="5"/>
+					<Progress name="DownLoadProgress1" padding="0,2,0,2" enabled="true" height="26" bkimage="file=&apos;slider_bg.png&apos; corner=&apos;15,5,15,5&apos;" foreimage="file='progress_fore.png'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="300" value="0" hor="true" />
+				</HorizontalLayout>
+				<HorizontalLayout height="42" >
+					<Label text="IDEL" name="statusText1" enabled="true" minwidth="90" bkcolor="#FF008080"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="centerwrap" />
+				</HorizontalLayout>
+				<HorizontalLayout>
+					<RichEdit name="logedt" text="" tipvalue=""  enabled="true"  bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"  maxchar="9000"  align="left" vscrollbar="true" hscrollbar="false" multiline="true" autohscroll="false" autovscroll="true"/>
+				</HorizontalLayout>
+			</VerticalLayout>
+	
+			<VerticalLayout inset="5,5,5,5">
+				<HorizontalLayout height="30">
+					<Edit bkcolor="#ffa4a0a0" readonly="true" name="indexText1" padding="0,2,0,2" text="4" align="center" width="30" enabled="true" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+					<Control enabled="true" width="5"/>
+					<Progress name="DownLoadProgress1" padding="0,2,0,2" enabled="true" height="26" bkimage="file=&apos;slider_bg.png&apos; corner=&apos;15,5,15,5&apos;" foreimage="file='progress_fore.png'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="300" value="0" hor="true" />
+				</HorizontalLayout>
+				<HorizontalLayout height="42" >
+					<Label text="IDEL" name="statusText1" enabled="true" minwidth="90" bkcolor="#FF008080"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="centerwrap" />
+				</HorizontalLayout>
+				<HorizontalLayout>
+					<RichEdit name="logedt" text="" tipvalue=""  enabled="true"  bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"  maxchar="9000"  align="left" vscrollbar="true" hscrollbar="false" multiline="true" autohscroll="false" autovscroll="true"/>
+				</HorizontalLayout>
+			</VerticalLayout>
+		</HorizontalLayout> -->
+		
+        <!-- <HorizontalLayout enabled="true" bordersize="2" bordercolor="#ffffff" >
+            <VerticalLayout enabled="true" width="40">
+				<Control enabled="true" />
+                <Label name="indexText1" text="1"  textpadding="10,0,0,0" enabled="true" width="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+				<Control enabled="true" />
+			</VerticalLayout>
+            <VerticalLayout enabled="true" width="100">
+				<Control enabled="true" />
+                <Label name="comLabel1" text="COM1" font="10" textpadding="0,0,0,0"  enabled="true"  height="35" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+				<Control enabled="true" />
+			</VerticalLayout>
+            <VerticalLayout enabled="true">
+                <Control enabled="true" />
+                <Progress name="DownLoadProgress1" enabled="true" height="30" bkimage="file=&apos;slider_bg.png&apos; corner=&apos;15,5,15,5&apos;" foreimage="file='progress_fore.png'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="300" value="0" hor="true" />
+				<Control enabled="true" />
+            </VerticalLayout>
+            <VerticalLayout enabled="true" width="160" minwidth="160" >
+				<Control enabled="true" />
+				<HorizontalLayout enabled="true" height="42">
+					<VerticalLayout enabled="true" width="10"/>
+					<Label text="IDEL" name="statusText1" enabled="true" width="90" minwidth="90" height="42" bkcolor="#FF008080"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="centerwrap" />
+					<VerticalLayout enabled="true" inset="10,5,10,5">
+						<Control enabled="true" />
+						<Button name="DownLoadLog1" text="log" enabled="true" width="40" textcolor="#ffff00" disabledtextcolor="#FFA7A6AA" font="1" align="center" normalimage="main_unselected.png" hotimage="main_hotsel.png" pushedimage="main_hotsel.png" focusedimage="main_selected.png" />
+						<Control enabled="true" />
+					</VerticalLayout>
+				</HorizontalLayout>
+				<Control enabled="true" />
+            </VerticalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout enabled="true" bordersize="2" bordercolor="#ffffff">
+            <VerticalLayout enabled="true" width="40">
+				<Control enabled="true" />
+                <Label name="indexText2" text="2"  textpadding="10,0,0,0" enabled="true" width="30" height="36" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+				<Control enabled="true" />
+			</VerticalLayout>
+            <VerticalLayout enabled="true" width="100">
+				<Control enabled="true" />
+                <Label name="comLabel2" text="COM2" font="10" textpadding="0,0,0,0"  enabled="true"  height="35" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+				<Control enabled="true" />
+			</VerticalLayout>
+            <VerticalLayout enabled="true">
+                <Control enabled="true" />
+                <Progress name="DownLoadProgress2" enabled="true" height="30" bkimage="file=&apos;slider_bg.png&apos; corner=&apos;15,5,15,5&apos;" foreimage="file='progress_fore.png'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="300" value="0" hor="true" />
+				<Control enabled="true" />
+            </VerticalLayout>
+           <VerticalLayout enabled="true" width="160" minwidth="160" >
+				<Control enabled="true" />
+				<HorizontalLayout enabled="true" height="42">
+					<VerticalLayout enabled="true" width="10"/>
+					<Label text="IDEL" name="statusText2" enabled="true" width="90" minwidth="90" height="42" bkcolor="#FF008080"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="centerwrap" />
+					<VerticalLayout enabled="true" inset="10,5,10,5">
+						<Control enabled="true" />
+						<Button name="DownLoadLog2" text="log" enabled="true" width="40" textcolor="#ffff00" disabledtextcolor="#FFA7A6AA" font="1" align="center" normalimage="main_unselected.png" hotimage="main_hotsel.png" pushedimage="main_hotsel.png" focusedimage="main_selected.png" />
+						<Control enabled="true" />
+					</VerticalLayout>				</HorizontalLayout>
+				<Control enabled="true" />
+            </VerticalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout enabled="true" bordersize="2" bordercolor="#ffffff">
+            <VerticalLayout enabled="true" width="40">
+				<Control enabled="true" />
+                <Label name="indexText3" text="3"  textpadding="10,0,0,0" enabled="true" width="30" height="36" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+				<Control enabled="true" />
+			</VerticalLayout>
+            <VerticalLayout enabled="true" width="100">
+				<Control enabled="true" />
+                <Label name="comLabel3" text="COM3" font="10" textpadding="0,0,0,0"  enabled="true"  height="35" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+				<Control enabled="true" />
+			</VerticalLayout>
+            <VerticalLayout enabled="true">
+                <Control enabled="true" />
+                <Progress name="DownLoadProgress3" enabled="true" height="30" bkimage="file=&apos;slider_bg.png&apos; corner=&apos;15,5,15,5&apos;" foreimage="file='progress_fore.png'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="300" value="0" hor="true" />
+				<Control enabled="true" />
+            </VerticalLayout>
+           <VerticalLayout enabled="true" width="160" minwidth="160" >
+				<Control enabled="true" />
+				<HorizontalLayout enabled="true" height="42">
+					<VerticalLayout enabled="true" width="10"/>
+					<Label text="IDEL" name="statusText3" enabled="true" width="90" minwidth="90" height="42" bkcolor="#FF008080"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="centerwrap" />
+					<VerticalLayout enabled="true" inset="10,5,10,5">
+						<Control enabled="true" />
+						<Button name="DownLoadLog3" text="log" enabled="true" width="40" textcolor="#ffff00" disabledtextcolor="#FFA7A6AA" font="1" align="center" normalimage="main_unselected.png" hotimage="main_hotsel.png" pushedimage="main_hotsel.png" focusedimage="main_selected.png" />
+						<Control enabled="true" />
+					</VerticalLayout>
+				</HorizontalLayout>
+				<Control enabled="true" />
+            </VerticalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout enabled="true" bordersize="2" bordercolor="#ffffff">
+            <VerticalLayout enabled="true" width="40">
+				<Control enabled="true" />
+                <Label name="indexText4" text="4"  textpadding="10,0,0,0" enabled="true" width="30" height="36" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+				<Control enabled="true" />
+			</VerticalLayout>
+            <VerticalLayout enabled="true" width="100">
+				<Control enabled="true" />
+                <Label name="comLabel4" text="COM4" font="10" textpadding="0,0,0,0"  enabled="true"  height="35" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+				<Control enabled="true" />
+			</VerticalLayout>
+            <VerticalLayout enabled="true">
+                <Control enabled="true" />
+                <Progress name="DownLoadProgress4" enabled="true" height="30" bkimage="file=&apos;slider_bg.png&apos; corner=&apos;15,5,15,5&apos;" foreimage="file='progress_fore.png'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="300" value="0" hor="true" />
+				<Control enabled="true" />
+            </VerticalLayout>
+           <VerticalLayout enabled="true" width="160" minwidth="160" >
+				<Control enabled="true" />
+				<HorizontalLayout enabled="true" height="42">
+					<VerticalLayout enabled="true" width="10"/>
+					<Label text="IDEL" name="statusText4" enabled="true" width="90" minwidth="90" height="42" bkcolor="#FF008080"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="centerwrap" />
+					<VerticalLayout enabled="true" inset="10,5,10,5">
+						<Control enabled="true" />
+						<Button name="DownLoadLog4" text="log" enabled="true" width="40" textcolor="#ffff00" disabledtextcolor="#FFA7A6AA" font="1" align="center" normalimage="main_unselected.png" hotimage="main_hotsel.png" pushedimage="main_hotsel.png" focusedimage="main_selected.png" />
+						<Control enabled="true" />
+					</VerticalLayout>				
+				</HorizontalLayout>
+				<Control enabled="true" />
+            </VerticalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout enabled="true" bordersize="2" bordercolor="#ffffff">
+            <VerticalLayout enabled="true" width="40">
+				<Control enabled="true" />
+                <Label name="indexText5" text="5"  textpadding="10,0,0,0" enabled="true" width="30" height="36" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+				<Control enabled="true" />
+			</VerticalLayout>
+            <VerticalLayout enabled="true" width="100">
+				<Control enabled="true" />
+                <Label name="comLabel5" text="COM5" font="10" textpadding="0,0,0,0"  enabled="true"  height="35" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+				<Control enabled="true" />
+			</VerticalLayout>
+            <VerticalLayout enabled="true">
+                <Control enabled="true" />
+                <Progress name="DownLoadProgress5" enabled="true" height="30" bkimage="file=&apos;slider_bg.png&apos; corner=&apos;15,5,15,5&apos;" foreimage="file='progress_fore.png'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="300" value="0" hor="true" />
+				<Control enabled="true" />
+            </VerticalLayout>
+           <VerticalLayout enabled="true" width="160" minwidth="160" >
+				<Control enabled="true" />
+				<HorizontalLayout enabled="true" height="42">
+					<VerticalLayout enabled="true" width="10"/>
+					<Label text="IDEL" name="statusText5" enabled="true" width="90" minwidth="90" height="42" bkcolor="#FF008080"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="centerwrap" />
+					<VerticalLayout enabled="true" inset="10,5,10,5">
+						<Control enabled="true" />
+						<Button name="DownLoadLog5" text="log" enabled="true" width="40" textcolor="#ffff00" disabledtextcolor="#FFA7A6AA" font="1" align="center" normalimage="main_unselected.png" hotimage="main_hotsel.png" pushedimage="main_hotsel.png" focusedimage="main_selected.png" />
+						<Control enabled="true" />
+					</VerticalLayout>
+				</HorizontalLayout>
+				<Control enabled="true" />
+            </VerticalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout enabled="true" bordersize="2" bordercolor="#ffffff">
+            <VerticalLayout enabled="true" width="40">
+				<Control enabled="true" />
+                <Label name="indexText6" text="6"  textpadding="10,0,0,0" enabled="true" width="30" height="36" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+				<Control enabled="true" />
+			</VerticalLayout>
+            <VerticalLayout enabled="true" width="100">
+				<Control enabled="true" />
+                <Label name="comLabel6" text="COM6" font="10" textpadding="0,0,0,0"  enabled="true"  height="35" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+				<Control enabled="true" />
+			</VerticalLayout>
+            <VerticalLayout enabled="true">
+                <Control enabled="true" />
+                <Progress name="DownLoadProgress6" bkimage="file=&apos;slider_bg.png&apos; corner=&apos;15,5,15,5&apos;" enabled="true" height="30" foreimage="file='progress_fore.png'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="300" value="0" hor="true" />
+				<Control enabled="true" />
+            </VerticalLayout>
+           <VerticalLayout enabled="true" width="160" minwidth="160" >
+				<Control enabled="true" />
+				<HorizontalLayout enabled="true" height="42">
+					<VerticalLayout enabled="true" width="10"/>
+					<Label text="IDEL" name="statusText6" enabled="true" width="90" minwidth="90" height="42" bkcolor="#FF008080"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="centerwrap" />
+					<VerticalLayout enabled="true" inset="10,5,10,5">
+						<Control enabled="true" />
+						<Button name="DownLoadLog6" text="log" enabled="true" width="40" textcolor="#ffff00" disabledtextcolor="#FFA7A6AA" font="1" align="center" normalimage="main_unselected.png" hotimage="main_hotsel.png" pushedimage="main_hotsel.png" focusedimage="main_selected.png" />
+						<Control enabled="true" />
+					</VerticalLayout>
+				</HorizontalLayout>
+				<Control enabled="true" />
+            </VerticalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout enabled="true" bordersize="2" bordercolor="#ffffff">
+            <VerticalLayout enabled="true" width="40">
+				<Control enabled="true" />
+                <Label name="indexText7" text="7"  textpadding="10,0,0,0" enabled="true" width="30" height="36" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+				<Control enabled="true" />
+			</VerticalLayout>
+            <VerticalLayout enabled="true" width="100">
+				<Control enabled="true" />
+                <Label name="comLabel7" text="COM7" font="10" textpadding="0,0,0,0"  enabled="true"  height="35" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+				<Control enabled="true" />
+			</VerticalLayout>
+            <VerticalLayout enabled="true">
+                <Control enabled="true" />
+                <Progress name="DownLoadProgress7" bkimage="file=&apos;slider_bg.png&apos; corner=&apos;15,5,15,5&apos;" enabled="true" height="30" foreimage="file='progress_fore.png'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="300" value="0" hor="true" />
+				<Control enabled="true" />
+            </VerticalLayout>
+           <VerticalLayout enabled="true" width="160" minwidth="160" >
+				<Control enabled="true" />
+				<HorizontalLayout enabled="true" height="42">
+					<VerticalLayout enabled="true" width="10"/>
+					<Label text="IDEL" name="statusText7" enabled="true" width="90" minwidth="90" height="42" bkcolor="#FF008080"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="centerwrap" />
+					<VerticalLayout enabled="true" inset="10,5,10,5">
+						<Control enabled="true" />
+						<Button name="DownLoadLog7" text="log" enabled="true" width="40" textcolor="#ffff00" disabledtextcolor="#FFA7A6AA" font="1" align="center" normalimage="main_unselected.png" hotimage="main_hotsel.png" pushedimage="main_hotsel.png" focusedimage="main_selected.png" />
+						<Control enabled="true" />
+					</VerticalLayout>
+				</HorizontalLayout>
+				<Control enabled="true" />
+            </VerticalLayout>
+        </HorizontalLayout>
+		<HorizontalLayout enabled="true" bordersize="2" bordercolor="#ffffff">
+            <VerticalLayout enabled="true" width="40">
+				<Control enabled="true" />
+                <Label name="indexText8" text="8"  textpadding="10,0,0,0" enabled="true" width="30" height="36" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+				<Control enabled="true" />
+			</VerticalLayout>
+            <VerticalLayout enabled="true" width="100">
+				<Control enabled="true" />
+                <Label name="comLabel8" text="COM8" font="10" textpadding="0,0,0,0"  enabled="true"  height="35" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+				<Control enabled="true" />
+			</VerticalLayout>
+            <VerticalLayout enabled="true">
+                <Control enabled="true" />
+                <Progress name="DownLoadProgress8" enabled="true" height="30" bkimage="file=&apos;slider_bg.png&apos; corner=&apos;15,5,15,5&apos;" foreimage="file='progress_fore.png'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="300" value="0" hor="true" />
+				<Control enabled="true" />
+            </VerticalLayout>
+           <VerticalLayout enabled="true" width="160" minwidth="160" >
+				<Control enabled="true" />
+				<HorizontalLayout enabled="true" height="42">
+					<VerticalLayout enabled="true" width="10"/>
+					<Label text="IDEL" name="statusText8" enabled="true" width="90" minwidth="90" height="42" bkcolor="#FF008080"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="centerwrap" />
+					<VerticalLayout enabled="true" inset="10,5,10,5">
+						<Control enabled="true" />
+						<Button name="DownLoadLog8" text="log" enabled="true" width="40" textcolor="#ffff00" disabledtextcolor="#FFA7A6AA" font="1" align="center" normalimage="main_unselected.png" hotimage="main_hotsel.png" pushedimage="main_hotsel.png" focusedimage="main_selected.png" />
+						<Control enabled="true" />
+					</VerticalLayout>
+				</HorizontalLayout>
+				<Control enabled="true" />
+            </VerticalLayout>
+        </HorizontalLayout> -->
+    </VerticalLayout>
+</Window>

@@ -1,0 +1,55 @@
+﻿生成启动时间为 2020/12/8 10:58:24。
+     1>项目“F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\platform_plugin\TSE\CSTSE_FoundationLib\CSTSE_FoundationLib.vcxproj”在节点 5 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_FoundationLib.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\platform_library\include" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\platform_plugin\include" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\platform_core\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D CSTSE_FOUNDATION_LIB_EXPORTS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_FoundationLib.pch" /Fo"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\\" /Fd"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\platform_library\include" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\platform_plugin\include" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\platform_core\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D CSTSE_FOUNDATION_LIB_EXPORTS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_FoundationLib.pch" /Fo"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\\" /Fd"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CSTSE_BaseJson.cpp CSTSE_ClientBase.cpp CSTSE_CryptoDefault.cpp CSTSE_CryptoEmpty.cpp CSTSE_EnverionmentJson.cpp CSTSE_GetTSEInfoJson.cpp CSTSE_LogListenerEmpty.cpp CSTSE_ResponseBaseJson.cpp CSTSE_RspEnverionmentJson.cpp CSTSE_RsponseTSEInfoJson.cpp CSTSE_RspTSETestJson.cpp CSTSE_ServerBase.cpp CSTSE_TestIndexChangeJson.cpp CSTSE_TestLogJson.cpp CSTSE_TestStatusChangeJson.cpp CSTSE_TestStatusListenerEmpty.cpp CSTSE_TSETestJson.cpp CSTSE_InitCommandParamJson.cpp
+         CSTSE_BaseJson.cpp
+         CSTSE_ClientBase.cpp
+         CSTSE_CryptoDefault.cpp
+         CSTSE_CryptoEmpty.cpp
+         CSTSE_EnverionmentJson.cpp
+         CSTSE_GetTSEInfoJson.cpp
+         CSTSE_LogListenerEmpty.cpp
+         CSTSE_ResponseBaseJson.cpp
+         CSTSE_RspEnverionmentJson.cpp
+         CSTSE_RsponseTSEInfoJson.cpp
+         CSTSE_RspTSETestJson.cpp
+         CSTSE_ServerBase.cpp
+         CSTSE_TestIndexChangeJson.cpp
+         CSTSE_TestLogJson.cpp
+         CSTSE_TestStatusChangeJson.cpp
+         CSTSE_TestStatusListenerEmpty.cpp
+         CSTSE_TSETestJson.cpp
+         CSTSE_InitCommandParamJson.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\lib\plugin\CSTSE_FoundationLib.lib" /LIBPATH:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\platform_core_lib\boost\lib" /NOLOGO /LTCG "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_BaseJson.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_ClientBase.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_CryptoDefault.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_CryptoEmpty.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_EnverionmentJson.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_GetTSEInfoJson.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_LogListenerEmpty.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_ResponseBaseJson.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_RspEnverionmentJson.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_RsponseTSEInfoJson.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_RspTSETestJson.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_ServerBase.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_TestIndexChangeJson.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_TestLogJson.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_TestStatusChangeJson.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_TestStatusListenerEmpty.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_TSETestJson.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\stdafx.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_InitCommandParamJson.obj"
+         CSTSE_FoundationLib.vcxproj -> F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\lib\plugin\CSTSE_FoundationLib.lib
+       FinalizeBuildStatus:
+         正在删除文件“F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_FoundationLib.unsuccessfulbuild”。
+         正在对“F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\obj\CSTSE_FoundationLib\CSTSE_FoundationLib.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform\platform_plugin\TSE\CSTSE_FoundationLib\CSTSE_FoundationLib.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:45.13

@@ -1,0 +1,49 @@
+#include "StdAfx.h"
+#include "TSE_DisconnectSaharaPort.h"
+#include <JGW_QMSLFuncPlugin/jgw_device_api.h>
+namespace JGW
+{
+    CTSE_DisconnectSaharaPort::CTSE_DisconnectSaharaPort(void) : mstrResourceContextEnv(L"TSE_RESOURCE_CONTEXT")
+    {
+    }
+
+
+    CTSE_DisconnectSaharaPort::~CTSE_DisconnectSaharaPort(void)
+    {
+    }
+
+    const wchar_t* CTSE_DisconnectSaharaPort::TSE_GetParamDescription()
+    {
+        return L"{\
+                \"RealName\": \"CTSE_DisconnectSaharaPort\",\
+                \"TestName\": \"Disconnect Sahara Port\",\
+                \"ResourceContextEnv\": \"get open port handle environment\"\
+                }";
+    }
+
+    bool CTSE_DisconnectSaharaPort::TSE_AddParam(const wchar_t* strParamName,const wchar_t* strParamValue)
+    {
+        if (CTSE_TestBase::TSE_AddParam(strParamName,strParamValue)) return true;
+        if (TSE_PARAM_NAME_EQUAL(strParamName,L"ResourceContextEnv"))
+        {
+            mstrResourceContextEnv = strParamValue;
+        }
+        else
+        {
+            return false;
+        }
+        return true;
+    }
+
+    bool CTSE_DisconnectSaharaPort::TSE_Run()
+    {
+        HANDLE hResourceContext = (HANDLE)GetGlobalEnvironment()->GetInt(mstrResourceContextEnv);
+        if (NULL != hResourceContext)
+        {
+            QLIB_DisconnectServer_Sahara(hResourceContext);
+            GetGlobalEnvironment()->PutInt(mstrResourceContextEnv,NULL);
+        } 
+        return true;
+    }
+}
+

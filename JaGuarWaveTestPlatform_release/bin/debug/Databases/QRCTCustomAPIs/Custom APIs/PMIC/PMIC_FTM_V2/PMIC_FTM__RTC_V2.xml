@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PMIC FTM -->
+<!--  hshen:: This RTC V2 functionality has been tested on MSM8960 MPSS -->
+
+<QRCTCustomAPIPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\schema\qrctCustomApiSchema.xsd" WindowTitle="PMIC-FTM - RTC - V2">
+	<APIs>
+	<SendSyncAPI AttachDirection="ATTACH_LEFT" apiTitle="PMIC - FTM - RTC - V2" >
+	<controls>
+<!--  ******************************************* Set Time ***************************************** -->
+
+		<ComboBox X="10" Y="10" CtrlID="comboTimeSelect__Mode" Label="Mode" Width="100" DropDownWidth="120">
+                <Items>
+                    <CFtmComboItem displayMember="AM"  valueMember="0"/>
+                    <CFtmComboItem displayMember="PM"  valueMember="1"/>
+                    <CFtmComboItem displayMember="24hr" valueMember="2"/>
+                </Items>
+        </ComboBox>
+		<ComboBox X="10" Y="35" CtrlID="comboTimeSelect__Month" Label="Month" Width="100" DropDownWidth="120">
+				<Items>
+					<CFtmComboItem displayMember="Jan"  valueMember="1"/>
+					<CFtmComboItem displayMember="Feb"  valueMember="2"/>
+					<CFtmComboItem displayMember="Mar"  valueMember="3"/>
+					<CFtmComboItem displayMember="Apr"  valueMember="4"/>
+					<CFtmComboItem displayMember="May"  valueMember="5"/>
+					<CFtmComboItem displayMember="Jun"  valueMember="6"/>
+					<CFtmComboItem displayMember="Jul"  valueMember="7"/>
+					<CFtmComboItem displayMember="Aug"  valueMember="8"/>
+					<CFtmComboItem displayMember="Sep"  valueMember="9"/>
+					<CFtmComboItem displayMember="Oct"  valueMember="10"/>
+					<CFtmComboItem displayMember="Nov"  valueMember="11"/>
+					<CFtmComboItem displayMember="Dec"  valueMember="12"/>
+				</Items> 
+		</ComboBox>
+		<ComboBox X="10" Y="60" CtrlID="comboTimeSelect__Day" Label="Day" Width="100" DropDownWidth="120">
+				<Items>
+					<CFtmComboItem displayMember="1"  valueMember="1"/>
+					<CFtmComboItem displayMember="2"  valueMember="2"/>
+					<CFtmComboItem displayMember="3"  valueMember="3"/>
+					<CFtmComboItem displayMember="4"  valueMember="4"/>
+					<CFtmComboItem displayMember="5"  valueMember="5"/>
+					<CFtmComboItem displayMember="6"  valueMember="6"/>
+					<CFtmComboItem displayMember="7"  valueMember="7"/>
+					<CFtmComboItem displayMember="8"  valueMember="8"/>
+					<CFtmComboItem displayMember="9"  valueMember="9"/>
+					<CFtmComboItem displayMember="10"  valueMember="10"/>
+					<CFtmComboItem displayMember="11"  valueMember="11"/>
+					<CFtmComboItem displayMember="12"  valueMember="12"/>
+					<CFtmComboItem displayMember="13"  valueMember="13"/>
+					<CFtmComboItem displayMember="14"  valueMember="14"/>
+					<CFtmComboItem displayMember="15"  valueMember="15"/>
+					<CFtmComboItem displayMember="16"  valueMember="16"/>
+					<CFtmComboItem displayMember="17"  valueMember="17"/>
+					<CFtmComboItem displayMember="18"  valueMember="18"/>
+					<CFtmComboItem displayMember="19"  valueMember="19"/>
+					<CFtmComboItem displayMember="20"  valueMember="20"/>
+					<CFtmComboItem displayMember="21"  valueMember="21"/>
+					<CFtmComboItem displayMember="22"  valueMember="22"/>
+					<CFtmComboItem displayMember="23"  valueMember="23"/>
+					<CFtmComboItem displayMember="24"  valueMember="24"/>
+					<CFtmComboItem displayMember="25"  valueMember="25"/>
+					<CFtmComboItem displayMember="26"  valueMember="26"/>
+					<CFtmComboItem displayMember="27"  valueMember="27"/>
+					<CFtmComboItem displayMember="28"  valueMember="28"/>
+					<CFtmComboItem displayMember="29"  valueMember="29"/>
+					<CFtmComboItem displayMember="30"  valueMember="30"/>
+					<CFtmComboItem displayMember="31"  valueMember="31"/>
+				</Items>
+		</ComboBox>
+		<ComboBox X="10" Y="85" CtrlID="comboTimeSelect__Year" Label="Year" Width="100" DropDownWidth="120">
+			<Items>
+				<CFtmComboItem displayMember="1980"  valueMember="1980"/>
+				<CFtmComboItem displayMember="1981"  valueMember="1981"/>
+				<CFtmComboItem displayMember="1982"  valueMember="1982"/>
+				<CFtmComboItem displayMember="1983"  valueMember="1983"/>
+				<CFtmComboItem displayMember="1984"  valueMember="1984"/>
+				<CFtmComboItem displayMember="1985"  valueMember="1985"/>
+				<CFtmComboItem displayMember="1986"  valueMember="1986"/>
+				<CFtmComboItem displayMember="1987"  valueMember="1987"/>
+				<CFtmComboItem displayMember="1988"  valueMember="1988"/>
+				<CFtmComboItem displayMember="1989"  valueMember="1989"/>
+				<CFtmComboItem displayMember="1990"  valueMember="1990"/>
+				<CFtmComboItem displayMember="1991"  valueMember="1991"/>
+				<CFtmComboItem displayMember="1992"  valueMember="1992"/>
+				<CFtmComboItem displayMember="1993"  valueMember="1993"/>
+				<CFtmComboItem displayMember="1994"  valueMember="1994"/>
+				<CFtmComboItem displayMember="1995"  valueMember="1995"/>
+				<CFtmComboItem displayMember="1996"  valueMember="1996"/>
+				<CFtmComboItem displayMember="1997"  valueMember="1997"/>
+				<CFtmComboItem displayMember="1998"  valueMember="1998"/>
+				<CFtmComboItem displayMember="1999"  valueMember="1999"/>
+				<CFtmComboItem displayMember="2000"  valueMember="2000"/>
+				<CFtmComboItem displayMember="2001"  valueMember="2001"/>
+				<CFtmComboItem displayMember="2002"  valueMember="2002"/>
+				<CFtmComboItem displayMember="2003"  valueMember="2003"/>
+				<CFtmComboItem displayMember="2004"  valueMember="2004"/>
+				<CFtmComboItem displayMember="2005"  valueMember="2005"/>
+				<CFtmComboItem displayMember="2006"  valueMember="2006"/>
+				<CFtmComboItem displayMember="2007"  valueMember="2007"/>
+				<CFtmComboItem displayMember="2008"  valueMember="2008"/>
+				<CFtmComboItem displayMember="2009"  valueMember="2009"/>
+				<CFtmComboItem displayMember="2010"  valueMember="2010"/>
+				<CFtmComboItem displayMember="2011"  valueMember="2011"/>
+				<CFtmComboItem displayMember="2012"  valueMember="2012"/>
+				<CFtmComboItem displayMember="2013"  valueMember="2013"/>
+				<CFtmComboItem displayMember="2014"  valueMember="2014"/>
+				<CFtmComboItem displayMember="2015"  valueMember="2015"/>
+				<CFtmComboItem displayMember="2016"  valueMember="2016"/>
+				<CFtmComboItem displayMember="2017"  valueMember="2017"/>
+				<CFtmComboItem displayMember="2018"  valueMember="2018"/>
+				<CFtmComboItem displayMember="2019"  valueMember="2019"/>
+			</Items>
+		</ComboBox>
+		<ComboBox X="10" Y="110" CtrlID="comboTimeSelect__Hour" Label="Hour" Width="100" DropDownWidth="120">
+				<Items>
+					<CFtmComboItem displayMember="0"  valueMember="0"/>
+					<CFtmComboItem displayMember="1"  valueMember="1"/>
+					<CFtmComboItem displayMember="2"  valueMember="2"/>
+					<CFtmComboItem displayMember="3"  valueMember="3"/>
+					<CFtmComboItem displayMember="4"  valueMember="4"/>
+					<CFtmComboItem displayMember="5"  valueMember="5"/>
+					<CFtmComboItem displayMember="6"  valueMember="6"/>
+					<CFtmComboItem displayMember="7"  valueMember="7"/>
+					<CFtmComboItem displayMember="8"  valueMember="8"/>
+					<CFtmComboItem displayMember="9"  valueMember="9"/>
+					<CFtmComboItem displayMember="10"  valueMember="10"/>
+					<CFtmComboItem displayMember="11"  valueMember="11"/>
+					<CFtmComboItem displayMember="12"  valueMember="12"/>
+					<CFtmComboItem displayMember="13"  valueMember="13"/>
+					<CFtmComboItem displayMember="14"  valueMember="14"/>
+					<CFtmComboItem displayMember="15"  valueMember="15"/>
+					<CFtmComboItem displayMember="16"  valueMember="16"/>
+					<CFtmComboItem displayMember="17"  valueMember="17"/>
+					<CFtmComboItem displayMember="18"  valueMember="18"/>
+					<CFtmComboItem displayMember="19"  valueMember="19"/>
+					<CFtmComboItem displayMember="20"  valueMember="20"/>
+					<CFtmComboItem displayMember="21"  valueMember="21"/>
+					<CFtmComboItem displayMember="22"  valueMember="22"/>
+					<CFtmComboItem displayMember="23"  valueMember="23"/>
+				</Items>
+		</ComboBox>
+		<ComboBox X="10" Y="135" CtrlID="comboTimeSelect__Min" Label="Min" Width="100" DropDownWidth="120">
+				<Items>
+					<CFtmComboItem displayMember="0"  valueMember="0"/>
+					<CFtmComboItem displayMember="1"  valueMember="1"/>
+					<CFtmComboItem displayMember="2"  valueMember="2"/>
+					<CFtmComboItem displayMember="3"  valueMember="3"/>
+					<CFtmComboItem displayMember="4"  valueMember="4"/>
+					<CFtmComboItem displayMember="5"  valueMember="5"/>
+					<CFtmComboItem displayMember="6"  valueMember="6"/>
+					<CFtmComboItem displayMember="7"  valueMember="7"/>
+					<CFtmComboItem displayMember="8"  valueMember="8"/>
+					<CFtmComboItem displayMember="9"  valueMember="9"/>
+					<CFtmComboItem displayMember="10"  valueMember="10"/>
+					<CFtmComboItem displayMember="11"  valueMember="11"/>
+					<CFtmComboItem displayMember="12"  valueMember="12"/>
+					<CFtmComboItem displayMember="13"  valueMember="13"/>
+					<CFtmComboItem displayMember="14"  valueMember="14"/>
+					<CFtmComboItem displayMember="15"  valueMember="15"/>
+					<CFtmComboItem displayMember="16"  valueMember="16"/>
+					<CFtmComboItem displayMember="17"  valueMember="17"/>
+					<CFtmComboItem displayMember="18"  valueMember="18"/>
+					<CFtmComboItem displayMember="19"  valueMember="19"/>
+					<CFtmComboItem displayMember="20"  valueMember="20"/>
+					<CFtmComboItem displayMember="21"  valueMember="21"/>
+					<CFtmComboItem displayMember="22"  valueMember="22"/>
+					<CFtmComboItem displayMember="23"  valueMember="23"/>
+					<CFtmComboItem displayMember="24"  valueMember="24"/>
+					<CFtmComboItem displayMember="25"  valueMember="25"/>
+					<CFtmComboItem displayMember="26"  valueMember="26"/>
+					<CFtmComboItem displayMember="27"  valueMember="27"/>
+					<CFtmComboItem displayMember="28"  valueMember="28"/>
+					<CFtmComboItem displayMember="29"  valueMember="29"/>
+					<CFtmComboItem displayMember="30"  valueMember="30"/>
+					<CFtmComboItem displayMember="31"  valueMember="31"/>
+					<CFtmComboItem displayMember="32"  valueMember="32"/>
+					<CFtmComboItem displayMember="33"  valueMember="33"/>
+					<CFtmComboItem displayMember="34"  valueMember="34"/>
+					<CFtmComboItem displayMember="35"  valueMember="35"/>
+					<CFtmComboItem displayMember="36"  valueMember="36"/>
+					<CFtmComboItem displayMember="37"  valueMember="37"/>
+					<CFtmComboItem displayMember="38"  valueMember="38"/>
+					<CFtmComboItem displayMember="39"  valueMember="39"/>
+					<CFtmComboItem displayMember="40"  valueMember="40"/>
+					<CFtmComboItem displayMember="41"  valueMember="41"/>
+					<CFtmComboItem displayMember="42"  valueMember="42"/>
+					<CFtmComboItem displayMember="43"  valueMember="43"/>
+					<CFtmComboItem displayMember="44"  valueMember="44"/>
+					<CFtmComboItem displayMember="45"  valueMember="45"/>
+					<CFtmComboItem displayMember="46"  valueMember="46"/>
+					<CFtmComboItem displayMember="47"  valueMember="47"/>
+					<CFtmComboItem displayMember="48"  valueMember="48"/>
+					<CFtmComboItem displayMember="49"  valueMember="49"/>
+					<CFtmComboItem displayMember="50"  valueMember="50"/>
+					<CFtmComboItem displayMember="51"  valueMember="51"/>
+					<CFtmComboItem displayMember="52"  valueMember="52"/>
+					<CFtmComboItem displayMember="53"  valueMember="53"/>
+					<CFtmComboItem displayMember="54"  valueMember="54"/>
+					<CFtmComboItem displayMember="55"  valueMember="55"/>
+					<CFtmComboItem displayMember="56"  valueMember="56"/>
+					<CFtmComboItem displayMember="57"  valueMember="57"/>
+					<CFtmComboItem displayMember="58"  valueMember="58"/>
+					<CFtmComboItem displayMember="59"  valueMember="59"/>
+				</Items>
+		</ComboBox>
+		<ComboBox X="10" Y="160" CtrlID="comboTimeSelect__Sec" Label="Sec" Width="100" DropDownWidth="120">
+				<Items>
+					<CFtmComboItem displayMember="0"  valueMember="0"/>
+					<CFtmComboItem displayMember="1"  valueMember="1"/>
+					<CFtmComboItem displayMember="2"  valueMember="2"/>
+					<CFtmComboItem displayMember="3"  valueMember="3"/>
+					<CFtmComboItem displayMember="4"  valueMember="4"/>
+					<CFtmComboItem displayMember="5"  valueMember="5"/>
+					<CFtmComboItem displayMember="6"  valueMember="6"/>
+					<CFtmComboItem displayMember="7"  valueMember="7"/>
+					<CFtmComboItem displayMember="8"  valueMember="8"/>
+					<CFtmComboItem displayMember="9"  valueMember="9"/>
+					<CFtmComboItem displayMember="10"  valueMember="10"/>
+					<CFtmComboItem displayMember="11"  valueMember="11"/>
+					<CFtmComboItem displayMember="12"  valueMember="12"/>
+					<CFtmComboItem displayMember="13"  valueMember="13"/>
+					<CFtmComboItem displayMember="14"  valueMember="14"/>
+					<CFtmComboItem displayMember="15"  valueMember="15"/>
+					<CFtmComboItem displayMember="16"  valueMember="16"/>
+					<CFtmComboItem displayMember="17"  valueMember="17"/>
+					<CFtmComboItem displayMember="18"  valueMember="18"/>
+					<CFtmComboItem displayMember="19"  valueMember="19"/>
+					<CFtmComboItem displayMember="20"  valueMember="20"/>
+					<CFtmComboItem displayMember="21"  valueMember="21"/>
+					<CFtmComboItem displayMember="22"  valueMember="22"/>
+					<CFtmComboItem displayMember="23"  valueMember="23"/>
+					<CFtmComboItem displayMember="24"  valueMember="24"/>
+					<CFtmComboItem displayMember="25"  valueMember="25"/>
+					<CFtmComboItem displayMember="26"  valueMember="26"/>
+					<CFtmComboItem displayMember="27"  valueMember="27"/>
+					<CFtmComboItem displayMember="28"  valueMember="28"/>
+					<CFtmComboItem displayMember="29"  valueMember="29"/>
+					<CFtmComboItem displayMember="30"  valueMember="30"/>
+					<CFtmComboItem displayMember="31"  valueMember="31"/>
+					<CFtmComboItem displayMember="32"  valueMember="32"/>
+					<CFtmComboItem displayMember="33"  valueMember="33"/>
+					<CFtmComboItem displayMember="34"  valueMember="34"/>
+					<CFtmComboItem displayMember="35"  valueMember="35"/>
+					<CFtmComboItem displayMember="36"  valueMember="36"/>
+					<CFtmComboItem displayMember="37"  valueMember="37"/>
+					<CFtmComboItem displayMember="38"  valueMember="38"/>
+					<CFtmComboItem displayMember="39"  valueMember="39"/>
+					<CFtmComboItem displayMember="40"  valueMember="40"/>
+					<CFtmComboItem displayMember="41"  valueMember="41"/>
+					<CFtmComboItem displayMember="42"  valueMember="42"/>
+					<CFtmComboItem displayMember="43"  valueMember="43"/>
+					<CFtmComboItem displayMember="44"  valueMember="44"/>
+					<CFtmComboItem displayMember="45"  valueMember="45"/>
+					<CFtmComboItem displayMember="46"  valueMember="46"/>
+					<CFtmComboItem displayMember="47"  valueMember="47"/>
+					<CFtmComboItem displayMember="48"  valueMember="48"/>
+					<CFtmComboItem displayMember="49"  valueMember="49"/>
+					<CFtmComboItem displayMember="50"  valueMember="50"/>
+					<CFtmComboItem displayMember="51"  valueMember="51"/>
+					<CFtmComboItem displayMember="52"  valueMember="52"/>
+					<CFtmComboItem displayMember="53"  valueMember="53"/>
+					<CFtmComboItem displayMember="54"  valueMember="54"/>
+					<CFtmComboItem displayMember="55"  valueMember="55"/>
+					<CFtmComboItem displayMember="56"  valueMember="56"/>
+					<CFtmComboItem displayMember="57"  valueMember="57"/>
+					<CFtmComboItem displayMember="58"  valueMember="58"/>
+					<CFtmComboItem displayMember="59"  valueMember="59"/>
+				</Items>
+		</ComboBox>
+		<Button X="10" Y="185" CtrlID="bnSetRTC" Text="Set Time"/> 
+		
+<!--  ******************************************* Get Time ***************************************** -->
+		<TextBox X="210" Y="10" ReadOnly="true" CtrlID="txtTimeGet_Mode" Label="Mode" Width="100" Text="" ToolTip=""/>
+		<TextBox X="210" Y="35" ReadOnly="true" CtrlID="txtTimeGet_Month" Label="Month" Width="100" Text="" ToolTip=""/>
+		<TextBox X="210" Y="60" ReadOnly="true" CtrlID="txtTimeGet_Day" Label="Day" Width="100" Text="" ToolTip=""/>
+		<TextBox X="210" Y="85" ReadOnly="true" CtrlID="txtTimeGet_Year" Label="Year" Width="100" Text="" ToolTip=""/>
+		<TextBox X="210" Y="110" ReadOnly="true" CtrlID="txtTimeGet_Hour" Label="Hour" Width="100" Text="" ToolTip=""/>
+		<TextBox X="210" Y="135" ReadOnly="true" CtrlID="txtTimeGet_Min" Label="Min" Width="100" Text="" ToolTip=""/>
+		<TextBox X="210" Y="160" ReadOnly="true" CtrlID="txtTimeGet_Sec" Label="Sec" Width="100" Text="" ToolTip=""/>
+		<Button X="210" Y="185" CtrlID="bnGetRTC" Text="Get Time"/> 
+		
+<!--  ******************************************* Set Alarm Time ************************************ -->
+
+		<ComboBox X="10" Y="230" CtrlID="comboAlarmTimeSelect__Id" Label="Alarm ID" Width="100" DropDownWidth="120">
+                <Items>
+                    <CFtmComboItem displayMember="RTC_ALARM_1"  valueMember="1"/>
+                    <CFtmComboItem displayMember="RTC_ALARM_2"  valueMember="2"/>
+                    <CFtmComboItem displayMember="RTC_ALARM_3"  valueMember="3"/>
+                </Items>
+        </ComboBox>
+		<ComboBox X="10" Y="255" CtrlID="comboAlarmTimeSelect__Mode" Label="Mode" Width="100" DropDownWidth="120">
+                <Items>
+                    <CFtmComboItem displayMember="AM"  valueMember="0"/>
+                    <CFtmComboItem displayMember="PM"  valueMember="1"/>
+                    <CFtmComboItem displayMember="24hr" valueMember="2"/>
+                </Items>
+        </ComboBox>
+		<ComboBox X="10" Y="280" CtrlID="comboAlarmTimeSelect__Month" Label="Month" Width="100" DropDownWidth="120">
+				<Items>
+					<CFtmComboItem displayMember="Jan"  valueMember="1"/>
+					<CFtmComboItem displayMember="Feb"  valueMember="2"/>
+					<CFtmComboItem displayMember="Mar"  valueMember="3"/>
+					<CFtmComboItem displayMember="Apr"  valueMember="4"/>
+					<CFtmComboItem displayMember="May"  valueMember="5"/>
+					<CFtmComboItem displayMember="Jun"  valueMember="6"/>
+					<CFtmComboItem displayMember="Jul"  valueMember="7"/>
+					<CFtmComboItem displayMember="Aug"  valueMember="8"/>
+					<CFtmComboItem displayMember="Sep"  valueMember="9"/>
+					<CFtmComboItem displayMember="Oct"  valueMember="10"/>
+					<CFtmComboItem displayMember="Nov"  valueMember="11"/>
+					<CFtmComboItem displayMember="Dec"  valueMember="12"/>
+				</Items> 
+		</ComboBox>
+		<ComboBox X="10" Y="305" CtrlID="comboAlarmTimeSelect__Day" Label="Day" Width="100" DropDownWidth="120">
+				<Items>
+					<CFtmComboItem displayMember="1"  valueMember="1"/>
+					<CFtmComboItem displayMember="2"  valueMember="2"/>
+					<CFtmComboItem displayMember="3"  valueMember="3"/>
+					<CFtmComboItem displayMember="4"  valueMember="4"/>
+					<CFtmComboItem displayMember="5"  valueMember="5"/>
+					<CFtmComboItem displayMember="6"  valueMember="6"/>
+					<CFtmComboItem displayMember="7"  valueMember="7"/>
+					<CFtmComboItem displayMember="8"  valueMember="8"/>
+					<CFtmComboItem displayMember="9"  valueMember="9"/>
+					<CFtmComboItem displayMember="10"  valueMember="10"/>
+					<CFtmComboItem displayMember="11"  valueMember="11"/>
+					<CFtmComboItem displayMember="12"  valueMember="12"/>
+					<CFtmComboItem displayMember="13"  valueMember="13"/>
+					<CFtmComboItem displayMember="14"  valueMember="14"/>
+					<CFtmComboItem displayMember="15"  valueMember="15"/>
+					<CFtmComboItem displayMember="16"  valueMember="16"/>
+					<CFtmComboItem displayMember="17"  valueMember="17"/>
+					<CFtmComboItem displayMember="18"  valueMember="18"/>
+					<CFtmComboItem displayMember="19"  valueMember="19"/>
+					<CFtmComboItem displayMember="20"  valueMember="20"/>
+					<CFtmComboItem displayMember="21"  valueMember="21"/>
+					<CFtmComboItem displayMember="22"  valueMember="22"/>
+					<CFtmComboItem displayMember="23"  valueMember="23"/>
+					<CFtmComboItem displayMember="24"  valueMember="24"/>
+					<CFtmComboItem displayMember="25"  valueMember="25"/>
+					<CFtmComboItem displayMember="26"  valueMember="26"/>
+					<CFtmComboItem displayMember="27"  valueMember="27"/>
+					<CFtmComboItem displayMember="28"  valueMember="28"/>
+					<CFtmComboItem displayMember="29"  valueMember="29"/>
+					<CFtmComboItem displayMember="30"  valueMember="30"/>
+					<CFtmComboItem displayMember="31"  valueMember="31"/>
+				</Items>
+		</ComboBox>
+		<ComboBox X="10" Y="330" CtrlID="comboAlarmTimeSelect__Year" Label="Year" Width="100" DropDownWidth="120">
+			<Items>
+				<CFtmComboItem displayMember="1980"  valueMember="1980"/>
+				<CFtmComboItem displayMember="1981"  valueMember="1981"/>
+				<CFtmComboItem displayMember="1982"  valueMember="1982"/>
+				<CFtmComboItem displayMember="1983"  valueMember="1983"/>
+				<CFtmComboItem displayMember="1984"  valueMember="1984"/>
+				<CFtmComboItem displayMember="1985"  valueMember="1985"/>
+				<CFtmComboItem displayMember="1986"  valueMember="1986"/>
+				<CFtmComboItem displayMember="1987"  valueMember="1987"/>
+				<CFtmComboItem displayMember="1988"  valueMember="1988"/>
+				<CFtmComboItem displayMember="1989"  valueMember="1989"/>
+				<CFtmComboItem displayMember="1990"  valueMember="1990"/>
+				<CFtmComboItem displayMember="1991"  valueMember="1991"/>
+				<CFtmComboItem displayMember="1992"  valueMember="1992"/>
+				<CFtmComboItem displayMember="1993"  valueMember="1993"/>
+				<CFtmComboItem displayMember="1994"  valueMember="1994"/>
+				<CFtmComboItem displayMember="1995"  valueMember="1995"/>
+				<CFtmComboItem displayMember="1996"  valueMember="1996"/>
+				<CFtmComboItem displayMember="1997"  valueMember="1997"/>
+				<CFtmComboItem displayMember="1998"  valueMember="1998"/>
+				<CFtmComboItem displayMember="1999"  valueMember="1999"/>
+				<CFtmComboItem displayMember="2000"  valueMember="2000"/>
+				<CFtmComboItem displayMember="2001"  valueMember="2001"/>
+				<CFtmComboItem displayMember="2002"  valueMember="2002"/>
+				<CFtmComboItem displayMember="2003"  valueMember="2003"/>
+				<CFtmComboItem displayMember="2004"  valueMember="2004"/>
+				<CFtmComboItem displayMember="2005"  valueMember="2005"/>
+				<CFtmComboItem displayMember="2006"  valueMember="2006"/>
+				<CFtmComboItem displayMember="2007"  valueMember="2007"/>
+				<CFtmComboItem displayMember="2008"  valueMember="2008"/>
+				<CFtmComboItem displayMember="2009"  valueMember="2009"/>
+				<CFtmComboItem displayMember="2010"  valueMember="2010"/>
+				<CFtmComboItem displayMember="2011"  valueMember="2011"/>
+				<CFtmComboItem displayMember="2012"  valueMember="2012"/>
+				<CFtmComboItem displayMember="2013"  valueMember="2013"/>
+				<CFtmComboItem displayMember="2014"  valueMember="2014"/>
+				<CFtmComboItem displayMember="2015"  valueMember="2015"/>
+				<CFtmComboItem displayMember="2016"  valueMember="2016"/>
+				<CFtmComboItem displayMember="2017"  valueMember="2017"/>
+				<CFtmComboItem displayMember="2018"  valueMember="2018"/>
+				<CFtmComboItem displayMember="2019"  valueMember="2019"/>
+			</Items>
+		</ComboBox>
+		<ComboBox X="10" Y="355" CtrlID="comboAlarmTimeSelect__Hour" Label="Hour" Width="100" DropDownWidth="120">
+				<Items>
+					<CFtmComboItem displayMember="0"  valueMember="0"/>
+					<CFtmComboItem displayMember="1"  valueMember="1"/>
+					<CFtmComboItem displayMember="2"  valueMember="2"/>
+					<CFtmComboItem displayMember="3"  valueMember="3"/>
+					<CFtmComboItem displayMember="4"  valueMember="4"/>
+					<CFtmComboItem displayMember="5"  valueMember="5"/>
+					<CFtmComboItem displayMember="6"  valueMember="6"/>
+					<CFtmComboItem displayMember="7"  valueMember="7"/>
+					<CFtmComboItem displayMember="8"  valueMember="8"/>
+					<CFtmComboItem displayMember="9"  valueMember="9"/>
+					<CFtmComboItem displayMember="10"  valueMember="10"/>
+					<CFtmComboItem displayMember="11"  valueMember="11"/>
+					<CFtmComboItem displayMember="12"  valueMember="12"/>
+					<CFtmComboItem displayMember="13"  valueMember="13"/>
+					<CFtmComboItem displayMember="14"  valueMember="14"/>
+					<CFtmComboItem displayMember="15"  valueMember="15"/>
+					<CFtmComboItem displayMember="16"  valueMember="16"/>
+					<CFtmComboItem displayMember="17"  valueMember="17"/>
+					<CFtmComboItem displayMember="18"  valueMember="18"/>
+					<CFtmComboItem displayMember="19"  valueMember="19"/>
+					<CFtmComboItem displayMember="20"  valueMember="20"/>
+					<CFtmComboItem displayMember="21"  valueMember="21"/>
+					<CFtmComboItem displayMember="22"  valueMember="22"/>
+					<CFtmComboItem displayMember="23"  valueMember="23"/>
+				</Items>
+		</ComboBox>
+		<ComboBox X="10" Y="380" CtrlID="comboAlarmTimeSelect__Min" Label="Min" Width="100" DropDownWidth="120">
+				<Items>
+					<CFtmComboItem displayMember="0"  valueMember="0"/>
+					<CFtmComboItem displayMember="1"  valueMember="1"/>
+					<CFtmComboItem displayMember="2"  valueMember="2"/>
+					<CFtmComboItem displayMember="3"  valueMember="3"/>
+					<CFtmComboItem displayMember="4"  valueMember="4"/>
+					<CFtmComboItem displayMember="5"  valueMember="5"/>
+					<CFtmComboItem displayMember="6"  valueMember="6"/>
+					<CFtmComboItem displayMember="7"  valueMember="7"/>
+					<CFtmComboItem displayMember="8"  valueMember="8"/>
+					<CFtmComboItem displayMember="9"  valueMember="9"/>
+					<CFtmComboItem displayMember="10"  valueMember="10"/>
+					<CFtmComboItem displayMember="11"  valueMember="11"/>
+					<CFtmComboItem displayMember="12"  valueMember="12"/>
+					<CFtmComboItem displayMember="13"  valueMember="13"/>
+					<CFtmComboItem displayMember="14"  valueMember="14"/>
+					<CFtmComboItem displayMember="15"  valueMember="15"/>
+					<CFtmComboItem displayMember="16"  valueMember="16"/>
+					<CFtmComboItem displayMember="17"  valueMember="17"/>
+					<CFtmComboItem displayMember="18"  valueMember="18"/>
+					<CFtmComboItem displayMember="19"  valueMember="19"/>
+					<CFtmComboItem displayMember="20"  valueMember="20"/>
+					<CFtmComboItem displayMember="21"  valueMember="21"/>
+					<CFtmComboItem displayMember="22"  valueMember="22"/>
+					<CFtmComboItem displayMember="23"  valueMember="23"/>
+					<CFtmComboItem displayMember="24"  valueMember="24"/>
+					<CFtmComboItem displayMember="25"  valueMember="25"/>
+					<CFtmComboItem displayMember="26"  valueMember="26"/>
+					<CFtmComboItem displayMember="27"  valueMember="27"/>
+					<CFtmComboItem displayMember="28"  valueMember="28"/>
+					<CFtmComboItem displayMember="29"  valueMember="29"/>
+					<CFtmComboItem displayMember="30"  valueMember="30"/>
+					<CFtmComboItem displayMember="31"  valueMember="31"/>
+					<CFtmComboItem displayMember="32"  valueMember="32"/>
+					<CFtmComboItem displayMember="33"  valueMember="33"/>
+					<CFtmComboItem displayMember="34"  valueMember="34"/>
+					<CFtmComboItem displayMember="35"  valueMember="35"/>
+					<CFtmComboItem displayMember="36"  valueMember="36"/>
+					<CFtmComboItem displayMember="37"  valueMember="37"/>
+					<CFtmComboItem displayMember="38"  valueMember="38"/>
+					<CFtmComboItem displayMember="39"  valueMember="39"/>
+					<CFtmComboItem displayMember="40"  valueMember="40"/>
+					<CFtmComboItem displayMember="41"  valueMember="41"/>
+					<CFtmComboItem displayMember="42"  valueMember="42"/>
+					<CFtmComboItem displayMember="43"  valueMember="43"/>
+					<CFtmComboItem displayMember="44"  valueMember="44"/>
+					<CFtmComboItem displayMember="45"  valueMember="45"/>
+					<CFtmComboItem displayMember="46"  valueMember="46"/>
+					<CFtmComboItem displayMember="47"  valueMember="47"/>
+					<CFtmComboItem displayMember="48"  valueMember="48"/>
+					<CFtmComboItem displayMember="49"  valueMember="49"/>
+					<CFtmComboItem displayMember="50"  valueMember="50"/>
+					<CFtmComboItem displayMember="51"  valueMember="51"/>
+					<CFtmComboItem displayMember="52"  valueMember="52"/>
+					<CFtmComboItem displayMember="53"  valueMember="53"/>
+					<CFtmComboItem displayMember="54"  valueMember="54"/>
+					<CFtmComboItem displayMember="55"  valueMember="55"/>
+					<CFtmComboItem displayMember="56"  valueMember="56"/>
+					<CFtmComboItem displayMember="57"  valueMember="57"/>
+					<CFtmComboItem displayMember="58"  valueMember="58"/>
+					<CFtmComboItem displayMember="59"  valueMember="59"/>
+				</Items>
+		</ComboBox>
+		<ComboBox X="10" Y="405" CtrlID="comboAlarmTimeSelect__Sec" Label="Sec" Width="100" DropDownWidth="120">
+				<Items>
+					<CFtmComboItem displayMember="0"  valueMember="0"/>
+					<CFtmComboItem displayMember="1"  valueMember="1"/>
+					<CFtmComboItem displayMember="2"  valueMember="2"/>
+					<CFtmComboItem displayMember="3"  valueMember="3"/>
+					<CFtmComboItem displayMember="4"  valueMember="4"/>
+					<CFtmComboItem displayMember="5"  valueMember="5"/>
+					<CFtmComboItem displayMember="6"  valueMember="6"/>
+					<CFtmComboItem displayMember="7"  valueMember="7"/>
+					<CFtmComboItem displayMember="8"  valueMember="8"/>
+					<CFtmComboItem displayMember="9"  valueMember="9"/>
+					<CFtmComboItem displayMember="10"  valueMember="10"/>
+					<CFtmComboItem displayMember="11"  valueMember="11"/>
+					<CFtmComboItem displayMember="12"  valueMember="12"/>
+					<CFtmComboItem displayMember="13"  valueMember="13"/>
+					<CFtmComboItem displayMember="14"  valueMember="14"/>
+					<CFtmComboItem displayMember="15"  valueMember="15"/>
+					<CFtmComboItem displayMember="16"  valueMember="16"/>
+					<CFtmComboItem displayMember="17"  valueMember="17"/>
+					<CFtmComboItem displayMember="18"  valueMember="18"/>
+					<CFtmComboItem displayMember="19"  valueMember="19"/>
+					<CFtmComboItem displayMember="20"  valueMember="20"/>
+					<CFtmComboItem displayMember="21"  valueMember="21"/>
+					<CFtmComboItem displayMember="22"  valueMember="22"/>
+					<CFtmComboItem displayMember="23"  valueMember="23"/>
+					<CFtmComboItem displayMember="24"  valueMember="24"/>
+					<CFtmComboItem displayMember="25"  valueMember="25"/>
+					<CFtmComboItem displayMember="26"  valueMember="26"/>
+					<CFtmComboItem displayMember="27"  valueMember="27"/>
+					<CFtmComboItem displayMember="28"  valueMember="28"/>
+					<CFtmComboItem displayMember="29"  valueMember="29"/>
+					<CFtmComboItem displayMember="30"  valueMember="30"/>
+					<CFtmComboItem displayMember="31"  valueMember="31"/>
+					<CFtmComboItem displayMember="32"  valueMember="32"/>
+					<CFtmComboItem displayMember="33"  valueMember="33"/>
+					<CFtmComboItem displayMember="34"  valueMember="34"/>
+					<CFtmComboItem displayMember="35"  valueMember="35"/>
+					<CFtmComboItem displayMember="36"  valueMember="36"/>
+					<CFtmComboItem displayMember="37"  valueMember="37"/>
+					<CFtmComboItem displayMember="38"  valueMember="38"/>
+					<CFtmComboItem displayMember="39"  valueMember="39"/>
+					<CFtmComboItem displayMember="40"  valueMember="40"/>
+					<CFtmComboItem displayMember="41"  valueMember="41"/>
+					<CFtmComboItem displayMember="42"  valueMember="42"/>
+					<CFtmComboItem displayMember="43"  valueMember="43"/>
+					<CFtmComboItem displayMember="44"  valueMember="44"/>
+					<CFtmComboItem displayMember="45"  valueMember="45"/>
+					<CFtmComboItem displayMember="46"  valueMember="46"/>
+					<CFtmComboItem displayMember="47"  valueMember="47"/>
+					<CFtmComboItem displayMember="48"  valueMember="48"/>
+					<CFtmComboItem displayMember="49"  valueMember="49"/>
+					<CFtmComboItem displayMember="50"  valueMember="50"/>
+					<CFtmComboItem displayMember="51"  valueMember="51"/>
+					<CFtmComboItem displayMember="52"  valueMember="52"/>
+					<CFtmComboItem displayMember="53"  valueMember="53"/>
+					<CFtmComboItem displayMember="54"  valueMember="54"/>
+					<CFtmComboItem displayMember="55"  valueMember="55"/>
+					<CFtmComboItem displayMember="56"  valueMember="56"/>
+					<CFtmComboItem displayMember="57"  valueMember="57"/>
+					<CFtmComboItem displayMember="58"  valueMember="58"/>
+					<CFtmComboItem displayMember="59"  valueMember="59"/>
+				</Items>
+		</ComboBox>
+		<Button X="10" Y="430" CtrlID="bnSetAlarmRTC" Text="Set Alarm Time"/> 
+		
+<!--  ******************************************* Get Alarm Time ************************************ -->		
+		<ComboBox X="210" Y="230" CtrlID="comboGetAlarmTimeSelect__Id" Label="Alarm ID" Width="100" DropDownWidth="120">
+                <Items>
+                    <CFtmComboItem displayMember="RTC_ALARM_1"  valueMember="1"/>
+                    <CFtmComboItem displayMember="RTC_ALARM_2"  valueMember="2"/>
+                    <CFtmComboItem displayMember="RTC_ALARM_3"  valueMember="3"/>
+                </Items>
+        </ComboBox>
+		<TextBox X="210" Y="255" ReadOnly="true" CtrlID="txtAlarmTimeGet_Mode" Label="Mode" Width="100" Text="" ToolTip=""/>
+		<TextBox X="210" Y="280" ReadOnly="true" CtrlID="txtAlarmTimeGet_Month" Label="Month" Width="100" Text="" ToolTip=""/>
+		<TextBox X="210" Y="305" ReadOnly="true" CtrlID="txtAlarmTimeGet_Day" Label="Day" Width="100" Text="" ToolTip=""/>
+		<TextBox X="210" Y="330" ReadOnly="true" CtrlID="txtAlarmTimeGet_Year" Label="Year" Width="100" Text="" ToolTip=""/>
+		<TextBox X="210" Y="355" ReadOnly="true" CtrlID="txtAlarmTimeGet_Hour" Label="Hour" Width="100" Text="" ToolTip=""/>
+		<TextBox X="210" Y="380" ReadOnly="true" CtrlID="txtAlarmTimeGet_Min" Label="Min" Width="100" Text="" ToolTip=""/>
+		<TextBox X="210" Y="405" ReadOnly="true" CtrlID="txtAlarmTimeGet_Sec" Label="Sec" Width="100" Text="" ToolTip=""/>
+		<Button X="210" Y="430" CtrlID="bnGetAlarmRTC" Text="Get Alarm Time"/> 
+
+<!--  ******************************************* Set Time Adjust ************************************ -->
+		<ComboBox X="410" Y="10" CtrlID="comboAdjustTimeSelect" Label="Time Adj" Width="100" DropDownWidth="120">
+				<Items>
+					<CFtmComboItem displayMember="0"  valueMember="0"/>
+					<CFtmComboItem displayMember="1"  valueMember="1"/>
+					<CFtmComboItem displayMember="2"  valueMember="2"/>
+					<CFtmComboItem displayMember="3"  valueMember="3"/>
+					<CFtmComboItem displayMember="4"  valueMember="4"/>
+					<CFtmComboItem displayMember="5"  valueMember="5"/>
+					<CFtmComboItem displayMember="6"  valueMember="6"/>
+					<CFtmComboItem displayMember="7"  valueMember="7"/>
+					<CFtmComboItem displayMember="8"  valueMember="8"/>
+					<CFtmComboItem displayMember="9"  valueMember="9"/>
+					<CFtmComboItem displayMember="10"  valueMember="10"/>
+					<CFtmComboItem displayMember="11"  valueMember="11"/>
+					<CFtmComboItem displayMember="12"  valueMember="12"/>
+					<CFtmComboItem displayMember="13"  valueMember="13"/>
+					<CFtmComboItem displayMember="14"  valueMember="14"/>
+					<CFtmComboItem displayMember="15"  valueMember="15"/>
+					<CFtmComboItem displayMember="16"  valueMember="16"/>
+					<CFtmComboItem displayMember="17"  valueMember="17"/>
+					<CFtmComboItem displayMember="18"  valueMember="18"/>
+					<CFtmComboItem displayMember="19"  valueMember="19"/>
+					<CFtmComboItem displayMember="20"  valueMember="20"/>
+					<CFtmComboItem displayMember="21"  valueMember="21"/>
+					<CFtmComboItem displayMember="22"  valueMember="22"/>
+					<CFtmComboItem displayMember="23"  valueMember="23"/>
+					<CFtmComboItem displayMember="24"  valueMember="24"/>
+					<CFtmComboItem displayMember="25"  valueMember="25"/>
+					<CFtmComboItem displayMember="26"  valueMember="26"/>
+					<CFtmComboItem displayMember="27"  valueMember="27"/>
+					<CFtmComboItem displayMember="28"  valueMember="28"/>
+					<CFtmComboItem displayMember="29"  valueMember="29"/>
+					<CFtmComboItem displayMember="30"  valueMember="30"/>
+					<CFtmComboItem displayMember="31"  valueMember="31"/>
+					<CFtmComboItem displayMember="32"  valueMember="32"/>
+					<CFtmComboItem displayMember="33"  valueMember="33"/>
+					<CFtmComboItem displayMember="34"  valueMember="34"/>
+					<CFtmComboItem displayMember="35"  valueMember="35"/>
+					<CFtmComboItem displayMember="36"  valueMember="36"/>
+					<CFtmComboItem displayMember="37"  valueMember="37"/>
+					<CFtmComboItem displayMember="38"  valueMember="38"/>
+					<CFtmComboItem displayMember="39"  valueMember="39"/>
+					<CFtmComboItem displayMember="40"  valueMember="40"/>
+					<CFtmComboItem displayMember="41"  valueMember="41"/>
+					<CFtmComboItem displayMember="42"  valueMember="42"/>
+					<CFtmComboItem displayMember="43"  valueMember="43"/>
+					<CFtmComboItem displayMember="44"  valueMember="44"/>
+					<CFtmComboItem displayMember="45"  valueMember="45"/>
+					<CFtmComboItem displayMember="46"  valueMember="46"/>
+					<CFtmComboItem displayMember="47"  valueMember="47"/>
+					<CFtmComboItem displayMember="48"  valueMember="48"/>
+					<CFtmComboItem displayMember="49"  valueMember="49"/>
+					<CFtmComboItem displayMember="50"  valueMember="50"/>
+					<CFtmComboItem displayMember="51"  valueMember="51"/>
+					<CFtmComboItem displayMember="52"  valueMember="52"/>
+					<CFtmComboItem displayMember="53"  valueMember="53"/>
+					<CFtmComboItem displayMember="54"  valueMember="54"/>
+					<CFtmComboItem displayMember="55"  valueMember="55"/>
+					<CFtmComboItem displayMember="56"  valueMember="56"/>
+					<CFtmComboItem displayMember="57"  valueMember="57"/>
+					<CFtmComboItem displayMember="58"  valueMember="58"/>
+					<CFtmComboItem displayMember="59"  valueMember="59"/>
+					<CFtmComboItem displayMember="60"  valueMember="60"/>
+					<CFtmComboItem displayMember="61"  valueMember="61"/>
+					<CFtmComboItem displayMember="62"  valueMember="62"/>
+					<CFtmComboItem displayMember="63"  valueMember="63"/>
+					<CFtmComboItem displayMember="64"  valueMember="64"/>
+					<CFtmComboItem displayMember="65"  valueMember="65"/>
+					<CFtmComboItem displayMember="66"  valueMember="66"/>
+					<CFtmComboItem displayMember="67"  valueMember="67"/>
+					<CFtmComboItem displayMember="68"  valueMember="68"/>
+					<CFtmComboItem displayMember="69"  valueMember="69"/>
+					<CFtmComboItem displayMember="70"  valueMember="70"/>
+					<CFtmComboItem displayMember="71"  valueMember="71"/>
+					<CFtmComboItem displayMember="72"  valueMember="72"/>
+					<CFtmComboItem displayMember="73"  valueMember="73"/>
+					<CFtmComboItem displayMember="74"  valueMember="74"/>
+					<CFtmComboItem displayMember="75"  valueMember="75"/>
+					<CFtmComboItem displayMember="76"  valueMember="76"/>
+					<CFtmComboItem displayMember="77"  valueMember="77"/>
+					<CFtmComboItem displayMember="78"  valueMember="78"/>
+					<CFtmComboItem displayMember="79"  valueMember="79"/>
+					<CFtmComboItem displayMember="80"  valueMember="80"/>
+					<CFtmComboItem displayMember="81"  valueMember="81"/>
+					<CFtmComboItem displayMember="82"  valueMember="82"/>
+					<CFtmComboItem displayMember="83"  valueMember="83"/>
+					<CFtmComboItem displayMember="84"  valueMember="84"/>
+					<CFtmComboItem displayMember="85"  valueMember="85"/>
+					<CFtmComboItem displayMember="86"  valueMember="86"/>
+					<CFtmComboItem displayMember="87"  valueMember="87"/>
+					<CFtmComboItem displayMember="88"  valueMember="88"/>
+					<CFtmComboItem displayMember="89"  valueMember="89"/>
+					<CFtmComboItem displayMember="90"  valueMember="90"/>
+					<CFtmComboItem displayMember="91"  valueMember="91"/>
+					<CFtmComboItem displayMember="92"  valueMember="92"/>
+					<CFtmComboItem displayMember="93"  valueMember="93"/>
+					<CFtmComboItem displayMember="94"  valueMember="94"/>
+					<CFtmComboItem displayMember="95"  valueMember="95"/>
+					<CFtmComboItem displayMember="96"  valueMember="96"/>
+					<CFtmComboItem displayMember="97"  valueMember="97"/>
+					<CFtmComboItem displayMember="98"  valueMember="98"/>
+					<CFtmComboItem displayMember="99"  valueMember="99"/>
+					<CFtmComboItem displayMember="100"  valueMember="100"/>
+					<CFtmComboItem displayMember="101"  valueMember="101"/>
+					<CFtmComboItem displayMember="102"  valueMember="102"/>
+					<CFtmComboItem displayMember="103"  valueMember="103"/>
+					<CFtmComboItem displayMember="104"  valueMember="104"/>
+					<CFtmComboItem displayMember="105"  valueMember="105"/>
+					<CFtmComboItem displayMember="106"  valueMember="106"/>
+					<CFtmComboItem displayMember="107"  valueMember="107"/>
+					<CFtmComboItem displayMember="108"  valueMember="108"/>
+					<CFtmComboItem displayMember="109"  valueMember="109"/>
+					<CFtmComboItem displayMember="110"  valueMember="110"/>
+					<CFtmComboItem displayMember="111"  valueMember="111"/>
+					<CFtmComboItem displayMember="112"  valueMember="112"/>
+					<CFtmComboItem displayMember="113"  valueMember="113"/>
+					<CFtmComboItem displayMember="114"  valueMember="114"/>
+					<CFtmComboItem displayMember="115"  valueMember="115"/>
+					<CFtmComboItem displayMember="116"  valueMember="116"/>
+					<CFtmComboItem displayMember="117"  valueMember="117"/>
+					<CFtmComboItem displayMember="118"  valueMember="118"/>
+					<CFtmComboItem displayMember="119"  valueMember="119"/>
+					<CFtmComboItem displayMember="120"  valueMember="120"/>
+					<CFtmComboItem displayMember="121"  valueMember="121"/>
+					<CFtmComboItem displayMember="122"  valueMember="122"/>
+					<CFtmComboItem displayMember="123"  valueMember="123"/>
+					<CFtmComboItem displayMember="124"  valueMember="124"/>
+					<CFtmComboItem displayMember="125"  valueMember="125"/>
+					<CFtmComboItem displayMember="126"  valueMember="126"/>
+					<CFtmComboItem displayMember="127"  valueMember="127"/>
+				</Items>
+		</ComboBox>
+		<Button X="410" Y="35" CtrlID="bnSetAdjustRTC" Text="Set Time Adjust"/> 
+		
+<!--  ******************************************* Get Time Adjust ************************************ -->
+		<TextBox X="410" Y="60" ReadOnly="true" CtrlID="txtAdjustTimeGet" Label="Time Adj" Width="100" Text="" ToolTip=""/>
+		<Button X="410" Y="85" CtrlID="bnGetAdjustRTC" Text="Get Time Adjust"/> 
+		
+<!--  ******************************************* Stop Time ****************************************** -->
+		<Button X="410" Y="135" CtrlID="bnStopRTC" Text="Stop Time"/> 
+		
+<!--  ******************************************* Get Alarm Status *********************************** -->
+		<TextBox X="410" Y="230" ReadOnly="true" CtrlID="txtAlarmStatusGet" Label="Status" Width="100" Text="" ToolTip=""/>
+		<Button X="410" Y="255" CtrlID="bnGetAlarmStatus" Text="Get Alarm Status"/> 
+		
+<!--  ******************************************* Disable Alarm ************************************** -->
+		<ComboBox X="410" Y="305" CtrlID="comboAlarmStatusGet" Label="Alarm ID" Width="100" DropDownWidth="120">
+                <Items>
+                    <CFtmComboItem displayMember="RTC_ALARM_1"  valueMember="1"/>
+                    <CFtmComboItem displayMember="RTC_ALARM_2"  valueMember="2"/>
+                    <CFtmComboItem displayMember="RTC_ALARM_3" valueMember="3"/>
+                </Items>
+        </ComboBox>
+		<Button X="410" Y="330" CtrlID="bnDisableAlarm" Text="Disable Alarm"/> 
+		
+		</controls>
+
+
+<!--  ******************************************* Set Time ***************************************** -->
+	<SendSyncAction packetLength="23" msTimeOut="1000" CtrlID="bnSetRTC" TestBriefDesp="Set Time">
+	<inputs>
+		<DataInput size="FTM_UCHAR" data="75" />   <!-- DIAG  -        75 -->
+		<DataInput size="FTM_UCHAR" data="11"/>    <!-- FTM   -        11 -->
+		<DataInput size="FTM_USHORT" data="11"/>   <!-- PMIC  -        11 0 -->
+		<DataInput size="FTM_USHORT" data="0"/>    <!-- PMIC RTC  -    0 0 -->  
+		<DataInput size="FTM_ULONG" data="0"/>     <!-- reserved  -    0 0 0 0 --> 
+		<DataInput size="FTM_UCHAR" data="0" />    <!-- SET_GET_TIME   0 -->
+		<DataInput size="FTM_UCHAR" data="0"/>     <!-- PM_RTC_SET_CMD 0 --> 
+		<ControlInput size="FTM_UCHAR" CtrlID="comboTimeSelect__Mode" />
+		<ControlInput size="FTM_UCHAR" CtrlID="comboTimeSelect__Month" />
+		<ControlInput size="FTM_UCHAR" CtrlID="comboTimeSelect__Day" />
+		<ControlInput size="FTM_USHORT" CtrlID="comboTimeSelect__Year" />
+		<ControlInput size="FTM_UCHAR" CtrlID="comboTimeSelect__Hour" />
+		<ControlInput size="FTM_UCHAR" CtrlID="comboTimeSelect__Min" />
+		<ControlInput size="FTM_UCHAR" CtrlID="comboTimeSelect__Sec" />
+	</inputs>
+	</SendSyncAction>
+<!--  ******************************************* Get Time ***************************************** -->
+	<SendSyncAction packetLength="23" msTimeOut="1000" CtrlID="bnGetRTC" TestBriefDesp="Get Time">
+	<inputs>
+		<DataInput size="FTM_UCHAR" data="75" />   <!-- DIAG  -        75 -->
+		<DataInput size="FTM_UCHAR" data="11"/>    <!-- FTM   -        11 -->
+		<DataInput size="FTM_USHORT" data="11"/>   <!-- PMIC  -        11 0 -->
+		<DataInput size="FTM_USHORT" data="0"/>    <!-- PMIC RTC  -    0 0 -->  
+		<DataInput size="FTM_ULONG" data="0"/>     <!-- reserved  -    0 0 0 0 --> 
+		<DataInput size="FTM_UCHAR" data="0" />    <!-- SET_GET_TIME   0 -->
+		<DataInput size="FTM_UCHAR" data="1"/>     <!-- PM_RTC_GET_CMD 1 --> 
+	</inputs>
+		<outputs>
+			<ByteCtrlOutput size="FTM_UCHAR" offset="13" CtrlID="txtTimeGet_Mode" />
+			<ByteCtrlOutput size="FTM_UCHAR" offset="14" CtrlID="txtTimeGet_Month" />
+			<ByteCtrlOutput size="FTM_UCHAR" offset="15" CtrlID="txtTimeGet_Day" />
+			<ByteCtrlOutput size="FTM_USHORT" offset="16" CtrlID="txtTimeGet_Year" />
+			<ByteCtrlOutput size="FTM_UCHAR" offset="18" CtrlID="txtTimeGet_Hour" />
+			<ByteCtrlOutput size="FTM_UCHAR" offset="19" CtrlID="txtTimeGet_Min" />
+			<ByteCtrlOutput size="FTM_UCHAR" offset="20" CtrlID="txtTimeGet_Sec" />
+			</outputs>
+	</SendSyncAction>
+<!--  ******************************************* Set Alarm Time ************************************ -->
+	<SendSyncAction packetLength="23" msTimeOut="1000" CtrlID="bnSetAlarmRTC" TestBriefDesp="Set Alarm Time">
+	<inputs>
+		<DataInput size="FTM_UCHAR" data="75" />   <!-- DIAG  -              75 -->
+		<DataInput size="FTM_UCHAR" data="11"/>    <!-- FTM   -              11 -->
+		<DataInput size="FTM_USHORT" data="11"/>   <!-- PMIC  -              11 0 -->
+		<DataInput size="FTM_USHORT" data="0"/>    <!-- PMIC RTC  -          0 0 -->  
+		<DataInput size="FTM_ULONG" data="0"/>     <!-- reserved  -          0 0 0 0 --> 
+		<DataInput size="FTM_UCHAR" data="1" />    <!-- SET_GET_ALARM_TIME   1 -->
+		<DataInput size="FTM_UCHAR" data="0"/>     <!-- PM_RTC_SET_CMD       0 --> 
+		<ControlInput size="FTM_UCHAR" CtrlID="comboAlarmTimeSelect__Id" />		
+		<ControlInput size="FTM_UCHAR" CtrlID="comboAlarmTimeSelect__Mode" />
+		<ControlInput size="FTM_UCHAR" CtrlID="comboAlarmTimeSelect__Month" />
+		<ControlInput size="FTM_UCHAR" CtrlID="comboAlarmTimeSelect__Day" />
+		<ControlInput size="FTM_USHORT" CtrlID="comboAlarmTimeSelect__Year" />
+		<ControlInput size="FTM_UCHAR" CtrlID="comboAlarmTimeSelect__Hour" />
+		<ControlInput size="FTM_UCHAR" CtrlID="comboAlarmTimeSelect__Min" />
+		<ControlInput size="FTM_UCHAR" CtrlID="comboAlarmTimeSelect__Sec" />
+	</inputs>
+	</SendSyncAction>
+<!--  ******************************************* Get Alarm Time ************************************ -->
+	<SendSyncAction packetLength="23" msTimeOut="1000" CtrlID="bnGetAlarmRTC" TestBriefDesp="Get Alarm Time">
+	<inputs>
+		<DataInput size="FTM_UCHAR" data="75" />   <!-- DIAG  -            75 -->
+		<DataInput size="FTM_UCHAR" data="11"/>    <!-- FTM   -            11 -->
+		<DataInput size="FTM_USHORT" data="11"/>   <!-- PMIC  -            11 0 -->
+		<DataInput size="FTM_USHORT" data="0"/>    <!-- PMIC RTC  -        0 0 -->  
+		<DataInput size="FTM_ULONG" data="0"/>     <!-- reserved  -        0 0 0 0 --> 
+		<DataInput size="FTM_UCHAR" data="1" />    <!-- SET_GET_ALARM_TIME 1 -->
+		<DataInput size="FTM_UCHAR" data="1"/>     <!-- PM_RTC_GET_CMD     1 --> 
+		<ControlInput size="FTM_UCHAR" CtrlID="comboGetAlarmTimeSelect__Id" />
+	</inputs>
+		<outputs>			
+			<ByteCtrlOutput size="FTM_UCHAR" offset="13" CtrlID="txtAlarmTimeGet_Mode" />
+			<ByteCtrlOutput size="FTM_UCHAR" offset="14" CtrlID="txtAlarmTimeGet_Month" />
+			<ByteCtrlOutput size="FTM_UCHAR" offset="15" CtrlID="txtAlarmTimeGet_Day" />
+			<ByteCtrlOutput size="FTM_USHORT" offset="16" CtrlID="txtAlarmTimeGet_Year" />
+			<ByteCtrlOutput size="FTM_UCHAR" offset="18" CtrlID="txtAlarmTimeGet_Hour" />
+			<ByteCtrlOutput size="FTM_UCHAR" offset="19" CtrlID="txtAlarmTimeGet_Min" />
+			<ByteCtrlOutput size="FTM_UCHAR" offset="20" CtrlID="txtAlarmTimeGet_Sec" />
+			</outputs>
+	</SendSyncAction>
+
+<!--  ******************************************* Set Time Adjust ************************************ -->
+	<SendSyncAction packetLength="23" msTimeOut="1000" CtrlID="bnSetAdjustRTC" TestBriefDesp="Set Time Adjust">
+	<inputs>
+		<DataInput size="FTM_UCHAR" data="75" />  <!-- DIAG  -              75 -->
+		<DataInput size="FTM_UCHAR" data="11"/>   <!-- FTM   -              11 -->
+		<DataInput size="FTM_USHORT" data="11"/>  <!-- PMIC  -              11 0 -->
+		<DataInput size="FTM_USHORT" data="0"/>   <!-- PMIC RTC  -          0 0 -->  
+		<DataInput size="FTM_ULONG" data="0"/>    <!-- reserved  -          0 0 0 0 --> 
+		<DataInput size="FTM_UCHAR" data="5"/>    <!-- SET_GET_TIME_ADJUST  5 -->
+		<DataInput size="FTM_UCHAR" data="0"/>    <!-- PM_RTC_SET_CMD       0 --> 
+		<ControlInput size="FTM_UCHAR" CtrlID="comboAdjustTimeSelect" />
+	</inputs>
+	</SendSyncAction>
+
+<!--  ******************************************* Get Time Adjust ************************************ -->
+	<SendSyncAction packetLength="23" msTimeOut="1000" CtrlID="bnGetAdjustRTC" TestBriefDesp="Get Time Adjust">
+	<inputs>
+		<DataInput size="FTM_UCHAR" data="75" />   <!-- DIAG  -             75 -->
+		<DataInput size="FTM_UCHAR" data="11"/>    <!-- FTM   -             11 -->
+		<DataInput size="FTM_USHORT" data="11"/>   <!-- PMIC  -             11 0 -->
+		<DataInput size="FTM_USHORT" data="0"/>    <!-- PMIC RTC  -         0 0 -->  
+		<DataInput size="FTM_ULONG" data="0"/>     <!-- reserved  -         0 0 0 0 --> 
+		<DataInput size="FTM_UCHAR" data="5" />    <!-- SET_GET_TIME_ADJUST 1 -->
+		<DataInput size="FTM_UCHAR" data="1"/>     <!-- PM_RTC_GET_CMD      1 --> 
+	</inputs>
+		<outputs>
+			<ByteCtrlOutput size="FTM_UCHAR" offset="22" CtrlID="txtAdjustTimeGet" />
+		</outputs>
+	</SendSyncAction>
+	
+<!--  ******************************************* Stop Time ****************************************** -->
+	<SendSyncAction packetLength="23" msTimeOut="1000" CtrlID="bnStopRTC" TestBriefDesp="Stop Time">
+	<inputs>
+		<DataInput size="FTM_UCHAR" data="75" />   <!-- DIAG  -             75 -->
+		<DataInput size="FTM_UCHAR" data="11"/>    <!-- FTM   -             11 -->
+		<DataInput size="FTM_USHORT" data="11"/>   <!-- PMIC  -             11 0 -->
+		<DataInput size="FTM_USHORT" data="0"/>    <!-- PMIC RTC  -         0 0 -->  
+		<DataInput size="FTM_ULONG" data="0"/>     <!-- reserved  -         0 0 0 0 --> 
+		<DataInput size="FTM_UCHAR" data="2"/>     <!-- STOP                2 -->
+	</inputs>
+	</SendSyncAction>
+		
+<!--  ******************************************* Get Alarm Status *********************************** -->
+	<SendSyncAction packetLength="23" msTimeOut="1000" CtrlID="bnGetAlarmStatus" TestBriefDesp="Get Alarm Status">
+	<inputs>
+		<DataInput size="FTM_UCHAR" data="75" />   <!-- DIAG  -             75 -->
+		<DataInput size="FTM_UCHAR" data="11"/>    <!-- FTM   -             11 -->
+		<DataInput size="FTM_USHORT" data="11"/>   <!-- PMIC  -             11 0 -->
+		<DataInput size="FTM_USHORT" data="0"/>    <!-- PMIC RTC  -         0 0 -->  
+		<DataInput size="FTM_ULONG" data="0"/>     <!-- reserved  -         0 0 0 0 --> 
+		<DataInput size="FTM_UCHAR" data="3" />    <!-- GET_ALARM_STATUS    1 -->
+	</inputs>
+		<outputs>
+			<ByteCtrlOutput size="FTM_UCHAR" offset="21" CtrlID="txtAlarmStatusGet" />
+		</outputs>
+	</SendSyncAction>
+
+<!--  ******************************************* Disable Alarm ************************************** -->
+	<SendSyncAction packetLength="23" msTimeOut="1000" CtrlID="bnDisableAlarm" TestBriefDesp="Disable Alarm">
+	<inputs>
+		<DataInput size="FTM_UCHAR" data="75" />   <!-- DIAG  -             75 -->
+		<DataInput size="FTM_UCHAR" data="11"/>    <!-- FTM   -             11 -->
+		<DataInput size="FTM_USHORT" data="11"/>   <!-- PMIC  -             11 0 -->
+		<DataInput size="FTM_USHORT" data="0"/>    <!-- PMIC RTC  -         0 0 -->  
+		<DataInput size="FTM_ULONG" data="0"/>     <!-- reserved  -         0 0 0 0 --> 
+		<DataInput size="FTM_UCHAR" data="4" />    <!-- DISABLE_ALARM       1 -->
+	</inputs>
+	</SendSyncAction>
+	
+		
+		</SendSyncAPI>
+	</APIs>
+</QRCTCustomAPIPage>

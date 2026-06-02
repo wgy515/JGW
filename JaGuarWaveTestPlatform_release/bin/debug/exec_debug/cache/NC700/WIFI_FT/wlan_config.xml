@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Config>
+	<TestParam>
+		<Tx PathName="COMMON_PARAM">
+			<PwrMode>3</PwrMode><!-- ForcedGain=0;OpenLoopSearch=1;TxPowerAuto=2;TxPowerForce_CLPC=3;TxPowerForce_SCPC=4;TxPowerForce_OLPC=5;ForcedDesiredGain=6;ForcedGLUTIndex=7 -->
+			<nss>1</nss><!-- _1Stream=1;_2Streams=2;_3Streams=3;_4Streams=4;_5Streams=5;_6Streams=6;_7Streams=7;_8Streams=8	-->
+			<TxMode>3</TxMode> <!-- 0;EnablingContinuousUnmodulatedTX=1;EnablingContinuousModulatedTX=2;ContTx99=3;ContTx100=4;EnablingOffsetTone=5;EnablingPSATCal=6;EnablingCWTone=7;EnablingCLPCPacket=8;EnablingSCPC=9 -->
+			<Gain>20</Gain> <!-- Gain (RF gain for WCN) for open loop power control mode -->
+			<DigitalGain>-64</DigitalGain> <!-- Digital gain for WCN for open loop power control mode -->
+			<PAcfg>0</PAcfg> <!-- PA configuration -->
+			<PayLoadSize>4000</PayLoadSize> <!-- payload size -->
+			<Short11b_nGuard>0</Short11b_nGuard><!-- True for 11b short preamble or 11n short guard -->
+			<LdpcRate>0</LdpcRate><!-- True if this is an 11n or 11ac LDPC rate -->
+			<StbcMode>0</StbcMode> <!-- True if this is a STBC mode -->
+			<Aggregation>1</Aggregation>
+			<DpdMode>1</DpdMode> <!-- DPD mode Enabled=0;Disabled=1 -->
+			<ifs>1</ifs> <!-- interframe space, currently not in use -->
+			<DutyCycle>10</DutyCycle> <!-- dutyCycle percentage, currently not in use -->
+			<nPattern>0</nPattern> <!-- data frame data pattern enum. if >=6, data frame will be user defined in pattern with length of nPattern -->
+			<pattern>0</pattern><!-- Used when nPattern >=6, user defined data pattern with length of nPattern, currently not in use -->
+			<Packet>0</Packet> <!-- Number of Packets, 0 = continuous -->
+			<BroadcastMode>0</BroadcastMode> <!-- Broadcast/unicast -->
+			<AIFSN>0</AIFSN> <!-- interframe spacing value -->
+			<DutTxSettlingDelayMs>500</DutTxSettlingDelayMs>
+			<ScramblerDisable>0</ScramblerDisable> <!-- Enable/Disable Scrambler -->
+			<Channel2>0</Channel2> <!-- Center freqMHz for non-contiguous 80+80Mhz only -->
+			<HC_Enable>1</HC_Enable> <!-- 0 : enable 1 : disenable-->
+			<DpdMode>0</DpdMode><!-- 0 : enable 1 : disenable-->
+			<ackRequest>0</ackRequest><!-- 0 -->
+			<guardInterval>50</guardInterval> <!--GI_0=0;LTF_Mode0_GI_400=1;LTF_Mode0_GI_800=2;LTF_Mode0_GI_1600=3;LTF_Mode0_GI_3200=4;LTF_Mode1_GI_400=17;LTF_Mode1_GI_800=18;LTF_Mode1_GI_1600=19;LTF_Mode1_GI_3200=20;LTF_Mode2_GI_400=33;LTF_Mode2_GI_800=34;LTF_Mode2_GI_1600=35;LTF_Mode2_GI_3200=36;LTF_Mode4_GI_400=49;LTF_Mode4_GI_800=50;LTF_Mode4_GI_1600=51;LTF_Mode4_GI_3200=52 -->
+		</Tx>
+		<Tx PathName="COMMON_PARAM_24G">
+			<PwrMode>3</PwrMode><!-- ForcedGain=0;OpenLoopSearch=1;TxPowerAuto=2;TxPowerForce_CLPC=3;TxPowerForce_SCPC=4;TxPowerForce_OLPC=5;ForcedDesiredGain=6;ForcedGLUTIndex=7 -->
+			<nss>1</nss><!-- _1Stream=1;_2Streams=2;_3Streams=3;_4Streams=4;_5Streams=5;_6Streams=6;_7Streams=7;_8Streams=8	-->
+			<TxMode>3</TxMode> <!-- 0;EnablingContinuousUnmodulatedTX=1;EnablingContinuousModulatedTX=2;ContTx99=3;ContTx100=4;EnablingOffsetTone=5;EnablingPSATCal=6;EnablingCWTone=7;EnablingCLPCPacket=8;EnablingSCPC=9 -->
+			<Gain>0</Gain> <!-- Gain (RF gain for WCN) for open loop power control mode -->
+			<DigitalGain>0</DigitalGain> <!-- Digital gain for WCN for open loop power control mode -->
+			<PAcfg>0</PAcfg> <!-- PA configuration -->
+			<PayLoadSize>4000</PayLoadSize> <!-- payload size -->
+			<Short11b_nGuard>0</Short11b_nGuard><!-- True for 11b short preamble or 11n short guard -->
+			<LdpcRate>0</LdpcRate><!-- True if this is an 11n or 11ac LDPC rate -->
+			<StbcMode>0</StbcMode> <!-- True if this is a STBC mode -->
+			<Aggregation>1</Aggregation>
+			<DpdMode>0</DpdMode> <!-- DPD mode Enabled=0;Disabled=1 -->
+			<ifs>1</ifs> <!-- interframe space, currently not in use -->
+			<DutyCycle>10</DutyCycle> <!-- dutyCycle percentage, currently not in use -->
+			<nPattern>0</nPattern> <!-- data frame data pattern enum. if >=6, data frame will be user defined in pattern with length of nPattern -->
+			<pattern>0</pattern><!-- Used when nPattern >=6, user defined data pattern with length of nPattern, currently not in use -->
+			<Packet>0</Packet> <!-- Number of Packets, 0 = continuous -->
+			<BroadcastMode>0</BroadcastMode> <!-- Broadcast/unicast -->
+			<AIFSN>0</AIFSN> <!-- interframe spacing value -->
+			<DutTxSettlingDelayMs>500</DutTxSettlingDelayMs>
+			<ScramblerDisable>0</ScramblerDisable> <!-- Enable/Disable Scrambler -->
+			<Channel2>0</Channel2> <!-- Center freqMHz for non-contiguous 80+80Mhz only -->
+			<HC_Enable>1</HC_Enable> <!-- 0 : enable 1 : disenable-->
+			<DpdMode>1</DpdMode><!-- 0 : enable 1 : disenable-->
+			<ackRequest>0</ackRequest><!-- 0 -->
+			<guardInterval>2</guardInterval> 
+		</Tx>
+	</TestParam>
+	<TestingStandard>
+		<Tx PathName="11AX_BW80_MCS11">
+			<AvgTxPowerDelta LL="-2" UL="2"/>
+			<AmplErr LL="-9" UL="9"/>
+			<PhaseErr LL="-999" UL="9"/>
+			<DataRateMB LL="-99999" UL="999"/>
+			<SymbolClockError LL="-50" UL="50"/>
+			<FreqErr LL="-20" UL="20"/>
+			<LoLeakage LL="-999" UL="-32"/>
+		</Tx>
+		<Tx PathName="11BAN_HT20_MCS8">
+			<AvgTxPowerDelta LL="-2" UL="2"/>
+			<AmplErr LL="-9" UL="9"/>
+			<DataRateMB LL="-99999" UL="999"/>
+			<SymbolClockError LL="-50" UL="50"/>
+			<FreqErr LL="-99" UL="999"/>
+			<PhaseErr LL="-999" UL="9"/>
+			<LoLeakage LL="-120" UL="-10"/>
+		</Tx>
+	</TestingStandard>
+</Config>

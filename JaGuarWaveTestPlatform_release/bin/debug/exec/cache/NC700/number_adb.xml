@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Suite>
+    <common>
+		<TSE_SSH_SOURCE_IP>192.168.225.5</TSE_SSH_SOURCE_IP>
+        <TSE_SSH_HOST>192.168.225.1</TSE_SSH_HOST>
+		<TSE_MES_TASK_NUMBER>nc700</TSE_MES_TASK_NUMBER>
+		<TSE_USER_MODE>0</TSE_USER_MODE>
+		<TSE_MODEL>nc700</TSE_MODEL>
+		<TSE_MFR>TINNO</TSE_MFR>
+		<TSE_CURRENT_RANGE>0.000~0.060</TSE_CURRENT_RANGE>
+		<TSE_GPIB_TYPE>0</TSE_GPIB_TYPE>
+        <TSE_GPIB_INTERFACE>0</TSE_GPIB_INTERFACE>
+        <TSE_GPIB_PRIMARY_ADDR>5</TSE_GPIB_PRIMARY_ADDR>
+        <TSE_GPIB_SEC_ADDR>0</TSE_GPIB_SEC_ADDR>
+		<TSE_SSID_2G>NC700_2.4G</TSE_SSID_2G>
+		<TSE_SSID_5G>NC700_5.8G</TSE_SSID_5G>
+		<TSE_ETH0_MAC>F831387A123400000F0803010308070A0E040401</TSE_ETH0_MAC>
+		<TSE_ETH1_MAC>18D61CA08AC1</TSE_ETH1_MAC>
+		<TSE_SN>LS2052519115</TSE_SN>
+	</common>
+	<config>
+        <ModuleName paramVal="TSE_ConfigUIPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_BaseConfig" description="" />
+        <TestName paramVal="Config" description="测试名称描述" />
+        <ConfigCount paramVal="1" description="配置数" />
+        <LabelName1 paramVal="USB网卡IP地址：" description="配置标签名称" />
+        <EditValueEnvironment1 paramVal="TSE_SSH_SOURCE_IP" description="编辑参数的环境变量，默认值" />
+    </config>
+	<auto>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_InputWindows" description="连接高通设备" />
+		<TestName paramVal="输入IMEI号段" description="测试名称描述" />
+		<tip paramVal="请输入IMEI号段" description="输入对话框提示信息" />
+		<maxchar paramVal="15" description="输入最大字符串长度" />
+		<minchar paramVal="15" description="输入最小字符串长度" />
+		<numbertype paramVal="1" description="号段类型E_SN:0,E_IMEI:1,E_IMEI2:2,E_MEID:3,E_WIFI_MAC:4,E_ETH0_MAC:5,E_BT_MAC:6,E_2_4_SSID:7,E_2_4_PASSWORD:8,E_5_SSID:9,E_5_PASSWORD:10,E_AD_SSID:11,E_AD_PASSWORD:12,E_CLIENT_SN:13"/>
+		<input_prefix paramVal="" description="输入字符前缀 默认：" />
+		<input_tip paramVal="请输入15位IMEI号段" description="输入框提示信息" />
+		<Environment paramVal="TSE_X55_IMEI" description="输入环境变量名称" />
+	</auto>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_MESGetIMEIInfo" description="连接高通设备" />
+		<TestName paramVal="获取IMEI相关信息" description="测试名称描述" />
+		<SNEnvironmentLen paramVal="" description="当前环境变量对应的值长度限定" />
+		<SNEnvironment paramVal="" description="保存到某个环境变量" />
+		<IMEIEnvironment paramVal="TSE_X55_IMEI" description="保存到某个环境变量" />
+		<ParamNames paramVal="SN,MAC,BT,SSID1,PSWD1,SSID2,PSWD2,Model,ICCID" description="[ IMEI_M  ,IMEI_S  ,SN ,MAC ,BT,SpecialSN,OTPpwd, imeimo, RoutingStep,RoutingStep_Pre,RoutingStep_Next,Color, MEID,pESN,SONO:包装订单,MONOSMT:SMT工单,MONOPack：包装工单，MONOAssy： 组装工单，SIMInfo：SIMLock码，json格式] ,MSL,OTKSL "/>
+		<ParamValueRegexRule2 paramVal="[0-9A-Za-z]{12}" description=""/>
+		<ParamValueRegexRule3 paramVal="[0-9A-Za-z]{12}" description=""/>
+		<EnvironmentValues paramVal="TSE_IPQ_SN,TSE_ETH0_MAC,TSE_ETH1_MAC,TSE_SSID_2_4G,TSE_PASSWORD_2_4G,TSE_SSID_5G,TSE_PASSWORD_5G,TSE_MODEL_MES,TSE_ICCID_MES" description="参数名称对应响应环境变量值  "/>
+	</SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_MESSaveTestRecords" description="连接高通设备" />
+		<TestName paramVal="更新测试时间" description="测试名称描述" />
+		<StartTestTime paramVal="1" description=""/>
+		<EndTestTime paramVal="0" description=""/>
+		<EnvironmentLen paramVal="14" description="当前环境变量对应的值长度限定" />
+		<IMEISNEnvironment paramVal="TSE_X55_IMEI" description="保存到某个环境变量" />
+	</SuiteProject>
+    <SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_PingTest" description="TSE测试实例名称" />
+        <TestName paramVal="检查设备网络连接" description="Ping测试" />
+        <SourceAddrEnvironment paramVal="TSE_SSH_SOURCE_IP" description="Socke 路由IP地址" />
+        <HostEnvironment paramVal="TSE_SSH_HOST" description="主机IP地址" />
+        <PingTestTimeSec paramVal="2" description="ping测试，默认在1S中测试一次" />
+        <TimeOutSec paramVal="120" description="超时时间秒" />
+        <RetryCount paramVal="1" description="错误重测次数" />
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="断开ADB连接" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb disconnect" description="指令"/>
+		<Recv1 paramVal="disconnected everything" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />
+        <TestName paramVal="连接设备" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb connect 192.168.225.1" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />                                    
+        <TestName paramVal="挂载分区" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell mount -o remount,rw /firmware" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />                                    
+        <TestName paramVal="创建factory文件" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell touch /firmware/factory.conf" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />                                    
+        <TestName paramVal="写IMEI号段" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell ubus call sat at '{\&quot;cmd\&quot;:\&quot;AT+SIMEI=$$_TSE_X55_IMEI_$$\&quot;}'" description="指令"/>
+		<Recv1 paramVal="result" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />                                    
+        <TestName paramVal="写SN号段" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>
+		<Command1 paramVal="adb shell &quot;sed -i &quot;/SN/d&quot; /firmware/factory.conf; echo &quot;SN=$$_TSE_SN_$$&quot; >> /firmware/factory.conf&quot;" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />                                    
+        <TestName paramVal="写2.4G SSID" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell &quot;sed -i &quot;/SSID_2G/d&quot; /firmware/factory.conf; echo &quot;SSID_2G=$$_TSE_SSID_2G_$$&quot; >> /firmware/factory.conf&quot;" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />                                    
+        <TestName paramVal="写2.4G PASSWORD" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell &quot;sed -i &quot;/PASSWORD_2G/d&quot; /firmware/factory.conf; echo &quot;PASSWORD_2G=1234567891&quot; >> /firmware/factory.conf&quot;" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />                                    
+        <TestName paramVal="写5G SSID" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell &quot;sed -i &quot;/SSID_5G/d&quot; /firmware/factory.conf; echo &quot;SSID_5G=$$_TSE_SSID_5G_$$&quot; >> /firmware/factory.conf&quot;" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />                                    
+        <TestName paramVal="写5G PASSWORD" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell &quot;sed -i &quot;/PASSWORD_5G/d&quot; /firmware/factory.conf; echo &quot;PASSWORD_5G=1234567891&quot; >> /firmware/factory.conf&quot;" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />                                    
+        <TestName paramVal="写以太网 MAC" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell ubus call sat at '{\&quot;cmd\&quot;:\&quot;AT+CNVW=3180,1,\\\&quot;$$_TSE_ETH0_MAC_$$\\\&quot;\&quot;}'" description="指令"/>
+		<Recv1 paramVal="result" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+	<SuiteProject>
+		<ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_SendPipeCommand" description="连接高通设备" />                                    
+        <TestName paramVal="恢复出厂设置" description="测试名称描述" />
+		<CommandCount paramVal="1" description="命令数量" />
+        <Application paramVal="cmd.exe" description="程序路径" />
+		<CommandLine paramVal="" description="程序路径"/>	
+		<Command1 paramVal="adb shell reset.sh" description="指令"/>
+		<Recv1 paramVal="" description="接收字符串"/>
+		<SendCounts1 paramVal="3" description="发送次数"/>
+		<TimeOut1 paramVal="30" description="命令超时时间"/>
+    </SuiteProject>
+    <SuiteProject>
+        <RealName paramVal="CTSE_Sleep" description="连接高通设备" />
+        <TestName paramVal="等待" description="测试名称描述" />
+		<SleepMS paramVal="2000" description="Sleep 时间 毫秒" />
+    </SuiteProject>
+	<SuiteProject>
+        <ModuleName paramVal="TSE_DevicesPlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_PingTest" description="TSE测试实例名称" />
+        <TestName paramVal="检查是否恢复出厂设置" description="Ping测试" />
+        <SourceAddrEnvironment paramVal="TSE_SSH_SOURCE_IP" description="Socke 路由IP地址" />
+        <HostEnvironment paramVal="TSE_SSH_HOST" description="主机IP地址" />
+        <PingTestTimeSec paramVal="2" description="ping测试，默认在1S中测试一次" />
+        <TimeOutSec paramVal="2" description="超时时间秒" />
+		<RetryCount paramVal="60" description="错误重测次数" />
+    </SuiteProject>
+    <SuiteProject>
+		<ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+		<RealName paramVal="CTSE_MESNextIMEIStation" description="连接高通设备" />
+		<TestName paramVal="IMEI MES过站" description="测试名称描述" />
+		<IMEISNEnvironment paramVal="TSE_X55_IMEI" description="保存到某个环境变量" />
+		<PCBASNEnvironmentLen paramVal="" description="当前环境变量对应的值长度限定" />
+		<PCBASNEnvironment paramVal="TSE_SN" description="保存到某个环境变量;PCBASN" />
+		<SoftWareVarTinnoEnv paramVal="" description="内部软件版本（若非需要保存IMEI与SN对应关系的写号节点，此项为空）" />
+		<SoftWareVarCustomerEnv paramVal="" description="客户软件版本（若非需要保存IMEI与SN对应关系的写号节点，此项为空）" />
+    </SuiteProject>
+    <SuiteProject IsFinalize="1">
+    	<ModuleName paramVal="TSE_DatabasePlugin.dll" description="模块名称或路径，默认路径：EXE执行路径" />
+        <RealName paramVal="CTSE_MESSaveTestRecords" description="连接高通设备" />
+		<TestName paramVal="保存测试记录" description="测试名称描述" />
+		<StartTestTime paramVal="0" description=""/>
+		<EndTestTime paramVal="1" description=""/>
+		<EnvironmentLen paramVal="15" description="当前环境变量对应的值长度限定" />
+		<IMEISNEnvironment paramVal="TSE_X55_IMEI" description="保存到某个环境变量" />
+	</SuiteProject> 
+</Suite>

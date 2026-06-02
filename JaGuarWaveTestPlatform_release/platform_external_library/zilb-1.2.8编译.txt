@@ -1,0 +1,4 @@
+1）Windows平台下MSVC编译
+
+　　使用VS（x86）命令行工具进入到zlib根目录，执行 nmake -f win32/Makefile.msc ,在根目录下生成：zlib.lib(静态库)  zdll.lib(动态库的导入库)  zlib1.dll(动态库) 。
+nmake -f win32/Makefile.msc

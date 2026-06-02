@@ -1,0 +1,44 @@
+﻿生成启动时间为 2025/2/12 17:26:10。
+     1>项目“F:\project\git_code_debug\FTM-tools\JaGuarWaveTestPlatform\tools\test\RKDevInfoWriteToolDebug\RKDevInfoWriteToolDebug.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\RKDevInfoWriteToolDebug.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\RKDevInfoWriteToolDebug.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt RKDevInfoWriteToolDebug.cpp
+         RKDevInfoWriteToolDebug.cpp
+     1>f:\project\git_code_debug\ftm-tools\jaguarwavetestplatform\tools\test\rkdevinfowritetooldebug\rkdevinfowritetooldebug.cpp(658): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(488) : 参见“_snwprintf”的声明
+     1>f:\project\git_code_debug\ftm-tools\jaguarwavetestplatform\tools\test\rkdevinfowritetooldebug\rkdevinfowritetooldebug.cpp(661): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(488) : 参见“_snwprintf”的声明
+     1>f:\project\git_code_debug\ftm-tools\jaguarwavetestplatform\tools\test\rkdevinfowritetooldebug\rkdevinfowritetooldebug.cpp(663): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(488) : 参见“_snwprintf”的声明
+     1>f:\project\git_code_debug\ftm-tools\jaguarwavetestplatform\tools\test\rkdevinfowritetooldebug\rkdevinfowritetooldebug.cpp(665): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(488) : 参见“_snwprintf”的声明
+     1>f:\project\git_code_debug\ftm-tools\jaguarwavetestplatform\tools\test\rkdevinfowritetooldebug\rkdevinfowritetooldebug.cpp(668): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(488) : 参见“_snwprintf”的声明
+     1>f:\project\git_code_debug\ftm-tools\jaguarwavetestplatform\tools\test\rkdevinfowritetooldebug\rkdevinfowritetooldebug.cpp(691): warning C4715: “ReadRKDevInfo”: 不是所有的控件路径都返回值
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\RKDevInfoWriteToolDebug.exe.embed.manifest.res" Debug\RKDevInfoWriteToolDebug_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\project\git_code_debug\FTM-tools\JaGuarWaveTestPlatform\Debug\RKDevInfoWriteToolDebug.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RKDevInfoWriteToolDebug.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\project\git_code_debug\FTM-tools\JaGuarWaveTestPlatform\Debug\RKDevInfoWriteToolDebug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\project\git_code_debug\FTM-tools\JaGuarWaveTestPlatform\Debug\RKDevInfoWriteToolDebug.lib" /MACHINE:X86 Debug\RKDevInfoWriteToolDebug.exe.embed.manifest.res
+         Debug\RKDevInfoWriteToolDebug.obj
+         Debug\stdafx.obj
+     1>RKDevInfoWriteToolDebug.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) int __stdcall RK_ReadChipInfo(unsigned char *,unsigned long)" (__imp_?RK_ReadChipInfo@@YGHPAEK@Z)，该符号在函数 "void __cdecl EnterLoader(unsigned long)" (?EnterLoader@@YAXK@Z) 中被引用
+     1>RKDevInfoWriteToolDebug.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) int __stdcall RK_ScanDeviceW(struct _STRUCT_DEVICE_DESC_W * *)" (__imp_?RK_ScanDeviceW@@YGHPAPAU_STRUCT_DEVICE_DESC_W@@@Z)，该符号在函数 "bool __cdecl ScanRKDevice(void)" (?ScanRKDevice@@YA_NXZ) 中被引用
+     1>RKDevInfoWriteToolDebug.obj : error LNK2019: 无法解析的外部符号 _RKDClose@4，该符号在函数 "bool __cdecl AdbToRockusb(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)" (?AdbToRockusb@@YA_NABV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z) 中被引用
+     1>RKDevInfoWriteToolDebug.obj : error LNK2019: 无法解析的外部符号 _RKDCmdW，该符号在函数 "bool __cdecl AdbToRockusb(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)" (?AdbToRockusb@@YA_NABV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z) 中被引用
+     1>RKDevInfoWriteToolDebug.obj : error LNK2019: 无法解析的外部符号 _RKDOpenW@8，该符号在函数 "bool __cdecl AdbToRockusb(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)" (?AdbToRockusb@@YA_NABV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z) 中被引用
+     1>RKDevInfoWriteToolDebug.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) int __stdcall RK_WaitDevice(unsigned long,unsigned int)" (__imp_?RK_WaitDevice@@YGHKI@Z)，该符号在函数 "bool __cdecl AdbToRockusbWait(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned long,int)" (?AdbToRockusbWait@@YA_NABV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@KH@Z) 中被引用
+     1>RKDevInfoWriteToolDebug.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) int __stdcall RK_DownloadBoot(unsigned long)" (__imp_?RK_DownloadBoot@@YGHK@Z)，该符号在函数 "bool __cdecl PreDeviceAccess(unsigned long &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,int,bool,bool)" (?PreDeviceAccess@@YA_NAAKABV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H_N2@Z) 中被引用
+     1>RKDevInfoWriteToolDebug.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) int __stdcall RK_SetFirmwareW(wchar_t const *,int)" (__imp_?RK_SetFirmwareW@@YGHPB_WH@Z)，该符号在函数 "bool __cdecl PreDeviceAccess(unsigned long &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,int,bool,bool)" (?PreDeviceAccess@@YA_NAAKABV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H_N2@Z) 中被引用
+     1>RKDevInfoWriteToolDebug.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) int __stdcall RK_ResetRockusb(unsigned char,unsigned long)" (__imp_?RK_ResetRockusb@@YGHEK@Z)，该符号在函数 "bool __cdecl PreDeviceAccess(unsigned long &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,int,bool,bool)" (?PreDeviceAccess@@YA_NAAKABV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H_N2@Z) 中被引用
+     1>RKDevInfoWriteToolDebug.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) int __stdcall RK_ReadOtpData(unsigned char *,unsigned short,unsigned char,unsigned long)" (__imp_?RK_ReadOtpData@@YGHPAEGEK@Z)，该符号在函数 "bool __cdecl ReadRKDevInfo(void)" (?ReadRKDevInfo@@YA_NXZ) 中被引用
+     1>RKDevInfoWriteToolDebug.obj : error LNK2019: 无法解析的外部符号 _RKDSetLogEn@12，该符号在函数 _wmain 中被引用
+     1>RKDevInfoWriteToolDebug.obj : error LNK2019: 无法解析的外部符号 _RKDInit@0，该符号在函数 _wmain 中被引用
+     1>RKDevInfoWriteToolDebug.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) int __stdcall RK_InitializeW(struct _INIT_DEV_INFO,struct _INIT_LOG_INFO_W,struct _INIT_CALLBACK_INFO)" (__imp_?RK_InitializeW@@YGHU_INIT_DEV_INFO@@U_INIT_LOG_INFO_W@@U_INIT_CALLBACK_INFO@@@Z)，该符号在函数 _wmain 中被引用
+     1>F:\project\git_code_debug\FTM-tools\JaGuarWaveTestPlatform\Debug\RKDevInfoWriteToolDebug.exe : fatal error LNK1120: 13 个无法解析的外部命令
+     1>已完成生成项目“F:\project\git_code_debug\FTM-tools\JaGuarWaveTestPlatform\tools\test\RKDevInfoWriteToolDebug\RKDevInfoWriteToolDebug.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.90

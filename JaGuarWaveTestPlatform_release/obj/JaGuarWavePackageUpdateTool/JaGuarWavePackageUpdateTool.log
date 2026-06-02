@@ -1,0 +1,43 @@
+﻿生成启动时间为 2022/6/22 17:50:15。
+     1>项目“F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_update\tool\JaGuarWavePackageUpdateTool\JaGuarWavePackageUpdateTool.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWavePackageUpdateTool\JaGuarWavePackageUpdateTool.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_ui\include" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_library\include" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_plugin\include" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\platform_update\include\\" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWavePackageUpdateTool\JaGuarWavePackageUpdateTool.pch" /Fo"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWavePackageUpdateTool\\" /Fd"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWavePackageUpdateTool\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_ui\include" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_library\include" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core\include" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_plugin\include" /I"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\\platform_update\include\\" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWavePackageUpdateTool\JaGuarWavePackageUpdateTool.pch" /Fo"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWavePackageUpdateTool\\" /Fd"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWavePackageUpdateTool\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\platform_library\library\JGW_FoundationFunc\JGW_ApplicationDecrypt.cpp ..\JaGuarWaveHelp\CJGW_InstallXmlConfig.cpp ..\JaGuarWaveHelp\CJGW_UpdateXmlConfig.cpp CCJaGuarWavePackageUpdateToolDlg.cpp main.cpp PackageUpdateThread.cpp
+         JGW_ApplicationDecrypt.cpp
+         CJGW_InstallXmlConfig.cpp
+         CJGW_UpdateXmlConfig.cpp
+         CCJaGuarWavePackageUpdateToolDlg.cpp
+         main.cpp
+         PackageUpdateThread.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWavePackageUpdateTool\JaGuarWavePackageUpdateTool.res" JaGuarWavePackageUpdateTool.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JaGuarWavePackageUpdateTool.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\ui" /LIBPATH:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\library" /LIBPATH:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\core" /LIBPATH:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core_lib\boost\lib" /LIBPATH:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\lib\plugin" /LIBPATH:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_core_lib\poco" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Delayimp.lib /DELAYLOAD:UiLib.dll /MANIFEST /ManifestFile:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWavePackageUpdateTool\JaGuarWavePackageUpdateTool.exe.intermediate.manifest" /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /DEBUG /PDB:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JaGuarWavePackageUpdateTool.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JaGuarWavePackageUpdateTool.lib" /MACHINE:X86 "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWavePackageUpdateTool\JaGuarWavePackageUpdateTool.res"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWavePackageUpdateTool\JGW_ApplicationDecrypt.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWavePackageUpdateTool\CJGW_InstallXmlConfig.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWavePackageUpdateTool\CJGW_UpdateXmlConfig.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWavePackageUpdateTool\CCJaGuarWavePackageUpdateToolDlg.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWavePackageUpdateTool\main.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWavePackageUpdateTool\PackageUpdateThread.obj"
+         "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWavePackageUpdateTool\stdafx.obj"
+            正在创建库 F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JaGuarWavePackageUpdateTool.lib 和对象 F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JaGuarWavePackageUpdateTool.exp
+         正在生成代码
+         已完成代码的生成
+         JaGuarWavePackageUpdateTool.vcxproj -> F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JaGuarWavePackageUpdateTool.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JaGuarWavePackageUpdateTool.exe;#1" /manifest "F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWavePackageUpdateTool\JaGuarWavePackageUpdateTool.exe.intermediate.manifest"
+       PostBuildEvent:
+         copy /y  F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec_release\JaGuarWavePackageUpdateTool.exe 	F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\bin\release\exec\JaGuarWavePackageUpdateTool.exe
+         :VCEnd
+         已复制         1 个文件。
+       FinalizeBuildStatus:
+         正在删除文件“F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWavePackageUpdateTool\JaGuarWavePackageUpdateTool.unsuccessfulbuild”。
+         正在对“F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\obj\JaGuarWavePackageUpdateTool\JaGuarWavePackageUpdateTool.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\project\git_code\FTM-tools\JaGuarWaveTestPlatform_release\platform_update\tool\JaGuarWavePackageUpdateTool\JaGuarWavePackageUpdateTool.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:20.31

@@ -1,0 +1,2935 @@
+<?xml version="1.0"?>
+<FormatDescriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1">
+  <OutputGroupSet name="QSC FB_Gain_Cal" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="FBGain_vs_Channel" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Sub Band" isString="true">
+            <Discriminator id="Signal Path" isString="true">
+              <Discriminator id="RFM Device" isString="true">
+                <Discriminator id="Antenna Path" isString="true">
+                  <Discriminator id="FBRx Gain State" />
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+        <YAxis index="2" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="FBRx Mode" />
+        <Result resID="FBRx Path Gain" testID="QSC">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="MeasuredTxPwr" testID="QSC" axisIndex="2">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="QSC Rx Meas" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="LNA Offset vs Freq" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="LNA State" />
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Sub Band" isString="true">
+            <Discriminator id="Signal Path">
+              <Discriminator id="Device ID">
+                <Discriminator id="Antenna Port">
+                  <Discriminator id="RxPM" />
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="AGC Offset" testID="QSC" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="DC LNA Offset vs Freq" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="LNA State" />
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Sub Band" isString="true">
+            <Discriminator id="Signal Path">
+              <Discriminator id="Device ID">
+                <Discriminator id="RxPM" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator name="Rx" id="RxPath" />
+        <Result resID="DCRxFCompLNAOffset" testID="QSC" format="0">
+          <Discriminator id="LNARange">
+            <Discriminator id="Channel" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="QSC APT TxLin Pwr" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="Tx Power vs. RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Sub Band">
+            <Discriminator id="Tx Device">
+              <Discriminator id="Channel">
+                <Discriminator id="PA State" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Power" testID="QSC" sort="true">
+          <Discriminator id="TxAGC" />
+        </Result>
+        <Result resID="Vcc" testID="QSC" format="0" axisIndex="2" sort="true">
+          <Discriminator id="TxAGC">
+            <Filter id="Power" value="&gt;-100" visible="false" />
+          </Discriminator>
+        </Result>
+        <Result resID="AptPower" testID="QSC" sort="true">
+          <Discriminator id="TxAGC" />
+        </Result>
+        <Result resID="AptVcc" testID="QSC" format="0" axisIndex="2" sort="true">
+          <Discriminator id="TxAGC">
+            <Filter id="AptPower" value="&gt;-100" visible="false" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="QSC XPT Status" IsChecked="True" IsForPPTChecked="True" width="2">
+    <CondensedSummaryDescriptor name="XPT Status" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="Technology" />
+      <IndexedParam index="2" id="Band" />
+      <IndexedParam index="3" id="PA State" />
+      <IndexedParam index="4" id="XPT Mode" />
+      <IndexedParam index="5" id="Tx Device" />
+      <Result resID="Status" testID="QSC" name="XPT Status">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="PA State">
+              <Discriminator id="XPT Mode">
+                <Discriminator id="Tx Device" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="QSC XPT RGI Delta" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="Tx Power vs. RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Sub Band">
+            <Discriminator id="Tx Device">
+              <Discriminator id="Channel">
+                <Discriminator id="PA State" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="EPT Swp1 RGI Delta Swp Power" testID="QSC" sort="true">
+          <Discriminator id="TxAGC" />
+        </Result>
+        <Result resID="ET Swp1 RGI Delta Swp Power" testID="QSC" sort="true">
+          <Discriminator id="TxAGC" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="RGI vs Power" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Sub Band">
+            <Discriminator id="BW (MHz)" optional="true">
+              <Discriminator id="SigPath">
+                <Discriminator id="PA State">
+                  <Discriminator id="Channel" optional="true">
+                    <Discriminator id="Frequency" optional="true" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Power (dBm) (RgiDelta)" testID="QSC" sort="true">
+          <Discriminator id="RGI" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="QSC XPT Sweep0" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="RGI vs Power,Compression" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Sub Band">
+            <Discriminator id="BW (MHz)" optional="true">
+              <Discriminator id="SigPath">
+                <Discriminator id="PA State">
+                  <Discriminator id="Channel" optional="true">
+                    <Discriminator id="Frequency" optional="true">
+                      <Discriminator id="Bias" />
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Power (dBm) (Swp0)" testID="QSC" sort="true">
+          <Discriminator id="RGI" />
+        </Result>
+        <Result resID="Compression" testID="QSC" axisIndex="2" sort="true">
+          <Discriminator id="RGI" />
+        </Result>
+      </CommonBinResults>
+      <CommonBinResults />
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="QSC XPT Alignment" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="Tx Power vs. RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Sub Band">
+            <Discriminator id="Tx Device">
+              <Discriminator id="Channel">
+                <Discriminator id="PA State" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="EPT Power" testID="QSC" sort="true">
+          <Discriminator id="TxAGC">
+            <Discriminator id="Bias" />
+          </Discriminator>
+        </Result>
+        <Result resID="ET Power" testID="QSC" sort="true">
+          <Discriminator id="TxAGC">
+            <Discriminator id="Bias" />
+          </Discriminator>
+        </Result>
+        <Result resID="ExpPwr" testID="QSC" sort="true">
+          <Discriminator id="TxAGC">
+            <Discriminator id="Bias" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="QSC MLine" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="Tx Power vs. RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Sub Band">
+            <Discriminator id="Tx Device">
+              <Discriminator id="Channel">
+                <Discriminator id="PA State" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="TxAGC" testID="QSC" sort="true">
+          <Discriminator id="EPT Power">
+            <Filter id="Debug Mask" value="&gt;-1" visible="false" />
+          </Discriminator>
+        </Result>
+        <Result resID="Vcc" testID="QSC" axisIndex="2" sort="true">
+          <Discriminator id="EPT Power">
+            <Filter id="Debug Mask" value="&gt;-1" visible="false" />
+          </Discriminator>
+        </Result>
+        <Result resID="TxAGC" testID="QSC" sort="true">
+          <Discriminator id="ET Power">
+            <Filter id="Debug Mask" value="&gt;-1" visible="false" />
+          </Discriminator>
+        </Result>
+        <Result resID="Vcc" testID="QSC" axisIndex="2" sort="true">
+          <Discriminator id="ET Power">
+            <Filter id="Debug Mask" value="&gt;-1" visible="false" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="Power vs RGI,Vcc" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Sub Band">
+            <Discriminator id="BW (MHz)" optional="true">
+              <Discriminator id="SigPath">
+                <Discriminator id="PA State">
+                  <Discriminator id="Channel" optional="true">
+                    <Discriminator id="Frequency" optional="true" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Vcc" testID="QSC" sort="true">
+          <Discriminator id="Power (dBm) (Mline)" />
+        </Result>
+        <Result resID="RGI" testID="QSC" axisIndex="2" sort="true">
+          <Discriminator id="Power (dBm) (Mline)" />
+        </Result>
+      </CommonBinResults>
+      <CommonBinResults />
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="QSC XPT Linearizer" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="DPD Index vs Power" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Sub Band">
+            <Discriminator id="BW (MHz)" optional="true">
+              <Discriminator id="SigPath">
+                <Discriminator id="PA State">
+                  <Discriminator id="Channel" optional="true">
+                    <Discriminator id="Frequency" optional="true" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="Power (dBm) (Linearizer)" testID="QSC" sort="true">
+          <Discriminator id="DPD Index" />
+        </Result>
+      </CommonBinResults>
+      <CommonBinResults />
+      <CommonBinResults />
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="DPD Index vs RGI,Vcc" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology">
+        <Discriminator id="Band">
+          <Discriminator id="Sub Band">
+            <Discriminator id="BW (MHz)" optional="true">
+              <Discriminator id="SigPath">
+                <Discriminator id="PA State">
+                  <Discriminator id="Channel" optional="true">
+                    <Discriminator id="Frequency" optional="true" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="RGI" testID="QSC" sort="true">
+          <Discriminator id="DPD Index" />
+        </Result>
+        <Result resID="Vcc" testID="QSC" axisIndex="2" sort="true">
+          <Discriminator id="DPD Index" />
+        </Result>
+      </CommonBinResults>
+      <CommonBinResults />
+      <CommonBinResults />
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="QSC_FDRxRSB_Plots" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="PreCalRSB_vs_LOFreqOffset" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band">
+          <Discriminator id="Sub Band">
+            <Discriminator id="RFM Device">
+              <Discriminator id="Signal Path">
+                <Discriminator id="Antenna Switch Path">
+                  <Discriminator id="Bandwidth">
+                    <Discriminator id="Channel" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="preCalRSB" testID="QSC">
+          <Discriminator id="loFreqOffset" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="PostCalRSB_vs_LOFreqOffset" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band">
+          <Discriminator id="Sub Band">
+            <Discriminator id="RFM Device">
+              <Discriminator id="Signal Path">
+                <Discriminator id="Antenna Switch Path">
+                  <Discriminator id="Bandwidth">
+                    <Discriminator id="Channel" />
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <CommonBinResults>
+        <Result resID="postCalRSB" testID="QSC">
+          <Discriminator id="loFreqOffset" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="QSC_FDRxRSB_Tables" IsChecked="True" IsForPPTChecked="True" width="2">
+    <CondensedSummaryDescriptor name="BBR_BBI" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="Technology" />
+      <IndexedParam index="2" id="Band" />
+      <IndexedParam index="3" id="Sub Band" />
+      <IndexedParam index="4" id="RFM Device" />
+      <IndexedParam index="5" id="Signal Path" />
+      <IndexedParam index="6" id="Antenna Switch Path" />
+      <IndexedParam index="7" id="Channel" />
+      <IndexedParam index="8" id="Bandwidth" />
+      <IndexedParam index="9" id="loFreqOffset" />
+      <Result resID="BBR" testID="QSC" name="BBR">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band">
+            <Discriminator id="Sub Band">
+              <Discriminator id="RFM Device">
+                <Discriminator id="Signal Path">
+                  <Discriminator id="Antenna Switch Path">
+                    <Discriminator id="Channel">
+                      <Discriminator id="Bandwidth">
+                        <Discriminator id="loFreqOffset" />
+                      </Discriminator>
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="BBI" testID="QSC" name="BBI">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band">
+            <Discriminator id="Sub Band">
+              <Discriminator id="RFM Device">
+                <Discriminator id="Signal Path">
+                  <Discriminator id="Antenna Switch Path">
+                    <Discriminator id="Channel">
+                      <Discriminator id="Bandwidth">
+                        <Discriminator id="loFreqOffset" />
+                      </Discriminator>
+                    </Discriminator>
+                  </Discriminator>
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="Thermistor" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="NV_THERM_BINS" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator name="m" id="Slope">
+            <Discriminator id="RoomTemp" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="NV_THERM_BINS" testID="Thermistor_Cal" format="0">
+          <Discriminator id="Index" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Hist name="hkadc_read" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator name="m" id="Slope">
+            <Discriminator id="RoomTemp" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="HKADCRead" testID="Thermistor_Cal" />
+    </OutputGroupDescriptor_Hist>
+    <OutputGroupDescriptor_Hist name="hkadc_min" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator name="m" id="Slope">
+            <Discriminator id="RoomTemp" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="HKADCMin" testID="Thermistor_Cal" />
+    </OutputGroupDescriptor_Hist>
+    <OutputGroupDescriptor_Hist name="hkadc_max" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator name="m" id="Slope">
+            <Discriminator id="RoomTemp" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="HKADCMax" testID="Thermistor_Cal" />
+    </OutputGroupDescriptor_Hist>
+  </OutputGroupSet>
+  <OutputGroupSet name="Tx Linearizer Meas" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Sc name=" Tx AGC Vs Tx Power" IsChecked="True" IsForPPTChecked="True" xName="Tx AGC (PDM)" yName="Tx Pwr (dBm)">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PARange">
+            <Discriminator id="TxChain" />
+            <Discriminator id="TxChain" exclude="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="Composite_Cal">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="TxAGC" />
+        <DepVar id="TxLinSwpPower" />
+      </Series>
+      <Series testID="Serial_Cal">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="TxAGC" />
+        <DepVar id="TxLinSwpPower" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name=" Tx AGC Vs First Sweep Tx Power" IsChecked="True" IsForPPTChecked="True" xName="Tx AGC (PDM)" yName="Tx Pwr (dBm)">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="PARange">
+          <Discriminator id="TxChain" />
+          <Discriminator id="TxChain" exclude="true" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="Composite_Cal">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="TxAGC" />
+        <DepVar id="TxLinFirstSwpPower" />
+      </Series>
+      <Series testID="Serial_Cal">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="TxAGC" />
+        <DepVar id="TxLinFirstSwpPower" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="HDET Vs Tx Power" IsChecked="True" IsForPPTChecked="True" xName="Tx Pwr (dBm)" yName="HDET">
+      <Discriminator id="TxLinSwpHasHDET" value="1" visible="false">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="PARange">
+              <Discriminator id="TxChain" />
+              <Discriminator id="TxChain" exclude="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="Composite_Cal">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="TxLinSwpPower" />
+        <DepVar id="TxLinSwpHDET" />
+      </Series>
+      <Series testID="Serial_Cal">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="TxLinSwpPower" />
+        <DepVar id="TxLinSwpHDET" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="LPM HDET Vs Tx Power" IsChecked="True" IsForPPTChecked="True" xName="Tx Pwr (dBm)" yName="LPM HDET">
+      <Discriminator id="TxLinSwpHasHDET" value="1" visible="false">
+        <Discriminator id="TxLinSwpHasHDETLPM" value="1" visible="false">
+          <Discriminator id="Technology" isString="true">
+            <Discriminator id="Band" isString="true">
+              <Discriminator id="PARange">
+                <Discriminator id="TxChain" />
+                <Discriminator id="TxChain" exclude="true" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="Composite_Cal">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="TxLinSwpPower" />
+        <DepVar id="TxLinSwpHDETLPM" />
+      </Series>
+      <Series testID="Serial_Cal">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="TxLinSwpPower" />
+        <DepVar id="TxLinSwpHDETLPM" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="HDET Vs PDM" IsChecked="True" IsForPPTChecked="True" xName="PDM" yName="HDET">
+      <Discriminator id="TxLinSwpHasHDET" value="1" visible="false">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="PARange">
+              <Discriminator id="TxChain" />
+              <Discriminator id="TxChain" exclude="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="Composite_Cal">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="TxAGC" />
+        <DepVar id="TxLinSwpHDET" />
+      </Series>
+      <Series testID="Serial_Cal">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="TxAGC" />
+        <DepVar id="TxLinSwpHDET" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="LPM HDET Vs PDM" IsChecked="True" IsForPPTChecked="True" xName="PDM" yName="LPM HDET">
+      <Discriminator id="TxLinSwpHasHDET" value="1" visible="false">
+        <Discriminator id="TxLinSwpHasHDETLPM" value="1" visible="false">
+          <Discriminator id="Technology" isString="true">
+            <Discriminator id="Band" isString="true">
+              <Discriminator id="PARange">
+                <Discriminator id="TxChain" />
+                <Discriminator id="TxChain" exclude="true" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="Composite_Cal">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="TxAGC" />
+        <DepVar id="TxLinSwpHDETLPM" />
+      </Series>
+      <Series testID="Serial_Cal">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="TxAGC" />
+        <DepVar id="TxLinSwpHDETLPM" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="NV_TX_LIN_MASTER" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="NV_TX_LIN_MASTER" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PARange">
+            <Discriminator id="TxChain" />
+            <Discriminator id="TxChain" exclude="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="NV_TX_LIN_MASTER" testID="Composite_Cal" format="0">
+          <Discriminator id="Index" />
+        </Result>
+        <Result resID="NV_TX_LIN_MASTER" testID="Serial_Cal" format="0">
+          <Discriminator id="Index" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="TX_LIN_MASTER_PDM" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PARange">
+            <Discriminator id="TxChain" />
+            <Discriminator id="TxChain" exclude="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="TX_LIN_MASTER_PDM" testID="Composite_Cal" format="0">
+          <Discriminator id="Index" />
+        </Result>
+        <Result resID="TX_LIN_MASTER_PDM" testID="Serial_Cal" format="0">
+          <Discriminator id="Index" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="NV_EXP_HDET_VS_AGC" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Lin name="NV_EXP_HDET_VS_AGC" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PARange">
+            <Discriminator id="TxChain" />
+            <Discriminator id="TxChain" exclude="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="NV_EXP_HDET_VS_AGC" testID="Composite_Cal" format="0">
+          <Discriminator id="Index" />
+        </Result>
+        <Result resID="NV_EXP_HDET_VS_AGC" testID="Serial_Cal" format="0">
+          <Discriminator id="Index" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="NV_EXP_LPM_HDET_VS_AGC" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PARange">
+            <Discriminator id="TxChain" />
+            <Discriminator id="TxChain" exclude="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="NV_EXP_LPM_HDET_VS_AGC" testID="Composite_Cal" format="0">
+          <Discriminator id="Index" />
+        </Result>
+        <Result resID="NV_EXP_LPM_HDET_VS_AGC" testID="Serial_Cal" format="0">
+          <Discriminator id="Index" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="NV_HDET_OFFSET" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Hist name="NV_HDET_OFFSET" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PARange">
+            <Discriminator id="TxChain" />
+            <Discriminator id="TxChain" exclude="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="NV_HDET_OFFSET" testID="Composite_Cal" />
+      <Result resID="NV_HDET_OFFSET" testID="Serial_Cal" />
+    </OutputGroupDescriptor_Hist>
+  </OutputGroupSet>
+  <OutputGroupSet name="NV_HDET_SPAN" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Hist name="NV_HDET_SPAN" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PARange">
+            <Discriminator id="TxChain" />
+            <Discriminator id="TxChain" exclude="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="NV_HDET_SPAN" testID="Composite_Cal" format="0" />
+      <Result resID="NV_HDET_SPAN" testID="Serial_Cal" format="0" />
+    </OutputGroupDescriptor_Hist>
+  </OutputGroupSet>
+  <OutputGroupSet name="Tx Linearizer Freq Comp Meas" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Lin name="Tx Power Vs Freq" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PARange">
+            <Discriminator id="TxChain" />
+            <Discriminator id="TxChain" exclude="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="TxLinFCompPower" testID="Composite_Cal">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="TxLinFCompPower" testID="Serial_Cal">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="2nd FComp, 1st Tx Power Vs Freq" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PARange">
+            <Discriminator id="TxChain" />
+            <Discriminator id="TxChain" exclude="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="SecFreqCompTxPwr1st" testID="Composite_Cal" name="TxPower">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="SecFreqCompTxPwr1st" testID="Serial_Cal" name="TxPower">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="2nd FComp, 2nd Tx Power Vs Freq" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PARange">
+            <Discriminator id="TxChain" />
+            <Discriminator id="TxChain" exclude="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="SecFreqCompTxPwr2nd" testID="Composite_Cal" name="TxPower">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="SecFreqCompTxPwr2nd" testID="Serial_Cal" name="TxPower">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="NV_TX_LIN_VS_FREQ" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Lin name="NV_TX_COMP_VS_FREQ" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PARange">
+            <Discriminator id="TxChain" />
+            <Discriminator id="TxChain" exclude="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="NV_TX_COMP" testID="Composite_Cal" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="NV_TX_COMP" testID="Serial_Cal" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="NV_TX_COMP_SECONDARY" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PARange">
+            <Discriminator id="TxChain" />
+            <Discriminator id="TxChain" exclude="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="NV_TX_COMP_SECONDARY" testID="Composite_Cal" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="NV_TX_COMP_SECONDARY" testID="Serial_Cal" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Tx Limiting Freq Comp Meas" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Sc name="Lim Line Input" IsChecked="True" IsForPPTChecked="True" xName="AGC (PDM)" yName="Tx Pwr (dBm)" secYName="HDET">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="PARange">
+              <Discriminator id="TxChain" />
+              <Discriminator id="TxChain" exclude="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0.00" />
+        <YAxis index="2" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="Composite_Cal">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="TxAGC" />
+        <DepVar id="TxLimFCompPowerNvIn" />
+      </Series>
+      <Series testID="Serial_Cal">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="TxAGC" />
+        <DepVar id="TxLimFCompPowerNvIn" />
+      </Series>
+      <Series testID="Composite_Cal">
+        <DisplayProperties color="0xFF0000" markerOn="true" cycleColors="true" axisIndex="2" />
+        <IndVar id="TxAGC" />
+        <DepVar id="TxLimFCompHDETNvIn" />
+      </Series>
+      <Series testID="Serial_Cal">
+        <DisplayProperties color="0xFF0000" markerOn="true" cycleColors="true" axisIndex="2" />
+        <IndVar id="TxAGC" />
+        <DepVar id="TxLimFCompHDETNvIn" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="NV_TX_LIM_VS_FREQ" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Lin name="NV_TX_LIM_VS_FREQ" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PARange">
+            <Discriminator id="TxChain" />
+            <Discriminator id="TxChain" exclude="true" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="NV_TX_LIM_VS_FREQ" testID="Composite_Cal" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="NV_TX_LIM_VS_FREQ" testID="Serial_Cal" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="DVGA FreqComp Meas" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="DVGA Offset vs Freq" IsChecked="True" IsForPPTChecked="True">
+      <Filter id="MultiCarrierMode" value="Disabled" isString="true">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true">
+            <Discriminator name="Rx" id="RxPath">
+              <Discriminator id="RxPM" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Filter>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="RxFCompDVGAOffset" testID="Composite_Cal" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="RxFCompDVGAOffset" testID="Serial_Cal" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="MultiCarrier DVGA Meas" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="MultiCarrier DVGA Offset" IsChecked="True" IsForPPTChecked="True">
+      <Filter id="MultiCarrierMode" value="Enabled" isString="true">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator name="Rx" id="RxPath">
+            <Discriminator id="RxPM" />
+          </Discriminator>
+        </Discriminator>
+      </Filter>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="RxFCompDVGAOffset" testID="Composite_Cal" format="0">
+          <Discriminator id="Band" />
+        </Result>
+        <Result resID="RxFCompDVGAOffset" testID="Serial_Cal" format="0">
+          <Discriminator id="Band" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="NV_VGA_GAIN_OFFSET_VS_FREQ" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="NV_VGA_GAIN_OFFSET_VS_FREQ" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator name="Rx" id="RxPath">
+            <Discriminator id="RxPM" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="NV_VGA_GAIN_OFFSET_VS_FREQ" testID="Composite_Cal" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="NV_VGA_GAIN_OFFSET_VS_FREQ" testID="Serial_Cal" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="LNA FreqComp Meas" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="LNA Offset vs Freq" IsChecked="True" IsForPPTChecked="True">
+      <Filter id="MultiCarrierMode" value="Disabled" isString="true">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true">
+            <Discriminator name="Rx" id="RxPath">
+              <Discriminator name="LNA" id="LNARange">
+                <Discriminator id="RxPM" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Filter>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="RxFCompLNAOffset" testID="Composite_Cal" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="RxFCompLNAOffset" testID="Serial_Cal" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="MultiCarrier LNA Meas" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="MultiCarrier LNA Offset" IsChecked="True" IsForPPTChecked="True">
+      <Filter id="MultiCarrierMode" value="Enabled" isString="true">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true">
+            <Discriminator name="Rx" id="RxPath">
+              <Discriminator id="RxPM" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Filter>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="RxFCompLNAOffset" testID="Composite_Cal" format="0">
+          <Discriminator name="LNA" id="LNARange" />
+        </Result>
+        <Result resID="RxFCompLNAOffset" testID="Serial_Cal" format="0">
+          <Discriminator name="LNA" id="LNARange" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="NV_LNA_OFFSET_VS_FREQ" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="NV_LNA_OFFSET_VS_FREQ" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator name="Rx" id="RxPath">
+            <Discriminator name="LNA" id="LNARange">
+              <Discriminator id="RxPM" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="NV_LNA_OFFSET_VS_FREQ" testID="Composite_Cal" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="NV_LNA_OFFSET_VS_FREQ" testID="Serial_Cal" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="NV_VGA_GAIN_OFFSET" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Hist name="NV_VGA_GAIN_OFFSET" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator name="Rx" id="RxPath" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="NV_VGA_GAIN_OFFSET" testID="Composite_Cal" format="0" />
+      <Result resID="NV_VGA_GAIN_OFFSET" testID="Serial_Cal" format="0" />
+    </OutputGroupDescriptor_Hist>
+  </OutputGroupSet>
+  <OutputGroupSet name="NV_LNA_OFFSET" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Hist name="NV_LNA_OFFSET" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator name="Rx" id="RxPath">
+            <Discriminator name="LNA" id="LNARange" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="NV_LNA_OFFSET" testID="Composite_Cal" format="0" />
+      <Result resID="NV_LNA_OFFSET" testID="Serial_Cal" format="0" />
+    </OutputGroupDescriptor_Hist>
+  </OutputGroupSet>
+  <OutputGroupSet name="IM2_Cal" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Hist name="iDAC" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator name="Rx" id="RxPath">
+            <Discriminator id="RxPM" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="iDAC" testID="IM2_Cal" format="0" />
+    </OutputGroupDescriptor_Hist>
+    <OutputGroupDescriptor_Hist name="qDAC" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator name="Rx" id="RxPath">
+            <Discriminator id="RxPM" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="qDAC" testID="IM2_Cal" format="0" />
+    </OutputGroupDescriptor_Hist>
+    <OutputGroupDescriptor_Hist name="Gm" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator name="Rx" id="RxPath">
+            <Discriminator id="RxPM" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="Gm" testID="IM2_Cal" format="0" />
+    </OutputGroupDescriptor_Hist>
+  </OutputGroupSet>
+  <OutputGroupSet name="IntelliCeiver_Cal" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Hist name="Close" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator name="Rx" id="RxPath">
+            <Discriminator id="RxPM" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="Close" testID="IntelliCeiver_Cal" format="0" />
+    </OutputGroupDescriptor_Hist>
+    <OutputGroupDescriptor_Hist name="Far" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator name="Rx" id="RxPath">
+            <Discriminator id="RxPM" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="Far" testID="IntelliCeiver_Cal" format="0" />
+    </OutputGroupDescriptor_Hist>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM Tx AMAM Meas" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Sc name="Tx Power vs Tx DAC" IsChecked="True" IsForPPTChecked="True" xName="Tx DAC" yName="Tx Pwr (dBm)">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Chain" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0.00" />
+      </OGDisplayProperties>
+      <Series testID="GSM_Tx_AMAM_AMPM_Cal">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="TxDAC" />
+        <DepVar id="TxPowerSmooth" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="Tx Power vs Tx DAC PreSmooth" IsChecked="True" IsForPPTChecked="True" xName="Tx DAC" yName="Tx Pwr (dBm)">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Chain" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0.00" />
+      </OGDisplayProperties>
+      <Series testID="GSM_Tx_AMAM_AMPM_Cal">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="TxDAC" />
+        <DepVar id="TxPowerRaw" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM Tx AMPM Meas" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Sc name="Phase vs Tx DAC" IsChecked="True" IsForPPTChecked="True" xName="Tx DAC" yName="Phase (rads)">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Chain" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0.00" />
+      </OGDisplayProperties>
+      <Series testID="GSM_Tx_AMAM_AMPM_Cal">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="TxDAC" />
+        <DepVar id="PhaseSmooth" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="Phase vs Tx DAC PreSmooth" IsChecked="True" IsForPPTChecked="True" xName="Tx DAC" yName="Phase (rads)">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Chain" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0.00" />
+      </OGDisplayProperties>
+      <Series testID="GSM_Tx_AMAM_AMPM_Cal">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="TxDAC" />
+        <DepVar id="PhaseRaw" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM Tx Path Delay Meas" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Lin name="ORFS Sweep" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Channel">
+            <Discriminator id="Chain" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="ORFSFreqOffset" />
+        <Result resID="ORFSSrch" testID="GSM_Tx_Path_Delay_Cal">
+          <Discriminator id="Delay" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Hist name="NV_POLAR_PATH_DELAY" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="NV" testID="GSM_Tx_Path_Delay_Cal" format="0" />
+    </OutputGroupDescriptor_Hist>
+    <OutputGroupDescriptor_Hist name="BestDelay" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="Best_Delay" testID="GSM_Tx_Path_Delay_Cal" />
+    </OutputGroupDescriptor_Hist>
+    <OutputGroupDescriptor_Hist name="BestORFS" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" step="0.5" />
+      </OGDisplayProperties>
+      <Result resID="BestORFS" testID="GSM_Tx_Path_Delay_Cal">
+        <Discriminator id="ORFSFreqOffset" />
+      </Result>
+    </OutputGroupDescriptor_Hist>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM_Rx_Cal" IsChecked="True" IsForPPTChecked="True" width="5">
+    <OutputGroupDescriptor_Lin name="RxGainOffset_Vs_Freq" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator name="Rx" id="RxNvContainer">
+            <Discriminator id="Antenna Path">
+              <Discriminator id="Signal Path">
+                <Discriminator id="RFM Device">
+                  <Discriminator name="Gain" id="RxGainRange" />
+                </Discriminator>
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="RxGainOffset" testID="GSM_Rx_Cal" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="RxGainOffset" testID="GSM_Frame_Sweep_Cal" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="DA Cal Plot" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="DA Cal" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="PA Range">
+          <Discriminator id="Chain" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel" />
+        <Result resID="GSM PMEAS" testID="GSM_Linear_Tx_Cal">
+          <Discriminator id="RGI" />
+        </Result>
+        <Result resID="EDGE PMEAS" testID="GSM_Linear_Tx_Cal">
+          <Discriminator id="RGI" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="PCL Cal Plot" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="EDGE-PCL Error Meas (dBm)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Chain" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel" />
+        <Result resID="EDGE PCL Error" testID="GSM_Frame_Sweep_Cal">
+          <Discriminator id="PCL Index" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="GSM-PCL Error Meas (dBm)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Chain" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel" />
+        <Result resID="GSM PCL Error" testID="GSM_Frame_Sweep_Cal">
+          <Discriminator id="PCL Index" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="EDGE-PCL Power Meas (dBm)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Chain" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel" />
+        <Result resID="EDGE PMEAS" testID="GSM_Frame_Sweep_Cal">
+          <Discriminator id="PCL Index" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="GSM-PCL Power Meas (dBm)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Chain" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel" />
+        <Result resID="GSM PMEAS" testID="GSM_Frame_Sweep_Cal">
+          <Discriminator id="PCL Index" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Predistortion Cal Plot" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="AMAM" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Chain" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel" />
+        <Result resID="NV_AMAM" testID="GSM_Linear_Tx_Cal">
+          <Discriminator id="Index" />
+        </Result>
+        <Result resID="NV_AMAM" testID="GSM_Frame_Sweep_Cal">
+          <Discriminator id="Index" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="AMPM" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Chain" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Channel" />
+        <Result resID="NV_AMPM" testID="GSM_Linear_Tx_Cal">
+          <Discriminator id="Index" />
+        </Result>
+        <Result resID="NV_AMPM" testID="GSM_Frame_Sweep_Cal">
+          <Discriminator id="Index" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Predist RGI" IsChecked="True" IsForPPTChecked="True" width="2">
+    <CondensedSummaryDescriptor name="DA Cal" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Channel" />
+      <Result resID="Predistortion Calibration RGI" testID="GSM_Linear_Tx_Cal">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Chain" />
+        </Discriminator>
+      </Result>
+      <Result resID="Predistortion Calibration RGI" testID="GSM_Frame_Sweep_Cal">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Chain" />
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="Linear AMAM" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Sc name="AMAM" IsChecked="True" IsForPPTChecked="True" xName="DAC" yName="Ampl">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Channel">
+          <Discriminator id="Chain" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" min="0" max="10000" />
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="GSM_Linear_Tx_Cal">
+        <DisplayProperties markerOn="false" weight="2" cycleColors="true" axisIndex="1" />
+        <IndVar id="NV_AMAM" />
+        <DepVar id="Pwr" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="Kvco Cal Tables" IsChecked="True" IsForPPTChecked="True" width="2">
+    <CondensedSummaryDescriptor name="Kvco Cal - Screen" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Channel" />
+      <IndexedParam index="3" id="Temp" />
+      <Result resID="KVCO Value" testID="GSM_Tx_Kvco_Auto_Cal">
+        <Discriminator id="Temp">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="Channel" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+      <Result resID="Kv Calibration Value" testID="GSM_Tx_Kvco_Cal_V2" name="KVCO Value">
+        <Discriminator id="Temp">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="Channel" />
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="Kvco Cal Plots" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="Kvco Cal" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Band" isString="true" />
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Temp" isString="true" />
+        <Result resID="KVCO Value" testID="GSM_Tx_Kvco_Auto_Cal">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="Kv Calibration Value" testID="GSM_Tx_Kvco_Cal_V2" name="KVCO Value">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="XO Cal - Tables" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="XO Cal" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="LNA State" />
+      <IndexedParam index="2" id="Technology" />
+      <IndexedParam index="3" id="Band" />
+      <Result resID="TempSpanAchievedXO" testID="XO_Cal_V3">
+        <Discriminator id="LNA State" isString="true" />
+      </Result>
+      <Result resID="CalCoeffC0" testID="XO_Cal_V3">
+        <Discriminator id="LNA State" isString="true" />
+      </Result>
+      <Result resID="CalCoeffC1" testID="XO_Cal_V3">
+        <Discriminator id="LNA State" isString="true" />
+      </Result>
+      <Result resID="CalCoeffC2" testID="XO_Cal_V3">
+        <Discriminator id="LNA State" isString="true" />
+      </Result>
+      <Result resID="CalCoeffC3" testID="XO_Cal_V3">
+        <Discriminator id="LNA State" isString="true" />
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="XO Cal" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Hist name="TempSpanAchieved" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="LNA State" isString="true" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="TempSpanAchievedXO" testID="XO_Cal_V3" />
+    </OutputGroupDescriptor_Hist>
+    <OutputGroupDescriptor_Hist name="CalCoeffC0" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="LNA State" isString="true" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="CalCoeffC0" testID="XO_Cal_V3" />
+    </OutputGroupDescriptor_Hist>
+    <OutputGroupDescriptor_Hist name="CalCoeffC1" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="LNA State" isString="true" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="CalCoeffC1" testID="XO_Cal_V3" />
+    </OutputGroupDescriptor_Hist>
+    <OutputGroupDescriptor_Hist name="CalCoeffC2" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="LNA State" isString="true" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="CalCoeffC2" testID="XO_Cal_V3" />
+    </OutputGroupDescriptor_Hist>
+    <OutputGroupDescriptor_Hist name="CalCoeffC3" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="LNA State" isString="true" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="CalCoeffC3" testID="XO_Cal_V3" />
+    </OutputGroupDescriptor_Hist>
+  </OutputGroupSet>
+  <OutputGroupSet name="XO_CAL" IsChecked="True" IsForPPTChecked="True">
+    <OutputGroupDescriptor_Lin name="XO Duty Cal" IsChecked="True" IsForPPTChecked="True">
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="XO Duty cycle adjustment" testID="QSC" format="0">
+          <Filter id="XO Duty cycle adjustment" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Tx Linearizer Meas" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name=" Tx AGC Vs Tx Power" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State">
+            <Discriminator id="Tx Device" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx Lin Tx Seg Len (ms)" />
+        <Result resID="Power" testID="WideBand_RF_Cal" format="0" sort="true">
+          <Discriminator id="TxAGC" />
+        </Result>
+        <Result resID="Bias" testID="WideBand_RF_Cal" format="0" axisIndex="2" sort="true">
+          <Discriminator id="TxAGC">
+            <Filter id="Power" value="&gt;-100" visible="false" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name=" Tx AGC Vs Tx Power (APT)" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State">
+            <Discriminator id="Tx Device" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx Lin Tx Seg Len (ms)" />
+        <Result resID="AptPower" testID="WideBand_RF_Cal" format="0" sort="true">
+          <Discriminator id="TxAGC" />
+        </Result>
+        <Result resID="AptBias" testID="WideBand_RF_Cal" format="0" axisIndex="2" sort="true">
+          <Discriminator id="TxAGC">
+            <Filter id="AptPower" value="&gt;-100" visible="false" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="Tx AGC Vs Delta Power" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State">
+            <Discriminator id="Tx Device" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="Tx Lin Tx Seg Len (ms)" />
+        <Result resID="DeltaPower" testID="WideBand_RF_Cal" format="0.0">
+          <Discriminator id="TxAGC" />
+        </Result>
+        <Result resID="APTDeltaPower" testID="WideBand_RF_Cal" format="0.0">
+          <Discriminator id="TxAGC" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="HDET Vs PDM" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="TxLinSwpHasHDET" value="1" visible="false">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="PA State">
+              <Discriminator id="Tx Device" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx Lin Tx+HDET Seg Len (ms)" />
+        <Result resID="TxLinSwpHDET" testID="WideBand_RF_Cal" format="0.0">
+          <Discriminator id="TxAGC" />
+        </Result>
+        <Result resID="APTTxLinSwpHDET" testID="WideBand_RF_Cal" format="0.0">
+          <Discriminator id="TxAGC" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="LPM HDET Vs PDM" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="TxLinSwpHasHDET" value="1" visible="false">
+        <Discriminator id="TxLinSwpHasHDETLPM" value="1" visible="false">
+          <Discriminator id="Technology" isString="true">
+            <Discriminator id="Band" isString="true">
+              <Discriminator id="PA State">
+                <Discriminator id="Tx Device" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx Lin Tx+LPM_HDET Seg Len (ms)" />
+        <Result resID="TxLinSwpHDETLPM" testID="WideBand_RF_Cal" format="0.0">
+          <Discriminator id="TxAGC" />
+        </Result>
+        <Result resID="APTTxLinSwpHDETLPM" testID="WideBand_RF_Cal" format="0.0">
+          <Discriminator id="TxAGC" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Sc name="HDET Vs Tx Power" IsChecked="True" IsForPPTChecked="True" xName="Tx Pwr (dBm)" yName="HDET">
+      <Discriminator id="TxLinSwpHasHDET" value="1" visible="false">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="PA State">
+              <Discriminator id="Tx Device" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WideBand_RF_Cal">
+        <Discriminator id="Tx Lin Tx+LPM_HDET Seg Len (ms)" />
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Power" />
+        <DepVar id="TxLinSwpHDET" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="LPM HDET Vs Tx Power" IsChecked="True" IsForPPTChecked="True" xName="Tx Pwr (dBm)" yName="LPM HDET">
+      <Discriminator id="TxLinSwpHasHDET" value="1" visible="false">
+        <Discriminator id="TxLinSwpHasHDETLPM" value="1" visible="false">
+          <Discriminator id="Technology" isString="true">
+            <Discriminator id="Band" isString="true">
+              <Discriminator id="PA State">
+                <Discriminator id="Tx Device" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WideBand_RF_Cal">
+        <Discriminator id="Tx Lin Tx+LPM_HDET Seg Len (ms)" />
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Power" />
+        <DepVar id="TxLinSwpHDETLPM" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="APT HDET Vs Tx Power" IsChecked="True" IsForPPTChecked="True" xName="Tx Pwr (dBm)" yName="HDET">
+      <Discriminator id="TxLinSwpHasHDET" value="1" visible="false">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="PA State">
+              <Discriminator id="Tx Device" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WideBand_RF_Cal">
+        <Discriminator id="Tx Lin Tx+LPM_HDET Seg Len (ms)" />
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="AptPower" />
+        <DepVar id="APTTxLinSwpHDET" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+    <OutputGroupDescriptor_Sc name="APT LPM HDET Vs Tx Power" IsChecked="True" IsForPPTChecked="True" xName="Tx Pwr (dBm)" yName="LPM HDET">
+      <Discriminator id="TxLinSwpHasHDET" value="1" visible="false">
+        <Discriminator id="TxLinSwpHasHDETLPM" value="1" visible="false">
+          <Discriminator id="Technology" isString="true">
+            <Discriminator id="Band" isString="true">
+              <Discriminator id="PA State">
+                <Discriminator id="Tx Device" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="WideBand_RF_Cal">
+        <Discriminator id="Tx Lin Tx+LPM_HDET Seg Len (ms)" />
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="AptPower" />
+        <DepVar id="APTTxLinSwpHDETLPM" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="NV_Cal_V3_Lin_Tables" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Lin name="NV_Cal_V3_Lin_Tables" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Tx Device">
+            <Discriminator id="PA State" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="Table_Index" />
+        <Result resID="Tx_Power" testID="WideBand_RF_Cal" format="0">
+          <Discriminator id="RGI">
+            <Filter id="RGI" value="&lt;65535" visible="false" />
+          </Discriminator>
+        </Result>
+        <Result resID="PA_Bias" testID="WideBand_RF_Cal" format="0" axisIndex="2">
+          <Discriminator id="RGI">
+            <Filter id="RGI" value="&lt;65535" visible="false" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="NV_TX_LIN_MASTER" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="NV_TX_LIN_MASTER" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State">
+            <Discriminator id="Tx Device" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="NV_TX_LIN_MASTER" testID="WideBand_RF_Cal" format="0">
+          <Discriminator id="Index" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="TX_LIN_MASTER_PDM" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State">
+            <Discriminator id="Tx Device" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="TX_LIN_MASTER_PDM" testID="WideBand_RF_Cal" format="0">
+          <Discriminator id="Index" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="NV_EXP_HDET_VS_AGC" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Lin name="NV_EXP_HDET_VS_AGC" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State">
+            <Discriminator id="Tx Device" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="Tx Lin Tx+HDET Seg Len (ms)" />
+        <Result resID="NV_EXP_HDET_VS_AGC" testID="WideBand_RF_Cal" format="0">
+          <Discriminator id="Index" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="NV_EXP_LPM_HDET_VS_AGC" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State">
+            <Discriminator id="Tx Device" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="Tx Lin Tx+HDET Seg Len (ms)" />
+        <Result resID="NV_EXP_LPM_HDET_VS_AGC" testID="WideBand_RF_Cal" format="0">
+          <Discriminator id="Index" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="NV_HDET_OFFSET" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Hist name="NV_HDET_OFFSET" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State">
+            <Discriminator id="Tx Device" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="NV_HDET_OFFSET" testID="WideBand_RF_Cal" />
+    </OutputGroupDescriptor_Hist>
+  </OutputGroupSet>
+  <OutputGroupSet name="NV_HDET_SPAN" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Hist name="NV_HDET_SPAN" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State">
+            <Discriminator id="Tx Device" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="NV_HDET_SPAN" testID="WideBand_RF_Cal" format="0" />
+    </OutputGroupDescriptor_Hist>
+  </OutputGroupSet>
+  <OutputGroupSet name="Tx Linearizer Freq Comp Meas" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Lin name="Tx Power Vs Freq" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State">
+            <Discriminator id="Tx Device" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="TxRx Tx Seg Len (ms)" />
+        <Result resID="TxLinFCompPower" testID="WideBand_RF_Cal">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="Bias" testID="WideBand_RF_Cal" format="0" axisIndex="2">
+          <Discriminator id="Channel">
+            <Filter id="TxLinFCompPower" value="&gt;-100" visible="false" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="NV_TX_LIN_VS_FREQ" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Lin name="NV_TX_COMP_VS_FREQ" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State">
+            <Discriminator id="Tx Device" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="TxRx Tx Seg Len (ms)" />
+        <Result resID="TX_Cal_V3_FComp" testID="WideBand_RF_Cal" format="0">
+          <Discriminator id="Channel" value="&lt;65535" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Tx Limiting Freq Comp Meas" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Lin name="Tx Limiting Freq Comp Meas" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State">
+            <Discriminator id="Tx Device" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="TxRx Tx Seg Len (ms)" />
+        <Result resID="TxLimFCompPowerNvIn" testID="WideBand_RF_Cal" format="0.0">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="TxLimFCompHDETNvIn" testID="WideBand_RF_Cal" format="0" axisIndex="2">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="NV_TX_LIM_VS_FREQ" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Lin name="NV_TX_LIM_VS_FREQ" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="PA State">
+            <Discriminator id="Tx Device" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="TxRx Tx Seg Len (ms)" />
+        <Result resID="NV_TX_LIM_VS_FREQ" testID="WideBand_RF_Cal" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="DVGA FreqComp Meas" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="DVGA Offset vs Freq" IsChecked="True" IsForPPTChecked="True">
+      <Filter id="MultiCarrierMode" value="Disabled" isString="true">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true">
+            <Discriminator name="Rx" id="RxPath">
+              <Discriminator id="RxPM" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Filter>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="TxRx Rx Seg Len (ms)" />
+        <Result resID="RxFCompDVGAOffset" testID="WideBand_RF_Cal" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="MultiCarrier DVGA Meas" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="MultiCarrier DVGA Offset" IsChecked="True" IsForPPTChecked="True">
+      <Filter id="MultiCarrierMode" value="Enabled" isString="true">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator name="Rx" id="RxPath">
+            <Discriminator id="RxPM" />
+          </Discriminator>
+        </Discriminator>
+      </Filter>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="RxFCompDVGAOffset" testID="WideBand_RF_Cal" format="0">
+          <Discriminator id="Band" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="NV_VGA_GAIN_OFFSET_VS_FREQ" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="NV_VGA_GAIN_OFFSET_VS_FREQ" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator name="Rx" id="RxPath">
+            <Discriminator id="RxPM" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="TxRx Rx Seg Len (ms)" />
+        <Result resID="NV_VGA_GAIN_OFFSET_VS_FREQ" testID="WideBand_RF_Cal" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="LNA FreqComp Meas" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="LNA Offset vs Freq" IsChecked="True" IsForPPTChecked="True">
+      <Filter id="MultiCarrierMode" value="Disabled" isString="true">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true">
+            <Discriminator name="Rx" id="RxPath">
+              <Discriminator name="LNA" id="LNARange">
+                <Discriminator id="RxPM" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Filter>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="TxRx Rx Seg Len (ms)" />
+        <Result resID="RxFCompLNAOffset" testID="WideBand_RF_Cal" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="MultiCarrier LNA Meas" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="MultiCarrier LNA Offset" IsChecked="True" IsForPPTChecked="True">
+      <Filter id="MultiCarrierMode" value="Enabled" isString="true">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true">
+            <Discriminator name="Rx" id="RxPath">
+              <Discriminator id="RxPM" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Filter>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="RxFCompLNAOffset" testID="WideBand_RF_Cal" format="0">
+          <Discriminator name="LNA" id="LNARange" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="NV_LNA_OFFSET_VS_FREQ" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="NV_LNA_OFFSET_VS_FREQ" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator name="Rx" id="RxPath">
+            <Discriminator name="LNA" id="LNARange">
+              <Discriminator id="RxPM" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="TxRx Rx Seg Len (ms)" />
+        <Result resID="NV_LNA_OFFSET_VS_FREQ" testID="WideBand_RF_Cal" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="NV_VGA_GAIN_OFFSET" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Hist name="NV_VGA_GAIN_OFFSET" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator name="Rx" id="RxPath" />
+        </Discriminator>
+      </Discriminator>
+      <Discriminator id="TxRx Rx Seg Len (ms)" />
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="NV_VGA_GAIN_OFFSET" testID="WideBand_RF_Cal" format="0" />
+    </OutputGroupDescriptor_Hist>
+  </OutputGroupSet>
+  <OutputGroupSet name="NV_LNA_OFFSET" IsChecked="True" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Hist name="NV_LNA_OFFSET" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator name="Rx" id="RxPath">
+            <Discriminator name="LNA" id="LNARange" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <Discriminator id="TxRx Rx Seg Len (ms)" />
+      <OGDisplayProperties>
+        <XAxis index="1" />
+      </OGDisplayProperties>
+      <Result resID="NV_LNA_OFFSET" testID="WideBand_RF_Cal" format="0" />
+    </OutputGroupDescriptor_Hist>
+  </OutputGroupSet>
+  <OutputGroupSet name="APT TxLin Pwr" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="Tx Power vs. RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Device" isString="true">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="PA State" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx Lin Tx Seg Len (ms)" />
+        <Result resID="Power" testID="ESC" sort="true">
+          <Discriminator id="TxAGC" />
+        </Result>
+        <Result resID="Vcc" testID="ESC" format="0" axisIndex="2" sort="true">
+          <Discriminator id="TxAGC">
+            <Filter id="Power" value="&gt;-100" visible="false" />
+          </Discriminator>
+        </Result>
+        <Result resID="AptPower" testID="ESC" sort="true">
+          <Discriminator id="TxAGC" />
+        </Result>
+        <Result resID="AptVcc" testID="ESC" format="0" axisIndex="2" sort="true">
+          <Discriminator id="TxAGC">
+            <Filter id="AptPower" value="&gt;-100" visible="false" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="XPT_Swp1_Pwr" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="Tx Power vs. RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Device" isString="true">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="PA State" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx Lin Tx Seg Len (ms)" />
+        <Result resID="XPT Swp1 Power" testID="ESC" sort="true">
+          <Discriminator id="TxAGC">
+            <Discriminator id="Vcc" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="XPT_Swp1_RGI_Delta" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="Tx Power vs. RGI" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Device" isString="true">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="PA State" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx Lin Tx Seg Len (ms)" />
+        <Result resID="XPT Swp1 RGI Delta Swp Power" testID="ESC" name="Pwr" sort="true">
+          <Discriminator id="TxAGC" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="XPT_Swp2_MLineOut" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="Tx Power vs. Target" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Device" isString="true">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="PA State" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+        <YAxis index="2" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx Lin Tx Seg Len (ms)" />
+        <Result resID="TxAGC" testID="ESC" name="RGI" format="0" sort="true">
+          <Discriminator id="Exp Power" />
+        </Result>
+        <Result resID="Vcc" testID="ESC" format="0" axisIndex="2" sort="true">
+          <Discriminator id="Exp Power" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="XPT_Swp2_MLine_RGI" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="Swp3 XPT" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="Technology" />
+      <IndexedParam index="2" id="Band" />
+      <IndexedParam index="3" id="XPT Mode" />
+      <IndexedParam index="4" id="Exp Power" />
+      <Result resID="TxAGC" testID="ESC" name="RGI" format="0">
+        <Discriminator id="Device" isString="true">
+          <Discriminator id="Technology" isString="true">
+            <Discriminator id="Band" isString="true">
+              <Discriminator id="Exp Power" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="XPT_Swp2_MLine_Vcc" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="Swp3 XPT" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="Technology" />
+      <IndexedParam index="2" id="Band" />
+      <IndexedParam index="3" id="XPT Mode" />
+      <IndexedParam index="4" id="Exp Power" />
+      <Result resID="Vcc" testID="ESC" format="0">
+        <Discriminator id="Device" isString="true">
+          <Discriminator id="Technology" isString="true">
+            <Discriminator id="Band" isString="true">
+              <Discriminator id="Exp Power" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="XPT_Swp3_Pwr" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="Tx Power vs. Target" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Device" isString="true">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="PA State" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+        <YAxis index="2" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Tx Lin Tx Seg Len (ms)" />
+        <Result resID="XPT Swp3 Power" testID="ESC" sort="true">
+          <Discriminator id="Exp Power" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="XPT_Swp3_Pwr_Table" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="Swp3 XPT" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="Technology" />
+      <IndexedParam index="2" id="Band" />
+      <IndexedParam index="3" id="XPT Mode" />
+      <IndexedParam index="4" id="Exp Power" />
+      <Result resID="XPT Swp3 Power" testID="ESC">
+        <Discriminator id="Device" isString="true">
+          <Discriminator id="Technology" isString="true">
+            <Discriminator id="Band" isString="true">
+              <Discriminator id="Exp Power" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="Therm Read" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Sc name="Therm" IsChecked="True" IsForPPTChecked="True" xName="Channel" yName="Therm Read">
+      <Discriminator id="Device" isString="true">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true">
+            <Filter id="Therm Read" value="&gt;0" visible="false" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="ESC">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Channel" />
+        <DepVar id="Therm Read" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="TxLin HDET" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Sc name="HDET Vs Tx Power" IsChecked="True" IsForPPTChecked="True" xName="Tx Pwr (dBm)" yName="HDET">
+      <Discriminator id="Device" isString="true">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="PA State">
+              <Filter id="HDET" value="&gt;0" visible="false" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <Series testID="ESC">
+        <DisplayProperties color="0x0000FF" markerOn="false" cycleColors="true" axisIndex="1" />
+        <IndVar id="Power" />
+        <DepVar id="HDET" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="APTFComp Meas" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="Tx Power Vs Freq" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Device" isString="true">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="PA State">
+          <Discriminator id="Seg Len" />
+        </Discriminator>
+        <Result resID="TxLinFCompPower" testID="ESC">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="XPTFComp Meas" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="Tx Power Vs Freq" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Device" isString="true">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="XPT Mode" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator id="Meas Exp Power" />
+        <Result resID="XPT FComp Power" testID="ESC">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="LimVsFreq Meas" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="Tx Limiting Freq Comp Meas" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Device" isString="true">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true">
+            <Discriminator id="PA State" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="TxLimFCompPowerNvIn" testID="ESC" format="0.0">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="TxLimFCompHDETNvIn" testID="ESC" format="0" axisIndex="2">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="NV_Multi_Lin_V3_FreqComp" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="NV_Multi_Lin_V3_FreqComp" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Device" isString="true">
+        <Discriminator id="Technology" isString="true">
+          <Discriminator id="Band" isString="true" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" min="-50" max="50" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="PA State" />
+        <Result resID="NV Tx Fcomp" testID="ESC" format="0">
+          <Discriminator id="Channel" value="&lt;65535" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Rx Meas" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="LNA Offset vs Freq" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator name="Rx" id="RxPath">
+            <Discriminator name="LNA" id="LNARange">
+              <Discriminator id="RxPM" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="RxFCompLNAOffset" testID="ESC" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="DC LNA Offset vs Freq" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="RxPM" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Discriminator name="Rx" id="RxPath" />
+        <Result resID="DCRxFCompLNAOffset" testID="ESC" format="0">
+          <Discriminator id="LNARange">
+            <Discriminator id="Channel" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="IntraCA Rx Meas" IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Lin name="IntraCA LNA Offset vs Freq" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator name="Rx" id="RxPath">
+            <Discriminator name="LNA" id="LNARange">
+              <Discriminator id="RxPM" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties />
+      <CommonBinResults>
+        <Result resID="IntraCA_RxFCompLNAOffset" testID="ESC" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="FB_Gain_Cal" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="FBGain_vs_Channel" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="FBRx Gain State">
+            <Discriminator id="Rx Scale" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+        <YAxis index="2" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="FBRx Mode" />
+        <Result resID="FBGain" testID="ESC" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="Power" testID="ESC" format="0.0" axisIndex="2">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="PowerToGainOffset_vs_Channel" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="FBRx Gain State">
+            <Discriminator id="Rx Scale" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+        <YAxis index="2" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="FBRx Mode" />
+        <Result resID="Power to Gain Offset" testID="ESC">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="Power" testID="ESC" format="0.0" axisIndex="2">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="Gain_Offsets_Relative_to_10Mhz" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true" />
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+        <YAxis index="2" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="FBRX Mode" />
+        <Result resID="Gain Relative To 10MHz" testID="ESC">
+          <Discriminator id="FBRX GainState" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="FB_Gain_Cal_LSE" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="Max LSE vs Channel" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="FBRx Gain State">
+            <Discriminator id="Rx Scale" />
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+        <YAxis index="2" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="FBRx Mode" />
+        <Result resID="Max Mag LSE" testID="ESC" format="0">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="FBRx DC Cal I Vs Q " IsChecked="True" IsForPPTChecked="True" width="2">
+    <OutputGroupDescriptor_Sc name="FBRx DC I vs DC Q" IsChecked="True" IsForPPTChecked="True" xName="DC_I" yName="DC_Q">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true" />
+      </Discriminator>
+      <OGDisplayProperties legendPosition="0" />
+      <Series testID="ESC">
+        <DisplayProperties markerOn="true" weight="0" cycleColors="true" axisIndex="1" />
+        <IndVar id="DC_I" />
+        <DepVar id="DC_Q" />
+      </Series>
+    </OutputGroupDescriptor_Sc>
+  </OutputGroupSet>
+  <OutputGroupSet name="GSM_FBRx_Cal" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="GSM_FBRx_Gain_Cal_LSE_vs_Channel" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Chain" isString="true">
+        <Discriminator id="Antenna Path" isString="true">
+          <Discriminator id="Bands" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="FBRx Path Gain" testID="GSM_Frame_Sweep_Cal">
+          <Discriminator id="Channel" />
+        </Result>
+        <Result resID="LSE" testID="GSM_Frame_Sweep_Cal" axisIndex="2">
+          <Discriminator id="Channel" />
+        </Result>
+      </CommonBinResults>
+      <CommonBinResults />
+      <CommonBinResults />
+      <CommonBinResults />
+      <CommonBinResults />
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Rx RSB sin before" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="RxRSB_vs_LNA" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Device_Id" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+        <YAxis index="2" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Device_Id" />
+        <Result resID="sin_theta_before_cal" testID="ESC" format="0">
+          <Discriminator id="Gain_State" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Rx RSB sin after" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="RxRSB_vs_LNA" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Device_Id" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+        <YAxis index="2" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Device_Id" />
+        <Result resID="sin_theta_after_cal" testID="ESC" format="0">
+          <Discriminator id="Gain_State" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Rx RSB cos before" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="RxRSB_vs_LNA" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Device_Id" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+        <YAxis index="2" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Device_Id" />
+        <Result resID="cos_theta_before_cal" testID="ESC" format="0">
+          <Discriminator id="Gain_State" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Rx RSB cos after" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="RxRSB_vs_LNA" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Device_Id" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+        <YAxis index="2" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Device_Id" />
+        <Result resID="cos_theta_after_cal" testID="ESC" format="0">
+          <Discriminator id="Gain_State" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Rx RSB gain inv before" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="RxRSB_vs_LNA" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Device_Id" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+        <YAxis index="2" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Device_Id" />
+        <Result resID="gain_inv_before_cal" testID="ESC" format="0">
+          <Discriminator id="Gain_State" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Rx RSB gain inv after" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="RxRSB_vs_LNA" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Device_Id" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+        <YAxis index="2" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Device_Id" />
+        <Result resID="gain_inv_after_cal" testID="ESC" format="0">
+          <Discriminator id="Gain_State" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Rx RSB pre RSB before" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="RxRSB_vs_LNA" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Device_Id" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+        <YAxis index="2" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Device_Id" />
+        <Result resID="Rsb_before_cal" testID="ESC" format="0">
+          <Discriminator id="Gain_State" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Rx RSB afterRSB " IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="RxRSB_vs_LNA" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator id="Technology" isString="true">
+        <Discriminator id="Band" isString="true">
+          <Discriminator id="Device_Id" />
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" maxScaleRes="0" />
+        <YAxis index="2" maxScaleRes="0" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Discriminator id="Device_Id" />
+        <Result resID="Rsb_after_cal" testID="ESC" format="0">
+          <Discriminator id="Gain_State" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="FBRx_Noise_Floor_Cal" IsChecked="True" IsForPPTChecked="indeterminate" width="3">
+    <OutputGroupDescriptor_Lin name="Noise Energy per UTRA1 ACLR bin" IsChecked="True" IsForPPTChecked="False">
+      <Discriminator name="BW" id="BW" />
+      <CommonBinResults>
+        <Result resID="UTRA1_Neg" testID="FeedBackRx_Characterization">
+          <Discriminator name="Channel" id="Channel" />
+        </Result>
+      </CommonBinResults>
+      <CommonBinResults>
+        <Result resID="UTRA1_Pos" testID="FeedBackRx_Characterization">
+          <Discriminator name="Channel" id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="Noise Energy per UTRA2 ACLR bin" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator name="BW" id="BW" />
+      <CommonBinResults>
+        <Result resID="UTRA2_Neg" testID="FeedBackRx_Characterization">
+          <Discriminator name="Channel" id="Channel" />
+        </Result>
+      </CommonBinResults>
+      <CommonBinResults>
+        <Result resID="UTRA2_Pos" testID="FeedBackRx_Characterization">
+          <Discriminator name="Channel" id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+    <OutputGroupDescriptor_Lin name="Noise Energy per EUTRA ACLR bin" IsChecked="True" IsForPPTChecked="True">
+      <Discriminator name="BW" id="BW" />
+      <CommonBinResults>
+        <Result resID="EUTRA_Neg" testID="FeedBackRx_Characterization">
+          <Discriminator name="Channel" id="Channel" />
+        </Result>
+      </CommonBinResults>
+      <CommonBinResults>
+        <Result resID="EUTRA_Pos" testID="FeedBackRx_Characterization">
+          <Discriminator name="Channel" id="Channel" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="Cal Time per Band" IsChecked="True" IsForPPTChecked="True" width="2">
+    <CondensedSummaryDescriptor name="Avg. Cal Time per Band" IsChecked="True" IsForPPTChecked="True">
+      <IndexedParam index="1" id="Technology" />
+      <Result resID="Total Test Time" testID="Test Time" name="Total Test Time(ms)">
+        <Discriminator id="Technology" isString="true" />
+      </Result>
+      <Result resID="Average Connected Time per Band" testID="Test Time" name="Connected Cal Time (ms)">
+        <Discriminator id="Technology" isString="true" />
+      </Result>
+      <Result resID="Average Int Cal Time per Band" testID="Test Time" name="Int Cal Time (ms)">
+        <Discriminator id="Technology" isString="true" />
+      </Result>
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="QSC_IP2Cal" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="IP2_Cal_IQ_Codes_vs_Channel" IsChecked="True" IsForPPTChecked="True" sort="true">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Sub Band" isString="true">
+          <Discriminator id="RFMDev" isString="true">
+            <Discriminator id="SigPath" isString="true">
+              <Discriminator id="Channel" isString="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="CalCode_I" testID="QSC" sort="true">
+          <Discriminator id="Bandwidth" />
+        </Result>
+        <Result resID="CalCode_Q" testID="QSC" sort="true">
+          <Discriminator id="Bandwidth" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="IP2Cal_Tables" IsChecked="True" IsForPPTChecked="True">
+    <CondensedSummaryDescriptor name="IP2Cal_Summary" IsChecked="True" IsForPPTChecked="True" sort="true">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Sub Band" isString="true">
+          <Discriminator id="RFMDev" isString="true">
+            <Discriminator id="SigPath" isString="true">
+              <Discriminator id="Bandwidth" isString="true">
+                <Discriminator id="Channel" isString="true" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <IndexedParam index="1" id="Band" />
+      <IndexedParam index="2" id="Sub Band" />
+      <IndexedParam index="3" id="RFMDev" />
+      <IndexedParam index="4" id="SigPath" />
+      <IndexedParam index="5" id="Bandwidth" />
+      <Result resID="CalCode_I" testID="QSC" sort="true">
+        <Discriminator id="Band" isString="true" />
+      </Result>
+      <Result resID="CalCode_Q" testID="QSC" sort="true" />
+    </CondensedSummaryDescriptor>
+  </OutputGroupSet>
+  <OutputGroupSet name="Ip2cal_meas" IsChecked="False" IsForPPTChecked="True" width="4">
+    <OutputGroupDescriptor_Lin name="IP2_Cal_Meas" IsChecked="False" IsForPPTChecked="True" sort="true">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Sub Band" isString="true">
+          <Discriminator id="RFMDev" isString="true">
+            <Discriminator id="SigPath" isString="true">
+              <Discriminator id="Channel" isString="true">
+                <Discriminator id="Bandwidth" isString="true" />
+              </Discriminator>
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="MeasSPDFTCoef_I_Real" testID="QSC" name="i_real" sort="true">
+          <Discriminator id="I Cal Code">
+            <Discriminator id="Q Cal Code" />
+          </Discriminator>
+        </Result>
+        <Result resID="MeasSPDFTCoef_I_Imag" testID="QSC" name="i_imag" sort="true">
+          <Discriminator id="I Cal Code">
+            <Discriminator id="Q Cal Code" />
+          </Discriminator>
+        </Result>
+        <Result resID="MeasSPDFTCoef_Q_Real" testID="QSC" name="q_real" sort="true">
+          <Discriminator id="I Cal Code">
+            <Discriminator id="Q Cal Code" />
+          </Discriminator>
+        </Result>
+        <Result resID="MeasSPDFTCoef_Q_Imag" testID="QSC" name="q_imag" sort="true">
+          <Discriminator id="I Cal Code">
+            <Discriminator id="Q Cal Code" />
+          </Discriminator>
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <OutputGroupSet name="OIP2 Delta limit" IsChecked="True" IsForPPTChecked="True" width="3">
+    <OutputGroupDescriptor_Lin name="OIP2_Delta_vs_Channel" IsChecked="True" IsForPPTChecked="True" sort="true">
+      <Discriminator id="Band" isString="true">
+        <Discriminator id="Sub Band" isString="true">
+          <Discriminator id="RFMDev" isString="true">
+            <Discriminator id="SigPath" isString="true">
+              <Discriminator id="Channel" isString="true" />
+            </Discriminator>
+          </Discriminator>
+        </Discriminator>
+      </Discriminator>
+      <OGDisplayProperties>
+        <YAxis index="1" />
+      </OGDisplayProperties>
+      <CommonBinResults>
+        <Result resID="OIP2 Delta dB10" testID="QSC" name="OIP2_Delta" sort="true">
+          <Discriminator id="Bandwidth" />
+        </Result>
+      </CommonBinResults>
+    </OutputGroupDescriptor_Lin>
+  </OutputGroupSet>
+  <GroupCharts>false</GroupCharts>
+  <PPTGroupsList />
+  <GlobalParameterList />
+  <ExpressionList />
+  <GlobalExcelDisplayProperties />
+</FormatDescriptor>

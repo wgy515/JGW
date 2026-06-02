@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+    <ListContainerElementEx>
+		<HorizontalLayout inset="5,5,5,5" width="30" bordersize="1" bordercolor="#FF4775CC">
+			<Label text="" textcolor="#0000ff" align="left"/>
+		</HorizontalLayout>
+		<HorizontalLayout inset="5,5,5,5" width="0" bordersize="1" bordercolor="#FF4775CC">
+			<Label text="" textcolor="#0000ff" align="left"/>
+		</HorizontalLayout>
+		<HorizontalLayout inset="5,5,5,5" width="0" bordersize="1" bordercolor="#FF4775CC">
+			<Label text="" textcolor="#0000ff" align="left"/>
+		</HorizontalLayout>
+		<HorizontalLayout inset="5,5,5,5" width="150" bordersize="1" bordercolor="#FF4775CC">
+			<Edit text="192.168.1.2" tooltip="CPE IP地址" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" maxchar="15" />
+		</HorizontalLayout>
+		<HorizontalLayout inset="5,5,5,5" width="60" bordersize="1" bordercolor="#FF4775CC">
+			<Button name="SortBtn" text="排序" height="30" padding="5,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;btn_edit_normal.png&apos;corner=&apos;5,5,5,5&apos;; " hotimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " pushedimage=" file=&apos;btn_edit_down.png&apos;corner=&apos;5,5,5,5&apos;;" focusedimage=" file=&apos;btn_edit_hover.png&apos;corner=&apos;5,5,5,5&apos;; " disabledimage=" file=&apos;disable_btn.png&apos;corner=&apos;5,5,5,5&apos;; " />
+		</HorizontalLayout>
+	</ListContainerElementEx>
+</Window>

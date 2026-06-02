@@ -1,0 +1,19 @@
+﻿
+
+<!-- This is a sample NV source file with PRL data (byte stream) and Dual SIM Dual Standby NV item.
+Note that subscriptionid="1" is SIM 1, subscriptionid="0" is default/legacy (SIM0)--> 
+
+
+
+<NvSource>
+
+<PRLItem nam="0">0,16,0,0,3,80,0,40,0,0,80,4,1,0,30,40,2,0,0,0,d7,11</PRLItem>
+
+<NvItem id="10" subscriptionid="0" name="NV_PREF_MODE_I" mapping="direct" encoding="dec" index="0">0,4</NvItem>
+<NvItem id="441" subscriptionid="0" name="NV_BAND_PREF_I" mapping="direct" encoding="dec" index="0">0,65535</NvItem>
+
+<NvItem id="10" subscriptionid="1" name="NV_PREF_MODE_I" mapping="direct" encoding="dec" index="0">0,4</NvItem>
+<NvItem id="441" subscriptionid="1" name="NV_BAND_PREF_I" mapping="direct" encoding="dec" index="0">0,65535</NvItem>
+
+
+</NvSource>
